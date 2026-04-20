@@ -1,0 +1,14 @@
+# Secrets — never commit these
+.env
+
+# Runtime data files — managed by the scripts, not version controlled
+posts.json
+log.json
+cron.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
