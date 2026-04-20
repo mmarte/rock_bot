@@ -1,18 +1,18 @@
 """
 generate.py
 -----------
-Calls Gemini API to generate 7 Facebook posts for the week,
+Calls Groq API (Llama 3.3 70B) to generate 7 Facebook posts for the week,
 then writes them to posts.json as a scheduled queue.
 
 Run manually:  python generate.py
 Runs via cron: every Sunday at 8am (configured in GitHub Actions)
 """
 
-import google.generativeai as genai
+from groq import Groq
+from find_video import get_video_post
 import json
 import os
-import random
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -21,8 +21,8 @@ load_dotenv()
 # Configuration
 # ---------------------------------------------------------------------------
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-POSTS_FILE = "posts.json"
+GROQ_API_KEY  = os.getenv("GROQ_API_KEY")
+POSTS_FILE    = "posts.json"
 
 # Post hour in UTC — 15:00 UTC = 11:00 AM EST / 10:00 AM CST (Mexico City)
 POST_HOUR_UTC = 15
@@ -119,8 +119,8 @@ def build_user_prompt():
 
 
 def schedule_posts():
-    """Return a list of ISO datetime strings, one per day starting tomorrow at POST_HOUR_UTC."""
-    base = datetime.utcnow().replace(
+    """Return ISO datetime strings, one per day starting tomorrow at POST_HOUR_UTC."""
+    base = datetime.now(timezone.utc).replace(
         hour=POST_HOUR_UTC, minute=0, second=0, microsecond=0
     ) + timedelta(days=1)
     return [(base + timedelta(days=i)).isoformat() for i in range(7)]
@@ -138,63 +138,96 @@ def save_queue(posts):
         json.dump(posts, f, ensure_ascii=False, indent=2)
 
 
+def clean_json(raw: str) -> str:
+    """Strip markdown code fences that some models add around JSON."""
+    raw = raw.strip()
+    if raw.startswith("```"):
+        parts = raw.split("```")
+        raw = parts[1]
+        if raw.startswith("json"):
+            raw = raw[4:]
+    return raw.strip()
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
 def generate_posts():
-    print(f"[{datetime.utcnow().isoformat()}] Starting content generation...")
+    now = datetime.now(timezone.utc)
+    print(f"[{now.isoformat()}] Starting content generation with Groq (Llama 3.3 70B)...")
 
-    genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel(
-        model_name="gemini-1.5-flash",
-        system_instruction=SYSTEM_PROMPT,
+    client = Groq(api_key=GROQ_API_KEY)
+
+    completion = client.chat.completions.create(
+        model="llama-3.3-70b-versatile",
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user",   "content": build_user_prompt()},
+        ],
+        temperature=0.85,
+        max_tokens=4096,
+        response_format={"type": "json_object"},
     )
 
-    response = model.generate_content(build_user_prompt())
-    raw = response.text.strip()
-
-    # Strip accidental markdown code fences if Gemini adds them
-    if raw.startswith("```"):
-        raw = raw.split("```")[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-    raw = raw.strip()
-
+    raw  = completion.choices[0].message.content
+    raw  = clean_json(raw)
     data = json.loads(raw)
-    generated = data["posts"]
+
+    # Handle both {"posts": [...]} and bare [...] responses
+    if isinstance(data, list):
+        generated = data
+    elif "posts" in data:
+        generated = data["posts"]
+    else:
+        generated = next(v for v in data.values() if isinstance(v, list))
 
     if len(generated) != 7:
-        raise ValueError(f"Expected 7 posts, got {len(generated)}")
+        raise ValueError(f"Expected 7 posts, got {len(generated)}.\nRaw:\n{raw}")
 
-    schedule = schedule_posts()
-    stamp = datetime.utcnow().strftime("%Y%m%d")
+    schedule  = schedule_posts()
+    stamp     = now.strftime("%Y%m%d")
 
     new_posts = [
         {
-            "id": f"post_{stamp}_{i}",
-            "status": "pending",
+            "id":           f"post_{stamp}_{i}",
+            "status":       "pending",
             "scheduled_at": schedule[i],
-            "type": generated[i]["type"],
-            "text": generated[i]["text"],
-            "image_query": generated[i].get("image_query", "rock music concert"),
-            "fb_post_id": None,
-            "created_at": datetime.utcnow().isoformat(),
+            "type":         generated[i].get("type", CONTENT_TYPES[i]["type"]),
+            "text":         generated[i]["text"],
+            "image_query":  generated[i].get("image_query", "rock music concert"),
+            "fb_post_id":   None,
+            "created_at":   now.isoformat(),
             "published_at": None,
-            "error": None,
+            "error":        None,
         }
         for i in range(7)
     ]
 
-    # Keep any posts still pending from a previous batch, add new ones at the end
-    existing = load_queue()
+    # Keep posts still pending from a previous batch
+    existing      = load_queue()
     still_pending = [p for p in existing if p["status"] == "pending"]
+
+    # Replace Wednesday post (index 2) with a YouTube video commentary
+    print("  Looking for a YouTube video to feature this week...")
+    video_post = get_video_post()
+    if video_post:
+        new_posts[2]["type"]        = video_post["type"]
+        new_posts[2]["text"]        = video_post["text"]
+        new_posts[2]["image_query"] = video_post["image_query"]
+        new_posts[2]["video_url"]   = video_post.get("video_url")
+        new_posts[2]["video_title"] = video_post.get("video_title")
+        print(f"  YouTube post set for Wednesday: {video_post.get("video_title","")[:50]}")
+    else:
+        print("  No YouTube video found — keeping original Wednesday post.")
+
     merged = still_pending + new_posts
 
     save_queue(merged)
+
     print(f"Generated {len(new_posts)} new posts. Total pending in queue: {len(merged)}")
     for p in new_posts:
-        print(f"  [{p['type']:16s}] scheduled {p['scheduled_at']} — {p['text'][:60]}...")
+        print(f"  [{p['type']:18s}] {p['scheduled_at'][:16]} UTC — {p['text'][:55]}...")
 
 
 if __name__ == "__main__":

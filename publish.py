@@ -12,7 +12,7 @@ import json
 import os
 import random
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -123,7 +123,7 @@ def append_log(entry: dict):
 # ---------------------------------------------------------------------------
 
 def run():
-    now = datetime.utcnow()
+    now = datetime.now(timezone.utc)
     print(f"[{now.isoformat()}] Publisher starting...")
 
     posts = load_queue()
