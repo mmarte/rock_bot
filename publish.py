@@ -1,11 +1,14 @@
 """
 publish.py
 ----------
-Reads posts.json, finds the next post that is due, fetches a Pexels image,
-and publishes it to the Facebook Page via the Graph API.
+Reads posts.json, finds the next post that is due, and publishes it
+to the Facebook Page via the Graph API.
+
+  Morning posts  — original/poll/concert — get a topic-matched Pexels image
+  Evening posts  — YouTube commentary   — text only (link already in text)
 
 Run manually:  python publish.py
-Runs via cron: every day at 15:00 UTC (configured in GitHub Actions)
+Runs via cron: 16:00 UTC (morning) and 00:00 UTC (evening) daily
 """
 
 import json
@@ -17,10 +20,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# ---------------------------------------------------------------------------
-# Configuration
-# ---------------------------------------------------------------------------
-
 PAGE_ID     = os.getenv("FB_PAGE_ID")
 PAGE_TOKEN  = os.getenv("FB_PAGE_TOKEN")
 PEXELS_KEY  = os.getenv("PEXELS_API_KEY")
@@ -29,13 +28,12 @@ LOG_FILE    = "log.json"
 
 
 # ---------------------------------------------------------------------------
-# Pexels
+# Pexels — topic-matched image
 # ---------------------------------------------------------------------------
 
 def get_pexels_image(query: str) -> str | None:
-    """Return a large image URL from Pexels for the given query, or None on failure."""
-    if not PEXELS_KEY:
-        print("  No PEXELS_API_KEY set — posting without image.")
+    """Fetch a relevant image from Pexels using a specific query."""
+    if not PEXELS_KEY or not query:
         return None
     try:
         r = requests.get(
@@ -59,11 +57,10 @@ def get_pexels_image(query: str) -> str | None:
 
 def post_to_facebook(text: str, image_url: str | None) -> str:
     """
-    Publish a post (with or without image) to the Facebook Page.
-    Returns the Facebook post ID string on success, raises on failure.
+    Post text (with optional image) to the Facebook Page.
+    Returns the Facebook post ID on success, raises on error.
     """
     if image_url:
-        # POST /page-id/photos uploads a photo with a caption
         endpoint = f"https://graph.facebook.com/v19.0/{PAGE_ID}/photos"
         payload  = {
             "url":          image_url,
@@ -71,14 +68,13 @@ def post_to_facebook(text: str, image_url: str | None) -> str:
             "access_token": PAGE_TOKEN,
         }
     else:
-        # POST /page-id/feed creates a plain text post
         endpoint = f"https://graph.facebook.com/v19.0/{PAGE_ID}/feed"
         payload  = {
             "message":      text,
             "access_token": PAGE_TOKEN,
         }
 
-    r = requests.post(endpoint, data=payload, timeout=15)
+    r      = requests.post(endpoint, data=payload, timeout=15)
     result = r.json()
 
     if "error" in result:
@@ -87,9 +83,7 @@ def post_to_facebook(text: str, image_url: str | None) -> str:
             f"{result['error'].get('message')}"
         )
 
-    # /photos returns {"id": "..."}, /feed returns {"id": "page_post_id"}
-    fb_id = result.get("post_id") or result.get("id")
-    return fb_id
+    return result.get("post_id") or result.get("id")
 
 
 # ---------------------------------------------------------------------------
@@ -128,10 +122,10 @@ def run():
 
     posts = load_queue()
     if not posts:
-        print("Queue is empty. Run generate.py first.")
+        print("Queue is empty — run generate.py first.")
         return
 
-    # Find all pending posts whose scheduled time has passed
+    # Find all pending posts that are due
     due = [
         p for p in posts
         if p["status"] == "pending"
@@ -139,25 +133,43 @@ def run():
     ]
 
     if not due:
-        next_up = sorted(
+        pending = sorted(
             [p for p in posts if p["status"] == "pending"],
             key=lambda x: x["scheduled_at"],
         )
-        if next_up:
-            print(f"Nothing due yet. Next post scheduled for {next_up[0]['scheduled_at']} UTC.")
+        if pending:
+            nxt = pending[0]
+            print(
+                f"Nothing due yet. Next: [{nxt.get('slot','?')}] "
+                f"[{nxt.get('type','?')}] at {nxt['scheduled_at'][:16]} UTC"
+            )
         else:
-            print("No pending posts. Run generate.py to create next week's batch.")
+            print("No pending posts — run generate.py to create next week's batch.")
         return
 
     # Publish the oldest due post
-    post = sorted(due, key=lambda x: x["scheduled_at"])[0]
-    print(f"  Posting [{post['type']}]: {post['text'][:70]}...")
+    post  = sorted(due, key=lambda x: x["scheduled_at"])[0]
+    slot  = post.get("slot", "morning")
+    ptype = post.get("type", "")
+    topic = post.get("topic", "")
 
-    image_url = get_pexels_image(post["image_query"])
-    if image_url:
-        print(f"  Image fetched from Pexels for query: '{post['image_query']}'")
+    print(f"  [{slot.upper()}] [{ptype}] topic='{topic}'")
+    print(f"  Text: {post['text'][:80]}...")
+
+    # Evening (YouTube) posts are text-only — the link is already in the text
+    is_youtube = ptype == "video_youtube"
+
+    if is_youtube:
+        image_url = None
+        print("  Evening YouTube post — no image (link in text).")
     else:
-        print("  Posting without image.")
+        # Morning posts: use topic-specific Pexels query for matched image
+        image_query = post.get("image_query", topic)
+        image_url   = get_pexels_image(image_query)
+        if image_url:
+            print(f"  Image: Pexels query '{image_query}'")
+        else:
+            print("  No Pexels image found — posting text only.")
 
     try:
         fb_post_id = post_to_facebook(post["text"], image_url)
@@ -168,36 +180,39 @@ def run():
         post["error"]        = None
 
         append_log({
-            "post_id":    post["id"],
-            "fb_post_id": fb_post_id,
-            "type":       post["type"],
-            "status":     "published",
-            "image_used": image_url is not None,
+            "post_id":     post["id"],
+            "fb_post_id":  fb_post_id,
+            "slot":        slot,
+            "type":        ptype,
+            "topic":       topic,
+            "image_used":  image_url is not None,
+            "status":      "published",
             "executed_at": now.isoformat(),
         })
-        print(f"  Published. Facebook post ID: {fb_post_id}")
+        print(f"  Published. FB post ID: {fb_post_id}")
 
     except Exception as e:
         post["status"] = "failed"
         post["error"]  = str(e)
 
         append_log({
-            "post_id":    post["id"],
-            "fb_post_id": None,
-            "type":       post["type"],
-            "status":     "failed",
-            "error":      str(e),
+            "post_id":     post["id"],
+            "fb_post_id":  None,
+            "slot":        slot,
+            "type":        ptype,
+            "topic":       topic,
+            "status":      "failed",
+            "error":       str(e),
             "executed_at": now.isoformat(),
         })
         print(f"  FAILED: {e}")
 
     save_queue(posts)
 
-    # Summary
     pending   = sum(1 for p in posts if p["status"] == "pending")
     published = sum(1 for p in posts if p["status"] == "published")
     failed    = sum(1 for p in posts if p["status"] == "failed")
-    print(f"  Queue status — pending: {pending} | published: {published} | failed: {failed}")
+    print(f"  Queue: {pending} pending | {published} published | {failed} failed")
 
 
 if __name__ == "__main__":

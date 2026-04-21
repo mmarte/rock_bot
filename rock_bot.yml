@@ -2,14 +2,16 @@ name: Rock Bot Automation
 
 on:
   schedule:
-    # Generate 7 posts every Sunday at 08:00 UTC
+    # Generate 14 posts every Sunday at 08:00 UTC
     - cron: "0 8 * * 0"
-    # Publish one post every day at 15:00 UTC (11am EST / 10am CST)
-    - cron: "0 15 * * *"
-    # Send weekly report every Sunday at 08:30 UTC (after generate runs)
+    # Morning post every day at 16:00 UTC (11am EST / 10am CST)
+    - cron: "0 16 * * *"
+    # Evening post every day at 00:00 UTC (7pm EST / 6pm CST)
+    - cron: "0 0 * * *"
+    # Weekly report every Sunday at 08:30 UTC
     - cron: "30 8 * * 0"
 
-  # Allow manual trigger from GitHub Actions tab (useful for testing)
+  # Manual trigger from GitHub Actions tab
   workflow_dispatch:
     inputs:
       action:
@@ -22,138 +24,138 @@ on:
           - publish
           - report
 
+# Prevent multiple publish jobs running at the same time
+concurrency:
+  group: rock-bot-${{ github.event.schedule || github.run_id }}
+  cancel-in-progress: false
+
 jobs:
+
+  # -----------------------------------------------------------------------
   generate:
-    name: Generate weekly posts
-    # Only run on Sunday at 08:00 UTC cron, or manual trigger
+    name: Generate weekly posts (Sunday 08:00 UTC)
     if: |
       (github.event_name == 'schedule' && github.event.schedule == '0 8 * * 0') ||
       (github.event_name == 'workflow_dispatch' && github.event.inputs.action == 'generate')
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Download current posts.json from artifact cache
+      - name: Restore posts.json cache
         uses: actions/cache@v4
         with:
           path: posts.json
-          key: posts-json-${{ github.run_id }}
-          restore-keys: posts-json-
+          key: posts-${{ github.run_id }}
+          restore-keys: posts-
 
       - name: Run generate.py
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY:           ${{ secrets.GROQ_API_KEY }}
+          YOUTUBE_API_KEY:        ${{ secrets.YOUTUBE_API_KEY }}
+          TICKETMASTER_API_KEY:   ${{ secrets.TICKETMASTER_API_KEY }}
+          TICKETMASTER_AFFILIATE_ID: ${{ secrets.TICKETMASTER_AFFILIATE_ID }}
         run: python generate.py
 
-      - name: Upload updated posts.json as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: posts-json
-          path: posts.json
-          retention-days: 30
-
-      - name: Cache posts.json for next job
+      - name: Save posts.json to cache
         uses: actions/cache@v4
         with:
           path: posts.json
-          key: posts-json-${{ github.run_id }}
+          key: posts-${{ github.run_id }}
 
+      - name: Upload posts.json artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: posts-json-${{ github.run_id }}
+          path: posts.json
+          retention-days: 30
+
+  # -----------------------------------------------------------------------
   publish:
-    name: Publish daily post
-    # Only run on the daily 15:00 UTC cron, or manual trigger
+    name: Publish post (16:00 UTC morning / 00:00 UTC evening)
     if: |
-      (github.event_name == 'schedule' && github.event.schedule == '0 15 * * *') ||
+      (github.event_name == 'schedule' && (github.event.schedule == '0 16 * * *' || github.event.schedule == '0 0 * * *')) ||
       (github.event_name == 'workflow_dispatch' && github.event.inputs.action == 'publish')
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Restore posts.json from artifact cache
+      - name: Restore posts.json cache
         uses: actions/cache@v4
         with:
           path: posts.json
-          key: posts-json-${{ github.run_id }}
-          restore-keys: posts-json-
+          key: posts-${{ github.run_id }}
+          restore-keys: posts-
 
-      - name: Restore log.json from artifact cache
+      - name: Restore log.json cache
         uses: actions/cache@v4
         with:
           path: log.json
-          key: log-json-${{ github.run_id }}
-          restore-keys: log-json-
+          key: log-${{ github.run_id }}
+          restore-keys: log-
 
       - name: Run publish.py
         env:
-          FB_PAGE_ID:    ${{ secrets.FB_PAGE_ID }}
-          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_PAGE_ID:     ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN:  ${{ secrets.FB_PAGE_TOKEN }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python publish.py
 
-      - name: Save updated posts.json to cache
+      - name: Save updated posts.json
         uses: actions/cache@v4
         with:
           path: posts.json
-          key: posts-json-${{ github.run_id }}
+          key: posts-${{ github.run_id }}
 
-      - name: Save updated log.json to cache
+      - name: Save updated log.json
         uses: actions/cache@v4
         with:
           path: log.json
-          key: log-json-${{ github.run_id }}
+          key: log-${{ github.run_id }}
 
+  # -----------------------------------------------------------------------
   report:
-    name: Send weekly report
-    # Only run on Sunday at 08:30 UTC cron, or manual trigger
+    name: Weekly report (Sunday 08:30 UTC)
     if: |
       (github.event_name == 'schedule' && github.event.schedule == '30 8 * * 0') ||
       (github.event_name == 'workflow_dispatch' && github.event.inputs.action == 'report')
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Restore posts.json from cache
+      - name: Restore caches
         uses: actions/cache@v4
         with:
-          path: posts.json
-          key: posts-json-${{ github.run_id }}
-          restore-keys: posts-json-
-
-      - name: Restore log.json from cache
-        uses: actions/cache@v4
-        with:
-          path: log.json
-          key: log-json-${{ github.run_id }}
-          restore-keys: log-json-
+          path: |
+            posts.json
+            log.json
+          key: report-${{ github.run_id }}
+          restore-keys: |
+            posts-
+            log-
 
       - name: Run report.py
         env:
