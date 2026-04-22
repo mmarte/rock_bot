@@ -1,14 +1,21 @@
 """
 generate.py
 -----------
-Generates 14 posts per week (2/day):
+Generates exactly 2 posts for TODAY (not a whole week):
   Morning 11am EST  — Poll (Mon/Wed/Sat), Original (Tue/Thu/Fri), Concert (Sun)
   Evening  7pm EST  — YouTube commentary every day
 
-Emulated polls use Like/Love/Care emoji voting instead of native FB polls.
+Runs daily via GitHub Actions cron at 08:00 UTC (before the 11am morning post).
+Can also be run manually anytime: python generate.py
 
-Run manually:  python generate.py
-Runs via cron: every Sunday at 8am UTC (GitHub Actions)
+Daily schedule:
+  Monday    → Poll      + YouTube
+  Tuesday   → Original  + YouTube
+  Wednesday → Poll      + YouTube
+  Thursday  → Original  + YouTube
+  Friday    → Original  + YouTube
+  Saturday  → Poll      + YouTube
+  Sunday    → Concert   + YouTube
 """
 
 from groq import Groq
@@ -24,14 +31,13 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 POSTS_FILE   = "posts.json"
 
-# UTC hours for posting
-# 16:00 UTC = 11:00 AM EST (UTC-5)  / 10:00 AM CST (UTC-6)
-# 00:00 UTC = 7:00 PM EST (UTC-5)   / 6:00 PM CST (UTC-6)
-MORNING_UTC   = 16
-EVENING_UTC   = 0   # midnight UTC = 7pm EST previous day
+# UTC hours — adjust if your audience is primarily in a different timezone
+# 16:00 UTC = 11:00 AM EST / 10:00 AM CST (Mexico City)
+# 00:00 UTC = 7:00 PM EST / 6:00 PM CST  (next calendar day in UTC)
+MORNING_UTC = 16
+EVENING_UTC = 0
 
-# Day index 0=Mon ... 6=Sun
-# Tomorrow is day 0 of the generated week
+# Day-of-week to morning post type (0=Monday ... 6=Sunday)
 MORNING_TYPES = {
     0: "poll",      # Monday
     1: "original",  # Tuesday
@@ -43,112 +49,105 @@ MORNING_TYPES = {
 }
 
 # ---------------------------------------------------------------------------
+# Poll topics — rotated based on week number so they don't repeat
+# ---------------------------------------------------------------------------
+
+POLL_TOPICS = [
+    ("¿Cuál fue el mejor álbum de los 90s?",
+     ["Dynamo - Soda Stereo", "Nada Personal - Soda Stereo", "Re - Café Tacvba"]),
+    ("¿El mejor concierto en vivo de la historia del rock en español?",
+     ["Soda Stereo Me Verás Volver", "Heroes del Silencio", "Maná en el Zócalo"]),
+    ("¿La mejor banda de rock mexicano?",
+     ["Café Tacvba", "Molotov", "Caifanes"]),
+    ("¿El mejor vocalista del rock en español?",
+     ["Gustavo Cerati", "Enrique Bunbury", "Fito Páez"]),
+    ("¿La mejor época del rock en español?",
+     ["Los 80s clásicos", "Los 90s dorados", "Los 2000s alternativos"]),
+    ("¿El mejor guitarrista del rock en español?",
+     ["Zeta Bosio - Soda Stereo", "Iñaki Uoho - Heroes del Silencio", "Quique Rangel - Café Tacvba"]),
+    ("¿El álbum más influyente de todos los tiempos?",
+     ["Doble Vida - Soda Stereo", "Donde Jugaran los Niños - Maná", "El Espíritu del Vino - Heroes"]),
+    ("¿Rock argentino o rock mexicano?",
+     ["Rock argentino siempre", "Rock mexicano para siempre", "¡Los dos son igual de grandes!"]),
+    ("¿La canción perfecta del rock en español?",
+     ["De Música Ligera - Soda Stereo", "Entre Dos Tierras - Heroes del Silencio", "Oye Mi Amor - Maná"]),
+    ("¿El mejor festival de rock en español?",
+     ["Vive Latino", "Lollapalooza LatAm", "Festival Estéreo Picnic"]),
+    ("¿La mejor colaboración del rock en español?",
+     ["Cerati y Spinetta", "Maná y Santana", "Bunbury y Los Tigres del Norte"]),
+    ("¿La mejor intro de guitarra del rock en español?",
+     ["De Música Ligera - Cerati", "La Chispa Adecuada - Divididos", "Matador - Los Fabulosos Cadillacs"]),
+]
+
+# ---------------------------------------------------------------------------
+# Original post variety types (rotated by weekday)
+# ---------------------------------------------------------------------------
+
+ORIGINAL_TYPES = [
+    {"type": "debate",     "instruction": "DEBATE apasionante entre dos bandas o épocas. Pide a los fans que elijan."},
+    {"type": "trivia",     "instruction": "TRIVIA con curiosidad poco conocida sobre una banda o canción icónica."},
+    {"type": "historia",   "instruction": "HISTORIA BREVE de cómo se formó una banda o nació un álbum famoso."},
+    {"type": "ranking",    "instruction": "RANKING de los 3 mejores álbumes, canciones o guitarristas. Pide el top del fan."},
+    {"type": "recuerdo",   "instruction": "RECUERDO de un concierto mítico o gira legendaria. Invita a compartir recuerdos."},
+    {"type": "curiosidad", "instruction": "CURIOSIDAD impactante: dato de producción, hecho poco conocido, colaboración inesperada."},
+]
+
+# ---------------------------------------------------------------------------
 # System prompts
 # ---------------------------------------------------------------------------
 
-SYSTEM_ORIGINAL = """Eres el creador de contenido de "Mejor Rock en Español",
-una página de Facebook apasionada por el rock en español clásico y moderno.
-
+SYSTEM_ORIGINAL = """Eres el creador de "Mejor Rock en Español" en Facebook.
 REGLAS:
 - Español natural y conversacional, tono de fan apasionado
 - Termina siempre con una pregunta directa que invite a comentar
 - NUNCA copies letras de canciones
-- 120–220 palabras por post
+- 120–220 palabras
 - Menciona bandas reales y específicas
 
-FORMATO: JSON puro, sin markdown, sin explicaciones.
-{
-  "posts": [
-    {
-      "type": "debate|trivia|historia|ranking|recuerdo|curiosidad",
-      "topic": "nombre de banda o tema principal",
-      "text": "contenido del post",
-      "image_query": "nombre específico de banda + descriptor EN INGLÉS, ej: Soda Stereo band photo"
-    }
-  ]
-}"""
+FORMATO: JSON puro, sin markdown.
+{"type":"string","topic":"banda o tema principal","text":"contenido","image_query":"nombre banda EN INGLÉS + descriptor, ej: Soda Stereo band photo"}"""
 
 SYSTEM_POLL = """Eres el creador de "Mejor Rock en Español" en Facebook.
-Crea posts de votación usando emojis en lugar de encuestas nativas.
+Crea posts de votación con emojis en lugar de encuestas nativas.
 
-FORMATO DE VOTO OBLIGATORIO — usa exactamente estos emojis:
+EMOJIS DE VOTO:
 👍 = opción A
 ❤️ = opción B
 😮 = opción C (solo si hay 3 opciones)
 
 REGLAS:
-- Plantea una pregunta de debate apasionante sobre rock en español
-- Lista las opciones claramente con los emojis
-- Explica brevemente cada opción (1 línea)
-- Termina con: "¡Vota con tu reacción!"
+- Plantea la votación con emoción y pasión
+- Lista las opciones claramente con los emojis y una breve descripción
+- Termina EXACTAMENTE con: "¡Vota con tu reacción! 👍❤️😮"
 - 80–140 palabras
 - NUNCA copies letras de canciones
 
 FORMATO: JSON puro.
-{
-  "topic": "tema de la votación",
-  "text": "contenido del post",
-  "image_query": "nombre específico de banda EN INGLÉS, ej: Heroes del Silencio concert"
-}"""
+{"topic":"tema","text":"contenido","image_query":"banda específica EN INGLÉS + band o concert"}"""
 
 SYSTEM_CONCERT = """Eres el creador de "Mejor Rock en Español" en Facebook.
-Se te dará información de un concierto próximo. Escribe un post emocionante
-para compartirlo con los fans.
-
+Escribe un post emocionante sobre un concierto próximo.
 REGLAS:
-- Tono emocionado, urgente, como si fuera la noticia del día
-- Incluye la fecha, ciudad y nombre del artista/evento
-- Llama a la acción: "¡Consigue tus boletos antes de que se agoten!"
-- NO incluyas el link en el texto — se agrega automáticamente al final
+- Tono emocionado y urgente
+- Incluye fecha, ciudad y artista
+- Termina con "¡Consigue tus boletos antes de que se agoten!" y una pregunta
+- NO incluyas el link — va al final automáticamente
 - 80–150 palabras
-- Termina con una pregunta: "¿Quién va a ir?" o similar
 
 FORMATO: JSON puro.
-{
-  "topic": "artista o festival",
-  "text": "contenido del post",
-  "image_query": "artista o festival EN INGLÉS + concert"
-}"""
+{"topic":"artista","text":"contenido","image_query":"artista EN INGLÉS + concert live"}"""
 
 SYSTEM_YOUTUBE = """Eres el creador de "Mejor Rock en Español" en Facebook.
-Se te dará un video de YouTube. Escribe un comentario original para compartirlo.
-
+Escribe un comentario para compartir un video de YouTube esta noche.
 REGLAS:
-- Español conversacional, tono de fan compartiendo algo que le encanta
-- Menciona algo específico del video, banda o era musical
-- NO copies la descripción del video — escribe tu propia opinión
-- NO incluyas el link en el texto — se agrega al final automáticamente
-- Termina con una pregunta que invite a comentar
+- Español conversacional, como un fan compartiendo algo que le encanta
+- Empieza con frases como: "Para cerrar el día 🎸", "Esta noche les traigo un clásico...", "Los dejo con esto antes de dormir..."
+- Menciona algo específico de la banda o era musical
+- NO copies la descripción del video
+- NO incluyas el link — va al final
+- Termina con una pregunta
 - 100–180 palabras
-- NUNCA copies letras de canciones"""
-
-# ---------------------------------------------------------------------------
-# Content variety pools for original posts
-# ---------------------------------------------------------------------------
-
-ORIGINAL_TYPES = [
-    {"type": "debate",       "instruction": "DEBATE apasionante entre dos bandas o épocas. Pide a los fans que elijan."},
-    {"type": "trivia",       "instruction": "TRIVIA con curiosidad poco conocida sobre una banda o canción icónica."},
-    {"type": "historia",     "instruction": "HISTORIA BREVE de cómo se formó una banda o nació un álbum famoso."},
-    {"type": "ranking",      "instruction": "RANKING de los 3 mejores álbumes, canciones o guitarristas. Pide el top del fan."},
-    {"type": "recuerdo",     "instruction": "RECUERDO de un concierto mítico o gira legendaria. Invita a compartir recuerdos."},
-    {"type": "curiosidad",   "instruction": "CURIOSIDAD impactante: colaboración inesperada, dato de producción, hecho poco conocido."},
-]
-
-POLL_TOPICS = [
-    ("¿Cuál fue el mejor álbum de los 90s?",    ["Dynamo - Soda Stereo", "Entre Dos Aguas - Heroes del Silencio", "Re - Café Tacvba"]),
-    ("¿El mejor concierto en vivo de la historia?", ["Soda Stereo Me Verás Volver", "Heroes del Silencio", "Maná"]),
-    ("¿La mejor banda de rock mexicano?",        ["Café Tacvba", "Molotov", "Caifanes"]),
-    ("¿El mejor vocalista del rock en español?", ["Gustavo Cerati", "Enrique Bunbury", "Fito Páez"]),
-    ("¿La mejor época del rock en español?",     ["Los 80s clásicos", "Los 90s dorados", "Los 2000s alternativos"]),
-    ("¿El mejor guitarrista del rock en español?", ["Zeta Bosio - Soda Stereo", "Iñaki Uoho - Heroes", "Quique Rangel - Café Tacvba"]),
-    ("¿El álbum más influyente?",                ["Doble Vida - Soda Stereo", "Nada Personal - Soda Stereo", "Donde Jugaran los Niños - Maná"]),
-    ("¿La mejor colaboración del rock en español?", ["Bunbury y Héroes del Silencio", "Cerati y Spinetta", "Maná y Santana"]),
-    ("¿Rock argentino o rock mexicano?",         ["Rock argentino", "Rock mexicano", "¡Los dos por igual!"]),
-    ("¿La canción perfecta del rock en español?", ["De Música Ligera - Soda Stereo", "Entre Dos Tierras - Heroes", "Oye Mi Amor - Maná"]),
-    ("¿El mejor festival de rock en español?",   ["Vive Latino", "Lollapalooza LatAm", "Festival Estéreo Picnic"]),
-    ("¿La mejor intro de guitarra?",             ["De Música Ligera", "Entre Dos Tierras", "La Chispa Adecuada"]),
-]
+- NUNCA copies letras"""
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -176,24 +175,23 @@ def save_queue(posts: list):
         json.dump(posts, f, ensure_ascii=False, indent=2)
 
 
-def schedule_slot(day_offset: int, hour_utc: int) -> str:
-    """Return ISO datetime for a given day offset from tomorrow at a UTC hour."""
-    base = datetime.now(timezone.utc).replace(
-        minute=0, second=0, microsecond=0
-    ) + timedelta(days=day_offset + 1)
-    # For evening (hour=0), we need to add 1 extra day
-    # because 00:00 UTC is midnight, which is evening of the NEXT day
+def today_schedule(hour_utc: int) -> str:
+    """Return ISO datetime for today at the given UTC hour."""
+    now  = datetime.now(timezone.utc)
+    slot = now.replace(hour=hour_utc, minute=0, second=0, microsecond=0)
+    # Evening slot (hour=0) is midnight UTC — if we're past midnight, push to tonight
     if hour_utc == 0:
-        base = base + timedelta(days=1)
-    return base.replace(hour=hour_utc).isoformat()
+        slot = slot + timedelta(days=1)
+    return slot.isoformat()
 
 
-def make_post(stamp, day, slot, post_type, topic, text, image_query,
+def make_post(stamp, slot, post_type, topic, text, image_query,
               video_url=None, concert_url=None) -> dict:
+    hour = MORNING_UTC if slot == "morning" else EVENING_UTC
     return {
-        "id":           f"post_{stamp}_day{day}_{slot}",
+        "id":           f"post_{stamp}_{slot}",
         "status":       "pending",
-        "scheduled_at": schedule_slot(day, MORNING_UTC if slot == "morning" else EVENING_UTC),
+        "scheduled_at": today_schedule(hour),
         "slot":         slot,
         "type":         post_type,
         "topic":        topic,
@@ -208,162 +206,120 @@ def make_post(stamp, day, slot, post_type, topic, text, image_query,
     }
 
 
+def call_groq(client, system, user, max_tokens=1024, json_mode=True) -> str:
+    kwargs = dict(
+        model    = "llama-3.3-70b-versatile",
+        messages = [
+            {"role": "system", "content": system},
+            {"role": "user",   "content": user},
+        ],
+        temperature = 0.85,
+        max_tokens  = max_tokens,
+    )
+    if json_mode:
+        kwargs["response_format"] = {"type": "json_object"}
+    completion = client.chat.completions.create(**kwargs)
+    return completion.choices[0].message.content
+
+
 # ---------------------------------------------------------------------------
 # Content generators
 # ---------------------------------------------------------------------------
 
-def gen_original(client: Groq, used_types: list) -> dict:
-    """Generate one original post (debate/trivia/historia/ranking/recuerdo/curiosidad)."""
-    # Pick a type not recently used
-    available = [t for t in ORIGINAL_TYPES if t["type"] not in used_types]
-    if not available:
-        available = ORIGINAL_TYPES
-    chosen = available[0]
-    used_types.append(chosen["type"])
-
+def gen_poll(client: Groq, week_number: int) -> dict:
+    topic_idx          = week_number % len(POLL_TOPICS)
+    question, options  = POLL_TOPICS[topic_idx]
+    emoji_map          = ["👍", "❤️", "😮"]
+    options_lines      = "\n".join(
+        f"{emoji_map[i]} {opt}" for i, opt in enumerate(options[:3])
+    )
+    vote_instruction = (
+        f"👍 = {options[0]}, ❤️ = {options[1]}"
+        + (f", 😮 = {options[2]}" if len(options) > 2 else "")
+    )
     prompt = (
-        f"Genera 1 post de tipo {chosen['type'].upper()}. "
-        f"Instrucción: {chosen['instruction']}\n\n"
-        f"IMPORTANTE: image_query debe ser el nombre específico de la banda "
-        f"mencionada en el post + un descriptor visual en inglés. "
-        f"Ejemplo: 'Soda Stereo band', 'Mana concert', 'Heroes del Silencio live'.\n\n"
+        f"Crea un post de votación para esta pregunta: '{question}'\n\n"
+        f"Opciones con emojis:\n{options_lines}\n\n"
+        f"Sistema de voto: {vote_instruction}\n\n"
+        f"image_query: nombre específico de una de las bandas mencionadas + 'band' o 'concert' en inglés.\n\n"
         f"Responde ÚNICAMENTE con JSON válido."
     )
-
-    completion = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
-        messages=[
-            {"role": "system", "content": SYSTEM_ORIGINAL},
-            {"role": "user",   "content": prompt},
-        ],
-        temperature=0.85,
-        max_tokens=1024,
-        response_format={"type": "json_object"},
-    )
-
-    data = json.loads(clean_json(completion.choices[0].message.content))
-
-    # Handle both {"posts": [...]} and flat object
-    if "posts" in data:
-        data = data["posts"][0]
-
+    raw  = call_groq(client, SYSTEM_POLL, prompt, max_tokens=512)
+    data = json.loads(clean_json(raw))
     return data
 
 
-def gen_poll(client: Groq, used_polls: list) -> dict:
-    """Generate one emulated poll post using emoji reactions."""
-    import random as _random
-    available = [p for p in POLL_TOPICS if p[0] not in used_polls]
-    if not available:
-        available = POLL_TOPICS
-    question, options = _random.choice(available)
-    used_polls.append(question)
-
-    emoji_map = ["👍", "❤️", "😮"]
-    options_text = "\n".join(
-        f"{emoji_map[i]} {opt}" for i, opt in enumerate(options[:3])
-    )
+def gen_original(client: Groq, weekday: int) -> dict:
+    # Rotate original types by weekday (Tue=1, Thu=3, Fri=4)
+    original_map = {1: 0, 3: 1, 4: 2}  # weekday → ORIGINAL_TYPES index (mod len)
+    idx    = original_map.get(weekday, 0)
+    chosen = ORIGINAL_TYPES[idx % len(ORIGINAL_TYPES)]
 
     prompt = (
-        f"Crea un post de votación sobre: '{question}'\n\n"
-        f"Opciones:\n{options_text}\n\n"
-        f"Usa exactamente estos emojis para votar: "
-        f"👍 = {options[0]}, ❤️ = {options[1]}"
-        + (f", 😮 = {options[2]}" if len(options) > 2 else "") +
-        f"\n\nTermina con: '¡Vota con tu reacción!'\n\n"
-        f"Para image_query usa el nombre de una de las bandas mencionadas + 'band' o 'concert'.\n\n"
+        f"Genera 1 post de tipo {chosen['type'].upper()}.\n"
+        f"Instrucción: {chosen['instruction']}\n\n"
+        f"IMPORTANTE: image_query = nombre específico de la banda mencionada "
+        f"+ descriptor visual en inglés (ej: 'Soda Stereo band', 'Mana concert', "
+        f"'Heroes del Silencio live').\n\n"
         f"Responde ÚNICAMENTE con JSON válido."
     )
+    raw  = call_groq(client, SYSTEM_ORIGINAL, prompt, max_tokens=1024)
+    data = json.loads(clean_json(raw))
 
-    completion = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
-        messages=[
-            {"role": "system", "content": SYSTEM_POLL},
-            {"role": "user",   "content": prompt},
-        ],
-        temperature=0.75,
-        max_tokens=512,
-        response_format={"type": "json_object"},
-    )
-
-    return json.loads(clean_json(completion.choices[0].message.content))
+    # Handle {"posts": [...]} wrapper
+    if "posts" in data:
+        data = data["posts"][0]
+    return data
 
 
 def gen_concert(client: Groq) -> dict:
-    """Generate a concert announcement post using Ticketmaster data."""
     concert = get_concert_info()
 
     if concert:
         prompt = (
             f"Concierto próximo:\n"
-            f"  Artista/Evento: {concert['name']}\n"
+            f"  Artista: {concert['name']}\n"
             f"  Fecha: {concert['date']}\n"
             f"  Ciudad: {concert['city']}, {concert['country']}\n\n"
-            f"Escribe el post de anuncio. NO incluyas el link — va al final automáticamente.\n"
-            f"image_query: nombre del artista + 'concert' en inglés.\n\n"
+            f"Escribe el post. NO incluyas el link.\n"
+            f"image_query: nombre del artista en inglés + 'concert live'.\n\n"
             f"Responde ÚNICAMENTE con JSON válido."
         )
         concert_url = concert["url"]
-        topic       = concert["artist"]
+        fallback_url = None
     else:
-        # Fallback if no Ticketmaster key or no events found
         prompt = (
-            f"Escribe un post general sobre cómo comprar boletos para ver bandas "
-            f"de rock en español en vivo. Menciona sitios como Ticketmaster y StubHub. "
-            f"image_query: 'rock concert tickets latinamerica'.\n\n"
+            f"Escribe un post general animando a los fans a ver bandas de rock en español "
+            f"en vivo. Menciona sitios como Ticketmaster, Vivid Seats y StubHub para conseguir boletos.\n"
+            f"image_query: 'rock concert latinamerica live'.\n\n"
             f"Responde ÚNICAMENTE con JSON válido."
         )
-        concert_url = "https://www.ticketmaster.com/search?q=rock+en+espanol"
-        topic       = "conciertos rock en español"
+        concert_url = "https://www.vividseats.com/concerts"
+        fallback_url = concert_url
 
-    completion = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
-        messages=[
-            {"role": "system", "content": SYSTEM_CONCERT},
-            {"role": "user",   "content": prompt},
-        ],
-        temperature=0.80,
-        max_tokens=512,
-        response_format={"type": "json_object"},
-    )
-
-    data = json.loads(clean_json(completion.choices[0].message.content))
+    raw  = call_groq(client, SYSTEM_CONCERT, prompt, max_tokens=512)
+    data = json.loads(clean_json(raw))
     data["concert_url"] = concert_url
-    data["topic"]       = topic
     return data
 
 
-def gen_youtube_commentary(client: Groq, morning_topic: str,
-                           used_video_ids: list) -> dict | None:
-    """Find a YouTube video and generate commentary for the evening post."""
-    video = get_video_for_topic(morning_topic, used_video_ids)
+def gen_youtube(client: Groq, morning_topic: str) -> dict | None:
+    video = get_video_for_topic(morning_topic, [])
     if not video:
         return None
-
-    used_video_ids.append(video["video_id"])
 
     prompt = (
         f"Video de YouTube:\n"
         f"  Título: {video['title']}\n"
         f"  Canal: {video['channel']}\n"
         f"  Descripción: {video['description']}\n\n"
-        f"El post de la mañana fue sobre: {morning_topic}\n\n"
-        f"Escribe el comentario. NO incluyas el link.\n"
-        f"Empieza con algo como 'Para cerrar el día', 'Les comparto este clásico', "
-        f"'Esta noche les traigo'..."
+        f"El post de esta mañana fue sobre: {morning_topic}\n\n"
+        f"Escribe el comentario de esta noche. NO incluyas el link."
     )
-
-    completion = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
-        messages=[
-            {"role": "system", "content": SYSTEM_YOUTUBE},
-            {"role": "user",   "content": prompt},
-        ],
-        temperature=0.85,
-        max_tokens=512,
-    )
-
-    commentary = completion.choices[0].message.content.strip()
+    commentary = call_groq(
+        client, SYSTEM_YOUTUBE, prompt,
+        max_tokens=512, json_mode=False
+    ).strip()
 
     return {
         "text":      f"{commentary}\n\n{video['url']}",
@@ -377,93 +333,93 @@ def gen_youtube_commentary(client: Groq, morning_topic: str,
 # ---------------------------------------------------------------------------
 
 def generate_posts():
-    now   = datetime.now(timezone.utc)
-    stamp = now.strftime("%Y%m%d")
-    print(f"[{now.isoformat()}] Generating 14 posts (7 morning + 7 evening YouTube)...\n")
+    now      = datetime.now(timezone.utc)
+    weekday  = now.weekday()   # 0=Mon, 6=Sun
+    week_num = now.isocalendar()[1]
+    stamp    = now.strftime("%Y%m%d")
 
-    client        = Groq(api_key=GROQ_API_KEY)
-    all_posts     = []
-    used_types    = []
-    used_polls    = []
-    used_video_ids = []
+    day_names    = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    morning_type = MORNING_TYPES[weekday]
 
-    for day in range(7):
-        day_name     = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"][day]
-        morning_type = MORNING_TYPES[day]
+    print(f"[{now.isoformat()}] Generating 2 posts for {day_names[weekday]}...")
+    print(f"  Morning type: {morning_type}\n")
 
-        print(f"  Day {day} ({day_name}) — morning: {morning_type}")
-
-        # ------------------------------------------------------------------
-        # MORNING POST
-        # ------------------------------------------------------------------
-        if morning_type == "poll":
-            data        = gen_poll(client, used_polls)
-            topic       = data.get("topic", "rock en español")
-            morning_post = make_post(
-                stamp, day, "morning", "poll", topic,
-                data["text"], data.get("image_query", f"{topic} band"),
-            )
-
-        elif morning_type == "original":
-            data        = gen_original(client, used_types)
-            topic       = data.get("topic", "rock en español")
-            morning_post = make_post(
-                stamp, day, "morning", data.get("type", "original"), topic,
-                data["text"], data.get("image_query", f"{topic} band"),
-            )
-
-        elif morning_type == "concert":
-            data        = gen_concert(client)
-            topic       = data.get("topic", "conciertos")
-            morning_post = make_post(
-                stamp, day, "morning", "concert", topic,
-                data["text"] + f"\n\n{data['concert_url']}",
-                data.get("image_query", "rock concert"),
-                concert_url=data.get("concert_url"),
-            )
-
-        all_posts.append(morning_post)
-        print(f"         topic='{morning_post['topic']}' — {morning_post['text'][:50]}...")
-
-        # ------------------------------------------------------------------
-        # EVENING POST — YouTube commentary based on morning topic
-        # ------------------------------------------------------------------
-        print(f"           evening: YouTube (topic: {morning_post['topic']})")
-        yt = gen_youtube_commentary(client, morning_post["topic"], used_video_ids)
-
-        if yt:
-            evening_post = make_post(
-                stamp, day, "evening", "video_youtube",
-                yt["topic"], yt["text"],
-                morning_post["image_query"],   # reuse topic-matched image query
-                video_url=yt["video_url"],
-            )
-        else:
-            # Fallback if YouTube unavailable — duplicate morning as text-only
-            print(f"           (no YouTube video found — skipping evening)")
-            evening_post = make_post(
-                stamp, day, "evening", "video_youtube_unavailable",
-                morning_post["topic"],
-                "¡Nos vemos mañana con más rock en español! 🎸",
-                morning_post["image_query"],
-            )
-
-        all_posts.append(evening_post)
-        print(f"         {evening_post['text'][:60]}...")
-        print()
+    client = Groq(api_key=GROQ_API_KEY)
 
     # ------------------------------------------------------------------
-    # Save queue
+    # MORNING POST
+    # ------------------------------------------------------------------
+    if morning_type == "poll":
+        data  = gen_poll(client, week_num)
+        topic = data.get("topic", "rock en español")
+        morning = make_post(
+            stamp, "morning", "poll", topic,
+            data["text"],
+            data.get("image_query", f"{topic} band"),
+        )
+
+    elif morning_type == "original":
+        data  = gen_original(client, weekday)
+        topic = data.get("topic", "rock en español")
+        morning = make_post(
+            stamp, "morning", data.get("type", "original"), topic,
+            data["text"],
+            data.get("image_query", f"{topic} band"),
+        )
+
+    elif morning_type == "concert":
+        data  = gen_concert(client)
+        topic = data.get("topic", "conciertos rock en español")
+        morning = make_post(
+            stamp, "morning", "concert", topic,
+            data["text"] + f"\n\n{data['concert_url']}",
+            data.get("image_query", "rock concert latinamerica"),
+            concert_url=data.get("concert_url"),
+        )
+
+    print(f"  Morning post ready: [{morning['type']}] topic='{morning['topic']}'")
+    print(f"  {morning['text'][:80]}...\n")
+
+    # ------------------------------------------------------------------
+    # EVENING POST — YouTube commentary
+    # ------------------------------------------------------------------
+    print(f"  Finding YouTube video for topic: '{morning['topic']}'...")
+    yt = gen_youtube(client, morning["topic"])
+
+    if yt:
+        evening = make_post(
+            stamp, "evening", "video_youtube",
+            yt["topic"], yt["text"],
+            morning["image_query"],
+            video_url=yt["video_url"],
+        )
+        print(f"  Evening post ready: YouTube — {yt['text'][:60]}...\n")
+    else:
+        # Fallback if YouTube API not configured
+        evening = make_post(
+            stamp, "evening", "evening_note",
+            morning["topic"],
+            f"¡Buenas noches a todos los fans del rock en español! 🎸 "
+            f"¿Cuál fue su canción favorita de {morning['topic']} hoy?",
+            morning["image_query"],
+        )
+        print(f"  Evening post ready: fallback note (no YouTube video found)\n")
+
+    # ------------------------------------------------------------------
+    # Merge with existing queue (keep pending posts from previous days)
     # ------------------------------------------------------------------
     existing      = load_queue()
     still_pending = [p for p in existing if p["status"] == "pending"]
-    merged        = still_pending + all_posts
+
+    # Avoid duplicates — remove any posts already generated for today
+    still_pending = [p for p in still_pending if stamp not in p["id"]]
+
+    merged = still_pending + [morning, evening]
     save_queue(merged)
 
-    morning_count = sum(1 for p in all_posts if p["slot"] == "morning")
-    evening_count = sum(1 for p in all_posts if p["slot"] == "evening")
-    print(f"Done. Generated {morning_count} morning + {evening_count} evening posts.")
-    print(f"Total pending in queue: {len(merged)}")
+    print(f"  Saved 2 new posts. Total pending in queue: {len(merged)}")
+    print(f"  Morning scheduled: {morning['scheduled_at']}")
+    print(f"  Evening scheduled: {evening['scheduled_at']}")
 
 
 if __name__ == "__main__":
