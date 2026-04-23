@@ -1,10 +1,5 @@
-# Secrets — never commit these
+# Secrets — never commit
 .env
-
-# Runtime data files — managed by the scripts, not version controlled
-posts.json
-log.json
-cron.log
 
 # Python
 __pycache__/
@@ -12,3 +7,12 @@ __pycache__/
 *.pyo
 .venv/
 venv/
+
+# Reel output files — download from GitHub Actions artifacts instead
+reels/
+
+# Logs (local only)
+cron.log
+
+# NOTE: posts.json and log.json ARE committed to the repo
+# The GitHub Actions bot updates them automatically via git push
