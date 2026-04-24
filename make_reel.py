@@ -73,7 +73,10 @@ def generate_script(topic_data: dict) -> str:
     prompt = (
         f"Escribe un guión de Reel de 60 segundos sobre: {topic_data['topic']}\n"
         f"Ángulo: {topic_data['angle']}\n\n"
-        f"Exactamente 130-150 palabras. Solo el texto a narrar."
+        f"OBLIGATORIO: escribe EXACTAMENTE entre 140 y 155 palabras. "
+        f"Cuenta las palabras antes de responder. "
+        f"Si tienes menos de 140 palabras, agrega más detalles y ejemplos. "
+        f"Solo el texto a narrar, sin indicaciones de escena."
     )
     completion = client.chat.completions.create(
         model       = "llama-3.3-70b-versatile",
@@ -196,6 +199,11 @@ def download_file(url: str, path: str) -> bool:
 
 def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
     try:
+        # Patch Pillow ANTIALIAS removal (Pillow 10+ removed it, MoviePy 1.0.3 needs it)
+        import PIL.Image as _PILImage
+        if not hasattr(_PILImage, "ANTIALIAS"):
+            _PILImage.ANTIALIAS = _PILImage.LANCZOS
+
         from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_videoclips
 
         TARGET_W, TARGET_H = 1080, 1920
@@ -204,54 +212,63 @@ def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
         duration = audio.duration + 1.0
         print(f"  Audio duration: {duration:.1f}s")
 
+        # Download clips to a permanent temp folder (avoids Windows file-locking issue)
+        clips_dir = OUTPUT_DIR / "tmp_clips"
+        clips_dir.mkdir(exist_ok=True)
+        clip_paths = []
+
+        for i, url in enumerate(video_urls):
+            tmp = str(clips_dir / f"clip_{i}.mp4")
+            if download_file(url, tmp):
+                clip_paths.append(tmp)
+
         clips = []
-        with tempfile.TemporaryDirectory() as tmpdir:
-            for i, url in enumerate(video_urls):
-                tmp = os.path.join(tmpdir, f"clip_{i}.mp4")
-                if not download_file(url, tmp):
-                    continue
-                try:
-                    clip = VideoFileClip(tmp)
-                    # Crop to 9:16
-                    ratio = clip.w / clip.h
-                    target = TARGET_W / TARGET_H
-                    if ratio > target:
-                        new_w = int(clip.h * target)
-                        clip  = clip.crop(x1=(clip.w - new_w) // 2, width=new_w)
-                    else:
-                        new_h = int(clip.w / target)
-                        clip  = clip.crop(y1=(clip.h - new_h) // 2, height=new_h)
-                    clip = clip.resize((TARGET_W, TARGET_H))
-                    clip = clip.subclip(0, min(clip.duration, 10.0))
-                    clips.append(clip)
-                except Exception as e:
-                    print(f"    Clip {i} error: {e}")
+        for i, path in enumerate(clip_paths):
+            try:
+                clip  = VideoFileClip(path)
+                ratio = clip.w / clip.h
+                tgt   = TARGET_W / TARGET_H
+                if ratio > tgt:
+                    new_w = int(clip.h * tgt)
+                    clip  = clip.crop(x1=(clip.w - new_w) // 2, width=new_w)
+                else:
+                    new_h = int(clip.w / tgt)
+                    clip  = clip.crop(y1=(clip.h - new_h) // 2, height=new_h)
+                clip = clip.resize((TARGET_W, TARGET_H))
+                clip = clip.subclip(0, min(clip.duration, 10.0))
+                clips.append(clip)
+                print(f"    Clip {i} OK ({clip.duration:.1f}s)")
+            except Exception as e:
+                print(f"    Clip {i} error: {e}")
 
-            if not clips:
-                print("  No valid clips.")
-                audio.close()
-                return False
-
-            # Loop clips until we have enough duration
-            while sum(c.duration for c in clips) < duration:
-                clips.extend(clips[:])
-            clips = clips[:20]
-
-            video = concatenate_videoclips(clips, method="compose")
-            video = video.subclip(0, min(duration, video.duration))
-            video = video.set_audio(audio)
-            video.write_videofile(
-                output_path,
-                fps         = 30,
-                codec       = "libx264",
-                audio_codec = "aac",
-                bitrate     = "4000k",
-                verbose     = False,
-                logger      = None,
-            )
-            video.close()
+        if not clips:
+            print("  No valid clips — cannot assemble Reel.")
             audio.close()
+            shutil.rmtree(clips_dir, ignore_errors=True)
+            return False
 
+        # Loop clips to fill audio duration
+        while sum(c.duration for c in clips) < duration:
+            clips.extend(clips[:])
+        clips = clips[:20]
+
+        video = concatenate_videoclips(clips, method="compose")
+        video = video.subclip(0, min(duration, video.duration))
+        video = video.set_audio(audio)
+        video.write_videofile(
+            output_path,
+            fps         = 30,
+            codec       = "libx264",
+            audio_codec = "aac",
+            bitrate     = "4000k",
+            verbose     = False,
+            logger      = None,
+        )
+        video.close()
+        audio.close()
+
+        # Clean up temp clips after MoviePy has fully released file handles
+        shutil.rmtree(clips_dir, ignore_errors=True)
         return True
 
     except ImportError:
