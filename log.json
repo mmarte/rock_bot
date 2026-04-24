@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "post_id": "post_20260424_morning",
+    "fb_post_id": "1043162839046116_1375289201312289",
+    "slot": "morning",
+    "type": "string",
+    "topic": "Caifanes",
+    "image_used": false,
+    "status": "published",
+    "executed_at": "2026-04-24T16:55:16.216222+00:00"
+  }
+]

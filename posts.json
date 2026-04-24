@@ -1,7 +1,7 @@
 [
   {
     "id": "post_20260424_morning",
-    "status": "pending",
+    "status": "published",
     "scheduled_at": "2026-04-24T16:00:00+00:00",
     "slot": "morning",
     "type": "string",
@@ -10,9 +10,9 @@
     "image_query": "Caifanes band",
     "video_url": null,
     "concert_url": null,
-    "fb_post_id": null,
+    "fb_post_id": "1043162839046116_1375289201312289",
     "created_at": "2026-04-24T09:28:34.224265+00:00",
-    "published_at": null,
+    "published_at": "2026-04-24T16:55:16.216222+00:00",
     "error": null
   },
   {
