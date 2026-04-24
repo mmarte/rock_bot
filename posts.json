@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "post_20260424_morning",
+    "status": "pending",
+    "scheduled_at": "2026-04-24T16:00:00+00:00",
+    "slot": "morning",
+    "type": "string",
+    "topic": "Formación de Café Tacuba",
+    "text": "Café Tacuba es una de las bandas más influyentes del rock en español. La banda se formó en 1989 en la Ciudad de México, México. La formación original estaba compuesta por Rubén Albarrán, Emmanuel del Real, Enrique González y Quino. Su álbum debut 'Café Tacuba' de 1992 marcó el comienzo de una carrera llena de éxitos y experimentación musical. ¿Cuál es tu canción favorita de Café Tacuba?",
+    "image_query": "Cafe Tacuba band photo",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "created_at": "2026-04-24T05:55:20.870164+00:00",
+    "published_at": null,
+    "error": null
+  },
+  {
+    "id": "post_20260424_evening",
+    "status": "pending",
+    "scheduled_at": "2026-04-25T00:00:00+00:00",
+    "slot": "evening",
+    "type": "video_youtube",
+    "topic": "Formación de Café Tacuba",
+    "text": "Para cerrar el día , les traigo un clásico de Café Tacvba, una de las bandas más influyentes del rock en español. Esta noche les dejo con \"Quiero Ver\", un tema que me recuerda a la época dorada del rock latinoamericano. La energía y la pasión que desprenden en este video es contagiosa y me hace querer escuchar todo su disco. Después de hablar sobre la formación de la banda esta mañana, me parece justo compartir algo de su música. La voz de Rubén Albarrán es inconfundible y la manera en que la banda fusiona diferentes estilos es verdaderamente única. ¿Cuál es su canción favorita de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=4kSuJwYoxkw",
+    "image_query": "Cafe Tacuba band photo",
+    "video_url": "https://www.youtube.com/watch?v=4kSuJwYoxkw",
+    "concert_url": null,
+    "fb_post_id": null,
+    "created_at": "2026-04-24T05:55:21.902850+00:00",
+    "published_at": null,
+    "error": null
+  }
+]
