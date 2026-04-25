@@ -1,12 +1,14 @@
 {
   "used_bands": [
     "Gustavo Cerati",
-    "Los de Abajo"
+    "Los de Abajo",
+    "Los Rodríguez"
   ],
   "used_poll_indices": [
     4,
-    5
+    5,
+    9
   ],
   "original_type_index": 0,
-  "last_updated": "2026-04-25T02:51:26.982335+00:00"
+  "last_updated": "2026-04-25T09:02:00.266517+00:00"
 }
