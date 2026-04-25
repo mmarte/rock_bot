@@ -18,5 +18,15 @@
     "image_used": false,
     "status": "published",
     "executed_at": "2026-04-25T01:59:31.302947+00:00"
+  },
+  {
+    "post_id": "post_20260425_morning",
+    "fb_post_id": "1043162839046116_1376157424558800",
+    "slot": "morning",
+    "type": "poll",
+    "topic": "Mejor festival de rock en español",
+    "image_used": false,
+    "status": "published",
+    "executed_at": "2026-04-25T16:35:59.135447+00:00"
   }
 ]

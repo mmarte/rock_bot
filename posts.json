@@ -1,7 +1,7 @@
 [
   {
     "id": "post_20260425_morning",
-    "status": "pending",
+    "status": "published",
     "scheduled_at": "2026-04-25T16:00:00+00:00",
     "slot": "morning",
     "type": "poll",
@@ -10,9 +10,9 @@
     "image_query": "Vive Latino rock band",
     "video_url": null,
     "concert_url": null,
-    "fb_post_id": null,
+    "fb_post_id": "1043162839046116_1376157424558800",
     "created_at": "2026-04-25T09:01:59.072681+00:00",
-    "published_at": null,
+    "published_at": "2026-04-25T16:35:59.135447+00:00",
     "error": null
   },
   {
