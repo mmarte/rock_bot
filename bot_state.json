@@ -1,6 +1,10 @@
 {
-  "used_bands": [],
-  "used_poll_indices": [],
+  "used_bands": [
+    "Gustavo Cerati"
+  ],
+  "used_poll_indices": [
+    4
+  ],
   "original_type_index": 0,
-  "last_updated": ""
+  "last_updated": "2026-04-25T02:46:06.801137+00:00"
 }
