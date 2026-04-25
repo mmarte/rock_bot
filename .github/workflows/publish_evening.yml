@@ -1,0 +1,42 @@
+name: 3 — Publish Evening Post
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # every day midnight UTC = 7pm EST
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  publish_evening:
+    name: Publish evening post
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Publish post
+        env:
+          FB_PAGE_ID:     ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN:  ${{ secrets.FB_PAGE_TOKEN }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python publish.py
+
+      - name: Commit updated queue and log
+        run: |
+          git config user.name  "Rock Bot"
+          git config user.email "bot@mejorrockespanol.com"
+          git add posts.json log.json
+          git diff --staged --quiet || git commit -m "bot: evening post $(date -u '+%Y-%m-%d %H:%M')"
+          git push

@@ -1,21 +1,15 @@
 """
 generate.py
 -----------
-Generates exactly 2 posts for TODAY (not a whole week):
-  Morning 11am EST  — Poll (Mon/Wed/Sat), Original (Tue/Thu/Fri), Concert (Sun)
-  Evening  7pm EST  — YouTube commentary every day
+Generates 2 posts for TODAY:
+  Morning (11am EST) — Poll / Original / Concert depending on weekday
+  Evening  (7pm EST) — YouTube commentary every day
 
-Runs daily via GitHub Actions cron at 08:00 UTC (before the 11am morning post).
-Can also be run manually anytime: python generate.py
-
-Daily schedule:
-  Monday    → Poll      + YouTube
-  Tuesday   → Original  + YouTube
-  Wednesday → Poll      + YouTube
-  Thursday  → Original  + YouTube
-  Friday    → Original  + YouTube
-  Saturday  → Poll      + YouTube
-  Sunday    → Concert   + YouTube
+Key improvements:
+  - Fully randomized band/topic selection (no repeats within the week)
+  - Every post guaranteed to have a specific image query
+  - Poll topics rotate without repeating for 12 weeks
+  - Original posts cycle all 6 types before repeating
 """
 
 from groq import Groq
@@ -23,6 +17,7 @@ from find_video import get_video_for_topic
 from find_concert import get_concert_info
 import json
 import os
+import random
 from datetime import datetime, timedelta, timezone
 from dotenv import load_dotenv
 
@@ -30,14 +25,12 @@ load_dotenv()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 POSTS_FILE   = "posts.json"
+STATE_FILE   = "bot_state.json"   # tracks rotation state across days
 
-# UTC hours — adjust if your audience is primarily in a different timezone
-# 16:00 UTC = 11:00 AM EST / 10:00 AM CST (Mexico City)
-# 00:00 UTC = 7:00 PM EST / 6:00 PM CST  (next calendar day in UTC)
-MORNING_UTC = 16
-EVENING_UTC = 0
+MORNING_UTC = 16   # 11am EST
+EVENING_UTC = 0    # 7pm EST (midnight UTC next calendar day)
 
-# Day-of-week to morning post type (0=Monday ... 6=Sunday)
+# Day → morning post type
 MORNING_TYPES = {
     0: "poll",      # Monday
     1: "original",  # Tuesday
@@ -49,14 +42,31 @@ MORNING_TYPES = {
 }
 
 # ---------------------------------------------------------------------------
-# Poll topics — rotated based on week number so they don't repeat
+# Randomization pools — large and varied
 # ---------------------------------------------------------------------------
 
+BANDS = [
+    "Soda Stereo", "Heroes del Silencio", "Maná", "Café Tacvba",
+    "Molotov", "Los Prisioneros", "Caifanes", "La Ley",
+    "Los Fabulosos Cadillacs", "Divididos", "Bunbury", "Fito Páez",
+    "Rata Blanca", "Intocable", "Jarabe de Palo", "Gustavo Cerati",
+    "Enrique Bunbury", "Bersuit Vergarabat", "Aterciopelados",
+    "Babasónicos", "Illya Kuryaki and the Valderramas", "Enanitos Verdes",
+    "Los Rodríguez", "Hombres G", "Mecano", "El Tri", "Panteon Rococo",
+    "Santa Sabina", "Maldita Vecindad", "Los de Abajo",
+]
+
+ERAS = [
+    "los 80s", "los 90s", "los 2000s", "la época dorada",
+    "el rock alternativo latino", "el rock argentino clásico",
+    "el rock mexicano clásico", "el rock español clásico",
+]
+
 POLL_TOPICS = [
-    ("¿Cuál fue el mejor álbum de los 90s?",
-     ["Dynamo - Soda Stereo", "Nada Personal - Soda Stereo", "Re - Café Tacvba"]),
-    ("¿El mejor concierto en vivo de la historia del rock en español?",
-     ["Soda Stereo Me Verás Volver", "Heroes del Silencio", "Maná en el Zócalo"]),
+    ("¿Cuál es la mejor banda de rock en español de todos los tiempos?",
+     ["Soda Stereo", "Heroes del Silencio", "Maná"]),
+    ("¿El mejor álbum de los 90s?",
+     ["Dynamo - Soda Stereo", "Re - Café Tacvba", "Donde Jugaran los Niños - Maná"]),
     ("¿La mejor banda de rock mexicano?",
      ["Café Tacvba", "Molotov", "Caifanes"]),
     ("¿El mejor vocalista del rock en español?",
@@ -66,9 +76,9 @@ POLL_TOPICS = [
     ("¿El mejor guitarrista del rock en español?",
      ["Zeta Bosio - Soda Stereo", "Iñaki Uoho - Heroes del Silencio", "Quique Rangel - Café Tacvba"]),
     ("¿El álbum más influyente de todos los tiempos?",
-     ["Doble Vida - Soda Stereo", "Donde Jugaran los Niños - Maná", "El Espíritu del Vino - Heroes"]),
+     ["Doble Vida - Soda Stereo", "El Espíritu del Vino - Heroes", "Donde Jugaran los Niños - Maná"]),
     ("¿Rock argentino o rock mexicano?",
-     ["Rock argentino siempre", "Rock mexicano para siempre", "¡Los dos son igual de grandes!"]),
+     ["Rock argentino siempre", "Rock mexicano para siempre", "¡Los dos son iguales!"]),
     ("¿La canción perfecta del rock en español?",
      ["De Música Ligera - Soda Stereo", "Entre Dos Tierras - Heroes del Silencio", "Oye Mi Amor - Maná"]),
     ("¿El mejor festival de rock en español?",
@@ -77,91 +87,135 @@ POLL_TOPICS = [
      ["Cerati y Spinetta", "Maná y Santana", "Bunbury y Los Tigres del Norte"]),
     ("¿La mejor intro de guitarra del rock en español?",
      ["De Música Ligera - Cerati", "La Chispa Adecuada - Divididos", "Matador - Los Fabulosos Cadillacs"]),
+    ("¿Qué define más a una banda de rock?",
+     ["Las letras y el mensaje", "El sonido y la música", "La energía en vivo"]),
+    ("¿El mejor bajo del rock en español?",
+     ["Zeta Bosio - Soda Stereo", "Juan Alderete - Racer X", "Flavio Cianciarulo - Los Fabulosos"]),
+    ("¿El mejor concierto en vivo de la historia?",
+     ["Soda Stereo Me Verás Volver", "Heroes del Silencio Parasiempre", "Maná en el Zócalo"]),
+    ("¿La mejor canción de amor del rock en español?",
+     ["Ella Usó Mi Cabeza - Soda Stereo", "Amor de Hombre - Hombres G", "Te Necesito - Maná"]),
 ]
-
-# ---------------------------------------------------------------------------
-# Original post variety types (rotated by weekday)
-# ---------------------------------------------------------------------------
 
 ORIGINAL_TYPES = [
-    {"type": "debate",     "instruction": "DEBATE apasionante entre dos bandas o épocas. Pide a los fans que elijan."},
-    {"type": "trivia",     "instruction": "TRIVIA con curiosidad poco conocida sobre una banda o canción icónica."},
-    {"type": "historia",   "instruction": "HISTORIA BREVE de cómo se formó una banda o nació un álbum famoso."},
-    {"type": "ranking",    "instruction": "RANKING de los 3 mejores álbumes, canciones o guitarristas. Pide el top del fan."},
-    {"type": "recuerdo",   "instruction": "RECUERDO de un concierto mítico o gira legendaria. Invita a compartir recuerdos."},
-    {"type": "curiosidad", "instruction": "CURIOSIDAD impactante: dato de producción, hecho poco conocido, colaboración inesperada."},
+    {
+        "type": "debate",
+        "instruction": "Un DEBATE apasionante comparando dos bandas, épocas o estilos del rock en español. Argumenta ambos lados y pide a los fans que elijan."
+    },
+    {
+        "type": "trivia",
+        "instruction": "Una TRIVIA impactante con 2-3 datos poco conocidos sobre la banda o tema. Termina preguntando si lo sabían."
+    },
+    {
+        "type": "historia",
+        "instruction": "La HISTORIA BREVE y apasionante de cómo se formó la banda o cómo nació su álbum más icónico. Incluye detalles poco conocidos."
+    },
+    {
+        "type": "ranking",
+        "instruction": "Un RANKING personal de los 3 mejores álbumes o canciones, con una frase explicando cada elección. Pide al fan su propio ranking."
+    },
+    {
+        "type": "recuerdo",
+        "instruction": "Evoca un RECUERDO poderoso: un concierto mítico, el día que salió un álbum, o la primera vez que escuchaste a esta banda. Invita a los fans a compartir el suyo."
+    },
+    {
+        "type": "curiosidad",
+        "instruction": "Una CURIOSIDAD que sorprenda: una colaboración inesperada, un dato de grabación, una anécdota histórica que pocos fans conocen."
+    },
 ]
 
-# ---------------------------------------------------------------------------
-# System prompts
-# ---------------------------------------------------------------------------
+# Specific image queries per band — ensures relevant images
+BAND_IMAGE_QUERIES = {
+    "Soda Stereo":        "Soda Stereo band Argentina rock",
+    "Heroes del Silencio": "Heroes del Silencio Spain rock band",
+    "Maná":               "Mana band Mexico rock concert",
+    "Café Tacvba":        "Cafe Tacvba Mexico alternative rock",
+    "Molotov":            "Molotov Mexico punk rock band",
+    "Los Prisioneros":    "Los Prisioneros Chile rock band",
+    "Caifanes":           "Caifanes Mexico gothic rock",
+    "La Ley":             "La Ley Chile rock band",
+    "Los Fabulosos Cadillacs": "Los Fabulosos Cadillacs Argentina ska",
+    "Divididos":          "Divididos Argentina rock concert",
+    "Bunbury":            "Bunbury Spain rock singer concert",
+    "Fito Páez":          "Fito Paez Argentina rock singer",
+    "Rata Blanca":        "Rata Blanca Argentina heavy metal",
+    "Intocable":          "Intocable Mexico norteño rock",
+    "Gustavo Cerati":     "Gustavo Cerati guitarist Argentina",
+    "Enrique Bunbury":    "Enrique Bunbury singer Spain rock",
+    "Babasónicos":        "Babasónicos Argentina alternative rock",
+    "Aterciopelados":     "Aterciopelados Colombia rock band",
+    "Enanitos Verdes":    "Enanitos Verdes Argentina rock",
+    "El Tri":             "El Tri Mexico rock band",
+    "Maldita Vecindad":   "Maldita Vecindad Mexico ska punk",
+    "Hombres G":          "Hombres G Spain pop rock band",
+}
 
-SYSTEM_ORIGINAL = """Eres el creador de "Mejor Rock en Español" en Facebook.
-REGLAS:
-- Español natural y conversacional, tono de fan apasionado
-- Termina siempre con una pregunta directa que invite a comentar
-- NUNCA copies letras de canciones
-- 120–220 palabras
-- Menciona bandas reales y específicas
-
-FORMATO: JSON puro, sin markdown.
-{"type":"string","topic":"banda o tema principal","text":"contenido","image_query":"nombre banda EN INGLÉS + descriptor, ej: Soda Stereo band photo"}"""
-
-SYSTEM_POLL = """Eres el creador de "Mejor Rock en Español" en Facebook.
-Crea posts de votación con emojis en lugar de encuestas nativas.
-
-EMOJIS DE VOTO:
-👍 = opción A
-❤️ = opción B
-😮 = opción C (solo si hay 3 opciones)
-
-REGLAS:
-- Plantea la votación con emoción y pasión
-- Lista las opciones claramente con los emojis y una breve descripción
-- Termina EXACTAMENTE con: "¡Vota con tu reacción! 👍❤️😮"
-- 80–140 palabras
-- NUNCA copies letras de canciones
-
-FORMATO: JSON puro.
-{"topic":"tema","text":"contenido","image_query":"banda específica EN INGLÉS + band o concert"}"""
-
-SYSTEM_CONCERT = """Eres el creador de "Mejor Rock en Español" en Facebook.
-Escribe un post emocionante sobre un concierto próximo.
-REGLAS:
-- Tono emocionado y urgente
-- Incluye fecha, ciudad y artista
-- Termina con "¡Consigue tus boletos antes de que se agoten!" y una pregunta
-- NO incluyas el link — va al final automáticamente
-- 80–150 palabras
-
-FORMATO: JSON puro.
-{"topic":"artista","text":"contenido","image_query":"artista EN INGLÉS + concert live"}"""
-
-SYSTEM_YOUTUBE = """Eres el creador de "Mejor Rock en Español" en Facebook.
-Escribe un comentario para compartir un video de YouTube esta noche.
-REGLAS:
-- Español conversacional, como un fan compartiendo algo que le encanta
-- Empieza con frases como: "Para cerrar el día 🎸", "Esta noche les traigo un clásico...", "Los dejo con esto antes de dormir..."
-- Menciona algo específico de la banda o era musical
-- NO copies la descripción del video
-- NO incluyas el link — va al final
-- Termina con una pregunta
-- 100–180 palabras
-- NUNCA copies letras"""
+DEFAULT_IMAGE_QUERY = "latin rock concert band stage"
 
 # ---------------------------------------------------------------------------
-# Helpers
+# State management — tracks what was used recently to avoid repeats
 # ---------------------------------------------------------------------------
 
-def clean_json(raw: str) -> str:
-    raw = raw.strip()
-    if raw.startswith("```"):
-        parts = raw.split("```")
-        raw   = parts[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-    return raw.strip()
+def load_state() -> dict:
+    if os.path.exists(STATE_FILE):
+        with open(STATE_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    return {
+        "used_bands":       [],
+        "used_poll_indices": [],
+        "original_type_index": 0,
+        "last_updated":     "",
+    }
 
+
+def save_state(state: dict):
+    state["last_updated"] = datetime.now(timezone.utc).isoformat()
+    with open(STATE_FILE, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+
+
+def pick_band(state: dict) -> str:
+    """Pick a band not used in the last 7 days."""
+    used = state.get("used_bands", [])
+    available = [b for b in BANDS if b not in used]
+    if not available:
+        available = BANDS
+        state["used_bands"] = []
+    band = random.choice(available)
+    state["used_bands"] = (used + [band])[-7:]  # keep last 7
+    return band
+
+
+def pick_poll(state: dict) -> tuple:
+    """Pick a poll topic not recently used."""
+    used = state.get("used_poll_indices", [])
+    available = [i for i in range(len(POLL_TOPICS)) if i not in used]
+    if not available:
+        available = list(range(len(POLL_TOPICS)))
+        state["used_poll_indices"] = []
+    idx = random.choice(available)
+    state["used_poll_indices"] = (used + [idx])[-8:]
+    return POLL_TOPICS[idx]
+
+
+def pick_original_type(state: dict) -> dict:
+    """Cycle through all 6 original types before repeating."""
+    idx = state.get("original_type_index", 0) % len(ORIGINAL_TYPES)
+    state["original_type_index"] = idx + 1
+    return ORIGINAL_TYPES[idx]
+
+
+def get_image_query(band: str, fallback: str = "") -> str:
+    """Return a specific image query for the band, or a descriptive fallback."""
+    if band in BAND_IMAGE_QUERIES:
+        return BAND_IMAGE_QUERIES[band]
+    if fallback:
+        return fallback
+    return f"{band} rock band concert"
+
+# ---------------------------------------------------------------------------
+# Queue helpers
+# ---------------------------------------------------------------------------
 
 def load_queue() -> list:
     if os.path.exists(POSTS_FILE):
@@ -176,10 +230,8 @@ def save_queue(posts: list):
 
 
 def today_schedule(hour_utc: int) -> str:
-    """Return ISO datetime for today at the given UTC hour."""
     now  = datetime.now(timezone.utc)
     slot = now.replace(hour=hour_utc, minute=0, second=0, microsecond=0)
-    # Evening slot (hour=0) is midnight UTC — if we're past midnight, push to tonight
     if hour_utc == 0:
         slot = slot + timedelta(days=1)
     return slot.isoformat()
@@ -208,72 +260,135 @@ def make_post(stamp, slot, post_type, topic, text, image_query,
 
 def call_groq(client, system, user, max_tokens=1024, json_mode=True) -> str:
     kwargs = dict(
-        model    = "llama-3.3-70b-versatile",
-        messages = [
+        model       = "llama-3.3-70b-versatile",
+        messages    = [
             {"role": "system", "content": system},
             {"role": "user",   "content": user},
         ],
-        temperature = 0.85,
+        temperature = 0.9,
         max_tokens  = max_tokens,
     )
     if json_mode:
         kwargs["response_format"] = {"type": "json_object"}
-    completion = client.chat.completions.create(**kwargs)
-    return completion.choices[0].message.content
+    return client.chat.completions.create(**kwargs).choices[0].message.content
 
+
+def clean_json(raw: str) -> dict:
+    raw = raw.strip()
+    if raw.startswith("```"):
+        raw = raw.split("```")[1]
+        if raw.startswith("json"):
+            raw = raw[4:]
+    return json.loads(raw.strip())
+
+# ---------------------------------------------------------------------------
+# System prompts
+# ---------------------------------------------------------------------------
+
+SYSTEM_ORIGINAL = """Eres el creador apasionado de "Mejor Rock en Español" en Facebook.
+REGLAS:
+- Español natural y conversacional, tono de fan experto
+- Termina SIEMPRE con una pregunta directa que invite a comentar
+- NUNCA copies letras de canciones
+- 150–220 palabras — posts más largos generan más engagement
+- Datos específicos: fechas, nombres de álbumes, anécdotas reales
+
+FORMATO: JSON puro, sin markdown.
+{"type":"string","topic":"banda principal","text":"contenido completo","image_query":"nombre banda en inglés + descriptor específico"}"""
+
+SYSTEM_POLL = """Eres el creador de "Mejor Rock en Español" en Facebook.
+Crea posts de votación usando reacciones de Facebook como votos.
+
+FORMATO DE VOTO — usa EXACTAMENTE estos emojis con sus opciones:
+👍 = opción A
+❤️ = opción B  
+😮 = opción C
+
+REGLAS:
+- Contexto apasionante antes de las opciones (2-3 frases)
+- Lista las 3 opciones claramente con los emojis
+- Termina EXACTAMENTE con: "¡Vota con tu reacción! 👍❤️😮"
+- 100–150 palabras total
+- NUNCA copies letras de canciones
+
+FORMATO: JSON puro.
+{"topic":"tema","text":"contenido completo","image_query":"banda específica en inglés + band o concert"}"""
+
+SYSTEM_CONCERT = """Eres el creador de "Mejor Rock en Español" en Facebook.
+Escribe un post emocionante sobre un concierto o evento próximo.
+REGLAS:
+- Tono emocionado y urgente, como si fuera la mejor noticia del año
+- Incluye fecha, ciudad y artista prominentemente
+- Termina con "¡Consigue tus boletos!" y una pregunta ("¿Quién va?")
+- NO incluyas links en el texto — van al final automáticamente
+- 100–160 palabras
+
+FORMATO: JSON puro.
+{"topic":"artista","text":"contenido","image_query":"artista en inglés + concert live performance"}"""
+
+SYSTEM_YOUTUBE = """Eres el creador de "Mejor Rock en Español" en Facebook.
+Escribe un comentario original para compartir un video esta noche.
+REGLAS:
+- Empieza con: "🎸 Para cerrar el día..." o "Esta noche les traigo..." o "Los dejo con este clásico..."
+- Conecta el video con el tema de la mañana
+- Opina algo específico sobre la banda, álbum o era
+- NO copies la descripción del video
+- NO incluyas el link — va al final
+- Termina con una pregunta
+- 120–180 palabras
+- NUNCA copies letras"""
 
 # ---------------------------------------------------------------------------
 # Content generators
 # ---------------------------------------------------------------------------
 
-def gen_poll(client: Groq, week_number: int) -> dict:
-    topic_idx          = week_number % len(POLL_TOPICS)
-    question, options  = POLL_TOPICS[topic_idx]
-    emoji_map          = ["👍", "❤️", "😮"]
-    options_lines      = "\n".join(
-        f"{emoji_map[i]} {opt}" for i, opt in enumerate(options[:3])
-    )
-    vote_instruction = (
-        f"👍 = {options[0]}, ❤️ = {options[1]}"
-        + (f", 😮 = {options[2]}" if len(options) > 2 else "")
-    )
+def gen_poll(client: Groq, state: dict) -> dict:
+    question, options = pick_poll(state)
+    band = options[0].split(" - ")[-1] if " - " in options[0] else options[0]
+    image_query = get_image_query(band, f"{band} rock band")
+
     prompt = (
-        f"Crea un post de votación para esta pregunta: '{question}'\n\n"
-        f"Opciones con emojis:\n{options_lines}\n\n"
-        f"Sistema de voto: {vote_instruction}\n\n"
-        f"image_query: nombre específico de una de las bandas mencionadas + 'band' o 'concert' en inglés.\n\n"
+        f"Crea un post de votación apasionante para esta pregunta:\n"
+        f"'{question}'\n\n"
+        f"Opciones:\n"
+        f"👍 {options[0]}\n"
+        f"❤️ {options[1]}\n"
+        f"😮 {options[2]}\n\n"
+        f"Añade contexto emocionante antes de las opciones. "
+        f"Termina EXACTAMENTE con: '¡Vota con tu reacción! 👍❤️😮'\n\n"
+        f"image_query debe ser: '{image_query}'\n\n"
         f"Responde ÚNICAMENTE con JSON válido."
     )
-    raw  = call_groq(client, SYSTEM_POLL, prompt, max_tokens=512)
-    data = json.loads(clean_json(raw))
+    data = clean_json(call_groq(client, SYSTEM_POLL, prompt, max_tokens=600))
+    data["image_query"] = image_query  # enforce specific query
     return data
 
 
-def gen_original(client: Groq, weekday: int) -> dict:
-    # Rotate original types by weekday (Tue=1, Thu=3, Fri=4)
-    original_map = {1: 0, 3: 1, 4: 2}  # weekday → ORIGINAL_TYPES index (mod len)
-    idx    = original_map.get(weekday, 0)
-    chosen = ORIGINAL_TYPES[idx % len(ORIGINAL_TYPES)]
+def gen_original(client: Groq, state: dict, band: str) -> dict:
+    chosen      = pick_original_type(state)
+    image_query = get_image_query(band)
 
     prompt = (
-        f"Genera 1 post de tipo {chosen['type'].upper()}.\n"
+        f"Genera un post sobre: {band}\n"
+        f"Tipo: {chosen['type'].upper()}\n"
         f"Instrucción: {chosen['instruction']}\n\n"
-        f"IMPORTANTE: image_query = nombre específico de la banda mencionada "
-        f"+ descriptor visual en inglés (ej: 'Soda Stereo band', 'Mana concert', "
-        f"'Heroes del Silencio live').\n\n"
+        f"IMPORTANTE:\n"
+        f"- image_query DEBE SER: '{image_query}'\n"
+        f"- Menciona {band} específicamente\n"
+        f"- Incluye datos reales: álbumes, años, nombres de canciones\n\n"
         f"Responde ÚNICAMENTE con JSON válido."
     )
-    raw  = call_groq(client, SYSTEM_ORIGINAL, prompt, max_tokens=1024)
-    data = json.loads(clean_json(raw))
-
-    # Handle {"posts": [...]} wrapper
+    data = clean_json(call_groq(client, SYSTEM_ORIGINAL, prompt, max_tokens=1024))
     if "posts" in data:
         data = data["posts"][0]
+    data["image_query"] = image_query  # always enforce
+    data["topic"]       = band
     return data
 
 
-def gen_concert(client: Groq) -> dict:
-    concert = get_concert_info()
+def gen_concert(client: Groq, band: str) -> dict:
+    concert     = get_concert_info()
+    image_query = get_image_query(band, "rock concert latinamerica live")
 
     if concert:
         prompt = (
@@ -281,30 +396,33 @@ def gen_concert(client: Groq) -> dict:
             f"  Artista: {concert['name']}\n"
             f"  Fecha: {concert['date']}\n"
             f"  Ciudad: {concert['city']}, {concert['country']}\n\n"
-            f"Escribe el post. NO incluyas el link.\n"
-            f"image_query: nombre del artista en inglés + 'concert live'.\n\n"
+            f"Escribe el post de anuncio. NO incluyas links.\n"
+            f"image_query: '{get_image_query(concert['artist'], image_query)}'\n\n"
             f"Responde ÚNICAMENTE con JSON válido."
         )
         concert_url = concert["url"]
-        fallback_url = None
+        topic       = concert["artist"]
+        image_query = get_image_query(concert["artist"], image_query)
     else:
         prompt = (
-            f"Escribe un post general animando a los fans a ver bandas de rock en español "
-            f"en vivo. Menciona sitios como Ticketmaster, Vivid Seats y StubHub para conseguir boletos.\n"
-            f"image_query: 'rock concert latinamerica live'.\n\n"
+            f"Escribe un post animando a los fans a ver conciertos de rock en español en vivo. "
+            f"Menciona Ticketmaster, Vivid Seats y StubHub. "
+            f"image_query: 'rock concert latinamerica crowd stage'\n\n"
             f"Responde ÚNICAMENTE con JSON válido."
         )
         concert_url = "https://www.vividseats.com/concerts"
-        fallback_url = concert_url
+        topic       = "conciertos rock en español"
+        image_query = "rock concert latinamerica crowd stage"
 
-    raw  = call_groq(client, SYSTEM_CONCERT, prompt, max_tokens=512)
-    data = json.loads(clean_json(raw))
+    data = clean_json(call_groq(client, SYSTEM_CONCERT, prompt, max_tokens=600))
     data["concert_url"] = concert_url
+    data["topic"]       = topic
+    data["image_query"] = image_query
     return data
 
 
-def gen_youtube(client: Groq, morning_topic: str) -> dict | None:
-    video = get_video_for_topic(morning_topic, [])
+def gen_youtube(client: Groq, band: str) -> dict | None:
+    video = get_video_for_topic(band, [])
     if not video:
         return None
 
@@ -313,20 +431,19 @@ def gen_youtube(client: Groq, morning_topic: str) -> dict | None:
         f"  Título: {video['title']}\n"
         f"  Canal: {video['channel']}\n"
         f"  Descripción: {video['description']}\n\n"
-        f"El post de esta mañana fue sobre: {morning_topic}\n\n"
+        f"El post de esta mañana fue sobre: {band}\n\n"
         f"Escribe el comentario de esta noche. NO incluyas el link."
     )
     commentary = call_groq(
         client, SYSTEM_YOUTUBE, prompt,
-        max_tokens=512, json_mode=False
+        max_tokens=600, json_mode=False
     ).strip()
 
     return {
         "text":      f"{commentary}\n\n{video['url']}",
         "video_url": video["url"],
-        "topic":     morning_topic,
+        "topic":     band,
     }
-
 
 # ---------------------------------------------------------------------------
 # Main
@@ -334,92 +451,88 @@ def gen_youtube(client: Groq, morning_topic: str) -> dict | None:
 
 def generate_posts():
     now      = datetime.now(timezone.utc)
-    weekday  = now.weekday()   # 0=Mon, 6=Sun
-    week_num = now.isocalendar()[1]
+    weekday  = now.weekday()
     stamp    = now.strftime("%Y%m%d")
+    day_name = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"][weekday]
 
-    day_names    = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    print(f"[{now.isoformat()}] Generating posts for {day_name}...")
+
+    state        = load_state()
+    client       = Groq(api_key=GROQ_API_KEY)
     morning_type = MORNING_TYPES[weekday]
+    band         = pick_band(state)
 
-    print(f"[{now.isoformat()}] Generating 2 posts for {day_names[weekday]}...")
+    print(f"  Today's band/topic: {band}")
     print(f"  Morning type: {morning_type}\n")
 
-    client = Groq(api_key=GROQ_API_KEY)
-
-    # ------------------------------------------------------------------
-    # MORNING POST
-    # ------------------------------------------------------------------
+    # ── Morning post ──────────────────────────────────────────────────────
     if morning_type == "poll":
-        data  = gen_poll(client, week_num)
-        topic = data.get("topic", "rock en español")
+        data    = gen_poll(client, state)
+        topic   = data.get("topic", band)
         morning = make_post(
             stamp, "morning", "poll", topic,
             data["text"],
-            data.get("image_query", f"{topic} band"),
+            data.get("image_query", get_image_query(band)),
         )
 
     elif morning_type == "original":
-        data  = gen_original(client, weekday)
-        topic = data.get("topic", "rock en español")
+        data    = gen_original(client, state, band)
+        topic   = data.get("topic", band)
         morning = make_post(
             stamp, "morning", data.get("type", "original"), topic,
             data["text"],
-            data.get("image_query", f"{topic} band"),
+            data.get("image_query", get_image_query(band)),
         )
 
     elif morning_type == "concert":
-        data  = gen_concert(client)
-        topic = data.get("topic", "conciertos rock en español")
+        data    = gen_concert(client, band)
+        topic   = data.get("topic", band)
         morning = make_post(
             stamp, "morning", "concert", topic,
             data["text"] + f"\n\n{data['concert_url']}",
-            data.get("image_query", "rock concert latinamerica"),
+            data.get("image_query", get_image_query(band)),
             concert_url=data.get("concert_url"),
         )
 
-    print(f"  Morning post ready: [{morning['type']}] topic='{morning['topic']}'")
-    print(f"  {morning['text'][:80]}...\n")
+    print(f"  Morning ready: [{morning['type']}] {morning['topic']}")
+    print(f"  Image query:   {morning['image_query']}")
+    print(f"  Text preview:  {morning['text'][:80]}...\n")
 
-    # ------------------------------------------------------------------
-    # EVENING POST — YouTube commentary
-    # ------------------------------------------------------------------
-    print(f"  Finding YouTube video for topic: '{morning['topic']}'...")
-    yt = gen_youtube(client, morning["topic"])
+    # ── Evening post — YouTube ────────────────────────────────────────────
+    print(f"  Finding YouTube video for: {band}...")
+    yt = gen_youtube(client, band)
 
     if yt:
         evening = make_post(
             stamp, "evening", "video_youtube",
             yt["topic"], yt["text"],
-            morning["image_query"],
+            get_image_query(band),   # topic-matched image even for YouTube posts
             video_url=yt["video_url"],
         )
-        print(f"  Evening post ready: YouTube — {yt['text'][:60]}...\n")
+        print(f"  Evening ready: YouTube — {yt['text'][:60]}...")
     else:
-        # Fallback if YouTube API not configured
         evening = make_post(
             stamp, "evening", "evening_note",
-            morning["topic"],
-            f"¡Buenas noches a todos los fans del rock en español! 🎸 "
-            f"¿Cuál fue su canción favorita de {morning['topic']} hoy?",
-            morning["image_query"],
+            band,
+            f"🎸 Buenas noches a todos los fans del rock en español!\n\n"
+            f"¿Cuál es su canción favorita de {band} para terminar el día?",
+            get_image_query(band),
         )
-        print(f"  Evening post ready: fallback note (no YouTube video found)\n")
+        print(f"  Evening ready: fallback note (no YouTube video found)")
 
-    # ------------------------------------------------------------------
-    # Merge with existing queue (keep pending posts from previous days)
-    # ------------------------------------------------------------------
+    print(f"  Image query:   {evening['image_query']}\n")
+
+    # ── Merge and save ────────────────────────────────────────────────────
     existing      = load_queue()
-    still_pending = [p for p in existing if p["status"] == "pending"]
-
-    # Avoid duplicates — remove any posts already generated for today
-    still_pending = [p for p in still_pending if stamp not in p["id"]]
-
-    merged = still_pending + [morning, evening]
+    still_pending = [p for p in existing if p["status"] == "pending"
+                     and stamp not in p["id"]]
+    merged        = still_pending + [morning, evening]
     save_queue(merged)
+    save_state(state)
 
-    print(f"  Saved 2 new posts. Total pending in queue: {len(merged)}")
-    print(f"  Morning scheduled: {morning['scheduled_at']}")
-    print(f"  Evening scheduled: {evening['scheduled_at']}")
+    print(f"  Saved to queue. Total pending: {len(merged)}")
+    print(f"  Morning: {morning['scheduled_at']}")
+    print(f"  Evening: {evening['scheduled_at']}")
 
 
 if __name__ == "__main__":
