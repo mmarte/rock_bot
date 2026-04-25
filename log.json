@@ -8,5 +8,15 @@
     "image_used": false,
     "status": "published",
     "executed_at": "2026-04-24T16:55:16.216222+00:00"
+  },
+  {
+    "post_id": "post_20260424_evening",
+    "fb_post_id": "1043162839046116_1375598924614650",
+    "slot": "evening",
+    "type": "video_youtube",
+    "topic": "Caifanes",
+    "image_used": false,
+    "status": "published",
+    "executed_at": "2026-04-25T01:59:31.302947+00:00"
   }
 ]
