@@ -1,14 +1,17 @@
 {
   "used_bands": [
     "Gustavo Cerati",
-    "Los de Abajo",
-    "Los Rodríguez"
+    "Enanitos Verdes",
+    "Maldita Vecindad",
+    "Santa Sabina",
+    "Molotov"
   ],
   "used_poll_indices": [
     4,
-    5,
-    9
+    13
   ],
-  "original_type_index": 0,
-  "last_updated": "2026-04-25T09:02:00.266517+00:00"
+  "original_type_index": 2,
+  "last_updated": "2026-04-26T06:16:23.039160+00:00",
+  "post_type_index": 4,
+  "total_posts": 4
 }

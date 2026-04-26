@@ -1,0 +1,64 @@
+name: 1 — Post Content
+
+on:
+  schedule:
+    # 4 posts per day at these UTC times:
+    # 13:00 UTC = 9am EST   (morning)
+    # 17:00 UTC = 1pm EST   (midday)
+    # 21:00 UTC = 5pm EST   (afternoon)
+    # 01:00 UTC = 9pm EST   (evening)
+    - cron: "0 13 * * *"
+    - cron: "0 17 * * *"
+    - cron: "0 21 * * *"
+    - cron: "0 1  * * *"
+
+  workflow_dispatch:   # manual trigger anytime from GitHub Actions tab
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  post:
+    name: Generate and publish one post
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate one post
+        env:
+          GROQ_API_KEY:              ${{ secrets.GROQ_API_KEY }}
+          YOUTUBE_API_KEY:           ${{ secrets.YOUTUBE_API_KEY }}
+          TICKETMASTER_API_KEY:      ${{ secrets.TICKETMASTER_API_KEY }}
+          TICKETMASTER_AFFILIATE_ID: ${{ secrets.TICKETMASTER_AFFILIATE_ID }}
+        run: python generate.py
+
+      - name: Publish the post
+        env:
+          FB_PAGE_ID:     ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN:  ${{ secrets.FB_PAGE_TOKEN }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          IG_USER_ID:      ${{ secrets.IG_USER_ID }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_TOKEN:   ${{ secrets.THREADS_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python publish.py
+
+      - name: Save updated files back to repo
+        run: |
+          git config user.name  "Rock Bot"
+          git config user.email "bot@mejorrockespanol.com"
+          git add posts.json log.json bot_state.json
+          git diff --staged --quiet || git commit -m "bot: posted $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

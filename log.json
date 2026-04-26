@@ -21,22 +21,55 @@
   },
   {
     "post_id": "post_20260425_morning",
-    "fb_post_id": "1043162839046116_1376157424558800",
+    "fb_post_id": "1043162839046116_1375737551267454",
     "slot": "morning",
     "type": "poll",
-    "topic": "Mejor festival de rock en español",
-    "image_used": false,
+    "topic": "Mejor época del rock en español",
+    "image_used": true,
     "status": "published",
-    "executed_at": "2026-04-25T16:35:59.135447+00:00"
+    "executed_at": "2026-04-25T05:49:28.002527+00:00"
   },
   {
-    "post_id": "post_20260425_evening",
-    "fb_post_id": "1043162839046116_1376511781190031",
-    "slot": "evening",
-    "type": "video_youtube",
-    "topic": "Los Rodríguez",
-    "image_used": false,
+    "post_id": "post_20260425_210731",
+    "fb_post_id": "1043162839046116_1376323404542202",
+    "ig_post_id": null,
+    "post_type": "original",
+    "topic": "Enanitos Verdes",
+    "image_used": true,
     "status": "published",
-    "executed_at": "2026-04-26T03:26:11.369471+00:00"
+    "executed_at": "2026-04-25T21:07:57.338205+00:00"
+  },
+  {
+    "post_id": "post_20260425_220744",
+    "fb_post_id": "1043162839046116_1376354174539125",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "poll",
+    "topic": "Maldita Vecindad",
+    "image_used": true,
+    "status": "published",
+    "executed_at": "2026-04-25T22:08:02.288652+00:00"
+  },
+  {
+    "post_id": "post_20260426_055515",
+    "fb_post_id": "1043162839046116_1376600431181166",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "youtube",
+    "topic": "Santa Sabina",
+    "image_used": true,
+    "status": "published",
+    "executed_at": "2026-04-26T05:55:31.437044+00:00"
+  },
+  {
+    "post_id": "post_20260426_061621",
+    "fb_post_id": "1043162839046116_1376614327846443",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "original",
+    "topic": "Molotov",
+    "image_url": "https://i.ytimg.com/vi/CzEbm7yup7g/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-04-26T06:16:40.638517+00:00"
   }
 ]
