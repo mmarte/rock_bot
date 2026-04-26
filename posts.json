@@ -95,5 +95,22 @@
     "published_at": "2026-04-26T06:16:40.638517+00:00",
     "error": null,
     "threads_post_id": null
+  },
+  {
+    "id": "post_20260426_070857",
+    "status": "published",
+    "created_at": "2026-04-26T07:08:57.376416+00:00",
+    "post_type": "concert",
+    "topic": "Illya Kuryaki and the Valderramas",
+    "text": "¡Es hora de sentir la emoción del rock en español en vivo! Los próximos 15 de mayo, en la ciudad de México, se llevará a cabo un concierto épico con uno de los mejores grupos de rock en español. Puedes adquirir tus boletos en Ticketmaster, Vivid Seats o StubHub. ¿Quién va?\n\n🎟️ Boletos: https://www.vividseats.com/concerts\n\nLo Mejor del Rock en Español les presenta: #IllyaKuryakiandtheValderramas\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #IllyaKuryakiandtheValderramas\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "rock concert latinamerica crowd stage",
+    "extra_topics": [],
+    "video_url": null,
+    "concert_url": "https://www.vividseats.com/concerts",
+    "fb_post_id": "1043162839046116_1376644231176786",
+    "ig_post_id": null,
+    "published_at": "2026-04-26T07:09:17.609454+00:00",
+    "error": null,
+    "threads_post_id": null
   }
 ]

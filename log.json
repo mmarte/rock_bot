@@ -71,5 +71,16 @@
     "image_url": "https://i.ytimg.com/vi/CzEbm7yup7g/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-04-26T06:16:40.638517+00:00"
+  },
+  {
+    "post_id": "post_20260426_070857",
+    "fb_post_id": "1043162839046116_1376644231176786",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "concert",
+    "topic": "Illya Kuryaki and the Valderramas",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Illya_kuriaki_and_the_valderramas.JPG",
+    "status": "published",
+    "executed_at": "2026-04-26T07:09:17.609454+00:00"
   }
 ]

@@ -24,7 +24,6 @@ load_dotenv()
 PAGE_ID         = os.getenv("FB_PAGE_ID")
 PAGE_TOKEN      = os.getenv("FB_PAGE_TOKEN")
 PEXELS_KEY      = os.getenv("PEXELS_API_KEY")
-YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 IG_USER_ID      = os.getenv("IG_USER_ID")
 THREADS_USER_ID = os.getenv("THREADS_USER_ID")
 THREADS_TOKEN   = os.getenv("THREADS_TOKEN")
@@ -36,39 +35,140 @@ LOG_FILE        = "log.json"
 # Image fetching — multiple sources
 # ---------------------------------------------------------------------------
 
-def get_youtube_thumbnail(band_or_query):
+# Curated official press/promo images per band
+# These are direct links to freely available press photos and official images
+OFFICIAL_BAND_IMAGES = {
+    "Soda Stereo": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Soda_Stereo_en_el_Me_Ver%C3%A1s_Volver.jpg/1200px-Soda_Stereo_en_el_Me_Ver%C3%A1s_Volver.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Soda_Stereo_en_el_Gran_Rex.jpg/1200px-Soda_Stereo_en_el_Gran_Rex.jpg",
+    ],
+    "Heroes del Silencio": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Heroes_del_Silencio.jpg/1200px-Heroes_del_Silencio.jpg",
+    ],
+    "Maná": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Man%C3%A1_en_el_Palacio_de_los_Deportes.jpg/1200px-Man%C3%A1_en_el_Palacio_de_los_Deportes.jpg",
+    ],
+    "Café Tacvba": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Cafe_Tacuba_en_el_Vive_Latino_2008.jpg/1200px-Cafe_Tacuba_en_el_Vive_Latino_2008.jpg",
+    ],
+    "Molotov": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Molotov_band.jpg/1200px-Molotov_band.jpg",
+    ],
+    "Los Prisioneros": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Los_Prisioneros.jpg/1200px-Los_Prisioneros.jpg",
+    ],
+    "Caifanes": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Caifanes.jpg/1200px-Caifanes.jpg",
+    ],
+    "Gustavo Cerati": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Gustavo_Cerati_2009.jpg/800px-Gustavo_Cerati_2009.jpg",
+    ],
+    "Divididos": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Divididos_en_el_Luna_Park.jpg/1200px-Divididos_en_el_Luna_Park.jpg",
+    ],
+    "Los Fabulosos Cadillacs": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Los_Fabulosos_Cadillacs.jpg/1200px-Los_Fabulosos_Cadillacs.jpg",
+    ],
+    "Bunbury": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Bunbury_en_Madrid.jpg/800px-Bunbury_en_Madrid.jpg",
+    ],
+    "Fito Páez": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Fito_Paez.jpg/800px-Fito_Paez.jpg",
+    ],
+    "Enanitos Verdes": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Enanitos_Verdes.jpg/1200px-Enanitos_Verdes.jpg",
+    ],
+    "Aterciopelados": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Aterciopelados.jpg/1200px-Aterciopelados.jpg",
+    ],
+}
+
+
+def get_official_image(band_name):
     """
-    Search YouTube for a band name and return the thumbnail of the top result.
-    This gives real band/artist images since official videos use band photos.
+    Return a curated official image URL for a band if available.
+    Verifies the URL is accessible before returning it.
     """
-    if not YOUTUBE_API_KEY:
+    urls = OFFICIAL_BAND_IMAGES.get(band_name, [])
+    for url in urls:
+        try:
+            r = requests.head(url, timeout=8, allow_redirects=True)
+            if r.status_code == 200:
+                print("    Official image: " + url[:70] + "...")
+                return url
+        except Exception:
+            continue
+    return None
+
+
+def scrape_official_website(band_name):
+    """
+    Try to find an image from the band's official website by
+    scraping the Open Graph image tag (og:image).
+    Most modern websites include this for social sharing.
+    """
+    # Map of band names to their official websites
+    official_sites = {
+        "Soda Stereo":              "https://www.sodastereo.com",
+        "Maná":                     "https://www.mana.com.mx",
+        "Café Tacvba":              "https://cafetacvba.com",
+        "Heroes del Silencio":      "https://www.heroesdelsilencio.es",
+        "Molotov":                  "https://molotov.com.mx",
+        "Bunbury":                  "https://www.bunbury.es",
+        "Jarabe de Palo":           "https://www.jarabedepalo.com",
+        "Fito Páez":                "https://www.fitopaez.com",
+        "La Ley":                   "https://www.laley.cl",
+        "Babasónicos":              "https://babasónicos.com",
+        "Enanitos Verdes":          "https://evanitosverdes.com",
+        "Los Fabulosos Cadillacs":  "https://losfabulososcadillacs.com",
+        "Rata Blanca":              "https://www.ratablanca.com.ar",
+        "Divididos":                "https://www.divididos.com.ar",
+        "Caifanes":                 "https://caifanes.com.mx",
+        "Aterciopelados":           "https://aterciopelados.com",
+        "Intocable":                "https://www.intocable.com",
+    }
+
+    url = official_sites.get(band_name)
+    if not url:
         return None
+
     try:
         r = requests.get(
-            "https://www.googleapis.com/youtube/v3/search",
-            params={
-                "key":     YOUTUBE_API_KEY,
-                "q":       band_or_query + " official video",
-                "part":    "snippet",
-                "type":    "video",
-                "maxResults": 5,
-            },
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; RockBot/1.0)"},
             timeout=10,
         )
-        r.raise_for_status()
-        items = r.json().get("items", [])
-        if items:
-            # Pick from top results, prefer high-res thumbnail
-            item = items[0]
-            thumbs = item["snippet"]["thumbnails"]
-            # maxres > high > medium > default
-            for quality in ["maxres", "high", "medium", "default"]:
-                if quality in thumbs:
-                    url = thumbs[quality]["url"]
-                    print("    YouTube thumbnail: " + url[:60] + "...")
-                    return url
+        if r.status_code != 200:
+            return None
+
+        html = r.text
+
+        # Look for og:image meta tag
+        import re
+        match = re.search(
+            r'<meta[^>]+(?:property|name)=["\']og:image["\'][^>]+content=["\']([^"\']+)["\'][^>]*>',
+            html, re.IGNORECASE
+        )
+        if not match:
+            # Try reversed attribute order
+            match = re.search(
+                r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']og:image["\'][^>]*>',
+                html, re.IGNORECASE
+            )
+
+        if match:
+            img_url = match.group(1).strip()
+            if img_url.startswith("//"):
+                img_url = "https:" + img_url
+            elif img_url.startswith("/"):
+                from urllib.parse import urlparse
+                parsed = urlparse(url)
+                img_url = parsed.scheme + "://" + parsed.netloc + img_url
+            print("    Official site og:image: " + img_url[:70] + "...")
+            return img_url
+
     except Exception as e:
-        print("    YouTube thumbnail error: " + str(e))
+        print("    Official site error (" + band_name + "): " + str(e))
     return None
 
 
@@ -151,38 +251,47 @@ def get_pexels_fallback(query):
 def get_best_image(band_name, post_type="original", youtube_url=None):
     """
     Get the best available image for a band/topic.
-    Tries sources in order: YouTube thumbnail → Wikipedia → Pexels fallback.
+
+    Priority order:
+    1. YouTube video thumbnail  — for youtube post type only (always relevant)
+    2. Curated official images  — hand-picked press photos per band
+    3. Official band website    — og:image from band's own website
+    4. Wikipedia                — freely licensed band photo
+    5. Pexels                   — generic rock concert (last resort)
     """
     print("  Getting image for: " + band_name)
 
-    # For YouTube posts — use the video's own thumbnail
+    # Layer 1 — For YouTube posts use the video's own thumbnail (always relevant)
     if post_type == "youtube" and youtube_url:
         try:
             video_id = youtube_url.split("v=")[-1].split("&")[0]
             thumb    = "https://img.youtube.com/vi/" + video_id + "/maxresdefault.jpg"
-            # Verify it exists (maxresdefault sometimes 404s)
-            check = requests.head(thumb, timeout=5)
+            check    = requests.head(thumb, timeout=5)
             if check.status_code == 200:
-                print("    Video thumbnail: " + thumb[:60])
+                print("    Video thumbnail (maxres): " + thumb[:60])
                 return thumb
-            # Fall back to hqdefault which always exists
             thumb = "https://img.youtube.com/vi/" + video_id + "/hqdefault.jpg"
             print("    Video thumbnail (hq): " + thumb[:60])
             return thumb
         except Exception as e:
             print("    Video thumbnail error: " + str(e))
 
-    # Try Wikipedia first — best quality band photos
+    # Layer 2 — Curated official images (best quality, verified)
+    img = get_official_image(band_name)
+    if img:
+        return img
+
+    # Layer 3 — Official band website og:image
+    img = scrape_official_website(band_name)
+    if img:
+        return img
+
+    # Layer 4 — Wikipedia (freely licensed band photos)
     img = get_wikipedia_image(band_name)
     if img:
         return img
 
-    # Try YouTube search thumbnail — real band images from official videos
-    img = get_youtube_thumbnail(band_name)
-    if img:
-        return img
-
-    # Pexels as last resort
+    # Layer 5 — Pexels generic (last resort)
     img = get_pexels_fallback(band_name + " rock band")
     if img:
         return img
@@ -194,17 +303,19 @@ def get_best_image(band_name, post_type="original", youtube_url=None):
 def get_poll_images(poll_options):
     """
     Fetch one image per poll option (band/artist).
-    Returns list of image URLs — one per option, skipping None values.
+    Uses the same priority order as get_best_image:
+    curated → official site → Wikipedia → Pexels fallback.
+    Returns list of image URLs — one per option.
     """
     images = []
     for option in poll_options:
-        print("  Poll image for option: " + option)
-        # Try Wikipedia first for real band photos
-        img = get_wikipedia_image(option)
-        if not img:
-            img = get_youtube_thumbnail(option)
-        if not img:
-            img = get_pexels_fallback(option + " rock band")
+        print("  Poll image for: " + option)
+        img = (
+            get_official_image(option)
+            or scrape_official_website(option)
+            or get_wikipedia_image(option)
+            or get_pexels_fallback(option + " rock band")
+        )
         if img:
             images.append(img)
             print("    Got image for: " + option)
