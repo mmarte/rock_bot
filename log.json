@@ -82,5 +82,16 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Illya_kuriaki_and_the_valderramas.JPG",
     "status": "published",
     "executed_at": "2026-04-26T07:09:17.609454+00:00"
+  },
+  {
+    "post_id": "post_20260426_140136",
+    "fb_post_id": "1043162839046116_1376894854485057",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "poll",
+    "topic": "Bersuit Vergarabat",
+    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
+    "status": "published",
+    "executed_at": "2026-04-26T14:01:37.350532+00:00"
   }
 ]
