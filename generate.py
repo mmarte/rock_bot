@@ -139,12 +139,11 @@ def clean_tag(text):
     )
 
 
-def build_hashtags(band, extra_tags=None):
+def build_hashtags(band, extra_tags=None, post_type="original"):
     """
-    Build hashtag footer matching the page style.
-    Includes the main band + any extra artists/songs mentioned.
-    No country-specific hashtags.
-    extra_tags: list of additional band/artist names to include
+    Build hashtag footer.
+    "Lo Mejor del Rock en Español les presenta:" only appears on YouTube posts.
+    All other posts just get hashtags + follow CTA.
     """
     band_tag  = clean_tag(band)
     core_tags = "#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol"
@@ -152,17 +151,24 @@ def build_hashtags(band, extra_tags=None):
     # Build band tags — main band first, then any extras
     band_tags = "#" + band_tag
     if extra_tags:
-        for t in extra_tags[:3]:   # max 3 extra to keep it clean
+        for t in extra_tags[:3]:
             cleaned = clean_tag(t)
             if cleaned and cleaned.lower() != band_tag.lower():
                 band_tags += " #" + cleaned
 
-    footer = (
-        "\n\n"
-        "Lo Mejor del Rock en Español les presenta: " + band_tags + "\n\n"
-        + core_tags + " " + band_tags + "\n\n"
-        "🎸 Síguenos para más rock en español → @mejorrockespanol"
-    )
+    if post_type == "youtube":
+        footer = (
+            "\n\n"
+            "Lo Mejor del Rock en Español les presenta: " + band_tags + "\n\n"
+            + core_tags + " " + band_tags + "\n\n"
+            "🎸 Síguenos para más rock en español → @mejorrockespanol"
+        )
+    else:
+        footer = (
+            "\n\n"
+            + core_tags + " " + band_tags + "\n\n"
+            "🎸 Síguenos para más rock en español → @mejorrockespanol"
+        )
     return footer
 
 # ---------------------------------------------------------------------------
@@ -475,8 +481,10 @@ def generate_post():
     extra_tags  = [b for b in BANDS if b != band and b in text_so_far]
 
     # Append hashtags + follow CTA to every post
-    hashtags     = build_hashtags(data.get("topic", band), extra_tags=extra_tags)
-    data["text"] = data["text"].rstrip() + hashtags
+    # "Lo Mejor del Rock en Español les presenta:" only on YouTube posts
+    actual_post_type = data.get("post_type", post_type)
+    hashtags         = build_hashtags(data.get("topic", band), extra_tags=extra_tags, post_type=actual_post_type)
+    data["text"]     = data["text"].rstrip() + hashtags
 
     # Collect all bands/artists mentioned in the text for image matching
     text_so_far  = data.get("text", "")

@@ -5,14 +5,17 @@
     "Maldita Vecindad",
     "Santa Sabina",
     "Molotov",
-    "Illya Kuryaki and the Valderramas"
+    "Illya Kuryaki and the Valderramas",
+    "Los Rodríguez",
+    "Fito Páez"
   ],
   "used_poll_indices": [
     4,
-    13
+    13,
+    7
   ],
   "original_type_index": 2,
-  "last_updated": "2026-04-26T07:08:58.477453+00:00",
-  "post_type_index": 5,
-  "total_posts": 5
+  "last_updated": "2026-04-27T05:11:35.468578+00:00",
+  "post_type_index": 7,
+  "total_posts": 7
 }

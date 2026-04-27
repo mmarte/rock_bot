@@ -50,9 +50,12 @@ jobs:
           FB_PAGE_TOKEN:  ${{ secrets.FB_PAGE_TOKEN }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           IG_USER_ID:      ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           THREADS_TOKEN:   ${{ secrets.THREADS_TOKEN }}
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          REPORT_EMAIL:    ${{ secrets.REPORT_EMAIL }}
+          SMTP_USER:       ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD:   ${{ secrets.SMTP_PASSWORD }}
         run: python publish.py
 
       - name: Save updated files back to repo

@@ -16,6 +16,9 @@ import json
 import os
 import random
 import requests
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timezone
 from dotenv import load_dotenv
 
@@ -25,8 +28,14 @@ PAGE_ID         = os.getenv("FB_PAGE_ID")
 PAGE_TOKEN      = os.getenv("FB_PAGE_TOKEN")
 PEXELS_KEY      = os.getenv("PEXELS_API_KEY")
 IG_USER_ID      = os.getenv("IG_USER_ID")
+IG_ACCESS_TOKEN = os.getenv("IG_ACCESS_TOKEN")  # separate token from Instagram use case
 THREADS_USER_ID = os.getenv("THREADS_USER_ID")
 THREADS_TOKEN   = os.getenv("THREADS_TOKEN")
+SMTP_USER       = os.getenv("SMTP_USER")
+SMTP_PASSWORD   = os.getenv("SMTP_PASSWORD")
+REPORT_EMAIL    = os.getenv("REPORT_EMAIL")
+SMTP_HOST       = os.getenv("SMTP_HOST", "smtp.gmail.com")
+SMTP_PORT       = int(os.getenv("SMTP_PORT", "587"))
 POSTS_FILE      = "posts.json"
 LOG_FILE        = "log.json"
 
@@ -444,10 +453,12 @@ def post_to_facebook_multi(text, image_urls):
 def post_to_instagram(text, image_url):
     if not IG_USER_ID or not image_url:
         return None
+    # Use the Instagram-specific token, fall back to page token if not set
+    ig_token = IG_ACCESS_TOKEN or PAGE_TOKEN
     try:
         container_r = requests.post(
             "https://graph.facebook.com/v19.0/" + IG_USER_ID + "/media",
-            data={"image_url": image_url, "caption": text, "access_token": PAGE_TOKEN},
+            data={"image_url": image_url, "caption": text, "access_token": ig_token},
             timeout=15,
         )
         container = container_r.json()
@@ -459,7 +470,7 @@ def post_to_instagram(text, image_url):
             return None
         publish_r = requests.post(
             "https://graph.facebook.com/v19.0/" + IG_USER_ID + "/media_publish",
-            data={"creation_id": container_id, "access_token": PAGE_TOKEN},
+            data={"creation_id": container_id, "access_token": ig_token},
             timeout=15,
         )
         result = publish_r.json()
@@ -510,6 +521,120 @@ def post_to_threads(text, image_url):
     except Exception as e:
         print("  Threads error: " + str(e))
         return None
+
+
+# ---------------------------------------------------------------------------
+# Social media email notification
+# ---------------------------------------------------------------------------
+
+def send_social_email(post):
+    """
+    Send an email with instructions to manually post on X (Twitter) and TikTok.
+    Includes the full post text, hashtags, and platform-specific tips.
+    """
+    if not all([SMTP_USER, SMTP_PASSWORD, REPORT_EMAIL]):
+        print("  Email: not configured (set SMTP_USER, SMTP_PASSWORD, REPORT_EMAIL)")
+        return
+
+    ptype   = post.get("post_type", "original")
+    topic   = post.get("topic", "")
+    text    = post.get("text", "")
+    vid_url = post.get("video_url", "")
+
+    # Build X version (280 char limit — trim if needed)
+    x_text = text
+    # Remove hashtag block for X — X handles hashtags differently
+    if "\n\n#" in x_text:
+        x_text = x_text.split("\n\n#")[0].strip()
+    # Add 2-3 key hashtags back
+    x_text += "\n\n#RockEnEspañol #LoMejordelRockenEspañol"
+    if vid_url:
+        x_text += "\n" + vid_url
+    # Trim to 280 chars if needed
+    if len(x_text) > 280:
+        x_text = x_text[:276] + "..."
+
+    # TikTok caption (150 chars recommended, 2200 max)
+    tiktok_text = text
+    if "\n\n#" in tiktok_text:
+        # Keep hashtags for TikTok — they drive discovery
+        pass
+    tiktok_caption = tiktok_text[:2200]
+
+    now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+    body = """
+=================================================
+Lo Mejor del Rock en Español — Post Notification
+{now}
+=================================================
+
+Topic    : {topic}
+Post type: {ptype}
+
+-------------------------------------------------
+FULL POST TEXT (Facebook/Instagram/Threads):
+-------------------------------------------------
+{text}
+
+=================================================
+X (TWITTER) — Copy and paste this:
+=================================================
+{x_text}
+
+INSTRUCTIONS FOR X:
+1. Go to x.com or open X app
+2. Click the + or compose button
+3. Paste the text above
+4. If it's a YouTube post, the link will auto-preview
+5. Post!
+
+=================================================
+TIKTOK — Steps to post:
+=================================================
+Caption to use:
+{tiktok_caption}
+
+INSTRUCTIONS FOR TIKTOK:
+1. Open TikTok app
+2. Tap the + button
+3. Record a 15-60 sec video OR upload a clip
+   - For YouTube posts: screen-record the YouTube video
+   - For polls: use a trending audio + text overlay with the poll question
+   - For original posts: use a relevant rock concert clip from your camera roll
+4. Paste the caption above
+5. Add relevant sounds/music
+6. Post!
+
+=================================================
+Post ID: {post_id}
+=================================================
+""".format(
+        now           = now_str,
+        topic         = topic,
+        ptype         = ptype,
+        text          = text,
+        x_text        = x_text,
+        tiktok_caption = tiktok_caption[:500] + ("..." if len(tiktok_caption) > 500 else ""),
+        post_id       = post.get("id", "?"),
+    )
+
+    try:
+        msg = MIMEMultipart()
+        msg["Subject"] = "Rock Bot Post: " + topic + " [" + ptype + "] — " + now_str
+        msg["From"]    = SMTP_USER
+        msg["To"]      = REPORT_EMAIL
+        msg.attach(MIMEText(body, "plain", "utf-8"))
+
+        with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as server:
+            server.ehlo()
+            server.starttls()
+            server.login(SMTP_USER, SMTP_PASSWORD)
+            server.sendmail(SMTP_USER, REPORT_EMAIL, msg.as_string())
+
+        print("  Email     : Sent to " + REPORT_EMAIL)
+    except Exception as e:
+        print("  Email     : Failed — " + str(e))
 
 
 # ---------------------------------------------------------------------------
@@ -645,6 +770,9 @@ def run():
     pending_count   = sum(1 for p in posts if p["status"] == "pending")
     published_count = sum(1 for p in posts if p["status"] == "published")
     print("  Queue     : " + str(pending_count) + " pending | " + str(published_count) + " published")
+
+    # Send email with X/TikTok posting instructions
+    send_social_email(post)
 
 
 if __name__ == "__main__":

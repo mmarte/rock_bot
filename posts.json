@@ -112,5 +112,39 @@
     "published_at": "2026-04-26T07:09:17.609454+00:00",
     "error": null,
     "threads_post_id": null
+  },
+  {
+    "id": "post_20260427_045619",
+    "status": "published",
+    "created_at": "2026-04-27T04:56:19.535630+00:00",
+    "post_type": "poll",
+    "topic": "Los Rodríguez",
+    "text": "¿Estás listo para decidir entre dos de las escenas roqueras más vibrantes de América Latina? El rock argentino y el rock mexicano han producido algunos de los mejores grupos y canciones de la historia. Desde la pasión y el fuego de los grupos argentinos hasta la energía y la creatividad de los mexicanos, cada uno tiene su propio estilo y esencia. Opciones: \n   👍 Rock argentino siempre\n   ❤️ Rock mexicano para siempre\n   😮 ¡Los dos son iguales!\n   ¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRodriguez\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Rodriguez Spain rock band",
+    "extra_topics": [],
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1377424521098757",
+    "ig_post_id": null,
+    "published_at": "2026-04-27T04:56:34.393885+00:00",
+    "error": null,
+    "threads_post_id": null
+  },
+  {
+    "id": "post_20260427_051133",
+    "status": "published",
+    "created_at": "2026-04-27T05:11:33.627953+00:00",
+    "post_type": "youtube",
+    "topic": "Fito Páez",
+    "text": "Fito Páez es un genio de la música argentina, su capacidad para fusionar el rock con el piano es simplemente única. En 'Mariposa tecknicolor', podemos apreciar su habilidad para crear melodías cautivadoras y letras poéticas. El álbum 'Circo Beat' es un clásico de la música en español y esta canción es una de las joyas que lo componen. La forma en que Fito Páez maneja el piano es magistral, lo que lo convierte en uno de los músicos más respetados de su generación. ¿Cuál es tu canción favorita de Fito Páez?\n\nhttps://www.youtube.com/watch?v=CRBincBc_8k\n\nLo Mejor del Rock en Español les presenta: #FitoPaez\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FitoPaez\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Fito Paez Argentina rock piano",
+    "extra_topics": [],
+    "video_url": "https://www.youtube.com/watch?v=CRBincBc_8k",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1377432777764598",
+    "ig_post_id": null,
+    "published_at": "2026-04-27T05:11:43.361875+00:00",
+    "error": null,
+    "threads_post_id": null
   }
 ]
