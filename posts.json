@@ -218,5 +218,22 @@
     "published_at": "2026-04-27T18:04:41.491988+00:00",
     "error": null,
     "threads_post_id": null
+  },
+  {
+    "id": "post_20260427_215603",
+    "status": "published",
+    "created_at": "2026-04-27T21:56:03.358291+00:00",
+    "post_type": "original",
+    "topic": "Café Tacvba",
+    "text": "Recuerdo el concierto de Café Tacvba en el Festival Iberoamericano de Teatro de Bogotá en 2014, fue increíble. La energía de Rubén Albarrán y la banda fue contagiosa. ¿Cuál es tu recuerdo favorito de un concierto de Café Tacvba?\n\nLo Mejor del Rock en Español les presenta: #CafeTacvba\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Cafe Tacvba Mexico alternative rock band",
+    "extra_topics": [],
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1378069837700892",
+    "ig_post_id": null,
+    "published_at": "2026-04-27T21:56:04.207560+00:00",
+    "error": null,
+    "threads_post_id": null
   }
 ]
