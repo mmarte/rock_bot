@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Enanitos Verdes",
     "Maldita Vecindad",
     "Santa Sabina",
     "Molotov",
@@ -9,7 +8,8 @@
     "Panteon Rococo",
     "Hombres G",
     "Fito Páez",
-    "Caifanes"
+    "Caifanes",
+    "Los de Abajo"
   ],
   "used_poll_indices": [
     4,
@@ -18,7 +18,7 @@
     12
   ],
   "original_type_index": 4,
-  "last_updated": "2026-04-27T15:00:06.963296+00:00",
-  "post_type_index": 2,
-  "total_posts": 10
+  "last_updated": "2026-04-27T18:04:41.325256+00:00",
+  "post_type_index": 3,
+  "total_posts": 11
 }

@@ -137,5 +137,16 @@
     "image_url": null,
     "status": "published",
     "executed_at": "2026-04-27T15:00:07.148841+00:00"
+  },
+  {
+    "post_id": "post_20260427_180439",
+    "fb_post_id": "1043162839046116_1377940647713811",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "youtube",
+    "topic": "Los de Abajo",
+    "image_url": "https://img.youtube.com/vi/iOKOZzi0Mmo/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-04-27T18:04:41.491988+00:00"
   }
 ]

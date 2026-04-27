@@ -201,5 +201,22 @@
     "published_at": "2026-04-27T15:00:07.148841+00:00",
     "error": null,
     "threads_post_id": null
+  },
+  {
+    "id": "post_20260427_180439",
+    "status": "published",
+    "created_at": "2026-04-27T18:04:39.862968+00:00",
+    "post_type": "youtube",
+    "topic": "Los de Abajo",
+    "text": "La energía de Los de Abajo en vivo es simplemente contagiosa. Me encanta cómo han evolucionado a lo largo de los años, manteniendo su raíz ska pero incorporando otros ritmos y estilos. De Marcha es uno de esos temas que siempre me hace querer bailar. ¿Cuál es su canción favorita de esta icónica banda mexicana?\n\nhttps://www.youtube.com/watch?v=iOKOZzi0Mmo\n\nLo Mejor del Rock en Español les presenta: #LosdeAbajo\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosdeAbajo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los de Abajo Mexico ska rock band",
+    "extra_topics": [],
+    "video_url": "https://www.youtube.com/watch?v=iOKOZzi0Mmo",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1377940647713811",
+    "ig_post_id": null,
+    "published_at": "2026-04-27T18:04:41.491988+00:00",
+    "error": null,
+    "threads_post_id": null
   }
 ]
