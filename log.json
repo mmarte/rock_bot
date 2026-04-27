@@ -115,5 +115,16 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hombres_G_en_el_estudio_cantando.jpg",
     "status": "published",
     "executed_at": "2026-04-26T21:42:03.340249+00:00"
+  },
+  {
+    "post_id": "post_20260427_042648",
+    "fb_post_id": "1043162839046116_1377404494434093",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "original",
+    "topic": "Fito Páez",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Homenaje_Gustavo_Cerati_%2815528982867%29_%28cropped%29.jpg",
+    "status": "published",
+    "executed_at": "2026-04-27T04:26:49.993262+00:00"
   }
 ]
