@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Gustavo Cerati",
     "Enanitos Verdes",
     "Maldita Vecindad",
     "Santa Sabina",
@@ -9,15 +8,17 @@
     "Bersuit Vergarabat",
     "Panteon Rococo",
     "Hombres G",
-    "Fito Páez"
+    "Fito Páez",
+    "Caifanes"
   ],
   "used_poll_indices": [
     4,
     13,
-    8
+    8,
+    12
   ],
   "original_type_index": 4,
-  "last_updated": "2026-04-27T04:26:49.808366+00:00",
-  "post_type_index": 1,
-  "total_posts": 9
+  "last_updated": "2026-04-27T15:00:06.963296+00:00",
+  "post_type_index": 2,
+  "total_posts": 10
 }
