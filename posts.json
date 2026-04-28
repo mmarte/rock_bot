@@ -252,5 +252,25 @@
     "published_at": "2026-04-28T04:30:37.750926+00:00",
     "error": null,
     "threads_post_id": null
+  },
+  {
+    "id": "post_20260428_152017",
+    "status": "published",
+    "created_at": "2026-04-28T15:20:17.749573+00:00",
+    "post_type": "poll",
+    "topic": "Maná",
+    "text": "La música en español ha producido algunos de los álbumes más icónicos de la historia. Desde la energía contagiosa de Soda Stereo hasta la poesía de Heroes del Silencio, y la magia de Maná, cada uno ha dejado su huella en el corazón de los fans. Ahora, tienes la oportunidad de elegir cuál consideras el más influyente. ¿Cuál es tu opción? \n   Opción A: Doble Vida - Soda Stereo 👍\n   Opción B: El Espíritu del Vino - Heroes del Silencio ❤️\n   Opción C: Donde Jugaran los Niños - Maná 😮\n   ¡Vota con tu reacción! 👍❤️😮\n\nLo Mejor del Rock en Español les presenta: #Mana #SodaStereo #HeroesdelSilencio\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #SodaStereo #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Mana band Mexico rock concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Heroes del Silencio"
+    ],
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1378658360975373",
+    "ig_post_id": null,
+    "published_at": "2026-04-28T15:20:18.769636+00:00",
+    "error": null,
+    "threads_post_id": null
   }
 ]

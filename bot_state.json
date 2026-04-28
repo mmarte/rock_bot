@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Molotov",
     "Illya Kuryaki and the Valderramas",
     "Bersuit Vergarabat",
     "Panteon Rococo",
@@ -9,16 +8,18 @@
     "Caifanes",
     "Los de Abajo",
     "Café Tacvba",
-    "Aterciopelados"
+    "Aterciopelados",
+    "Maná"
   ],
   "used_poll_indices": [
     4,
     13,
     8,
-    12
+    12,
+    6
   ],
   "original_type_index": 5,
-  "last_updated": "2026-04-28T04:30:37.564616+00:00",
-  "post_type_index": 5,
-  "total_posts": 13
+  "last_updated": "2026-04-28T15:20:18.574195+00:00",
+  "post_type_index": 6,
+  "total_posts": 14
 }
