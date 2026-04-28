@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Illya Kuryaki and the Valderramas",
     "Bersuit Vergarabat",
     "Panteon Rococo",
     "Hombres G",
@@ -9,7 +8,8 @@
     "Los de Abajo",
     "Café Tacvba",
     "Aterciopelados",
-    "Maná"
+    "Maná",
+    "Divididos"
   ],
   "used_poll_indices": [
     4,
@@ -19,7 +19,7 @@
     6
   ],
   "original_type_index": 5,
-  "last_updated": "2026-04-28T15:20:18.574195+00:00",
-  "post_type_index": 6,
-  "total_posts": 14
+  "last_updated": "2026-04-28T18:15:53.910906+00:00",
+  "post_type_index": 7,
+  "total_posts": 15
 }

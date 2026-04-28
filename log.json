@@ -181,5 +181,16 @@
     "image_url": "https://www.sodastereo.com/img/image_src.jpg",
     "status": "published",
     "executed_at": "2026-04-28T15:20:18.769636+00:00"
+  },
+  {
+    "post_id": "post_20260428_181552",
+    "fb_post_id": "1043162839046116_1378770484297494",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "youtube",
+    "topic": "Divididos",
+    "image_url": "https://img.youtube.com/vi/FTUnujHts6w/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-04-28T18:15:54.093564+00:00"
   }
 ]
