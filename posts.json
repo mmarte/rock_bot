@@ -289,5 +289,21 @@
     "published_at": "2026-04-28T18:15:54.093564+00:00",
     "error": null,
     "threads_post_id": null
+  },
+  {
+    "id": "post_20260428_220224",
+    "status": "failed",
+    "created_at": "2026-04-28T22:02:24.628785+00:00",
+    "post_type": "original",
+    "topic": "Los Fabulosos Cadillacs",
+    "text": "¿Sabías que Los Fabulosos Cadillacs, una de las bandas más emblemáticas del rock en español, colaboraron con el famoso músico Debbie Harry, vocalista de Blondie, en su álbum 'Rey Azúcar' lanzado en 1995? Esta colaboración inesperada nos dio el increíble tema 'Strawberry Fields Forever', una versión única de la clásica canción de The Beatles. ¿Cuál es tu colaboración favorita de Los Fabulosos Cadillacs?\n\nLo Mejor del Rock en Español les presenta: #LosFabulososCadillacs\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Fabulosos Cadillacs Argentina ska rock",
+    "extra_topics": [],
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]

@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Bersuit Vergarabat",
     "Panteon Rococo",
     "Hombres G",
     "Fito Páez",
@@ -9,7 +8,8 @@
     "Café Tacvba",
     "Aterciopelados",
     "Maná",
-    "Divididos"
+    "Divididos",
+    "Los Fabulosos Cadillacs"
   ],
   "used_poll_indices": [
     4,
@@ -18,8 +18,8 @@
     12,
     6
   ],
-  "original_type_index": 5,
-  "last_updated": "2026-04-28T18:15:53.910906+00:00",
-  "post_type_index": 7,
-  "total_posts": 15
+  "original_type_index": 6,
+  "last_updated": "2026-04-28T22:02:25.413125+00:00",
+  "post_type_index": 8,
+  "total_posts": 16
 }
