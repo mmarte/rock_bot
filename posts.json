@@ -235,5 +235,22 @@
     "published_at": "2026-04-27T21:56:04.207560+00:00",
     "error": null,
     "threads_post_id": null
+  },
+  {
+    "id": "post_20260428_043036",
+    "status": "published",
+    "created_at": "2026-04-28T04:30:36.363127+00:00",
+    "post_type": "concert",
+    "topic": "Aterciopelados",
+    "text": "¡Atención todos los fanáticos del rock en español! ¡Es hora de vivir la emoción de un concierto en vivo! ¿Estás listo para sentir el rugido de la guitarra, el latido del bajo y la energía de la batería? Puedes encontrar los mejores boletos en Ticketmaster, Vivid Seats y StubHub. ¡No te pierdas la oportunidad de ver a tus artistas favoritos sobre el escenario! ¿Quién va a un concierto pronto?\n\n🎟️ Boletos: https://www.vividseats.com/concerts\n\nLo Mejor del Rock en Español les presenta: #Aterciopelados\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "rock concert latinamerica crowd stage",
+    "extra_topics": [],
+    "video_url": null,
+    "concert_url": "https://www.vividseats.com/concerts",
+    "fb_post_id": "1043162839046116_1378267574347785",
+    "ig_post_id": null,
+    "published_at": "2026-04-28T04:30:37.750926+00:00",
+    "error": null,
+    "threads_post_id": null
   }
 ]
