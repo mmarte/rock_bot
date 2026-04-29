@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Caifanes",
     "Los de Abajo",
     "Café Tacvba",
     "Aterciopelados",
@@ -9,7 +8,8 @@
     "Los Fabulosos Cadillacs",
     "Jarabe de Palo",
     "Los Rodríguez",
-    "Rata Blanca"
+    "Rata Blanca",
+    "Molotov"
   ],
   "used_poll_indices": [
     4,
@@ -19,8 +19,8 @@
     6,
     11
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-04-29T18:11:20.101261+00:00",
-  "post_type_index": 3,
-  "total_posts": 19
+  "original_type_index": 2,
+  "last_updated": "2026-04-29T22:02:05.249944+00:00",
+  "post_type_index": 4,
+  "total_posts": 20
 }
