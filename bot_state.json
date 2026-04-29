@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Hombres G",
     "Fito Páez",
     "Caifanes",
     "Los de Abajo",
@@ -9,17 +8,19 @@
     "Maná",
     "Divididos",
     "Los Fabulosos Cadillacs",
-    "Jarabe de Palo"
+    "Jarabe de Palo",
+    "Los Rodríguez"
   ],
   "used_poll_indices": [
     4,
     13,
     8,
     12,
-    6
+    6,
+    11
   ],
   "original_type_index": 1,
-  "last_updated": "2026-04-29T04:25:18.666564+00:00",
-  "post_type_index": 1,
-  "total_posts": 17
+  "last_updated": "2026-04-29T15:05:51.476502+00:00",
+  "post_type_index": 2,
+  "total_posts": 18
 }

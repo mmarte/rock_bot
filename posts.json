@@ -322,5 +322,26 @@
     "published_at": "2026-04-29T04:25:18.855717+00:00",
     "error": null,
     "threads_post_id": null
+  },
+  {
+    "id": "post_20260429_150550",
+    "status": "published",
+    "created_at": "2026-04-29T15:05:50.513562+00:00",
+    "post_type": "poll",
+    "topic": "Los Rodríguez",
+    "text": "La intro de guitarra puede hacer que una canción sea inolvidable. Cuando hablamos de rock en español, hay varias que destacan por su genialidad y habilidad para emocionar. De Música Ligera de Gustavo Cerati, La Chispa Adecuada de Divididos y Matador de Los Fabulosos Cadillacs son algunas de las más icónicas. Las opciones son: \n   👍 De Música Ligera - Cerati\n   ❤️ La Chispa Adecuada - Divididos\n   😮 Matador - Los Fabulosos Cadillacs\n   ¡Vota con tu reacción! 👍❤️😮\n\nLo Mejor del Rock en Español les presenta: #LosRodriguez #LosFabulososCadillacs #Divididos #GustavoCerati\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRodriguez #LosFabulososCadillacs #Divididos #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Rodriguez Spain rock band",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs",
+      "Divididos",
+      "Gustavo Cerati"
+    ],
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1379486660892543",
+    "ig_post_id": null,
+    "published_at": "2026-04-29T15:05:51.662349+00:00",
+    "error": null,
+    "threads_post_id": null
   }
 ]

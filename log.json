@@ -209,5 +209,16 @@
     "image_url": "https://cdn.prod.website-files.com/5ef1c60510b93f97d2e589bc/60b9dadfe26d21fa58c31246_imagen-meta.jpg",
     "status": "published",
     "executed_at": "2026-04-29T04:25:18.855717+00:00"
+  },
+  {
+    "post_id": "post_20260429_150550",
+    "fb_post_id": "1043162839046116_1379486660892543",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "poll",
+    "topic": "Los Rodríguez",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
+    "status": "published",
+    "executed_at": "2026-04-29T15:05:51.662349+00:00"
   }
 ]
