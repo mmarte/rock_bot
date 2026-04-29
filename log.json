@@ -220,5 +220,16 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
     "status": "published",
     "executed_at": "2026-04-29T15:05:51.662349+00:00"
+  },
+  {
+    "post_id": "post_20260429_181118",
+    "fb_post_id": "1043162839046116_1379616327546243",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "youtube",
+    "topic": "Rata Blanca",
+    "image_url": "https://img.youtube.com/vi/0HGE_UVTYPE/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-04-29T18:11:20.304836+00:00"
   }
 ]

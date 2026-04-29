@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Fito Páez",
     "Caifanes",
     "Los de Abajo",
     "Café Tacvba",
@@ -9,7 +8,8 @@
     "Divididos",
     "Los Fabulosos Cadillacs",
     "Jarabe de Palo",
-    "Los Rodríguez"
+    "Los Rodríguez",
+    "Rata Blanca"
   ],
   "used_poll_indices": [
     4,
@@ -20,7 +20,7 @@
     11
   ],
   "original_type_index": 1,
-  "last_updated": "2026-04-29T15:05:51.476502+00:00",
-  "post_type_index": 2,
-  "total_posts": 18
+  "last_updated": "2026-04-29T18:11:20.101261+00:00",
+  "post_type_index": 3,
+  "total_posts": 19
 }
