@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Aterciopelados",
     "Maná",
     "Divididos",
     "Los Fabulosos Cadillacs",
@@ -9,7 +8,8 @@
     "Rata Blanca",
     "Molotov",
     "Bersuit Vergarabat",
-    "Fito Páez"
+    "Fito Páez",
+    "Intocable"
   ],
   "used_poll_indices": [
     4,
@@ -21,7 +21,7 @@
     15
   ],
   "original_type_index": 2,
-  "last_updated": "2026-04-30T15:02:16.037392+00:00",
-  "post_type_index": 6,
-  "total_posts": 22
+  "last_updated": "2026-04-30T18:09:15.192759+00:00",
+  "post_type_index": 7,
+  "total_posts": 23
 }
