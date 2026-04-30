@@ -242,5 +242,11 @@
     "image_url": null,
     "status": "published",
     "executed_at": "2026-04-29T22:02:05.434415+00:00"
+  },
+  {
+    "post_id": "post_20260430_042837",
+    "status": "failed",
+    "error": "FB error 100: Invalid parameter",
+    "executed_at": "2026-04-30T04:28:38.518751+00:00"
   }
 ]
