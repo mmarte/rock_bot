@@ -431,5 +431,21 @@
     "published_at": "2026-04-30T18:09:15.400334+00:00",
     "error": null,
     "threads_post_id": null
+  },
+  {
+    "id": "post_20260430_215915",
+    "status": "failed",
+    "created_at": "2026-04-30T21:59:15.074362+00:00",
+    "post_type": "original",
+    "topic": "Panteon Rococo",
+    "text": "Panteon Rococo es una de las bandas más emblemáticas del rock en español, especialmente dentro del género ska. Formada en 1995 en la Ciudad de México, la banda ha recorrido un largo camino lleno de éxitos y adversidades. Su álbum más icónico, 'Cometierra', lanzado en 2001, marcó un punto de inflexión en su carrera, destacándose por su energía y mezcla única de ritmos. Detrás de este álbum hay una historia de dedicación y pasión. ¿Cuál es tu canción favorita de Panteon Rococo y por qué te gusta?\n\nLo Mejor del Rock en Español les presenta: #PanteonRococo\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #PanteonRococo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Panteon Rococo Mexico ska band concert",
+    "extra_topics": [],
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]
