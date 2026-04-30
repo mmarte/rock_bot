@@ -248,5 +248,16 @@
     "status": "failed",
     "error": "FB error 100: Invalid parameter",
     "executed_at": "2026-04-30T04:28:38.518751+00:00"
+  },
+  {
+    "post_id": "post_20260430_150215",
+    "fb_post_id": "1043162839046116_1380349610806248",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "poll",
+    "topic": "Fito Páez",
+    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
+    "status": "published",
+    "executed_at": "2026-04-30T15:02:16.219319+00:00"
   }
 ]

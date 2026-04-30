@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Café Tacvba",
     "Aterciopelados",
     "Maná",
     "Divididos",
@@ -9,7 +8,8 @@
     "Los Rodríguez",
     "Rata Blanca",
     "Molotov",
-    "Bersuit Vergarabat"
+    "Bersuit Vergarabat",
+    "Fito Páez"
   ],
   "used_poll_indices": [
     4,
@@ -17,10 +17,11 @@
     8,
     12,
     6,
-    11
+    11,
+    15
   ],
   "original_type_index": 2,
-  "last_updated": "2026-04-30T04:28:38.299980+00:00",
-  "post_type_index": 5,
-  "total_posts": 21
+  "last_updated": "2026-04-30T15:02:16.037392+00:00",
+  "post_type_index": 6,
+  "total_posts": 22
 }
