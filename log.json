@@ -84,25 +84,197 @@
     "executed_at": "2026-04-26T07:09:17.609454+00:00"
   },
   {
-    "post_id": "post_20260427_045619",
-    "fb_post_id": "1043162839046116_1377424521098757",
+    "post_id": "post_20260426_140136",
+    "fb_post_id": "1043162839046116_1376894854485057",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "poll",
+    "topic": "Bersuit Vergarabat",
+    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
+    "status": "published",
+    "executed_at": "2026-04-26T14:01:37.350532+00:00"
+  },
+  {
+    "post_id": "post_20260426_173642",
+    "fb_post_id": "1043162839046116_1377047191136490",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "youtube",
+    "topic": "Panteon Rococo",
+    "image_url": "https://img.youtube.com/vi/4HXcmlKY_xw/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-04-26T17:36:43.727800+00:00"
+  },
+  {
+    "post_id": "post_20260426_214202",
+    "fb_post_id": "1043162839046116_1377185054456037",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "original",
+    "topic": "Hombres G",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hombres_G_en_el_estudio_cantando.jpg",
+    "status": "published",
+    "executed_at": "2026-04-26T21:42:03.340249+00:00"
+  },
+  {
+    "post_id": "post_20260427_042648",
+    "fb_post_id": "1043162839046116_1377404494434093",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "original",
+    "topic": "Fito Páez",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Homenaje_Gustavo_Cerati_%2815528982867%29_%28cropped%29.jpg",
+    "status": "published",
+    "executed_at": "2026-04-27T04:26:49.993262+00:00"
+  },
+  {
+    "post_id": "post_20260427_150005",
+    "fb_post_id": "1043162839046116_1377811871060022",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "poll",
+    "topic": "Caifanes",
+    "image_url": null,
+    "status": "published",
+    "executed_at": "2026-04-27T15:00:07.148841+00:00"
+  },
+  {
+    "post_id": "post_20260427_180439",
+    "fb_post_id": "1043162839046116_1377940647713811",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "youtube",
+    "topic": "Los de Abajo",
+    "image_url": "https://img.youtube.com/vi/iOKOZzi0Mmo/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-04-27T18:04:41.491988+00:00"
+  },
+  {
+    "post_id": "post_20260427_215603",
+    "fb_post_id": "1043162839046116_1378069837700892",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "original",
+    "topic": "Café Tacvba",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cafe_Tacuba_1.jpg",
+    "status": "published",
+    "executed_at": "2026-04-27T21:56:04.207560+00:00"
+  },
+  {
+    "post_id": "post_20260428_043036",
+    "fb_post_id": "1043162839046116_1378267574347785",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "concert",
+    "topic": "Aterciopelados",
+    "image_url": "https://static.wixstatic.com/media/b524ac_937a3a78474545fd9b0e8c088bb0fa12%7Emv2.png/v1/fit/w_2500,h_1330,al_c/b524ac_937a3a78474545fd9b0e8c088bb0fa12%7Emv2.png",
+    "status": "published",
+    "executed_at": "2026-04-28T04:30:37.750926+00:00"
+  },
+  {
+    "post_id": "post_20260428_152017",
+    "fb_post_id": "1043162839046116_1378658360975373",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "poll",
+    "topic": "Maná",
+    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
+    "status": "published",
+    "executed_at": "2026-04-28T15:20:18.769636+00:00"
+  },
+  {
+    "post_id": "post_20260428_181552",
+    "fb_post_id": "1043162839046116_1378770484297494",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "youtube",
+    "topic": "Divididos",
+    "image_url": "https://img.youtube.com/vi/FTUnujHts6w/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-04-28T18:15:54.093564+00:00"
+  },
+  {
+    "post_id": "post_20260428_220224",
+    "status": "failed",
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
+    "executed_at": "2026-04-28T22:02:25.597019+00:00"
+  },
+  {
+    "post_id": "post_20260429_042517",
+    "fb_post_id": "1043162839046116_1379098414264701",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "original",
+    "topic": "Jarabe de Palo",
+    "image_url": "https://cdn.prod.website-files.com/5ef1c60510b93f97d2e589bc/60b9dadfe26d21fa58c31246_imagen-meta.jpg",
+    "status": "published",
+    "executed_at": "2026-04-29T04:25:18.855717+00:00"
+  },
+  {
+    "post_id": "post_20260429_150550",
+    "fb_post_id": "1043162839046116_1379486660892543",
     "ig_post_id": null,
     "threads_post_id": null,
     "post_type": "poll",
     "topic": "Los Rodríguez",
-    "image_url": "https://images.pexels.com/photos/12894935/pexels-photo-12894935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
     "status": "published",
-    "executed_at": "2026-04-27T04:56:34.393885+00:00"
+    "executed_at": "2026-04-29T15:05:51.662349+00:00"
   },
   {
-    "post_id": "post_20260427_051133",
-    "fb_post_id": "1043162839046116_1377432777764598",
+    "post_id": "post_20260429_181118",
+    "fb_post_id": "1043162839046116_1379616327546243",
     "ig_post_id": null,
     "threads_post_id": null,
     "post_type": "youtube",
-    "topic": "Fito Páez",
-    "image_url": "https://img.youtube.com/vi/CRBincBc_8k/hqdefault.jpg",
+    "topic": "Rata Blanca",
+    "image_url": "https://img.youtube.com/vi/0HGE_UVTYPE/maxresdefault.jpg",
     "status": "published",
-    "executed_at": "2026-04-27T05:11:43.361875+00:00"
+    "executed_at": "2026-04-29T18:11:20.304836+00:00"
+  },
+  {
+    "post_id": "post_20260429_220204",
+    "fb_post_id": "1043162839046116_1379742517533624",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "original",
+    "topic": "Molotov",
+    "image_url": null,
+    "status": "published",
+    "executed_at": "2026-04-29T22:02:05.434415+00:00"
+  },
+  {
+    "post_id": "post_20260430_042837",
+    "status": "failed",
+    "error": "FB error 100: Invalid parameter",
+    "executed_at": "2026-04-30T04:28:38.518751+00:00"
+  },
+  {
+    "post_id": "post_20260430_150215",
+    "fb_post_id": "1043162839046116_1380349610806248",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "poll",
+    "topic": "Fito Páez",
+    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
+    "status": "published",
+    "executed_at": "2026-04-30T15:02:16.219319+00:00"
+  },
+  {
+    "post_id": "post_20260430_180913",
+    "fb_post_id": "1043162839046116_1380467917461084",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "youtube",
+    "topic": "Intocable",
+    "image_url": "https://img.youtube.com/vi/R2W2hpLUzJE/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-04-30T18:09:15.400334+00:00"
+  },
+  {
+    "post_id": "post_20260430_215915",
+    "status": "failed",
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
+    "executed_at": "2026-04-30T21:59:16.140836+00:00"
   }
 ]
