@@ -16,3 +16,7 @@ cron.log
 
 # NOTE: posts.json and log.json ARE committed to the repo
 # The GitHub Actions bot updates them automatically via git push
+
+# YouTube OAuth credentials — never commit these
+youtube_token.json
+youtube_client_secret.json

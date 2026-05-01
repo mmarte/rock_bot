@@ -11,7 +11,7 @@ Output: reels/reel_YYYYMMDD.mp4  — download from GitHub Actions artifacts,
         upload to Facebook/Instagram manually (takes ~5 minutes)
 
 Run manually:  python make_reel.py
-Runs via cron: every Wednesday at 09:00 UTC (GitHub Actions)
+Runs via cron: every day at 09:00 UTC (GitHub Actions)
 """
 
 import os
@@ -32,7 +32,7 @@ PEXELS_KEY    = os.getenv("PEXELS_API_KEY")
 OUTPUT_DIR = Path("reels")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-# Reel topics — rotated weekly so content stays fresh
+# Reel topics — rotated by calendar day so daily runs get variety
 REEL_TOPICS = [
     {"topic": "Soda Stereo",              "search": "rock concert argentina crowd",   "angle": "el legado eterno de Soda Stereo"},
     {"topic": "Heroes del Silencio",      "search": "rock band spain concert stage",  "angle": "el fenómeno de Heroes del Silencio"},
@@ -64,8 +64,10 @@ REGLAS:
 
 
 def pick_topic() -> dict:
-    week = datetime.now(timezone.utc).isocalendar()[1]
-    return REEL_TOPICS[week % len(REEL_TOPICS)]
+    now = datetime.now(timezone.utc)
+    # One topic per UTC day (not one per ISO week), so daily workflow stays varied.
+    day_index = int(now.timestamp() // 86400)
+    return REEL_TOPICS[day_index % len(REEL_TOPICS)]
 
 
 def generate_script(topic_data: dict) -> str:
@@ -90,7 +92,7 @@ def generate_script(topic_data: dict) -> str:
     return completion.choices[0].message.content.strip()
 
 
-def text_to_speech_kokoro(script: str, output_path: str) -> bool:
+def text_to_speech_kokoro(script: str, output_path: str) -> str | None:
     """
     Generate Spanish voiceover using Kokoro TTS.
     Kokoro is 100% free, open-source, runs locally — no API key needed.
@@ -119,7 +121,7 @@ def text_to_speech_kokoro(script: str, output_path: str) -> bool:
         audio = np.concatenate(audio_chunks)
         sf.write(output_path, audio, 24000)
         print(f"  Audio saved: {output_path}")
-        return True
+        return output_path
 
     except ImportError:
         print("  Kokoro not installed. Run: pip install kokoro soundfile")
@@ -131,7 +133,7 @@ def text_to_speech_kokoro(script: str, output_path: str) -> bool:
         return text_to_speech_gtts(script, output_path)
 
 
-def text_to_speech_gtts(script: str, output_path: str) -> bool:
+def text_to_speech_gtts(script: str, output_path: str) -> str | None:
     """
     Fallback: Google Text-to-Speech (gTTS) — free, no API key.
     Quality is lower than Kokoro but works everywhere.
@@ -139,16 +141,21 @@ def text_to_speech_gtts(script: str, output_path: str) -> bool:
     """
     try:
         from gtts import gTTS
+        # gTTS always outputs MP3 bytes. Do NOT save them to a .wav path.
+        # Use .mp3 so downstream (MoviePy) can decode correctly.
+        mp3_path = output_path
+        if mp3_path.lower().endswith(".wav"):
+            mp3_path = mp3_path[:-4] + ".mp3"
         tts = gTTS(text=script, lang="es", slow=False)
-        tts.save(output_path)
-        print(f"  Audio saved via gTTS: {output_path}")
-        return True
+        tts.save(mp3_path)
+        print(f"  Audio saved via gTTS: {mp3_path}")
+        return mp3_path
     except ImportError:
         print("  gTTS not installed. Run: pip install gtts")
-        return False
+        return None
     except Exception as e:
         print(f"  gTTS error: {e}")
-        return False
+        return None
 
 
 def get_pexels_videos(query: str, count: int = 6) -> list:
@@ -177,7 +184,8 @@ def get_pexels_videos(query: str, count: int = 6) -> list:
                 key=lambda x: x.get("width", 0),
             )
             if files:
-                urls.append(files[0]["link"])
+                # Prefer the highest-resolution variant for better final quality.
+                urls.append(files[-1]["link"])
         return urls
     except Exception as e:
         print(f"  Pexels video error: {e}")
@@ -301,9 +309,9 @@ def make_reel():
     # Step 2 — TTS (Kokoro first, gTTS fallback)
     audio_path = str(OUTPUT_DIR / f"reel_{stamp}_audio.wav")
     print("  Step 2: Generating Spanish voiceover (Kokoro TTS)...")
-    audio_ok = text_to_speech_kokoro(script, audio_path)
+    audio_file = text_to_speech_kokoro(script, audio_path)
 
-    if not audio_ok:
+    if not audio_file:
         print("  Audio generation failed. Script saved for manual recording.")
         print(f"  Script: {script_path}")
         return
@@ -320,19 +328,139 @@ def make_reel():
     # Step 4 — Assemble
     output_path = str(OUTPUT_DIR / f"reel_{stamp}.mp4")
     print(f"\n  Step 4: Assembling Reel with MoviePy...")
-    ok = assemble_reel(audio_path, video_urls, output_path)
+    ok = assemble_reel(audio_file, video_urls, output_path)
 
     if ok:
         mb = os.path.getsize(output_path) / 1024 / 1024
         print(f"\n  Reel ready: {output_path} ({mb:.1f} MB)")
-        print(f"  Script:     {script_path}")
-        print(f"\n  To post:")
-        print(f"  1. Download reel_{stamp}.mp4 from GitHub Actions artifacts")
-        print(f"  2. Open Facebook app → Reel → upload the file")
-        print(f"  3. Use the script text as your caption")
+        print(f"  Script:     {script_path}\n")
+
+        # Step 5 — Upload to YouTube as a Short
+        if os.getenv("GITHUB_ACTIONS", "").lower() == "true":
+            print("  Step 5: YouTube Short upload skipped in GitHub Actions (OAuth needs a browser once).")
+        else:
+            print("  Step 5: Uploading to YouTube as a Short...")
+            yt_url = upload_youtube_short(output_path, topic_data, script)
+            if yt_url:
+                print(f"  YouTube Short: {yt_url}")
+            else:
+                print("  YouTube Short: skipped (youtube_client_secret.json not configured or auth missing)")
+
+        print(f"\n  Manual upload still needed for:")
+        print(f"  → Facebook: Open app → Reel → upload reel_{stamp}.mp4")
+        print(f"  → Instagram Reel: Open app → + → Reel → upload reel_{stamp}.mp4")
+        print(f"  → TikTok: Open app → + → upload reel_{stamp}.mp4")
     else:
         print(f"\n  Assembly failed. Audio at: {audio_path}")
 
 
+# ---------------------------------------------------------------------------
+# YouTube Shorts upload
+# ---------------------------------------------------------------------------
+
+def upload_youtube_short(video_path, topic_data, script):
+    """
+    Upload the assembled Reel as a YouTube Short.
+    Uses YouTube Data API v3 with OAuth2.
+
+    Requires one-time setup:
+    1. Go to Google Cloud Console → your project → APIs → YouTube Data API v3
+    2. Credentials → OAuth 2.0 Client IDs → Desktop app → Download JSON
+    3. Save as youtube_client_secret.json in rock_bot folder
+    4. Run: python make_reel.py --auth  (first time only, opens browser)
+    5. Token saved as youtube_token.json for future runs
+    """
+    import pickle
+
+    client_secret_file = "youtube_client_secret.json"
+    token_file         = "youtube_token.json"
+
+    if not os.path.exists(client_secret_file):
+        return None
+
+    try:
+        from googleapiclient.discovery import build
+        from googleapiclient.http import MediaFileUpload
+        from google_auth_oauthlib.flow import InstalledAppFlow
+        from google.auth.transport.requests import Request
+
+        SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+        creds  = None
+
+        if os.path.exists(token_file):
+            with open(token_file, "rb") as f:
+                creds = pickle.load(f)
+
+        if not creds or not creds.valid:
+            if creds and creds.expired and creds.refresh_token:
+                creds.refresh(Request())
+            else:
+                print("  YouTube auth required — run: python make_reel.py --auth")
+                return None
+            with open(token_file, "wb") as f:
+                pickle.dump(creds, f)
+
+        youtube = build("youtube", "v3", credentials=creds)
+
+        # Build title and description
+        title       = "Lo Mejor del Rock en Español: " + topic_data["topic"] + " #Shorts"
+        description = script + "\n\n#RockEnEspañol #LoMejordelRockenEspañol #Shorts #" + topic_data["topic"].replace(" ", "")
+
+        request = youtube.videos().insert(
+            part="snippet,status",
+            body={
+                "snippet": {
+                    "title":       title[:100],
+                    "description": description[:5000],
+                    "tags":        ["rock en español", "rock latino", topic_data["topic"], "shorts"],
+                    "categoryId":  "10",   # Music
+                },
+                "status": {
+                    "privacyStatus": "public",
+                    "selfDeclaredMadeForKids": False,
+                },
+            },
+            media_body=MediaFileUpload(video_path, chunksize=-1, resumable=True),
+        )
+
+        print("  Uploading to YouTube (this may take a minute)...")
+        response = None
+        while response is None:
+            status, response = request.next_chunk()
+            if status:
+                pct = int(status.progress() * 100)
+                print(f"    Upload: {pct}%")
+
+        video_id = response.get("id", "")
+        return "https://youtube.com/shorts/" + video_id if video_id else None
+
+    except ImportError:
+        print("  YouTube upload libs not installed. Run:")
+        print("  pip install google-api-python-client google-auth-oauthlib")
+        return None
+    except Exception as e:
+        print(f"  YouTube upload error: {e}")
+        return None
+
+
+def run_auth():
+    """One-time OAuth flow to authorize YouTube uploads. Run: python make_reel.py --auth"""
+    import pickle
+    try:
+        from google_auth_oauthlib.flow import InstalledAppFlow
+        SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+        flow   = InstalledAppFlow.from_client_secrets_file("youtube_client_secret.json", SCOPES)
+        creds  = flow.run_local_server(port=0)
+        with open("youtube_token.json", "wb") as f:
+            pickle.dump(creds, f)
+        print("YouTube authorization complete! Token saved to youtube_token.json")
+    except Exception as e:
+        print(f"Auth error: {e}")
+
+
 if __name__ == "__main__":
-    make_reel()
+    import sys
+    if "--auth" in sys.argv:
+        run_auth()
+    else:
+        make_reel()

@@ -39,6 +39,11 @@ SMTP_PORT       = int(os.getenv("SMTP_PORT", "587"))
 POSTS_FILE      = "posts.json"
 LOG_FILE        = "log.json"
 
+try:
+    from band_universe import get_band_universe
+except Exception:
+    get_band_universe = None
+
 
 # ---------------------------------------------------------------------------
 # Image fetching — multiple sources
@@ -181,13 +186,52 @@ def scrape_official_website(band_name):
     return None
 
 
-def get_wikipedia_image(band_name):
+def get_wikipedia_image(band_name, year=""):
     """
     Fetch the main image for a band from Wikipedia.
-    Wikipedia band pages almost always have a band photo.
+    If year is provided, searches for the era-specific page first
+    (e.g. "Soda Stereo 1987" might find an 80s-era photo).
     """
     try:
-        # First get the page summary which includes the main image
+        # Try era-specific search first if year provided
+        search_names = []
+        if year:
+            search_names.append(band_name.replace(" ", "_") + "_" + year)
+        search_names.append(band_name.replace(" ", "_"))
+
+        for search_name in search_names:
+            r = requests.get(
+                "https://en.wikipedia.org/api/rest_v1/page/summary/" + search_name,
+                headers={"User-Agent": "MejorRockBot/1.0"},
+                timeout=10,
+            )
+            if r.status_code == 200:
+                data = r.json()
+                img  = data.get("thumbnail", {}).get("source", "")
+                if img:
+                    full = img.split("/thumb/")
+                    if len(full) == 2:
+                        parts   = full[1].rsplit("/", 1)
+                        full_url = "https://upload.wikimedia.org/wikipedia/commons/" + parts[0]
+                        print("    Wikipedia image: " + full_url[:60] + "...")
+                        return full_url
+                    print("    Wikipedia thumbnail: " + img[:60] + "...")
+                    return img
+
+        # Try Spanish Wikipedia
+        r2 = requests.get(
+            "https://es.wikipedia.org/api/rest_v1/page/summary/" + band_name.replace(" ", "_"),
+            headers={"User-Agent": "MejorRockBot/1.0"},
+            timeout=10,
+        )
+        if r2.status_code == 200:
+            data = r2.json()
+            img  = data.get("thumbnail", {}).get("source", "")
+            if img:
+                print("    ES Wikipedia image: " + img[:60] + "...")
+                return img
+
+        # Original single search kept for compatibility
         search_name = band_name.replace(" ", "_")
         r = requests.get(
             "https://en.wikipedia.org/api/rest_v1/page/summary/" + search_name,
@@ -228,6 +272,27 @@ def get_wikipedia_image(band_name):
     return None
 
 
+def get_wikidata_image(band_name: str) -> str | None:
+    """
+    Best-effort: use the cached Wikidata universe (P18) when available.
+    This tends to be a more accurate "real artist photo" than generic search.
+    """
+    if not get_band_universe:
+        return None
+    try:
+        infos = get_band_universe(refresh=False)
+        if not infos:
+            return None
+        # Case-insensitive match
+        name_l = band_name.lower().strip()
+        for i in infos:
+            if i.name.lower() == name_l:
+                return i.image or None
+    except Exception:
+        return None
+    return None
+
+
 def get_pexels_fallback(query):
     """Last resort — Pexels with a rock concert query."""
     if not PEXELS_KEY:
@@ -257,20 +322,22 @@ def get_pexels_fallback(query):
     return None
 
 
-def get_best_image(band_name, post_type="original", youtube_url=None):
+def get_best_image(band_name, post_type="original", youtube_url=None, year=""):
     """
     Get the best available image for a band/topic.
 
     Priority order:
-    1. YouTube video thumbnail  — for youtube post type only (always relevant)
+    1. YouTube video thumbnail  — for youtube post type only
     2. Curated official images  — hand-picked press photos per band
     3. Official band website    — og:image from band's own website
-    4. Wikipedia                — freely licensed band photo
+    4. Wikipedia (era-aware)    — passes year hint for historical photos
     5. Pexels                   — generic rock concert (last resort)
-    """
-    print("  Getting image for: " + band_name)
 
-    # Layer 1 — For YouTube posts use the video's own thumbnail (always relevant)
+    year: if provided (e.g. "1987"), tries to find era-specific photos.
+    """
+    print("  Getting image for: " + band_name + (" (" + year + ")" if year else ""))
+
+    # Layer 1 — YouTube video thumbnail (always relevant for youtube posts)
     if post_type == "youtube" and youtube_url:
         try:
             video_id = youtube_url.split("v=")[-1].split("&")[0]
@@ -290,18 +357,25 @@ def get_best_image(band_name, post_type="original", youtube_url=None):
     if img:
         return img
 
-    # Layer 3 — Official band website og:image
+    # Layer 3 — Wikidata P18 image (often high-quality + correct subject)
+    img = get_wikidata_image(band_name)
+    if img:
+        print("    Wikidata image: " + img[:60] + "...")
+        return img
+
+    # Layer 4 — Official band website og:image
     img = scrape_official_website(band_name)
     if img:
         return img
 
-    # Layer 4 — Wikipedia (freely licensed band photos)
-    img = get_wikipedia_image(band_name)
+    # Layer 5 — Wikipedia with era hint (freely licensed photos)
+    img = get_wikipedia_image(band_name, year=year)
     if img:
         return img
 
-    # Layer 5 — Pexels generic (last resort)
-    img = get_pexels_fallback(band_name + " rock band")
+    # Layer 6 — Pexels with year hint if available
+    query = band_name + (" " + year if year else "") + " rock band"
+    img   = get_pexels_fallback(query)
     if img:
         return img
 
@@ -309,22 +383,34 @@ def get_best_image(band_name, post_type="original", youtube_url=None):
     return None
 
 
-def get_poll_images(poll_options):
+def get_poll_images(poll_options, topic=""):
     """
-    Fetch one image per poll option (band/artist).
-    Uses the same priority order as get_best_image:
-    curated → official site → Wikipedia → Pexels fallback.
-    Returns list of image URLs — one per option.
+    Fetch one image per poll option.
+    Smartly maps option text to the best image source:
+    - Known band names → official image / Wikipedia
+    - Descriptive options → mapped image query → Pexels
+    - Unknown options → fallback to topic band
     """
     images = []
     for option in poll_options:
         print("  Poll image for: " + option)
-        img = (
-            get_official_image(option)
-            or scrape_official_website(option)
-            or get_wikipedia_image(option)
-            or get_pexels_fallback(option + " rock band")
-        )
+        query = get_option_image_query(option, fallback_band=topic)
+        print("    Image query: " + query)
+
+        # If query matches a known band, use full image stack
+        is_band = any(band.lower() in query.lower() for band in KNOWN_BANDS)
+
+        if is_band:
+            img = (
+                get_official_image(query)
+                or scrape_official_website(query)
+                or get_wikipedia_image(query)
+                or get_pexels_fallback(query + " rock band concert")
+            )
+        else:
+            # Descriptive option — just use Pexels with the mapped query
+            img = get_pexels_fallback(query)
+
         if img:
             images.append(img)
             print("    Got image for: " + option)
@@ -333,19 +419,86 @@ def get_poll_images(poll_options):
     return images
 
 
+# Known bands for poll image matching — options that match these get real images
+KNOWN_BANDS = [
+    "Soda Stereo", "Heroes del Silencio", "Maná", "Café Tacvba",
+    "Molotov", "Los Prisioneros", "Caifanes", "La Ley",
+    "Los Fabulosos Cadillacs", "Divididos", "Bunbury", "Fito Páez",
+    "Rata Blanca", "Intocable", "Jarabe de Palo", "Gustavo Cerati",
+    "Enrique Bunbury", "Babasónicos", "Aterciopelados", "Enanitos Verdes",
+    "Hombres G", "El Tri", "Maldita Vecindad", "Los Rodríguez",
+    "Bersuit Vergarabat", "Panteon Rococo", "Santa Sabina",
+]
+
+if get_band_universe:
+    try:
+        # Expand known bands so poll image matching can use Wikidata/Wikipedia more often.
+        # We cap this to keep runtime reasonable.
+        _u = get_band_universe(refresh=False)
+        if _u:
+            KNOWN_BANDS = list(dict.fromkeys(KNOWN_BANDS + [i.name for i in _u[:600]]))
+    except Exception:
+        pass
+
+# Descriptive poll options → better image search queries
+OPTION_IMAGE_MAP = {
+    "rock argentino": "rock band argentina concert",
+    "rock mexicano":  "rock band mexico concert",
+    "rock español":   "rock band spain concert",
+    "los 80s":        "rock concert 1980s stage",
+    "los 90s":        "rock concert 1990s stage",
+    "los 2000s":      "rock concert 2000s stage",
+    "letras":         "rock singer microphone concert",
+    "sonido":         "electric guitar concert stage",
+    "en vivo":        "rock concert live crowd",
+    "vive latino":    "music festival mexico crowd",
+    "lollapalooza":   "lollapalooza festival crowd",
+    "estéreo picnic": "music festival colombia crowd",
+    "los dos":        "rock concert latin america",
+    "iguales":        "rock concert latin america",
+}
+
+
+def get_option_image_query(option_text, fallback_band=""):
+    """
+    Convert a poll option text into the best image search query.
+    If it matches a known band — use the band name directly.
+    If it's a descriptive option — map to a relevant image query.
+    Otherwise — use the topic band as fallback.
+    """
+    option_lower = option_text.lower()
+
+    # Check if it's a known band name
+    for band in KNOWN_BANDS:
+        if band.lower() in option_lower or option_lower in band.lower():
+            return band   # return the actual band name for Wikipedia/official lookup
+
+    # Check descriptive option map
+    for key, query in OPTION_IMAGE_MAP.items():
+        if key in option_lower:
+            return query
+
+    # If it contains " - " it's probably "Song - Band" format
+    if " - " in option_text:
+        band_part = option_text.split(" - ")[-1].strip()
+        for band in KNOWN_BANDS:
+            if band.lower() in band_part.lower():
+                return band
+
+    # Fall back to the post topic band
+    return fallback_band if fallback_band else option_text
+
+
 def extract_poll_options(text):
     """
-    Extract band/artist names from poll post text.
-    Poll options follow 👍 ❤️ 😮 emojis.
+    Extract poll options from text (lines with 👍 ❤️ 😮 emojis).
+    Returns list of raw option strings.
     """
     options = []
     lines   = text.split("\n")
     for line in lines:
         if "👍" in line or "❤️" in line or "😮" in line:
             clean = line.replace("👍","").replace("❤️","").replace("😮","").strip()
-            # Format is often "Option Name - Band Name" or just "Band Name"
-            if " - " in clean:
-                clean = clean.split(" - ")[-1].strip()
             if clean and len(clean) > 1:
                 options.append(clean)
     return options[:3]
@@ -463,7 +616,11 @@ def post_to_instagram(text, image_url):
         )
         container = container_r.json()
         if "error" in container:
-            print("  Instagram error: " + container["error"].get("message","?"))
+            msg = container["error"].get("message", "?")
+            code = str(container["error"].get("code", ""))
+            print("  Instagram error: " + msg)
+            if code == "10":
+                print("  Hint: IG publishing requires permissions like instagram_content_publish + a valid IG User ID tied to your Page.")
             return None
         container_id = container.get("id")
         if not container_id:
@@ -491,6 +648,10 @@ def post_to_threads(text, image_url):
     if not THREADS_USER_ID or not THREADS_TOKEN:
         return None
     try:
+        # Fast sanity check: Threads tokens should be non-empty strings; common misconfig is a JSON blob or quoted object.
+        if not isinstance(THREADS_TOKEN, str) or len(THREADS_TOKEN.strip()) < 20:
+            print("  Threads error: THREADS_TOKEN looks invalid/empty.")
+            return None
         params = {"text": text[:500], "access_token": THREADS_TOKEN}
         if image_url:
             params["media_type"] = "IMAGE"
@@ -503,7 +664,10 @@ def post_to_threads(text, image_url):
         )
         container = container_r.json()
         if "error" in container:
-            print("  Threads error: " + container["error"].get("message","?"))
+            msg = container["error"].get("message", "?")
+            print("  Threads error: " + msg)
+            if "Cannot parse access token" in msg:
+                print("  Hint: THREADS_TOKEN is not a valid access token (double-check the secret value, no quotes/newlines).")
             return None
         container_id = container.get("id")
         if not container_id:
@@ -703,7 +867,7 @@ def run():
         print("  Poll options found: " + str(options))
 
         if options:
-            poll_images = get_poll_images(options)
+            poll_images = get_poll_images(options, topic=topic)
             print("  Got " + str(len(poll_images)) + " poll images")
             fb_post_id = post_to_facebook_multi(post["text"], poll_images)
             image_url  = poll_images[0] if poll_images else None
@@ -715,7 +879,8 @@ def run():
     else:
         # Single image post
         youtube_url = post.get("video_url")
-        image_url   = get_best_image(topic, ptype, youtube_url)
+        post_year   = post.get("post_year", "")
+        image_url   = get_best_image(topic, ptype, youtube_url, year=post_year)
 
         try:
             fb_post_id = post_to_facebook_single(post["text"], image_url)

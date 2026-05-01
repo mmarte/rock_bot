@@ -1,8 +1,8 @@
-name: 4 — Make Weekly Reel
+name: 4 — Make Daily Reel
 
 on:
   schedule:
-    - cron: "0 9 * * 3"   # every Wednesday 9am UTC
+    - cron: "0 9 * * *"   # every day 9:00 UTC
   workflow_dispatch:
 
 env:
@@ -33,9 +33,25 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python make_reel.py
 
+      - name: Publish Reel to Facebook + Instagram
+        env:
+          FB_PAGE_ID:      ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN:   ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER_ID:      ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python publish_reel.py
+
       - name: Upload Reel artifact
         uses: actions/upload-artifact@v4
         with:
           name: reel-${{ github.run_id }}
           path: reels/
           retention-days: 7
+
+      - name: Save updated log back to repo
+        run: |
+          git config user.name  "Rock Bot"
+          git config user.email "bot@mejorrockespanol.com"
+          git add log.json
+          git diff --staged --quiet || git commit -m "bot: published reel $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
