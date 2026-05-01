@@ -31,6 +31,10 @@ jobs:
         env:
           GROQ_API_KEY:   ${{ secrets.GROQ_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          # YouTube Shorts upload in CI (optional — from local: python make_reel.py --auth)
+          YOUTUBE_CLIENT_ID:     ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
         run: python make_reel.py
 
       - name: Publish Reel to Facebook + Instagram

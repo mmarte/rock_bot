@@ -336,15 +336,23 @@ def make_reel():
         print(f"  Script:     {script_path}\n")
 
         # Step 5 — Upload to YouTube as a Short
-        if os.getenv("GITHUB_ACTIONS", "").lower() == "true":
-            print("  Step 5: YouTube Short upload skipped in GitHub Actions (OAuth needs a browser once).")
+        # CI: set GitHub secrets YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN
+        _yt_ci = _youtube_env_configured()
+        if os.getenv("GITHUB_ACTIONS", "").lower() == "true" and not _yt_ci:
+            print(
+                "  Step 5: YouTube Short skipped in Actions — add secrets "
+                "YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN "
+                "(run locally: python make_reel.py --auth after deleting youtube_token.json)."
+            )
         else:
             print("  Step 5: Uploading to YouTube as a Short...")
             yt_url = upload_youtube_short(output_path, topic_data, script)
             if yt_url:
                 print(f"  YouTube Short: {yt_url}")
             else:
-                print("  YouTube Short: skipped (youtube_client_secret.json not configured or auth missing)")
+                print(
+                    "  YouTube Short: skipped (set env YouTube OAuth trio, or youtube_client_secret.json + youtube_token.json, or run make_reel.py --auth)"
+                )
 
         print(f"\n  Manual upload still needed for:")
         print(f"  → Facebook: Open app → Reel → upload reel_{stamp}.mp4")
@@ -358,39 +366,58 @@ def make_reel():
 # YouTube Shorts upload
 # ---------------------------------------------------------------------------
 
-def upload_youtube_short(video_path, topic_data, script):
-    """
-    Upload the assembled Reel as a YouTube Short.
-    Uses YouTube Data API v3 with OAuth2.
+YOUTUBE_UPLOAD_SCOPE = "https://www.googleapis.com/auth/youtube.upload"
 
-    Requires one-time setup:
-    1. Go to Google Cloud Console → your project → APIs → YouTube Data API v3
-    2. Credentials → OAuth 2.0 Client IDs → Desktop app → Download JSON
-    3. Save as youtube_client_secret.json in rock_bot folder
-    4. Run: python make_reel.py --auth  (first time only, opens browser)
-    5. Token saved as youtube_token.json for future runs
-    """
+
+def _youtube_env_configured() -> bool:
+    return all(
+        os.getenv(k, "").strip()
+        for k in ("YOUTUBE_CLIENT_ID", "YOUTUBE_CLIENT_SECRET", "YOUTUBE_REFRESH_TOKEN")
+    )
+
+
+def _credentials_from_env() -> object | None:
+    """Non-interactive OAuth for CI: refresh token + client id/secret."""
+    cid = os.getenv("YOUTUBE_CLIENT_ID", "").strip()
+    csec = os.getenv("YOUTUBE_CLIENT_SECRET", "").strip()
+    rt = os.getenv("YOUTUBE_REFRESH_TOKEN", "").strip()
+    if not (cid and csec and rt):
+        return None
+    try:
+        from google.oauth2.credentials import Credentials
+        from google.auth.transport.requests import Request
+
+        creds = Credentials(
+            token=None,
+            refresh_token=rt,
+            token_uri="https://oauth2.googleapis.com/token",
+            client_id=cid,
+            client_secret=csec,
+            scopes=[YOUTUBE_UPLOAD_SCOPE],
+        )
+        creds.refresh(Request())
+        return creds
+    except Exception as e:
+        print(f"  YouTube env credentials error: {e}")
+        return None
+
+
+def _credentials_from_files() -> object | None:
+    """Local: youtube_client_secret.json + youtube_token.json (pickle)."""
     import pickle
 
     client_secret_file = "youtube_client_secret.json"
-    token_file         = "youtube_token.json"
-
+    token_file = "youtube_token.json"
     if not os.path.exists(client_secret_file):
         return None
-
     try:
-        from googleapiclient.discovery import build
-        from googleapiclient.http import MediaFileUpload
-        from google_auth_oauthlib.flow import InstalledAppFlow
         from google.auth.transport.requests import Request
 
-        SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
-        creds  = None
-
+        SCOPES = [YOUTUBE_UPLOAD_SCOPE]
+        creds = None
         if os.path.exists(token_file):
             with open(token_file, "rb") as f:
                 creds = pickle.load(f)
-
         if not creds or not creds.valid:
             if creds and creds.expired and creds.refresh_token:
                 creds.refresh(Request())
@@ -399,6 +426,32 @@ def upload_youtube_short(video_path, topic_data, script):
                 return None
             with open(token_file, "wb") as f:
                 pickle.dump(creds, f)
+        return creds
+    except Exception as e:
+        print(f"  YouTube file credentials error: {e}")
+        return None
+
+
+def upload_youtube_short(video_path, topic_data, script):
+    """
+    Upload the assembled Reel as a YouTube Short.
+    Uses YouTube Data API v3 with OAuth2.
+
+    **GitHub Actions:** set env `YOUTUBE_CLIENT_ID`, `YOUTUBE_CLIENT_SECRET`,
+    `YOUTUBE_REFRESH_TOKEN` (get refresh token via `python make_reel.py --auth` locally).
+
+    **Local file flow:**
+    1. Save OAuth client JSON as youtube_client_secret.json
+    2. Run: python make_reel.py --auth  (opens browser once)
+    3. Saves youtube_token.json
+    """
+    try:
+        from googleapiclient.discovery import build
+        from googleapiclient.http import MediaFileUpload
+
+        creds = _credentials_from_env() or _credentials_from_files()
+        if not creds:
+            return None
 
         youtube = build("youtube", "v3", credentials=creds)
 
@@ -448,12 +501,26 @@ def run_auth():
     import pickle
     try:
         from google_auth_oauthlib.flow import InstalledAppFlow
-        SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
-        flow   = InstalledAppFlow.from_client_secrets_file("youtube_client_secret.json", SCOPES)
-        creds  = flow.run_local_server(port=0)
+        SCOPES = [YOUTUBE_UPLOAD_SCOPE]
+        flow = InstalledAppFlow.from_client_secrets_file("youtube_client_secret.json", SCOPES)
+        # offline + consent so Google returns a refresh_token (needed for CI / non-interactive refresh)
+        creds = flow.run_local_server(
+            port=0,
+            access_type="offline",
+            prompt="consent",
+        )
         with open("youtube_token.json", "wb") as f:
             pickle.dump(creds, f)
-        print("YouTube authorization complete! Token saved to youtube_token.json")
+        print("YouTube authorization complete! Token saved to youtube_token.json\n")
+        if creds.refresh_token:
+            print("--- Copy into GitHub Actions secret: YOUTUBE_REFRESH_TOKEN ---")
+            print(creds.refresh_token)
+            print("--- Also add YOUTUBE_CLIENT_ID and YOUTUBE_CLIENT_SECRET from the same OAuth client (Google Cloud Console → Credentials). ---\n")
+        else:
+            print(
+                "WARNING: No refresh_token returned. Delete youtube_token.json and run --auth again,\n"
+                "or revoke the app's access in your Google account and retry.\n"
+            )
     except Exception as e:
         print(f"Auth error: {e}")
 
