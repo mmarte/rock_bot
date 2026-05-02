@@ -239,6 +239,22 @@ ORIGINAL_TYPES = [
      "instruction": "DUEL﻿O entre dos épocas de la banda o entre la banda y otra histórica. Hazlo visual y emotivo, menciona discos, canciones y por qué cada lado merece su lugar."},
 ]
 
+COVER_SEEDS = [
+    {"original": "Soda Stereo", "cover": "Aterciopelados", "song": "De Música Ligera", "context": "una versión especial para un tributo latino"},
+    {"original": "Héroes del Silencio", "cover": "Enrique Bunbury", "song": "Entre Dos Tierras", "context": "una reinterpretación íntima en solitario"},
+    {"original": "Caifanes", "cover": "Maná", "song": "Afuera", "context": "una versión en vivo en un festival de rock latino"},
+    {"original": "Los Fabulosos Cadillacs", "cover": "Café Tacvba", "song": "Matador", "context": "una versión con ribetes electrónicos y ritmo latino"},
+    {"original": "Caifanes", "cover": "Café Tacvba", "song": "La Negra Tomasa", "context": "un cover lleno de sabor y actitud rock"},
+    {"original": "The Rolling Stones", "cover": "Soda Stereo", "song": "Paint It Black", "context": "una poderosa versión en español de un clásico global"},
+]
+
+COVER_VARIANTS = [
+    "Cuenta este cover como una de esas versiones que reescriben una canción clásica. Compara el original y el cover, menciona por qué la versión nueva quedó grabada en la memoria del rock y pregunta cuál prefieren los fans.",
+    "Relata la conexión entre el artista original y quien hizo el cover. Describe el momento en que la versión se volvió icónica y termina invitando a debatir si el original o el cover es mejor.",
+    "Haz una mini-crónica apasionada sobre un cover que se convirtió en referencia. Nombra al artista original, al que lo hizo suyo y pregunta si te quedas con la potencia del cover o la magia del original.",
+    "Presenta el cover como un choque de estilos: el clásico original frente a una versión potente y distinta. Incluye detalles reales del artista, la canción y el momento en que el cover brilló.",
+]
+
 # Post type rotation — includes "hoy_en_historia" every ~7 posts
 POST_TYPE_ROTATION = [
     "original", "poll", "youtube", "hoy_en_historia",
@@ -335,8 +351,8 @@ def save_state(state):
 
 
 def pick_post_type(state):
-    candidates = ["original", "poll", "youtube", "hoy_en_historia", "concert"]
-    weights    = [40, 20, 20, 10, 10]
+    candidates = ["original", "poll", "youtube", "hoy_en_historia", "concert", "cover"]
+    weights    = [36, 15, 15, 8, 10, 16]
     last_type  = state.get("last_post_type")
     options    = [t for t in candidates if t != last_type]
     if not options:
@@ -647,7 +663,17 @@ Escribe un comentario original para compartir un video de YouTube.
 
 FORMATO: JSON puro.
 {"topic":"banda","text":"comentario","image_query":"banda inglés + concert live"}"""
+SYSTEM_COVER = """Eres el creador de \"Mejor Rock en Español\" en Facebook.
+""" + RULES_COMMON + """
+Escribe un post creativo sobre un cover famoso entre dos artistas reconocidos.- Elige un caso real o plausible de:
+  * un artista famoso cubriendo una canción clásica del rock en español
+  * o un artista de rock en español cubriendo una canción famosa internacional- Menciona al artista original, al artista que hizo el cover y el título de la canción
+- Destaca lo que hace especial la versión cover: el arreglo, la voz, el escenario, el legado o el impacto cultural
+- Termina con una pregunta que invite al fan a elegir entre original y cover o a comentar qué versión le mueve más
+- 120–180 palabras
 
+FORMATO: JSON puro.
+{"topic":"cover","text":"contenido","image_query":"artista cover + canción"}"""
 
 # ---------------------------------------------------------------------------
 # Content generators
@@ -733,11 +759,11 @@ def gen_concert(client, state, band):
     topic       = concert.get("artist", band)
     image_query = get_image_query(topic)
     prompt = (
-        "Concierto próximo:\n"
+        "Concierto próximo en los próximos 1-3 meses:\n"
         "  Artista: " + concert["name"] + "\n"
         "  Fecha: " + concert["date"] + "\n"
         "  Ciudad: " + concert["city"] + ", " + concert["country"] + "\n\n"
-        "Escribe el post. NO incluyas links.\n"
+        "Escribe un post que invite a los fans a ir, destaque por qué este show no se puede perder y mencione dónde conseguir boletos. NO incluyas links.\n"
         "image_query: '" + image_query + "'\n\n"
         "Responde ÚNICAMENTE con JSON válido."
     )
@@ -748,7 +774,27 @@ def gen_concert(client, state, band):
     data["topic"]       = topic
     data["post_type"]   = "concert"
     data["image_query"] = image_query
-    data["text"]        = data["text"] + "\n\n🎟️ Boletos: " + concert_url
+    data["text"]        = data["text"] + "\n\n🎟️ Consigue boletos en Ticketmaster, en la web oficial del evento o en la taquilla del venue."
+    return data
+
+
+def gen_cover(client, state, band):
+    seed = random.choice(COVER_SEEDS)
+    variant = random.choice(COVER_VARIANTS)
+    image_query = seed["cover"] + " " + seed["song"] + " live"
+    prompt = (
+        f"{variant}\n\n"
+        f"Artista original: {seed['original']}\n"
+        f"Cover: {seed['cover']}\n"
+        f"Canción: {seed['song']}\n"
+        f"Contexto: {seed['context']}\n\n"
+        "Escribe un post creativo y diferente cada vez, usando un tono de fan apasionado. "
+        "No copies letras. No incluyas hashtags ni links. Responde ÚNICAMENTE con JSON válido."
+    )
+    data = clean_json(call_groq(client, SYSTEM_COVER, prompt, max_tokens=700))
+    data["image_query"] = image_query
+    data["topic"]       = seed["cover"]
+    data["post_type"]   = "cover"
     return data
 
 
@@ -816,6 +862,10 @@ def generate_post():
 
     elif post_type == "concert":
         data = gen_concert(client, state, band)
+        band = data.get("topic", band)
+
+    elif post_type == "cover":
+        data = gen_cover(client, state, band)
         band = data.get("topic", band)
 
     else:
