@@ -343,7 +343,7 @@ def save_state(state):
 
 def pick_post_type(state):
     candidates = ["original", "poll", "youtube", "hoy_en_historia", "concert", "cover"]
-    weights    = [34, 15, 15, 10, 8, 18]
+    weights    = [28, 16, 16, 10, 8, 22]
     last_type  = state.get("last_post_type")
     options    = [t for t in candidates if t != last_type]
     if not options:
@@ -495,6 +495,7 @@ def verify_and_normalize_post(client, topic: str, post_type: str, text: str) -> 
         "NUNCA inventes fechas, lugares, integrantes o ventas.\n"
         "NUNCA atribuyas canciones, covers o discografías a artistas equivocadamente.\n"
         "NUNCA copies letras de canciones.\n"
+        "NUNCA empieces con 'Recuerda' o 'Recuerdan'.\n"
         "NUNCA incluyas hashtags.\n"
         "Si el texto incluye 'Lo Mejor del Rock en Español les presenta', elimínalo salvo que el tipo sea 'youtube'.\n"
         "Evita clichés repetidos (ej: 'la energía es increíble', 'una de las bandas más...', 'ha sido una fuerza dominante').\n"
@@ -510,6 +511,7 @@ def verify_and_normalize_post(client, topic: str, post_type: str, text: str) -> 
         "- Mantén el tono de fan apasionado\n"
         "- Mantén longitud similar\n"
         "- Quita cualquier bloque tipo 'les presenta' si no corresponde\n"
+        "- Reescribe la primera frase si comienza con nostalgia repetitiva como 'Recuerda cuando' o 'Recuerdan cuando'\n"
         "- Termina con una pregunta directa\n\n"
         'Devuelve JSON: {"text":"..."}'
     )
@@ -585,7 +587,8 @@ REGLAS OBLIGATORIAS:
 - Termina SIEMPRE con una pregunta directa que invite a comentar
 - NO incluyas hashtags — se agregan automáticamente
 - EVITA frases genéricas repetidas (ej: "la energía es increíble", "es una de las bandas más...", "ha sido una fuerza dominante")
-- NUNCA empieces con "Recuerdan" o frases de nostalgia muy parecidas
+- NUNCA empieces con "Recuerda", "Recuerdan" o frases de nostalgia muy parecidas
+- NUNCA uses ganchos nostálgicos como "Recuerda cuando", "Recuerdan cuando" o "¿Recuerdas?" al comienzo del post
 - NO atribuyas canciones, covers o discografías a artistas equivocadamente
 - VARÍA el gancho: usa pregunta, comparación audaz, anécdota inédita, dato poco conocido o desafío directo
 - NO uses "Lo Mejor del Rock en Español les presenta" excepto en posts de tipo YOUTUBE
@@ -597,6 +600,7 @@ Eres un experto en la historia del rock en español con conocimiento profundo de
 - 150–220 palabras
 - Incluye datos específicos: años exactos, nombres de álbumes reales, anécdotas verificadas
 - Menciona integrantes por nombre cuando sea relevante
+- La primera frase no debe comenzar con nostalgia ni con expresiones tipo "Recuerda cuando" o "Recuerdan cuando"
 - Usa al menos UNA estructura distinta cada vez: mini-historia, mito aclarado, lista exclusiva, comparación de eras o curiosidad sorpresa
 
 FORMATO: JSON puro.
@@ -635,7 +639,9 @@ SYSTEM_CONCERT = """Eres el creador de "Mejor Rock en Español" en Facebook.
 Escribe un post emocionante sobre un concierto o evento próximo.
 - Tono emocionado y urgente
 - Fecha, ciudad y artista prominentes
-- Crea un gancho fuerte: una razón por la que no pueden perderse ese show- No empieces con "Recuerdan" ni con frases de nostalgia repetitivas- Termina con "¡Consigue tus boletos!" y una pregunta
+- Crea un gancho fuerte: una razón por la que no pueden perderse ese show
+- No empieces con "Recuerdan" ni con frases de nostalgia repetitivas
+- Termina con "¡Consigue tus boletos!" y una pregunta
 - NO incluyas links — van al final automáticamente
 - 100–160 palabras
 
