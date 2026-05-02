@@ -60,45 +60,36 @@ def load_curated_top40(path: str = CURATED_TOP40_FILE) -> dict | None:
         _CURATED_TOP40_CACHE = None
         return None
 
+
+def load_top10_bands(curated: dict | None = None) -> list[str]:
+    curated = curated or load_curated_top40()
+    if not curated:
+        return []
+    by_year = curated.get("top40_by_year") or {}
+    if not isinstance(by_year, dict):
+        return []
+    top10 = set()
+    for year_list in by_year.values():
+        if isinstance(year_list, list):
+            for band in year_list[:10]:
+                top10.add(band)
+    return sorted(top10)
+
 # ---------------------------------------------------------------------------
-# Expanded band pool — 60+ bands across all Spanish-speaking countries
+# Proven rock en español artists — focus on those with top-10 presence in the last 50 years
 # ---------------------------------------------------------------------------
-
-# Static fallback (used if Wikidata universe is unavailable)
-BANDS = [
-    # Argentina
-    "Soda Stereo", "Divididos", "Fito Páez", "Los Fabulosos Cadillacs",
-    "Babasónicos", "Bersuit Vergarabat", "Illya Kuryaki and the Valderramas",
-    "Enanitos Verdes", "Rata Blanca", "Los Abuelos de la Nada",
-    "Virus", "Patricio Rey y sus Redonditos de Ricota", "La Renga",
-    "Spinetta Jade", "Luis Alberto Spinetta", "Charly García",
-    "Los Piojos", "Attaque 77", "Las Pelotas", "Miranda!",
-    "Gustavo Cerati",
-
-    # México
-    "Maná", "Café Tacvba", "Molotov", "Caifanes", "El Tri",
-    "Maldita Vecindad", "Santa Sabina", "Panteon Rococo", "Los de Abajo",
-    "Intocable", "Control Machete", "Kinky", "Jumbo", "Zoé",
-    "Porter", "Hello Seahorse!", "Cuca", "Fobia", "La Lupita",
-    "Los Yonics", "Botellita de Jerez",
-
-    # España
-    "Heroes del Silencio", "Bunbury", "Enrique Bunbury", "Hombres G",
-    "Los Rodríguez", "Jarabe de Palo", "El Canto del Loco",
-    "Ska-P", "Extremoduro", "Barricada", "Los Secretos",
-    "Alaska y Dinarama", "Mecano", "Radio Futura",
-
-    # Chile
-    "Los Prisioneros", "La Ley", "Los Tres", "Lucybell",
-    "Javiera Mena", "Joe Vasconcellos",
-
-    # Colombia
-    "Aterciopelados", "Juanes", "Bomba Estéreo", "Los Aterciopelados",
-
-    # Uruguay / otros
-    "No Te Va Gustar", "La Vela Puerca", "El Cuarteto de Nos",
-    "Los Rabanes", "Cultura Profética",
+FAMOUS_FALLBACK_BANDS = [
+    "Soda Stereo", "Maná", "Café Tacvba", "Caifanes", "Héroes del Silencio",
+    "Los Fabulosos Cadillacs", "Molotov", "La Ley", "Enrique Bunbury",
+    "Divididos", "Los Prisioneros", "Fito Páez", "Charly García",
+    "Gustavo Cerati", "Aterciopelados", "Juanes", "Attaque 77",
+    "La Renga", "Radio Futura", "Mecano", "Hombres G",
+    "Los Rodríguez", "Babasónicos", "Andrés Calamaro", "El Tri",
+    "Rata Blanca", "Los Piojos", "Los Auténticos Decadentes",
+    "Cuca", "Zoé", "Panteon Rococo", "Santa Sabina",
 ]
+
+BANDS = FAMOUS_FALLBACK_BANDS[:]
 
 # ---------------------------------------------------------------------------
 # Historical events for "Un día como hoy" posts
@@ -352,7 +343,7 @@ def save_state(state):
 
 def pick_post_type(state):
     candidates = ["original", "poll", "youtube", "hoy_en_historia", "concert", "cover"]
-    weights    = [36, 15, 15, 8, 10, 16]
+    weights    = [34, 15, 15, 10, 8, 18]
     last_type  = state.get("last_post_type")
     options    = [t for t in candidates if t != last_type]
     if not options:
@@ -363,46 +354,43 @@ def pick_post_type(state):
 
 
 def pick_band(state):
-    """Pick a band not used in the last 20 posts — much larger exclusion window."""
+    """Pick a band not used in the last 20 posts — only proven top-10 artists."""
     used = state.get("used_bands", [])
 
-    # Prefer curated top-40-by-year list (best curation).
     curated = load_curated_top40()
-    if curated:
+    top10_bands = load_top10_bands(curated)
+    if top10_bands:
         by_year = curated.get("top40_by_year") or {}
         if isinstance(by_year, dict) and by_year:
             end_year = int(curated.get("end_year", datetime.now(timezone.utc).year))
             start_year = int(curated.get("start_year", end_year - 49))
-            # Pick a random year within the curated range (last 50 years).
             year = random.randint(start_year, end_year)
             year_list = by_year.get(str(year)) or []
-            if isinstance(year_list, list) and year_list:
-                available = [b for b in year_list if b not in used]
-                if not available:
-                    available = year_list[:]
-                    state["used_bands"] = []
-                band = random.choice(available)
-                state["used_bands"] = (used + [band])[-20:]
-                state["curation_year"] = year
-                return band
+            top10_year = [b for b in year_list[:10] if b not in used]
+            if not top10_year:
+                top10_year = year_list[:10]
+                state["used_bands"] = []
+            band = random.choice(top10_year)
+            state["used_bands"] = (used + [band])[-20:]
+            state["curation_year"] = year
+            return band
 
-    # Next: Wikidata-backed universe (cached to band_universe.json).
-    # This massively increases variety without needing any extra API keys.
-    universe = []
-    if get_band_universe:
-        universe_infos = get_band_universe(refresh=False)
-        # Only accept entries that look like "Rock en Español" candidates.
-        # band_universe.py already filters by Spanish-speaking countries + Spain,
-        # but we keep a second guard in case an older cache exists.
-        universe = [i.name for i in universe_infos if (i.country or "").strip()]
+        available = [b for b in top10_bands if b not in used]
+        if not available:
+            available = top10_bands[:]
+            state["used_bands"] = []
+        band = random.choice(available)
+        state["used_bands"] = (used + [band])[-20:]
+        return band
 
-    pool = universe if len(universe) >= 200 else BANDS
+    # Fallback to a curated set of proven top-tier artists only.
+    pool = FAMOUS_FALLBACK_BANDS
     available = [b for b in pool if b not in used]
     if not available:
         available = pool[:]
         state["used_bands"] = []
     band = random.choice(available)
-    state["used_bands"] = (used + [band])[-20:]  # 20-post exclusion window
+    state["used_bands"] = (used + [band])[-20:]
     return band
 
 
@@ -505,6 +493,7 @@ def verify_and_normalize_post(client, topic: str, post_type: str, text: str) -> 
         "Tu objetivo es maximizar precisión factual y coherencia SIN inventar datos.\n"
         "Si un dato es incierto, reescribe la frase para que sea general y verdadera.\n"
         "NUNCA inventes fechas, lugares, integrantes o ventas.\n"
+        "NUNCA atribuyas canciones, covers o discografías a artistas equivocadamente.\n"
         "NUNCA copies letras de canciones.\n"
         "NUNCA incluyas hashtags.\n"
         "Si el texto incluye 'Lo Mejor del Rock en Español les presenta', elimínalo salvo que el tipo sea 'youtube'.\n"
@@ -596,6 +585,8 @@ REGLAS OBLIGATORIAS:
 - Termina SIEMPRE con una pregunta directa que invite a comentar
 - NO incluyas hashtags — se agregan automáticamente
 - EVITA frases genéricas repetidas (ej: "la energía es increíble", "es una de las bandas más...", "ha sido una fuerza dominante")
+- NUNCA empieces con "Recuerdan" o frases de nostalgia muy parecidas
+- NO atribuyas canciones, covers o discografías a artistas equivocadamente
 - VARÍA el gancho: usa pregunta, comparación audaz, anécdota inédita, dato poco conocido o desafío directo
 - NO uses "Lo Mejor del Rock en Español les presenta" excepto en posts de tipo YOUTUBE
 """
@@ -644,8 +635,7 @@ SYSTEM_CONCERT = """Eres el creador de "Mejor Rock en Español" en Facebook.
 Escribe un post emocionante sobre un concierto o evento próximo.
 - Tono emocionado y urgente
 - Fecha, ciudad y artista prominentes
-- Crea un gancho fuerte: una razón por la que no pueden perderse ese show
-- Termina con "¡Consigue tus boletos!" y una pregunta
+- Crea un gancho fuerte: una razón por la que no pueden perderse ese show- No empieces con "Recuerdan" ni con frases de nostalgia repetitivas- Termina con "¡Consigue tus boletos!" y una pregunta
 - NO incluyas links — van al final automáticamente
 - 100–160 palabras
 
@@ -665,10 +655,13 @@ FORMATO: JSON puro.
 {"topic":"banda","text":"comentario","image_query":"banda inglés + concert live"}"""
 SYSTEM_COVER = """Eres el creador de \"Mejor Rock en Español\" en Facebook.
 """ + RULES_COMMON + """
-Escribe un post creativo sobre un cover famoso entre dos artistas reconocidos.- Elige un caso real o plausible de:
+Escribe un post creativo sobre un cover famoso entre dos artistas reconocidos.
+- Elige un caso real o plausible de:
   * un artista famoso cubriendo una canción clásica del rock en español
-  * o un artista de rock en español cubriendo una canción famosa internacional- Menciona al artista original, al artista que hizo el cover y el título de la canción
+  * o un artista de rock en español cubriendo una canción famosa internacional
+- Menciona al artista original, al artista que hizo el cover y el título de la canción
 - Destaca lo que hace especial la versión cover: el arreglo, la voz, el escenario, el legado o el impacto cultural
+- No empieces con "Recuerdan" ni frases de nostalgia repetitivas
 - Termina con una pregunta que invite al fan a elegir entre original y cover o a comentar qué versión le mueve más
 - 120–180 palabras
 
