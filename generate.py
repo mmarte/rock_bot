@@ -795,6 +795,15 @@ def gen_cover(client, state, band):
     data["image_query"] = image_query
     data["topic"]       = seed["cover"]
     data["post_type"]   = "cover"
+
+    video = get_video_for_topic(seed["cover"] + " " + seed["song"])
+    if not video:
+        video = get_video_for_topic(seed["original"] + " " + seed["song"])
+    if video:
+        data["video_url"] = video["url"]
+        if video["url"] not in data.get("text", ""):
+            data["text"] = data.get("text", "").rstrip() + "\n\n" + video["url"]
+
     return data
 
 
@@ -884,14 +893,18 @@ def generate_post():
     actual_type  = data.get("post_type", post_type)
     hashtags     = build_hashtags(data.get("topic", band), extra_tags=extra_mentions[:3], post_type=actual_type)
     # Reliability pass BEFORE adding hashtags (keeps the verifier focused on facts/style)
-    data["text"] = verify_and_normalize_post(
+    verified_text = verify_and_normalize_post(
         client,
         topic=data.get("topic", band),
         post_type=actual_type,
         text=data.get("text", ""),
     ).rstrip()
 
-    data["text"] = data["text"].rstrip() + hashtags
+    video_url = data.get("video_url")
+    if video_url and video_url not in verified_text:
+        verified_text = verified_text.rstrip() + "\n\n" + video_url
+
+    data["text"] = verified_text.rstrip() + hashtags
 
     # Build queue entry
     entry = {

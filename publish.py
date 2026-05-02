@@ -364,8 +364,8 @@ def get_best_image(band_name, post_type="original", youtube_url=None, year=""):
     """
     print("  Getting image for: " + band_name + (" (" + year + ")" if year else ""))
 
-    # Layer 1 — YouTube video thumbnail (always relevant for youtube posts)
-    if post_type == "youtube" and youtube_url:
+    # Layer 1 — YouTube video thumbnail (relevant for any post with a YouTube video link)
+    if youtube_url and ("youtube.com" in youtube_url or "youtu.be" in youtube_url):
         try:
             video_id = youtube_url.split("v=")[-1].split("&")[0]
             thumb    = "https://img.youtube.com/vi/" + video_id + "/maxresdefault.jpg"
@@ -965,7 +965,7 @@ def run():
         image_url   = get_best_image(topic, ptype, youtube_url, year=post_year)
 
         try:
-            if ptype == "youtube" and youtube_url:
+            if youtube_url:
                 try:
                     fb_post_id = post_to_facebook_link(fb_text, youtube_url, image_url)
                 except RuntimeError as e:
