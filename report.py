@@ -18,10 +18,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 REPORT_EMAIL  = os.getenv("REPORT_EMAIL")
-SMTP_HOST     = os.getenv("SMTP_HOST", "smtp.gmail.com")
-SMTP_PORT     = int(os.getenv("SMTP_PORT", "587"))
-SMTP_USER     = os.getenv("SMTP_USER")       # your Gmail address
-SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")   # Gmail App Password
+SMTP_HOST     = os.getenv("SMTP_HOST", "smtp.gmail.com") or "smtp.gmail.com"
+SMTP_PORT     = int(os.getenv("SMTP_PORT", "587") or "587")
+SMTP_USER     = os.getenv("SMTP_USER")       # your email address
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")   # email account password or app password
 
 
 def load_json(path):
