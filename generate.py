@@ -532,7 +532,7 @@ def clean_tag(text):
     )
 
 
-FOLLOW_URL = "https://www.instagram.com/mejorrockespanol"
+FOLLOW_HANDLE = "@mejorrockespanol"
 
 
 def build_hashtags(band, extra_tags=None, post_type="original"):
@@ -550,7 +550,7 @@ def build_hashtags(band, extra_tags=None, post_type="original"):
             if cleaned and cleaned.lower() != band_tag.lower():
                 band_tags += " #" + cleaned
 
-    follow_text = "🎸 Síguenos para más rock en español → " + FOLLOW_URL
+    follow_text = "🎸 Síguenos para más rock en español → " + FOLLOW_HANDLE
 
     if post_type == "youtube":
         footer = (

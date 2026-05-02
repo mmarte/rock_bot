@@ -33,6 +33,22 @@ def sanitize_token(token):
         token = token[1:-1].strip()
     return token
 
+FOLLOW_LINKS = {
+    "facebook":  "https://www.facebook.com/mejorrockespanol",
+    "instagram": "https://www.instagram.com/mejorrockespanol",
+    "threads":   "https://www.threads.net/@mejorrockespanol",
+}
+
+def adjust_follow_cta_for_platform(text, platform):
+    if not text or platform not in FOLLOW_LINKS:
+        return text
+    follow_link = FOLLOW_LINKS[platform]
+    if "@mejorrockespanol" in text:
+        return text.replace("@mejorrockespanol", follow_link)
+    if "https://www.instagram.com/mejorrockespanol" in text:
+        return text.replace("https://www.instagram.com/mejorrockespanol", follow_link)
+    return text
+
 PAGE_ID         = sanitize_token(os.getenv("FB_PAGE_ID"))
 PAGE_TOKEN      = sanitize_token(os.getenv("FB_PAGE_TOKEN"))
 PEXELS_KEY      = sanitize_token(os.getenv("PEXELS_API_KEY"))
@@ -384,8 +400,12 @@ def get_best_image(band_name, post_type="original", youtube_url=None, year=""):
     if img:
         return img
 
-    # Layer 6 — Pexels with year hint if available
-    query = band_name + (" " + year if year else "") + " rock band"
+    # Layer 6 — Pexels with a concert-specific search for concert posts,
+    # otherwise use a general rock band search.
+    if post_type == "concert":
+        query = band_name + (" " + year if year else "") + " concert live photo"
+    else:
+        query = band_name + (" " + year if year else "") + " rock band"
     img   = get_pexels_fallback(query)
     if img:
         return img
@@ -919,6 +939,10 @@ def run():
     youtube_post_url  = None
     image_url         = None   # single image used for IG/Threads
 
+    fb_text      = adjust_follow_cta_for_platform(post["text"], "facebook")
+    ig_text      = adjust_follow_cta_for_platform(post["text"], "instagram")
+    threads_text = adjust_follow_cta_for_platform(post["text"], "threads")
+
     if ptype == "poll":
         # Multi-photo post: one image per poll option
         options = extract_poll_options(post["text"])
@@ -927,12 +951,12 @@ def run():
         if options:
             poll_images = get_poll_images(options, topic=topic)
             print("  Got " + str(len(poll_images)) + " poll images")
-            fb_post_id = post_to_facebook_multi(post["text"], poll_images)
+            fb_post_id = post_to_facebook_multi(fb_text, poll_images)
             image_url  = poll_images[0] if poll_images else None
         else:
             # Fallback: single image of the topic band
             image_url  = get_best_image(topic, ptype)
-            fb_post_id = post_to_facebook_single(post["text"], image_url)
+            fb_post_id = post_to_facebook_single(fb_text, image_url)
 
     else:
         # Single image post
@@ -943,12 +967,12 @@ def run():
         try:
             if ptype == "youtube" and youtube_url:
                 try:
-                    fb_post_id = post_to_facebook_link(post["text"], youtube_url, image_url)
+                    fb_post_id = post_to_facebook_link(fb_text, youtube_url, image_url)
                 except RuntimeError as e:
                     print("  Facebook link post failed, falling back to image post: " + str(e))
-                    fb_post_id = post_to_facebook_single(post["text"], image_url)
+                    fb_post_id = post_to_facebook_single(fb_text, image_url)
             else:
-                fb_post_id = post_to_facebook_single(post["text"], image_url)
+                fb_post_id = post_to_facebook_single(fb_text, image_url)
         except RuntimeError as e:
             post["status"] = "failed"
             post["error"]  = str(e)
@@ -964,14 +988,14 @@ def run():
 
     # ── Instagram ─────────────────────────────────────────────────────────
     if IG_USER_ID:
-        ig_post_id = post_to_instagram(post["text"], image_url)
+        ig_post_id = post_to_instagram(ig_text, image_url)
         print("  Instagram : " + ("Published! ID=" + str(ig_post_id) if ig_post_id else "Failed/skipped"))
     else:
         print("  Instagram : Not configured")
 
     # ── Threads ───────────────────────────────────────────────────────────
     if THREADS_USER_ID and THREADS_TOKEN:
-        threads_post_id = post_to_threads(post["text"], image_url)
+        threads_post_id = post_to_threads(threads_text, image_url)
         print("  Threads   : " + ("Published! ID=" + str(threads_post_id) if threads_post_id else "Failed/skipped"))
     else:
         print("  Threads   : Not configured")
