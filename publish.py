@@ -20,22 +20,33 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timezone
+from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv()
 
-PAGE_ID         = os.getenv("FB_PAGE_ID")
-PAGE_TOKEN      = os.getenv("FB_PAGE_TOKEN")
-PEXELS_KEY      = os.getenv("PEXELS_API_KEY")
-IG_USER_ID      = os.getenv("IG_USER_ID")
-IG_ACCESS_TOKEN = os.getenv("IG_ACCESS_TOKEN")  # separate token from Instagram use case
-THREADS_USER_ID = os.getenv("THREADS_USER_ID")
-THREADS_TOKEN   = os.getenv("THREADS_TOKEN")
-SMTP_USER       = os.getenv("SMTP_USER")
-SMTP_PASSWORD   = os.getenv("SMTP_PASSWORD")
-REPORT_EMAIL    = os.getenv("REPORT_EMAIL")
+def sanitize_token(token):
+    if not token or not isinstance(token, str):
+        return None
+    token = token.strip()
+    if (token.startswith('"') and token.endswith('"')) or (token.startswith("'") and token.endswith("'")):
+        token = token[1:-1].strip()
+    return token
+
+PAGE_ID         = sanitize_token(os.getenv("FB_PAGE_ID"))
+PAGE_TOKEN      = sanitize_token(os.getenv("FB_PAGE_TOKEN"))
+PEXELS_KEY      = sanitize_token(os.getenv("PEXELS_API_KEY"))
+IG_USER_ID      = sanitize_token(os.getenv("IG_USER_ID"))
+IG_ACCESS_TOKEN = sanitize_token(os.getenv("IG_ACCESS_TOKEN"))  # separate token from Instagram use case
+THREADS_USER_ID = sanitize_token(os.getenv("THREADS_USER_ID"))
+THREADS_TOKEN   = sanitize_token(os.getenv("THREADS_TOKEN"))
+SMTP_USER       = sanitize_token(os.getenv("SMTP_USER"))
+SMTP_PASSWORD   = sanitize_token(os.getenv("SMTP_PASSWORD"))
+REPORT_EMAIL    = sanitize_token(os.getenv("REPORT_EMAIL"))
 SMTP_HOST       = os.getenv("SMTP_HOST", "smtp.gmail.com")
 SMTP_PORT       = int(os.getenv("SMTP_PORT", "587"))
+GRAPH_VERSION   = sanitize_token(os.getenv("META_GRAPH_VERSION", "v25.0"))
+GRAPH_BASE      = f"https://graph.facebook.com/{GRAPH_VERSION}"
 POSTS_FILE      = "posts.json"
 LOG_FILE        = "log.json"
 
@@ -516,7 +527,7 @@ def upload_photo_unpublished(image_url):
     """
     try:
         r = requests.post(
-            "https://graph.facebook.com/v19.0/" + PAGE_ID + "/photos",
+            GRAPH_BASE + "/" + PAGE_ID + "/photos",
             data={
                 "url":          image_url,
                 "published":    "false",
@@ -537,14 +548,14 @@ def upload_photo_unpublished(image_url):
 def post_to_facebook_single(text, image_url):
     """Post with a single image."""
     if image_url:
-        endpoint = "https://graph.facebook.com/v19.0/" + PAGE_ID + "/photos"
+        endpoint = GRAPH_BASE + "/" + PAGE_ID + "/photos"
         payload  = {
             "url":          image_url,
             "caption":      text,
             "access_token": PAGE_TOKEN,
         }
     else:
-        endpoint = "https://graph.facebook.com/v19.0/" + PAGE_ID + "/feed"
+        endpoint = GRAPH_BASE + "/" + PAGE_ID + "/feed"
         payload  = {
             "message":      text,
             "access_token": PAGE_TOKEN,
@@ -553,6 +564,23 @@ def post_to_facebook_single(text, image_url):
     result = r.json()
     if "error" in result:
         raise RuntimeError("FB error " + str(result["error"].get("code","?")) + ": " + result["error"].get("message","?"))
+    return result.get("post_id") or result.get("id")
+
+
+def post_to_facebook_link(text, link_url, image_url=None):
+    """Post a link preview to Facebook for YouTube-style posts."""
+    endpoint = GRAPH_BASE + "/" + PAGE_ID + "/feed"
+    payload = {
+        "message":      text + "\n\n" + link_url,
+        "link":         link_url,
+        "access_token": PAGE_TOKEN,
+    }
+    if image_url:
+        payload["picture"] = image_url
+    r      = requests.post(endpoint, data=payload, timeout=15)
+    result = r.json()
+    if "error" in result:
+        raise RuntimeError("FB link error " + str(result["error"].get("code","?")) + ": " + result["error"].get("message","?"))
     return result.get("post_id") or result.get("id")
 
 
@@ -589,7 +617,7 @@ def post_to_facebook_multi(text, image_urls):
     for i, media_id in enumerate(media_ids):
         payload["attached_media[" + str(i) + "]"] = '{"media_fbid":"' + media_id + '"}'
 
-    r      = requests.post("https://graph.facebook.com/v19.0/" + PAGE_ID + "/feed", data=payload, timeout=30)
+    r      = requests.post(GRAPH_BASE + "/" + PAGE_ID + "/feed", data=payload, timeout=30)
     result = r.json()
 
     if "error" in result:
@@ -610,7 +638,7 @@ def post_to_instagram(text, image_url):
     ig_token = IG_ACCESS_TOKEN or PAGE_TOKEN
     try:
         container_r = requests.post(
-            "https://graph.facebook.com/v19.0/" + IG_USER_ID + "/media",
+            GRAPH_BASE + "/" + IG_USER_ID + "/media",
             data={"image_url": image_url, "caption": text, "access_token": ig_token},
             timeout=15,
         )
@@ -626,7 +654,7 @@ def post_to_instagram(text, image_url):
         if not container_id:
             return None
         publish_r = requests.post(
-            "https://graph.facebook.com/v19.0/" + IG_USER_ID + "/media_publish",
+            GRAPH_BASE + "/" + IG_USER_ID + "/media_publish",
             data={"creation_id": container_id, "access_token": ig_token},
             timeout=15,
         )
@@ -669,22 +697,43 @@ def post_to_threads(text, image_url):
             if "Cannot parse access token" in msg:
                 print("  Hint: THREADS_TOKEN is not a valid access token (double-check the secret value, no quotes/newlines).")
             return None
-        container_id = container.get("id")
+        container_id = container.get("id") or container.get("creation_id")
         if not container_id:
+            print("  Threads error: no thread ID returned")
             return None
-        publish_r = requests.post(
-            "https://graph.threads.net/v1.0/" + THREADS_USER_ID + "/threads_publish",
-            data={"creation_id": container_id, "access_token": THREADS_TOKEN},
-            timeout=15,
-        )
-        result = publish_r.json()
-        if "error" in result:
-            print("  Threads publish error: " + result["error"].get("message","?"))
-            return None
-        return result.get("id")
+        # Some Threads endpoints return the published object immediately.
+        return container_id
     except Exception as e:
         print("  Threads error: " + str(e))
         return None
+
+
+def _latest_reel_path():
+    reels_dir = Path("reels")
+    if not reels_dir.exists() or not reels_dir.is_dir():
+        return None
+    candidates = sorted(reels_dir.glob("reel_*.mp4"), key=lambda p: p.stat().st_mtime)
+    return candidates[-1] if candidates else None
+
+
+def upload_youtube_short_from_latest_reel(topic, caption):
+    reel_path = _latest_reel_path()
+    if not reel_path:
+        print("  YouTube automation skipped: no local reel file found in reels/")
+        return None
+    try:
+        from make_reel import upload_youtube_short, _youtube_env_configured
+    except Exception as e:
+        print("  YouTube automation unavailable: " + str(e))
+        return None
+    if not _youtube_env_configured():
+        print("  YouTube automation not configured (missing YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN)")
+        return None
+    print("  YouTube automation: uploading latest reel " + str(reel_path.name))
+    result = upload_youtube_short(reel_path, {"topic": topic}, caption)
+    if not result:
+        print("  YouTube automation failed or was skipped.")
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -727,6 +776,13 @@ def send_social_email(post):
 
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
+    youtube_note = ""
+    if ptype == "youtube":
+        youtube_note = (
+            "NOTE: publish.py does not upload the video to YouTube. "
+            "Use make_reel.py or manual upload for actual YouTube publishing.\n\n"
+        )
+
     body = """
 =================================================
 Lo Mejor del Rock en Español — Post Notification
@@ -741,7 +797,7 @@ FULL POST TEXT (Facebook/Instagram/Threads):
 -------------------------------------------------
 {text}
 
-=================================================
+{youtube_note}=================================================
 X (TWITTER) — Copy and paste this:
 =================================================
 {x_text}
@@ -778,6 +834,7 @@ Post ID: {post_id}
         topic         = topic,
         ptype         = ptype,
         text          = text,
+        youtube_note  = youtube_note,
         x_text        = x_text,
         tiktok_caption = tiktok_caption[:500] + ("..." if len(tiktok_caption) > 500 else ""),
         post_id       = post.get("id", "?"),
@@ -856,10 +913,11 @@ def run():
 
     # ── Get images based on post type ────────────────────────────────────
 
-    fb_post_id      = None
-    ig_post_id      = None
-    threads_post_id = None
-    image_url       = None   # single image used for IG/Threads
+    fb_post_id        = None
+    ig_post_id        = None
+    threads_post_id   = None
+    youtube_post_url  = None
+    image_url         = None   # single image used for IG/Threads
 
     if ptype == "poll":
         # Multi-photo post: one image per poll option
@@ -883,7 +941,14 @@ def run():
         image_url   = get_best_image(topic, ptype, youtube_url, year=post_year)
 
         try:
-            fb_post_id = post_to_facebook_single(post["text"], image_url)
+            if ptype == "youtube" and youtube_url:
+                try:
+                    fb_post_id = post_to_facebook_link(post["text"], youtube_url, image_url)
+                except RuntimeError as e:
+                    print("  Facebook link post failed, falling back to image post: " + str(e))
+                    fb_post_id = post_to_facebook_single(post["text"], image_url)
+            else:
+                fb_post_id = post_to_facebook_single(post["text"], image_url)
         except RuntimeError as e:
             post["status"] = "failed"
             post["error"]  = str(e)
@@ -911,25 +976,33 @@ def run():
     else:
         print("  Threads   : Not configured")
 
+    if ptype == "youtube":
+        youtube_post_url = upload_youtube_short_from_latest_reel(topic, post["text"])
+        print("  YouTube   : " + ("Uploaded! URL=" + youtube_post_url if youtube_post_url else "Skipped/failed"))
+    else:
+        print("  YouTube   : Not applicable")
+
     # ── Mark published ────────────────────────────────────────────────────
     post["status"]          = "published"
     post["fb_post_id"]      = fb_post_id
     post["ig_post_id"]      = ig_post_id
     post["threads_post_id"] = threads_post_id
+    post["youtube_post_url"] = youtube_post_url
     post["published_at"]    = now.isoformat()
     post["error"]           = None
 
     save_queue(posts)
     append_log({
-        "post_id":         post["id"],
-        "fb_post_id":      fb_post_id,
-        "ig_post_id":      ig_post_id,
-        "threads_post_id": threads_post_id,
-        "post_type":       ptype,
-        "topic":           topic,
-        "image_url":       image_url,
-        "status":          "published",
-        "executed_at":     now.isoformat(),
+        "post_id":          post["id"],
+        "fb_post_id":       fb_post_id,
+        "ig_post_id":       ig_post_id,
+        "threads_post_id":  threads_post_id,
+        "youtube_post_url": youtube_post_url,
+        "post_type":        ptype,
+        "topic":            topic,
+        "image_url":        image_url,
+        "status":           "published",
+        "executed_at":      now.isoformat(),
     })
 
     pending_count   = sum(1 for p in posts if p["status"] == "pending")

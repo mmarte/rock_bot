@@ -24,10 +24,16 @@ from pathlib import Path
 from dotenv import load_dotenv
 from groq import Groq
 
+try:
+    from find_video import get_video_for_topic
+except Exception:
+    get_video_for_topic = None
+
 load_dotenv()
 
 GROQ_API_KEY  = os.getenv("GROQ_API_KEY")
 PEXELS_KEY    = os.getenv("PEXELS_API_KEY")
+YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 OUTPUT_DIR = Path("reels")
 OUTPUT_DIR.mkdir(exist_ok=True)
@@ -205,6 +211,53 @@ def download_file(url: str, path: str) -> bool:
         return False
 
 
+def download_youtube_video(video_url: str, output_path: str) -> bool:
+    if get_video_for_topic is None:
+        print("  YouTube download helper unavailable.")
+        return False
+    try:
+        from yt_dlp import YoutubeDL
+    except ImportError:
+        print("  yt-dlp not installed. Install with: pip install yt_dlp")
+        return False
+
+    print(f"  Downloading YouTube footage: {video_url}")
+    ydl_opts = {
+        "format": "best[ext=mp4]+bestaudio/best",
+        "outtmpl": output_path,
+        "quiet": True,
+        "no_warnings": True,
+        "noplaylist": True,
+        "merge_output_format": "mp4",
+    }
+    try:
+        with YoutubeDL(ydl_opts) as ydl:
+            ydl.download([video_url])
+        return os.path.exists(output_path)
+    except Exception as e:
+        print(f"  yt-dlp error: {e}")
+        return False
+
+
+def get_youtube_clips(topic: str, count: int = 2) -> list:
+    if get_video_for_topic is None:
+        return []
+    clips = []
+    used_ids = []
+    for _ in range(count):
+        video = get_video_for_topic(topic, used_ids)
+        if not video:
+            break
+        video_id = video["url"].split("v=")[-1].split("&")[0]
+        used_ids.append(video_id)
+        filename = OUTPUT_DIR / f"yt_clip_{video_id}.mp4"
+        if filename.exists() or download_youtube_video(video["url"], str(filename)):
+            clips.append(str(filename))
+        else:
+            break
+    return clips
+
+
 def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
     try:
         # Patch Pillow ANTIALIAS removal (Pillow 10+ removed it, MoviePy 1.0.3 needs it)
@@ -212,23 +265,28 @@ def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
         if not hasattr(_PILImage, "ANTIALIAS"):
             _PILImage.ANTIALIAS = _PILImage.LANCZOS
 
-        from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_videoclips
+        from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_videoclips, CompositeAudioClip
 
         TARGET_W, TARGET_H = 1080, 1920
 
-        audio    = AudioFileClip(audio_path)
-        duration = audio.duration + 1.0
-        print(f"  Audio duration: {duration:.1f}s")
+        narration_audio = AudioFileClip(audio_path)
+        duration = narration_audio.duration + 1.0
+        print(f"  Narration duration: {duration:.1f}s")
 
         # Download clips to a permanent temp folder (avoids Windows file-locking issue)
         clips_dir = OUTPUT_DIR / "tmp_clips"
         clips_dir.mkdir(exist_ok=True)
         clip_paths = []
 
-        for i, url in enumerate(video_urls):
-            tmp = str(clips_dir / f"clip_{i}.mp4")
-            if download_file(url, tmp):
-                clip_paths.append(tmp)
+        for i, src in enumerate(video_urls):
+            if src.startswith("http://") or src.startswith("https://"):
+                tmp = str(clips_dir / f"clip_{i}.mp4")
+                if download_file(src, tmp):
+                    clip_paths.append(tmp)
+            elif os.path.exists(src):
+                clip_paths.append(src)
+            else:
+                print(f"    Skipping invalid source: {src}")
 
         clips = []
         for i, path in enumerate(clip_paths):
@@ -262,7 +320,19 @@ def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
 
         video = concatenate_videoclips(clips, method="compose")
         video = video.subclip(0, min(duration, video.duration))
-        video = video.set_audio(audio)
+
+        # Prefer actual clip audio when available, otherwise use narration only.
+        if video.audio is not None:
+            print("  Using actual clip audio with narration overlay.")
+            clip_audio = video.audio.volumex(0.65)
+            narration = narration_audio.volumex(1.0).set_duration(video.duration)
+            mixed_audio = CompositeAudioClip([clip_audio, narration])
+            mixed_audio = mixed_audio.set_duration(video.duration)
+            video = video.set_audio(mixed_audio)
+        else:
+            print("  No clip audio found; using narration only.")
+            video = video.set_audio(narration_audio)
+
         video.write_videofile(
             output_path,
             fps         = 30,
@@ -316,10 +386,18 @@ def make_reel():
         print(f"  Script: {script_path}")
         return
 
-    # Step 3 — Video clips
-    print(f"\n  Step 3: Fetching Pexels clips ('{topic_data['search']}')...")
-    video_urls = get_pexels_videos(topic_data["search"], count=6)
-    print(f"  Found {len(video_urls)} clips.")
+    # Step 3 — Video clips: prefer actual artist footage and audio via YouTube, fallback to Pexels stock clips.
+    print(f"\n  Step 3: Looking for actual footage and sound for '{topic_data['topic']}'...")
+    video_urls = []
+    if YOUTUBE_API_KEY and get_video_for_topic:
+        video_urls = get_youtube_clips(topic_data["topic"], count=2)
+        if video_urls:
+            print(f"  Found {len(video_urls)} actual YouTube clip(s) with artist footage.")
+
+    if not video_urls:
+        print(f"  Step 3 fallback: Fetching Pexels clips ('{topic_data['search']}')...")
+        video_urls = get_pexels_videos(topic_data["search"], count=6)
+        print(f"  Found {len(video_urls)} stock clips.")
 
     if not video_urls:
         print("  No clips found. Audio saved — edit manually in CapCut.")

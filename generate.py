@@ -26,11 +26,39 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 POSTS_FILE   = "posts.json"
 STATE_FILE   = "bot_state.json"
 UNIVERSE_FILE = "band_universe.json"
+CURATED_TOP40_FILE = "curated_top40_by_year.json"
 
 try:
     from band_universe import get_band_universe
 except Exception:
     get_band_universe = None
+
+
+_CURATED_TOP40_CACHE = None
+
+
+def load_curated_top40(path: str = CURATED_TOP40_FILE) -> dict | None:
+    """
+    Load curated top-40-by-year list (1976–2025).
+    Returns dict payload or None if unavailable.
+    """
+    global _CURATED_TOP40_CACHE
+    if _CURATED_TOP40_CACHE is not None:
+        return _CURATED_TOP40_CACHE
+    if not os.path.exists(path):
+        _CURATED_TOP40_CACHE = None
+        return None
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        if not isinstance(data, dict) or "top40_by_year" not in data:
+            _CURATED_TOP40_CACHE = None
+            return None
+        _CURATED_TOP40_CACHE = data
+        return data
+    except Exception:
+        _CURATED_TOP40_CACHE = None
+        return None
 
 # ---------------------------------------------------------------------------
 # Expanded band pool — 60+ bands across all Spanish-speaking countries
@@ -98,13 +126,13 @@ HISTORICAL_EVENTS = [
 
     # May
     (5, 16, 1959, "Victor Jara", "nació en Chile, el músico y poeta que inspiró generaciones de artistas latinoamericanos"),
-    (5, 19, 1965, "Fito Páez", "nació en Rosario, Argentina, el pianista y compositor que redefinió el rock argentino"),
+    (5, 13, 1963, "Fito Páez", "nació en Rosario, Argentina, el pianista y compositor que redefinió el rock argentino"),
     (5, 25, 1994, "Heroes del Silencio", "publicó 'El Espíritu del Vino', su obra maestra y el álbum que los llevó a la cima del rock en español"),
 
     # June
     (6, 14, 1987, "Enanitos Verdes", "lanzó 'Habitación Disponible', el álbum con sus mayores éxitos incluyendo 'Lamento Boliviano'"),
     (6, 20, 1993, "Molotov", "se formó en Ciudad de México, preparando la explosión más irreverente del rock mexicano"),
-    (6, 21, 1974, "Enrique Bunbury", "nació en Zaragoza, España, el vocalista que lideraría Heroes del Silencio"),
+    (6, 11, 1967, "Enrique Bunbury", "nació en Zaragoza, España, el vocalista que lideraría Heroes del Silencio"),
 
     # July
     (7, 11, 1987, "Los Fabulosos Cadillacs", "lanzó su álbum debut, fusionando ska, rock y cumbia de manera única"),
@@ -203,6 +231,12 @@ ORIGINAL_TYPES = [
      "instruction": "CURIOSIDAD verificable e impactante: una colaboración real inesperada, el proceso de grabación de un álbum famoso, una anécdota real de backstage, o cómo surgió una canción icónica. Incluye año y detalles específicos."},
     {"type": "legado",
      "instruction": "El LEGADO de la banda — cómo influyó en otras bandas, qué artistas los nombran como influencia, cómo su música sigue viva décadas después. Termina preguntando cómo los descubrió el fan."},
+    {"type": "claves",
+     "instruction": "CLAVES para entender a la banda en 3 puntos: su sonido, su historia y su momento más decisivo. Hazlo compacto, apasionado y con al menos una fecha concreta."},
+    {"type": "sorpresa",
+     "instruction": "SOPRESA: cuenta un dato poco conocido o una polémica real sobre la banda que muchos fans no saben. Relaciónalo con una canción, un concierto o un cambio de miembros."},
+    {"type": "duelo",
+     "instruction": "DUEL﻿O entre dos épocas de la banda o entre la banda y otra histórica. Hazlo visual y emotivo, menciona discos, canciones y por qué cada lado merece su lugar."},
 ]
 
 # Post type rotation — includes "hoy_en_historia" every ~7 posts
@@ -301,14 +335,42 @@ def save_state(state):
 
 
 def pick_post_type(state):
-    idx = state.get("post_type_index", 0) % len(POST_TYPE_ROTATION)
-    state["post_type_index"] = idx + 1
-    return POST_TYPE_ROTATION[idx]
+    candidates = ["original", "poll", "youtube", "hoy_en_historia", "concert"]
+    weights    = [40, 20, 20, 10, 10]
+    last_type  = state.get("last_post_type")
+    options    = [t for t in candidates if t != last_type]
+    if not options:
+        options = candidates[:]
+    chosen = random.choices(options, weights=[weights[candidates.index(t)] for t in options], k=1)[0]
+    state["last_post_type"] = chosen
+    return chosen
 
 
 def pick_band(state):
     """Pick a band not used in the last 20 posts — much larger exclusion window."""
-    # Prefer the Wikidata-backed universe (cached to band_universe.json).
+    used = state.get("used_bands", [])
+
+    # Prefer curated top-40-by-year list (best curation).
+    curated = load_curated_top40()
+    if curated:
+        by_year = curated.get("top40_by_year") or {}
+        if isinstance(by_year, dict) and by_year:
+            end_year = int(curated.get("end_year", datetime.now(timezone.utc).year))
+            start_year = int(curated.get("start_year", end_year - 49))
+            # Pick a random year within the curated range (last 50 years).
+            year = random.randint(start_year, end_year)
+            year_list = by_year.get(str(year)) or []
+            if isinstance(year_list, list) and year_list:
+                available = [b for b in year_list if b not in used]
+                if not available:
+                    available = year_list[:]
+                    state["used_bands"] = []
+                band = random.choice(available)
+                state["used_bands"] = (used + [band])[-20:]
+                state["curation_year"] = year
+                return band
+
+    # Next: Wikidata-backed universe (cached to band_universe.json).
     # This massively increases variety without needing any extra API keys.
     universe = []
     if get_band_universe:
@@ -319,7 +381,6 @@ def pick_band(state):
         universe = [i.name for i in universe_infos if (i.country or "").strip()]
 
     pool = universe if len(universe) >= 200 else BANDS
-    used = state.get("used_bands", [])
     available = [b for b in pool if b not in used]
     if not available:
         available = pool[:]
@@ -348,42 +409,24 @@ def pick_original_type(state):
 
 def pick_historical_event(state):
     """
-    Pick a historical event. Tries to match today's date first,
-    then falls back to any unused event.
+    Pick a historical event only if it matches today's exact month and day.
+    If no exact match exists, return None so the generator can fall back safely.
     """
     now   = datetime.now(timezone.utc)
     month = now.month
     day   = now.day
     used  = state.get("used_event_indices", [])
 
-    # Try to find a today-matching event first
     today_events = [
         i for i, e in enumerate(HISTORICAL_EVENTS)
         if e[0] == month and e[1] == day and i not in used
     ]
-    if today_events:
-        idx = random.choice(today_events)
-        state["used_event_indices"] = (used + [idx])[-15:]
-        return HISTORICAL_EVENTS[idx], True  # True = exact date match
+    if not today_events:
+        return None, False
 
-    # Fall back to same-month events
-    month_events = [
-        i for i, e in enumerate(HISTORICAL_EVENTS)
-        if e[0] == month and i not in used
-    ]
-    if month_events:
-        idx = random.choice(month_events)
-        state["used_event_indices"] = (used + [idx])[-15:]
-        return HISTORICAL_EVENTS[idx], False
-
-    # Fall back to any unused event
-    available = [i for i in range(len(HISTORICAL_EVENTS)) if i not in used]
-    if not available:
-        available = list(range(len(HISTORICAL_EVENTS)))
-        state["used_event_indices"] = []
-    idx = random.choice(available)
+    idx = random.choice(today_events)
     state["used_event_indices"] = (used + [idx])[-15:]
-    return HISTORICAL_EVENTS[idx], False
+    return HISTORICAL_EVENTS[idx], True  # True = exact date match
 
 
 def get_image_query(band):
@@ -447,6 +490,9 @@ def verify_and_normalize_post(client, topic: str, post_type: str, text: str) -> 
         "Si un dato es incierto, reescribe la frase para que sea general y verdadera.\n"
         "NUNCA inventes fechas, lugares, integrantes o ventas.\n"
         "NUNCA copies letras de canciones.\n"
+        "NUNCA incluyas hashtags.\n"
+        "Si el texto incluye 'Lo Mejor del Rock en Español les presenta', elimínalo salvo que el tipo sea 'youtube'.\n"
+        "Evita clichés repetidos (ej: 'la energía es increíble', 'una de las bandas más...', 'ha sido una fuerza dominante').\n"
         "Responde ÚNICAMENTE con JSON válido."
     )
     prompt = (
@@ -458,6 +504,7 @@ def verify_and_normalize_post(client, topic: str, post_type: str, text: str) -> 
         "- Corrige o suaviza afirmaciones dudosas (sin inventar detalles)\n"
         "- Mantén el tono de fan apasionado\n"
         "- Mantén longitud similar\n"
+        "- Quita cualquier bloque tipo 'les presenta' si no corresponde\n"
         "- Termina con una pregunta directa\n\n"
         'Devuelve JSON: {"text":"..."}'
     )
@@ -485,6 +532,9 @@ def clean_tag(text):
     )
 
 
+FOLLOW_URL = "https://www.instagram.com/mejorrockespanol"
+
+
 def build_hashtags(band, extra_tags=None, post_type="original"):
     """
     "Lo Mejor del Rock en Español les presenta:" only on YouTube posts.
@@ -500,17 +550,19 @@ def build_hashtags(band, extra_tags=None, post_type="original"):
             if cleaned and cleaned.lower() != band_tag.lower():
                 band_tags += " #" + cleaned
 
+    follow_text = "🎸 Síguenos para más rock en español → " + FOLLOW_URL
+
     if post_type == "youtube":
         footer = (
             "\n\nLo Mejor del Rock en Español les presenta: " + band_tags + "\n\n"
             + core_tags + " " + band_tags + "\n\n"
-            "🎸 Síguenos para más rock en español → @mejorrockespanol"
+            + follow_text
         )
     else:
         footer = (
             "\n\n"
             + core_tags + " " + band_tags + "\n\n"
-            "🎸 Síguenos para más rock en español → @mejorrockespanol"
+            + follow_text
         )
     return footer
 
@@ -527,6 +579,9 @@ REGLAS OBLIGATORIAS:
 - USA DATOS REALES Y VERIFICABLES — años, nombres de álbumes reales, ciudades reales
 - Termina SIEMPRE con una pregunta directa que invite a comentar
 - NO incluyas hashtags — se agregan automáticamente
+- EVITA frases genéricas repetidas (ej: "la energía es increíble", "es una de las bandas más...", "ha sido una fuerza dominante")
+- VARÍA el gancho: usa pregunta, comparación audaz, anécdota inédita, dato poco conocido o desafío directo
+- NO uses "Lo Mejor del Rock en Español les presenta" excepto en posts de tipo YOUTUBE
 """
 
 SYSTEM_ORIGINAL = """Eres el creador apasionado de "Mejor Rock en Español" en Facebook.
@@ -535,6 +590,7 @@ Eres un experto en la historia del rock en español con conocimiento profundo de
 - 150–220 palabras
 - Incluye datos específicos: años exactos, nombres de álbumes reales, anécdotas verificadas
 - Menciona integrantes por nombre cuando sea relevante
+- Usa al menos UNA estructura distinta cada vez: mini-historia, mito aclarado, lista exclusiva, comparación de eras o curiosidad sorpresa
 
 FORMATO: JSON puro.
 {"type":"string","topic":"banda principal","text":"contenido","image_query":"nombre banda inglés + descriptor específico"}"""
@@ -572,6 +628,7 @@ SYSTEM_CONCERT = """Eres el creador de "Mejor Rock en Español" en Facebook.
 Escribe un post emocionante sobre un concierto o evento próximo.
 - Tono emocionado y urgente
 - Fecha, ciudad y artista prominentes
+- Crea un gancho fuerte: una razón por la que no pueden perderse ese show
 - Termina con "¡Consigue tus boletos!" y una pregunta
 - NO incluyas links — van al final automáticamente
 - 100–160 palabras
@@ -582,6 +639,7 @@ FORMATO: JSON puro.
 SYSTEM_YOUTUBE = """Eres el creador de "Mejor Rock en Español" en Facebook.
 """ + RULES_COMMON + """
 Escribe un comentario original para compartir un video de YouTube.
+- Elige un ángulo claro: la energía del vivo, el legado del clip, una anécdota del escenario, o por qué este video es imprescindible
 - Opina algo específico y apasionado sobre la banda, álbum o era
 - NO copies la descripción del video
 - NO incluyas el link — va al final
@@ -638,6 +696,8 @@ def gen_poll(client, state, band):
 def gen_hoy_en_historia(client, state):
     """Generate a 'Un día como hoy' historical post."""
     event, is_exact = pick_historical_event(state)
+    if not event:
+        return None
     month, day, year, band, description = event
 
     month_names = {
@@ -665,33 +725,23 @@ def gen_hoy_en_historia(client, state):
     return data
 
 
-def gen_concert(client, band):
-    concert     = get_concert_info()
-    image_query = get_image_query(band)
+def gen_concert(client, state, band):
+    concert     = get_concert_info(band)
+    if not concert:
+        return gen_original(client, state, band)
 
-    if concert:
-        prompt = (
-            "Concierto próximo:\n"
-            "  Artista: " + concert["name"] + "\n"
-            "  Fecha: " + concert["date"] + "\n"
-            "  Ciudad: " + concert["city"] + ", " + concert["country"] + "\n\n"
-            "Escribe el post. NO incluyas links.\n"
-            "image_query: '" + get_image_query(concert.get("artist", band)) + "'\n\n"
-            "Responde ÚNICAMENTE con JSON válido."
-        )
-        concert_url = concert["url"]
-        topic       = concert.get("artist", band)
-        image_query = get_image_query(topic)
-    else:
-        prompt = (
-            "Escribe un post animando a los fans a ver conciertos de rock en español. "
-            "Menciona Ticketmaster, Vivid Seats y StubHub.\n"
-            "image_query: 'rock concert latinamerica crowd stage'\n\n"
-            "Responde ÚNICAMENTE con JSON válido."
-        )
-        concert_url = "https://www.vividseats.com/concerts"
-        topic       = band
-        image_query = "rock concert latinamerica crowd stage"
+    topic       = concert.get("artist", band)
+    image_query = get_image_query(topic)
+    prompt = (
+        "Concierto próximo:\n"
+        "  Artista: " + concert["name"] + "\n"
+        "  Fecha: " + concert["date"] + "\n"
+        "  Ciudad: " + concert["city"] + ", " + concert["country"] + "\n\n"
+        "Escribe el post. NO incluyas links.\n"
+        "image_query: '" + image_query + "'\n\n"
+        "Responde ÚNICAMENTE con JSON válido."
+    )
+    concert_url = concert["url"]
 
     data = clean_json(call_groq(client, SYSTEM_CONCERT, prompt, max_tokens=600))
     data["concert_url"] = concert_url
@@ -751,8 +801,12 @@ def generate_post():
 
     elif post_type == "hoy_en_historia":
         data = gen_hoy_en_historia(client, state)
-        # Override band for historical post
-        band = data.get("topic", band)
+        if not data:
+            print("  No exact 'Un día como hoy' event for today — falling back to original")
+            data = gen_original(client, state, band)
+            post_type = "original"
+        else:
+            band = data.get("topic", band)
 
     elif post_type == "youtube":
         data = gen_youtube(client, band)
@@ -761,7 +815,7 @@ def generate_post():
             data = gen_original(client, state, band)
 
     elif post_type == "concert":
-        data = gen_concert(client, band)
+        data = gen_concert(client, state, band)
         band = data.get("topic", band)
 
     else:
@@ -800,6 +854,7 @@ def generate_post():
         "image_query":  data.get("image_query", get_image_query(band)),
         "extra_topics": extra_mentions[:4],
         "post_year":    post_year,
+        "curation_year": str(state.get("curation_year", "")) if state.get("curation_year") else "",
         "video_url":    data.get("video_url"),
         "concert_url":  data.get("concert_url"),
         "fb_post_id":   None,

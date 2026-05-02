@@ -276,5 +276,33 @@
     "status": "failed",
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
     "executed_at": "2026-04-30T21:59:16.140836+00:00"
+  },
+  {
+    "post_id": "post_20260501_040602",
+    "fb_post_id": "1043162839046116_1380793014095241",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "original",
+    "topic": "Los Tres",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lostres.jpg",
+    "status": "published",
+    "executed_at": "2026-05-01T04:09:02.136340+00:00"
+  },
+  {
+    "post_id": "post_20260502_045319",
+    "fb_post_id": "1043162839046116_1381671027340773",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "post_type": "youtube",
+    "topic": "Kinky",
+    "image_url": "https://img.youtube.com/vi/vY153DePTRg/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-05-02T04:55:41.800551+00:00"
+  },
+  {
+    "post_id": "post_20260502_044358",
+    "status": "failed",
+    "error": "FB error 324: Missing or invalid image file",
+    "executed_at": "2026-05-02T05:33:55.494955+00:00"
   }
 ]

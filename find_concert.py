@@ -41,7 +41,7 @@ def build_affiliate_url(base_url: str) -> str:
     return f"https://www.tkqlhce.com/click-{TICKETMASTER_AFFILIATE}-{base_url}"
 
 
-def search_concerts() -> list[dict]:
+def search_concerts(keyword: str | None = None) -> list[dict]:
     """Search Ticketmaster for upcoming rock en español concerts."""
     if not TICKETMASTER_KEY:
         return []
@@ -50,7 +50,7 @@ def search_concerts() -> list[dict]:
     start_date = now.strftime("%Y-%m-%dT%H:%M:%SZ")
     end_date   = (now + timedelta(days=90)).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    artist = random.choice(ARTISTS)
+    artist = keyword.strip() if keyword and keyword.strip() else random.choice(ARTISTS)
 
     try:
         r = requests.get(
@@ -98,17 +98,21 @@ def search_concerts() -> list[dict]:
         return []
 
 
-def get_concert_info() -> dict | None:
+def get_concert_info(artist: str | None = None) -> dict | None:
     """
-    Returns info about one upcoming concert, or None if no key configured
-    or no concerts found.
+    Returns info about one upcoming concert for the requested artist,
+    or None if no key configured or no matching concerts are found.
     """
     if not TICKETMASTER_KEY:
         return None
 
-    concerts = search_concerts()
+    concerts = search_concerts(artist)
+    if not concerts and artist:
+        # If no upcoming concerts are found for the requested band, do not
+        # return unrelated event data to avoid inaccurate posts.
+        return None
+
     if not concerts:
-        # Try a second artist if first returned nothing
         concerts = search_concerts()
 
     if not concerts:
