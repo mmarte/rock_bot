@@ -61,6 +61,9 @@ def load_curated_top40(path: str = CURATED_TOP40_FILE) -> dict | None:
         return None
 
 
+LAST_N_YEARS = 30
+MIN_YEAR = 1985
+
 def load_top10_bands(curated: dict | None = None) -> list[str]:
     curated = curated or load_curated_top40()
     if not curated:
@@ -68,15 +71,98 @@ def load_top10_bands(curated: dict | None = None) -> list[str]:
     by_year = curated.get("top40_by_year") or {}
     if not isinstance(by_year, dict):
         return []
+    end_year = int(curated.get("end_year", datetime.now(timezone.utc).year))
+    start_year = max(MIN_YEAR, end_year - LAST_N_YEARS + 1)
     top10 = set()
-    for year_list in by_year.values():
+    for year_str, year_list in by_year.items():
+        try:
+            year = int(year_str)
+        except ValueError:
+            continue
+        if year < start_year or year > end_year:
+            continue
         if isinstance(year_list, list):
             for band in year_list[:10]:
                 top10.add(band)
     return sorted(top10)
 
 # ---------------------------------------------------------------------------
-# Proven rock en español artists — focus on those with top-10 presence in the last 50 years
+# Country-balanced fallback pools for proven rock en español artists
+# ---------------------------------------------------------------------------
+COUNTRY_BAND_POOLS = {
+    "Argentina": [
+        "Soda Stereo", "Divididos", "Fito Páez", "Los Fabulosos Cadillacs",
+        "La Renga", "Charly García", "Gustavo Cerati", "Los Piojos",
+    ],
+    "México": [
+        "Maná", "Café Tacvba", "Molotov", "Caifanes",
+        "El Tri", "Zoé", "Panteon Rococo", "Cuca",
+    ],
+    "España": [
+        "Héroes del Silencio", "Enrique Bunbury", "Mecano", "Hombres G",
+        "Radio Futura", "Los Rodríguez", "Extremoduro",
+    ],
+    "Chile": [
+        "La Ley", "Los Prisioneros", "Los Tres",
+    ],
+    "Colombia": [
+        "Juanes", "Aterciopelados", "Bomba Estéreo",
+    ],
+    "Uruguay": [
+        "No Te Va Gustar", "El Cuarteto de Nos", "La Vela Puerca",
+    ],
+    "Perú": [
+        "Líbido", "Los Mojarras", "Frágil",
+    ],
+    "Venezuela": [
+        "Caramelos de Cianuro", "Desorden Público", "Zapato 3",
+    ],
+    "Ecuador": [
+        "La Máquina Camaleón", "Dedicados", "Cascomar",
+    ],
+    "Panamá": [
+        "Los Rabanes",
+    ],
+    "Puerto Rico": [
+        "Fiel a la Vega",
+    ],
+    "Guatemala": [
+        "Alux Nahual",
+    ],
+    "Costa Rica": [
+        "Gandhi", "Malpaís",
+    ],
+    "República Dominicana": [
+        "Toque Profundo",
+    ],
+    "Bolivia": [
+        "Octavia",
+    ],
+    "Paraguay": [
+        "Flou",
+    ],
+    "Honduras": [
+        "Savage",
+    ],
+    "El Salvador": [
+        "Cinema", "Kraken",
+    ],
+    "Nicaragua": [
+        "La Cuneta Son Machín",
+    ],
+    "Cuba": [
+        "Habana Abierta",
+    ],
+}
+
+BAND_COUNTRY = {
+    band: country
+    for country, bands in COUNTRY_BAND_POOLS.items()
+    for band in bands
+}
+
+# ---------------------------------------------------------------------------
+# Proven rock en español artists — focus on those with top-10 presence in the last 30 years
 # ---------------------------------------------------------------------------
 FAMOUS_FALLBACK_BANDS = [
     "Soda Stereo", "Maná", "Café Tacvba", "Caifanes", "Héroes del Silencio",
@@ -359,21 +445,30 @@ def pick_band(state):
 
     curated = load_curated_top40()
     top10_bands = load_top10_bands(curated)
-    if top10_bands:
+    if top10_bands and curated:
         by_year = curated.get("top40_by_year") or {}
         if isinstance(by_year, dict) and by_year:
             end_year = int(curated.get("end_year", datetime.now(timezone.utc).year))
-            start_year = int(curated.get("start_year", end_year - 49))
+            start_year = max(MIN_YEAR, end_year - LAST_N_YEARS + 1)
             year = random.randint(start_year, end_year)
             year_list = by_year.get(str(year)) or []
             top10_year = [b for b in year_list[:10] if b not in used]
             if not top10_year:
-                top10_year = year_list[:10]
+                top10_year = [b for b in year_list[:10] if isinstance(b, str)]
                 state["used_bands"] = []
-            band = random.choice(top10_year)
-            state["used_bands"] = (used + [band])[-20:]
-            state["curation_year"] = year
-            return band
+
+            if top10_year:
+                mapped = [b for b in top10_year if b in BAND_COUNTRY]
+                if mapped:
+                    countries = sorted(set(BAND_COUNTRY[b] for b in mapped))
+                    country = random.choice(countries)
+                    country_choices = [b for b in mapped if BAND_COUNTRY[b] == country]
+                    band = random.choice(country_choices)
+                else:
+                    band = random.choice(top10_year)
+                state["used_bands"] = (used + [band])[-20:]
+                state["curation_year"] = year
+                return band
 
         available = [b for b in top10_bands if b not in used]
         if not available:
@@ -383,8 +478,9 @@ def pick_band(state):
         state["used_bands"] = (used + [band])[-20:]
         return band
 
-    # Fallback to a curated set of proven top-tier artists only.
-    pool = FAMOUS_FALLBACK_BANDS
+    # Fallback to a balanced country pool of proven top-tier artists.
+    country = random.choice(list(COUNTRY_BAND_POOLS.keys()))
+    pool = COUNTRY_BAND_POOLS[country][:]
     available = [b for b in pool if b not in used]
     if not available:
         available = pool[:]
