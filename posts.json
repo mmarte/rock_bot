@@ -539,5 +539,28 @@
     "published_at": "2026-05-02T04:55:41.800551+00:00",
     "error": null,
     "threads_post_id": null
+  },
+  {
+    "id": "post_20260503_214637",
+    "status": "published",
+    "created_at": "2026-05-03T21:46:37.347191+00:00",
+    "post_type": "poll",
+    "topic": "Bomba Estéreo",
+    "text": "La escena musical en español ha generado una gran diversidad de bandas con estilos únicos. Desde la emoción de sus presentaciones en vivo hasta el impacto que han tenido en la música, cada una ha dejado su propia huella. ¿Cuál es la mejor banda de rock en español de todos los tiempos? \n   Opciones: \n   Soda Stereo\n   Heroes del Silencio\n   Maná\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #BombaEstereo #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Bomba Estéreo Colombia electronic rock",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1383065690534640",
+    "ig_post_id": null,
+    "published_at": "2026-05-03T21:47:04.027347+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]

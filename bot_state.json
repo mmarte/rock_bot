@@ -14,7 +14,8 @@
     "La Ley",
     "Maná",
     "Mecano",
-    "Kinky"
+    "Kinky",
+    "Bomba Estéreo"
   ],
   "used_poll_indices": [
     4,
@@ -23,16 +24,17 @@
     12,
     6,
     11,
-    15
+    15,
+    0
   ],
   "original_type_index": 4,
-  "last_updated": "2026-05-02T04:53:21.653394+00:00",
+  "last_updated": "2026-05-03T21:46:38.551082+00:00",
   "post_type_index": 10,
-  "total_posts": 29,
+  "total_posts": 30,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
