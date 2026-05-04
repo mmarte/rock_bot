@@ -582,5 +582,25 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260504_150624",
+    "status": "published",
+    "created_at": "2026-05-04T15:06:24.507661+00:00",
+    "post_type": "poll",
+    "topic": "Los Mojarras",
+    "text": "¿Dónde se vive la emoción del rock en español? Los festivales son una experiencia única que combina energía y pasión. Desde México hasta Colombia, hay eventos que destacan la diversidad y la fuerza del rock en español. ¿Cuál es tu festival favorito? \n   Opciones: \n   Vive Latino\n   Lollapalooza LatAm\n   Festival Estéreo Picnic\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosMojarras\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Mojarras rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1383635473810995",
+    "ig_post_id": null,
+    "published_at": "2026-05-04T15:06:51.341095+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
