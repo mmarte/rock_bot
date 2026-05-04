@@ -18,7 +18,8 @@
     "Bomba Estéreo",
     "Alux Nahual",
     "Los Mojarras",
-    "Charly García"
+    "Charly García",
+    "Café Tacvba"
   ],
   "used_poll_indices": [
     4,
@@ -31,14 +32,14 @@
     0,
     9
   ],
-  "original_type_index": 5,
-  "last_updated": "2026-05-04T18:13:19.090618+00:00",
+  "original_type_index": 6,
+  "last_updated": "2026-05-04T22:05:21.970361+00:00",
   "post_type_index": 10,
-  "total_posts": 33,
+  "total_posts": 34,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "concert",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }

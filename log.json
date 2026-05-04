@@ -352,5 +352,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Charly_Garc%C3%ADa_%26_the_Prostitution_at_Cosqu%C3%ADn_Rock_12.02.2011_%285449800300%29.jpg",
     "status": "published",
     "executed_at": "2026-05-04T18:13:44.619525+00:00"
+  },
+  {
+    "post_id": "post_20260504_220520",
+    "fb_post_id": "1043162839046116_1383872850453924",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Café Tacvba",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cafe_Tacuba_1.jpg",
+    "status": "published",
+    "executed_at": "2026-05-04T22:05:47.599208+00:00"
   }
 ]
