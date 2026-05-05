@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Divididos",
     "Los Fabulosos Cadillacs",
     "Jarabe de Palo",
     "Los Rodríguez",
@@ -19,7 +18,8 @@
     "Alux Nahual",
     "Los Mojarras",
     "Charly García",
-    "Café Tacvba"
+    "Café Tacvba",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     4,
@@ -32,14 +32,14 @@
     0,
     9
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-05-04T22:05:21.970361+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-05-05T04:15:48.665631+00:00",
   "post_type_index": 10,
-  "total_posts": 34,
+  "total_posts": 35,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "original",
   "curation_year": 2024
 }
