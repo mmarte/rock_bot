@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Fabulosos Cadillacs",
     "Jarabe de Palo",
     "Los Rodríguez",
     "Rata Blanca",
@@ -19,7 +18,8 @@
     "Los Mojarras",
     "Charly García",
     "Café Tacvba",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Savage"
   ],
   "used_poll_indices": [
     4,
@@ -33,13 +33,13 @@
     9
   ],
   "original_type_index": 7,
-  "last_updated": "2026-05-05T04:15:48.665631+00:00",
+  "last_updated": "2026-05-05T18:09:35.617361+00:00",
   "post_type_index": 10,
-  "total_posts": 35,
+  "total_posts": 36,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
