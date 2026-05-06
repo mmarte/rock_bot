@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Rata Blanca",
     "Molotov",
     "Bersuit Vergarabat",
     "Fito Páez",
@@ -19,7 +18,8 @@
     "Los Rabanes",
     "Savage",
     "Cuca",
-    "La Máquina Camaleón"
+    "La Máquina Camaleón",
+    "Los Prisioneros"
   ],
   "used_poll_indices": [
     4,
@@ -34,13 +34,13 @@
     16
   ],
   "original_type_index": 8,
-  "last_updated": "2026-05-06T04:30:24.249134+00:00",
+  "last_updated": "2026-05-06T15:24:48.748846+00:00",
   "post_type_index": 10,
-  "total_posts": 38,
+  "total_posts": 39,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }

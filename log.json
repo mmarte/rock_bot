@@ -412,5 +412,17 @@
     "image_url": "https://images.pexels.com/photos/16458342/pexels-photo-16458342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-05-06T04:30:50.013367+00:00"
+  },
+  {
+    "post_id": "post_20260506_152447",
+    "fb_post_id": "1043162839046116_1385284116979464",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Los Prisioneros",
+    "image_url": "https://img.youtube.com/vi/UIBtYNNj4zo/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-05-06T15:25:14.202737+00:00"
   }
 ]
