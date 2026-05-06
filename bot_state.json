@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Bersuit Vergarabat",
     "Fito Páez",
     "Intocable",
     "Panteon Rococo",
@@ -19,7 +18,8 @@
     "Cuca",
     "La Máquina Camaleón",
     "Los Prisioneros",
-    "Habana Abierta"
+    "Habana Abierta",
+    "Juanes"
   ],
   "used_poll_indices": [
     4,
@@ -34,13 +34,13 @@
     16
   ],
   "original_type_index": 9,
-  "last_updated": "2026-05-06T18:14:07.713171+00:00",
+  "last_updated": "2026-05-06T22:00:59.217972+00:00",
   "post_type_index": 10,
-  "total_posts": 40,
+  "total_posts": 41,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
