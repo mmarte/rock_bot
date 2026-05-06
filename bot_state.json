@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Molotov",
     "Bersuit Vergarabat",
     "Fito Páez",
     "Intocable",
@@ -19,7 +18,8 @@
     "Savage",
     "Cuca",
     "La Máquina Camaleón",
-    "Los Prisioneros"
+    "Los Prisioneros",
+    "Habana Abierta"
   ],
   "used_poll_indices": [
     4,
@@ -33,14 +33,14 @@
     9,
     16
   ],
-  "original_type_index": 8,
-  "last_updated": "2026-05-06T15:24:48.748846+00:00",
+  "original_type_index": 9,
+  "last_updated": "2026-05-06T18:14:07.713171+00:00",
   "post_type_index": 10,
-  "total_posts": 39,
+  "total_posts": 40,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
