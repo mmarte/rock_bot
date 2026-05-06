@@ -705,5 +705,28 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260506_043023",
+    "status": "published",
+    "created_at": "2026-05-06T04:30:23.010101+00:00",
+    "post_type": "poll",
+    "topic": "La Máquina Camaleón",
+    "text": "La década de los 90 fue testigo de un auge en la creatividad y experimentación en el rock en español, con bandas destacadas como Caifanes, Maná y Café Tacuba. Fue una época de gran innovación musical. ¿Cuál consideras que fue el mejor año para el rock en español? \n   👍 1990 \n   ❤️ 1995 \n   😮 1992 \n   ¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaMaquinaCamaleon #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Máquina Camaleón rock band concert",
+    "extra_topics": [
+      "Maná",
+      "Caifanes"
+    ],
+    "post_year": "1990",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1384902127017663",
+    "ig_post_id": null,
+    "published_at": "2026-05-06T04:30:50.013367+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]

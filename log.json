@@ -400,5 +400,17 @@
     "image_url": "https://images.pexels.com/photos/11963130/pexels-photo-11963130.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-05-05T22:04:24.195721+00:00"
+  },
+  {
+    "post_id": "post_20260506_043023",
+    "fb_post_id": "1043162839046116_1384902127017663",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "La Máquina Camaleón",
+    "image_url": "https://images.pexels.com/photos/16458342/pexels-photo-16458342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-05-06T04:30:50.013367+00:00"
   }
 ]
