@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Panteon Rococo",
     "Los Tres",
     "La Ley",
     "Maná",
@@ -19,10 +18,10 @@
     "Habana Abierta",
     "Juanes",
     "Los Rabanes",
-    "Flou"
+    "Flou",
+    "Savage"
   ],
   "used_poll_indices": [
-    13,
     8,
     12,
     6,
@@ -31,16 +30,17 @@
     0,
     9,
     16,
-    3
+    3,
+    2
   ],
   "original_type_index": 9,
-  "last_updated": "2026-05-07T15:27:19.584229+00:00",
+  "last_updated": "2026-05-07T18:21:59.572902+00:00",
   "post_type_index": 10,
-  "total_posts": 43,
+  "total_posts": 44,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
