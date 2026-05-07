@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Tres",
     "La Ley",
     "Maná",
     "Mecano",
@@ -19,7 +18,8 @@
     "Juanes",
     "Los Rabanes",
     "Flou",
-    "Savage"
+    "Savage",
+    "Toque Profundo"
   ],
   "used_poll_indices": [
     8,
@@ -33,14 +33,14 @@
     3,
     2
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-05-07T18:21:59.572902+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-05-07T22:03:15.241926+00:00",
   "post_type_index": 10,
-  "total_posts": 44,
+  "total_posts": 45,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024
 }
