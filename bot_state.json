@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Fito Páez",
     "Intocable",
     "Panteon Rococo",
     "Los Tres",
@@ -19,10 +18,10 @@
     "La Máquina Camaleón",
     "Los Prisioneros",
     "Habana Abierta",
-    "Juanes"
+    "Juanes",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
-    4,
     13,
     8,
     12,
@@ -31,16 +30,17 @@
     15,
     0,
     9,
-    16
+    16,
+    3
   ],
   "original_type_index": 9,
-  "last_updated": "2026-05-06T22:00:59.217972+00:00",
+  "last_updated": "2026-05-07T04:30:46.081165+00:00",
   "post_type_index": 10,
-  "total_posts": 41,
+  "total_posts": 42,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
