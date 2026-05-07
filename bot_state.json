@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Intocable",
     "Panteon Rococo",
     "Los Tres",
     "La Ley",
@@ -19,7 +18,8 @@
     "Los Prisioneros",
     "Habana Abierta",
     "Juanes",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Flou"
   ],
   "used_poll_indices": [
     13,
@@ -34,13 +34,13 @@
     3
   ],
   "original_type_index": 9,
-  "last_updated": "2026-05-07T04:30:46.081165+00:00",
+  "last_updated": "2026-05-07T15:27:19.584229+00:00",
   "post_type_index": 10,
-  "total_posts": 42,
+  "total_posts": 43,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }

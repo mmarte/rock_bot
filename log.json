@@ -460,5 +460,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
     "status": "published",
     "executed_at": "2026-05-07T04:31:11.590949+00:00"
+  },
+  {
+    "post_id": "post_20260507_152717",
+    "fb_post_id": "1043162839046116_1386080533566489",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Flou",
+    "image_url": "https://img.youtube.com/vi/e3AMJhN40Lc/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-05-07T15:27:44.942480+00:00"
   }
 ]
