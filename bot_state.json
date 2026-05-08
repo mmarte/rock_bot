@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Mecano",
     "Kinky",
     "Bomba Estéreo",
     "Alux Nahual",
@@ -19,7 +18,8 @@
     "Savage",
     "Toque Profundo",
     "Flou",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Fiel a la Vega"
   ],
   "used_poll_indices": [
     12,
@@ -34,13 +34,13 @@
     1
   ],
   "original_type_index": 10,
-  "last_updated": "2026-05-08T14:32:47.151446+00:00",
+  "last_updated": "2026-05-08T22:02:10.015142+00:00",
   "post_type_index": 10,
-  "total_posts": 47,
+  "total_posts": 48,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }

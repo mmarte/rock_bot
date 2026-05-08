@@ -520,5 +520,17 @@
     "image_url": "https://www.sodastereo.com/img/image_src.jpg",
     "status": "published",
     "executed_at": "2026-05-08T14:33:12.453300+00:00"
+  },
+  {
+    "post_id": "post_20260508_220208",
+    "fb_post_id": "1043162839046116_1387103970130812",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Fiel a la Vega",
+    "image_url": "https://img.youtube.com/vi/MizRQx7_mb4/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-05-08T22:02:35.390059+00:00"
   }
 ]

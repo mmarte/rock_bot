@@ -919,5 +919,25 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260508_220208",
+    "status": "published",
+    "created_at": "2026-05-08T22:02:08.090599+00:00",
+    "post_type": "youtube",
+    "topic": "Fiel a la Vega",
+    "text": "La fusión de rock y música clásica en vivo puede ser algo mágico. Un concierto como el de Fiel a la Vega, acompañados por una orquesta sinfónica, puede llevar la energía y la pasión de la banda a un nivel completamente nuevo. La experiencia de ver a una banda de rock junto a músicos clásicos en un escenario emblemático puede ser verdaderamente única. ¿Cómo crees que la música en vivo puede evolucionar cuando se mezclan géneros de esta manera? https://www.youtube.com/watch?v=MizRQx7_mb4\n\nLo Mejor del Rock en Español les presenta: #FielalaVega\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Fiel a la Vega rock band concert",
+    "extra_topics": [],
+    "post_year": "1999",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=MizRQx7_mb4",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1387103970130812",
+    "ig_post_id": null,
+    "published_at": "2026-05-08T22:02:35.390059+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
