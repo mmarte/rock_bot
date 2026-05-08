@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Ley",
     "Maná",
     "Mecano",
     "Kinky",
@@ -19,7 +18,8 @@
     "Los Rabanes",
     "Flou",
     "Savage",
-    "Toque Profundo"
+    "Toque Profundo",
+    "Flou"
   ],
   "used_poll_indices": [
     8,
@@ -34,13 +34,13 @@
     2
   ],
   "original_type_index": 10,
-  "last_updated": "2026-05-07T22:03:15.241926+00:00",
+  "last_updated": "2026-05-08T04:13:45.580936+00:00",
   "post_type_index": 10,
-  "total_posts": 45,
+  "total_posts": 46,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
