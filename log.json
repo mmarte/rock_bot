@@ -508,5 +508,17 @@
     "image_url": "https://img.youtube.com/vi/MHuGmmFH-D8/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-05-08T04:14:10.963666+00:00"
+  },
+  {
+    "post_id": "post_20260508_143245",
+    "fb_post_id": "1043162839046116_1386847026823173",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Los Rabanes",
+    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
+    "status": "published",
+    "executed_at": "2026-05-08T14:33:12.453300+00:00"
   }
 ]

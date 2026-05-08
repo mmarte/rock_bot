@@ -896,5 +896,28 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260508_143245",
+    "status": "published",
+    "created_at": "2026-05-08T14:32:45.129215+00:00",
+    "post_type": "poll",
+    "topic": "Los Rabanes",
+    "text": "El rock en español vivió un momento emocionante en la década de los 90, con la aparición de bandas que innovaron y enriquecieron la escena musical. Álbumes icónicos de ese período siguen siendo muy influyentes. Entre los más destacados, tenemos opciones que han dejado una huella profunda en la historia del rock. ¿Cuál consideras el mejor entre estos álbumes legendarios? \n   👍 Canción Animal - Soda Stereo\n   ❤️ Re - Café Tacvba\n   😮 El Espíritu del Vino - Heroes del Silencio\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes #SodaStereo #CafeTacvba\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Rabanes rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Café Tacvba"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1386847026823173",
+    "ig_post_id": null,
+    "published_at": "2026-05-08T14:33:12.453300+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
