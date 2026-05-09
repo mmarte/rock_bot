@@ -1,20 +1,5 @@
 [
   {
-    "id": "post_20260425_210731",
-    "status": "published",
-    "created_at": "2026-04-25T21:07:31.308755+00:00",
-    "post_type": "original",
-    "topic": "Enanitos Verdes",
-    "text": "¿Quién es el rey del rock en español? ¿Son los Enanitos Verdes con su álbum 'Habitación Disponible' lanzado en 1984, o tal vez Maná con su disco 'Falta de Amor' de 1990? Los Enanitos Verdes, originarios de Mendoza, Argentina, han sido una fuerza dominante en la escena del rock en español desde fines de los 70. Con hits como 'La Muralla Verde' y 'Gente Invisible', han dejado una huella imborrable en el género. Maná, por otro lado, ha llevado el rock en español a nuevas alturas con su energía y pasión. ¿Cuál es tu opinión? ¿Predominan los Enanitos Verdes con su legado o Maná con su innovación?\n\nLo Mejor del Rock en Español les presenta a #EnanitosVerdes\n\n#LoMejordelRockenEspañol #RockEnEspañol #EnanitosVerdes #RockLatino #RockArgentino #RockMexicano #RockEspañol\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Enanitos Verdes Argentina rock band",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1376323404542202",
-    "ig_post_id": null,
-    "published_at": "2026-04-25T21:07:57.338205+00:00",
-    "error": null
-  },
-  {
     "id": "post_20260425_220744",
     "status": "published",
     "created_at": "2026-04-25T22:07:44.347428+00:00",
@@ -946,6 +931,29 @@
     "fb_post_id": "1043162839046116_1387644346743441",
     "ig_post_id": null,
     "published_at": "2026-05-09T14:16:26.712601+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260509_174628",
+    "status": "published",
+    "created_at": "2026-05-09T17:46:28.392323+00:00",
+    "post_type": "poll",
+    "topic": "Malpaís",
+    "text": "Colombia es un país con una rica escena musical que ha dado lugar a una amplia variedad de talentos. La fusión de ritmos tradicionales y el rock contemporáneo son solo algunos ejemplos de la diversidad musical que se puede encontrar allí. ¿Cuál es la banda colombiana que mejor representa esta mezcla de sonidos y pasión por la música? \n   Opciones: \n   Aterciopelados\n   Juanes\n   Bomba Estéreo\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Malpais #Aterciopelados #Juanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Malpaís rock band concert",
+    "extra_topics": [
+      "Aterciopelados",
+      "Juanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1387785220062687",
+    "ig_post_id": null,
+    "published_at": "2026-05-09T17:46:55.197546+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

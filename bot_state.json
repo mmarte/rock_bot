@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Alux Nahual",
     "Los Mojarras",
     "Charly García",
     "Café Tacvba",
@@ -19,10 +18,10 @@
     "Los Rabanes",
     "Fiel a la Vega",
     "Octavia",
-    "Gandhi"
+    "Gandhi",
+    "Malpaís"
   ],
   "used_poll_indices": [
-    12,
     6,
     11,
     15,
@@ -31,16 +30,17 @@
     16,
     3,
     2,
-    1
+    1,
+    18
   ],
   "original_type_index": 1,
-  "last_updated": "2026-05-09T14:16:00.603177+00:00",
+  "last_updated": "2026-05-09T17:46:29.711302+00:00",
   "post_type_index": 10,
-  "total_posts": 50,
+  "total_posts": 51,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
