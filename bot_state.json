@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Mojarras",
     "Charly García",
     "Café Tacvba",
     "Los Rabanes",
@@ -19,7 +18,8 @@
     "Fiel a la Vega",
     "Octavia",
     "Gandhi",
-    "Malpaís"
+    "Malpaís",
+    "Desorden Público"
   ],
   "used_poll_indices": [
     6,
@@ -33,14 +33,14 @@
     1,
     18
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-05-09T17:46:29.711302+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-05-09T21:49:56.355140+00:00",
   "post_type_index": 10,
-  "total_posts": 51,
+  "total_posts": 52,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024
 }
