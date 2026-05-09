@@ -1,21 +1,5 @@
 [
   {
-    "id": "post_20260425_evening",
-    "status": "pending",
-    "scheduled_at": "2026-04-26T00:00:00+00:00",
-    "slot": "evening",
-    "type": "video_youtube",
-    "topic": "Gustavo Cerati",
-    "text": "Esta noche les traigo un clásico que nos retrotrae a una de las épocas más icónicas de la música rock en español. Recuerdo que esta mañana hablamos sobre el legado de Gustavo Cerati, y no podía dejar de pensar en cómo su trabajo con Soda Stereo sigue siendo una fuente de inspiración para muchos. La versión de \"Té para tres\" en MTV Unplugged 1996 es un ejemplo perfecto de la habilidad de la banda para fusionar la energía rock con la introspección acústica. La voz y la presencia escénica de Cerati son simplemente cautivadoras. ¿Qué es lo que más les gusta de esta época de Soda Stereo y cómo creen que influyó en la música rock posterior?\n\nhttps://www.youtube.com/watch?v=spvWfRRUW-I",
-    "image_query": "Gustavo Cerati guitarist Argentina",
-    "video_url": "https://www.youtube.com/watch?v=spvWfRRUW-I",
-    "concert_url": null,
-    "fb_post_id": null,
-    "created_at": "2026-04-25T02:46:06.784381+00:00",
-    "published_at": null,
-    "error": null
-  },
-  {
     "id": "post_20260425_210731",
     "status": "published",
     "created_at": "2026-04-25T21:07:31.308755+00:00",
@@ -942,6 +926,26 @@
     "fb_post_id": "1043162839046116_1387288226779053",
     "ig_post_id": null,
     "published_at": "2026-05-09T04:20:08.290540+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260509_141559",
+    "status": "published",
+    "created_at": "2026-05-09T14:15:59.054369+00:00",
+    "post_type": "youtube",
+    "topic": "Gandhi",
+    "text": "La música de Gandhi es una fuente de inspiración, y este video muestra cómo la banda combina su energía en vivo con mensajes significativos. La animación y la música en este homenaje a Mahatma Gandhi son destacadas. Me gusta cómo Gandhi ha mantenido su esencia y conexión con su audiencia a lo largo de los años. ¿Cuál es tu canción favorita de la banda y qué te gusta de ella?\n\nhttps://www.youtube.com/watch?v=aZmlp_iVTzw\n\nLo Mejor del Rock en Español les presenta: #Gandhi\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Gandhi\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Gandhi rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=aZmlp_iVTzw",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1387644346743441",
+    "ig_post_id": null,
+    "published_at": "2026-05-09T14:16:26.712601+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
