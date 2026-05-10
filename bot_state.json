@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Charly García",
     "Café Tacvba",
     "Los Rabanes",
     "Savage",
@@ -19,7 +18,8 @@
     "Octavia",
     "Gandhi",
     "Malpaís",
-    "Desorden Público"
+    "Desorden Público",
+    "Flou"
   ],
   "used_poll_indices": [
     6,
@@ -34,13 +34,13 @@
     18
   ],
   "original_type_index": 2,
-  "last_updated": "2026-05-09T21:49:56.355140+00:00",
+  "last_updated": "2026-05-10T04:40:31.067576+00:00",
   "post_type_index": 10,
-  "total_posts": 52,
+  "total_posts": 53,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
