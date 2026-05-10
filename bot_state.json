@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Café Tacvba",
     "Los Rabanes",
     "Savage",
     "Cuca",
@@ -19,7 +18,8 @@
     "Gandhi",
     "Malpaís",
     "Desorden Público",
-    "Flou"
+    "Flou",
+    "Gandhi"
   ],
   "used_poll_indices": [
     6,
@@ -33,14 +33,14 @@
     1,
     18
   ],
-  "original_type_index": 2,
-  "last_updated": "2026-05-10T04:40:31.067576+00:00",
+  "original_type_index": 3,
+  "last_updated": "2026-05-10T14:19:05.426131+00:00",
   "post_type_index": 10,
-  "total_posts": 53,
+  "total_posts": 54,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }
