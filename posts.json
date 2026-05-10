@@ -1,26 +1,5 @@
 [
   {
-    "id": "post_20260426_140136",
-    "status": "published",
-    "created_at": "2026-04-26T14:01:36.319083+00:00",
-    "post_type": "poll",
-    "topic": "Bersuit Vergarabat",
-    "text": "¿Cuál es la canción que te hace sentir el verdadero espíritu del rock en español? Aquí te presento tres opciones icónicas que han marcado la historia de la música en español. ¿Cuál es tu favorita? \n   👍 De Música Ligera - Soda Stereo\n   ❤️ Entre Dos Tierras - Heroes del Silencio\n   😮 Oye Mi Amor - Maná\n   ¡Vota con tu reacción! 👍❤️😮\n\nLo Mejor del Rock en Español les presenta: #BersuitVergarabat #SodaStereo #HeroesdelSilencio #Mana\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #BersuitVergarabat #SodaStereo #HeroesdelSilencio #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Bersuit Vergarabat Argentina rock band",
-    "extra_topics": [
-      "Soda Stereo",
-      "Heroes del Silencio",
-      "Maná"
-    ],
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1376894854485057",
-    "ig_post_id": null,
-    "published_at": "2026-04-26T14:01:37.350532+00:00",
-    "error": null,
-    "threads_post_id": null
-  },
-  {
     "id": "post_20260426_173642",
     "status": "published",
     "created_at": "2026-04-26T17:36:42.443955+00:00",
@@ -969,6 +948,26 @@
     "fb_post_id": "1043162839046116_1388677863306756",
     "ig_post_id": null,
     "published_at": "2026-05-10T17:48:20.385253+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260510_215245",
+    "status": "published",
+    "created_at": "2026-05-10T21:52:45.173333+00:00",
+    "post_type": "original",
+    "topic": "La Ley",
+    "text": "La discografía de La Ley ofrece una variedad de álbumes destacados. Algunos de los álbumes más notables incluyen su álbum debut, que marca el inicio de su carrera musical, y 'Invisible', que muestra la evolución de la banda. 'Uno' es otro álbum que refleja la madurez musical de la banda. ¿Cuál es tu álbum favorito de La Ley?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaLey\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Ley Chile rock band concert",
+    "extra_topics": [],
+    "post_year": "1993",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1388821443292398",
+    "ig_post_id": null,
+    "published_at": "2026-05-10T21:52:46.839305+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

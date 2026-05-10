@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Savage",
     "Cuca",
     "La Máquina Camaleón",
     "Los Prisioneros",
@@ -19,7 +18,8 @@
     "Desorden Público",
     "Flou",
     "Gandhi",
-    "Flou"
+    "Flou",
+    "La Ley"
   ],
   "used_poll_indices": [
     6,
@@ -33,14 +33,14 @@
     1,
     18
   ],
-  "original_type_index": 3,
-  "last_updated": "2026-05-10T17:47:54.923695+00:00",
+  "original_type_index": 4,
+  "last_updated": "2026-05-10T21:52:46.336765+00:00",
   "post_type_index": 10,
-  "total_posts": 55,
+  "total_posts": 56,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }

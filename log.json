@@ -616,5 +616,17 @@
     "image_url": "https://img.youtube.com/vi/aWadYvYh4Mw/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-05-10T17:48:20.385253+00:00"
+  },
+  {
+    "post_id": "post_20260510_215245",
+    "fb_post_id": "1043162839046116_1388821443292398",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "La Ley",
+    "image_url": "https://images.pexels.com/photos/11977517/pexels-photo-11977517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-05-10T21:52:46.839305+00:00"
   }
 ]
