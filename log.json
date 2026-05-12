@@ -700,5 +700,11 @@
     "image_url": "https://images.pexels.com/photos/27817832/pexels-photo-27817832.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-05-12T18:56:09.996324+00:00"
+  },
+  {
+    "post_id": "post_20260512_221508",
+    "status": "failed",
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
+    "executed_at": "2026-05-12T22:15:35.408708+00:00"
   }
 ]
