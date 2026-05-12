@@ -676,5 +676,17 @@
     "image_url": "https://images.pexels.com/photos/15299013/pexels-photo-15299013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-05-11T22:11:47.944743+00:00"
+  },
+  {
+    "post_id": "post_20260512_043220",
+    "fb_post_id": "1043162839046116_1389869043187638",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Maná",
+    "image_url": "https://img.youtube.com/vi/iSWtBkdFeJk/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-05-12T04:32:47.208969+00:00"
   }
 ]

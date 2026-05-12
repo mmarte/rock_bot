@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Juanes",
     "Los Rabanes",
     "Flou",
     "Savage",
@@ -19,7 +18,8 @@
     "Zapato 3",
     "Los Tres",
     "No Te Va Gustar",
-    "Los Mojarras"
+    "Los Mojarras",
+    "Los Prisioneros"
   ],
   "used_poll_indices": [
     6,
@@ -34,13 +34,13 @@
     18
   ],
   "original_type_index": 7,
-  "last_updated": "2026-05-11T22:11:22.424403+00:00",
+  "last_updated": "2026-05-12T04:32:21.794327+00:00",
   "post_type_index": 10,
-  "total_posts": 60,
+  "total_posts": 61,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
