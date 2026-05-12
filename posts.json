@@ -1,22 +1,5 @@
 [
   {
-    "id": "post_20260427_215603",
-    "status": "published",
-    "created_at": "2026-04-27T21:56:03.358291+00:00",
-    "post_type": "original",
-    "topic": "Café Tacvba",
-    "text": "Recuerdo el concierto de Café Tacvba en el Festival Iberoamericano de Teatro de Bogotá en 2014, fue increíble. La energía de Rubén Albarrán y la banda fue contagiosa. ¿Cuál es tu recuerdo favorito de un concierto de Café Tacvba?\n\nLo Mejor del Rock en Español les presenta: #CafeTacvba\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Cafe Tacvba Mexico alternative rock band",
-    "extra_topics": [],
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1378069837700892",
-    "ig_post_id": null,
-    "published_at": "2026-04-27T21:56:04.207560+00:00",
-    "error": null,
-    "threads_post_id": null
-  },
-  {
     "id": "post_20260428_043036",
     "status": "published",
     "created_at": "2026-04-28T04:30:36.363127+00:00",
@@ -987,6 +970,30 @@
     "fb_post_id": "1043162839046116_1389869043187638",
     "ig_post_id": null,
     "published_at": "2026-05-12T04:32:47.208969+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260512_185543",
+    "status": "published",
+    "created_at": "2026-05-12T18:55:43.133885+00:00",
+    "post_type": "poll",
+    "topic": "Habana Abierta",
+    "text": "La música en español ha dado lugar a bandas destacadas que han sabido mantener su identidad y explorar nuevos sonidos. Algunas han logrado fusionar ritmos tradicionales con estilos contemporáneos, manteniendo a su audiencia en vilo. ¿Cuál crees que es la banda que ha logrado evolucionar de manera más impactante con el tiempo? \n   Opciones: \n   Café Tacvba\n   Los Fabulosos Cadillacs\n   Maná\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta #Mana #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Habana Abierta rock band concert",
+    "extra_topics": [
+      "Maná",
+      "Café Tacvba",
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1390423516465524",
+    "ig_post_id": null,
+    "published_at": "2026-05-12T18:56:09.996324+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

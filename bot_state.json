@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Flou",
     "Savage",
     "Toque Profundo",
@@ -19,10 +18,10 @@
     "Los Tres",
     "No Te Va Gustar",
     "Los Mojarras",
-    "Los Prisioneros"
+    "Los Prisioneros",
+    "Habana Abierta"
   ],
   "used_poll_indices": [
-    6,
     11,
     15,
     0,
@@ -31,16 +30,17 @@
     3,
     2,
     1,
-    18
+    18,
+    13
   ],
   "original_type_index": 7,
-  "last_updated": "2026-05-12T04:32:21.794327+00:00",
+  "last_updated": "2026-05-12T18:55:44.471215+00:00",
   "post_type_index": 10,
-  "total_posts": 61,
+  "total_posts": 62,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
