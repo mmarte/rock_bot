@@ -1,21 +1,5 @@
 [
   {
-    "id": "post_20260428_220224",
-    "status": "failed",
-    "created_at": "2026-04-28T22:02:24.628785+00:00",
-    "post_type": "original",
-    "topic": "Los Fabulosos Cadillacs",
-    "text": "¿Sabías que Los Fabulosos Cadillacs, una de las bandas más emblemáticas del rock en español, colaboraron con el famoso músico Debbie Harry, vocalista de Blondie, en su álbum 'Rey Azúcar' lanzado en 1995? Esta colaboración inesperada nos dio el increíble tema 'Strawberry Fields Forever', una versión única de la clásica canción de The Beatles. ¿Cuál es tu colaboración favorita de Los Fabulosos Cadillacs?\n\nLo Mejor del Rock en Español les presenta: #LosFabulososCadillacs\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Fabulosos Cadillacs Argentina ska rock",
-    "extra_topics": [],
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260429_042517",
     "status": "published",
     "created_at": "2026-04-29T04:25:17.643213+00:00",
@@ -1003,6 +987,29 @@
     "fb_post_id": "1043162839046116_1391133756394500",
     "ig_post_id": null,
     "published_at": "2026-05-13T15:42:10.838684+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260513_185612",
+    "status": "published",
+    "created_at": "2026-05-13T18:56:12.580571+00:00",
+    "post_type": "poll",
+    "topic": "Fiel a la Vega",
+    "text": "¿Qué canción te hace sentir la esencia del rock en español? El rock en español ha sido un género que ha evolucionado con el tiempo, y ha dado lugar a un sinfín de temas que han resonado en nuestros corazones. Desde el movimiento rock de décadas pasadas, hasta hoy en día, ha habido muchas canciones que han dejado huella en la historia de este género. Entre algunas de las opciones destacadas, tenemos: \n   👍 De Música Ligera - Soda Stereo\n   ❤️ Entre Dos Tierras - Heroes del Silencio\n   😮 Oye Mi Amor - Maná\n   ¡Vota con tu reacción! ¿Cuál te parece la canción más representativa del rock en español?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Fiel a la Vega rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1391261753048367",
+    "ig_post_id": null,
+    "published_at": "2026-05-13T18:56:39.452831+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
