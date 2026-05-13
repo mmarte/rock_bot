@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Fiel a la Vega",
     "Octavia",
     "Gandhi",
@@ -19,7 +18,8 @@
     "La Cuneta Son Machín",
     "Líbido",
     "La Vela Puerca",
-    "Fiel a la Vega"
+    "Fiel a la Vega",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     15,
@@ -34,13 +34,13 @@
     8
   ],
   "original_type_index": 8,
-  "last_updated": "2026-05-13T18:56:14.055058+00:00",
+  "last_updated": "2026-05-13T22:16:42.624851+00:00",
   "post_type_index": 10,
-  "total_posts": 66,
+  "total_posts": 67,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
