@@ -1,22 +1,5 @@
 [
   {
-    "id": "post_20260428_181552",
-    "status": "published",
-    "created_at": "2026-04-28T18:15:52.693118+00:00",
-    "post_type": "youtube",
-    "topic": "Divididos",
-    "text": "Me encanta ver a Divididos en vivo, la energía que despiden es increíble. Este recital en Vélez es un ejemplo perfecto de su conexión con el público y su capacidad para hacer que todos se sientan parte de la experiencia. La voz de Ricardo Mollo es única y la forma en que toca la guitarra es verdaderamente admirable. ¿Cuál es tu canción favorita de Divididos?\n\nhttps://www.youtube.com/watch?v=FTUnujHts6w\n\nLo Mejor del Rock en Español les presenta: #Divididos\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Divididos\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Divididos Argentina rock concert",
-    "extra_topics": [],
-    "video_url": "https://www.youtube.com/watch?v=FTUnujHts6w",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1378770484297494",
-    "ig_post_id": null,
-    "published_at": "2026-04-28T18:15:54.093564+00:00",
-    "error": null,
-    "threads_post_id": null
-  },
-  {
     "id": "post_20260428_220224",
     "status": "failed",
     "created_at": "2026-04-28T22:02:24.628785+00:00",
@@ -998,6 +981,28 @@
     "fb_post_id": "1043162839046116_1390722889768920",
     "ig_post_id": null,
     "published_at": "2026-05-13T04:39:43.625737+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260513_154143",
+    "status": "published",
+    "created_at": "2026-05-13T15:41:43.346901+00:00",
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "text": "Enrique Bunbury le dio una interpretación única a 'Entre Dos Tierras', originalmente de Héroes del Silencio, cuando la reimaginó en un formato íntimo. Con su voz acompañada solo por la guitarra, la canción adquirió un carácter emotivo y profundo. ¿Te conmueve más la versión en solitario de Bunbury o la original de Héroes del Silencio?\n\nhttps://www.youtube.com/watch?v=_CGxMQeURFA\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Enrique Bunbury Entre Dos Tierras live",
+    "extra_topics": [
+      "Héroes del Silencio"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=_CGxMQeURFA",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1391133756394500",
+    "ig_post_id": null,
+    "published_at": "2026-05-13T15:42:10.838684+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
