@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260428_152017",
-    "status": "published",
-    "created_at": "2026-04-28T15:20:17.749573+00:00",
-    "post_type": "poll",
-    "topic": "Maná",
-    "text": "La música en español ha producido algunos de los álbumes más icónicos de la historia. Desde la energía contagiosa de Soda Stereo hasta la poesía de Heroes del Silencio, y la magia de Maná, cada uno ha dejado su huella en el corazón de los fans. Ahora, tienes la oportunidad de elegir cuál consideras el más influyente. ¿Cuál es tu opción? \n   Opción A: Doble Vida - Soda Stereo 👍\n   Opción B: El Espíritu del Vino - Heroes del Silencio ❤️\n   Opción C: Donde Jugaran los Niños - Maná 😮\n   ¡Vota con tu reacción! 👍❤️😮\n\nLo Mejor del Rock en Español les presenta: #Mana #SodaStereo #HeroesdelSilencio\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #SodaStereo #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Mana band Mexico rock concert",
-    "extra_topics": [
-      "Soda Stereo",
-      "Heroes del Silencio"
-    ],
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1378658360975373",
-    "ig_post_id": null,
-    "published_at": "2026-04-28T15:20:18.769636+00:00",
-    "error": null,
-    "threads_post_id": null
-  },
-  {
     "id": "post_20260428_181552",
     "status": "published",
     "created_at": "2026-04-28T18:15:52.693118+00:00",
@@ -1001,5 +981,25 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260513_043916",
+    "status": "published",
+    "created_at": "2026-05-13T04:39:16.187806+00:00",
+    "post_type": "original",
+    "topic": "Líbido",
+    "text": "Líbido, la banda peruana de rock, es conocida por su sonido distintivo y emocional. Aquí te presento 3 claves para entender a esta banda icónica: \n   1. Su sonido único combina ritmos rock con melodías cautivadoras, destacando la voz y la guitarra de sus integrantes.\n   2. La historia de Líbido se inició en la década de 1990 en Lima, Perú, y se consolidó con el lanzamiento de su álbum debut.\n   3. La banda ha lanzado varios álbumes a lo largo de su carrera, incluyendo 'Habla mal de mí', que incluye canciones destacadas y ha contribuido a su popularidad en la escena rock en español. \n   ¿Cuál es tu canción favorita de Líbido?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Libido\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Líbido rock band concert",
+    "extra_topics": [],
+    "post_year": "1996",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1390722889768920",
+    "ig_post_id": null,
+    "published_at": "2026-05-13T04:39:43.625737+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
