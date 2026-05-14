@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Fiel a la Vega",
     "Octavia",
     "Gandhi",
     "Malpaís",
@@ -19,7 +18,8 @@
     "Líbido",
     "La Vela Puerca",
     "Fiel a la Vega",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Toque Profundo"
   ],
   "used_poll_indices": [
     15,
@@ -33,14 +33,14 @@
     13,
     8
   ],
-  "original_type_index": 8,
-  "last_updated": "2026-05-13T22:16:42.624851+00:00",
+  "original_type_index": 9,
+  "last_updated": "2026-05-14T15:14:48.164159+00:00",
   "post_type_index": 10,
-  "total_posts": 67,
+  "total_posts": 68,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
