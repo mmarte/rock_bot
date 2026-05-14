@@ -1,22 +1,5 @@
 [
   {
-    "id": "post_20260429_181118",
-    "status": "published",
-    "created_at": "2026-04-29T18:11:18.646101+00:00",
-    "post_type": "youtube",
-    "topic": "Rata Blanca",
-    "text": "La energía de Rata Blanca en vivo es increíble, Adrián Barilari es un frontman excepcional. Me encanta cómo la banda combina la potencia del heavy metal con melodías épicas y emotivas. La ejecución de 'Hijos de la Tempestad' es especialmente destacada, con un ritmo que nos hace querer levantarnos y unirnos a la banda en el escenario. ¿Cuál es tu canción favorita de Rata Blanca?\n\nhttps://www.youtube.com/watch?v=0HGE_UVTYPE\n\nLo Mejor del Rock en Español les presenta: #RataBlanca\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #RataBlanca\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Rata Blanca Argentina heavy metal band",
-    "extra_topics": [],
-    "video_url": "https://www.youtube.com/watch?v=0HGE_UVTYPE",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1379616327546243",
-    "ig_post_id": null,
-    "published_at": "2026-04-29T18:11:20.304836+00:00",
-    "error": null,
-    "threads_post_id": null
-  },
-  {
     "id": "post_20260429_220204",
     "status": "published",
     "created_at": "2026-04-29T22:02:04.559644+00:00",
@@ -1012,6 +995,28 @@
     "fb_post_id": "1043162839046116_1392083876299488",
     "ig_post_id": null,
     "published_at": "2026-05-14T15:15:13.563523+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260514_185317",
+    "status": "published",
+    "created_at": "2026-05-14T18:53:17.166876+00:00",
+    "post_type": "original",
+    "topic": "Alux Nahual",
+    "text": "¿Cuál época de Alux Nahual te parece más influyente? La primera con su álbum debut, que marcó el comienzo del rock guatemalteco, o la segunda con 'Libre', que les permitió compartir escenario con destacadas bandas en importantes lugares. Ambas etapas tienen su propia magia, desde la energía primitiva de algunas de sus canciones hasta la madurez de otros temas. ¿Te gustan más sus obras iniciales o las que muestran su evolución con el tiempo? ¿Qué etapa de Alux Nahual te parece más icónica?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #AluxNahual #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Alux Nahual rock band concert",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "1981",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1392234786284397",
+    "ig_post_id": null,
+    "published_at": "2026-05-14T18:53:44.391122+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

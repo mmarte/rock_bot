@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Octavia",
     "Gandhi",
     "Malpaís",
     "Desorden Público",
@@ -19,7 +18,8 @@
     "La Vela Puerca",
     "Fiel a la Vega",
     "Los Rabanes",
-    "Toque Profundo"
+    "Toque Profundo",
+    "Alux Nahual"
   ],
   "used_poll_indices": [
     15,
@@ -33,14 +33,14 @@
     13,
     8
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-05-14T15:14:48.164159+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-05-14T18:53:18.971448+00:00",
   "post_type_index": 10,
-  "total_posts": 68,
+  "total_posts": 69,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }
