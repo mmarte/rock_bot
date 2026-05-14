@@ -1,22 +1,5 @@
 [
   {
-    "id": "post_20260429_220204",
-    "status": "published",
-    "created_at": "2026-04-29T22:02:04.559644+00:00",
-    "post_type": "original",
-    "topic": "Molotov",
-    "text": "¿Sabías que Molotov, la icónica banda mexicana de rock, se formó en 1995 en la Ciudad de México? Uno de sus álbumes más influyentes, '¿Dónde Jugarán las Niñas?', fue lanzado en 1997 y se convirtió en un éxito instantáneo. Además, la banda ha sido conocida por su energía en vivo y sus letras provocativas, lo que les ha valido una gran cantidad de seguidores en todo el mundo. ¿Sabían sobre estos datos sobre Molotov?\n\nLo Mejor del Rock en Español les presenta: #Molotov\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Molotov\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Molotov Mexico punk rock band",
-    "extra_topics": [],
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1379742517533624",
-    "ig_post_id": null,
-    "published_at": "2026-04-29T22:02:05.434415+00:00",
-    "error": null,
-    "threads_post_id": null
-  },
-  {
     "id": "post_20260430_042837",
     "status": "failed",
     "created_at": "2026-04-30T04:28:37.616852+00:00",
@@ -1017,6 +1000,28 @@
     "fb_post_id": "1043162839046116_1392234786284397",
     "ig_post_id": null,
     "published_at": "2026-05-14T18:53:44.391122+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260514_221501",
+    "status": "published",
+    "created_at": "2026-05-14T22:15:01.992972+00:00",
+    "post_type": "original",
+    "topic": "Bomba Estéreo",
+    "text": "En el panorama musical colombiano, hay varias bandas que destacan por fusionar rock y ritmos latinos de manera única. Bomba Estéreo ha demostrado su capacidad para mezclar el rock con la cumbia y otros ritmos colombianos a través de su música. Por otro lado, Aterciopelados han sido pioneros en la fusión de rock con música tradicional colombiana. Ambas bandas ofrecen experiencias musicales distintas, con Bomba Estéreo caracterizada por su energía y ritmo, y Aterciopelados destacando por su experimentación y madurez musical. ¿Cuál de estas dos bandas te parece que mejor representa la esencia del rock latino colombiano?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #BombaEstereo #Aterciopelados\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Bomba Estéreo Colombia electronic rock",
+    "extra_topics": [
+      "Aterciopelados"
+    ],
+    "post_year": "2012",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1392345349606674",
+    "ig_post_id": null,
+    "published_at": "2026-05-14T22:15:29.539039+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

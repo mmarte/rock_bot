@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Gandhi",
     "Malpaís",
     "Desorden Público",
     "Flou",
@@ -19,7 +18,8 @@
     "Fiel a la Vega",
     "Los Rabanes",
     "Toque Profundo",
-    "Alux Nahual"
+    "Alux Nahual",
+    "Bomba Estéreo"
   ],
   "used_poll_indices": [
     15,
@@ -33,14 +33,14 @@
     13,
     8
   ],
-  "original_type_index": 10,
-  "last_updated": "2026-05-14T18:53:18.971448+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-05-14T22:15:04.141524+00:00",
   "post_type_index": 10,
-  "total_posts": 69,
+  "total_posts": 70,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "original",
   "curation_year": 2024
 }
