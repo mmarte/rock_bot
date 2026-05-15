@@ -1,21 +1,5 @@
 [
   {
-    "id": "post_20260430_215915",
-    "status": "failed",
-    "created_at": "2026-04-30T21:59:15.074362+00:00",
-    "post_type": "original",
-    "topic": "Panteon Rococo",
-    "text": "Panteon Rococo es una de las bandas más emblemáticas del rock en español, especialmente dentro del género ska. Formada en 1995 en la Ciudad de México, la banda ha recorrido un largo camino lleno de éxitos y adversidades. Su álbum más icónico, 'Cometierra', lanzado en 2001, marcó un punto de inflexión en su carrera, destacándose por su energía y mezcla única de ritmos. Detrás de este álbum hay una historia de dedicación y pasión. ¿Cuál es tu canción favorita de Panteon Rococo y por qué te gusta?\n\nLo Mejor del Rock en Español les presenta: #PanteonRococo\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #PanteonRococo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Panteon Rococo Mexico ska band concert",
-    "extra_topics": [],
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260501_040602",
     "status": "published",
     "created_at": "2026-05-01T04:06:02.676226+00:00",
@@ -1030,6 +1014,29 @@
     "fb_post_id": "1043162839046116_1393068692867673",
     "ig_post_id": null,
     "published_at": "2026-05-15T18:23:07.024230+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260515_220505",
+    "status": "published",
+    "created_at": "2026-05-15T22:05:05.766354+00:00",
+    "post_type": "poll",
+    "topic": "Juanes",
+    "text": "El mundo del rock en español cuenta con guitarristas excepcionales, cada uno aportando su propio estilo y pasión. Desde la energía contagiosa de bandas como Soda Stereo hasta la profundidad sonora de grupos como Heroes del Silencio, y el trabajo destacado de productores y músicos como Tweety González. ¿Quién crees que es el mejor guitarrista de rock en español? Elige entre: 👍 Gustavo Cerati - Soda Stereo, ❤️ Iñaki Uoho - Heroes del Silencio, o 😮 Tweety González. ¿Cuál es tu elección?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Juanes #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Juanes Colombia rock singer guitar",
+    "extra_topics": [
+      "Soda Stereo",
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1393189712855571",
+    "ig_post_id": null,
+    "published_at": "2026-05-15T22:05:32.539472+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
