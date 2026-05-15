@@ -802,5 +802,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Le_Poulpe_Colossal.jpg",
     "status": "published",
     "executed_at": "2026-05-15T04:44:09.871732+00:00"
+  },
+  {
+    "post_id": "post_20260515_151109",
+    "fb_post_id": "1043162839046116_1392939122880630",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "image_url": "https://img.youtube.com/vi/Q9bWs0h2xZM/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-05-15T15:11:37.657749+00:00"
   }
 ]

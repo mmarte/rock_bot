@@ -1,26 +1,5 @@
 [
   {
-    "id": "post_20260430_150215",
-    "status": "published",
-    "created_at": "2026-04-30T15:02:15.234174+00:00",
-    "post_type": "poll",
-    "topic": "Fito Páez",
-    "text": "¿Qué es lo que hace que un concierto en vivo sea inolvidable? La energía de la multitud, la pasión de los músicos, o la magia de la improvisación. El rock en español ha ofrecido algunos de los conciertos más épicos de la historia. Entre los discos en vivo que han marcado la diferencia, ¿cuál es el que consideras el mejor? \n   Opciones: \n   👍 Conmemorativo - Soda Stereo\n   ❤️ En Directo - Heroes del Silencio\n   😮 MTV Unplugged - Maná\n   ¡Vota con tu reacción! 👍❤️😮\n\nLo Mejor del Rock en Español les presenta: #FitoPaez #SodaStereo #HeroesdelSilencio #Mana\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FitoPaez #SodaStereo #HeroesdelSilencio #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Fito Paez Argentina rock piano",
-    "extra_topics": [
-      "Soda Stereo",
-      "Heroes del Silencio",
-      "Maná"
-    ],
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1380349610806248",
-    "ig_post_id": null,
-    "published_at": "2026-04-30T15:02:16.219319+00:00",
-    "error": null,
-    "threads_post_id": null
-  },
-  {
     "id": "post_20260430_180913",
     "status": "published",
     "created_at": "2026-04-30T18:09:13.977776+00:00",
@@ -1026,6 +1005,28 @@
     "fb_post_id": "1043162839046116_1392545366253339",
     "ig_post_id": null,
     "published_at": "2026-05-15T04:44:09.871732+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260515_151109",
+    "status": "published",
+    "created_at": "2026-05-15T15:11:09.875326+00:00",
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "text": "Enrique Bunbury nos brinda una interpretación única de 'Entre Dos Tierras', una canción que originalmente pertenece a Héroes del Silencio. Al llevar esta canción a un plano más íntimo, Bunbury demuestra su habilidad para conectar con el público a través de su música. La conexión entre el artista original y el intérprete se centra en la pasión que ambos comparten por la música. ¿Te conmueve más la versión original o la emotiva reinterpretación de Enrique Bunbury?\n\nhttps://www.youtube.com/watch?v=Q9bWs0h2xZM\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Enrique Bunbury Entre Dos Tierras live",
+    "extra_topics": [
+      "Héroes del Silencio"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=Q9bWs0h2xZM",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1392939122880630",
+    "ig_post_id": null,
+    "published_at": "2026-05-15T15:11:37.657749+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

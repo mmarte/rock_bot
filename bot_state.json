@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Desorden Público",
     "Flou",
     "Gandhi",
     "Flou",
@@ -19,7 +18,8 @@
     "Toque Profundo",
     "Alux Nahual",
     "Bomba Estéreo",
-    "Kraken"
+    "Kraken",
+    "Savage"
   ],
   "used_poll_indices": [
     15,
@@ -34,13 +34,13 @@
     8
   ],
   "original_type_index": 2,
-  "last_updated": "2026-05-15T04:43:44.507022+00:00",
+  "last_updated": "2026-05-15T15:11:12.152438+00:00",
   "post_type_index": 10,
-  "total_posts": 71,
+  "total_posts": 72,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
