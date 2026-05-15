@@ -1,21 +1,5 @@
 [
   {
-    "id": "post_20260430_042837",
-    "status": "failed",
-    "created_at": "2026-04-30T04:28:37.616852+00:00",
-    "post_type": "concert",
-    "topic": "Bersuit Vergarabat",
-    "text": "¡Es hora de sentir la energía del rock en español en vivo! No te pierdas la oportunidad de ver a tus artistas favoritos en el escenario. Puedes encontrar entradas para los próximos conciertos en Ticketmaster, Vivid Seats y StubHub. ¡No esperes más, consigue tus entradas ahora y prepárate para una noche inolvidable! ¿Quién va a unir la fiesta?\n\n\n🎟️ Boletos: https://www.vividseats.com/concerts\n\nLo Mejor del Rock en Español les presenta: #BersuitVergarabat\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #BersuitVergarabat\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "rock concert latinamerica crowd stage",
-    "extra_topics": [],
-    "video_url": null,
-    "concert_url": "https://www.vividseats.com/concerts",
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 100: Invalid parameter"
-  },
-  {
     "id": "post_20260430_150215",
     "status": "published",
     "created_at": "2026-04-30T15:02:15.234174+00:00",
@@ -1022,6 +1006,26 @@
     "fb_post_id": "1043162839046116_1392345349606674",
     "ig_post_id": null,
     "published_at": "2026-05-14T22:15:29.539039+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260515_044342",
+    "status": "published",
+    "created_at": "2026-05-15T04:43:42.762162+00:00",
+    "post_type": "original",
+    "topic": "Kraken",
+    "text": "Kraken ha dejado una huella indeleble en el rock colombiano con su historia llena de giros inesperados. Aquí te presento tres datos interesantes sobre la banda: \n   1. Kraken se formó en la década de 1980 en Bogotá, Colombia, y lanzó su primer álbum en 1987.\n   2. La banda ha experimentado varios cambios en su alineación a lo largo de los años, con diferentes músicos contribuyendo a su sonido.\n   3. Uno de sus álbumes más destacados es 'El Símbolo de la Libertad', lanzado en la década de 1990, que recibió elogios de la crítica y el público. \n   ¿Te intriga saber más sobre la evolución de Kraken?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Kraken\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Kraken rock band concert",
+    "extra_topics": [],
+    "post_year": "1984",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1392545366253339",
+    "ig_post_id": null,
+    "published_at": "2026-05-15T04:44:09.871732+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
