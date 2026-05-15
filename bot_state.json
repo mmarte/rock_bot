@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Flou",
     "Gandhi",
     "Flou",
     "La Ley",
@@ -19,7 +18,8 @@
     "Alux Nahual",
     "Bomba Estéreo",
     "Kraken",
-    "Savage"
+    "Savage",
+    "Octavia"
   ],
   "used_poll_indices": [
     15,
@@ -34,13 +34,13 @@
     8
   ],
   "original_type_index": 2,
-  "last_updated": "2026-05-15T15:11:12.152438+00:00",
+  "last_updated": "2026-05-15T18:22:41.206412+00:00",
   "post_type_index": 10,
-  "total_posts": 72,
+  "total_posts": 73,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
