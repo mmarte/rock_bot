@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Zapato 3",
     "Los Tres",
     "No Te Va Gustar",
     "Los Mojarras",
@@ -19,10 +18,10 @@
     "Octavia",
     "Juanes",
     "La Ley",
-    "Savage"
+    "Savage",
+    "Los Fabulosos Cadillacs"
   ],
   "used_poll_indices": [
-    0,
     9,
     16,
     3,
@@ -31,16 +30,17 @@
     18,
     13,
     8,
-    5
+    5,
+    14
   ],
   "original_type_index": 2,
-  "last_updated": "2026-05-16T14:20:35.960781+00:00",
+  "last_updated": "2026-05-16T17:54:58.105192+00:00",
   "post_type_index": 10,
-  "total_posts": 76,
+  "total_posts": 77,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "poll",
   "curation_year": 2024
 }

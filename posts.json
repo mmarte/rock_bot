@@ -1,23 +1,5 @@
 [
   {
-    "id": "post_20260502_040629",
-    "status": "pending",
-    "created_at": "2026-05-02T04:06:29.733305+00:00",
-    "post_type": "hoy_en_historia",
-    "topic": "Fito Páez",
-    "text": "Un día como hoy nació en Rosario, Argentina, el reconocido pianista y compositor Fito Páez. Con una carrera que abarca más de cuatro décadas, Fito Páez se ha convertido en una figura icónica del rock en español, conocido por sus habilidades como pianista y compositor. Su música ha tenido un impacto significativo en la escena musical, fusionando el rock con elementos de jazz y folk. ¿Cuál es tu conexión con la música de Fito Páez y qué canción suya te gusta más?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FitoPaez\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Fito Paez Argentina rock piano concert 1965",
-    "extra_topics": [],
-    "post_year": "1965",
-    "curation_year": "2015",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": null
-  },
-  {
     "id": "post_20260502_044358",
     "status": "failed",
     "created_at": "2026-05-02T04:43:58.912826+00:00",
@@ -1042,6 +1024,28 @@
     "fb_post_id": "1043162839046116_1393739449467264",
     "ig_post_id": null,
     "published_at": "2026-05-16T14:21:01.397599+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260516_175456",
+    "status": "published",
+    "created_at": "2026-05-16T17:54:56.594018+00:00",
+    "post_type": "poll",
+    "topic": "Los Fabulosos Cadillacs",
+    "text": "El bajo es fundamental en el rock en español, y algunos músicos han dejado una marca importante en la historia del género. La escena argentina y la fusión de estilos en la música latina han mostrado la diversidad del bajo en el rock. ¿Quién crees que es el mejor bajista? \n   Opción A: 👍 Zeta Bosio - Soda Stereo\n   Opción B: ❤️ Flavio Cianciarulo - Los Fabulosos Cadillacs\n   Opción C: 😮 Juan Alderete\n   ¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosFabulososCadillacs #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Fabulosos Cadillacs Argentina ska rock",
+    "extra_topics": [
+      "Soda Stereo"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1393883936119482",
+    "ig_post_id": null,
+    "published_at": "2026-05-16T17:55:23.444729+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
