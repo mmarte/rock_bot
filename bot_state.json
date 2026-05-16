@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Ley",
     "Zapato 3",
     "Los Tres",
     "No Te Va Gustar",
@@ -19,7 +18,8 @@
     "Savage",
     "Octavia",
     "Juanes",
-    "La Ley"
+    "La Ley",
+    "Savage"
   ],
   "used_poll_indices": [
     0,
@@ -34,13 +34,13 @@
     5
   ],
   "original_type_index": 2,
-  "last_updated": "2026-05-16T04:24:53.182229+00:00",
+  "last_updated": "2026-05-16T14:20:35.960781+00:00",
   "post_type_index": 10,
-  "total_posts": 75,
+  "total_posts": 76,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
