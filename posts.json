@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260502_044358",
-    "status": "failed",
-    "created_at": "2026-05-02T04:43:58.912826+00:00",
-    "post_type": "concert",
-    "topic": "Mecano",
-    "text": "¡Estamos a solo unos días del concierto más esperado del año! En la ciudad de México, se vivirá un momento especial con la banda Mecano. No te pierdas la oportunidad de disfrutar de una noche inolvidable con una de las bandas más queridas del rock en español. Consigue tus boletos para ser parte de esta experiencia única. ¿Cuál es tu canción favorita de Mecano?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mecano #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "rock concert latinamerica crowd stage",
-    "extra_topics": [
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "1992",
-    "video_url": null,
-    "concert_url": "https://www.vividseats.com/concerts",
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 324: Missing or invalid image file"
-  },
-  {
     "id": "post_20260502_045319",
     "status": "published",
     "created_at": "2026-05-02T04:53:19.467691+00:00",
@@ -1049,5 +1029,23 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260516_215413",
+    "status": "failed",
+    "created_at": "2026-05-16T21:54:13.079789+00:00",
+    "post_type": "original",
+    "topic": "La Cuneta Son Machín",
+    "text": "La Cuneta Son Machín es una banda destacada en la escena musical de Nicaragua. Formada en la ciudad de Managua, la banda originalmente estaba integrada por Carlos Mejía Godoy, Luis Enrique Mejía Godoy y Justo Pastor López. Uno de los álbumes más destacados de la banda es 'Nicaragua, Nicaragüita', lanzado en la década de 1980, el cual incluyó canciones que se convirtieron en himnos de la resistencia nicaragüense. La formación de la banda coincidió con un momento de gran cambio político en Nicaragua, y su música se convirtió en una voz de protesta y esperanza para muchos nicaragüenses. ¿Cuál es tu canción favorita de La Cuneta Son Machín?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaCunetaSonMachin\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Cuneta Son Machín rock band concert",
+    "extra_topics": [],
+    "post_year": "1987",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]

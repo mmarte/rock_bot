@@ -868,5 +868,11 @@
     "image_url": "https://www.sodastereo.com/img/image_src.jpg",
     "status": "published",
     "executed_at": "2026-05-16T17:55:23.444729+00:00"
+  },
+  {
+    "post_id": "post_20260516_215413",
+    "status": "failed",
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
+    "executed_at": "2026-05-16T21:54:40.180452+00:00"
   }
 ]
