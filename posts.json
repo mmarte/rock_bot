@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260504_043706",
-    "status": "published",
-    "created_at": "2026-05-04T04:37:06.342189+00:00",
-    "post_type": "youtube",
-    "topic": "Alux Nahual",
-    "text": "Alux Nahual nos ofrece una experiencia musical única. 'Murcielago Danzante' muestra su habilidad para combinar ritmos y crear una atmósfera impactante. La producción de este videoclip es notable y la locación es impresionante. ¿Cuál es tu canción favorita de Alux Nahual?\n\nhttps://www.youtube.com/watch?v=4sAIjDBn3GI\n\nLo Mejor del Rock en Español les presenta: #AluxNahual\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #AluxNahual\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Alux Nahual rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=4sAIjDBn3GI",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1383262073848335",
-    "ig_post_id": null,
-    "published_at": "2026-05-04T04:37:33.445924+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260504_150624",
     "status": "published",
     "created_at": "2026-05-04T15:06:24.507661+00:00",
@@ -1047,5 +1027,23 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260517_175626",
+    "status": "failed",
+    "created_at": "2026-05-17T17:56:26.839714+00:00",
+    "post_type": "original",
+    "topic": "Extremoduro",
+    "text": "Extremoduro ha ofrecido conciertos inolvidables a lo largo de su carrera. En el festival Viña Rock, el grupo liderado por Roberto Iniesta ha interpretado temas de sus álbumes más destacados como 'Deltoya' y 'Caballeros de las Fuerzas Especiales'. ¿Qué es lo que más te gusta de sus actuaciones en vivo?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Extremoduro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Extremoduro Spain rock band",
+    "extra_topics": [],
+    "post_year": "2008",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]

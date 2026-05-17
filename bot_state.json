@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Prisioneros",
     "Habana Abierta",
     "La Cuneta Son Machín",
     "Líbido",
@@ -19,7 +18,8 @@
     "Los Fabulosos Cadillacs",
     "La Cuneta Son Machín",
     "Fito Páez",
-    "Frágil"
+    "Frágil",
+    "Extremoduro"
   ],
   "used_poll_indices": [
     9,
@@ -33,14 +33,14 @@
     5,
     14
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-05-17T14:23:54.917207+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-05-17T17:56:28.020658+00:00",
   "post_type_index": 10,
-  "total_posts": 80,
+  "total_posts": 81,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "concert",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }
