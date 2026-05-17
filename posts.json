@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260504_150624",
-    "status": "published",
-    "created_at": "2026-05-04T15:06:24.507661+00:00",
-    "post_type": "poll",
-    "topic": "Los Mojarras",
-    "text": "¿Dónde se vive la emoción del rock en español? Los festivales son una experiencia única que combina energía y pasión. Desde México hasta Colombia, hay eventos que destacan la diversidad y la fuerza del rock en español. ¿Cuál es tu festival favorito? \n   Opciones: \n   Vive Latino\n   Lollapalooza LatAm\n   Festival Estéreo Picnic\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosMojarras\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Mojarras rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1383635473810995",
-    "ig_post_id": null,
-    "published_at": "2026-05-04T15:06:51.341095+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260504_181317",
     "status": "published",
     "created_at": "2026-05-04T18:13:17.272792+00:00",
@@ -1040,6 +1020,26 @@
     "post_year": "2008",
     "curation_year": "2024",
     "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260517_215930",
+    "status": "failed",
+    "created_at": "2026-05-17T21:59:30.629709+00:00",
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "text": "La voz única de Enrique Bunbury nos regala una interpretación especial de 'Entre Dos Tierras', una canción emblemática. En su versión, Bunbury logra imprimir su propio estilo en esta pieza musical icónica. ¿Cuál te conmueve más, la fuerza original o la sensibilidad de su interpretación?\n\nhttps://www.youtube.com/watch?v=B9kipCl4dr8\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Enrique Bunbury Entre Dos Tierras live",
+    "extra_topics": [
+      "Héroes del Silencio"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=B9kipCl4dr8",
     "concert_url": null,
     "fb_post_id": null,
     "ig_post_id": null,

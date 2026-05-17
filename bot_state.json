@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Habana Abierta",
     "La Cuneta Son Machín",
     "Líbido",
     "La Vela Puerca",
@@ -19,7 +18,8 @@
     "La Cuneta Son Machín",
     "Fito Páez",
     "Frágil",
-    "Extremoduro"
+    "Extremoduro",
+    "Savage"
   ],
   "used_poll_indices": [
     9,
@@ -34,13 +34,13 @@
     14
   ],
   "original_type_index": 5,
-  "last_updated": "2026-05-17T17:56:28.020658+00:00",
+  "last_updated": "2026-05-17T21:59:32.169938+00:00",
   "post_type_index": 10,
-  "total_posts": 81,
+  "total_posts": 82,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
