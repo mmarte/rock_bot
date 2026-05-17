@@ -1,24 +1,5 @@
 [
   {
-    "id": "post_20260502_045319",
-    "status": "published",
-    "created_at": "2026-05-02T04:53:19.467691+00:00",
-    "post_type": "youtube",
-    "topic": "Kinky",
-    "text": "Este vídeo de 'El Paso Del Gigante' muestra la fusión electrónica y rock que caracteriza a Kinky. La banda es conocida por su enfoque innovador y experimental en la escena musical mexicana. Su música ha evolucionado con el tiempo, y 'El Paso Del Gigante' es un ejemplo de su estilo único. ¿Cuál es tu canción favorita de Kinky?\n\nLo Mejor del Rock en Español les presenta: #Kinky\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Kinky\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Kinky Mexico electronic rock band",
-    "extra_topics": [],
-    "post_year": "2002",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=vY153DePTRg",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1381671027340773",
-    "ig_post_id": null,
-    "published_at": "2026-05-02T04:55:41.800551+00:00",
-    "error": null,
-    "threads_post_id": null
-  },
-  {
     "id": "post_20260503_214637",
     "status": "published",
     "created_at": "2026-05-03T21:46:37.347191+00:00",
@@ -1047,5 +1028,27 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260517_044734",
+    "status": "published",
+    "created_at": "2026-05-17T04:47:34.186580+00:00",
+    "post_type": "cover",
+    "topic": "Aterciopelados",
+    "text": "La fusión de estilos entre Soda Stereo y Aterciopelados da como resultado una interpretación única de 'De Música Ligera'. En un tributo latino, Aterciopelados le da un toque especial a esta clásica canción, combinando el rock con ritmos colombianos. La voz de Andrea Echeverri aporta una nueva perspectiva, creando un interesante contraste de estilos. ¿Cuál versión prefieres, la original de Soda Stereo o la interpretación de Aterciopelados?\n\nhttps://www.youtube.com/watch?v=pfUzJ30reNM\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Aterciopelados De Música Ligera live",
+    "extra_topics": [
+      "Soda Stereo"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=pfUzJ30reNM",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1394230339418175",
+    "ig_post_id": null,
+    "published_at": "2026-05-17T04:48:01.280471+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
