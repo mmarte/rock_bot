@@ -910,5 +910,17 @@
     "status": "failed",
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
     "executed_at": "2026-05-17T21:59:57.580015+00:00"
+  },
+  {
+    "post_id": "post_20260518_050225",
+    "fb_post_id": "1043162839046116_1395076976000178",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Toque Profundo",
+    "image_url": "https://images.pexels.com/photos/11977517/pexels-photo-11977517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-05-18T05:02:53.805356+00:00"
   }
 ]
