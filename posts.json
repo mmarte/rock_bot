@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260505_041547",
-    "status": "published",
-    "created_at": "2026-05-05T04:15:47.109415+00:00",
-    "post_type": "original",
-    "topic": "Los Rabanes",
-    "text": "La banda panameña Los Rabanes ha dejado una huella imborrable en el rock en español con su estilo único, fusionando rock con ritmos latinos. Con álbumes como 'Los Rabanes' y 'Chincherville', han influenciado a generaciones de músicos. Su música ha inspirado a various artistas y sigue siendo relevante en la escena musical actual. El vocalista, Emilio Regueira, es citado como una influencia por artistas reconocidos. A pesar de los años, su música sigue siendo interpretada en conciertos y festivales. ¿Qué es lo que más te gusta de la música de Los Rabanes?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes #Mana #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Rabanes rock band concert",
-    "extra_topics": [
-      "Maná",
-      "Andrés Calamaro"
-    ],
-    "post_year": "1992",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1384074003767142",
-    "ig_post_id": null,
-    "published_at": "2026-05-05T04:16:14.423204+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260505_180933",
     "status": "published",
     "created_at": "2026-05-05T18:09:33.630981+00:00",
@@ -1042,6 +1019,28 @@
     "fb_post_id": "1043162839046116_1395498655958010",
     "ig_post_id": null,
     "published_at": "2026-05-18T16:20:06.591462+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260518_183027",
+    "status": "published",
+    "created_at": "2026-05-18T18:30:27.139549+00:00",
+    "post_type": "youtube",
+    "topic": "Los Rodríguez",
+    "text": "Disfrutar de una sesión con Los Rodríguez es una oportunidad para conocer a fondo su música y personalidad. La mezcla de talento y creatividad que aportan Ariel Rot, Andrés Calamaro y Germán es algo que hace que su música sea tan especial. Me encantaría saber, ¿cuál es tu canción favorita de esta legendaria banda?\n\nhttps://www.youtube.com/watch?v=CvG5ihmx9jU\n\nLo Mejor del Rock en Español les presenta: #LosRodriguez #AndresCalamaro\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRodriguez #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Rodriguez Spain Argentina rock band",
+    "extra_topics": [
+      "Andrés Calamaro"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=CvG5ihmx9jU",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1395583212616221",
+    "ig_post_id": null,
+    "published_at": "2026-05-18T18:30:54.844455+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
