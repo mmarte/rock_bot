@@ -982,5 +982,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Cuarteto-de-Nos.png",
     "status": "published",
     "executed_at": "2026-05-19T16:16:10.686094+00:00"
+  },
+  {
+    "post_id": "post_20260519_185845",
+    "fb_post_id": "1043162839046116_1396450252529517",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Caramelos de Cianuro",
+    "image_url": "https://img.youtube.com/vi/n3ZFr4Pa1tA/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-05-19T18:59:13.065142+00:00"
   }
 ]

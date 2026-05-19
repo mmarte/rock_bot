@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Alux Nahual",
     "Bomba Estéreo",
     "Kraken",
     "Savage",
@@ -19,7 +18,8 @@
     "Los Rodríguez",
     "Soda Stereo",
     "Octavia",
-    "El Cuarteto de Nos"
+    "El Cuarteto de Nos",
+    "Caramelos de Cianuro"
   ],
   "used_poll_indices": [
     3,
@@ -34,13 +34,13 @@
     4
   ],
   "original_type_index": 7,
-  "last_updated": "2026-05-19T16:15:45.193874+00:00",
+  "last_updated": "2026-05-19T18:58:47.608291+00:00",
   "post_type_index": 10,
-  "total_posts": 88,
+  "total_posts": 89,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
