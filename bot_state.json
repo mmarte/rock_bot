@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Bomba Estéreo",
     "Kraken",
     "Savage",
     "Octavia",
@@ -19,10 +18,10 @@
     "Soda Stereo",
     "Octavia",
     "El Cuarteto de Nos",
-    "Caramelos de Cianuro"
+    "Caramelos de Cianuro",
+    "Cinema"
   ],
   "used_poll_indices": [
-    3,
     2,
     1,
     18,
@@ -31,16 +30,17 @@
     5,
     14,
     7,
-    4
+    4,
+    0
   ],
   "original_type_index": 7,
-  "last_updated": "2026-05-19T18:58:47.608291+00:00",
+  "last_updated": "2026-05-19T22:21:52.725481+00:00",
   "post_type_index": 10,
-  "total_posts": 89,
+  "total_posts": 90,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024
 }

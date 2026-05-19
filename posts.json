@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260506_181406",
-    "status": "published",
-    "created_at": "2026-05-06T18:14:06.395593+00:00",
-    "post_type": "original",
-    "topic": "Habana Abierta",
-    "text": "Habana Abierta, la icónica banda cubana, surgió en la ciudad de La Habana en los años 90. El álbum '24 Horas' de 1999 fue un punto de inflexión en su carrera, y aunque rodeado de desafíos, logró conectar con muchos jóvenes cubanos. La banda es conocida por canciones que reflejan la realidad de la ciudad y sus contradicciones. ¿Cuál crees que es la canción más representativa de Habana Abierta y por qué?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Habana Abierta rock band concert",
-    "extra_topics": [],
-    "post_year": "1997",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1385403013634241",
-    "ig_post_id": null,
-    "published_at": "2026-05-06T18:14:33.222048+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260506_220057",
     "status": "published",
     "created_at": "2026-05-06T22:00:57.116529+00:00",
@@ -1040,6 +1020,29 @@
     "fb_post_id": "1043162839046116_1396450252529517",
     "ig_post_id": null,
     "published_at": "2026-05-19T18:59:13.065142+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260519_222150",
+    "status": "published",
+    "created_at": "2026-05-19T22:21:50.575731+00:00",
+    "post_type": "poll",
+    "topic": "Cinema",
+    "text": "La escena del rock en español es un mundo vibrante y lleno de talento. A lo largo de los años, various bandas han dejado su huella con su música innovadora y apasionada. ¿Cuál es la banda de rock en español que más te gusta? \n   Opciones: \n   Soda Stereo\n   Heroes del Silencio\n   Maná\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cinema #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Cinema rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1396560912518451",
+    "ig_post_id": null,
+    "published_at": "2026-05-19T22:22:18.542799+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
