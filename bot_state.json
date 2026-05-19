@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Toque Profundo",
     "Alux Nahual",
     "Bomba Estéreo",
@@ -19,10 +18,10 @@
     "Toque Profundo",
     "Los Prisioneros",
     "Los Rodríguez",
-    "Soda Stereo"
+    "Soda Stereo",
+    "Octavia"
   ],
   "used_poll_indices": [
-    16,
     3,
     2,
     1,
@@ -31,16 +30,17 @@
     8,
     5,
     14,
-    7
+    7,
+    4
   ],
   "original_type_index": 6,
-  "last_updated": "2026-05-18T22:06:16.708380+00:00",
+  "last_updated": "2026-05-19T04:54:56.193347+00:00",
   "post_type_index": 10,
-  "total_posts": 86,
+  "total_posts": 87,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
