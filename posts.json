@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260506_043023",
-    "status": "published",
-    "created_at": "2026-05-06T04:30:23.010101+00:00",
-    "post_type": "poll",
-    "topic": "La Máquina Camaleón",
-    "text": "La década de los 90 fue testigo de un auge en la creatividad y experimentación en el rock en español, con bandas destacadas como Caifanes, Maná y Café Tacuba. Fue una época de gran innovación musical. ¿Cuál consideras que fue el mejor año para el rock en español? \n   👍 1990 \n   ❤️ 1995 \n   😮 1992 \n   ¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaMaquinaCamaleon #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "La Máquina Camaleón rock band concert",
-    "extra_topics": [
-      "Maná",
-      "Caifanes"
-    ],
-    "post_year": "1990",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1384902127017663",
-    "ig_post_id": null,
-    "published_at": "2026-05-06T04:30:50.013367+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260506_152447",
     "status": "published",
     "created_at": "2026-05-06T15:24:47.078184+00:00",
@@ -1043,6 +1020,26 @@
     "fb_post_id": "1043162839046116_1395914849249724",
     "ig_post_id": null,
     "published_at": "2026-05-19T04:55:21.566106+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260519_161543",
+    "status": "published",
+    "created_at": "2026-05-19T16:15:43.558973+00:00",
+    "post_type": "original",
+    "topic": "El Cuarteto de Nos",
+    "text": "El Cuarteto de Nos, banda uruguaya de rock, ha hecho una gran contribución a la escena musical latinoamericana. Con álbumes como 'Soy un Hombre Invisible' y 'El Cuarteto de Nos', demostraron su talento y versatilidad. Roberto Musso, Ricardo Musso, Santiago Tavella y Álvaro Pintos, los integrantes originales, han tenido un impacto significativo en la música. Su legado continúa vivo, inspirando a bandas y artistas que los citan como influencia directa. ¿Qué es lo que más te gusta de la música de El Cuarteto de Nos?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ElCuartetodeNos\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "El Cuarteto de Nos Uruguay rock band",
+    "extra_topics": [],
+    "post_year": "1980",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1396343659206843",
+    "ig_post_id": null,
+    "published_at": "2026-05-19T16:16:10.686094+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
