@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Octavia",
     "Juanes",
     "La Ley",
     "Savage",
@@ -19,7 +18,8 @@
     "Caramelos de Cianuro",
     "Cinema",
     "Flou",
-    "Gustavo Cerati"
+    "Gustavo Cerati",
+    "Kraken"
   ],
   "used_poll_indices": [
     2,
@@ -34,13 +34,13 @@
     0
   ],
   "original_type_index": 7,
-  "last_updated": "2026-05-20T16:23:10.508544+00:00",
+  "last_updated": "2026-05-20T19:23:22.303596+00:00",
   "post_type_index": 10,
-  "total_posts": 92,
+  "total_posts": 93,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
