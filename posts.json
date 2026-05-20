@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260506_220057",
-    "status": "published",
-    "created_at": "2026-05-06T22:00:57.116529+00:00",
-    "post_type": "youtube",
-    "topic": "Juanes",
-    "text": "La conexión que Juanes establece con su audiencia a través de sus canciones es genuina y profunda. La forma en que su música evoca emociones y sentimientos es algo especial. 'La Camisa Negra' es un ejemplo de cómo su arte puede tocar corazones y generar una conexión universal. La intensidad de este video en vivo es palpable, y es fácil ver por qué esta canción es tan querida por muchos. ¿Qué te gusta más de este video en vivo de Juanes?\n\nhttps://www.youtube.com/watch?v=Dp9oSi9IpZ8\n\nLo Mejor del Rock en Español les presenta: #Juanes\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Juanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Juanes Colombia rock singer guitar",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=Dp9oSi9IpZ8",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1385519373622605",
-    "ig_post_id": null,
-    "published_at": "2026-05-06T22:01:24.699762+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260507_043045",
     "status": "published",
     "created_at": "2026-05-07T04:30:45.033588+00:00",
@@ -1046,5 +1026,25 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260520_045845",
+    "status": "failed",
+    "created_at": "2026-05-20T04:58:45.333977+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "La fusión de estilos entre Café Tacvba y Los Fabulosos Cadillacs da como resultado una versión única de 'Matador'. Esta interpretación combina un ritmo latino intenso con elementos electrónicos, logrando un sonido fresco y emocionante. La voz de Rubén Albarrán aporta una pasión que nos hace querer bailar. ¿Te gusta más la versión original de Los Fabulosos Cadillacs o el cover de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=jAkosL2VyKY\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba Matador live",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=jAkosL2VyKY",
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]
