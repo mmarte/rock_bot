@@ -1012,5 +1012,17 @@
     "status": "failed",
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
     "executed_at": "2026-05-20T04:59:13.020381+00:00"
+  },
+  {
+    "post_id": "post_20260520_162308",
+    "fb_post_id": "1043162839046116_1397241155783760",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Gustavo Cerati",
+    "image_url": "https://img.youtube.com/vi/WQe8S2ZuhWQ/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-05-20T16:23:35.975198+00:00"
   }
 ]

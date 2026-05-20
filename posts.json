@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260507_043045",
-    "status": "published",
-    "created_at": "2026-05-07T04:30:45.033588+00:00",
-    "post_type": "poll",
-    "topic": "Los Rabanes",
-    "text": "El rock en español es conocido por su diversidad y talento. Los vocalistas han jugado un papel clave en la definición de este género musical, ofreciendo una amplia gama de estilos y expresiones. ¿Quién crees que es el mejor vocalista del rock en español? \n   Opciones: \n   Gustavo Cerati\n   Enrique Bunbury\n   Fito Páez\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes #EnriqueBunbury #FitoPaez #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Rabanes rock band concert",
-    "extra_topics": [
-      "Enrique Bunbury",
-      "Fito Páez",
-      "Gustavo Cerati"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1385707866937089",
-    "ig_post_id": null,
-    "published_at": "2026-05-07T04:31:11.590949+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260507_152717",
     "status": "published",
     "created_at": "2026-05-07T15:27:17.711732+00:00",
@@ -1046,5 +1022,25 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260520_162308",
+    "status": "published",
+    "created_at": "2026-05-20T16:23:08.414709+00:00",
+    "post_type": "youtube",
+    "topic": "Gustavo Cerati",
+    "text": "Gustavo Cerati es un artista capaz de crear experiencias musicales inolvidables en vivo. Este video muestra su habilidad para generar atmósferas únicas a través de su música. La combinación de introspección y pasión en sus presentaciones es verdaderamente impactante. ¿Cuál es tu momento favorito en un concierto de Gustavo Cerati?\n\nhttps://www.youtube.com/watch?v=WQe8S2ZuhWQ\n\nLo Mejor del Rock en Español les presenta: #GustavoCerati\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Gustavo Cerati guitarist Argentina",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=WQe8S2ZuhWQ",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1397241155783760",
+    "ig_post_id": null,
+    "published_at": "2026-05-20T16:23:35.975198+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
