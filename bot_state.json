@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Juanes",
     "La Ley",
     "Savage",
     "Los Fabulosos Cadillacs",
@@ -19,7 +18,8 @@
     "Cinema",
     "Flou",
     "Gustavo Cerati",
-    "Kraken"
+    "Kraken",
+    "Cascomar"
   ],
   "used_poll_indices": [
     2,
@@ -33,14 +33,14 @@
     4,
     0
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-05-20T19:23:22.303596+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-05-20T22:27:19.365633+00:00",
   "post_type_index": 10,
-  "total_posts": 93,
+  "total_posts": 94,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }

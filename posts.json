@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260507_182158",
-    "status": "published",
-    "created_at": "2026-05-07T18:21:58.234587+00:00",
-    "post_type": "poll",
-    "topic": "Savage",
-    "text": "La escena musical latinoamericana se ha visto enriquecida con la contribución de bandas mexicanas. Con estilos tan variados y legados tan importantes, es un desafío elegir solo una. Café Tacvba es conocida por su eclecticismo y estilo único, Molotov por su energía y letras impactantes, y Caifanes por su influencia en el rock en español. ¿Cuál de estas bandas mexicanas de rock te parece la más influyente?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Savage #CafeTacvba #Caifanes #Molotov\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Savage rock band concert",
-    "extra_topics": [
-      "Café Tacvba",
-      "Caifanes",
-      "Molotov"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1386191096888766",
-    "ig_post_id": null,
-    "published_at": "2026-05-07T18:22:00.116430+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260507_220313",
     "status": "published",
     "created_at": "2026-05-07T22:03:13.167398+00:00",
@@ -1041,6 +1017,26 @@
     "fb_post_id": "1043162839046116_1397351095772766",
     "ig_post_id": null,
     "published_at": "2026-05-20T19:23:47.645660+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260520_222717",
+    "status": "published",
+    "created_at": "2026-05-20T22:27:17.445195+00:00",
+    "post_type": "original",
+    "topic": "Cascomar",
+    "text": "Con una discografía compacta pero impactante, Cascomar ha marcado un lugar distintivo en la escena del rock en español. Aquí te presento 3 claves para sumergirte en su mundo musical: \n   1. Su sonido único fusiona elementos de rock progresivo y psicodélico, creando una experiencia sonora profunda y compleja. \n   2. La historia de Cascomar arranca en la ciudad de La Plata, Argentina, en el año 2000, cuando un grupo de músicos se unieron para crear algo innovador. \n   3. Uno de sus momentos más destacados fue la publicación de su álbum 'Libro de los que no están', que los llevó a una gira por todo el país y los consolidó como una banda influyente en el rock argentino. ¿Qué canción de Cascomar te conecta más con su universo musical?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cascomar\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Cascomar rock band concert",
+    "extra_topics": [],
+    "post_year": "2000",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1397443242430218",
+    "ig_post_id": null,
+    "published_at": "2026-05-20T22:27:45.061413+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
