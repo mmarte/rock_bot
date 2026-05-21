@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Savage",
     "Los Fabulosos Cadillacs",
     "La Cuneta Son Machín",
     "Fito Páez",
@@ -19,7 +18,8 @@
     "Gustavo Cerati",
     "Kraken",
     "Cascomar",
-    "Los Tres"
+    "Los Tres",
+    "Divididos"
   ],
   "used_poll_indices": [
     2,
@@ -34,13 +34,13 @@
     0
   ],
   "original_type_index": 9,
-  "last_updated": "2026-05-21T05:04:37.393259+00:00",
+  "last_updated": "2026-05-21T16:13:28.864002+00:00",
   "post_type_index": 10,
-  "total_posts": 95,
+  "total_posts": 96,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
