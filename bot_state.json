@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Fabulosos Cadillacs",
     "La Cuneta Son Machín",
     "Fito Páez",
     "Frágil",
@@ -19,7 +18,8 @@
     "Kraken",
     "Cascomar",
     "Los Tres",
-    "Divididos"
+    "Divididos",
+    "Flou"
   ],
   "used_poll_indices": [
     2,
@@ -33,14 +33,14 @@
     4,
     0
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-05-21T16:13:28.864002+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-05-21T18:59:08.623647+00:00",
   "post_type_index": 10,
-  "total_posts": 96,
+  "total_posts": 97,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
