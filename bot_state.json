@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Cuneta Son Machín",
     "Fito Páez",
     "Frágil",
     "Extremoduro",
@@ -19,7 +18,8 @@
     "Cascomar",
     "Los Tres",
     "Divididos",
-    "Flou"
+    "Flou",
+    "Desorden Público"
   ],
   "used_poll_indices": [
     2,
@@ -33,14 +33,14 @@
     4,
     0
   ],
-  "original_type_index": 10,
-  "last_updated": "2026-05-21T18:59:08.623647+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-05-21T22:23:04.346029+00:00",
   "post_type_index": 10,
-  "total_posts": 97,
+  "total_posts": 98,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "concert",
   "curation_year": 2024
 }
