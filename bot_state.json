@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Frágil",
     "Extremoduro",
     "Savage",
     "Toque Profundo",
@@ -19,7 +18,8 @@
     "Divididos",
     "Flou",
     "Desorden Público",
-    "Flou"
+    "Flou",
+    "Gandhi"
   ],
   "used_poll_indices": [
     2,
@@ -34,13 +34,13 @@
     0
   ],
   "original_type_index": 2,
-  "last_updated": "2026-05-22T04:56:29.317808+00:00",
+  "last_updated": "2026-05-22T15:46:24.477521+00:00",
   "post_type_index": 10,
-  "total_posts": 99,
+  "total_posts": 100,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260509_141559",
-    "status": "published",
-    "created_at": "2026-05-09T14:15:59.054369+00:00",
-    "post_type": "youtube",
-    "topic": "Gandhi",
-    "text": "La música de Gandhi es una fuente de inspiración, y este video muestra cómo la banda combina su energía en vivo con mensajes significativos. La animación y la música en este homenaje a Mahatma Gandhi son destacadas. Me gusta cómo Gandhi ha mantenido su esencia y conexión con su audiencia a lo largo de los años. ¿Cuál es tu canción favorita de la banda y qué te gusta de ella?\n\nhttps://www.youtube.com/watch?v=aZmlp_iVTzw\n\nLo Mejor del Rock en Español les presenta: #Gandhi\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Gandhi\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Gandhi rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=aZmlp_iVTzw",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1387644346743441",
-    "ig_post_id": null,
-    "published_at": "2026-05-09T14:16:26.712601+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260509_174628",
     "status": "published",
     "created_at": "2026-05-09T17:46:28.392323+00:00",
@@ -1035,5 +1015,27 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260522_154622",
+    "status": "published",
+    "created_at": "2026-05-22T15:46:22.686915+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "Maná toma 'Afuera' de Caifanes y crea una experiencia en vivo emocionante. La versión de Maná es una interpretación única que emociona al público. La comparación con el original de Caifanes es un tema de debate. ¿Cuál prefieres, la versión original o el cover de Maná?\n\nhttps://www.youtube.com/watch?v=iJlWgE2-lkM\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=iJlWgE2-lkM",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1398857365622139",
+    "ig_post_id": null,
+    "published_at": "2026-05-22T15:46:49.978908+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
