@@ -1096,5 +1096,11 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/D.P.jpg",
     "status": "published",
     "executed_at": "2026-05-21T22:23:29.716737+00:00"
+  },
+  {
+    "post_id": "post_20260522_045626",
+    "status": "failed",
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
+    "executed_at": "2026-05-22T04:56:54.749168+00:00"
   }
 ]

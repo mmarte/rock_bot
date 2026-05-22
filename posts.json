@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260509_041941",
-    "status": "published",
-    "created_at": "2026-05-09T04:19:41.230162+00:00",
-    "post_type": "original",
-    "topic": "Octavia",
-    "text": "En el mundo del rock en español, dos bandas destacan por su originalidad y energía: Octavia y Aterciopelados. Octavia trajo una fusión única de rock y ritmos latinos con su álbum debut. Por otro lado, Aterciopelados ha tenido un impacto significativo con su discografía. ¿Puedes decidir entre el sonido poderoso de Octavia en canciones como 'Soledad' y la vibra de Aterciopelados? ¿Cuál banda cree que se destaca en la escena del rock en español?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia #Aterciopelados\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Octavia rock band concert",
-    "extra_topics": [
-      "Aterciopelados"
-    ],
-    "post_year": "2004",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1387288226779053",
-    "ig_post_id": null,
-    "published_at": "2026-05-09T04:20:08.290540+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260509_141559",
     "status": "published",
     "created_at": "2026-05-09T14:15:59.054369+00:00",
@@ -1039,5 +1017,23 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260522_045626",
+    "status": "failed",
+    "created_at": "2026-05-22T04:56:26.878425+00:00",
+    "post_type": "original",
+    "topic": "Flou",
+    "text": "Flou, una banda de rock argentina con una trayectoria interesante, tiene una historia que vale la pena explorar. Aquí te dejo 3 datos destacados sobre ellos: \n   1. Flou se formó en la ciudad de Buenos Aires con Gabriel Ruiz Díaz en voz y guitarra, y Marcelo Vagnelli en bajo.\n   2. Su álbum debut se grabó a finales de la década de 1990 y fue producido por un reconocido productor argentino.\n   3. En la primera mitad de la década de 2000, Flou lanzó su segundo álbum con la colaboración de músicos argentinos. \n   ¿Qué aspecto de la carrera de Flou te parece más destacado?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Flou\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Flou rock band concert",
+    "extra_topics": [],
+    "post_year": "1997",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]
