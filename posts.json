@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260509_214954",
-    "status": "published",
-    "created_at": "2026-05-09T21:49:54.915699+00:00",
-    "post_type": "original",
-    "topic": "Desorden Público",
-    "text": "Desorden Público es una banda venezolana de rock con una trayectoria emocionante. Aquí te dejo tres aspectos interesantes sobre ellos: \n   1. La banda se formó en Venezuela con Horacio Blanco como vocalista. \n   2. Su álbum 'Plomo Plomo' muestra una fusión de rock y ritmos latinos. \n   3. Han colaborado con otros artistas, demostrando su capacidad para fusionar diferentes estilos musicales. \n   ¿Qué te parece más intrigante sobre la carrera de esta banda?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #DesordenPublico\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Desorden Público rock band concert",
-    "extra_topics": [],
-    "post_year": "1985",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1387928103381732",
-    "ig_post_id": null,
-    "published_at": "2026-05-09T21:50:21.701508+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260510_044029",
     "status": "published",
     "created_at": "2026-05-10T04:40:29.394421+00:00",
@@ -1032,5 +1012,25 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260522_221125",
+    "status": "published",
+    "created_at": "2026-05-22T22:11:25.916744+00:00",
+    "post_type": "youtube",
+    "topic": "Kraken",
+    "text": "La magia de Kraken en vivo es algo especial. Esta versión acústica de 'Kraken' es un ejemplo perfecto de cómo la banda puede llevar su energía oscura y poderosa a un formato íntimo y emocional. La voz envolvente y las guitarras melancólicas crean un ambiente hipnótico que te atrapa desde el primer acorde. ¿Cuál es tu canción favorita de Kraken y qué te gusta de ella?\n\nhttps://www.youtube.com/watch?v=QXpVvf4oMXk\n\nLo Mejor del Rock en Español les presenta: #Kraken\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Kraken\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Kraken rock band concert",
+    "extra_topics": [],
+    "post_year": "2018",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=QXpVvf4oMXk",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1399088505599025",
+    "ig_post_id": null,
+    "published_at": "2026-05-22T22:11:53.311239+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
