@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Extremoduro",
     "Savage",
     "Toque Profundo",
     "Los Prisioneros",
@@ -19,7 +18,8 @@
     "Flou",
     "Desorden Público",
     "Flou",
-    "Gandhi"
+    "Gandhi",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     2,
@@ -33,14 +33,14 @@
     4,
     0
   ],
-  "original_type_index": 2,
-  "last_updated": "2026-05-22T15:46:24.477521+00:00",
+  "original_type_index": 3,
+  "last_updated": "2026-05-22T18:52:59.404822+00:00",
   "post_type_index": 10,
-  "total_posts": 100,
+  "total_posts": 101,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }

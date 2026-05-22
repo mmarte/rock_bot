@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260509_174628",
-    "status": "published",
-    "created_at": "2026-05-09T17:46:28.392323+00:00",
-    "post_type": "poll",
-    "topic": "Malpaís",
-    "text": "Colombia es un país con una rica escena musical que ha dado lugar a una amplia variedad de talentos. La fusión de ritmos tradicionales y el rock contemporáneo son solo algunos ejemplos de la diversidad musical que se puede encontrar allí. ¿Cuál es la banda colombiana que mejor representa esta mezcla de sonidos y pasión por la música? \n   Opciones: \n   Aterciopelados\n   Juanes\n   Bomba Estéreo\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Malpais #Aterciopelados #Juanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Malpaís rock band concert",
-    "extra_topics": [
-      "Aterciopelados",
-      "Juanes"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1387785220062687",
-    "ig_post_id": null,
-    "published_at": "2026-05-09T17:46:55.197546+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260509_214954",
     "status": "published",
     "created_at": "2026-05-09T21:49:54.915699+00:00",
@@ -1037,5 +1014,23 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260522_185257",
+    "status": "failed",
+    "created_at": "2026-05-22T18:52:57.905562+00:00",
+    "post_type": "original",
+    "topic": "Los Rabanes",
+    "text": "La banda panameña Los Rabanes se formó en la década de 1990 en la ciudad de Panamá. Estaba integrada por Emilio Regueira, el vocalista y compositor principal, junto a otros músicos talentosos. Un hecho interesante es que su álbum debut marcó el comienzo de su carrera con un sonido único que fusionaba rock, ska y ritmos latinos. Durante su trayectoria, la banda ha lanzado varios álbumes y ha ganado premios. ¿Cuál es tu canción favorita de Los Rabanes?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Rabanes rock band concert",
+    "extra_topics": [],
+    "post_year": "1992",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]
