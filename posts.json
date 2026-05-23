@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260510_141903",
-    "status": "published",
-    "created_at": "2026-05-10T14:19:03.982152+00:00",
-    "post_type": "original",
-    "topic": "Gandhi",
-    "text": "La banda Gandhi se formó en la ciudad de Buenos Aires y estuvo integrada por músicos talentosos como Gustavo Kupinski, Gabriel Ruiz Díaz, Martín Cardoso y Sebastián Cardoso. Su primer álbum, 'Gandhi', fue grabado en los estudios Del Abasto con la producción de Alejandro Lyons. Durante la grabación, la banda exploró diferentes estilos y sonidos, lo que resultó en un álbum diverso y ecléctico. ¿Te gustaría explorar más sobre la discografía de Gandhi y descubrir qué hace que su música sea tan única?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Gandhi\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Gandhi rock band concert",
-    "extra_topics": [],
-    "post_year": "1993",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1388529416654934",
-    "ig_post_id": null,
-    "published_at": "2026-05-10T14:19:30.894913+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260510_174753",
     "status": "published",
     "created_at": "2026-05-10T17:47:53.142286+00:00",
@@ -1028,5 +1008,25 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260523_175956",
+    "status": "published",
+    "created_at": "2026-05-23T17:59:56.744399+00:00",
+    "post_type": "youtube",
+    "topic": "Flou",
+    "text": "Flou en vivo es una experiencia emocionante. La banda combina ritmos enérgicos con melodías cautivadoras de una manera única. En este video, la interpretación de 'GO!!!' es destacada, mostrando la pasión y la dedicación de la banda. La conexión con el público es intensa y se puede sentir la emoción que fluye en cada nota. ¿Qué te gusta más de las actuaciones en vivo de Flou?\n\nhttps://www.youtube.com/watch?v=UTtOycDmXlI\n\nLo Mejor del Rock en Español les presenta: #Flou\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Flou\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Flou rock band concert",
+    "extra_topics": [],
+    "post_year": "2023",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=UTtOycDmXlI",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1399773088863900",
+    "ig_post_id": null,
+    "published_at": "2026-05-23T18:00:23.864486+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]

@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Prisioneros",
     "Los Rodríguez",
     "Soda Stereo",
     "Octavia",
@@ -19,6 +18,7 @@
     "Gandhi",
     "Los Rabanes",
     "Kraken",
+    "Flou",
     "Flou"
   ],
   "used_poll_indices": [
@@ -34,13 +34,13 @@
     0
   ],
   "original_type_index": 4,
-  "last_updated": "2026-05-23T04:33:43.770521+00:00",
+  "last_updated": "2026-05-23T17:59:58.502980+00:00",
   "post_type_index": 10,
-  "total_posts": 103,
+  "total_posts": 104,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
