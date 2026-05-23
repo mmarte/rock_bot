@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260510_174753",
-    "status": "published",
-    "created_at": "2026-05-10T17:47:53.142286+00:00",
-    "post_type": "youtube",
-    "topic": "Flou",
-    "text": "La conexión que Flou establece con su audiencia en vivo es verdaderamente especial. Su música logra transmitir emociones de manera auténtica y eso es algo que resuena en muchos de sus fans. 'A Tu Lado' es una canción que ha generado un gran impacto y esta versión en vivo muestra claramente la conexión que la banda tiene con su público. La inclusión de tomas de video enviadas por los fans agrega un toque personal a este videoclip. ¿Cuál es tu canción favorita de Flou?\n\nhttps://www.youtube.com/watch?v=aWadYvYh4Mw\n\nLo Mejor del Rock en Español les presenta: #Flou\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Flou\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Flou rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=aWadYvYh4Mw",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1388677863306756",
-    "ig_post_id": null,
-    "published_at": "2026-05-10T17:48:20.385253+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260510_215245",
     "status": "published",
     "created_at": "2026-05-10T21:52:45.173333+00:00",
@@ -1025,6 +1005,28 @@
     "fb_post_id": "1043162839046116_1399773088863900",
     "ig_post_id": null,
     "published_at": "2026-05-23T18:00:23.864486+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260523_220058",
+    "status": "published",
+    "created_at": "2026-05-23T22:00:58.375832+00:00",
+    "post_type": "original",
+    "topic": "Malpaís",
+    "text": "Malpaís ha ofrecido conciertos memorables en distintos festivales a lo largo de su carrera. Una de sus presentaciones más destacadas fue en el Festival Internacional de Arte de San José, Costa Rica. La banda interpretó algunas de sus canciones más emblemáticas para un público entusiasta. ¿Quién ha tenido la oportunidad de ver a Malpaís en vivo y qué les pareció su actuación?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Malpais #FitoPaez\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Malpaís rock band concert",
+    "extra_topics": [
+      "Fito Páez"
+    ],
+    "post_year": "2003",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1399898952184647",
+    "ig_post_id": null,
+    "published_at": "2026-05-23T22:01:24.941727+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

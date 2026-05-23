@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rodríguez",
     "Soda Stereo",
     "Octavia",
     "El Cuarteto de Nos",
@@ -19,7 +18,8 @@
     "Los Rabanes",
     "Kraken",
     "Flou",
-    "Flou"
+    "Flou",
+    "Malpaís"
   ],
   "used_poll_indices": [
     2,
@@ -33,14 +33,14 @@
     4,
     0
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-05-23T17:59:58.502980+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-05-23T22:00:59.534956+00:00",
   "post_type_index": 10,
-  "total_posts": 104,
+  "total_posts": 105,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }
