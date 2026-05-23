@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Toque Profundo",
     "Los Prisioneros",
     "Los Rodríguez",
     "Soda Stereo",
@@ -19,7 +18,8 @@
     "Flou",
     "Gandhi",
     "Los Rabanes",
-    "Kraken"
+    "Kraken",
+    "Flou"
   ],
   "used_poll_indices": [
     2,
@@ -33,14 +33,14 @@
     4,
     0
   ],
-  "original_type_index": 3,
-  "last_updated": "2026-05-22T22:11:27.491096+00:00",
+  "original_type_index": 4,
+  "last_updated": "2026-05-23T04:33:43.770521+00:00",
   "post_type_index": 10,
-  "total_posts": 102,
+  "total_posts": 103,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }

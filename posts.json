@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260510_044029",
-    "status": "published",
-    "created_at": "2026-05-10T04:40:29.394421+00:00",
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "text": "La conexión entre Los Fabulosos Cadillacs y Café Tacvba es especialmente notable con su versión de 'Matador'. La interpretación de Café Tacvba, con su mezcla de elementos electrónicos y ritmos latinos, fusiona estilos musicales de manera única. En el escenario, la energía y el estilo de Rubén Albarrán y la banda se combina con la esencia original de Los Fabulosos Cadillacs. La versión original de Los Fabulosos Cadillacs o el cover de Café Tacvba, ¿cuál te conmueve más?\n\nhttps://www.youtube.com/watch?v=A0KCbZ7L17I\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Café Tacvba Matador live",
-    "extra_topics": [
-      "Los Fabulosos Cadillacs"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=A0KCbZ7L17I",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1388154103359132",
-    "ig_post_id": null,
-    "published_at": "2026-05-10T04:40:56.519678+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260510_141903",
     "status": "published",
     "created_at": "2026-05-10T14:19:03.982152+00:00",
@@ -1032,5 +1010,23 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260523_043342",
+    "status": "failed",
+    "created_at": "2026-05-23T04:33:42.522562+00:00",
+    "post_type": "original",
+    "topic": "Flou",
+    "text": "¿Qué canciones o álbumes de Flou destacan para ti? Mi selección personal incluye 'Todas las flores' por su sonido innovador, 'La crisis' por su enfoque crítico y musicalidad experimenta, y 'Fuego en la disco' por su ritmo enérgico. ¿Cuál es tu selección favorita de la discografía de Flou?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Flou\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Flou rock band concert",
+    "extra_topics": [],
+    "post_year": "2004",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]
