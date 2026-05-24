@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260511_155602",
-    "status": "published",
-    "created_at": "2026-05-11T15:56:02.559135+00:00",
-    "post_type": "original",
-    "topic": "Los Tres",
-    "text": "Los Tres es una banda emblemática del rock chileno que ha dejado una huella indeleble en la música. Su álbum debut, lanzado en 1991 y producido por Juan Carlos 'Flake' González, marca un punto de inflexión en su carrera. Con canciones como 'El Aval' y 'La Espada de Winkle', este álbum muestra la evolución del sonido de la banda y su capacidad para conectar con un público más amplio. ¿Cuál es tu canción favorita de este álbum icónico?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosTres\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Tres Chile rock band",
-    "extra_topics": [],
-    "post_year": "1991",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1389441816563694",
-    "ig_post_id": null,
-    "published_at": "2026-05-11T15:56:29.566889+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260511_185627",
     "status": "published",
     "created_at": "2026-05-11T18:56:27.270188+00:00",
@@ -1029,6 +1009,30 @@
     "fb_post_id": "1043162839046116_1400490858792123",
     "ig_post_id": null,
     "published_at": "2026-05-24T14:22:30.870824+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260524_220110",
+    "status": "published",
+    "created_at": "2026-05-24T22:01:10.893888+00:00",
+    "post_type": "poll",
+    "topic": "Malpaís",
+    "text": "El rock en español es un género vibrante que ha producido muchos solistas talentosos. Desde la escena argentina hasta la española, hemos visto surgir artistas que han dejado una huella en la historia de la música. Ahora, te toca a ti decidir: ¿quién es el mejor solista surgido del rock en español? \n   Opciones: \n   Gustavo Cerati\n   Enrique Bunbury\n   Andrés Calamaro\n   ¡Vota con tu reacción! ¿Quién es tu solista favorito?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Malpais #EnriqueBunbury #GustavoCerati #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Malpaís rock band concert",
+    "extra_topics": [
+      "Enrique Bunbury",
+      "Gustavo Cerati",
+      "Andrés Calamaro"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1400763112098231",
+    "ig_post_id": null,
+    "published_at": "2026-05-24T22:01:37.391262+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
