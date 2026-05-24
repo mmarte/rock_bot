@@ -1162,5 +1162,17 @@
     "image_url": "https://images.pexels.com/photos/27817787/pexels-photo-27817787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-05-23T22:01:24.941727+00:00"
+  },
+  {
+    "post_id": "post_20260524_045815",
+    "fb_post_id": "1043162839046116_1400117352162807",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "image_url": "https://img.youtube.com/vi/9KR9WfLgZJ4/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-05-24T04:58:42.332333+00:00"
   }
 ]
