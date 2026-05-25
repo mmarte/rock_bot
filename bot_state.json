@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Cinema",
     "Flou",
     "Gustavo Cerati",
     "Kraken",
@@ -19,7 +18,8 @@
     "Habana Abierta",
     "Savage",
     "Malpaís",
-    "Flou"
+    "Flou",
+    "Cinema"
   ],
   "used_poll_indices": [
     1,
@@ -33,14 +33,14 @@
     0,
     19
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-05-25T15:47:41.740672+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-05-25T18:25:02.105361+00:00",
   "post_type_index": 10,
-  "total_posts": 109,
+  "total_posts": 110,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "concert",
   "curation_year": 2024
 }
