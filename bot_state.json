@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Gustavo Cerati",
     "Kraken",
     "Cascomar",
     "Los Tres",
@@ -19,10 +18,10 @@
     "Malpaís",
     "Flou",
     "Cinema",
-    "Habana Abierta"
+    "Habana Abierta",
+    "Alux Nahual"
   ],
   "used_poll_indices": [
-    1,
     18,
     13,
     8,
@@ -31,16 +30,17 @@
     7,
     4,
     0,
-    19
+    19,
+    3
   ],
   "original_type_index": 9,
-  "last_updated": "2026-05-26T04:57:40.010356+00:00",
+  "last_updated": "2026-05-26T16:38:12.991974+00:00",
   "post_type_index": 10,
-  "total_posts": 111,
+  "total_posts": 112,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }

@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260512_185543",
-    "status": "published",
-    "created_at": "2026-05-12T18:55:43.133885+00:00",
-    "post_type": "poll",
-    "topic": "Habana Abierta",
-    "text": "La música en español ha dado lugar a bandas destacadas que han sabido mantener su identidad y explorar nuevos sonidos. Algunas han logrado fusionar ritmos tradicionales con estilos contemporáneos, manteniendo a su audiencia en vilo. ¿Cuál crees que es la banda que ha logrado evolucionar de manera más impactante con el tiempo? \n   Opciones: \n   Café Tacvba\n   Los Fabulosos Cadillacs\n   Maná\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta #Mana #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Habana Abierta rock band concert",
-    "extra_topics": [
-      "Maná",
-      "Café Tacvba",
-      "Los Fabulosos Cadillacs"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1390423516465524",
-    "ig_post_id": null,
-    "published_at": "2026-05-12T18:56:09.996324+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260512_221508",
     "status": "failed",
     "created_at": "2026-05-12T22:15:08.434497+00:00",
@@ -1029,6 +1005,30 @@
     "fb_post_id": "1043162839046116_1401777315330144",
     "ig_post_id": null,
     "published_at": "2026-05-26T04:58:05.318534+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260526_163811",
+    "status": "published",
+    "created_at": "2026-05-26T16:38:11.869139+00:00",
+    "post_type": "poll",
+    "topic": "Alux Nahual",
+    "text": "El rock en español alberga una rica diversidad de talentos vocales. Con estilos únicos y poderosas voces, muchos han conquistado el corazón de audiencias globales. ¿Quién es tu vocalista favorito del rock en español? \n   Opciones: \n   Gustavo Cerati\n   Enrique Bunbury\n   Fito Páez\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #AluxNahual #EnriqueBunbury #FitoPaez #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Alux Nahual rock band concert",
+    "extra_topics": [
+      "Enrique Bunbury",
+      "Fito Páez",
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1402205298620679",
+    "ig_post_id": null,
+    "published_at": "2026-05-26T16:38:38.458680+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
