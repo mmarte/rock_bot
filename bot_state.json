@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Cascomar",
     "Los Tres",
     "Divididos",
     "Flou",
@@ -19,7 +18,8 @@
     "Cinema",
     "Habana Abierta",
     "Alux Nahual",
-    "Kraken"
+    "Kraken",
+    "Flou"
   ],
   "used_poll_indices": [
     18,
@@ -33,14 +33,14 @@
     19,
     3
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-05-26T19:15:50.327455+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-05-26T22:25:26.983745+00:00",
   "post_type_index": 10,
-  "total_posts": 113,
+  "total_posts": 114,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }

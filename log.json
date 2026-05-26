@@ -1258,5 +1258,17 @@
     "image_url": "https://img.youtube.com/vi/I5PDPCH0U54/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-05-26T19:16:15.931041+00:00"
+  },
+  {
+    "post_id": "post_20260526_222525",
+    "fb_post_id": "1043162839046116_1402412961933246",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Flou",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
+    "status": "published",
+    "executed_at": "2026-05-26T22:25:52.478464+00:00"
   }
 ]
