@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Tres",
     "Divididos",
     "Flou",
     "Desorden Público",
@@ -19,7 +18,8 @@
     "Habana Abierta",
     "Alux Nahual",
     "Kraken",
-    "Flou"
+    "Flou",
+    "La Ley"
   ],
   "used_poll_indices": [
     18,
@@ -33,14 +33,14 @@
     19,
     3
   ],
-  "original_type_index": 10,
-  "last_updated": "2026-05-26T22:25:26.983745+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-05-27T05:09:20.517099+00:00",
   "post_type_index": 10,
-  "total_posts": 114,
+  "total_posts": 115,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "original",
   "curation_year": 2024
 }
