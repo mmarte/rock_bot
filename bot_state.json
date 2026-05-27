@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Flou",
     "Desorden Público",
     "Flou",
     "Gandhi",
@@ -19,7 +18,8 @@
     "Kraken",
     "Flou",
     "La Ley",
-    "Habana Abierta"
+    "Habana Abierta",
+    "La Cuneta Son Machín"
   ],
   "used_poll_indices": [
     13,
@@ -34,13 +34,13 @@
     2
   ],
   "original_type_index": 1,
-  "last_updated": "2026-05-27T16:34:12.679095+00:00",
+  "last_updated": "2026-05-27T19:23:38.520385+00:00",
   "post_type_index": 10,
-  "total_posts": 116,
+  "total_posts": 117,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260513_221640",
-    "status": "published",
-    "created_at": "2026-05-13T22:16:40.973657+00:00",
-    "post_type": "youtube",
-    "topic": "Los Rabanes",
-    "text": "La música de Los Rabanes es una fusión única de ritmos latinos y rock. En este video, la interpretación de 'Señorita a mi me gusta su style' muestra la pasión y energía del grupo. La voz y el liderazgo en el escenario son destacados. ¿Cuál es tu canción favorita de Los Rabanes?\n\nhttps://www.youtube.com/watch?v=2dMeFm7hXOo\n\nLo Mejor del Rock en Español les presenta: #LosRabanes\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Rabanes rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=2dMeFm7hXOo",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1391405849700624",
-    "ig_post_id": null,
-    "published_at": "2026-05-13T22:17:08.066711+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260514_151446",
     "status": "published",
     "created_at": "2026-05-14T15:14:46.785098+00:00",
@@ -1036,5 +1016,25 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260527_192336",
+    "status": "failed",
+    "created_at": "2026-05-27T19:23:36.612461+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "La unión de dos grandes bandas del rock en español en un escenario puede generar algo truly especial. Maná interpretó 'Afuera' de Caifanes en un emotivo concierto y el resultado fue increíble. La voz de Fher Olvera se fusionó con la energía de la banda en una interpretación en vivo que rindió homenaje a la rica historia del rock mexicano. Con un arreglo distintivo y una ejecución de alta calidad, Maná hizo una versión digna de la originalidad de Caifanes. ¿Te gusta más la versión original o el cover en vivo de Maná?\n\nhttps://www.youtube.com/watch?v=OX-us7PEfkc\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=OX-us7PEfkc",
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]

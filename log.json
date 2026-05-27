@@ -1294,5 +1294,11 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cafe_Tacuba_1.jpg",
     "status": "published",
     "executed_at": "2026-05-27T16:34:38.212746+00:00"
+  },
+  {
+    "post_id": "post_20260527_192336",
+    "status": "failed",
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
+    "executed_at": "2026-05-27T19:24:03.993844+00:00"
   }
 ]
