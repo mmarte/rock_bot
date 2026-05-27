@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Desorden Público",
     "Flou",
     "Gandhi",
     "Los Rabanes",
@@ -19,7 +18,8 @@
     "Flou",
     "La Ley",
     "Habana Abierta",
-    "La Cuneta Son Machín"
+    "La Cuneta Son Machín",
+    "Los Rodríguez"
   ],
   "used_poll_indices": [
     13,
@@ -33,14 +33,14 @@
     3,
     2
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-05-27T19:23:38.520385+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-05-27T22:44:15.304884+00:00",
   "post_type_index": 10,
-  "total_posts": 117,
+  "total_posts": 118,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }

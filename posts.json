@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260514_151446",
-    "status": "published",
-    "created_at": "2026-05-14T15:14:46.785098+00:00",
-    "post_type": "original",
-    "topic": "Toque Profundo",
-    "text": "La banda de rock uruguaya Toque Profundo experimentó un cambio significativo en su formación en los años 90, lo que influenció su sonido y estilo musical. Este cambio ocurrió en un momento crucial, justo antes de la grabación de uno de sus álbumes más destacados. La evolución de la banda durante ese período se refleja en algunas de sus canciones. ¿Cuál crees que fue el impacto de este cambio en la trayectoria de Toque Profundo?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ToqueProfundo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Toque Profundo rock band concert",
-    "extra_topics": [],
-    "post_year": "1995",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1392083876299488",
-    "ig_post_id": null,
-    "published_at": "2026-05-14T15:15:13.563523+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260514_185317",
     "status": "published",
     "created_at": "2026-05-14T18:53:17.166876+00:00",
@@ -1036,5 +1016,27 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260527_224413",
+    "status": "published",
+    "created_at": "2026-05-27T22:44:13.796550+00:00",
+    "post_type": "original",
+    "topic": "Los Rodríguez",
+    "text": "La icónica banda de rock en español, Los Rodríguez, grabó su álbum debut 'Buena suerte' en los estudios Doublewtronics en Madrid. Su segundo álbum 'Sin documentos' incluyó la participación de Andrés Calamaro como invitado en una de las canciones. La banda se formó en Buenos Aires, Argentina, y debido a las dificultades económicas y la situación política, se trasladaron a España en busca de mejores oportunidades. ¿Te intriga saber más sobre la fascinante trayectoria de Los Rodríguez?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRodriguez #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Rodriguez Spain Argentina rock band",
+    "extra_topics": [
+      "Andrés Calamaro"
+    ],
+    "post_year": "1991",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1403310715176804",
+    "ig_post_id": null,
+    "published_at": "2026-05-27T22:44:40.690357+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
