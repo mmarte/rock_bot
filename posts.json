@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260513_185612",
-    "status": "published",
-    "created_at": "2026-05-13T18:56:12.580571+00:00",
-    "post_type": "poll",
-    "topic": "Fiel a la Vega",
-    "text": "¿Qué canción te hace sentir la esencia del rock en español? El rock en español ha sido un género que ha evolucionado con el tiempo, y ha dado lugar a un sinfín de temas que han resonado en nuestros corazones. Desde el movimiento rock de décadas pasadas, hasta hoy en día, ha habido muchas canciones que han dejado huella en la historia de este género. Entre algunas de las opciones destacadas, tenemos: \n   👍 De Música Ligera - Soda Stereo\n   ❤️ Entre Dos Tierras - Heroes del Silencio\n   😮 Oye Mi Amor - Maná\n   ¡Vota con tu reacción! ¿Cuál te parece la canción más representativa del rock en español?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Fiel a la Vega rock band concert",
-    "extra_topics": [
-      "Soda Stereo",
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1391261753048367",
-    "ig_post_id": null,
-    "published_at": "2026-05-13T18:56:39.452831+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260513_221640",
     "status": "published",
     "created_at": "2026-05-13T22:16:40.973657+00:00",
@@ -1032,6 +1009,30 @@
     "fb_post_id": "1043162839046116_1402644535243422",
     "ig_post_id": null,
     "published_at": "2026-05-27T05:09:46.338334+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260527_163411",
+    "status": "published",
+    "created_at": "2026-05-27T16:34:11.156272+00:00",
+    "post_type": "poll",
+    "topic": "Habana Abierta",
+    "text": "La escena del rock en México es rica y diversa, con bandas que han dejado su huella en la historia musical. Con influencias diversas y estilos únicos, estas bandas han conquistado a audiencias dentro y fuera de México. Entre las opciones destacadas, tenemos a Café Tacvba con su fusión de ritmos, Molotov con su estilo directo, y Caifanes con su sonido emotivo. ¿Cuál es tu banda favorita? Elige con tu reacción: \n   👍 Café Tacvba\n   ❤️ Molotov\n   😮 Caifanes\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta #CafeTacvba #Caifanes #Molotov\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Habana Abierta rock band concert",
+    "extra_topics": [
+      "Café Tacvba",
+      "Caifanes",
+      "Molotov"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1403097371864805",
+    "ig_post_id": null,
+    "published_at": "2026-05-27T16:34:38.212746+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Divididos",
     "Flou",
     "Desorden Público",
     "Flou",
@@ -19,10 +18,10 @@
     "Alux Nahual",
     "Kraken",
     "Flou",
-    "La Ley"
+    "La Ley",
+    "Habana Abierta"
   ],
   "used_poll_indices": [
-    18,
     13,
     8,
     5,
@@ -31,16 +30,17 @@
     4,
     0,
     19,
-    3
+    3,
+    2
   ],
   "original_type_index": 1,
-  "last_updated": "2026-05-27T05:09:20.517099+00:00",
+  "last_updated": "2026-05-27T16:34:12.679095+00:00",
   "post_type_index": 10,
-  "total_posts": 115,
+  "total_posts": 116,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
