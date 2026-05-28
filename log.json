@@ -1336,5 +1336,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Le_Poulpe_Colossal.jpg",
     "status": "published",
     "executed_at": "2026-05-28T16:49:05.971697+00:00"
+  },
+  {
+    "post_id": "post_20260528_193514",
+    "fb_post_id": "1043162839046116_1404094171765125",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Charly García",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Charly_Garc%C3%ADa_%26_the_Prostitution_at_Cosqu%C3%ADn_Rock_12.02.2011_%285449800300%29.jpg",
+    "status": "published",
+    "executed_at": "2026-05-28T19:35:41.781360+00:00"
   }
 ]
