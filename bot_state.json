@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Flou",
     "Gandhi",
     "Los Rabanes",
     "Kraken",
@@ -19,7 +18,8 @@
     "La Ley",
     "Habana Abierta",
     "La Cuneta Son Machín",
-    "Los Rodríguez"
+    "Los Rodríguez",
+    "Los Tres"
   ],
   "used_poll_indices": [
     13,
@@ -34,13 +34,13 @@
     2
   ],
   "original_type_index": 2,
-  "last_updated": "2026-05-27T22:44:15.304884+00:00",
+  "last_updated": "2026-05-28T05:04:05.635791+00:00",
   "post_type_index": 10,
-  "total_posts": 118,
+  "total_posts": 119,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
