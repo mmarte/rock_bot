@@ -1348,5 +1348,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Charly_Garc%C3%ADa_%26_the_Prostitution_at_Cosqu%C3%ADn_Rock_12.02.2011_%285449800300%29.jpg",
     "status": "published",
     "executed_at": "2026-05-28T19:35:41.781360+00:00"
+  },
+  {
+    "post_id": "post_20260528_224326",
+    "fb_post_id": "1043162839046116_1404187748422434",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Octavia",
+    "image_url": "https://images.pexels.com/photos/19353324/pexels-photo-19353324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-05-28T22:43:52.976094+00:00"
   }
 ]

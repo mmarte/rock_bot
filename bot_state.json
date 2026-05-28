@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Kraken",
     "Flou",
     "Flou",
     "Malpaís",
@@ -19,10 +18,10 @@
     "Los Rodríguez",
     "Los Tres",
     "Kraken",
-    "Charly García"
+    "Charly García",
+    "Octavia"
   ],
   "used_poll_indices": [
-    13,
     8,
     5,
     14,
@@ -31,16 +30,17 @@
     0,
     19,
     3,
-    2
+    2,
+    10
   ],
   "original_type_index": 4,
-  "last_updated": "2026-05-28T19:35:16.302359+00:00",
+  "last_updated": "2026-05-28T22:43:27.606020+00:00",
   "post_type_index": 10,
-  "total_posts": 121,
+  "total_posts": 122,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
