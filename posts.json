@@ -1,23 +1,5 @@
 [
   {
-    "id": "post_20260516_042451",
-    "status": "failed",
-    "created_at": "2026-05-16T04:24:51.275282+00:00",
-    "post_type": "youtube",
-    "topic": "La Ley",
-    "text": "La voz de Beto Cuevas y la presencia en el escenario de La Ley son verdaderamente únicas. La banda ha tenido un impacto significativo en el rock en español, creando temas memorables como 'Aquí'. La experiencia de un concierto de La Ley es emocionante, ¿Cuál es tu momento favorito de la banda en vivo? https://www.youtube.com/watch?v=nTGH0Hgc7_A\n\nLo Mejor del Rock en Español les presenta: #LaLey\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaLey\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "La Ley Chile rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=nTGH0Hgc7_A",
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260516_142034",
     "status": "published",
     "created_at": "2026-05-16T14:20:34.489877+00:00",
@@ -1031,6 +1013,28 @@
     "fb_post_id": "1043162839046116_1404848275023048",
     "ig_post_id": null,
     "published_at": "2026-05-29T16:38:13.442453+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260529_193249",
+    "status": "published",
+    "created_at": "2026-05-29T19:32:49.303707+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "La fusión de Caifanes y Café Tacvba es algo especial. Café Tacvba interpretó 'La Negra Tomasa' y le dio un giro rock único. La versión original de Caifanes es icónica, pero el cover de Café Tacvba tiene un sabor característico. ¿Cuál prefieres, el original de Caifanes o el cover de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=14lsFs1GrnU\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba La Negra Tomasa live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=14lsFs1GrnU",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1404957498345459",
+    "ig_post_id": null,
+    "published_at": "2026-05-29T19:33:16.275569+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
