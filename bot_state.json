@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Flou",
     "Malpaís",
     "Habana Abierta",
     "Savage",
@@ -19,10 +18,10 @@
     "Kraken",
     "Charly García",
     "Octavia",
-    "Bomba Estéreo"
+    "Bomba Estéreo",
+    "Los Prisioneros"
   ],
   "used_poll_indices": [
-    8,
     5,
     14,
     7,
@@ -31,16 +30,17 @@
     19,
     3,
     2,
-    10
+    10,
+    1
   ],
   "original_type_index": 5,
-  "last_updated": "2026-05-29T05:05:08.312745+00:00",
+  "last_updated": "2026-05-29T16:37:47.921143+00:00",
   "post_type_index": 10,
-  "total_posts": 123,
+  "total_posts": 124,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
