@@ -1396,5 +1396,17 @@
     "image_url": "https://img.youtube.com/vi/14lsFs1GrnU/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-05-29T19:33:16.275569+00:00"
+  },
+  {
+    "post_id": "post_20260529_223955",
+    "fb_post_id": "1043162839046116_1405054075002468",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Fiel a la Vega",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
+    "status": "published",
+    "executed_at": "2026-05-29T22:40:22.208855+00:00"
   }
 ]

@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Habana Abierta",
     "Savage",
     "Malpaís",
     "Flou",
@@ -19,7 +18,8 @@
     "Octavia",
     "Bomba Estéreo",
     "Los Prisioneros",
-    "Octavia"
+    "Octavia",
+    "Fiel a la Vega"
   ],
   "used_poll_indices": [
     5,
@@ -33,14 +33,14 @@
     10,
     1
   ],
-  "original_type_index": 5,
-  "last_updated": "2026-05-29T19:32:50.860483+00:00",
+  "original_type_index": 6,
+  "last_updated": "2026-05-29T22:39:56.833801+00:00",
   "post_type_index": 10,
-  "total_posts": 125,
+  "total_posts": 126,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }
