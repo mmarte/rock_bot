@@ -1360,5 +1360,17 @@
     "image_url": "https://images.pexels.com/photos/19353324/pexels-photo-19353324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-05-28T22:43:52.976094+00:00"
+  },
+  {
+    "post_id": "post_20260529_050506",
+    "fb_post_id": "1043162839046116_1404397161734826",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Bomba Estéreo",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bomba_Est%C3%A9reo_Up_Close_and_Personal_2012.jpg/330px-Bomba_Est%C3%A9reo_Up_Close_and_Personal_2012.jpg",
+    "status": "published",
+    "executed_at": "2026-05-29T05:05:33.694120+00:00"
   }
 ]
