@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Flou",
     "Cinema",
     "Habana Abierta",
     "Alux Nahual",
@@ -19,7 +18,8 @@
     "Octavia",
     "Fiel a la Vega",
     "Flou",
-    "Aterciopelados"
+    "Aterciopelados",
+    "Kraken"
   ],
   "used_poll_indices": [
     5,
@@ -33,14 +33,14 @@
     10,
     1
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-05-30T14:26:22.068068+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-05-30T18:02:23.841608+00:00",
   "post_type_index": 10,
-  "total_posts": 128,
+  "total_posts": 129,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }

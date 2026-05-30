@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260517_044734",
-    "status": "published",
-    "created_at": "2026-05-17T04:47:34.186580+00:00",
-    "post_type": "cover",
-    "topic": "Aterciopelados",
-    "text": "La fusión de estilos entre Soda Stereo y Aterciopelados da como resultado una interpretación única de 'De Música Ligera'. En un tributo latino, Aterciopelados le da un toque especial a esta clásica canción, combinando el rock con ritmos colombianos. La voz de Andrea Echeverri aporta una nueva perspectiva, creando un interesante contraste de estilos. ¿Cuál versión prefieres, la original de Soda Stereo o la interpretación de Aterciopelados?\n\nhttps://www.youtube.com/watch?v=pfUzJ30reNM\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Aterciopelados De Música Ligera live",
-    "extra_topics": [
-      "Soda Stereo"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=pfUzJ30reNM",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1394230339418175",
-    "ig_post_id": null,
-    "published_at": "2026-05-17T04:48:01.280471+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260517_142353",
     "status": "published",
     "created_at": "2026-05-17T14:23:53.526183+00:00",
@@ -1036,5 +1014,23 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260530_180222",
+    "status": "failed",
+    "created_at": "2026-05-30T18:02:22.206829+00:00",
+    "post_type": "original",
+    "topic": "Kraken",
+    "text": "Kraken es una banda que ha dejado huella en el rock en español gracias a su sonido único, que combina el heavy metal con elementos de folklore colombiano, creando un estilo distintivo. Su historia se ha forjado con la pasión y la dedicación de sus miembros, incluyendo a Rubén Gómez en la voz y guitarra, y la incorporación de Jorge Leiva 'Elkin' en el bajo. Un momento destacado en su carrera fue el lanzamiento de su álbum 'I', que los llevó a destacarse en la escena musical. ¿Cuál es tu canción favorita de Kraken?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Kraken\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Kraken rock band concert",
+    "extra_topics": [],
+    "post_year": "1984",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]
