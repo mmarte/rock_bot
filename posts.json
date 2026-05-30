@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260517_142353",
-    "status": "published",
-    "created_at": "2026-05-17T14:23:53.526183+00:00",
-    "post_type": "original",
-    "topic": "Frágil",
-    "text": "La banda peruana de rock progresivo Frágil ha dejado una huella duradera en la escena musical latina. Aquí te presento mi selección de los 3 álbumes más destacados de la banda: \n   1. 'Frágil', su álbum debut, que incluye temas memorables. \n   2. 'Al Tiempo de Pan', que muestra la evolución de la banda con una mezcla de rock y folk. \n   3. 'Serranio', que refleja la madurez musical de la banda. \n   ¿Qué es lo que más te gusta de la música de Frágil?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Fragil\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Frágil rock band concert",
-    "extra_topics": [],
-    "post_year": "1976",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1394580529383156",
-    "ig_post_id": null,
-    "published_at": "2026-05-17T14:24:20.390013+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260517_175626",
     "status": "failed",
     "created_at": "2026-05-17T17:56:26.839714+00:00",
@@ -1032,5 +1012,25 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260530_220409",
+    "status": "published",
+    "created_at": "2026-05-30T22:04:09.915295+00:00",
+    "post_type": "youtube",
+    "topic": "Octavia",
+    "text": "La música de Octavia es una explosión de ritmos y melodías que reflejan la riqueza cultural de Bolivia. Me encanta cómo esta banda logra fusionar diferentes estilos para crear temas que conectan con el público. 'Ajayu' es un ejemplo notable de su habilidad para generar resonancia. ¿Cuál es tu canción favorita de Octavia?\n\nhttps://www.youtube.com/watch?v=peMSUc-zulg\n\nLo Mejor del Rock en Español les presenta: #Octavia\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Octavia rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=peMSUc-zulg",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1405906208250588",
+    "ig_post_id": null,
+    "published_at": "2026-05-30T22:04:36.742578+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
