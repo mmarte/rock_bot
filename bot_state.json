@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Savage",
     "Malpaís",
     "Flou",
     "Cinema",
@@ -19,7 +18,8 @@
     "Bomba Estéreo",
     "Los Prisioneros",
     "Octavia",
-    "Fiel a la Vega"
+    "Fiel a la Vega",
+    "Flou"
   ],
   "used_poll_indices": [
     5,
@@ -33,14 +33,14 @@
     10,
     1
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-05-29T22:39:56.833801+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-05-30T04:45:24.683987+00:00",
   "post_type_index": 10,
-  "total_posts": 126,
+  "total_posts": 127,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "original",
   "curation_year": 2024
 }
