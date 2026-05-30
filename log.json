@@ -1420,5 +1420,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
     "status": "published",
     "executed_at": "2026-05-30T04:45:50.164929+00:00"
+  },
+  {
+    "post_id": "post_20260530_142620",
+    "fb_post_id": "1043162839046116_1405612354946640",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Aterciopelados",
+    "image_url": "https://img.youtube.com/vi/kaJ-FQ0_ksg/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-05-30T14:26:47.822515+00:00"
   }
 ]
