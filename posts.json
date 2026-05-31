@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260518_050225",
-    "status": "published",
-    "created_at": "2026-05-18T05:02:25.268757+00:00",
-    "post_type": "original",
-    "topic": "Toque Profundo",
-    "text": "Toque Profundo, una banda destacada en el rock argentino, vivió un momento crucial en su evolución con el cambio en la voz principal. En ese punto, la banda comenzó a definir su sonido característico, combinando rock con elementos de blues y baladas emotivas. La colaboración entre el vocalista y el guitarrista y compositor dio como resultado algunos temas memorables, incluidos los de su álbum debut. La historia de Toque Profundo muestra cómo los cambios pueden llevar a una banda a encontrar su identidad musical. ¿Cuál es tu canción favorita de Toque Profundo?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ToqueProfundo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Toque Profundo rock band concert",
-    "extra_topics": [],
-    "post_year": "1992",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1395076976000178",
-    "ig_post_id": null,
-    "published_at": "2026-05-18T05:02:53.805356+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260518_161939",
     "status": "published",
     "created_at": "2026-05-18T16:19:39.459098+00:00",
@@ -1036,5 +1016,23 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260531_175853",
+    "status": "failed",
+    "created_at": "2026-05-31T17:58:53.317239+00:00",
+    "post_type": "original",
+    "topic": "Alux Nahual",
+    "text": "La discografía de Alux Nahual abarca varias décadas y estilos musicales. La banda tiene una gran variedad de canciones que han marcado la escena rock en español. Algunos de sus discos, como 'Escencia' y 'Sueños De Arena', ofrecen una visión de la banda en diferentes momentos de su carrera. La voz de Willy Quiñonez y la guitarra de Sergio Velásquez han sido fundamentales en el sonido de la banda. ¿Cuál es tu disco favorito de Alux Nahual?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #AluxNahual\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Alux Nahual rock band concert",
+    "extra_topics": [],
+    "post_year": "1998",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]

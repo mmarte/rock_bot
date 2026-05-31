@@ -1474,5 +1474,11 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Los_Prisioneros_-_Revista_Pelo_Argentina_1987.jpg",
     "status": "published",
     "executed_at": "2026-05-31T14:27:44.904231+00:00"
+  },
+  {
+    "post_id": "post_20260531_175853",
+    "status": "failed",
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
+    "executed_at": "2026-05-31T17:59:20.505725+00:00"
   }
 ]
