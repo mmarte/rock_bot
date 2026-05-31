@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260517_215930",
-    "status": "failed",
-    "created_at": "2026-05-17T21:59:30.629709+00:00",
-    "post_type": "cover",
-    "topic": "Enrique Bunbury",
-    "text": "La voz única de Enrique Bunbury nos regala una interpretación especial de 'Entre Dos Tierras', una canción emblemática. En su versión, Bunbury logra imprimir su propio estilo en esta pieza musical icónica. ¿Cuál te conmueve más, la fuerza original o la sensibilidad de su interpretación?\n\nhttps://www.youtube.com/watch?v=B9kipCl4dr8\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Enrique Bunbury Entre Dos Tierras live",
-    "extra_topics": [
-      "Héroes del Silencio"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=B9kipCl4dr8",
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260518_050225",
     "status": "published",
     "created_at": "2026-05-18T05:02:25.268757+00:00",
@@ -1033,6 +1013,26 @@
     "fb_post_id": "1043162839046116_1406158584892017",
     "ig_post_id": null,
     "published_at": "2026-05-31T05:13:55.042781+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260531_142717",
+    "status": "published",
+    "created_at": "2026-05-31T14:27:17.919481+00:00",
+    "post_type": "original",
+    "topic": "Los Prisioneros",
+    "text": "La banda chilena Los Prisioneros experimentó un cambio significativo en su formación en 2001, cuando Jorge González se convirtió en el único miembro original de la banda. Esto ocurrió luego de que Claudio Narea y Miguel Tapia decidieran abandonar el grupo. A lo largo de su carrera, Los Prisioneros han creado música icónica, como se refleja en su álbum 'Pateando Piedras' de 1988, que incluye la canción 'Tren al sur'. ¿Qué impacto crees que tuvo este cambio en la evolución del sonido de la banda?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosPrisioneros\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Prisioneros Chile rock band",
+    "extra_topics": [],
+    "post_year": "2001",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1406542474853628",
+    "ig_post_id": null,
+    "published_at": "2026-05-31T14:27:44.904231+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

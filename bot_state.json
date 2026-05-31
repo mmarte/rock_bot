@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Alux Nahual",
     "Kraken",
     "Flou",
     "La Ley",
@@ -19,7 +18,8 @@
     "Aterciopelados",
     "Kraken",
     "Octavia",
-    "El Cuarteto de Nos"
+    "El Cuarteto de Nos",
+    "Los Prisioneros"
   ],
   "used_poll_indices": [
     5,
@@ -33,14 +33,14 @@
     10,
     1
   ],
-  "original_type_index": 8,
-  "last_updated": "2026-05-31T05:13:29.507000+00:00",
+  "original_type_index": 9,
+  "last_updated": "2026-05-31T14:27:19.411599+00:00",
   "post_type_index": 10,
-  "total_posts": 131,
+  "total_posts": 132,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }
