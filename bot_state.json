@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Flou",
     "La Ley",
     "Habana Abierta",
     "La Cuneta Son Machín",
@@ -19,7 +18,8 @@
     "Octavia",
     "El Cuarteto de Nos",
     "Los Prisioneros",
-    "Alux Nahual"
+    "Alux Nahual",
+    "Líbido"
   ],
   "used_poll_indices": [
     5,
@@ -34,13 +34,13 @@
     1
   ],
   "original_type_index": 10,
-  "last_updated": "2026-05-31T17:58:54.980201+00:00",
+  "last_updated": "2026-05-31T22:03:36.708749+00:00",
   "post_type_index": 10,
-  "total_posts": 133,
+  "total_posts": 134,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
