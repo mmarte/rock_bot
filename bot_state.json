@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Cuneta Son Machín",
     "Los Rodríguez",
     "Los Tres",
     "Kraken",
@@ -19,7 +18,8 @@
     "Alux Nahual",
     "Líbido",
     "Toque Profundo",
-    "Habana Abierta"
+    "Habana Abierta",
+    "No Te Va Gustar"
   ],
   "used_poll_indices": [
     5,
@@ -34,13 +34,13 @@
     1
   ],
   "original_type_index": 1,
-  "last_updated": "2026-06-01T18:34:48.288306+00:00",
+  "last_updated": "2026-06-01T20:54:43.096659+00:00",
   "post_type_index": 10,
-  "total_posts": 136,
+  "total_posts": 137,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }

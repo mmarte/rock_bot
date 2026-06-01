@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260519_045454",
-    "status": "published",
-    "created_at": "2026-05-19T04:54:54.613258+00:00",
-    "post_type": "poll",
-    "topic": "Octavia",
-    "text": "La escena del rock en español ha evolucionado de manera única a lo largo de los años, con cada década aportando su propio estilo y energía. Desde los ritmos memorables de los 80 hasta la explosión de talento en los 90 y la diversidad de los 2000, cada época ha dejado su marca en la historia del rock. ¿Cuál consideras la mejor época del rock en español: los 80s clásicos, los 90s dorados o los 2000s alternativos?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Octavia rock band concert",
-    "extra_topics": [],
-    "post_year": "2000",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1395914849249724",
-    "ig_post_id": null,
-    "published_at": "2026-05-19T04:55:21.566106+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260519_161543",
     "status": "published",
     "created_at": "2026-05-19T16:15:43.558973+00:00",
@@ -1030,5 +1010,25 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260601_205441",
+    "status": "published",
+    "created_at": "2026-06-01T20:54:41.247852+00:00",
+    "post_type": "youtube",
+    "topic": "No Te Va Gustar",
+    "text": "No Te Va Gustar es conocida por sus actuaciones en vivo llenas de emoción y pasión. Memorias del Olvido es un álbum destacado de su discografía y escuchar sus canciones en vivo es una expérience única para los fanáticos del rock uruguayo. La banda tiene un talento especial para conectar con el público a través de su música. ¿Qué es lo que más te gusta de No Te Va Gustar y su estilo musical?\n\nhttps://www.youtube.com/watch?v=7f9zUOVNqRI\n\nLo Mejor del Rock en Español les presenta: #NoTeVaGustar\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #NoTeVaGustar\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "No Te Va Gustar Uruguay rock band",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=7f9zUOVNqRI",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1407747001399842",
+    "ig_post_id": null,
+    "published_at": "2026-06-01T20:55:08.740425+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
