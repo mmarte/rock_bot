@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260519_161543",
-    "status": "published",
-    "created_at": "2026-05-19T16:15:43.558973+00:00",
-    "post_type": "original",
-    "topic": "El Cuarteto de Nos",
-    "text": "El Cuarteto de Nos, banda uruguaya de rock, ha hecho una gran contribución a la escena musical latinoamericana. Con álbumes como 'Soy un Hombre Invisible' y 'El Cuarteto de Nos', demostraron su talento y versatilidad. Roberto Musso, Ricardo Musso, Santiago Tavella y Álvaro Pintos, los integrantes originales, han tenido un impacto significativo en la música. Su legado continúa vivo, inspirando a bandas y artistas que los citan como influencia directa. ¿Qué es lo que más te gusta de la música de El Cuarteto de Nos?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ElCuartetodeNos\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "El Cuarteto de Nos Uruguay rock band",
-    "extra_topics": [],
-    "post_year": "1980",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1396343659206843",
-    "ig_post_id": null,
-    "published_at": "2026-05-19T16:16:10.686094+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260519_185845",
     "status": "published",
     "created_at": "2026-05-19T18:58:45.910533+00:00",
@@ -1030,5 +1010,26 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260601_230441",
+    "status": "failed",
+    "created_at": "2026-06-01T23:04:41.091273+00:00",
+    "post_type": "original",
+    "topic": "Cascomar",
+    "text": "Cascomar es una banda argentina de rock que ha dejado su huella en la escena musical. Aquí te dejo 3 datos interesantes sobre ellos: \n   1. Su álbum debut fue grabado en un estudio de gran prestigio, lo que les dio una oportunidad única de aprender de los mejores.\n   2. La banda se formó en la ciudad de La Plata, Argentina, y su nombre se inspira en un barrio de la ciudad.\n   3. Cascomar ha compartido escenario con reconocidas bandas, lo que refleja su impacto en la escena musical argentina.\n   ¿Qué es lo que más te gusta de esta banda?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cascomar #Divididos #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Cascomar rock band concert",
+    "extra_topics": [
+      "Divididos",
+      "Gustavo Cerati"
+    ],
+    "post_year": "2001",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]

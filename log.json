@@ -1516,5 +1516,11 @@
     "image_url": "https://img.youtube.com/vi/7f9zUOVNqRI/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-01T20:55:08.740425+00:00"
+  },
+  {
+    "post_id": "post_20260601_230441",
+    "status": "failed",
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
+    "executed_at": "2026-06-01T23:05:08.120280+00:00"
   }
 ]

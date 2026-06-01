@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rodríguez",
     "Los Tres",
     "Kraken",
     "Charly García",
@@ -19,7 +18,8 @@
     "Líbido",
     "Toque Profundo",
     "Habana Abierta",
-    "No Te Va Gustar"
+    "No Te Va Gustar",
+    "Cascomar"
   ],
   "used_poll_indices": [
     5,
@@ -33,14 +33,14 @@
     10,
     1
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-06-01T20:54:43.096659+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-06-01T23:04:42.676258+00:00",
   "post_type_index": 10,
-  "total_posts": 137,
+  "total_posts": 138,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
