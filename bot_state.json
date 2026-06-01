@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Ley",
     "Habana Abierta",
     "La Cuneta Son Machín",
     "Los Rodríguez",
@@ -19,7 +18,8 @@
     "El Cuarteto de Nos",
     "Los Prisioneros",
     "Alux Nahual",
-    "Líbido"
+    "Líbido",
+    "Toque Profundo"
   ],
   "used_poll_indices": [
     5,
@@ -33,14 +33,14 @@
     10,
     1
   ],
-  "original_type_index": 10,
-  "last_updated": "2026-05-31T22:03:36.708749+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-06-01T05:53:49.463623+00:00",
   "post_type_index": 10,
-  "total_posts": 134,
+  "total_posts": 135,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }

@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260518_183027",
-    "status": "published",
-    "created_at": "2026-05-18T18:30:27.139549+00:00",
-    "post_type": "youtube",
-    "topic": "Los Rodríguez",
-    "text": "Disfrutar de una sesión con Los Rodríguez es una oportunidad para conocer a fondo su música y personalidad. La mezcla de talento y creatividad que aportan Ariel Rot, Andrés Calamaro y Germán es algo que hace que su música sea tan especial. Me encantaría saber, ¿cuál es tu canción favorita de esta legendaria banda?\n\nhttps://www.youtube.com/watch?v=CvG5ihmx9jU\n\nLo Mejor del Rock en Español les presenta: #LosRodriguez #AndresCalamaro\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRodriguez #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Rodriguez Spain Argentina rock band",
-    "extra_topics": [
-      "Andrés Calamaro"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=CvG5ihmx9jU",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1395583212616221",
-    "ig_post_id": null,
-    "published_at": "2026-05-18T18:30:54.844455+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260518_220614",
     "status": "published",
     "created_at": "2026-05-18T22:06:14.820617+00:00",
@@ -1034,5 +1012,25 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260601_055347",
+    "status": "failed",
+    "created_at": "2026-06-01T05:53:47.444239+00:00",
+    "post_type": "original",
+    "topic": "Toque Profundo",
+    "text": "La escena rock en español de los años 80 y 90 estuvo marcada por varias bandas influyentes. Toque Profundo, con su álbum debut 'Toque Profundo', y Caifanes, con 'El Silencio', son dos ejemplos destacados. Toque Profundo, liderada por Arturo Arredondo, nos regaló canciones impactantes. Por otro lado, Caifanes, con Saúl Hernández a la voz, también dejó una huella significativa en el género con temas notables. Ambas bandas han contribuido de manera significativa al rock en español. ¿Cuál de estas dos bandas es tu favorita?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ToqueProfundo #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Toque Profundo rock band concert",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "1987",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]
