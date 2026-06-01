@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260518_220614",
-    "status": "published",
-    "created_at": "2026-05-18T22:06:14.820617+00:00",
-    "post_type": "cover",
-    "topic": "Enrique Bunbury",
-    "text": "La interpretación de Enrique Bunbury de 'Entre Dos Tierras' es una experiencia emocional única. Su versión en solitario nos sumerge en una atmósfera íntima, donde cada nota y cada palabra adquieren un nuevo significado. La capacidad de Bunbury para reinterpretar una canción icónica es admirable. ¿Te gustaría más la original de Héroes del Silencio o la versión de Enrique Bunbury?\n\nhttps://www.youtube.com/watch?v=B9kipCl4dr8\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Enrique Bunbury Entre Dos Tierras live",
-    "extra_topics": [
-      "Héroes del Silencio"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=B9kipCl4dr8",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1395696472604895",
-    "ig_post_id": null,
-    "published_at": "2026-05-18T22:06:17.786205+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260519_045454",
     "status": "published",
     "created_at": "2026-05-19T04:54:54.613258+00:00",
@@ -1027,6 +1005,26 @@
     "post_year": "1987",
     "curation_year": "2024",
     "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260601_183446",
+    "status": "failed",
+    "created_at": "2026-06-01T18:34:46.405642+00:00",
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "text": "La versión de 'Paint It Black' hecha por Soda Stereo es un ejemplo notable de cómo una banda puede reinterpretar un clásico con su propia identidad. La voz de Gustavo Cerati aporta una dimensión única, mezclando el rock clásico con la esencia latina. Esta versión se destaca por su interpretación apasionada y energética. ¿Cuál te gusta más, la original de The Rolling Stones o la versión de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=Q8l8Xd6wTiE\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Soda Stereo Paint It Black live",
+    "extra_topics": [
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=Q8l8Xd6wTiE",
     "concert_url": null,
     "fb_post_id": null,
     "ig_post_id": null,
