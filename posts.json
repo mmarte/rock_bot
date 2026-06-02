@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260520_045845",
-    "status": "failed",
-    "created_at": "2026-05-20T04:58:45.333977+00:00",
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "text": "La fusión de estilos entre Café Tacvba y Los Fabulosos Cadillacs da como resultado una versión única de 'Matador'. Esta interpretación combina un ritmo latino intenso con elementos electrónicos, logrando un sonido fresco y emocionante. La voz de Rubén Albarrán aporta una pasión que nos hace querer bailar. ¿Te gusta más la versión original de Los Fabulosos Cadillacs o el cover de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=jAkosL2VyKY\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Café Tacvba Matador live",
-    "extra_topics": [
-      "Los Fabulosos Cadillacs"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=jAkosL2VyKY",
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260520_162308",
     "status": "published",
     "created_at": "2026-05-20T16:23:08.414709+00:00",
@@ -1027,6 +1007,26 @@
     "fb_post_id": "1043162839046116_1408517917989417",
     "ig_post_id": null,
     "published_at": "2026-06-02T17:16:38.189659+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260602_200649",
+    "status": "published",
+    "created_at": "2026-06-02T20:06:49.924790+00:00",
+    "post_type": "youtube",
+    "topic": "La Ley",
+    "text": "La Ley toca con una intensidad y energía increíbles en el escenario. La voz de Beto Cuevas es impresionante, y la conexión con el público es palpable. ¿Cuál es su canción favorita de La Ley? https://www.youtube.com/watch?v=3FI235BxzWU\n\nLo Mejor del Rock en Español les presenta: #LaLey\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaLey\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Ley Chile rock band concert",
+    "extra_topics": [],
+    "post_year": "2014",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=3FI235BxzWU",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1408630287978180",
+    "ig_post_id": null,
+    "published_at": "2026-06-02T20:07:17.034319+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

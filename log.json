@@ -1546,5 +1546,17 @@
     "image_url": "https://img.youtube.com/vi/SzimletXB7M/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-02T17:16:38.189659+00:00"
+  },
+  {
+    "post_id": "post_20260602_200649",
+    "fb_post_id": "1043162839046116_1408630287978180",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "La Ley",
+    "image_url": "https://img.youtube.com/vi/3FI235BxzWU/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-02T20:07:17.034319+00:00"
   }
 ]
