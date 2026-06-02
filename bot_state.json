@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Tres",
     "Kraken",
     "Charly García",
     "Octavia",
@@ -19,7 +18,8 @@
     "Toque Profundo",
     "Habana Abierta",
     "No Te Va Gustar",
-    "Cascomar"
+    "Cascomar",
+    "La Vela Puerca"
   ],
   "used_poll_indices": [
     5,
@@ -33,14 +33,14 @@
     10,
     1
   ],
-  "original_type_index": 2,
-  "last_updated": "2026-06-01T23:04:42.676258+00:00",
+  "original_type_index": 3,
+  "last_updated": "2026-06-02T05:22:12.499606+00:00",
   "post_type_index": 10,
-  "total_posts": 138,
+  "total_posts": 139,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "concert",
   "curation_year": 2024
 }

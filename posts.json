@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260519_185845",
-    "status": "published",
-    "created_at": "2026-05-19T18:58:45.910533+00:00",
-    "post_type": "youtube",
-    "topic": "Caramelos de Cianuro",
-    "text": "La voz de Chino Vera es un elemento clave en el sonido de Caramelos de Cianuro, especialmente en temas como 'Verónica'. Esta canción muestra la evolución musical de la banda y su habilidad para crear melodías memorables. Caramelos de Cianuro es una banda venezolana que ha dejado su huella en la escena rock latinoamericana. ¿Cuál es tu canción favorita de esta legendaria banda?\n\nhttps://www.youtube.com/watch?v=n3ZFr4Pa1tA\n\nLo Mejor del Rock en Español les presenta: #CaramelosdeCianuro\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CaramelosdeCianuro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Caramelos de Cianuro rock band concert",
-    "extra_topics": [],
-    "post_year": "2002",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=n3ZFr4Pa1tA",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1396450252529517",
-    "ig_post_id": null,
-    "published_at": "2026-05-19T18:59:13.065142+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260519_222150",
     "status": "published",
     "created_at": "2026-05-19T22:21:50.575731+00:00",
@@ -1031,5 +1011,25 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260602_052210",
+    "status": "published",
+    "created_at": "2026-06-02T05:22:10.922878+00:00",
+    "post_type": "original",
+    "topic": "La Vela Puerca",
+    "text": "La Vela Puerca, una banda uruguaya con una rica historia, se formó en la ciudad de Montevideo en 1995. En su trayectoria, han tenido momentos destacados, como el lanzamiento de su segundo álbum, 'A contraluz', que marcó un punto importante en su carrera al explorar sonidos más maduros. Esta evolución en su música los llevó a recibir reconocimientos importantes, incluyendo un premio Graffiti. ¿Cuál es tu canción favorita de La Vela Puerca y qué te gusta de ella?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaVelaPuerca\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Vela Puerca rock band concert",
+    "extra_topics": [],
+    "post_year": "1995",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1408045668036642",
+    "ig_post_id": null,
+    "published_at": "2026-06-02T05:22:37.842891+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
