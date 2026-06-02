@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260519_222150",
-    "status": "published",
-    "created_at": "2026-05-19T22:21:50.575731+00:00",
-    "post_type": "poll",
-    "topic": "Cinema",
-    "text": "La escena del rock en español es un mundo vibrante y lleno de talento. A lo largo de los años, various bandas han dejado su huella con su música innovadora y apasionada. ¿Cuál es la banda de rock en español que más te gusta? \n   Opciones: \n   Soda Stereo\n   Heroes del Silencio\n   Maná\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cinema #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Cinema rock band concert",
-    "extra_topics": [
-      "Soda Stereo",
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1396560912518451",
-    "ig_post_id": null,
-    "published_at": "2026-05-19T22:22:18.542799+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260520_045845",
     "status": "failed",
     "created_at": "2026-05-20T04:58:45.333977+00:00",
@@ -1028,6 +1005,28 @@
     "fb_post_id": "1043162839046116_1408045668036642",
     "ig_post_id": null,
     "published_at": "2026-06-02T05:22:37.842891+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260602_171611",
+    "status": "published",
+    "created_at": "2026-06-02T17:16:11.076626+00:00",
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "text": "Enrique Bunbury ofrece una interpretación única de 'Entre Dos Tierras', logrando un equilibrio emotivo con solo su voz y la guitarra. La versión original de Héroes del Silencio tiene un impacto especial, pero la versión en solitario de Bunbury también toca el corazón. ¿Cuál te emociona más?\n\nhttps://www.youtube.com/watch?v=SzimletXB7M\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Enrique Bunbury Entre Dos Tierras live",
+    "extra_topics": [
+      "Héroes del Silencio"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=SzimletXB7M",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1408517917989417",
+    "ig_post_id": null,
+    "published_at": "2026-06-02T17:16:38.189659+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
