@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260520_192320",
-    "status": "published",
-    "created_at": "2026-05-20T19:23:20.655605+00:00",
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "text": "Café Tacvba sorprende al público con su propia versión de 'Matador', un clásico de Los Fabulosos Cadillacs, incorporando su característico estilo electrónico y ritmo latino. En el Vive Latino, la banda ofrece una interpretación única de esta canción. ¿Qué te parece la versión de Café Tacvba en comparación con la original?\n\nhttps://www.youtube.com/watch?v=PlA9o1rw-rY\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Café Tacvba Matador live",
-    "extra_topics": [
-      "Los Fabulosos Cadillacs"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=PlA9o1rw-rY",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1397351095772766",
-    "ig_post_id": null,
-    "published_at": "2026-05-20T19:23:47.645660+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260520_222717",
     "status": "published",
     "created_at": "2026-05-20T22:27:17.445195+00:00",
@@ -1027,6 +1005,28 @@
     "fb_post_id": "1043162839046116_1408729067968302",
     "ig_post_id": null,
     "published_at": "2026-06-02T23:05:44.494732+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260603_055605",
+    "status": "published",
+    "created_at": "2026-06-03T05:56:05.703179+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "La fusión de estilos es una de las características más destacadas de Café Tacvba, y esto es especialmente notable cuando interpreta 'Matador' de Los Fabulosos Cadillacs. La versión que nos ofrece Café Tacvba combina elementos electrónicos con ritmos latinos, lo que crea una experiencia única. ¿Te gusta más la versión original de los Cadillacs o la interpretación de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=-iO5bmshzeg\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba Matador live",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=-iO5bmshzeg",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1408981097943099",
+    "ig_post_id": null,
+    "published_at": "2026-06-03T05:56:30.803539+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
