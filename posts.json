@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260521_050436",
-    "status": "published",
-    "created_at": "2026-05-21T05:04:36.031642+00:00",
-    "post_type": "original",
-    "topic": "Los Tres",
-    "text": "El álbum debut de Los Tres, lanzado en 1989, es un trabajo destacado en su discografía. La banda experimentó un cambio significativo en su formación, lo que podría haber influido en su dirección musical. El baterista original dejó la banda, lo que llevó a la incorporación de un nuevo miembro. ¿Cómo crees que este cambio afectó el sonido y la evolución de la banda?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosTres\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Tres Chile rock band",
-    "extra_topics": [],
-    "post_year": "1989",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1397640512410491",
-    "ig_post_id": null,
-    "published_at": "2026-05-21T05:05:02.795279+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260521_161326",
     "status": "published",
     "created_at": "2026-05-21T16:13:26.267669+00:00",
@@ -1030,5 +1010,23 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260603_230736",
+    "status": "failed",
+    "created_at": "2026-06-03T23:07:36.874787+00:00",
+    "post_type": "original",
+    "topic": "La Cuneta Son Machín",
+    "text": "La Cuneta Son Machín es una banda icónica en la escena musical de Nicaragua, conocida por su energía y pasión en el escenario. En un concierto memorable en la ciudad de Managua, la banda liderada por Carlos Mejía Godoy y Luis Enrique Mejía Godoy, interpretó algunos de sus grandes éxitos. La banda tiene un repertorio que incluye canciones como 'Nicaragua, Nicaragüita' y 'Suenan las campanas'. ¿Qué es lo que más te gusta de la música de La Cuneta Son Machín?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaCunetaSonMachin\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Cuneta Son Machín rock band concert",
+    "extra_topics": [],
+    "post_year": "2005",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]

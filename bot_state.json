@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Octavia",
     "Fiel a la Vega",
     "Flou",
     "Aterciopelados",
@@ -19,7 +18,8 @@
     "La Ley",
     "Divididos",
     "Savage",
-    "Juanes"
+    "Juanes",
+    "La Cuneta Son Machín"
   ],
   "used_poll_indices": [
     5,
@@ -33,14 +33,14 @@
     10,
     1
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-06-03T20:18:05.237166+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-06-03T23:07:38.298760+00:00",
   "post_type_index": 10,
-  "total_posts": 144,
+  "total_posts": 145,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
