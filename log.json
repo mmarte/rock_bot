@@ -1612,5 +1612,17 @@
     "image_url": "https://img.youtube.com/vi/-XIeMp4zQC4/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-04T05:50:49.483122+00:00"
+  },
+  {
+    "post_id": "post_20260604_161843",
+    "fb_post_id": "1043162839046116_1410309697810239",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Alux Nahual",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Alux_Nahual.jpg",
+    "status": "published",
+    "executed_at": "2026-06-04T16:19:09.771299+00:00"
   }
 ]
