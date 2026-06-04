@@ -1624,5 +1624,11 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Alux_Nahual.jpg",
     "status": "published",
     "executed_at": "2026-06-04T16:19:09.771299+00:00"
+  },
+  {
+    "post_id": "post_20260604_222410",
+    "status": "failed",
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
+    "executed_at": "2026-06-04T22:24:37.940171+00:00"
   }
 ]

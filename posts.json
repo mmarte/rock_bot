@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260521_222302",
-    "status": "published",
-    "created_at": "2026-05-21T22:23:02.741218+00:00",
-    "post_type": "original",
-    "topic": "Desorden Público",
-    "text": "En el rock en español de la década de 1980, destacaron bandas innovadoras que dejaron su huella. Desorden Público, con su álbum debut en 1988, incorporó una vibrante energía ska que resonó en la escena. Canciones como 'La Calma' y 'El Desorden' se convirtieron en favoritas entre los fans. Mientras tanto, Todos Tus Muertos, también con un álbum en 1988, fusionaron rock y punk para cautivar a su audiencia. Ambas bandas trajeron estilos únicos que influyeron en la música de la época. ¿Cuál crees que tiene un impacto más duradero en el rock en español?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #DesordenPublico\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Desorden Público rock band concert",
-    "extra_topics": [],
-    "post_year": "1980",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1398257005682175",
-    "ig_post_id": null,
-    "published_at": "2026-05-21T22:23:29.716737+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260522_045626",
     "status": "failed",
     "created_at": "2026-05-22T04:56:26.878425+00:00",
@@ -1030,5 +1010,23 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260604_222410",
+    "status": "failed",
+    "created_at": "2026-06-04T22:24:10.774934+00:00",
+    "post_type": "original",
+    "topic": "Bomba Estéreo",
+    "text": "Bomba Estéreo ha dejado una profunda huella en la música contemporánea con su sonido innovador. Formada en Bogotá, Colombia, por Simón Mejía y Julián Salazar, la banda ha sido una influencia importante para muchos artistas. Su álbum 'Blow Up' marcó un punto de inflexión significativo en su carrera, y su estilo único, que combina rock, electrónica y ritmos tropicales, ha sido citado como influencia por varias bandas. La voz de Li Saumet, que se unió a la banda, ha sido fundamental en su éxito. Con una carrera que abarca más de una década, su música sigue siendo popular en todo el mundo. ¿Qué es lo que más te gusta de la música de Bomba Estéreo?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #BombaEstereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Bomba Estéreo Colombia electronic rock",
+    "extra_topics": [],
+    "post_year": "2005",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]
