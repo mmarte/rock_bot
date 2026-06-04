@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Fiel a la Vega",
     "Flou",
     "Aterciopelados",
     "Kraken",
@@ -19,7 +18,8 @@
     "Divididos",
     "Savage",
     "Juanes",
-    "La Cuneta Son Machín"
+    "La Cuneta Son Machín",
+    "Cuca"
   ],
   "used_poll_indices": [
     5,
@@ -34,13 +34,13 @@
     1
   ],
   "original_type_index": 5,
-  "last_updated": "2026-06-03T23:07:38.298760+00:00",
+  "last_updated": "2026-06-04T05:50:23.951940+00:00",
   "post_type_index": 10,
-  "total_posts": 145,
+  "total_posts": 146,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

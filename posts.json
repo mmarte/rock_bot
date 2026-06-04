@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260521_161326",
-    "status": "published",
-    "created_at": "2026-05-21T16:13:26.267669+00:00",
-    "post_type": "youtube",
-    "topic": "Divididos",
-    "text": "Divididos es una banda argentina conocida por su estilo singular y su capacidad para ofrecer presentaciones en vivo llenas de emoción. La intensidad y la pasión que Ricardo Mollo aporta a cada concierto son verdaderamente únicas. ¿Qué hace que su música siga resonando con tantos fans después de todos estos años?\n\nhttps://www.youtube.com/watch?v=WVX9hO44Bco\n\nLo Mejor del Rock en Español les presenta: #Divididos\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Divididos\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Divididos Argentina rock concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=WVX9hO44Bco",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1398048779036331",
-    "ig_post_id": null,
-    "published_at": "2026-05-21T16:13:54.422196+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260521_185906",
     "status": "published",
     "created_at": "2026-05-21T18:59:06.600731+00:00",
@@ -1028,5 +1008,29 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260604_055022",
+    "status": "published",
+    "created_at": "2026-06-04T05:50:22.122611+00:00",
+    "post_type": "cover",
+    "topic": "Aterciopelados",
+    "text": "La conexión entre Soda Stereo y Aterciopelados es particularmente interesante cuando se trata de interpretaciones musicales. Aterciopelados realizó un cover de 'De Música Ligera' que se destacó en el ámbito musical. La voz de Andrea Echeverri y el arreglo musical de la banda le dieron un toque único a la canción. ¿Te gusta más la versión original de Soda Stereo o la interpretación de Aterciopelados?\n\nhttps://www.youtube.com/watch?v=-XIeMp4zQC4\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados #SodaStereo #GustavoCerati #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Aterciopelados De Música Ligera live",
+    "extra_topics": [
+      "Soda Stereo",
+      "Gustavo Cerati",
+      "Andrés Calamaro"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=-XIeMp4zQC4",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1409894134518462",
+    "ig_post_id": null,
+    "published_at": "2026-06-04T05:50:49.483122+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
