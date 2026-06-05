@@ -1666,5 +1666,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
     "status": "published",
     "executed_at": "2026-06-05T18:58:40.184047+00:00"
+  },
+  {
+    "post_id": "post_20260605_221756",
+    "fb_post_id": "1043162839046116_1411488131025729",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Caifanes",
+    "image_url": "https://img.youtube.com/vi/U9IwsV1r66g/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-05T22:18:23.153468+00:00"
   }
 ]

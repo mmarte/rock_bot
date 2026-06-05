@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Prisioneros",
     "Alux Nahual",
     "Líbido",
     "Toque Profundo",
@@ -19,7 +18,8 @@
     "Bomba Estéreo",
     "Panteon Rococo",
     "La Renga",
-    "Fiel a la Vega"
+    "Fiel a la Vega",
+    "Caifanes"
   ],
   "used_poll_indices": [
     7,
@@ -34,13 +34,13 @@
     15
   ],
   "original_type_index": 8,
-  "last_updated": "2026-06-05T18:58:14.819246+00:00",
+  "last_updated": "2026-06-05T22:17:57.762782+00:00",
   "post_type_index": 10,
-  "total_posts": 151,
+  "total_posts": 152,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
