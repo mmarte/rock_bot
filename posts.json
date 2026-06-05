@@ -1,23 +1,5 @@
 [
   {
-    "id": "post_20260522_185257",
-    "status": "failed",
-    "created_at": "2026-05-22T18:52:57.905562+00:00",
-    "post_type": "original",
-    "topic": "Los Rabanes",
-    "text": "La banda panameña Los Rabanes se formó en la década de 1990 en la ciudad de Panamá. Estaba integrada por Emilio Regueira, el vocalista y compositor principal, junto a otros músicos talentosos. Un hecho interesante es que su álbum debut marcó el comienzo de su carrera con un sonido único que fusionaba rock, ska y ritmos latinos. Durante su trayectoria, la banda ha lanzado varios álbumes y ha ganado premios. ¿Cuál es tu canción favorita de Los Rabanes?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Rabanes rock band concert",
-    "extra_topics": [],
-    "post_year": "1992",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260522_221125",
     "status": "published",
     "created_at": "2026-05-22T22:11:25.916744+00:00",
@@ -1029,6 +1011,29 @@
     "fb_post_id": "1043162839046116_1411233231051219",
     "ig_post_id": null,
     "published_at": "2026-06-05T15:50:47.822521+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260605_185813",
+    "status": "published",
+    "created_at": "2026-06-05T18:58:13.560768+00:00",
+    "post_type": "poll",
+    "topic": "Fiel a la Vega",
+    "text": "El rock en español nos regala una amplia gama de emociones a través de sus canciones de amor. Desde baladas que nos hacen reflexionar sobre el amor hasta himnos que celebran la pasión, el género nos ofrece una diversidad de sentimientos. ¿Cuál es la canción de amor del rock en español que más te llega al corazón? \n   Opciones:\n   Ella Usó Mi Cabeza - Soda Stereo\n   De Música Ligera - Soda Stereo\n   Te Necesito - Maná\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Fiel a la Vega rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1411367707704438",
+    "ig_post_id": null,
+    "published_at": "2026-06-05T18:58:40.184047+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
