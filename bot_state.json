@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Kraken",
     "Octavia",
     "El Cuarteto de Nos",
     "Los Prisioneros",
@@ -19,10 +18,10 @@
     "La Cuneta Son Machín",
     "Cuca",
     "Alux Nahual",
-    "Bomba Estéreo"
+    "Bomba Estéreo",
+    "Panteon Rococo"
   ],
   "used_poll_indices": [
-    5,
     14,
     7,
     4,
@@ -31,16 +30,17 @@
     3,
     2,
     10,
-    1
+    1,
+    12
   ],
   "original_type_index": 7,
-  "last_updated": "2026-06-04T22:24:12.436639+00:00",
+  "last_updated": "2026-06-05T05:09:32.513748+00:00",
   "post_type_index": 10,
-  "total_posts": 148,
+  "total_posts": 149,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
