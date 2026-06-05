@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260522_154622",
-    "status": "published",
-    "created_at": "2026-05-22T15:46:22.686915+00:00",
-    "post_type": "cover",
-    "topic": "Maná",
-    "text": "Maná toma 'Afuera' de Caifanes y crea una experiencia en vivo emocionante. La versión de Maná es una interpretación única que emociona al público. La comparación con el original de Caifanes es un tema de debate. ¿Cuál prefieres, la versión original o el cover de Maná?\n\nhttps://www.youtube.com/watch?v=iJlWgE2-lkM\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Maná Afuera live",
-    "extra_topics": [
-      "Caifanes"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=iJlWgE2-lkM",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1398857365622139",
-    "ig_post_id": null,
-    "published_at": "2026-05-22T15:46:49.978908+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260522_185257",
     "status": "failed",
     "created_at": "2026-05-22T18:52:57.905562+00:00",
@@ -1031,6 +1009,26 @@
     "fb_post_id": "1043162839046116_1410782047763004",
     "ig_post_id": null,
     "published_at": "2026-06-05T05:09:57.875571+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260605_155019",
+    "status": "published",
+    "created_at": "2026-06-05T15:50:19.626742+00:00",
+    "post_type": "original",
+    "topic": "La Renga",
+    "text": "La Renga es una banda con un estilo único que fusiona rock con ritmos folclóricos argentinos, lo que los distingue en la escena del rock en español. Su historia comenzó en la ciudad de Buenos Aires, Argentina, con Gustavo Nápoli como vocalista y guitarra, y Chango González en la batería. Un álbum que marcó un punto importante en su carrera es 'A donde me lleve el viento', lanzado en 1996, y que les valió una gran cantidad de seguidores en todo el país. ¿Cuál es tu canción favorita de La Renga?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaRenga\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Renga Argentina rock concert",
+    "extra_topics": [],
+    "post_year": "1988",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1411233231051219",
+    "ig_post_id": null,
+    "published_at": "2026-06-05T15:50:47.822521+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
