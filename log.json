@@ -1678,5 +1678,11 @@
     "image_url": "https://img.youtube.com/vi/U9IwsV1r66g/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-05T22:18:23.153468+00:00"
+  },
+  {
+    "post_id": "post_20260606_044618",
+    "status": "failed",
+    "error": "FB error 324: Missing or invalid image file",
+    "executed_at": "2026-06-06T04:46:46.139805+00:00"
   }
 ]

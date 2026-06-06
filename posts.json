@@ -1,23 +1,5 @@
 [
   {
-    "id": "post_20260523_043342",
-    "status": "failed",
-    "created_at": "2026-05-23T04:33:42.522562+00:00",
-    "post_type": "original",
-    "topic": "Flou",
-    "text": "¿Qué canciones o álbumes de Flou destacan para ti? Mi selección personal incluye 'Todas las flores' por su sonido innovador, 'La crisis' por su enfoque crítico y musicalidad experimenta, y 'Fuego en la disco' por su ritmo enérgico. ¿Cuál es tu selección favorita de la discografía de Flou?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Flou\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Flou rock band concert",
-    "extra_topics": [],
-    "post_year": "2004",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260523_175956",
     "status": "published",
     "created_at": "2026-05-23T17:59:56.744399+00:00",
@@ -1037,5 +1019,23 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260606_044618",
+    "status": "failed",
+    "created_at": "2026-06-06T04:46:18.953558+00:00",
+    "post_type": "original",
+    "topic": "Mecano",
+    "text": "La formación de Mecano experimentó cambios significativos antes de lanzar su álbum debut. La banda pasó por un momento de transformación cuando Nacho Cano y los hermanos Ana y José María Cano decidieron seguir adelante con su proyecto musical. En esta etapa, Ana Torroja, la icónica voz de la banda, comenzó a tomar un papel más destacado en las voces principales durante la grabación de su primer álbum, lo que eventualmente la convirtió en el rostro y la voz de Mecano. ¿Qué papel crees que jugó este cambio en la formación y enfoque vocal en el éxito y definición del sonido característico de la banda?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mecano\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Mecano Spain pop rock band",
+    "extra_topics": [],
+    "post_year": "1982",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 324: Missing or invalid image file"
   }
 ]

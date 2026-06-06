@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Alux Nahual",
     "Líbido",
     "Toque Profundo",
     "Habana Abierta",
@@ -19,7 +18,8 @@
     "Panteon Rococo",
     "La Renga",
     "Fiel a la Vega",
-    "Caifanes"
+    "Caifanes",
+    "Mecano"
   ],
   "used_poll_indices": [
     7,
@@ -33,14 +33,14 @@
     12,
     15
   ],
-  "original_type_index": 8,
-  "last_updated": "2026-06-05T22:17:57.762782+00:00",
+  "original_type_index": 9,
+  "last_updated": "2026-06-06T04:46:20.801103+00:00",
   "post_type_index": 10,
-  "total_posts": 152,
+  "total_posts": 153,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
