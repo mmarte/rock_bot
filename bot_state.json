@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Líbido",
     "Toque Profundo",
     "Habana Abierta",
     "No Te Va Gustar",
@@ -19,7 +18,8 @@
     "La Renga",
     "Fiel a la Vega",
     "Caifanes",
-    "Mecano"
+    "Mecano",
+    "Cinema"
   ],
   "used_poll_indices": [
     7,
@@ -34,13 +34,13 @@
     15
   ],
   "original_type_index": 9,
-  "last_updated": "2026-06-06T04:46:20.801103+00:00",
+  "last_updated": "2026-06-06T14:25:45.482344+00:00",
   "post_type_index": 10,
-  "total_posts": 153,
+  "total_posts": 154,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }

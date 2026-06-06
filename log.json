@@ -1684,5 +1684,17 @@
     "status": "failed",
     "error": "FB error 324: Missing or invalid image file",
     "executed_at": "2026-06-06T04:46:46.139805+00:00"
+  },
+  {
+    "post_id": "post_20260606_142544",
+    "fb_post_id": "1043162839046116_1412091590965383",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Cinema",
+    "image_url": "https://img.youtube.com/vi/k8qUAQXUhJ0/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-06T14:26:11.895647+00:00"
   }
 ]
