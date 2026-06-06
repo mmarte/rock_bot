@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260524_045815",
-    "status": "published",
-    "created_at": "2026-05-24T04:58:15.110663+00:00",
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "text": "La fusión de estilos entre Café Tacvba y el clásico 'Matador' de Los Fabulosos Cadillacs crea una versión única y llena de ritmo. La voz apasionada y el estilo distintivo de Café Tacvba llevan 'Matador' a un territorio emocionante. ¿Cuál versión te conmueve más: la original de Los Fabulosos Cadillacs o la interpretación de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=9KR9WfLgZJ4\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Café Tacvba Matador live",
-    "extra_topics": [
-      "Los Fabulosos Cadillacs"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=9KR9WfLgZJ4",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1400117352162807",
-    "ig_post_id": null,
-    "published_at": "2026-05-24T04:58:42.332333+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260524_142203",
     "status": "published",
     "created_at": "2026-05-24T14:22:03.842437+00:00",
@@ -1034,6 +1012,26 @@
     "fb_post_id": "1043162839046116_1412249217616287",
     "ig_post_id": null,
     "published_at": "2026-06-06T18:04:51.652143+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260606_220557",
+    "status": "published",
+    "created_at": "2026-06-06T22:05:57.277218+00:00",
+    "post_type": "original",
+    "topic": "Los Rabanes",
+    "text": "La discografía de Los Rabanes ofrece una variedad de sonidos y estilos a lo largo de su carrera. Desde sus primeros álbumes, donde fusionaban rock y ritmos latinos, hasta sus discos posteriores, que muestran una madurez en su música y profundidad en sus letras, cada etapa tiene su propio encanto. Ambas han regalado canciones memorables. ¿Cuál de estas etapas te parece más impactante y por qué?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Rabanes rock band concert",
+    "extra_topics": [],
+    "post_year": "2000",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1412388654269010",
+    "ig_post_id": null,
+    "published_at": "2026-06-06T22:06:24.151034+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
