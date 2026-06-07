@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260525_182500",
-    "status": "published",
-    "created_at": "2026-05-25T18:25:00.421937+00:00",
-    "post_type": "original",
-    "topic": "Cinema",
-    "text": "¿Qué hay detrás del sonido y la historia de Cinema? Aquí te dejo 3 claves para entender a esta banda: \n   1. Su sonido combina rock y new wave de manera única, influenciado por la escena musical de los 80. \n   2. La banda se formó en la ciudad de México con integrantes que tienen una rica trayectoria en la música, incluyendo a Rubén Albarrán y Emmanuel del Real, quienes anteriormente formaron parte de Café Tacuba. \n   3. Su álbum debut 'Cinema' marcó un punto importante en su carrera, con canciones que conectaron con el público. \n   ¿Cuál es tu tema favorito de Cinema?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cinema\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Cinema rock band concert",
-    "extra_topics": [],
-    "post_year": "2000",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1401460665361809",
-    "ig_post_id": null,
-    "published_at": "2026-05-25T18:25:27.520779+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260526_045738",
     "status": "published",
     "created_at": "2026-05-26T04:57:38.310549+00:00",
@@ -1035,5 +1015,25 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260607_220707",
+    "status": "failed",
+    "created_at": "2026-06-07T22:07:07.676599+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "La fusión de ritmos electrónicos y latinos puede dar lugar a reinterpretaciones fascinantes de clásicos del rock en español. Café Tacvba se atrevió a poner su propio sello en 'Matador', un tema que originalmente lanzaron Los Fabulosos Cadillacs. La versión de Café Tacvba ofrece una nueva perspectiva de esta canción icónica. ¿Cuál versión te llena más de emoción?\n\nhttps://www.youtube.com/watch?v=_ibOUckMP_k\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba Matador live",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=_ibOUckMP_k",
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]
