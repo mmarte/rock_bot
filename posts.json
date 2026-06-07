@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260524_220110",
-    "status": "published",
-    "created_at": "2026-05-24T22:01:10.893888+00:00",
-    "post_type": "poll",
-    "topic": "Malpaís",
-    "text": "El rock en español es un género vibrante que ha producido muchos solistas talentosos. Desde la escena argentina hasta la española, hemos visto surgir artistas que han dejado una huella en la historia de la música. Ahora, te toca a ti decidir: ¿quién es el mejor solista surgido del rock en español? \n   Opciones: \n   Gustavo Cerati\n   Enrique Bunbury\n   Andrés Calamaro\n   ¡Vota con tu reacción! ¿Quién es tu solista favorito?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Malpais #EnriqueBunbury #GustavoCerati #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Malpaís rock band concert",
-    "extra_topics": [
-      "Enrique Bunbury",
-      "Gustavo Cerati",
-      "Andrés Calamaro"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1400763112098231",
-    "ig_post_id": null,
-    "published_at": "2026-05-24T22:01:37.391262+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260525_154740",
     "status": "published",
     "created_at": "2026-05-25T15:47:40.344713+00:00",
@@ -1034,6 +1010,28 @@
     "fb_post_id": "1043162839046116_1412640814243794",
     "ig_post_id": null,
     "published_at": "2026-06-07T05:17:11.348108+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260607_144814",
+    "status": "published",
+    "created_at": "2026-06-07T14:48:14.110026+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "Cuando Maná se atreve a reinterpretar una canción clásica, el resultado es emocionante. Tomaron 'Afuera' de Caifanes y la convirtieron en una experiencia única en vivo durante un festival de rock latino. La energía y la pasión que le imprimieron a esta versión son destacadas. La voz potente y el ritmo contagioso de Maná hicieron que 'Afuera' sonara con un toque fresco, mientras que la esencia de la canción original de Caifanes se mantenía presente. ¿Te conmueve más la versión original de Caifanes o la interpretación en vivo de Maná?\n\nhttps://www.youtube.com/watch?v=Yyfmf-NEZbI\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=Yyfmf-NEZbI",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1413010084206867",
+    "ig_post_id": null,
+    "published_at": "2026-06-07T14:48:41.490984+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

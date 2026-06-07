@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Cascomar",
     "La Vela Puerca",
     "Gandhi",
     "La Ley",
@@ -19,7 +18,8 @@
     "Cinema",
     "Los Mojarras",
     "Los Rabanes",
-    "Habana Abierta"
+    "Habana Abierta",
+    "Alux Nahual"
   ],
   "used_poll_indices": [
     7,
@@ -34,13 +34,13 @@
     15
   ],
   "original_type_index": 1,
-  "last_updated": "2026-06-07T05:16:45.911542+00:00",
+  "last_updated": "2026-06-07T14:48:16.071653+00:00",
   "post_type_index": 10,
-  "total_posts": 157,
+  "total_posts": 158,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
