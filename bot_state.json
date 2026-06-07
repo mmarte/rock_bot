@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Vela Puerca",
     "Gandhi",
     "La Ley",
     "Divididos",
@@ -19,7 +18,8 @@
     "Los Mojarras",
     "Los Rabanes",
     "Habana Abierta",
-    "Alux Nahual"
+    "Alux Nahual",
+    "La Cuneta Son Machín"
   ],
   "used_poll_indices": [
     7,
@@ -33,14 +33,14 @@
     12,
     15
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-06-07T14:48:16.071653+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-06-07T18:02:42.315701+00:00",
   "post_type_index": 10,
-  "total_posts": 158,
+  "total_posts": 159,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }
