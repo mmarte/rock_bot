@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260526_045738",
-    "status": "published",
-    "created_at": "2026-05-26T04:57:38.310549+00:00",
-    "post_type": "original",
-    "topic": "Habana Abierta",
-    "text": "La banda cubana Habana Abierta es conocida por su mezcla única de rock y ritmos afrocubanos, lo que les da un sonido distintivo. La formación de la banda ha estado influenciada por la rica cultura y la escena musical de La Habana, Cuba, donde se originó. Con un nombre que refleja la apertura cultural y musical de la ciudad, Habana Abierta ha logrado fusionar diferentes estilos musicales en su trabajo. Su música, como se refleja en álbumes como '24 Horas', muestra la diversidad y la energía de la escena musical de la ciudad. ¿Cuál es tu canción favorita de Habana Abierta?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Habana Abierta rock band concert",
-    "extra_topics": [],
-    "post_year": "1997",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1401777315330144",
-    "ig_post_id": null,
-    "published_at": "2026-05-26T04:58:05.318534+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260526_163811",
     "status": "published",
     "created_at": "2026-05-26T16:38:11.869139+00:00",
@@ -1035,5 +1015,25 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260608_052333",
+    "status": "published",
+    "created_at": "2026-06-08T05:23:33.101500+00:00",
+    "post_type": "youtube",
+    "topic": "Habana Abierta",
+    "text": "La música de Habana Abierta destaca por su fusión única de ritmos y estilos. En este video, su colaboración con Raul Paz en 'El Balcón' muestra cómo la música puede unir culturas y trascender fronteras. La emoción del concierto en vivo es notable y la conexión entre los artistas es evidente. ¿Qué opinan sobre la combinación de rock y ritmos cubanos en este concierto?\n\nhttps://www.youtube.com/watch?v=RWBBbBEqbvA\n\nLo Mejor del Rock en Español les presenta: #HabanaAbierta\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Habana Abierta rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=RWBBbBEqbvA",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1413529450821597",
+    "ig_post_id": null,
+    "published_at": "2026-06-08T05:24:00.083811+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]

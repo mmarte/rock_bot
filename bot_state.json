@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Ley",
     "Divididos",
     "Savage",
     "Juanes",
@@ -19,7 +18,8 @@
     "Habana Abierta",
     "Alux Nahual",
     "La Cuneta Son Machín",
-    "Toque Profundo"
+    "Toque Profundo",
+    "Habana Abierta"
   ],
   "used_poll_indices": [
     7,
@@ -34,13 +34,13 @@
     15
   ],
   "original_type_index": 2,
-  "last_updated": "2026-06-07T22:07:09.616452+00:00",
+  "last_updated": "2026-06-08T05:23:34.486413+00:00",
   "post_type_index": 10,
-  "total_posts": 160,
+  "total_posts": 161,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
