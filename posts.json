@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260526_222525",
-    "status": "published",
-    "created_at": "2026-05-26T22:25:25.157159+00:00",
-    "post_type": "original",
-    "topic": "Flou",
-    "text": "En el mundo del rock en español, encontramos a bandas con estilos y trayectorias muy diferentes. Flou, una banda mexicana, se destaca por su presencia en el escenario y su capacidad para crear canciones que conectan con el público. Con su discografía, han demostrado ser una banda versátil y apasionada. Por otro lado, Maná es una banda con una larga carrera y un impacto significativo en la música latina. Ambas bandas tienen su propio enfoque y estilo, lo que las hace únicas. ¿Cuál de estas dos bandas te parece más atractiva?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Flou #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Flou rock band concert",
-    "extra_topics": [
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1402412961933246",
-    "ig_post_id": null,
-    "published_at": "2026-05-26T22:25:52.478464+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260527_050918",
     "status": "published",
     "created_at": "2026-05-27T05:09:18.880163+00:00",
@@ -1030,5 +1008,27 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260608_223145",
+    "status": "published",
+    "created_at": "2026-06-08T22:31:45.852330+00:00",
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "text": "La música de Enrique Bunbury ha demostrado ser una fuente de emociones profundas, y su versión de 'Entre Dos Tierras' es un ejemplo destacado. Su interpretación en solitario, con una gran carga emocional y simplicidad, revela una faceta única de la canción. La voz de Bunbury, acompañada por su guitarra, crea una conexión intensa con el oyente. ¿Te gusta más la originalidad de Héroes del Silencio o la emotiva reinterpretación de Enrique Bunbury?\n\nhttps://www.youtube.com/watch?v=SzimletXB7M\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Enrique Bunbury Entre Dos Tierras live",
+    "extra_topics": [
+      "Héroes del Silencio"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=SzimletXB7M",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1414183690756173",
+    "ig_post_id": null,
+    "published_at": "2026-06-08T22:32:13.063725+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]
