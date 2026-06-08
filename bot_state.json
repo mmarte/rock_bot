@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Divididos",
     "Savage",
     "Juanes",
     "La Cuneta Son Machín",
@@ -19,10 +18,10 @@
     "Alux Nahual",
     "La Cuneta Son Machín",
     "Toque Profundo",
-    "Habana Abierta"
+    "Habana Abierta",
+    "Cascomar"
   ],
   "used_poll_indices": [
-    7,
     4,
     0,
     19,
@@ -31,16 +30,17 @@
     10,
     1,
     12,
-    15
+    15,
+    17
   ],
   "original_type_index": 2,
-  "last_updated": "2026-06-08T05:23:34.486413+00:00",
+  "last_updated": "2026-06-08T16:45:25.319471+00:00",
   "post_type_index": 10,
-  "total_posts": 161,
+  "total_posts": 162,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
