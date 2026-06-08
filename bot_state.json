@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Savage",
     "Juanes",
     "La Cuneta Son Machín",
     "Cuca",
@@ -19,7 +18,8 @@
     "La Cuneta Son Machín",
     "Toque Profundo",
     "Habana Abierta",
-    "Cascomar"
+    "Cascomar",
+    "Hombres G"
   ],
   "used_poll_indices": [
     4,
@@ -33,14 +33,14 @@
     15,
     17
   ],
-  "original_type_index": 2,
-  "last_updated": "2026-06-08T16:45:25.319471+00:00",
+  "original_type_index": 3,
+  "last_updated": "2026-06-08T19:19:52.780616+00:00",
   "post_type_index": 10,
-  "total_posts": 162,
+  "total_posts": 163,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024
 }

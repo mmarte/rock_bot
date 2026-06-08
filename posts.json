@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260526_191548",
-    "status": "published",
-    "created_at": "2026-05-26T19:15:48.163155+00:00",
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "text": "La fusión de estilos en la música rock puede dar lugar a creaciones únicas. La versión de 'Paint It Black' por Soda Stereo es un ejemplo intrigante de cómo una banda puede reinterpretar un clásico. La voz de Gustavo Cerati y el estilo de la banda argentina se fusionan con el espíritu original de la canción, creando una explosión de ritmo y pasión. La versión icónica de The Rolling Stones y la interpretación vibrante de Soda Stereo ofrecen dos perspectivas distintas de esta canción. ¿Cuál te gusta más?\n\nhttps://www.youtube.com/watch?v=I5PDPCH0U54\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Soda Stereo Paint It Black live",
-    "extra_topics": [
-      "Gustavo Cerati"
-    ],
-    "post_year": "1966",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=I5PDPCH0U54",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1402311658610043",
-    "ig_post_id": null,
-    "published_at": "2026-05-26T19:16:15.931041+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260526_222525",
     "status": "published",
     "created_at": "2026-05-26T22:25:25.157159+00:00",
@@ -1034,5 +1012,23 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260608_191951",
+    "status": "failed",
+    "created_at": "2026-06-08T19:19:51.056387+00:00",
+    "post_type": "original",
+    "topic": "Hombres G",
+    "text": "En la escena musical de Madrid, una banda emergió en 1982 con un sonido único. David Summers, el vocalista y guitarrista, se unió a Manuel Laguna, el guitarrista, y pronto se les unieron Javier Molina en el bajo y Ángel González en la batería, completando la formación original. Su primer álbum, 'Hombres G', lanzado en 1985, fue grabado en un plazo muy corto en los estudios Doublewtron de Madrid y incluía canciones destacadas como 'Devuélveme el coraje' y 'Marta tiene un marcapasos'. La energía y dedicación que pusieron en su primer disco reflejan la pasión de la banda por su música. ¿Cuál es tu canción favorita de Hombres G?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HombresG\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Hombres G Spain pop rock band",
+    "extra_topics": [],
+    "post_year": "1982",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]
