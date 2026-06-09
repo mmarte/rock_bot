@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260527_050918",
-    "status": "published",
-    "created_at": "2026-05-27T05:09:18.880163+00:00",
-    "post_type": "original",
-    "topic": "La Ley",
-    "text": "¿Qué banda encarna mejor el espíritu del rock en español de los noventa? La Ley, con su debut homónimo y su icónico sencillo 'Angie', fusiona el rock con ritmos latinoamericanos. Aterciopelados, por su parte, nos ofrece 'El Dorado' con temas que combinan el rock con elementos folclóricos colombianos. Ambas han sido claves en la escena del rock en español. ¿Te inclinas por la experimentación de La Ley con Beto Cuevas al frente o la fusión única de Aterciopelados con Andrea Echeverri? ¿Cuál es tu elección?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaLey #Aterciopelados\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "La Ley Chile rock band concert",
-    "extra_topics": [
-      "Aterciopelados"
-    ],
-    "post_year": "1993",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1402644535243422",
-    "ig_post_id": null,
-    "published_at": "2026-05-27T05:09:46.338334+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260527_163411",
     "status": "published",
     "created_at": "2026-05-27T16:34:11.156272+00:00",
@@ -1027,6 +1005,26 @@
     "fb_post_id": "1043162839046116_1414183690756173",
     "ig_post_id": null,
     "published_at": "2026-06-08T22:32:13.063725+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260609_045911",
+    "status": "published",
+    "created_at": "2026-06-09T04:59:11.002063+00:00",
+    "post_type": "youtube",
+    "topic": "La Vela Puerca",
+    "text": "La Vela Puerca es una banda uruguaya emblemática y su música en vivo es un reflejo de su pasión y dedicación. 'El viejo' es un tema que mantiene su esencia y en este video vivo se puede sentir la conexión especial que la banda tiene con su música y su público. La forma en que interpretan sus canciones es única y transmite una energía contagiosa. La Vela Puerca ha logrado una conexión profunda con sus seguidores a través de su música. ¿Cuál es tu canción favorita de La Vela Puerca?\n\nhttps://www.youtube.com/watch?v=H6S1R43rfN8\n\nLo Mejor del Rock en Español les presenta: #LaVelaPuerca\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaVelaPuerca\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Vela Puerca rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=H6S1R43rfN8",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1414391397402069",
+    "ig_post_id": null,
+    "published_at": "2026-06-09T04:59:38.111426+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

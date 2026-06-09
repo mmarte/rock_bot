@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Cuneta Son Machín",
     "Cuca",
     "Alux Nahual",
     "Bomba Estéreo",
@@ -19,7 +18,8 @@
     "Habana Abierta",
     "Cascomar",
     "Hombres G",
-    "Flou"
+    "Flou",
+    "La Vela Puerca"
   ],
   "used_poll_indices": [
     4,
@@ -34,13 +34,13 @@
     17
   ],
   "original_type_index": 3,
-  "last_updated": "2026-06-08T22:31:47.594596+00:00",
+  "last_updated": "2026-06-09T04:59:12.738244+00:00",
   "post_type_index": 10,
-  "total_posts": 164,
+  "total_posts": 165,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
