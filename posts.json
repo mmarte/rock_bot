@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260527_163411",
-    "status": "published",
-    "created_at": "2026-05-27T16:34:11.156272+00:00",
-    "post_type": "poll",
-    "topic": "Habana Abierta",
-    "text": "La escena del rock en México es rica y diversa, con bandas que han dejado su huella en la historia musical. Con influencias diversas y estilos únicos, estas bandas han conquistado a audiencias dentro y fuera de México. Entre las opciones destacadas, tenemos a Café Tacvba con su fusión de ritmos, Molotov con su estilo directo, y Caifanes con su sonido emotivo. ¿Cuál es tu banda favorita? Elige con tu reacción: \n   👍 Café Tacvba\n   ❤️ Molotov\n   😮 Caifanes\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta #CafeTacvba #Caifanes #Molotov\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Habana Abierta rock band concert",
-    "extra_topics": [
-      "Café Tacvba",
-      "Caifanes",
-      "Molotov"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1403097371864805",
-    "ig_post_id": null,
-    "published_at": "2026-05-27T16:34:38.212746+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260527_192336",
     "status": "failed",
     "created_at": "2026-05-27T19:23:36.612461+00:00",
@@ -1025,6 +1001,26 @@
     "fb_post_id": "1043162839046116_1414391397402069",
     "ig_post_id": null,
     "published_at": "2026-06-09T04:59:38.111426+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260609_155132",
+    "status": "published",
+    "created_at": "2026-06-09T15:51:32.066940+00:00",
+    "post_type": "original",
+    "topic": "Fiel a la Vega",
+    "text": "Explorando la discografía de Fiel a la Vega, encontramos una variedad de álbumes que destacan por su esencia y energía. \n   Algunos de los álbumes más destacados incluyen 'Amanecer en el jardín', que muestra la esencia de la banda, \n   'El tiempo nos alcanzó', que marcó un punto importante en su carrera, y 'La ciudad podrida', que refleja su crítica social y energía característica. \n   Los integrantes de la banda, incluyendo a Toshi y Ricky, han dejado su huella en la música de Fiel a la Vega. \n   ¿Cuál es tu álbum favorito de Fiel a la Vega y por qué te gusta?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Fiel a la Vega rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1414805880693954",
+    "ig_post_id": null,
+    "published_at": "2026-06-09T15:51:59.003684+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
