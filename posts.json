@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260527_224413",
-    "status": "published",
-    "created_at": "2026-05-27T22:44:13.796550+00:00",
-    "post_type": "original",
-    "topic": "Los Rodríguez",
-    "text": "La icónica banda de rock en español, Los Rodríguez, grabó su álbum debut 'Buena suerte' en los estudios Doublewtronics en Madrid. Su segundo álbum 'Sin documentos' incluyó la participación de Andrés Calamaro como invitado en una de las canciones. La banda se formó en Buenos Aires, Argentina, y debido a las dificultades económicas y la situación política, se trasladaron a España en busca de mejores oportunidades. ¿Te intriga saber más sobre la fascinante trayectoria de Los Rodríguez?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRodriguez #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Rodriguez Spain Argentina rock band",
-    "extra_topics": [
-      "Andrés Calamaro"
-    ],
-    "post_year": "1991",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1403310715176804",
-    "ig_post_id": null,
-    "published_at": "2026-05-27T22:44:40.690357+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260528_050404",
     "status": "published",
     "created_at": "2026-05-28T05:04:04.247901+00:00",
@@ -1021,6 +999,29 @@
     "fb_post_id": "1043162839046116_1414951677346041",
     "ig_post_id": null,
     "published_at": "2026-06-09T19:13:22.711708+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260609_222721",
+    "status": "published",
+    "created_at": "2026-06-09T22:27:21.858488+00:00",
+    "post_type": "poll",
+    "topic": "Héroes del Silencio",
+    "text": "¿Cuál álbum es el más influyente en la historia del rock en español? Tres álbumes icónicos se disputan el trono: el poderoso sonido de Soda Stereo, la profundidad lírica de Héroes del Silencio y la energía contagiosa de Maná. ¿Cuál es el más influyente? \n   Opciones: \n   👍 Canción Animal - Soda Stereo\n   ❤️ El Espíritu del Vino - Héroes del Silencio\n   😮 Donde Jugaran los Niños - Maná\n   ¡Vota con tu reacción! ¿Cuál es tu elección?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HeroesdelSilencio #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Héroes del Silencio rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1415057324002143",
+    "ig_post_id": null,
+    "published_at": "2026-06-09T22:27:48.732343+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

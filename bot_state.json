@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Bomba Estéreo",
     "Panteon Rococo",
     "La Renga",
     "Fiel a la Vega",
@@ -19,10 +18,10 @@
     "Flou",
     "La Vela Puerca",
     "Fiel a la Vega",
-    "Radio Futura"
+    "Radio Futura",
+    "Héroes del Silencio"
   ],
   "used_poll_indices": [
-    4,
     0,
     19,
     3,
@@ -31,16 +30,17 @@
     1,
     12,
     15,
-    17
+    17,
+    6
   ],
   "original_type_index": 5,
-  "last_updated": "2026-06-09T19:12:57.021093+00:00",
+  "last_updated": "2026-06-09T22:27:23.004354+00:00",
   "post_type_index": 10,
-  "total_posts": 167,
+  "total_posts": 168,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
