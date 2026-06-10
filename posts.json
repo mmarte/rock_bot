@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260528_224326",
-    "status": "published",
-    "created_at": "2026-05-28T22:43:26.469741+00:00",
-    "post_type": "poll",
-    "topic": "Octavia",
-    "text": "La fusión de talentos en el rock en español ha generado algunas colaboraciones verdaderamente especiales. Estas uniones de artistas han llevado a la creación de algo único y emocionante en la escena musical. Entre las opciones destacadas, ¿quiénes crees que hicieron la colaboración más impactante? \n   👍 Cerati y Spinetta\n   ❤️ Maná y Santana\n   😮 Bunbury y Los Tigres del Norte\n   ¡Vota con tu reacción! ¿Cuál es tu colaboración favorita?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Octavia rock band concert",
-    "extra_topics": [
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1404187748422434",
-    "ig_post_id": null,
-    "published_at": "2026-05-28T22:43:52.976094+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260529_050506",
     "status": "published",
     "created_at": "2026-05-29T05:05:06.628015+00:00",
@@ -1027,6 +1005,26 @@
     "fb_post_id": "1043162839046116_1415844950590047",
     "ig_post_id": null,
     "published_at": "2026-06-10T19:33:03.481273+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260610_225432",
+    "status": "published",
+    "created_at": "2026-06-10T22:54:32.013765+00:00",
+    "post_type": "youtube",
+    "topic": "Desorden Público",
+    "text": "La música de Desorden Público es un ejemplo perfecto de cómo fusionar diferentes ritmos y estilos de manera innovadora. La combinación de ska, rock y ritmos latinos en su discografía es verdaderamente única. A lo largo de su carrera, esta banda venezolana ha logrado mantener su identidad musical, lo que hace que su música siga siendo muy atractiva. ¿Cuál es tu canción favorita de Desorden Público?\n\nhttps://www.youtube.com/watch?v=OfS-1IJajzc\n\nLo Mejor del Rock en Español les presenta: #DesordenPublico\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #DesordenPublico\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Desorden Público rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=OfS-1IJajzc",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1415949710579571",
+    "ig_post_id": null,
+    "published_at": "2026-06-10T22:54:34.208677+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

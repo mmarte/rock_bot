@@ -1888,5 +1888,17 @@
     "image_url": "https://img.youtube.com/vi/iSWtBkdFeJk/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-10T19:33:03.481273+00:00"
+  },
+  {
+    "post_id": "post_20260610_225432",
+    "fb_post_id": "1043162839046116_1415949710579571",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Desorden Público",
+    "image_url": "https://img.youtube.com/vi/OfS-1IJajzc/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-10T22:54:34.208677+00:00"
   }
 ]
