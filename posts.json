@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260529_163746",
-    "status": "published",
-    "created_at": "2026-05-29T16:37:46.501790+00:00",
-    "post_type": "poll",
-    "topic": "Los Prisioneros",
-    "text": "El rock en español vivió una época dorada en la década de los 90, con bandas que produjeron música icónica. Álbumes como Canción Animal de Soda Stereo, Re de Café Tacvba y otros, destacan la riqueza musical de esa época. ¿Cuál es el mejor álbum de rock en español de los 90s? \n   Opciones: \n   👍 Canción Animal - Soda Stereo\n   ❤️ Re - Café Tacvba\n   😮 El Espíritu del Vino - Heroes del Silencio\n   ¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosPrisioneros #SodaStereo #CafeTacvba\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Prisioneros Chile rock band",
-    "extra_topics": [
-      "Soda Stereo",
-      "Café Tacvba"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1404848275023048",
-    "ig_post_id": null,
-    "published_at": "2026-05-29T16:38:13.442453+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260529_193249",
     "status": "published",
     "created_at": "2026-05-29T19:32:49.303707+00:00",
@@ -1029,6 +1006,26 @@
     "fb_post_id": "1043162839046116_1416172740557268",
     "ig_post_id": null,
     "published_at": "2026-06-11T05:20:52.666606+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260611_164614",
+    "status": "published",
+    "created_at": "2026-06-11T16:46:14.922211+00:00",
+    "post_type": "youtube",
+    "topic": "Juanes",
+    "text": "La música en vivo de Juanes tiene un impacto especial. La forma en que interpreta sus canciones, como 'La Paga', en este MTV Unplugged es verdaderamente notable. La voz, la guitarra y el sentimiento se combinan para crear una experiencia musical única. La pasión que Juanes transmite en sus presentaciones es algo que conecta con muchos. ¿Cuál es tu canción favorita de Juanes?\n\nhttps://www.youtube.com/watch?v=8GhDNpqi7EQ\n\nLo Mejor del Rock en Español les presenta: #Juanes\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Juanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Juanes Colombia rock singer guitar",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=8GhDNpqi7EQ",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1416644360510106",
+    "ig_post_id": null,
+    "published_at": "2026-06-11T16:46:42.560804+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

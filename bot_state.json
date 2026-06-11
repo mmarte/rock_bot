@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Cinema",
     "Los Mojarras",
     "Los Rabanes",
     "Habana Abierta",
@@ -19,7 +18,8 @@
     "La Máquina Camaleón",
     "Kraken",
     "Desorden Público",
-    "Gandhi"
+    "Gandhi",
+    "Juanes"
   ],
   "used_poll_indices": [
     19,
@@ -34,13 +34,13 @@
     11
   ],
   "original_type_index": 7,
-  "last_updated": "2026-06-11T05:20:27.067378+00:00",
+  "last_updated": "2026-06-11T16:46:16.368873+00:00",
   "post_type_index": 10,
-  "total_posts": 173,
+  "total_posts": 174,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
