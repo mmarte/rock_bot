@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Mojarras",
     "Los Rabanes",
     "Habana Abierta",
     "Alux Nahual",
@@ -19,7 +18,8 @@
     "Kraken",
     "Desorden Público",
     "Gandhi",
-    "Juanes"
+    "Juanes",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     19,
@@ -34,13 +34,13 @@
     11
   ],
   "original_type_index": 7,
-  "last_updated": "2026-06-11T16:46:16.368873+00:00",
+  "last_updated": "2026-06-11T19:33:20.229386+00:00",
   "post_type_index": 10,
-  "total_posts": 174,
+  "total_posts": 175,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
