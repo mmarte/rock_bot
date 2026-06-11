@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260529_223955",
-    "status": "published",
-    "created_at": "2026-05-29T22:39:55.229696+00:00",
-    "post_type": "original",
-    "topic": "Fiel a la Vega",
-    "text": "Fiel a la Vega es una icónica banda de rock puertorriqueña que ha dejado una huella imborrable en la escena musical. Su álbum debut, lanzado en la década de 1990, marcó el comienzo de una carrera musical destacada. La banda, liderada por el vocalista y guitarrista Tito Auger, junto a los hermanos Ricky y Jorge Arraiza en la batería y el bajo respectivamente, logró crear un sonido único que fusionaba el rock con ritmos latinos. Sus canciones, como 'El Jibarito', se convirtieron en himnos para muchos fanáticos. ¿Cuál es tu canción favorita de Fiel a la Vega?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Fiel a la Vega rock band concert",
-    "extra_topics": [],
-    "post_year": "1994",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1405054075002468",
-    "ig_post_id": null,
-    "published_at": "2026-05-29T22:40:22.208855+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260530_044522",
     "status": "published",
     "created_at": "2026-05-30T04:45:22.974535+00:00",
@@ -1026,6 +1006,28 @@
     "fb_post_id": "1043162839046116_1416755773832298",
     "ig_post_id": null,
     "published_at": "2026-06-11T19:33:45.668838+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260611_225222",
+    "status": "published",
+    "created_at": "2026-06-11T22:52:22.806148+00:00",
+    "post_type": "original",
+    "topic": "Malpaís",
+    "text": "Malpaís es una banda que ha dejado una huella imborrable en el rock en español, y hay varias razones por las que su música sigue siendo tan querida. Aquí te dejo algunas claves para entender su esencia: \n   1. Su sonido único, que combina elementos de rock, blues y jazz de manera singular, gracias a la habilidad de sus miembros en la composición y la interpretación.\n   2. Su historia, que se desarrolló en la década de 1990 en Buenos Aires, Argentina, con la participación de varios músicos talentosos que contribuyeron a su sonido distintivo.\n   3. Su discografía, que incluye álbumes que han consolidado su estilo y les han valido el reconocimiento en toda América Latina. \n   ¿Cuál es tu canción favorita de Malpaís?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Malpais #FitoPaez\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Malpaís rock band concert",
+    "extra_topics": [
+      "Fito Páez"
+    ],
+    "post_year": "1990",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1416861527155056",
+    "ig_post_id": null,
+    "published_at": "2026-06-11T22:52:50.071041+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

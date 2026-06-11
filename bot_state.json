@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Habana Abierta",
     "Alux Nahual",
     "La Cuneta Son Machín",
@@ -19,7 +18,8 @@
     "Desorden Público",
     "Gandhi",
     "Juanes",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Malpaís"
   ],
   "used_poll_indices": [
     19,
@@ -33,14 +33,14 @@
     6,
     11
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-06-11T19:33:20.229386+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-06-11T22:52:24.597597+00:00",
   "post_type_index": 10,
-  "total_posts": 175,
+  "total_posts": 176,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "concert",
   "curation_year": 2024
 }
