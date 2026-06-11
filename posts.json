@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260529_050506",
-    "status": "published",
-    "created_at": "2026-05-29T05:05:06.628015+00:00",
-    "post_type": "original",
-    "topic": "Bomba Estéreo",
-    "text": "Bomba Estéreo tuvo un gran momento en el Festival de Música de Cartagena, Colombia, con un concierto que reunió a una gran cantidad de personas. La banda, liderada por Simón Mejía y Li Saumet, interpretó algunos de sus temas más populares, demostrando su energía y pasión en el escenario. Fue parte de su gira para promocionar su álbum 'Amanecer'. ¿Alguien estuvo en uno de sus conciertos y puede compartir su experiencia?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #BombaEstereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Bomba Estéreo Colombia electronic rock",
-    "extra_topics": [],
-    "post_year": "2015",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1404397161734826",
-    "ig_post_id": null,
-    "published_at": "2026-05-29T05:05:33.694120+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260529_163746",
     "status": "published",
     "created_at": "2026-05-29T16:37:46.501790+00:00",
@@ -1025,6 +1005,30 @@
     "fb_post_id": "1043162839046116_1415949710579571",
     "ig_post_id": null,
     "published_at": "2026-06-10T22:54:34.208677+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260611_052025",
+    "status": "published",
+    "created_at": "2026-06-11T05:20:25.882991+00:00",
+    "post_type": "poll",
+    "topic": "Gandhi",
+    "text": "El rock en español ha destacado por sus introducciones de guitarra memorables. Desde artistas como Gustavo Cerati hasta bandas como Divididos, cada uno ha aportado su propio estilo a la escena musical. ¿Cuál es la intro que consideras más impactante? \n   👍 De Música Ligera - Cerati\n   ❤️ La Chispa Adecuada - Divididos\n   😮 Matador - Los Fabulosos Cadillacs\n   ¡Vota con tu reacción! ¿Cuál es tu favorita?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Gandhi #LosFabulososCadillacs #Divididos #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Gandhi rock band concert",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs",
+      "Divididos",
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1416172740557268",
+    "ig_post_id": null,
+    "published_at": "2026-06-11T05:20:52.666606+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
