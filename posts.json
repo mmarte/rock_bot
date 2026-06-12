@@ -1,23 +1,5 @@
 [
   {
-    "id": "post_20260530_180222",
-    "status": "failed",
-    "created_at": "2026-05-30T18:02:22.206829+00:00",
-    "post_type": "original",
-    "topic": "Kraken",
-    "text": "Kraken es una banda que ha dejado huella en el rock en español gracias a su sonido único, que combina el heavy metal con elementos de folklore colombiano, creando un estilo distintivo. Su historia se ha forjado con la pasión y la dedicación de sus miembros, incluyendo a Rubén Gómez en la voz y guitarra, y la incorporación de Jorge Leiva 'Elkin' en el bajo. Un momento destacado en su carrera fue el lanzamiento de su álbum 'I', que los llevó a destacarse en la escena musical. ¿Cuál es tu canción favorita de Kraken?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Kraken\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Kraken rock band concert",
-    "extra_topics": [],
-    "post_year": "1984",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260530_220409",
     "status": "published",
     "created_at": "2026-05-30T22:04:09.915295+00:00",
@@ -1031,6 +1013,30 @@
     "fb_post_id": "1043162839046116_1417466797094529",
     "ig_post_id": null,
     "published_at": "2026-06-12T16:13:52.079031+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260612_190232",
+    "status": "published",
+    "created_at": "2026-06-12T19:02:32.201705+00:00",
+    "post_type": "poll",
+    "topic": "Toque Profundo",
+    "text": "La escena del rock en español es vibrante y en constante evolución, con bandas que buscan innovar y madurar con el tiempo. Algunas han logrado encontrar un equilibrio perfecto entre su esencia original y la experimentación sonora. ¿Cuál crees que es la banda que ha logrado evolucionar de manera más impresionante? \n   👍 Café Tacvba\n   ❤️ Los Fabulosos Cadillacs\n   😮 Maná\n   ¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ToqueProfundo #Mana #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Toque Profundo rock band concert",
+    "extra_topics": [
+      "Maná",
+      "Café Tacvba",
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1417581717083037",
+    "ig_post_id": null,
+    "published_at": "2026-06-12T19:02:59.061173+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

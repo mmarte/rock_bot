@@ -1972,5 +1972,17 @@
     "image_url": "https://images.pexels.com/photos/2601192/pexels-photo-2601192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-06-12T16:13:52.079031+00:00"
+  },
+  {
+    "post_id": "post_20260612_190232",
+    "fb_post_id": "1043162839046116_1417581717083037",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Toque Profundo",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cafe_Tacuba_1.jpg",
+    "status": "published",
+    "executed_at": "2026-06-12T19:02:59.061173+00:00"
   }
 ]
