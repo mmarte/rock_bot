@@ -1984,5 +1984,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cafe_Tacuba_1.jpg",
     "status": "published",
     "executed_at": "2026-06-12T19:02:59.061173+00:00"
+  },
+  {
+    "post_id": "post_20260612_222804",
+    "fb_post_id": "1043162839046116_1417693443738531",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Flou",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
+    "status": "published",
+    "executed_at": "2026-06-12T22:28:31.362023+00:00"
   }
 ]
