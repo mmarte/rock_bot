@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Flou",
     "La Vela Puerca",
     "Fiel a la Vega",
     "Radio Futura",
@@ -19,7 +18,8 @@
     "Flou",
     "Caramelos de Cianuro",
     "Zapato 3",
-    "La Cuneta Son Machín"
+    "La Cuneta Son Machín",
+    "Savage"
   ],
   "used_poll_indices": [
     2,
@@ -33,14 +33,14 @@
     8,
     13
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-06-13T18:06:09.612979+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-06-13T22:07:33.407527+00:00",
   "post_type_index": 10,
-  "total_posts": 183,
+  "total_posts": 184,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }
