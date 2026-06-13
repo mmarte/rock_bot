@@ -1,23 +1,5 @@
 [
   {
-    "id": "post_20260531_175853",
-    "status": "failed",
-    "created_at": "2026-05-31T17:58:53.317239+00:00",
-    "post_type": "original",
-    "topic": "Alux Nahual",
-    "text": "La discografía de Alux Nahual abarca varias décadas y estilos musicales. La banda tiene una gran variedad de canciones que han marcado la escena rock en español. Algunos de sus discos, como 'Escencia' y 'Sueños De Arena', ofrecen una visión de la banda en diferentes momentos de su carrera. La voz de Willy Quiñonez y la guitarra de Sergio Velásquez han sido fundamentales en el sonido de la banda. ¿Cuál es tu disco favorito de Alux Nahual?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #AluxNahual\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Alux Nahual rock band concert",
-    "extra_topics": [],
-    "post_year": "1998",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260531_220335",
     "status": "published",
     "created_at": "2026-05-31T22:03:35.147275+00:00",
@@ -1035,6 +1017,28 @@
     "fb_post_id": "1043162839046116_1418330527008156",
     "ig_post_id": null,
     "published_at": "2026-06-13T14:57:51.617632+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260613_180607",
+    "status": "published",
+    "created_at": "2026-06-13T18:06:07.786580+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "La potencia de Maná se une a la magia de Caifanes, creando un resultado emocionante. La voz de Fher Olvera se fusiona con la energía de la multitud en la versión en vivo de 'Afuera', lo que lleva a un momento destacado. La interpretación de Caifanes es un clásico del rock en español, mientras que Maná le da un giro único a la canción. ¿Te gustan más los covers que reinterpretan las canciones de manera fresca o las versiones originales que ya conoces?\n\nhttps://www.youtube.com/watch?v=QBqO-K-vYXU\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=QBqO-K-vYXU",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1418464610328081",
+    "ig_post_id": null,
+    "published_at": "2026-06-13T18:06:35.533537+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
