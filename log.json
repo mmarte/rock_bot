@@ -1996,5 +1996,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
     "status": "published",
     "executed_at": "2026-06-12T22:28:31.362023+00:00"
+  },
+  {
+    "post_id": "post_20260613_051503",
+    "fb_post_id": "1043162839046116_1417946570379885",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Caramelos de Cianuro",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Caramelos_de_Cianuro_at_Forum_2011.png",
+    "status": "published",
+    "executed_at": "2026-06-13T05:15:30.665124+00:00"
   }
 ]
