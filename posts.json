@@ -1,26 +1,5 @@
 [
   {
-    "id": "post_20260601_230441",
-    "status": "failed",
-    "created_at": "2026-06-01T23:04:41.091273+00:00",
-    "post_type": "original",
-    "topic": "Cascomar",
-    "text": "Cascomar es una banda argentina de rock que ha dejado su huella en la escena musical. Aquí te dejo 3 datos interesantes sobre ellos: \n   1. Su álbum debut fue grabado en un estudio de gran prestigio, lo que les dio una oportunidad única de aprender de los mejores.\n   2. La banda se formó en la ciudad de La Plata, Argentina, y su nombre se inspira en un barrio de la ciudad.\n   3. Cascomar ha compartido escenario con reconocidas bandas, lo que refleja su impacto en la escena musical argentina.\n   ¿Qué es lo que más te gusta de esta banda?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cascomar #Divididos #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Cascomar rock band concert",
-    "extra_topics": [
-      "Divididos",
-      "Gustavo Cerati"
-    ],
-    "post_year": "2001",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260602_052210",
     "status": "published",
     "created_at": "2026-06-02T05:22:10.922878+00:00",
@@ -1041,6 +1020,26 @@
     "fb_post_id": "1043162839046116_1419361643571711",
     "ig_post_id": null,
     "published_at": "2026-06-14T18:11:51.466813+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260614_221438",
+    "status": "published",
+    "created_at": "2026-06-14T22:14:38.408394+00:00",
+    "post_type": "original",
+    "topic": "Maná",
+    "text": "¿Qué álbumes de Maná destacan por su calidad y significado en la discografía de la banda? Mi selección incluye: \n   1. 'Sueños Líquidos' - Un álbum que tuvo un impacto importante en la carrera de la banda, con canciones memorables.\n   2. 'Revolución de Amor' - Un álbum que muestra la evolución musical de la banda, con temas que exploran diferentes estilos.\n   3. 'Drama y Luz' - Un álbum que muestra la madurez y versatilidad de Maná, con una variedad de canciones impactantes. \n   ¿Cuál es tu álbum favorito de Maná?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Mana band Mexico rock concert",
+    "extra_topics": [],
+    "post_year": "1997",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1419492590225283",
+    "ig_post_id": null,
+    "published_at": "2026-06-14T22:15:05.478582+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

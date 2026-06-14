@@ -2080,5 +2080,17 @@
     "image_url": "https://img.youtube.com/vi/GZXO5OvDS_o/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-14T18:11:51.466813+00:00"
+  },
+  {
+    "post_id": "post_20260614_221438",
+    "fb_post_id": "1043162839046116_1419492590225283",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Maná",
+    "image_url": "http://static1.squarespace.com/static/5c66225bf8135a3f1a696d77/t/623518fd843b0d6a3c3711d7/1647646973320/social-img.jpg?format=1500w",
+    "status": "published",
+    "executed_at": "2026-06-14T22:15:05.478582+00:00"
   }
 ]
