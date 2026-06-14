@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260601_183446",
-    "status": "failed",
-    "created_at": "2026-06-01T18:34:46.405642+00:00",
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "text": "La versión de 'Paint It Black' hecha por Soda Stereo es un ejemplo notable de cómo una banda puede reinterpretar un clásico con su propia identidad. La voz de Gustavo Cerati aporta una dimensión única, mezclando el rock clásico con la esencia latina. Esta versión se destaca por su interpretación apasionada y energética. ¿Cuál te gusta más, la original de The Rolling Stones o la versión de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=Q8l8Xd6wTiE\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Soda Stereo Paint It Black live",
-    "extra_topics": [
-      "Gustavo Cerati"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=Q8l8Xd6wTiE",
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260601_205441",
     "status": "published",
     "created_at": "2026-06-01T20:54:41.247852+00:00",
@@ -1041,6 +1021,26 @@
     "fb_post_id": "1043162839046116_1418845513623324",
     "ig_post_id": null,
     "published_at": "2026-06-14T05:25:24.773098+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260614_150558",
+    "status": "published",
+    "created_at": "2026-06-14T15:05:58.008998+00:00",
+    "post_type": "original",
+    "topic": "Extremoduro",
+    "text": "La banda Extremoduro, liderada por Roberto Iniesta, también conocido como 'Robe', se caracteriza por su enérgico sonido y letras poéticas. A lo largo de los años, el grupo ha contado con diferentes formaciones, incluyendo a otros músicos como Salo y Luis Miguel, aunque la formación más estable ha incluido a Miguel Colino y José Ignacio Cantera. Un aspecto interesante de su carrera es la experimentación y el compromiso con su raíz, como se evidencia en la grabación de algunos de sus álbumes en estudios propios. ¿Cuál crees que es el álbum más influyente de Extremoduro en la historia del rock en español?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Extremoduro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Extremoduro Spain rock band",
+    "extra_topics": [],
+    "post_year": "1987",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1419230356918173",
+    "ig_post_id": null,
+    "published_at": "2026-06-14T15:06:25.233455+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
