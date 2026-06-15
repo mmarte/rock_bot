@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Octavia",
     "La Máquina Camaleón",
     "Kraken",
     "Desorden Público",
@@ -19,7 +18,8 @@
     "Panteon Rococo",
     "Extremoduro",
     "Habana Abierta",
-    "Maná"
+    "Maná",
+    "Los Piojos"
   ],
   "used_poll_indices": [
     2,
@@ -33,14 +33,14 @@
     8,
     13
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-06-14T22:14:40.128024+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-06-15T06:14:07.154522+00:00",
   "post_type_index": 10,
-  "total_posts": 188,
+  "total_posts": 189,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "concert",
+  "last_post_type": "original",
   "curation_year": 2024
 }
