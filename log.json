@@ -2128,5 +2128,17 @@
     "image_url": "https://img.youtube.com/vi/35GA6VNiGMI/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-15T20:54:59.976410+00:00"
+  },
+  {
+    "post_id": "post_20260615_230545",
+    "fb_post_id": "1043162839046116_1420391143468761",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Desorden Público",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/D.P.jpg",
+    "status": "published",
+    "executed_at": "2026-06-15T23:06:12.755150+00:00"
   }
 ]
