@@ -2164,5 +2164,17 @@
     "image_url": "https://img.youtube.com/vi/YIonv0jeA8s/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-16T17:57:14.521560+00:00"
+  },
+  {
+    "post_id": "post_20260616_201232",
+    "fb_post_id": "1043162839046116_1421170373390838",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Toque Profundo",
+    "image_url": "https://images.pexels.com/photos/417473/pexels-photo-417473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-06-16T20:12:59.407625+00:00"
   }
 ]
