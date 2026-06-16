@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Gandhi",
     "Juanes",
     "Los Rabanes",
     "Malpaís",
@@ -19,10 +18,10 @@
     "Los Piojos",
     "Los Rabanes",
     "Líbido",
-    "Desorden Público"
+    "Desorden Público",
+    "Toque Profundo"
   ],
   "used_poll_indices": [
-    10,
     1,
     12,
     15,
@@ -31,16 +30,17 @@
     11,
     8,
     13,
-    9
+    9,
+    14
   ],
   "original_type_index": 6,
-  "last_updated": "2026-06-15T23:05:47.439662+00:00",
+  "last_updated": "2026-06-16T06:23:34.907031+00:00",
   "post_type_index": 10,
-  "total_posts": 192,
+  "total_posts": 193,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }

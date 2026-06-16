@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260603_055605",
-    "status": "published",
-    "created_at": "2026-06-03T05:56:05.703179+00:00",
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "text": "La fusión de estilos es una de las características más destacadas de Café Tacvba, y esto es especialmente notable cuando interpreta 'Matador' de Los Fabulosos Cadillacs. La versión que nos ofrece Café Tacvba combina elementos electrónicos con ritmos latinos, lo que crea una experiencia única. ¿Te gusta más la versión original de los Cadillacs o la interpretación de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=-iO5bmshzeg\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Café Tacvba Matador live",
-    "extra_topics": [
-      "Los Fabulosos Cadillacs"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=-iO5bmshzeg",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1408981097943099",
-    "ig_post_id": null,
-    "published_at": "2026-06-03T05:56:30.803539+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260603_201803",
     "status": "published",
     "created_at": "2026-06-03T20:18:03.295402+00:00",
@@ -1038,6 +1016,29 @@
     "fb_post_id": "1043162839046116_1420391143468761",
     "ig_post_id": null,
     "published_at": "2026-06-15T23:06:12.755150+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260616_062333",
+    "status": "published",
+    "created_at": "2026-06-16T06:23:33.737871+00:00",
+    "post_type": "poll",
+    "topic": "Toque Profundo",
+    "text": "El rock en español cuenta con una rica tradición de bajistas talentosos que han dejado su huella en la música. Desde el estilo único de Soda Stereo hasta la fusión innovadora de Los Fabulosos Cadillacs, el bajo juega un papel crucial en la creación de ritmos memorables. ¿Quién es el bajista que más te inspira? \n   👍 Zeta Bosio - Soda Stereo \n   ❤️ Flavio Cianciarulo - Los Fabulosos Cadillacs \n   😮 Juan Alderete \n   ¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ToqueProfundo #SodaStereo #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Toque Profundo rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1420637770110765",
+    "ig_post_id": null,
+    "published_at": "2026-06-16T06:24:00.386420+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
