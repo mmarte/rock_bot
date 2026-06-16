@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Juanes",
     "Los Rabanes",
     "Malpaís",
     "Gustavo Cerati",
@@ -19,7 +18,8 @@
     "Los Rabanes",
     "Líbido",
     "Desorden Público",
-    "Toque Profundo"
+    "Toque Profundo",
+    "Los Prisioneros"
   ],
   "used_poll_indices": [
     1,
@@ -34,13 +34,13 @@
     14
   ],
   "original_type_index": 6,
-  "last_updated": "2026-06-16T06:23:34.907031+00:00",
+  "last_updated": "2026-06-16T17:56:49.033429+00:00",
   "post_type_index": 10,
-  "total_posts": 193,
+  "total_posts": 194,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }

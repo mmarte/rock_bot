@@ -2152,5 +2152,17 @@
     "image_url": "https://www.sodastereo.com/img/image_src.jpg",
     "status": "published",
     "executed_at": "2026-06-16T06:24:00.386420+00:00"
+  },
+  {
+    "post_id": "post_20260616_175647",
+    "fb_post_id": "1043162839046116_1421090843398791",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Los Prisioneros",
+    "image_url": "https://img.youtube.com/vi/YIonv0jeA8s/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-16T17:57:14.521560+00:00"
   }
 ]
