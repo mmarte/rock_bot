@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Malpaís",
     "Gustavo Cerati",
     "La Ley",
     "Toque Profundo",
@@ -19,7 +18,8 @@
     "Desorden Público",
     "Toque Profundo",
     "Los Prisioneros",
-    "Toque Profundo"
+    "Toque Profundo",
+    "Frágil"
   ],
   "used_poll_indices": [
     1,
@@ -34,13 +34,13 @@
     14
   ],
   "original_type_index": 7,
-  "last_updated": "2026-06-16T20:12:34.078150+00:00",
+  "last_updated": "2026-06-16T22:56:00.142398+00:00",
   "post_type_index": 10,
-  "total_posts": 195,
+  "total_posts": 196,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

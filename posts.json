@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260604_055022",
-    "status": "published",
-    "created_at": "2026-06-04T05:50:22.122611+00:00",
-    "post_type": "cover",
-    "topic": "Aterciopelados",
-    "text": "La conexión entre Soda Stereo y Aterciopelados es particularmente interesante cuando se trata de interpretaciones musicales. Aterciopelados realizó un cover de 'De Música Ligera' que se destacó en el ámbito musical. La voz de Andrea Echeverri y el arreglo musical de la banda le dieron un toque único a la canción. ¿Te gusta más la versión original de Soda Stereo o la interpretación de Aterciopelados?\n\nhttps://www.youtube.com/watch?v=-XIeMp4zQC4\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados #SodaStereo #GustavoCerati #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Aterciopelados De Música Ligera live",
-    "extra_topics": [
-      "Soda Stereo",
-      "Gustavo Cerati",
-      "Andrés Calamaro"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=-XIeMp4zQC4",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1409894134518462",
-    "ig_post_id": null,
-    "published_at": "2026-06-04T05:50:49.483122+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260604_161843",
     "status": "published",
     "created_at": "2026-06-04T16:18:43.073059+00:00",
@@ -1043,6 +1019,28 @@
     "fb_post_id": "1043162839046116_1421170373390838",
     "ig_post_id": null,
     "published_at": "2026-06-16T20:12:59.407625+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260616_225558",
+    "status": "published",
+    "created_at": "2026-06-16T22:55:58.467500+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "Café Tacvba nos brinda su propia visión de La Negra Tomasa, una canción icónica que sigue siendo relevante en la escena musical. Esta versión ofrece una perspectiva fresca y única, manteniendo el espíritu original mientras añade su propio toque de estilo. La capacidad de Café Tacvba para reinterpretar y hacer que las canciones propias de otros sean suyas es realmente notable. ¿Cuál prefieres, la versión original o el cover de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=14lsFs1GrnU\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba La Negra Tomasa live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=14lsFs1GrnU",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1421250996716109",
+    "ig_post_id": null,
+    "published_at": "2026-06-16T22:56:25.647833+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
