@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Ley",
     "Toque Profundo",
     "Flou",
     "Caramelos de Cianuro",
@@ -19,7 +18,8 @@
     "Los Prisioneros",
     "Toque Profundo",
     "Frágil",
-    "Savage"
+    "Savage",
+    "Los Fabulosos Cadillacs"
   ],
   "used_poll_indices": [
     1,
@@ -33,14 +33,14 @@
     9,
     14
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-06-17T05:59:05.623846+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-06-17T16:34:21.303977+00:00",
   "post_type_index": 10,
-  "total_posts": 197,
+  "total_posts": 198,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
