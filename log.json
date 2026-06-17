@@ -1,15 +1,5 @@
 [
   {
-    "post_id": "post_20260424_morning",
-    "fb_post_id": "1043162839046116_1375289201312289",
-    "slot": "morning",
-    "type": "string",
-    "topic": "Caifanes",
-    "image_used": false,
-    "status": "published",
-    "executed_at": "2026-04-24T16:55:16.216222+00:00"
-  },
-  {
     "post_id": "post_20260424_evening",
     "fb_post_id": "1043162839046116_1375598924614650",
     "slot": "evening",
@@ -2224,5 +2214,17 @@
     "image_url": "https://img.youtube.com/vi/uiDcXyJTT1k/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-17T19:23:50.316140+00:00"
+  },
+  {
+    "post_id": "post_20260617_224736",
+    "fb_post_id": "1043162839046116_1422137983294077",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Flou",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
+    "status": "published",
+    "executed_at": "2026-06-17T22:48:03.380305+00:00"
   }
 ]
