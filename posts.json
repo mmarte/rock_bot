@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260605_050931",
-    "status": "published",
-    "created_at": "2026-06-05T05:09:31.043583+00:00",
-    "post_type": "poll",
-    "topic": "Panteon Rococo",
-    "text": "¿Cuál es el mejor disco en vivo del rock en español? Los conciertos en vivo pueden ser verdaderamente impactantes, y algunos discos logran capturar la intensidad del momento. Entre los discos en vivo más destacados, se encuentran Me Verás Volver de Soda Stereo, En Directo de Héroes del Silencio y MTV Unplugged de Maná. \n   Opciones: \n   👍 Me Verás Volver - Soda Stereo\n   ❤️ En Directo - Héroes del Silencio\n   😮 MTV Unplugged - Maná\n   ¡Vota con tu reacción! 👍❤️😮 \n   ¿Cuál crees que es el disco en vivo que mejor representa la esencia del rock en español?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #PanteonRococo #SodaStereo #Mana #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Panteon Rococo Mexico ska band concert",
-    "extra_topics": [
-      "Soda Stereo",
-      "Maná",
-      "Héroes del Silencio"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1410782047763004",
-    "ig_post_id": null,
-    "published_at": "2026-06-05T05:09:57.875571+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260605_155019",
     "status": "published",
     "created_at": "2026-06-05T15:50:19.626742+00:00",
@@ -1043,6 +1019,26 @@
     "fb_post_id": "1043162839046116_1421925103315365",
     "ig_post_id": null,
     "published_at": "2026-06-17T16:34:46.847856+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260617_192323",
+    "status": "published",
+    "created_at": "2026-06-17T19:23:23.286094+00:00",
+    "post_type": "youtube",
+    "topic": "Charly García",
+    "text": "Charly García es una figura destacada en la escena del rock en español, con una carrera que ha dejado una huella duradera en la música. Su influencia en la escena argentina y más allá es notable. Este documental nos permite adentrarnos en la vida y obra de un artista innovador, mostrando cómo su creatividad y dedicación han marcado la historia del rock. La combinación de su talento como pianista y compositor, junto a su presencia en el escenario, lo convierten en un artista excepcional. ¿Qué es lo que más te gusta de Charly García y su música?\n\nhttps://www.youtube.com/watch?v=uiDcXyJTT1k\n\nLo Mejor del Rock en Español les presenta: #CharlyGarcia\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CharlyGarcia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Charly Garcia Argentina rock piano",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=uiDcXyJTT1k",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1422032866637922",
+    "ig_post_id": null,
+    "published_at": "2026-06-17T19:23:50.316140+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
