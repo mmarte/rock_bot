@@ -1,15 +1,5 @@
 [
   {
-    "post_id": "post_20260425_morning",
-    "fb_post_id": "1043162839046116_1375737551267454",
-    "slot": "morning",
-    "type": "poll",
-    "topic": "Mejor época del rock en español",
-    "image_used": true,
-    "status": "published",
-    "executed_at": "2026-04-25T05:49:28.002527+00:00"
-  },
-  {
     "post_id": "post_20260425_210731",
     "fb_post_id": "1043162839046116_1376323404542202",
     "ig_post_id": null,
@@ -2228,5 +2218,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Caramelos_de_Cianuro_at_Forum_2011.png",
     "status": "published",
     "executed_at": "2026-06-18T05:29:15.468577+00:00"
+  },
+  {
+    "post_id": "post_20260618_162348",
+    "fb_post_id": "1043162839046116_1422777103230165",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Caifanes",
+    "image_url": "https://img.youtube.com/vi/rC7dTHSxcDE/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-18T16:24:16.688249+00:00"
   }
 ]

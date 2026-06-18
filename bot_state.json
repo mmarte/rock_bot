@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Zapato 3",
     "La Cuneta Son Machín",
     "Savage",
     "Panteon Rococo",
@@ -19,7 +18,8 @@
     "Los Fabulosos Cadillacs",
     "Charly García",
     "Flou",
-    "Caramelos de Cianuro"
+    "Caramelos de Cianuro",
+    "Caifanes"
   ],
   "used_poll_indices": [
     1,
@@ -34,13 +34,13 @@
     14
   ],
   "original_type_index": 10,
-  "last_updated": "2026-06-18T05:28:50.070969+00:00",
+  "last_updated": "2026-06-18T16:23:51.131688+00:00",
   "post_type_index": 10,
-  "total_posts": 201,
+  "total_posts": 202,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
