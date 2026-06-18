@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Savage",
     "Panteon Rococo",
     "Extremoduro",
     "Habana Abierta",
@@ -19,7 +18,8 @@
     "Flou",
     "Caramelos de Cianuro",
     "Caifanes",
-    "Flou"
+    "Flou",
+    "Gustavo Cerati"
   ],
   "used_poll_indices": [
     1,
@@ -34,13 +34,13 @@
     14
   ],
   "original_type_index": 1,
-  "last_updated": "2026-06-18T19:24:59.230820+00:00",
+  "last_updated": "2026-06-18T22:58:13.983318+00:00",
   "post_type_index": 10,
-  "total_posts": 203,
+  "total_posts": 204,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }

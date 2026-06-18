@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260606_142544",
-    "status": "published",
-    "created_at": "2026-06-06T14:25:44.097842+00:00",
-    "post_type": "youtube",
-    "topic": "Cinema",
-    "text": "Skrillex es conocido por su capacidad para crear remixes que elevan las canciones a un nuevo nivel. Su versión de 'Cinema' de Benny Benassi es un ejemplo destacado de su habilidad para fusionar ritmos electrónicos y elementos de rock, creando un sonido que cautiva a los oyentes. La pasión y la energía que pone en su música son palpables. ¿Cuál es tu remix favorito de Skrillex?\n\nhttps://www.youtube.com/watch?v=k8qUAQXUhJ0\n\nLo Mejor del Rock en Español les presenta: #Cinema\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cinema\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Cinema rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=k8qUAQXUhJ0",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1412091590965383",
-    "ig_post_id": null,
-    "published_at": "2026-06-06T14:26:11.895647+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260606_180424",
     "status": "published",
     "created_at": "2026-06-06T18:04:24.861058+00:00",
@@ -1040,6 +1020,28 @@
     "fb_post_id": "1043162839046116_1422888983218977",
     "ig_post_id": null,
     "published_at": "2026-06-18T19:25:24.672505+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260618_225812",
+    "status": "published",
+    "created_at": "2026-06-18T22:58:12.444988+00:00",
+    "post_type": "youtube",
+    "topic": "Gustavo Cerati",
+    "text": "La presencia en el escenario de Gustavo Cerati es única y emocionante. En este video de 'Té para tres' del MTV Unplugged, la conexión entre la banda y el público es evidente, con Cerati llevando la energía a un nivel destacado con su música. ¿Qué es lo que más te impresiona de las actuaciones en vivo de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=spvWfRRUW-I\n\nLo Mejor del Rock en Español les presenta: #GustavoCerati #SodaStereo\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #GustavoCerati #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Gustavo Cerati guitarist Argentina",
+    "extra_topics": [
+      "Soda Stereo"
+    ],
+    "post_year": "1996",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=spvWfRRUW-I",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1422995869874955",
+    "ig_post_id": null,
+    "published_at": "2026-06-18T22:58:39.496477+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

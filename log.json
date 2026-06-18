@@ -1,16 +1,5 @@
 [
   {
-    "post_id": "post_20260425_220744",
-    "fb_post_id": "1043162839046116_1376354174539125",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "post_type": "poll",
-    "topic": "Maldita Vecindad",
-    "image_used": true,
-    "status": "published",
-    "executed_at": "2026-04-25T22:08:02.288652+00:00"
-  },
-  {
     "post_id": "post_20260426_055515",
     "fb_post_id": "1043162839046116_1376600431181166",
     "ig_post_id": null,
@@ -2232,5 +2221,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
     "status": "published",
     "executed_at": "2026-06-18T19:25:24.672505+00:00"
+  },
+  {
+    "post_id": "post_20260618_225812",
+    "fb_post_id": "1043162839046116_1422995869874955",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Gustavo Cerati",
+    "image_url": "https://img.youtube.com/vi/spvWfRRUW-I/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-18T22:58:39.496477+00:00"
   }
 ]
