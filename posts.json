@@ -1,23 +1,5 @@
 [
   {
-    "id": "post_20260606_044618",
-    "status": "failed",
-    "created_at": "2026-06-06T04:46:18.953558+00:00",
-    "post_type": "original",
-    "topic": "Mecano",
-    "text": "La formación de Mecano experimentó cambios significativos antes de lanzar su álbum debut. La banda pasó por un momento de transformación cuando Nacho Cano y los hermanos Ana y José María Cano decidieron seguir adelante con su proyecto musical. En esta etapa, Ana Torroja, la icónica voz de la banda, comenzó a tomar un papel más destacado en las voces principales durante la grabación de su primer álbum, lo que eventualmente la convirtió en el rostro y la voz de Mecano. ¿Qué papel crees que jugó este cambio en la formación y enfoque vocal en el éxito y definición del sonido característico de la banda?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mecano\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Mecano Spain pop rock band",
-    "extra_topics": [],
-    "post_year": "1982",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 324: Missing or invalid image file"
-  },
-  {
     "id": "post_20260606_142544",
     "status": "published",
     "created_at": "2026-06-06T14:25:44.097842+00:00",
@@ -1036,6 +1018,28 @@
     "fb_post_id": "1043162839046116_1422777103230165",
     "ig_post_id": null,
     "published_at": "2026-06-18T16:24:16.688249+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260618_192457",
+    "status": "published",
+    "created_at": "2026-06-18T19:24:57.533639+00:00",
+    "post_type": "original",
+    "topic": "Flou",
+    "text": "¿Qué banda de rock en español de la década de 1990 te llena de emoción? Flou nos dio su álbum debut 'Flou' en 1994, con temas destacados como 'No vuelvas a mi'. Por otro lado, Aterciopelados nos ofreció 'La Pipa de la Paz' en 1996, con canciones memorables. Ambas bandas tienen un estilo particular y una presencia en el escenario que cautiva. ¿Te atrae más el sonido de Flou o el enfoque musical de Aterciopelados?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Flou #Aterciopelados\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Flou rock band concert",
+    "extra_topics": [
+      "Aterciopelados"
+    ],
+    "post_year": "1990",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1422888983218977",
+    "ig_post_id": null,
+    "published_at": "2026-06-18T19:25:24.672505+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

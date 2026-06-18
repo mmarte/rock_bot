@@ -1,15 +1,5 @@
 [
   {
-    "post_id": "post_20260425_210731",
-    "fb_post_id": "1043162839046116_1376323404542202",
-    "ig_post_id": null,
-    "post_type": "original",
-    "topic": "Enanitos Verdes",
-    "image_used": true,
-    "status": "published",
-    "executed_at": "2026-04-25T21:07:57.338205+00:00"
-  },
-  {
     "post_id": "post_20260425_220744",
     "fb_post_id": "1043162839046116_1376354174539125",
     "ig_post_id": null,
@@ -2230,5 +2220,17 @@
     "image_url": "https://img.youtube.com/vi/rC7dTHSxcDE/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-18T16:24:16.688249+00:00"
+  },
+  {
+    "post_id": "post_20260618_192457",
+    "fb_post_id": "1043162839046116_1422888983218977",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Flou",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
+    "status": "published",
+    "executed_at": "2026-06-18T19:25:24.672505+00:00"
   }
 ]
