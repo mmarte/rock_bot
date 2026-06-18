@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260605_185813",
-    "status": "published",
-    "created_at": "2026-06-05T18:58:13.560768+00:00",
-    "post_type": "poll",
-    "topic": "Fiel a la Vega",
-    "text": "El rock en español nos regala una amplia gama de emociones a través de sus canciones de amor. Desde baladas que nos hacen reflexionar sobre el amor hasta himnos que celebran la pasión, el género nos ofrece una diversidad de sentimientos. ¿Cuál es la canción de amor del rock en español que más te llega al corazón? \n   Opciones:\n   Ella Usó Mi Cabeza - Soda Stereo\n   De Música Ligera - Soda Stereo\n   Te Necesito - Maná\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Fiel a la Vega rock band concert",
-    "extra_topics": [
-      "Soda Stereo",
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1411367707704438",
-    "ig_post_id": null,
-    "published_at": "2026-06-05T18:58:40.184047+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260605_221756",
     "status": "published",
     "created_at": "2026-06-05T22:17:56.222969+00:00",
@@ -1039,6 +1016,26 @@
     "fb_post_id": "1043162839046116_1422137983294077",
     "ig_post_id": null,
     "published_at": "2026-06-17T22:48:03.380305+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260618_052848",
+    "status": "published",
+    "created_at": "2026-06-18T05:28:48.003624+00:00",
+    "post_type": "original",
+    "topic": "Caramelos de Cianuro",
+    "text": "La discografía de Caramelos de Cianuro es amplia y variada. Su álbum debut de 2000 los lanzó a la escena del rock venezolano, mientras que su trabajo en 'Miss Mujer' de 2006 los consolidó en la escena internacional. La evolución de su sonido ha sido notable, desde un inicio crudo y emocional hasta explorar sonidos más maduros y experimentales en álbumes como 'El Camino Es Así'. ¿Cuál consideras que es el momento más destacado de su carrera, o es su legado el resultado de una constante evolución musical?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CaramelosdeCianuro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Caramelos de Cianuro rock band concert",
+    "extra_topics": [],
+    "post_year": "2000",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1422361233271752",
+    "ig_post_id": null,
+    "published_at": "2026-06-18T05:29:15.468577+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

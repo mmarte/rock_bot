@@ -1,15 +1,5 @@
 [
   {
-    "post_id": "post_20260424_evening",
-    "fb_post_id": "1043162839046116_1375598924614650",
-    "slot": "evening",
-    "type": "video_youtube",
-    "topic": "Caifanes",
-    "image_used": false,
-    "status": "published",
-    "executed_at": "2026-04-25T01:59:31.302947+00:00"
-  },
-  {
     "post_id": "post_20260425_morning",
     "fb_post_id": "1043162839046116_1375737551267454",
     "slot": "morning",
@@ -2226,5 +2216,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
     "status": "published",
     "executed_at": "2026-06-17T22:48:03.380305+00:00"
+  },
+  {
+    "post_id": "post_20260618_052848",
+    "fb_post_id": "1043162839046116_1422361233271752",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Caramelos de Cianuro",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Caramelos_de_Cianuro_at_Forum_2011.png",
+    "status": "published",
+    "executed_at": "2026-06-18T05:29:15.468577+00:00"
   }
 ]
