@@ -1,16 +1,5 @@
 [
   {
-    "post_id": "post_20260426_061621",
-    "fb_post_id": "1043162839046116_1376614327846443",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "post_type": "original",
-    "topic": "Molotov",
-    "image_url": "https://i.ytimg.com/vi/CzEbm7yup7g/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-04-26T06:16:40.638517+00:00"
-  },
-  {
     "post_id": "post_20260426_070857",
     "fb_post_id": "1043162839046116_1376644231176786",
     "ig_post_id": null,
@@ -2234,5 +2223,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG/330px-Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG",
     "status": "published",
     "executed_at": "2026-06-19T06:08:06.751412+00:00"
+  },
+  {
+    "post_id": "post_20260619_155740",
+    "fb_post_id": "1043162839046116_1423620473145828",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "image_url": "https://img.youtube.com/vi/hkjmtrec2HM/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-19T15:58:08.270938+00:00"
   }
 ]
