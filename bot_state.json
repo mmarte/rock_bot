@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Panteon Rococo",
     "Extremoduro",
     "Habana Abierta",
     "Maná",
@@ -19,7 +18,8 @@
     "Caramelos de Cianuro",
     "Caifanes",
     "Flou",
-    "Gustavo Cerati"
+    "Gustavo Cerati",
+    "Octavia"
   ],
   "used_poll_indices": [
     1,
@@ -33,14 +33,14 @@
     9,
     14
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-06-18T22:58:13.983318+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-06-19T06:07:41.309740+00:00",
   "post_type_index": 10,
-  "total_posts": 204,
+  "total_posts": 205,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }

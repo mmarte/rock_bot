@@ -1,16 +1,5 @@
 [
   {
-    "post_id": "post_20260426_055515",
-    "fb_post_id": "1043162839046116_1376600431181166",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "post_type": "youtube",
-    "topic": "Santa Sabina",
-    "image_used": true,
-    "status": "published",
-    "executed_at": "2026-04-26T05:55:31.437044+00:00"
-  },
-  {
     "post_id": "post_20260426_061621",
     "fb_post_id": "1043162839046116_1376614327846443",
     "ig_post_id": null,
@@ -2233,5 +2222,17 @@
     "image_url": "https://img.youtube.com/vi/spvWfRRUW-I/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-18T22:58:39.496477+00:00"
+  },
+  {
+    "post_id": "post_20260619_060739",
+    "fb_post_id": "1043162839046116_1423222316518977",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Octavia",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG/330px-Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG",
+    "status": "published",
+    "executed_at": "2026-06-19T06:08:06.751412+00:00"
   }
 ]
