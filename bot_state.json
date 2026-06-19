@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Maná",
     "Los Piojos",
     "Los Rabanes",
     "Líbido",
@@ -19,7 +18,8 @@
     "Gustavo Cerati",
     "Octavia",
     "Soda Stereo",
-    "Malpaís"
+    "Malpaís",
+    "Flou"
   ],
   "used_poll_indices": [
     1,
@@ -34,13 +34,13 @@
     14
   ],
   "original_type_index": 3,
-  "last_updated": "2026-06-19T18:52:32.513965+00:00",
+  "last_updated": "2026-06-19T22:07:08.197950+00:00",
   "post_type_index": 10,
-  "total_posts": 207,
+  "total_posts": 208,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

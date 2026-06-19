@@ -1,16 +1,5 @@
 [
   {
-    "post_id": "post_20260426_140136",
-    "fb_post_id": "1043162839046116_1376894854485057",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "post_type": "poll",
-    "topic": "Bersuit Vergarabat",
-    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
-    "status": "published",
-    "executed_at": "2026-04-26T14:01:37.350532+00:00"
-  },
-  {
     "post_id": "post_20260426_173642",
     "fb_post_id": "1043162839046116_1377047191136490",
     "ig_post_id": null,
@@ -2236,5 +2225,17 @@
     "image_url": "https://images.pexels.com/photos/26508096/pexels-photo-26508096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-06-19T18:52:58.411212+00:00"
+  },
+  {
+    "post_id": "post_20260619_220706",
+    "fb_post_id": "1043162839046116_1423833183124557",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "image_url": "https://img.youtube.com/vi/nVrdXUHvsF0/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-19T22:07:34.137987+00:00"
   }
 ]
