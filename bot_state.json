@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Piojos",
     "Los Rabanes",
     "Líbido",
     "Desorden Público",
@@ -19,10 +18,10 @@
     "Octavia",
     "Soda Stereo",
     "Malpaís",
-    "Flou"
+    "Flou",
+    "El Cuarteto de Nos"
   ],
   "used_poll_indices": [
-    1,
     12,
     15,
     17,
@@ -31,16 +30,17 @@
     8,
     13,
     9,
-    14
+    14,
+    19
   ],
   "original_type_index": 3,
-  "last_updated": "2026-06-19T22:07:08.197950+00:00",
+  "last_updated": "2026-06-20T05:04:56.920308+00:00",
   "post_type_index": 10,
-  "total_posts": 208,
+  "total_posts": 209,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
