@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260607_220707",
-    "status": "failed",
-    "created_at": "2026-06-07T22:07:07.676599+00:00",
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "text": "La fusión de ritmos electrónicos y latinos puede dar lugar a reinterpretaciones fascinantes de clásicos del rock en español. Café Tacvba se atrevió a poner su propio sello en 'Matador', un tema que originalmente lanzaron Los Fabulosos Cadillacs. La versión de Café Tacvba ofrece una nueva perspectiva de esta canción icónica. ¿Cuál versión te llena más de emoción?\n\nhttps://www.youtube.com/watch?v=_ibOUckMP_k\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Café Tacvba Matador live",
-    "extra_topics": [
-      "Los Fabulosos Cadillacs"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=_ibOUckMP_k",
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260608_052333",
     "status": "published",
     "created_at": "2026-06-08T05:23:33.101500+00:00",
@@ -1047,6 +1027,28 @@
     "fb_post_id": "1043162839046116_1424064199768122",
     "ig_post_id": null,
     "published_at": "2026-06-20T05:05:22.501732+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260620_150134",
+    "status": "published",
+    "created_at": "2026-06-20T15:01:34.844199+00:00",
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "text": "La voz única de Enrique Bunbury se fusiona con el clásico sonido de Héroes del Silencio en su versión de 'Entre Dos Tierras'. En esta reinterpretación, Bunbury logra transformar la canción en una balada íntima y emocional, ofreciendo una perspectiva fresca y personal. La combinación de estilos crea un resultado fascinante que invita a reflexionar sobre la esencia de la canción. ¿Te parece más impactante la versión original o la reinterpretación de Enrique Bunbury?\n\nhttps://www.youtube.com/watch?v=B9kipCl4dr8\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Enrique Bunbury Entre Dos Tierras live",
+    "extra_topics": [
+      "Héroes del Silencio"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=B9kipCl4dr8",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1424432073064668",
+    "ig_post_id": null,
+    "published_at": "2026-06-20T15:02:02.432979+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

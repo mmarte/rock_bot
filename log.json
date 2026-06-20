@@ -1,16 +1,5 @@
 [
   {
-    "post_id": "post_20260426_214202",
-    "fb_post_id": "1043162839046116_1377185054456037",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "post_type": "original",
-    "topic": "Hombres G",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hombres_G_en_el_estudio_cantando.jpg",
-    "status": "published",
-    "executed_at": "2026-04-26T21:42:03.340249+00:00"
-  },
-  {
     "post_id": "post_20260427_042648",
     "fb_post_id": "1043162839046116_1377404494434093",
     "ig_post_id": null,
@@ -2238,5 +2227,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Cuarteto-de-Nos.png",
     "status": "published",
     "executed_at": "2026-06-20T05:05:22.501732+00:00"
+  },
+  {
+    "post_id": "post_20260620_150134",
+    "fb_post_id": "1043162839046116_1424432073064668",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "image_url": "https://img.youtube.com/vi/B9kipCl4dr8/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-20T15:02:02.432979+00:00"
   }
 ]
