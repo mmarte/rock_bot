@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260608_052333",
-    "status": "published",
-    "created_at": "2026-06-08T05:23:33.101500+00:00",
-    "post_type": "youtube",
-    "topic": "Habana Abierta",
-    "text": "La música de Habana Abierta destaca por su fusión única de ritmos y estilos. En este video, su colaboración con Raul Paz en 'El Balcón' muestra cómo la música puede unir culturas y trascender fronteras. La emoción del concierto en vivo es notable y la conexión entre los artistas es evidente. ¿Qué opinan sobre la combinación de rock y ritmos cubanos en este concierto?\n\nhttps://www.youtube.com/watch?v=RWBBbBEqbvA\n\nLo Mejor del Rock en Español les presenta: #HabanaAbierta\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Habana Abierta rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=RWBBbBEqbvA",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1413529450821597",
-    "ig_post_id": null,
-    "published_at": "2026-06-08T05:24:00.083811+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260608_164523",
     "status": "published",
     "created_at": "2026-06-08T16:45:23.873666+00:00",
@@ -1049,6 +1029,29 @@
     "fb_post_id": "1043162839046116_1424432073064668",
     "ig_post_id": null,
     "published_at": "2026-06-20T15:02:02.432979+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260620_180919",
+    "status": "published",
+    "created_at": "2026-06-20T18:09:19.968525+00:00",
+    "post_type": "poll",
+    "topic": "Zapato 3",
+    "text": "El rock en español experimentó un auge significativo en la década de los 90, con bandas como Caifanes, Maná y Café Tacuba produciendo gran cantidad de música notable. ¿Cuál consideras que fue el año más destacado para el rock en español? \n   👍 1990 \n   ❤️ 1995 \n   😮 1992 \n   ¡Vota con tu reacción! 👍❤️😮 ¿Cuál es tu elección?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Zapato3 #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Zapato 3 rock band concert",
+    "extra_topics": [
+      "Maná",
+      "Caifanes"
+    ],
+    "post_year": "1990",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1424549423052933",
+    "ig_post_id": null,
+    "published_at": "2026-06-20T18:09:46.967729+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
