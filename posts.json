@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260608_164523",
-    "status": "published",
-    "created_at": "2026-06-08T16:45:23.873666+00:00",
-    "post_type": "poll",
-    "topic": "Cascomar",
-    "text": "Chile es conocido por su vibrante escena de rock, donde han surgido varias bandas influyentes en América Latina. Estas bandas han dejado una marca duradera en la música gracias a su dedicación y pasión. Entre las destacadas bandas chilenas, tres se destacan por su contribución única al género. ¿Cuál consideras la más destacada? \n   👍 Los Prisioneros\n   ❤️ La Ley\n   😮 Los Tres\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cascomar #LaLey #LosPrisioneros\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Cascomar rock band concert",
-    "extra_topics": [
-      "La Ley",
-      "Los Prisioneros"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1413984580776084",
-    "ig_post_id": null,
-    "published_at": "2026-06-08T16:45:50.897746+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260608_191951",
     "status": "failed",
     "created_at": "2026-06-08T19:19:51.056387+00:00",
@@ -1052,6 +1029,26 @@
     "fb_post_id": "1043162839046116_1424549423052933",
     "ig_post_id": null,
     "published_at": "2026-06-20T18:09:46.967729+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260620_221147",
+    "status": "published",
+    "created_at": "2026-06-20T22:11:47.652788+00:00",
+    "post_type": "original",
+    "topic": "Los Tres",
+    "text": "¿Qué álbumes de Los Tres consideras los más destacados? Mi selección personal incluye 'Los Tres', su álbum debut que marca el comienzo de su carrera musical, 'Se Remata el Siglo', donde consolidan su estilo único, y 'Fome', que refleja la madurez y evolución de la banda. Estos álbumes contienen canciones emblemáticas que han dejado una huella duradera en la música. Álvaro Henríquez, Roberto Lindl y la banda han hecho una contribución significativa al rock. ¿Cuál es tu álbum favorito de Los Tres?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosTres\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Tres Chile rock band",
+    "extra_topics": [],
+    "post_year": "1991",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1424674769707065",
+    "ig_post_id": null,
+    "published_at": "2026-06-20T22:12:15.178973+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

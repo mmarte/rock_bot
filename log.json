@@ -1,16 +1,5 @@
 [
   {
-    "post_id": "post_20260427_150005",
-    "fb_post_id": "1043162839046116_1377811871060022",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "post_type": "poll",
-    "topic": "Caifanes",
-    "image_url": null,
-    "status": "published",
-    "executed_at": "2026-04-27T15:00:07.148841+00:00"
-  },
-  {
     "post_id": "post_20260427_180439",
     "fb_post_id": "1043162839046116_1377940647713811",
     "ig_post_id": null,
@@ -2240,5 +2229,17 @@
     "image_url": "https://images.pexels.com/photos/13143612/pexels-photo-13143612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-06-20T18:09:46.967729+00:00"
+  },
+  {
+    "post_id": "post_20260620_221147",
+    "fb_post_id": "1043162839046116_1424674769707065",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Los Tres",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lostres.jpg",
+    "status": "published",
+    "executed_at": "2026-06-20T22:12:15.178973+00:00"
   }
 ]
