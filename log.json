@@ -1,16 +1,5 @@
 [
   {
-    "post_id": "post_20260427_215603",
-    "fb_post_id": "1043162839046116_1378069837700892",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "post_type": "original",
-    "topic": "Café Tacvba",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cafe_Tacuba_1.jpg",
-    "status": "published",
-    "executed_at": "2026-04-27T21:56:04.207560+00:00"
-  },
-  {
     "post_id": "post_20260428_043036",
     "fb_post_id": "1043162839046116_1378267574347785",
     "ig_post_id": null,
@@ -2242,5 +2231,17 @@
     "image_url": "https://img.youtube.com/vi/JZ1RxVuDj10/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-21T15:08:46.735977+00:00"
+  },
+  {
+    "post_id": "post_20260621_181803",
+    "fb_post_id": "1043162839046116_1425444802963395",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Divididos",
+    "image_url": "https://img.youtube.com/vi/rczaANXhRCw/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-21T18:18:30.382255+00:00"
   }
 ]
