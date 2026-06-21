@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Toque Profundo",
     "Frágil",
     "Savage",
     "Los Fabulosos Cadillacs",
@@ -19,7 +18,8 @@
     "Zapato 3",
     "Los Tres",
     "Alux Nahual",
-    "Divididos"
+    "Divididos",
+    "Radio Futura"
   ],
   "used_poll_indices": [
     15,
@@ -33,14 +33,14 @@
     19,
     16
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-06-21T18:18:04.986543+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-06-21T22:18:33.842935+00:00",
   "post_type_index": 10,
-  "total_posts": 214,
+  "total_posts": 215,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
