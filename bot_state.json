@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Toque Profundo",
     "Los Prisioneros",
     "Toque Profundo",
     "Frágil",
@@ -19,7 +18,8 @@
     "El Cuarteto de Nos",
     "Flou",
     "Zapato 3",
-    "Los Tres"
+    "Los Tres",
+    "Alux Nahual"
   ],
   "used_poll_indices": [
     15,
@@ -34,13 +34,13 @@
     16
   ],
   "original_type_index": 4,
-  "last_updated": "2026-06-20T22:11:49.614071+00:00",
+  "last_updated": "2026-06-21T15:08:21.134168+00:00",
   "post_type_index": 10,
-  "total_posts": 212,
+  "total_posts": 213,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

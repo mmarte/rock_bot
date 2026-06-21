@@ -1,23 +1,5 @@
 [
   {
-    "id": "post_20260608_191951",
-    "status": "failed",
-    "created_at": "2026-06-08T19:19:51.056387+00:00",
-    "post_type": "original",
-    "topic": "Hombres G",
-    "text": "En la escena musical de Madrid, una banda emergió en 1982 con un sonido único. David Summers, el vocalista y guitarrista, se unió a Manuel Laguna, el guitarrista, y pronto se les unieron Javier Molina en el bajo y Ángel González en la batería, completando la formación original. Su primer álbum, 'Hombres G', lanzado en 1985, fue grabado en un plazo muy corto en los estudios Doublewtron de Madrid y incluía canciones destacadas como 'Devuélveme el coraje' y 'Marta tiene un marcapasos'. La energía y dedicación que pusieron en su primer disco reflejan la pasión de la banda por su música. ¿Cuál es tu canción favorita de Hombres G?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HombresG\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Hombres G Spain pop rock band",
-    "extra_topics": [],
-    "post_year": "1982",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260608_223145",
     "status": "published",
     "created_at": "2026-06-08T22:31:45.852330+00:00",
@@ -1049,6 +1031,28 @@
     "fb_post_id": "1043162839046116_1424674769707065",
     "ig_post_id": null,
     "published_at": "2026-06-20T22:12:15.178973+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260621_150819",
+    "status": "published",
+    "created_at": "2026-06-21T15:08:19.539701+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "La energía de Café Tacvba al reinterpretar 'Matador' de Los Fabulosos Cadillacs es emocionante. Con su toque único, la banda logra crear una versión impactante. La versión original de Los Fabulosos Cadillacs y la versión cover de Café Tacvba tienen sus propias cualidades. ¿Cuál te gusta más?\n\nhttps://www.youtube.com/watch?v=JZ1RxVuDj10\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba Matador live",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=JZ1RxVuDj10",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1425313226309886",
+    "ig_post_id": null,
+    "published_at": "2026-06-21T15:08:46.735977+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
