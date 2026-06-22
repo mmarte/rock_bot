@@ -1,11 +1,5 @@
 [
   {
-    "post_id": "post_20260428_220224",
-    "status": "failed",
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
-    "executed_at": "2026-04-28T22:02:25.597019+00:00"
-  },
-  {
     "post_id": "post_20260429_042517",
     "fb_post_id": "1043162839046116_1379098414264701",
     "ig_post_id": null,
@@ -2246,5 +2240,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2023-11-16_Gala_de_los_Latin_Grammy%2C_14_%28cropped%29.jpg",
     "status": "published",
     "executed_at": "2026-06-22T17:28:12.191298+00:00"
+  },
+  {
+    "post_id": "post_20260622_200905",
+    "fb_post_id": "1043162839046116_1426392832868592",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Los Rabanes",
+    "image_url": "https://img.youtube.com/vi/kD2t5v50lEg/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-22T20:09:33.008677+00:00"
   }
 ]
