@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Frágil",
     "Savage",
     "Los Fabulosos Cadillacs",
     "Charly García",
@@ -19,7 +18,8 @@
     "Los Tres",
     "Alux Nahual",
     "Divididos",
-    "Radio Futura"
+    "Radio Futura",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     15,
@@ -33,14 +33,14 @@
     19,
     16
   ],
-  "original_type_index": 5,
-  "last_updated": "2026-06-21T22:18:33.842935+00:00",
+  "original_type_index": 6,
+  "last_updated": "2026-06-22T06:19:50.926586+00:00",
   "post_type_index": 10,
-  "total_posts": 215,
+  "total_posts": 216,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }
