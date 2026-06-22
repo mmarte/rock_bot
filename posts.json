@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260609_191255",
-    "status": "published",
-    "created_at": "2026-06-09T19:12:55.758429+00:00",
-    "post_type": "original",
-    "topic": "Radio Futura",
-    "text": "Radio Futura lanzó su álbum 'La canción de las flores', que incluía éxitos destacados. Un momento destacado en su carrera fue su participación en el festival 'Rock de Bilbao', donde tocaron frente a una gran cantidad de personas. ¿Alguien estuvo ahí y puede compartir sus impresiones de ese concierto?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #RadioFutura\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Radio Futura Spain rock 80s",
-    "extra_topics": [],
-    "post_year": "1987",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1414951677346041",
-    "ig_post_id": null,
-    "published_at": "2026-06-09T19:13:22.711708+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260609_222721",
     "status": "published",
     "created_at": "2026-06-09T22:27:21.858488+00:00",
@@ -1053,6 +1033,28 @@
     "fb_post_id": "1043162839046116_1425855772922298",
     "ig_post_id": null,
     "published_at": "2026-06-22T06:20:16.437028+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260622_172745",
+    "status": "published",
+    "created_at": "2026-06-22T17:27:45.340205+00:00",
+    "post_type": "original",
+    "topic": "Juanes",
+    "text": "Juanes es un artista destacado en el rock en español, con una carrera que abarca más de tres décadas y una discografía que incluye álbumes destacados como 'Fíjate Bien' y 'Un Día Normal'. Su música ha recibido reconocimientos importantes, incluyendo premios Grammy y Latin Grammy. Juanes es mencionado como una influencia por otros artistas de la escena musical. Su legado sigue siendo relevante en la música actual. ¿Cuál es tu canción favorita de Juanes?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Juanes #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Juanes Colombia rock singer guitar",
+    "extra_topics": [
+      "Maná"
+    ],
+    "post_year": "2000",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1426294912878384",
+    "ig_post_id": null,
+    "published_at": "2026-06-22T17:28:12.191298+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

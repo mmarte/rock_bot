@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Savage",
     "Los Fabulosos Cadillacs",
     "Charly García",
     "Flou",
@@ -19,7 +18,8 @@
     "Alux Nahual",
     "Divididos",
     "Radio Futura",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Juanes"
   ],
   "used_poll_indices": [
     15,
@@ -33,14 +33,14 @@
     19,
     16
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-06-22T06:19:50.926586+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-06-22T17:27:46.798883+00:00",
   "post_type_index": 10,
-  "total_posts": 216,
+  "total_posts": 217,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "original",
   "curation_year": 2024
 }
