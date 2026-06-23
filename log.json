@@ -1,16 +1,5 @@
 [
   {
-    "post_id": "post_20260429_220204",
-    "fb_post_id": "1043162839046116_1379742517533624",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "post_type": "original",
-    "topic": "Molotov",
-    "image_url": null,
-    "status": "published",
-    "executed_at": "2026-04-29T22:02:05.434415+00:00"
-  },
-  {
     "post_id": "post_20260430_042837",
     "status": "failed",
     "error": "FB error 100: Invalid parameter",
@@ -2255,5 +2244,17 @@
     "image_url": "https://img.youtube.com/vi/dT8ioZWpYIE/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-23T15:45:40.240119+00:00"
+  },
+  {
+    "post_id": "post_20260623_221738",
+    "fb_post_id": "1043162839046116_1427330062774869",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Líbido",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/L%C3%ADbido_band_in_2009.jpg",
+    "status": "published",
+    "executed_at": "2026-06-23T22:18:05.732004+00:00"
   }
 ]

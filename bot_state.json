@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Caifanes",
     "Flou",
     "Gustavo Cerati",
     "Octavia",
@@ -19,10 +18,10 @@
     "Los Rabanes",
     "Savage",
     "Panteon Rococo",
-    "Alux Nahual"
+    "Alux Nahual",
+    "Líbido"
   ],
   "used_poll_indices": [
-    17,
     6,
     11,
     8,
@@ -31,16 +30,17 @@
     14,
     19,
     16,
-    4
+    4,
+    12
   ],
   "original_type_index": 8,
-  "last_updated": "2026-06-23T15:45:14.615154+00:00",
+  "last_updated": "2026-06-23T22:17:40.236513+00:00",
   "post_type_index": 10,
-  "total_posts": 221,
+  "total_posts": 222,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
