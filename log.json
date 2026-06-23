@@ -1,16 +1,5 @@
 [
   {
-    "post_id": "post_20260429_150550",
-    "fb_post_id": "1043162839046116_1379486660892543",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "post_type": "poll",
-    "topic": "Los Rodríguez",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
-    "status": "published",
-    "executed_at": "2026-04-29T15:05:51.662349+00:00"
-  },
-  {
     "post_id": "post_20260429_181118",
     "fb_post_id": "1043162839046116_1379616327546243",
     "ig_post_id": null,
@@ -2253,5 +2242,17 @@
     "image_url": "https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-06-22T22:50:46.633644+00:00"
+  },
+  {
+    "post_id": "post_20260623_045455",
+    "fb_post_id": "1043162839046116_1426680142839861",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Panteon Rococo",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Pante%C3%B3n_Rococo_%40_SO36.jpg",
+    "status": "published",
+    "executed_at": "2026-06-23T04:55:22.731597+00:00"
   }
 ]

@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Flou",
     "Caramelos de Cianuro",
     "Caifanes",
     "Flou",
@@ -19,7 +18,8 @@
     "Los Rabanes",
     "Juanes",
     "Los Rabanes",
-    "Savage"
+    "Savage",
+    "Panteon Rococo"
   ],
   "used_poll_indices": [
     17,
@@ -33,14 +33,14 @@
     16,
     4
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-06-22T22:50:20.869950+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-06-23T04:54:57.254871+00:00",
   "post_type_index": 10,
-  "total_posts": 219,
+  "total_posts": 220,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024
 }
