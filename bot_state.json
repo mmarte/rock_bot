@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Gustavo Cerati",
     "Octavia",
     "Soda Stereo",
     "Malpaís",
@@ -19,7 +18,8 @@
     "Panteon Rococo",
     "Alux Nahual",
     "Líbido",
-    "Gandhi"
+    "Gandhi",
+    "Caramelos de Cianuro"
   ],
   "used_poll_indices": [
     6,
@@ -33,14 +33,14 @@
     4,
     12
   ],
-  "original_type_index": 8,
-  "last_updated": "2026-06-24T04:58:40.683248+00:00",
+  "original_type_index": 9,
+  "last_updated": "2026-06-24T15:31:03.300257+00:00",
   "post_type_index": 10,
-  "total_posts": 223,
+  "total_posts": 224,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }

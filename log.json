@@ -1,16 +1,5 @@
 [
   {
-    "post_id": "post_20260430_150215",
-    "fb_post_id": "1043162839046116_1380349610806248",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "post_type": "poll",
-    "topic": "Fito Páez",
-    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
-    "status": "published",
-    "executed_at": "2026-04-30T15:02:16.219319+00:00"
-  },
-  {
     "post_id": "post_20260430_180913",
     "fb_post_id": "1043162839046116_1380467917461084",
     "ig_post_id": null,
@@ -2262,5 +2251,17 @@
     "image_url": "https://img.youtube.com/vi/h0p8yTqj8i4/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-24T04:59:06.118792+00:00"
+  },
+  {
+    "post_id": "post_20260624_153100",
+    "fb_post_id": "1043162839046116_1427951999379342",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Caramelos de Cianuro",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Caramelos_de_Cianuro_at_Forum_2011.png",
+    "status": "published",
+    "executed_at": "2026-06-24T15:31:28.613763+00:00"
   }
 ]
