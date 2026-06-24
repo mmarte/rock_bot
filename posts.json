@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260611_052025",
-    "status": "published",
-    "created_at": "2026-06-11T05:20:25.882991+00:00",
-    "post_type": "poll",
-    "topic": "Gandhi",
-    "text": "El rock en español ha destacado por sus introducciones de guitarra memorables. Desde artistas como Gustavo Cerati hasta bandas como Divididos, cada uno ha aportado su propio estilo a la escena musical. ¿Cuál es la intro que consideras más impactante? \n   👍 De Música Ligera - Cerati\n   ❤️ La Chispa Adecuada - Divididos\n   😮 Matador - Los Fabulosos Cadillacs\n   ¡Vota con tu reacción! ¿Cuál es tu favorita?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Gandhi #LosFabulososCadillacs #Divididos #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Gandhi rock band concert",
-    "extra_topics": [
-      "Los Fabulosos Cadillacs",
-      "Divididos",
-      "Gustavo Cerati"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1416172740557268",
-    "ig_post_id": null,
-    "published_at": "2026-06-11T05:20:52.666606+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260611_164614",
     "status": "published",
     "created_at": "2026-06-11T16:46:14.922211+00:00",
@@ -1050,6 +1026,28 @@
     "fb_post_id": "1043162839046116_1427330062774869",
     "ig_post_id": null,
     "published_at": "2026-06-23T22:18:05.732004+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260624_045838",
+    "status": "published",
+    "created_at": "2026-06-24T04:58:38.757053+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "Maná sube al escenario en un festival de rock latino, listos para rendir tributo a uno de los clásicos del rock en español. Eligen una canción icónica de Caifanes y la interpretan con una versión potente y distinta, fusionando su propia energía con la esencia original. La voz de Fher Olvera destaca en un grito apasionado, mientras la guitarra de Sergio Vallín añade un toque moderno. ¿Te mueve más la versión original de Caifanes o la interpretación única de Maná?\n\nhttps://www.youtube.com/watch?v=h0p8yTqj8i4\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=h0p8yTqj8i4",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1427546216086587",
+    "ig_post_id": null,
+    "published_at": "2026-06-24T04:59:06.118792+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

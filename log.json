@@ -1,11 +1,5 @@
 [
   {
-    "post_id": "post_20260430_042837",
-    "status": "failed",
-    "error": "FB error 100: Invalid parameter",
-    "executed_at": "2026-04-30T04:28:38.518751+00:00"
-  },
-  {
     "post_id": "post_20260430_150215",
     "fb_post_id": "1043162839046116_1380349610806248",
     "ig_post_id": null,
@@ -2256,5 +2250,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/L%C3%ADbido_band_in_2009.jpg",
     "status": "published",
     "executed_at": "2026-06-23T22:18:05.732004+00:00"
+  },
+  {
+    "post_id": "post_20260624_045838",
+    "fb_post_id": "1043162839046116_1427546216086587",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Maná",
+    "image_url": "https://img.youtube.com/vi/h0p8yTqj8i4/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-24T04:59:06.118792+00:00"
   }
 ]
