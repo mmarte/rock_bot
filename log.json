@@ -1,11 +1,5 @@
 [
   {
-    "post_id": "post_20260430_215915",
-    "status": "failed",
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
-    "executed_at": "2026-04-30T21:59:16.140836+00:00"
-  },
-  {
     "post_id": "post_20260501_040602",
     "fb_post_id": "1043162839046116_1380793014095241",
     "ig_post_id": null,
@@ -2264,5 +2258,17 @@
     "image_url": "https://img.youtube.com/vi/-B-Ol-WErtg/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-24T18:50:10.691934+00:00"
+  },
+  {
+    "post_id": "post_20260624_222101",
+    "fb_post_id": "1043162839046116_1428190276022181",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "La Cuneta Son Machín",
+    "image_url": "https://images.pexels.com/photos/17249634/pexels-photo-17249634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-06-24T22:21:28.904399+00:00"
   }
 ]

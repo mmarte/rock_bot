@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Soda Stereo",
     "Malpaís",
     "Flou",
     "El Cuarteto de Nos",
@@ -19,7 +18,8 @@
     "Líbido",
     "Gandhi",
     "Caramelos de Cianuro",
-    "Fiel a la Vega"
+    "Fiel a la Vega",
+    "La Cuneta Son Machín"
   ],
   "used_poll_indices": [
     6,
@@ -33,14 +33,14 @@
     4,
     12
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-06-24T18:49:44.970363+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-06-24T22:21:03.387064+00:00",
   "post_type_index": 10,
-  "total_posts": 225,
+  "total_posts": 226,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "concert",
   "curation_year": 2024
 }
