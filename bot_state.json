@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "El Cuarteto de Nos",
     "Flou",
     "Zapato 3",
     "Los Tres",
@@ -19,7 +18,8 @@
     "Fiel a la Vega",
     "La Cuneta Son Machín",
     "La Cuneta Son Machín",
-    "La Cuneta Son Machín"
+    "La Cuneta Son Machín",
+    "Malpaís"
   ],
   "used_poll_indices": [
     6,
@@ -33,14 +33,14 @@
     4,
     12
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-06-25T15:38:41.508360+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-06-25T19:05:32.404806+00:00",
   "post_type_index": 10,
-  "total_posts": 228,
+  "total_posts": 229,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
