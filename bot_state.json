@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Flou",
     "El Cuarteto de Nos",
     "Flou",
     "Zapato 3",
@@ -19,6 +18,7 @@
     "Caramelos de Cianuro",
     "Fiel a la Vega",
     "La Cuneta Son Machín",
+    "La Cuneta Son Machín",
     "La Cuneta Son Machín"
   ],
   "used_poll_indices": [
@@ -34,13 +34,13 @@
     12
   ],
   "original_type_index": 1,
-  "last_updated": "2026-06-25T04:57:51.948799+00:00",
+  "last_updated": "2026-06-25T15:38:41.508360+00:00",
   "post_type_index": 10,
-  "total_posts": 227,
+  "total_posts": 228,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
