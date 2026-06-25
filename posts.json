@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260612_052612",
-    "status": "published",
-    "created_at": "2026-06-12T05:26:12.982689+00:00",
-    "post_type": "poll",
-    "topic": "Gustavo Cerati",
-    "text": "La escena del rock en español es rica en canciones memorables que tocan el corazón de los fans. Desde ritmos inolvidables hasta letras profundas, hay muchas opciones que destacan por su impacto emocional. Entre las opciones destacadas se encuentran: \n   De Música Ligera - Soda Stereo\n   Entre Dos Tierras - Heroes del Silencio\n   Oye Mi Amor - Maná\n   ¿Cuál es la canción que más te conmueve?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #GustavoCerati #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Gustavo Cerati guitarist Argentina",
-    "extra_topics": [
-      "Soda Stereo",
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1417084600466082",
-    "ig_post_id": null,
-    "published_at": "2026-06-12T05:26:39.586944+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260612_161324",
     "status": "published",
     "created_at": "2026-06-12T16:13:24.928061+00:00",
@@ -1044,6 +1021,29 @@
     "fb_post_id": "1043162839046116_1428190276022181",
     "ig_post_id": null,
     "published_at": "2026-06-24T22:21:28.904399+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260625_045750",
+    "status": "published",
+    "created_at": "2026-06-25T04:57:50.061279+00:00",
+    "post_type": "original",
+    "topic": "La Cuneta Son Machín",
+    "text": "¿Qué define la esencia del rock en español? La fusión de ritmos latinos con rock en la música de La Cuneta Son Machín, o la combinación de rock con elementos de la música folclórica colombiana en la de Aterciopelados? La Cuneta Son Machín nos trae una mezcla única de rock y música tradicional nicaragüense. Aterciopelados, por otro lado, nos ofrecen un sonido innovador y experimental. ¿Te sientes más conectado con la pasión y la raíz cultural de La Cuneta Son Machín o con la creatividad y la experimentación de Aterciopelados?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaCunetaSonMachin #Aterciopelados #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Cuneta Son Machín rock band concert",
+    "extra_topics": [
+      "Aterciopelados",
+      "Andrés Calamaro"
+    ],
+    "post_year": "2004",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1428412012666674",
+    "ig_post_id": null,
+    "published_at": "2026-06-25T04:58:17.231894+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
