@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260612_222804",
-    "status": "published",
-    "created_at": "2026-06-12T22:28:04.292873+00:00",
-    "post_type": "original",
-    "topic": "Flou",
-    "text": "En la discografía de Flou, hay dos épocas que destacan por su impacto y estilo único. La primera, con su álbum 'Florecer', nos trajo canciones emblemáticas como 'No Te Enamores' y una energía intensa, mientras que la segunda época, con 'Alma', refleja un sonido más maduro y reflexivo. ¿Cuál de estas etapas musicales de Flou te gusta más y por qué?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Flou\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Flou rock band concert",
-    "extra_topics": [],
-    "post_year": "2005",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1417693443738531",
-    "ig_post_id": null,
-    "published_at": "2026-06-12T22:28:31.362023+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260613_051503",
     "status": "published",
     "created_at": "2026-06-13T05:15:03.174961+00:00",
@@ -1040,6 +1020,30 @@
     "fb_post_id": "1043162839046116_1428972222610653",
     "ig_post_id": null,
     "published_at": "2026-06-25T19:05:58.080486+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260625_222337",
+    "status": "published",
+    "created_at": "2026-06-25T22:23:37.357763+00:00",
+    "post_type": "poll",
+    "topic": "Extremoduro",
+    "text": "El rock en español es diverso y enriquecedor, con una variedad de estilos que han evolucionado a lo largo de los años. Bandas como Extremoduro, Café Tacvba y Molotov han dejado su huella en la escena musical. ¿Cuál consideras la mejor colaboración o canción de Extremoduro?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Extremoduro #CafeTacvba #Caifanes #Molotov\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Extremoduro Spain rock band",
+    "extra_topics": [
+      "Café Tacvba",
+      "Caifanes",
+      "Molotov"
+    ],
+    "post_year": "1960",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1429074729267069",
+    "ig_post_id": null,
+    "published_at": "2026-06-25T22:24:03.869733+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
