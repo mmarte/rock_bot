@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260504_220520",
-    "fb_post_id": "1043162839046116_1383872850453924",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Café Tacvba",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cafe_Tacuba_1.jpg",
-    "status": "published",
-    "executed_at": "2026-05-04T22:05:47.599208+00:00"
-  },
-  {
     "post_id": "post_20260505_041547",
     "fb_post_id": "1043162839046116_1384074003767142",
     "ig_post_id": null,
@@ -2272,5 +2260,17 @@
     "status": "failed",
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
     "executed_at": "2026-06-26T18:29:27.842545+00:00"
+  },
+  {
+    "post_id": "post_20260626_221738",
+    "fb_post_id": "1043162839046116_1429937655847443",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Octavia",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG/330px-Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG",
+    "status": "published",
+    "executed_at": "2026-06-26T22:18:04.956970+00:00"
   }
 ]

@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260613_220732",
-    "status": "published",
-    "created_at": "2026-06-13T22:07:32.087178+00:00",
-    "post_type": "original",
-    "topic": "Savage",
-    "text": "Savage, una banda de rock británica con una historia interesante, nos ofrece varios aspectos destacados en su carrera. Aquí te presento algunos datos sobre ellos: \n   1. Su álbum debut, 'Loose 'n Lethal', se lanzó en la década de 1980 y se grabó en un plazo relativamente corto. \n   2. La banda trabajó con el productor Keith Nichol en su segundo álbum. \n   3. Savage lanzó varios álbumes a lo largo de su carrera, incluyendo uno grabado en estudios de Londres. \n   ¿Cuál de estos aspectos de la banda te parece más interesante?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Savage\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Savage rock band concert",
-    "extra_topics": [],
-    "post_year": "1983",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1418599223647953",
-    "ig_post_id": null,
-    "published_at": "2026-06-13T22:07:58.870607+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260614_052457",
     "status": "published",
     "created_at": "2026-06-14T05:24:57.800244+00:00",
@@ -1043,5 +1023,25 @@
     "ig_post_id": null,
     "published_at": null,
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+  },
+  {
+    "id": "post_20260626_221738",
+    "status": "published",
+    "created_at": "2026-06-26T22:17:38.003002+00:00",
+    "post_type": "original",
+    "topic": "Octavia",
+    "text": "Octavia es una banda con una discografía impresionante. Algunos de sus álbumes destacados incluyen: \n   1. 'Octavia' (2004), que marca el comienzo de su carrera musical.\n   2. 'La Cripta' (2006), conocido por temas que fusionan rock y folklore.\n   3. 'Grandes Éxitos' (2011), una recopilación de temas que reflejan su crecimiento artístico.\n   ¿Cuál es tu álbum favorito de Octavia?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Octavia rock band concert",
+    "extra_topics": [],
+    "post_year": "2004",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1429937655847443",
+    "ig_post_id": null,
+    "published_at": "2026-06-26T22:18:04.956970+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
   }
 ]

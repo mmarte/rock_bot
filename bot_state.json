@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Divididos",
     "Radio Futura",
     "Los Rabanes",
     "Juanes",
@@ -19,7 +18,8 @@
     "Extremoduro",
     "La Cuneta Son Machín",
     "Los Rabanes",
-    "Savage"
+    "Savage",
+    "Octavia"
   ],
   "used_poll_indices": [
     11,
@@ -33,14 +33,14 @@
     12,
     2
   ],
-  "original_type_index": 3,
-  "last_updated": "2026-06-26T18:29:02.360320+00:00",
+  "original_type_index": 4,
+  "last_updated": "2026-06-26T22:17:39.553904+00:00",
   "post_type_index": 10,
-  "total_posts": 233,
+  "total_posts": 234,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
