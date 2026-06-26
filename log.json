@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260504_043706",
-    "fb_post_id": "1043162839046116_1383262073848335",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Alux Nahual",
-    "image_url": "https://img.youtube.com/vi/4sAIjDBn3GI/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-05-04T04:37:33.445924+00:00"
-  },
-  {
     "post_id": "post_20260504_150624",
     "fb_post_id": "1043162839046116_1383635473810995",
     "ig_post_id": null,
@@ -2278,5 +2266,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Extremoduro_en_Getafe.jpg",
     "status": "published",
     "executed_at": "2026-06-25T22:24:03.869733+00:00"
+  },
+  {
+    "post_id": "post_20260626_050305",
+    "fb_post_id": "1043162839046116_1429307815910427",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "La Cuneta Son Machín",
+    "image_url": "https://img.youtube.com/vi/xMZQRgEjww4/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-26T05:03:32.767267+00:00"
   }
 ]

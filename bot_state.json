@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Zapato 3",
     "Los Tres",
     "Alux Nahual",
     "Divididos",
@@ -19,7 +18,8 @@
     "La Cuneta Son Machín",
     "La Cuneta Son Machín",
     "Malpaís",
-    "Extremoduro"
+    "Extremoduro",
+    "La Cuneta Son Machín"
   ],
   "used_poll_indices": [
     11,
@@ -34,13 +34,13 @@
     2
   ],
   "original_type_index": 2,
-  "last_updated": "2026-06-25T22:23:38.584288+00:00",
+  "last_updated": "2026-06-26T05:03:07.011165+00:00",
   "post_type_index": 10,
-  "total_posts": 230,
+  "total_posts": 231,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
