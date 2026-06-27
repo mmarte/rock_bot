@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Juanes",
     "Los Rabanes",
     "Savage",
@@ -19,7 +18,8 @@
     "Los Rabanes",
     "Savage",
     "Octavia",
-    "Habana Abierta"
+    "Habana Abierta",
+    "Alux Nahual"
   ],
   "used_poll_indices": [
     11,
@@ -33,14 +33,14 @@
     12,
     2
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-06-27T04:44:50.433900+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-06-27T14:24:21.633366+00:00",
   "post_type_index": 10,
-  "total_posts": 235,
+  "total_posts": 236,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
