@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Juanes",
     "Los Rabanes",
     "Savage",
     "Panteon Rococo",
@@ -19,7 +18,8 @@
     "Savage",
     "Octavia",
     "Habana Abierta",
-    "Alux Nahual"
+    "Alux Nahual",
+    "Toque Profundo"
   ],
   "used_poll_indices": [
     11,
@@ -34,13 +34,13 @@
     2
   ],
   "original_type_index": 5,
-  "last_updated": "2026-06-27T14:24:21.633366+00:00",
+  "last_updated": "2026-06-27T17:59:12.902859+00:00",
   "post_type_index": 10,
-  "total_posts": 236,
+  "total_posts": 237,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
