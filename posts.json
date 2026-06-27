@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260614_052457",
-    "status": "published",
-    "created_at": "2026-06-14T05:24:57.800244+00:00",
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "text": "Soda Stereo logró crear una fascinante versión de 'Paint It Black', inspirada en el clásico de The Rolling Stones. La transformación de este tema en una interpretación única en español es prueba de la habilidad y creatividad del grupo. La voz y el estilo de Gustavo Cerati y la banda dieron un giro especial a esta versión. ¿Prefieres la emoción que transmite el cover de Soda Stereo o la esencia del original de The Rolling Stones?\n\nhttps://www.youtube.com/watch?v=ygxb8NgbSxY\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Soda Stereo Paint It Black live",
-    "extra_topics": [
-      "Gustavo Cerati"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=ygxb8NgbSxY",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1418845513623324",
-    "ig_post_id": null,
-    "published_at": "2026-06-14T05:25:24.773098+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260614_150558",
     "status": "published",
     "created_at": "2026-06-14T15:05:58.008998+00:00",
@@ -1040,6 +1018,26 @@
     "fb_post_id": "1043162839046116_1429937655847443",
     "ig_post_id": null,
     "published_at": "2026-06-26T22:18:04.956970+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260627_044449",
+    "status": "published",
+    "created_at": "2026-06-27T04:44:49.030001+00:00",
+    "post_type": "youtube",
+    "topic": "Habana Abierta",
+    "text": "La música de Habana Abierta es una fusión única que combina ritmos cubanos con rock. Su álbum 'Boomerang' es muy popular y 'Asere, ¿Qué Volá?' es uno de sus temas destacados. La forma en que mezclan estilos es realmente interesante. ¿Cuál es tu canción favorita de Habana Abierta?\n\nhttps://www.youtube.com/watch?v=GZXO5OvDS_o\n\nLo Mejor del Rock en Español les presenta: #HabanaAbierta\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Habana Abierta rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=GZXO5OvDS_o",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1430157292492146",
+    "ig_post_id": null,
+    "published_at": "2026-06-27T04:45:15.873619+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260505_041547",
-    "fb_post_id": "1043162839046116_1384074003767142",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Rabanes",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
-    "status": "published",
-    "executed_at": "2026-05-05T04:16:14.423204+00:00"
-  },
-  {
     "post_id": "post_20260505_180933",
     "fb_post_id": "1043162839046116_1384583613716181",
     "ig_post_id": null,
@@ -2272,5 +2260,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG/330px-Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG",
     "status": "published",
     "executed_at": "2026-06-26T22:18:04.956970+00:00"
+  },
+  {
+    "post_id": "post_20260627_044449",
+    "fb_post_id": "1043162839046116_1430157292492146",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Habana Abierta",
+    "image_url": "https://img.youtube.com/vi/GZXO5OvDS_o/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-27T04:45:15.873619+00:00"
   }
 ]

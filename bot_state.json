@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Radio Futura",
     "Los Rabanes",
     "Juanes",
     "Los Rabanes",
@@ -19,7 +18,8 @@
     "La Cuneta Son Machín",
     "Los Rabanes",
     "Savage",
-    "Octavia"
+    "Octavia",
+    "Habana Abierta"
   ],
   "used_poll_indices": [
     11,
@@ -34,13 +34,13 @@
     2
   ],
   "original_type_index": 4,
-  "last_updated": "2026-06-26T22:17:39.553904+00:00",
+  "last_updated": "2026-06-27T04:44:50.433900+00:00",
   "post_type_index": 10,
-  "total_posts": 234,
+  "total_posts": 235,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
