@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Savage",
     "Panteon Rococo",
     "Alux Nahual",
@@ -19,7 +18,8 @@
     "Octavia",
     "Habana Abierta",
     "Alux Nahual",
-    "Toque Profundo"
+    "Toque Profundo",
+    "Cinema"
   ],
   "used_poll_indices": [
     11,
@@ -33,14 +33,14 @@
     12,
     2
   ],
-  "original_type_index": 5,
-  "last_updated": "2026-06-27T17:59:12.902859+00:00",
+  "original_type_index": 6,
+  "last_updated": "2026-06-27T22:06:12.977489+00:00",
   "post_type_index": 10,
-  "total_posts": 237,
+  "total_posts": 238,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "concert",
   "curation_year": 2024
 }
