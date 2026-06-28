@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260506_181406",
-    "fb_post_id": "1043162839046116_1385403013634241",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Habana Abierta",
-    "image_url": "https://images.pexels.com/photos/15299013/pexels-photo-15299013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-05-06T18:14:33.222048+00:00"
-  },
-  {
     "post_id": "post_20260506_220057",
     "fb_post_id": "1043162839046116_1385519373622605",
     "ig_post_id": null,
@@ -2272,5 +2260,17 @@
     "image_url": "https://images.pexels.com/photos/2601192/pexels-photo-2601192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-06-28T14:44:45.936349+00:00"
+  },
+  {
+    "post_id": "post_20260628_180325",
+    "fb_post_id": "1043162839046116_1431530039021538",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Radio Futura",
+    "image_url": "https://images.pexels.com/photos/17911948/pexels-photo-17911948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-06-28T18:03:53.094072+00:00"
   }
 ]

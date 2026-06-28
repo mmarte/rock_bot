@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260615_180047",
-    "status": "published",
-    "created_at": "2026-06-15T18:00:47.638336+00:00",
-    "post_type": "poll",
-    "topic": "Los Rabanes",
-    "text": "¿Dónde late el corazón del rock en español? Los festivales son un escenario emocionante para que las bandas como Los Rabanes muestren su talento. Entre los grandes eventos que reúnen a miles de fans, hay varios que destacan por su gran variedad de artistas. Estas son tus opciones: \n   Opción A: Vive Latino\n   Opción B: Lollapalooza LatAm\n   Opción C: Festival Estéreo Picnic\n   ¿Cuál es tu festival favorito?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Rabanes rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1420224476818761",
-    "ig_post_id": null,
-    "published_at": "2026-06-15T18:01:16.566523+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260615_205432",
     "status": "published",
     "created_at": "2026-06-15T20:54:32.516052+00:00",
@@ -1038,6 +1018,28 @@
     "fb_post_id": "1043162839046116_1431392312368644",
     "ig_post_id": null,
     "published_at": "2026-06-28T14:44:45.936349+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260628_180325",
+    "status": "published",
+    "created_at": "2026-06-28T18:03:25.951952+00:00",
+    "post_type": "poll",
+    "topic": "Radio Futura",
+    "text": "La unión de grandes talentos en el rock en español ha llevado a la creación de proyectos musicales increíbles. Desde la mezcla de estilos hasta la colaboración de artistas legendarios, estas uniones han producido resultados memorables. ¿Cuál es la colaboración que más te impacta? \n   Opciones: \n   👍 Cerati y Spinetta\n   ❤️ Maná y Santana\n   😮 Bunbury y Los Tigres del Norte\n   ¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #RadioFutura #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Radio Futura Spain rock 80s",
+    "extra_topics": [
+      "Maná"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1431530039021538",
+    "ig_post_id": null,
+    "published_at": "2026-06-28T18:03:53.094072+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

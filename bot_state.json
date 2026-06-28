@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Panteon Rococo",
     "Alux Nahual",
     "Líbido",
     "Gandhi",
@@ -19,10 +18,10 @@
     "Alux Nahual",
     "Toque Profundo",
     "Cinema",
-    "Habana Abierta"
+    "Habana Abierta",
+    "Radio Futura"
   ],
   "used_poll_indices": [
-    11,
     8,
     13,
     9,
@@ -31,16 +30,17 @@
     16,
     4,
     12,
-    2
+    2,
+    10
   ],
   "original_type_index": 7,
-  "last_updated": "2026-06-28T14:44:20.200466+00:00",
+  "last_updated": "2026-06-28T18:03:27.555120+00:00",
   "post_type_index": 10,
-  "total_posts": 239,
+  "total_posts": 240,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
