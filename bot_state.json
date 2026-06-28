@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Alux Nahual",
     "Líbido",
     "Gandhi",
     "Caramelos de Cianuro",
@@ -19,7 +18,8 @@
     "Toque Profundo",
     "Cinema",
     "Habana Abierta",
-    "Radio Futura"
+    "Radio Futura",
+    "Toque Profundo"
   ],
   "used_poll_indices": [
     8,
@@ -34,13 +34,13 @@
     10
   ],
   "original_type_index": 7,
-  "last_updated": "2026-06-28T18:03:27.555120+00:00",
+  "last_updated": "2026-06-28T22:05:41.923291+00:00",
   "post_type_index": 10,
-  "total_posts": 240,
+  "total_posts": 241,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

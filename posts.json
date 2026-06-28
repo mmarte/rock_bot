@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260615_205432",
-    "status": "published",
-    "created_at": "2026-06-15T20:54:32.516052+00:00",
-    "post_type": "youtube",
-    "topic": "Líbido",
-    "text": "La música de Líbido es un testimonio de la riqueza del rock peruano. Con su álbum debut, la banda logró un lugar destacado en la escena musical latinoamericana. La pasión y energía que irradia en cada presentación en vivo es un reflejo de su dedicación a la música. ¿Cuál es tu canción favorita de esta banda icónica?\n\nhttps://www.youtube.com/watch?v=35GA6VNiGMI\n\nLo Mejor del Rock en Español les presenta: #Libido\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Libido\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Líbido rock band concert",
-    "extra_topics": [],
-    "post_year": "1996",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=35GA6VNiGMI",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1420326010141941",
-    "ig_post_id": null,
-    "published_at": "2026-06-15T20:54:59.976410+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260615_230545",
     "status": "published",
     "created_at": "2026-06-15T23:05:45.906601+00:00",
@@ -1040,6 +1020,28 @@
     "fb_post_id": "1043162839046116_1431530039021538",
     "ig_post_id": null,
     "published_at": "2026-06-28T18:03:53.094072+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260628_220539",
+    "status": "published",
+    "created_at": "2026-06-28T22:05:39.978698+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "Escuchar a Maná versionear 'Afuera' de Caifanes en un festival de rock latino es una experiencia emocionante. La conexión entre ambos grupos se basa en su legado en la escena musical de México, donde Caifanes influyó en el rock en español y Maná se inspiró en su música. La versión en vivo de 'Afuera' es un momento destacado en el que la energía del público se combina con la interpretación de la banda. ¿Prefieres la versión original de Caifanes o la interpretación en vivo de Maná?\n\nhttps://www.youtube.com/watch?v=K9NO5UY76jc\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=K9NO5UY76jc",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1431672679007274",
+    "ig_post_id": null,
+    "published_at": "2026-06-28T22:06:07.449923+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

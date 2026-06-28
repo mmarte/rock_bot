@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260506_220057",
-    "fb_post_id": "1043162839046116_1385519373622605",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Juanes",
-    "image_url": "https://img.youtube.com/vi/Dp9oSi9IpZ8/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-05-06T22:01:24.699762+00:00"
-  },
-  {
     "post_id": "post_20260507_043045",
     "fb_post_id": "1043162839046116_1385707866937089",
     "ig_post_id": null,
@@ -2272,5 +2260,17 @@
     "image_url": "https://images.pexels.com/photos/17911948/pexels-photo-17911948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-06-28T18:03:53.094072+00:00"
+  },
+  {
+    "post_id": "post_20260628_220539",
+    "fb_post_id": "1043162839046116_1431672679007274",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Maná",
+    "image_url": "https://img.youtube.com/vi/K9NO5UY76jc/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-28T22:06:07.449923+00:00"
   }
 ]
