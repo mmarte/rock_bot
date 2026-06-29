@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Líbido",
     "Gandhi",
     "Caramelos de Cianuro",
     "Fiel a la Vega",
@@ -19,7 +18,8 @@
     "Cinema",
     "Habana Abierta",
     "Radio Futura",
-    "Toque Profundo"
+    "Toque Profundo",
+    "La Cuneta Son Machín"
   ],
   "used_poll_indices": [
     8,
@@ -33,14 +33,14 @@
     2,
     10
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-06-28T22:05:41.923291+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-06-29T05:23:05.405431+00:00",
   "post_type_index": 10,
-  "total_posts": 241,
+  "total_posts": 242,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }
