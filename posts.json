@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260616_062333",
-    "status": "published",
-    "created_at": "2026-06-16T06:23:33.737871+00:00",
-    "post_type": "poll",
-    "topic": "Toque Profundo",
-    "text": "El rock en español cuenta con una rica tradición de bajistas talentosos que han dejado su huella en la música. Desde el estilo único de Soda Stereo hasta la fusión innovadora de Los Fabulosos Cadillacs, el bajo juega un papel crucial en la creación de ritmos memorables. ¿Quién es el bajista que más te inspira? \n   👍 Zeta Bosio - Soda Stereo \n   ❤️ Flavio Cianciarulo - Los Fabulosos Cadillacs \n   😮 Juan Alderete \n   ¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ToqueProfundo #SodaStereo #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Toque Profundo rock band concert",
-    "extra_topics": [
-      "Soda Stereo",
-      "Los Fabulosos Cadillacs"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1420637770110765",
-    "ig_post_id": null,
-    "published_at": "2026-06-16T06:24:00.386420+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260616_175647",
     "status": "published",
     "created_at": "2026-06-16T17:56:47.440306+00:00",
@@ -1042,6 +1019,26 @@
     "fb_post_id": "1043162839046116_1431915075649701",
     "ig_post_id": null,
     "published_at": "2026-06-29T05:23:30.926179+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260629_163512",
+    "status": "published",
+    "created_at": "2026-06-29T16:35:12.207493+00:00",
+    "post_type": "youtube",
+    "topic": "Alux Nahual",
+    "text": "Alux Nahual nos lleva a un viaje musical emocionante con su mezcla única de ritmos y melodías. Esta banda guatemalteca ha logrado crear un sonido que refleja la esencia de su país. Con su música, han demostrado ser una fuerza emergente en el rock en español. La forma en que combinan la guitarra, el bajo y la batería crea un sonido que invita a moverse al ritmo. ¿Qué hace que la música de Alux Nahual te atrapa?\n\nhttps://www.youtube.com/watch?v=k4QBnKcge_g\n\nLo Mejor del Rock en Español les presenta: #AluxNahual\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #AluxNahual\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Alux Nahual rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=k4QBnKcge_g",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1432351475606061",
+    "ig_post_id": null,
+    "published_at": "2026-06-29T16:35:39.712068+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
