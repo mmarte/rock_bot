@@ -2,7 +2,6 @@
   "used_bands": [
     "La Cuneta Son Machín",
     "La Cuneta Son Machín",
-    "La Cuneta Son Machín",
     "Malpaís",
     "Extremoduro",
     "La Cuneta Son Machín",
@@ -19,7 +18,8 @@
     "La Cuneta Son Machín",
     "Alux Nahual",
     "Desorden Público",
-    "La Ley"
+    "La Ley",
+    "Los Tres"
   ],
   "used_poll_indices": [
     8,
@@ -33,14 +33,14 @@
     2,
     10
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-06-29T22:10:35.356706+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-06-30T04:57:57.159000+00:00",
   "post_type_index": 10,
-  "total_posts": 245,
+  "total_posts": 246,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
