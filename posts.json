@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260617_055904",
-    "status": "published",
-    "created_at": "2026-06-17T05:59:04.033548+00:00",
-    "post_type": "youtube",
-    "topic": "Savage",
-    "text": "La combinación de 'Body' y 'Savage Remix' crea un momento emocionante en el escenario. Lo que más destaca es la capacidad de Megan Thee Stallion para fusionar su presencia en el escenario con su talento vocal, lo que resulta en un espectáculo impactante. ¿Cuál es tu canción favorita de Megan Thee Stallion?\n\nhttps://www.youtube.com/watch?v=VFdcOboiVOQ\n\nLo Mejor del Rock en Español les presenta: #Savage\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Savage\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Savage rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=VFdcOboiVOQ",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1421484596692749",
-    "ig_post_id": null,
-    "published_at": "2026-06-17T05:59:31.052998+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260617_163419",
     "status": "published",
     "created_at": "2026-06-17T16:34:19.608575+00:00",
@@ -1035,6 +1015,28 @@
     "fb_post_id": "1043162839046116_1432774172230458",
     "ig_post_id": null,
     "published_at": "2026-06-30T04:58:22.650157+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260630_152421",
+    "status": "published",
+    "created_at": "2026-06-30T15:24:21.419584+00:00",
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "text": "La fusión de la esencia del rock británico con la pasión latina puede llevar a resultados sorprendentes. Soda Stereo nos dio un ejemplo notable con su versión de 'Paint It Black' de The Rolling Stones. La versión original es ya un himno, y la interpretación de Soda Stereo logra mantener el alma oscura y melancólica de la canción, imprimiéndole un sello único en español. La interpretación de Soda Stereo muestra cómo un cover puede ser tanto un homenaje como una reinterpretación audaz. ¿Qué versión te emociona más, la original de The Rolling Stones o la reinterpretación de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=jS0VLh32jWM\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Soda Stereo Paint It Black live",
+    "extra_topics": [
+      "Gustavo Cerati"
+    ],
+    "post_year": "1966",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=jS0VLh32jWM",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1433170675524141",
+    "ig_post_id": null,
+    "published_at": "2026-06-30T15:24:49.461843+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
