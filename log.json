@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260508_220208",
-    "fb_post_id": "1043162839046116_1387103970130812",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Fiel a la Vega",
-    "image_url": "https://img.youtube.com/vi/MizRQx7_mb4/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-05-08T22:02:35.390059+00:00"
-  },
-  {
     "post_id": "post_20260509_041941",
     "fb_post_id": "1043162839046116_1387288226779053",
     "ig_post_id": null,
@@ -2272,5 +2260,17 @@
     "image_url": "https://img.youtube.com/vi/jS0VLh32jWM/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-06-30T15:24:49.461843+00:00"
+  },
+  {
+    "post_id": "post_20260630_185628",
+    "fb_post_id": "1043162839046116_1433318448842697",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Octavia",
+    "image_url": "https://img.youtube.com/vi/3-_qihkr7cQ/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-06-30T18:56:56.618537+00:00"
   }
 ]
