@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Malpaís",
     "Extremoduro",
     "La Cuneta Son Machín",
     "Los Rabanes",
@@ -19,7 +18,8 @@
     "La Ley",
     "Los Tres",
     "Alux Nahual",
-    "Octavia"
+    "Octavia",
+    "Zapato 3"
   ],
   "used_poll_indices": [
     8,
@@ -33,14 +33,14 @@
     2,
     10
   ],
-  "original_type_index": 10,
-  "last_updated": "2026-06-30T18:56:30.922648+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-06-30T22:17:42.862193+00:00",
   "post_type_index": 10,
-  "total_posts": 248,
+  "total_posts": 249,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
