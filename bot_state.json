@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Savage",
     "Octavia",
     "Habana Abierta",
     "Alux Nahual",
@@ -19,7 +18,8 @@
     "Zapato 3",
     "Octavia",
     "Cascomar",
-    "Octavia"
+    "Octavia",
+    "Divididos"
   ],
   "used_poll_indices": [
     8,
@@ -33,14 +33,14 @@
     2,
     10
   ],
-  "original_type_index": 3,
-  "last_updated": "2026-07-01T18:58:52.757246+00:00",
+  "original_type_index": 4,
+  "last_updated": "2026-07-01T22:20:33.686106+00:00",
   "post_type_index": 10,
-  "total_posts": 252,
+  "total_posts": 253,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "original",
   "curation_year": 2024
 }
