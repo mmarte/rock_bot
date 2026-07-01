@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260509_174628",
-    "fb_post_id": "1043162839046116_1387785220062687",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Malpaís",
-    "image_url": "https://images.pexels.com/photos/2601191/pexels-photo-2601191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-05-09T17:46:55.197546+00:00"
-  },
-  {
     "post_id": "post_20260509_214954",
     "fb_post_id": "1043162839046116_1387928103381732",
     "ig_post_id": null,
@@ -2272,5 +2260,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG/330px-Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG",
     "status": "published",
     "executed_at": "2026-07-01T05:18:35.599566+00:00"
+  },
+  {
+    "post_id": "post_20260701_153602",
+    "fb_post_id": "1043162839046116_1434100092097866",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Cascomar",
+    "image_url": "https://img.youtube.com/vi/KvQWmFF93fE/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-01T15:36:30.084873+00:00"
   }
 ]

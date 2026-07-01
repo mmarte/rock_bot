@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Cuneta Son Machín",
     "Los Rabanes",
     "Savage",
     "Octavia",
@@ -19,7 +18,8 @@
     "Alux Nahual",
     "Octavia",
     "Zapato 3",
-    "Octavia"
+    "Octavia",
+    "Cascomar"
   ],
   "used_poll_indices": [
     8,
@@ -34,13 +34,13 @@
     10
   ],
   "original_type_index": 2,
-  "last_updated": "2026-07-01T05:18:10.201789+00:00",
+  "last_updated": "2026-07-01T15:36:04.499834+00:00",
   "post_type_index": 10,
-  "total_posts": 250,
+  "total_posts": 251,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "concert",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
