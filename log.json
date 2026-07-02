@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260510_215245",
-    "fb_post_id": "1043162839046116_1388821443292398",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "La Ley",
-    "image_url": "https://images.pexels.com/photos/11977517/pexels-photo-11977517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-05-10T21:52:46.839305+00:00"
-  },
-  {
     "post_id": "post_20260511_045734",
     "fb_post_id": "1043162839046116_1389039273270615",
     "ig_post_id": null,
@@ -2272,5 +2260,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
     "status": "published",
     "executed_at": "2026-07-02T15:07:58.887574+00:00"
+  },
+  {
+    "post_id": "post_20260702_182532",
+    "fb_post_id": "1043162839046116_1435061782001697",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "image_url": "https://img.youtube.com/vi/iSWtBkdFeJk/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-02T18:26:00.120979+00:00"
   }
 ]
