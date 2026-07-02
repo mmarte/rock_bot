@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260510_141903",
-    "fb_post_id": "1043162839046116_1388529416654934",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Gandhi",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg",
-    "status": "published",
-    "executed_at": "2026-05-10T14:19:30.894913+00:00"
-  },
-  {
     "post_id": "post_20260510_174753",
     "fb_post_id": "1043162839046116_1388677863306756",
     "ig_post_id": null,
@@ -2272,5 +2260,17 @@
     "image_url": "http://www.divididos.com.ar/imgs/divididos.jpg",
     "status": "published",
     "executed_at": "2026-07-01T22:20:59.212774+00:00"
+  },
+  {
+    "post_id": "post_20260702_045306",
+    "fb_post_id": "1043162839046116_1434542345386974",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Aterciopelados",
+    "image_url": "https://img.youtube.com/vi/cGDX6cbqzsk/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-02T04:53:34.162346+00:00"
   }
 ]
