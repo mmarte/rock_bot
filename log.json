@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260511_045734",
-    "fb_post_id": "1043162839046116_1389039273270615",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Zapato 3",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Zapato_3_merida_2012.jpg/330px-Zapato_3_merida_2012.jpg",
-    "status": "published",
-    "executed_at": "2026-05-11T04:58:01.733232+00:00"
-  },
-  {
     "post_id": "post_20260511_155602",
     "fb_post_id": "1043162839046116_1389441816563694",
     "ig_post_id": null,
@@ -2272,5 +2260,17 @@
     "image_url": "https://img.youtube.com/vi/iSWtBkdFeJk/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-02T18:26:00.120979+00:00"
+  },
+  {
+    "post_id": "post_20260702_221026",
+    "fb_post_id": "1043162839046116_1435192311988644",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Los Mojarras",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Los_Mojarras_08.jpg",
+    "status": "published",
+    "executed_at": "2026-07-02T22:10:53.464769+00:00"
   }
 ]
