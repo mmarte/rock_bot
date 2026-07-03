@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Cinema",
     "Habana Abierta",
     "Radio Futura",
     "Toque Profundo",
@@ -19,7 +18,8 @@
     "Caramelos de Cianuro",
     "Frágil",
     "La Renga",
-    "Los Mojarras"
+    "Los Mojarras",
+    "Mecano"
   ],
   "used_poll_indices": [
     13,
@@ -34,13 +34,13 @@
     3
   ],
   "original_type_index": 5,
-  "last_updated": "2026-07-02T22:10:27.940548+00:00",
+  "last_updated": "2026-07-03T04:35:27.484431+00:00",
   "post_type_index": 10,
-  "total_posts": 257,
+  "total_posts": 258,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }

@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260511_155602",
-    "fb_post_id": "1043162839046116_1389441816563694",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Tres",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lostres.jpg",
-    "status": "published",
-    "executed_at": "2026-05-11T15:56:29.566889+00:00"
-  },
-  {
     "post_id": "post_20260511_185627",
     "fb_post_id": "1043162839046116_1389561523218390",
     "ig_post_id": null,
@@ -2272,5 +2260,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Los_Mojarras_08.jpg",
     "status": "published",
     "executed_at": "2026-07-02T22:10:53.464769+00:00"
+  },
+  {
+    "post_id": "post_20260703_043526",
+    "fb_post_id": "1043162839046116_1435418551966020",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Mecano",
+    "image_url": "https://img.youtube.com/vi/J578WVm0E4U/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-03T04:35:52.857677+00:00"
   }
 ]
