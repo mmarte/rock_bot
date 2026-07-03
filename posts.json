@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260620_150134",
-    "status": "published",
-    "created_at": "2026-06-20T15:01:34.844199+00:00",
-    "post_type": "cover",
-    "topic": "Enrique Bunbury",
-    "text": "La voz única de Enrique Bunbury se fusiona con el clásico sonido de Héroes del Silencio en su versión de 'Entre Dos Tierras'. En esta reinterpretación, Bunbury logra transformar la canción en una balada íntima y emocional, ofreciendo una perspectiva fresca y personal. La combinación de estilos crea un resultado fascinante que invita a reflexionar sobre la esencia de la canción. ¿Te parece más impactante la versión original o la reinterpretación de Enrique Bunbury?\n\nhttps://www.youtube.com/watch?v=B9kipCl4dr8\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Enrique Bunbury Entre Dos Tierras live",
-    "extra_topics": [
-      "Héroes del Silencio"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=B9kipCl4dr8",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1424432073064668",
-    "ig_post_id": null,
-    "published_at": "2026-06-20T15:02:02.432979+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260620_180919",
     "status": "published",
     "created_at": "2026-06-20T18:09:19.968525+00:00",
@@ -1034,6 +1012,26 @@
     "fb_post_id": "1043162839046116_1435979981909877",
     "ig_post_id": null,
     "published_at": "2026-07-03T18:11:07.224859+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260703_220809",
+    "status": "published",
+    "created_at": "2026-07-03T22:08:09.695781+00:00",
+    "post_type": "youtube",
+    "topic": "Panteon Rococo",
+    "text": "Panteón Rococó es conocido por su enérgico y apasionante estilo en vivo. Su presentación en el Vive Latino es un ejemplo de cómo fusionan ritmos ska con letras profundas y un espectáculo visual impresionante. La banda ha demostrado una vez más su capacidad para entretener y conmover a su audiencia. ¿Cuál es tu tema favorito de Panteón Rococó?\n\nhttps://www.youtube.com/watch?v=4HXcmlKY_xw\n\nLo Mejor del Rock en Español les presenta: #PanteonRococo\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #PanteonRococo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Panteon Rococo Mexico ska band concert",
+    "extra_topics": [],
+    "post_year": "2024",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=4HXcmlKY_xw",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1436117988562743",
+    "ig_post_id": null,
+    "published_at": "2026-07-03T22:08:37.034443+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
