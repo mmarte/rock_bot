@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260620_050455",
-    "status": "published",
-    "created_at": "2026-06-20T05:04:55.580077+00:00",
-    "post_type": "poll",
-    "topic": "El Cuarteto de Nos",
-    "text": "El rock en español es un género vibrante y diverso que ha producido una gran cantidad de artistas talentosos. Desde las canciones poéticas hasta las fusiones de géneros, cada uno ha puesto su propio sello en la escena musical. Entre los muchos nombres destacados, algunos han logrado impresionar por su innovación y presencia en el escenario. ¿Quién te parece que es el solista más destacado en el rock en español? \n   Opciones: \n   Gustavo Cerati\n   Enrique Bunbury\n   Andrés Calamaro\n   ¿Quién es tu favorito?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ElCuartetodeNos #EnriqueBunbury #GustavoCerati #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "El Cuarteto de Nos Uruguay rock band",
-    "extra_topics": [
-      "Enrique Bunbury",
-      "Gustavo Cerati",
-      "Andrés Calamaro"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1424064199768122",
-    "ig_post_id": null,
-    "published_at": "2026-06-20T05:05:22.501732+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260620_150134",
     "status": "published",
     "created_at": "2026-06-20T15:01:34.844199+00:00",
@@ -1036,6 +1012,28 @@
     "fb_post_id": "1043162839046116_1435418551966020",
     "ig_post_id": null,
     "published_at": "2026-07-03T04:35:52.857677+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260703_181039",
+    "status": "published",
+    "created_at": "2026-07-03T18:10:39.796419+00:00",
+    "post_type": "cover",
+    "topic": "Aterciopelados",
+    "text": "Andrea Echeverri, la voz distintiva de Aterciopelados, ofrece una interpretación cautivadora de 'De Música Ligera' en un tributo latino. La combinación de su voz áspera y emotiva con el ritmo contagioso crea una versión única. La originalidad y la pasión que Aterciopelados aportaron a esta versión la hacen destacar. ¿Qué te gusta más, la energía del cover de Aterciopelados o la esencia del original de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=7ZdLVrui8tM\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Aterciopelados De Música Ligera live",
+    "extra_topics": [
+      "Soda Stereo"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=7ZdLVrui8tM",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1435979981909877",
+    "ig_post_id": null,
+    "published_at": "2026-07-03T18:11:07.224859+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

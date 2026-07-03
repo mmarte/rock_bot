@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Habana Abierta",
     "Radio Futura",
     "Toque Profundo",
     "La Cuneta Son Machín",
@@ -19,7 +18,8 @@
     "Frágil",
     "La Renga",
     "Los Mojarras",
-    "Mecano"
+    "Mecano",
+    "La Máquina Camaleón"
   ],
   "used_poll_indices": [
     13,
@@ -34,13 +34,13 @@
     3
   ],
   "original_type_index": 5,
-  "last_updated": "2026-07-03T04:35:27.484431+00:00",
+  "last_updated": "2026-07-03T18:10:41.884209+00:00",
   "post_type_index": 10,
-  "total_posts": 258,
+  "total_posts": 259,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
