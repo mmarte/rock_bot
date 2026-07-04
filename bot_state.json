@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Desorden Público",
     "La Ley",
     "Los Tres",
     "Alux Nahual",
@@ -19,7 +18,8 @@
     "Panteon Rococo",
     "Cuca",
     "Octavia",
-    "Dedicados"
+    "Dedicados",
+    "Octavia"
   ],
   "used_poll_indices": [
     9,
@@ -33,14 +33,14 @@
     3,
     0
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-07-04T18:00:47.284974+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-07-04T22:03:20.440460+00:00",
   "post_type_index": 10,
-  "total_posts": 263,
+  "total_posts": 264,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "original",
   "curation_year": 2024
 }

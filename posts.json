@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260621_181803",
-    "status": "published",
-    "created_at": "2026-06-21T18:18:03.373704+00:00",
-    "post_type": "youtube",
-    "topic": "Divididos",
-    "text": "La química en vivo de Ricardo Mollo y Diego Arnedo es emocionante. La fusión de diferentes estilos y la energía de sus canciones más poderosas son momentos únicos que destacan la pasión y el poder del rock en español. ¿Cuál es tu momento favorito en un concierto de Divididos?\n\nhttps://www.youtube.com/watch?v=rczaANXhRCw\n\nLo Mejor del Rock en Español les presenta: #Divididos #LaRenga\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Divididos #LaRenga\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Divididos Argentina rock concert",
-    "extra_topics": [
-      "La Renga"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=rczaANXhRCw",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1425444802963395",
-    "ig_post_id": null,
-    "published_at": "2026-06-21T18:18:30.382255+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260621_221832",
     "status": "published",
     "created_at": "2026-06-21T22:18:32.334730+00:00",
@@ -1032,6 +1010,26 @@
     "fb_post_id": "1043162839046116_1436860645155144",
     "ig_post_id": null,
     "published_at": "2026-07-04T18:00:49.664514+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260704_220318",
+    "status": "published",
+    "created_at": "2026-07-04T22:03:18.771805+00:00",
+    "post_type": "original",
+    "topic": "Octavia",
+    "text": "Octavia, una banda española con un estilo único que fusiona rock alternativo, pop y electrónica, ha dejado una huella notable en la escena musical. Con un sonido característico y álbumes destacados, la banda ha generado un impacto significativo en la música española. Su influencia se puede escuchar en varias bandas que han seguido su estela, y su música sigue siendo escuchada y apreciada por fans de diferentes generaciones. ¿Qué te gusta más de la música de Octavia?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Octavia rock band concert",
+    "extra_topics": [],
+    "post_year": "2002",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1436994431808432",
+    "ig_post_id": null,
+    "published_at": "2026-07-04T22:03:45.806646+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
