@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260621_150819",
-    "status": "published",
-    "created_at": "2026-06-21T15:08:19.539701+00:00",
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "text": "La energía de Café Tacvba al reinterpretar 'Matador' de Los Fabulosos Cadillacs es emocionante. Con su toque único, la banda logra crear una versión impactante. La versión original de Los Fabulosos Cadillacs y la versión cover de Café Tacvba tienen sus propias cualidades. ¿Cuál te gusta más?\n\nhttps://www.youtube.com/watch?v=JZ1RxVuDj10\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Café Tacvba Matador live",
-    "extra_topics": [
-      "Los Fabulosos Cadillacs"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=JZ1RxVuDj10",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1425313226309886",
-    "ig_post_id": null,
-    "published_at": "2026-06-21T15:08:46.735977+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260621_181803",
     "status": "published",
     "created_at": "2026-06-21T18:18:03.373704+00:00",
@@ -1032,6 +1010,28 @@
     "fb_post_id": "1043162839046116_1436707161837159",
     "ig_post_id": null,
     "published_at": "2026-07-04T14:25:26.937437+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260704_180045",
+    "status": "published",
+    "created_at": "2026-07-04T18:00:45.082059+00:00",
+    "post_type": "original",
+    "topic": "Dedicados",
+    "text": "Dedicados, la emblemática banda argentina, tiene una trayectoria musical muy interesante. Entre sus colaboraciones destacadas se encuentra su trabajo con el reconocido cantante y compositor Andrés Calamaro. Su álbum debut, lanzado a principios de los años 90, fue grabado en un plazo muy breve en un estudio de Buenos Aires. La rapidez y la intensidad de esa sesión de grabación se reflejan en la pasión y la autenticidad que caracterizan a sus canciones. ¿Qué te parece si sumergimos un poco más en la historia y el impacto de Dedicados en la escena del rock en español?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Dedicados #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Dedicados rock band concert",
+    "extra_topics": [
+      "Andrés Calamaro"
+    ],
+    "post_year": "1989",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1436860645155144",
+    "ig_post_id": null,
+    "published_at": "2026-07-04T18:00:49.664514+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
