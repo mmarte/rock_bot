@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260620_180919",
-    "status": "published",
-    "created_at": "2026-06-20T18:09:19.968525+00:00",
-    "post_type": "poll",
-    "topic": "Zapato 3",
-    "text": "El rock en español experimentó un auge significativo en la década de los 90, con bandas como Caifanes, Maná y Café Tacuba produciendo gran cantidad de música notable. ¿Cuál consideras que fue el año más destacado para el rock en español? \n   👍 1990 \n   ❤️ 1995 \n   😮 1992 \n   ¡Vota con tu reacción! 👍❤️😮 ¿Cuál es tu elección?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Zapato3 #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Zapato 3 rock band concert",
-    "extra_topics": [
-      "Maná",
-      "Caifanes"
-    ],
-    "post_year": "1990",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1424549423052933",
-    "ig_post_id": null,
-    "published_at": "2026-06-20T18:09:46.967729+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260620_221147",
     "status": "published",
     "created_at": "2026-06-20T22:11:47.652788+00:00",
@@ -1032,6 +1009,29 @@
     "fb_post_id": "1043162839046116_1436117988562743",
     "ig_post_id": null,
     "published_at": "2026-07-03T22:08:37.034443+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260704_042942",
+    "status": "published",
+    "created_at": "2026-07-04T04:29:42.042859+00:00",
+    "post_type": "poll",
+    "topic": "Cuca",
+    "text": "El rock en español es rico en diversidad y talento, con bandas que han conquistado el corazón de muchos fanáticos. Desde la emoción de los conciertos en vivo hasta la profunda conexión con las letras, cada banda ha dejado su huella única. ¿Cuál es la banda de rock en español que más te gusta? \n   Opciones: \n   Soda Stereo\n   Heroes del Silencio\n   Maná\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cuca #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Cuca Mexico rock band",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1436331505208058",
+    "ig_post_id": null,
+    "published_at": "2026-07-04T04:30:09.022422+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

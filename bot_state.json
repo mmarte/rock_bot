@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Toque Profundo",
     "La Cuneta Son Machín",
     "Alux Nahual",
     "Desorden Público",
@@ -19,10 +18,10 @@
     "Los Mojarras",
     "Mecano",
     "La Máquina Camaleón",
-    "Panteon Rococo"
+    "Panteon Rococo",
+    "Cuca"
   ],
   "used_poll_indices": [
-    13,
     9,
     14,
     19,
@@ -31,16 +30,17 @@
     12,
     2,
     10,
-    3
+    3,
+    0
   ],
   "original_type_index": 5,
-  "last_updated": "2026-07-03T22:08:11.621014+00:00",
+  "last_updated": "2026-07-04T04:29:43.534514+00:00",
   "post_type_index": 10,
-  "total_posts": 260,
+  "total_posts": 261,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024
 }

@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260512_043220",
-    "fb_post_id": "1043162839046116_1389869043187638",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/iSWtBkdFeJk/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-05-12T04:32:47.208969+00:00"
-  },
-  {
     "post_id": "post_20260512_185543",
     "fb_post_id": "1043162839046116_1390423516465524",
     "ig_post_id": null,
@@ -2272,5 +2260,17 @@
     "image_url": "https://img.youtube.com/vi/4HXcmlKY_xw/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-03T22:08:37.034443+00:00"
+  },
+  {
+    "post_id": "post_20260704_042942",
+    "fb_post_id": "1043162839046116_1436331505208058",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Cuca",
+    "image_url": "https://images.pexels.com/photos/17249634/pexels-photo-17249634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-07-04T04:30:09.022422+00:00"
   }
 ]
