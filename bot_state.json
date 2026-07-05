@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Ley",
     "Los Tres",
     "Alux Nahual",
     "Octavia",
@@ -19,7 +18,8 @@
     "Cuca",
     "Octavia",
     "Dedicados",
-    "Octavia"
+    "Octavia",
+    "Charly García"
   ],
   "used_poll_indices": [
     9,
@@ -34,13 +34,13 @@
     0
   ],
   "original_type_index": 7,
-  "last_updated": "2026-07-04T22:03:20.440460+00:00",
+  "last_updated": "2026-07-05T04:49:17.545898+00:00",
   "post_type_index": 10,
-  "total_posts": 264,
+  "total_posts": 265,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

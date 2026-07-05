@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260621_221832",
-    "status": "published",
-    "created_at": "2026-06-21T22:18:32.334730+00:00",
-    "post_type": "original",
-    "topic": "Radio Futura",
-    "text": "Uno de los momentos más destacados en la historia de Radio Futura fue su concierto en la Plaza de Toros de Madrid. La banda, formada por Enrique Sierra, Luis Auserón y Javier Monje, impresionó al público con su energía en el escenario. Durante el concierto, tocaron algunas de sus canciones más destacadas, incluyendo temas de sus álbumes 'La ley del desierto' y 'El visitante'. ¿Te consideras un fan de Radio Futura y tienes un momento favorito de su discografía?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #RadioFutura\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Radio Futura Spain rock 80s",
-    "extra_topics": [],
-    "post_year": "1987",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1425581516283057",
-    "ig_post_id": null,
-    "published_at": "2026-06-21T22:18:59.350907+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260622_061949",
     "status": "published",
     "created_at": "2026-06-22T06:19:49.538893+00:00",
@@ -1030,6 +1010,28 @@
     "fb_post_id": "1043162839046116_1436994431808432",
     "ig_post_id": null,
     "published_at": "2026-07-04T22:03:45.806646+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260705_044915",
+    "status": "published",
+    "created_at": "2026-07-05T04:49:15.295999+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "La fusión de estilos entre Los Fabulosos Cadillacs y Café Tacvba da como resultado algo verdaderamente especial. 'Matador' es un ejemplo perfecto de cómo una canción puede evolucionar y adquirir una nueva dimensión a través de una versión cover. El toque electrónico y el ritmo latino que Café Tacvba le imprime a esta canción le dan una vibrante energía. La combinación de estas dos bandas abre nuevas posibilidades para la música en español. ¿Te gusta más la versión original o el cover de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=bUBcfSLAk_0\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba Matador live",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=bUBcfSLAk_0",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1437230371784838",
+    "ig_post_id": null,
+    "published_at": "2026-07-05T04:49:42.962747+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
