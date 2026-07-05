@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Tres",
     "Alux Nahual",
     "Octavia",
     "Zapato 3",
@@ -19,7 +18,8 @@
     "Octavia",
     "Dedicados",
     "Octavia",
-    "Charly García"
+    "Charly García",
+    "Hombres G"
   ],
   "used_poll_indices": [
     9,
@@ -33,14 +33,14 @@
     3,
     0
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-07-05T04:49:17.545898+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-07-05T14:27:01.541707+00:00",
   "post_type_index": 10,
-  "total_posts": 265,
+  "total_posts": 266,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "concert",
   "curation_year": 2024
 }

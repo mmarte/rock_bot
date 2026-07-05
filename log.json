@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260513_185612",
-    "fb_post_id": "1043162839046116_1391261753048367",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Fiel a la Vega",
-    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
-    "status": "published",
-    "executed_at": "2026-05-13T18:56:39.452831+00:00"
-  },
-  {
     "post_id": "post_20260513_221640",
     "fb_post_id": "1043162839046116_1391405849700624",
     "ig_post_id": null,
@@ -2278,5 +2266,17 @@
     "image_url": "https://img.youtube.com/vi/bUBcfSLAk_0/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-05T04:49:42.962747+00:00"
+  },
+  {
+    "post_id": "post_20260705_142700",
+    "fb_post_id": "1043162839046116_1437592621748613",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Hombres G",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hombres_G_en_el_estudio_cantando.jpg",
+    "status": "published",
+    "executed_at": "2026-07-05T14:27:26.925598+00:00"
   }
 ]
