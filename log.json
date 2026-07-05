@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260514_151446",
-    "fb_post_id": "1043162839046116_1392083876299488",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Toque Profundo",
-    "image_url": "https://images.pexels.com/photos/15299013/pexels-photo-15299013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-05-14T15:15:13.563523+00:00"
-  },
-  {
     "post_id": "post_20260514_185317",
     "fb_post_id": "1043162839046116_1392234786284397",
     "ig_post_id": null,
@@ -2278,5 +2266,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
     "status": "published",
     "executed_at": "2026-07-05T18:00:12.152640+00:00"
+  },
+  {
+    "post_id": "post_20260705_220508",
+    "fb_post_id": "1043162839046116_1437884995052709",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Flou",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
+    "status": "published",
+    "executed_at": "2026-07-05T22:05:35.460516+00:00"
   }
 ]
