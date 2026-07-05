@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260513_221640",
-    "fb_post_id": "1043162839046116_1391405849700624",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Los Rabanes",
-    "image_url": "https://img.youtube.com/vi/2dMeFm7hXOo/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-05-13T22:17:08.066711+00:00"
-  },
-  {
     "post_id": "post_20260514_151446",
     "fb_post_id": "1043162839046116_1392083876299488",
     "ig_post_id": null,
@@ -2278,5 +2266,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hombres_G_en_el_estudio_cantando.jpg",
     "status": "published",
     "executed_at": "2026-07-05T14:27:26.925598+00:00"
+  },
+  {
+    "post_id": "post_20260705_175945",
+    "fb_post_id": "1043162839046116_1437747001733175",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Los Rabanes",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
+    "status": "published",
+    "executed_at": "2026-07-05T18:00:12.152640+00:00"
   }
 ]
