@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260514_185317",
-    "fb_post_id": "1043162839046116_1392234786284397",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Alux Nahual",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Alux_Nahual.jpg",
-    "status": "published",
-    "executed_at": "2026-05-14T18:53:44.391122+00:00"
-  },
-  {
     "post_id": "post_20260514_221501",
     "fb_post_id": "1043162839046116_1392345349606674",
     "ig_post_id": null,
@@ -2278,5 +2266,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
     "status": "published",
     "executed_at": "2026-07-05T22:05:35.460516+00:00"
+  },
+  {
+    "post_id": "post_20260706_050326",
+    "fb_post_id": "1043162839046116_1438131595028049",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Gandhi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg",
+    "status": "published",
+    "executed_at": "2026-07-06T05:03:53.386919+00:00"
   }
 ]
