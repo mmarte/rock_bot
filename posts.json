@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260623_221738",
-    "status": "published",
-    "created_at": "2026-06-23T22:17:38.343239+00:00",
-    "post_type": "poll",
-    "topic": "Líbido",
-    "text": "Un concierto en vivo es una experiencia intensa, donde las bandas pueden mostrar su energía y conexión con el público de manera única. En el escenario, la pasión y la emoción se comparten entre los artistas y el público. Ahora, te toca elegir: ¿Cuál es el mejor disco en vivo del rock en español? \n   Opción A: Me Verás Volver - Soda Stereo \n   Opción B: En Directo - Heroes del Silencio \n   Opción C: MTV Unplugged - Maná \n   ¡Vota con tu reacción! ¿Cuál es tu elección?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Libido #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Líbido rock band concert",
-    "extra_topics": [
-      "Soda Stereo",
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1427330062774869",
-    "ig_post_id": null,
-    "published_at": "2026-06-23T22:18:05.732004+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260624_045838",
     "status": "published",
     "created_at": "2026-06-24T04:58:38.757053+00:00",
@@ -1035,6 +1012,26 @@
     "fb_post_id": "1043162839046116_1438682744972934",
     "ig_post_id": null,
     "published_at": "2026-07-06T18:54:06.271060+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260706_221606",
+    "status": "published",
+    "created_at": "2026-07-06T22:16:06.234173+00:00",
+    "post_type": "original",
+    "topic": "Habana Abierta",
+    "text": "Habana Abierta es una destacada banda del rock cubano que tiene su origen en la ciudad de La Habana. El grupo cuenta con miembros talentosos como X Alfonso, Eriel Martínez y Osamu Sakurai, entre otros. Su música es el resultado de una fusión única de estilos y géneros. El álbum 'Habana Abierta' es un ejemplo de su capacidad para experimentar y crear sonoridades innovadoras. La banda ha demostrado su versatilidad y habilidad para fusionar el rock con otros géneros musicales. ¿Cuál es tu canción favorita de esta banda cubana?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Habana Abierta rock band concert",
+    "extra_topics": [],
+    "post_year": "1997",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1438791881628687",
+    "ig_post_id": null,
+    "published_at": "2026-07-06T22:16:33.254876+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

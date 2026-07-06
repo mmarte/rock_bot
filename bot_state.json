@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Octavia",
     "Divididos",
     "Caramelos de Cianuro",
     "Frágil",
@@ -19,7 +18,8 @@
     "Flou",
     "Gandhi",
     "Toque Profundo",
-    "Líbido"
+    "Líbido",
+    "Habana Abierta"
   ],
   "used_poll_indices": [
     9,
@@ -33,14 +33,14 @@
     3,
     0
   ],
-  "original_type_index": 2,
-  "last_updated": "2026-07-06T18:53:40.864913+00:00",
+  "original_type_index": 3,
+  "last_updated": "2026-07-06T22:16:07.846883+00:00",
   "post_type_index": 10,
-  "total_posts": 271,
+  "total_posts": 272,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }
