@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Cascomar",
     "Octavia",
     "Divididos",
     "Caramelos de Cianuro",
@@ -19,7 +18,8 @@
     "Los Rabanes",
     "Flou",
     "Gandhi",
-    "Toque Profundo"
+    "Toque Profundo",
+    "Líbido"
   ],
   "used_poll_indices": [
     9,
@@ -34,13 +34,13 @@
     0
   ],
   "original_type_index": 2,
-  "last_updated": "2026-07-06T16:14:01.519421+00:00",
+  "last_updated": "2026-07-06T18:53:40.864913+00:00",
   "post_type_index": 10,
-  "total_posts": 270,
+  "total_posts": 271,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "concert",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

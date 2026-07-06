@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260623_154512",
-    "status": "published",
-    "created_at": "2026-06-23T15:45:12.726954+00:00",
-    "post_type": "youtube",
-    "topic": "Alux Nahual",
-    "text": "Alux Nahual es conocido por su capacidad para mezclar diferentes ritmos y estilos musicales de manera única. Su música logra llevar a la audiencia a un viaje musical lleno de pasión y energía. Me encanta cómo su sonido puede evocar emociones intensas en quienes lo escuchan. ¿Cuál es tu canción favorita de Alux Nahual y por qué te gusta?\n\nhttps://www.youtube.com/watch?v=dT8ioZWpYIE\n\nLo Mejor del Rock en Español les presenta: #AluxNahual\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #AluxNahual\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Alux Nahual rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=dT8ioZWpYIE",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1427097699464772",
-    "ig_post_id": null,
-    "published_at": "2026-06-23T15:45:40.240119+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260623_221738",
     "status": "published",
     "created_at": "2026-06-23T22:17:38.343239+00:00",
@@ -1033,6 +1013,28 @@
     "fb_post_id": "1043162839046116_1438577424983466",
     "ig_post_id": null,
     "published_at": "2026-07-06T16:14:26.913085+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260706_185338",
+    "status": "published",
+    "created_at": "2026-07-06T18:53:38.908165+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "Maná ofreció una versión en vivo de 'Afuera' que cautivó a la audiencia en un festival de rock latino. La voz de Fher Olvera y el arreglo vibrante de la canción crearon una interpretación única. La capacidad de Maná para reinterpretar canciones de otros artistas es notable, pero ¿qué es lo que hace que su versión de 'Afuera' sea tan impactante? ¿Se debe a la fidelidad al espíritu original o a su propio estilo? ¿Cuál prefieres, la versión original o la interpretación en vivo de Maná?\n\nhttps://www.youtube.com/watch?v=wD9FFnYwsYY\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=wD9FFnYwsYY",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1438682744972934",
+    "ig_post_id": null,
+    "published_at": "2026-07-06T18:54:06.271060+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
