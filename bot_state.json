@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Octavia",
     "Cascomar",
     "Octavia",
     "Divididos",
@@ -19,7 +18,8 @@
     "Hombres G",
     "Los Rabanes",
     "Flou",
-    "Gandhi"
+    "Gandhi",
+    "Toque Profundo"
   ],
   "used_poll_indices": [
     9,
@@ -33,14 +33,14 @@
     3,
     0
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-07-06T05:03:28.005208+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-07-06T16:14:01.519421+00:00",
   "post_type_index": 10,
-  "total_posts": 269,
+  "total_posts": 270,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "concert",
   "curation_year": 2024
 }
