@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Renga",
     "Los Mojarras",
     "Mecano",
     "La Máquina Camaleón",
@@ -19,7 +18,8 @@
     "Habana Abierta",
     "Los Rabanes",
     "La Vela Puerca",
-    "Cascomar"
+    "Cascomar",
+    "Zoé"
   ],
   "used_poll_indices": [
     14,
@@ -33,14 +33,14 @@
     0,
     6
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-07-07T19:00:14.025886+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-07-07T22:13:16.902258+00:00",
   "post_type_index": 10,
-  "total_posts": 275,
+  "total_posts": 276,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }

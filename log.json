@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260516_142034",
-    "fb_post_id": "1043162839046116_1393739449467264",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/wLHuPTp36ws/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-05-16T14:21:01.397599+00:00"
-  },
-  {
     "post_id": "post_20260516_175456",
     "fb_post_id": "1043162839046116_1393883936119482",
     "ig_post_id": null,
@@ -2284,5 +2272,17 @@
     "image_url": "https://img.youtube.com/vi/WY6sYZ3lRN4/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-07T19:00:39.553867+00:00"
+  },
+  {
+    "post_id": "post_20260707_221315",
+    "fb_post_id": "1043162839046116_1439702511537624",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Zoé",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/USKMXMTZLFA6BBRJWSG66DOG2Y.jpg/330px-USKMXMTZLFA6BBRJWSG66DOG2Y.jpg",
+    "status": "published",
+    "executed_at": "2026-07-07T22:13:42.211388+00:00"
   }
 ]
