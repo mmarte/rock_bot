@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Divididos",
     "Caramelos de Cianuro",
     "Frágil",
     "La Renga",
@@ -19,7 +18,8 @@
     "Gandhi",
     "Toque Profundo",
     "Líbido",
-    "Habana Abierta"
+    "Habana Abierta",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     9,
@@ -33,14 +33,14 @@
     3,
     0
   ],
-  "original_type_index": 3,
-  "last_updated": "2026-07-06T22:16:07.846883+00:00",
+  "original_type_index": 4,
+  "last_updated": "2026-07-07T04:42:29.430937+00:00",
   "post_type_index": 10,
-  "total_posts": 272,
+  "total_posts": 273,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "original",
   "curation_year": 2024
 }
