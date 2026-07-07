@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Caramelos de Cianuro",
     "Frágil",
     "La Renga",
     "Los Mojarras",
@@ -19,10 +18,10 @@
     "Toque Profundo",
     "Líbido",
     "Habana Abierta",
-    "Los Rabanes"
+    "Los Rabanes",
+    "La Vela Puerca"
   ],
   "used_poll_indices": [
-    9,
     14,
     19,
     16,
@@ -31,16 +30,17 @@
     2,
     10,
     3,
-    0
+    0,
+    6
   ],
   "original_type_index": 4,
-  "last_updated": "2026-07-07T04:42:29.430937+00:00",
+  "last_updated": "2026-07-07T15:41:41.117474+00:00",
   "post_type_index": 10,
-  "total_posts": 273,
+  "total_posts": 274,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }

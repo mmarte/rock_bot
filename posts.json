@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260624_153100",
-    "status": "published",
-    "created_at": "2026-06-24T15:31:00.833734+00:00",
-    "post_type": "original",
-    "topic": "Caramelos de Cianuro",
-    "text": "Caramelos de Cianuro es una banda venezolana que se destaca por su estilo único, que combina rock con ritmos latinos. Un punto importante en la carrera de la banda fue el lanzamiento de su álbum 'Descorazonados', que marcó un cambio significativo después de la partida de algunos de sus miembros fundadores. A partir de este punto, la banda demostró su capacidad para evolucionar y mantener su esencia en su música, algo que se puede apreciar en su evolución musical y madurez después de los cambios. ¿Cuál consideras su mejor álbum y qué lo hace destacar para ti?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CaramelosdeCianuro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Caramelos de Cianuro rock band concert",
-    "extra_topics": [],
-    "post_year": "2006",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1427951999379342",
-    "ig_post_id": null,
-    "published_at": "2026-06-24T15:31:28.613763+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260624_184935",
     "status": "published",
     "created_at": "2026-06-24T18:49:35.888373+00:00",
@@ -1030,6 +1010,29 @@
     "fb_post_id": "1043162839046116_1439007008273841",
     "ig_post_id": null,
     "published_at": "2026-07-07T04:42:54.745447+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260707_154139",
+    "status": "published",
+    "created_at": "2026-07-07T15:41:39.404076+00:00",
+    "post_type": "poll",
+    "topic": "La Vela Puerca",
+    "text": "El rock en español cuenta con una rica discografía que ha dejado una huella imborrable en la música. Desde la energía en el escenario hasta la creación de himnos que perduran, estos álbumes son verdaderos tesoros. ¿Cuál es el álbum que consideras más influyente de La Vela Puerca?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaVelaPuerca #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Vela Puerca rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1439445434896665",
+    "ig_post_id": null,
+    "published_at": "2026-07-07T15:42:06.526743+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
