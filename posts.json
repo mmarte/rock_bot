@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260625_190529",
-    "status": "published",
-    "created_at": "2026-06-25T19:05:29.848054+00:00",
-    "post_type": "original",
-    "topic": "Malpaís",
-    "text": "La banda costarricense Malpaís tiene una historia llena de sorpresas. Aquí te dejo tres datos interesantes sobre ellos: \n   1. La banda se formó en 1999 en San José, Costa Rica, y desde entonces, ha sido liderada por el reconocido músico costarricense Manuel Obregón.\n   2. Su álbum debut, lanzado en 2002, marcó el comienzo de una carrera exitosa que los llevaría a destacarse en la escena musical latinoamericana.\n   3. Malpaís ha colaborado con varios artistas de la región, enriqueciendo así su sonido único. \n   ¿Qué aspecto de la música de Malpaís te inspira más?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Malpais\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Malpaís rock band concert",
-    "extra_topics": [],
-    "post_year": "1999",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1428972222610653",
-    "ig_post_id": null,
-    "published_at": "2026-06-25T19:05:58.080486+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260625_222337",
     "status": "published",
     "created_at": "2026-06-25T22:23:37.357763+00:00",
@@ -1032,6 +1012,28 @@
     "fb_post_id": "1043162839046116_1440311604810048",
     "ig_post_id": null,
     "published_at": "2026-07-08T15:11:35.484467+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260708_181612",
+    "status": "published",
+    "created_at": "2026-07-08T18:16:12.703377+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "Café Tacvba ofrece una interpretación única de 'La Negra Tomasa', original de Caifanes. La versión de Café Tacvba es una experiencia llena de pasión y energía. ¿Te mueve más la esencia original de Caifanes o la interpretación apasionada de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=14lsFs1GrnU\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba La Negra Tomasa live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=14lsFs1GrnU",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1440430688131473",
+    "ig_post_id": null,
+    "published_at": "2026-07-08T18:16:21.436524+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
