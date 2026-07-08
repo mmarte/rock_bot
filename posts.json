@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260625_222337",
-    "status": "published",
-    "created_at": "2026-06-25T22:23:37.357763+00:00",
-    "post_type": "poll",
-    "topic": "Extremoduro",
-    "text": "El rock en español es diverso y enriquecedor, con una variedad de estilos que han evolucionado a lo largo de los años. Bandas como Extremoduro, Café Tacvba y Molotov han dejado su huella en la escena musical. ¿Cuál consideras la mejor colaboración o canción de Extremoduro?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Extremoduro #CafeTacvba #Caifanes #Molotov\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Extremoduro Spain rock band",
-    "extra_topics": [
-      "Café Tacvba",
-      "Caifanes",
-      "Molotov"
-    ],
-    "post_year": "1960",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1429074729267069",
-    "ig_post_id": null,
-    "published_at": "2026-06-25T22:24:03.869733+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260626_050305",
     "status": "published",
     "created_at": "2026-06-26T05:03:05.340906+00:00",
@@ -1034,6 +1010,29 @@
     "fb_post_id": "1043162839046116_1440430688131473",
     "ig_post_id": null,
     "published_at": "2026-07-08T18:16:21.436524+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260708_220944",
+    "status": "published",
+    "created_at": "2026-07-08T22:09:44.519274+00:00",
+    "post_type": "poll",
+    "topic": "Toque Profundo",
+    "text": "El rock en español debe gran parte de su riqueza a los talentosos guitarristas que han moldeado el género con sus estilos y técnicas únicas. Estos músicos han dejado una huella notable en la historia del rock. Entre ellos, destacan figuras legendarias que han llevado el rock en español a nuevas alturas con su música. ¿Quién consideras el guitarrista más influyente: \n   Opción A: Gustavo Cerati - Soda Stereo \n   Opción B: Iñaki Uoho - Heroes del Silencio \n   Opción C: Tweety González \n   ¿Cuál es tu opinión?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ToqueProfundo #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Toque Profundo rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1440548008119741",
+    "ig_post_id": null,
+    "published_at": "2026-07-08T22:10:11.671741+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

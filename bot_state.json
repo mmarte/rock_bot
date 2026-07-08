@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Panteon Rococo",
     "Cuca",
     "Octavia",
     "Dedicados",
@@ -19,10 +18,10 @@
     "Zoé",
     "Maná",
     "Habana Abierta",
-    "Molotov"
+    "Molotov",
+    "Toque Profundo"
   ],
   "used_poll_indices": [
-    14,
     19,
     16,
     4,
@@ -31,16 +30,17 @@
     10,
     3,
     0,
-    6
+    6,
+    5
   ],
   "original_type_index": 6,
-  "last_updated": "2026-07-08T18:16:14.455617+00:00",
+  "last_updated": "2026-07-08T22:09:46.215734+00:00",
   "post_type_index": 10,
-  "total_posts": 279,
+  "total_posts": 280,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "cover",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
