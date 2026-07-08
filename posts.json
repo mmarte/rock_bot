@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260625_045750",
-    "status": "published",
-    "created_at": "2026-06-25T04:57:50.061279+00:00",
-    "post_type": "original",
-    "topic": "La Cuneta Son Machín",
-    "text": "¿Qué define la esencia del rock en español? La fusión de ritmos latinos con rock en la música de La Cuneta Son Machín, o la combinación de rock con elementos de la música folclórica colombiana en la de Aterciopelados? La Cuneta Son Machín nos trae una mezcla única de rock y música tradicional nicaragüense. Aterciopelados, por otro lado, nos ofrecen un sonido innovador y experimental. ¿Te sientes más conectado con la pasión y la raíz cultural de La Cuneta Son Machín o con la creatividad y la experimentación de Aterciopelados?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaCunetaSonMachin #Aterciopelados #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "La Cuneta Son Machín rock band concert",
-    "extra_topics": [
-      "Aterciopelados",
-      "Andrés Calamaro"
-    ],
-    "post_year": "2004",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1428412012666674",
-    "ig_post_id": null,
-    "published_at": "2026-06-25T04:58:17.231894+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260625_153839",
     "status": "published",
     "created_at": "2026-06-25T15:38:39.184498+00:00",
@@ -1033,6 +1010,28 @@
     "fb_post_id": "1043162839046116_1439702511537624",
     "ig_post_id": null,
     "published_at": "2026-07-07T22:13:42.211388+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260708_040216",
+    "status": "published",
+    "created_at": "2026-07-08T04:02:16.391873+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "La combinación de estilos y talentos puede crear algo verdaderamente especial. 'Matador', una canción icónica, se vio reinterpretada por Café Tacvba, quienes le agregaron un toque electrónico y un ritmo latino fresco. En un entorno en vivo, esta versión adquiere una dinámica única, impulsada por la intensidad del público y la dedicación de los músicos. ¿Te inclinas más por la versión original o por la emotiva interpretación de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=D37WlEFtzEc\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba Matador live",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=D37WlEFtzEc",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1439898998184642",
+    "ig_post_id": null,
+    "published_at": "2026-07-08T04:02:44.051891+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

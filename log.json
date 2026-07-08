@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260516_175456",
-    "fb_post_id": "1043162839046116_1393883936119482",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Los Fabulosos Cadillacs",
-    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
-    "status": "published",
-    "executed_at": "2026-05-16T17:55:23.444729+00:00"
-  },
-  {
     "post_id": "post_20260516_215413",
     "status": "failed",
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
@@ -2284,5 +2272,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/USKMXMTZLFA6BBRJWSG66DOG2Y.jpg/330px-USKMXMTZLFA6BBRJWSG66DOG2Y.jpg",
     "status": "published",
     "executed_at": "2026-07-07T22:13:42.211388+00:00"
+  },
+  {
+    "post_id": "post_20260708_040216",
+    "fb_post_id": "1043162839046116_1439898998184642",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "image_url": "https://img.youtube.com/vi/D37WlEFtzEc/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-08T04:02:44.051891+00:00"
   }
 ]
