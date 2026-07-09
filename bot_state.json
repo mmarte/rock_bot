@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Dedicados",
     "Octavia",
     "Charly García",
     "Hombres G",
@@ -19,7 +18,8 @@
     "Molotov",
     "Toque Profundo",
     "Los Prisioneros",
-    "Fiel a la Vega"
+    "Fiel a la Vega",
+    "Desorden Público"
   ],
   "used_poll_indices": [
     16,
@@ -33,14 +33,14 @@
     5,
     13
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-07-09T15:54:21.663003+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-07-09T18:49:08.879961+00:00",
   "post_type_index": 10,
-  "total_posts": 282,
+  "total_posts": 283,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024
 }
