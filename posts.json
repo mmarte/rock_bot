@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260626_221738",
-    "status": "published",
-    "created_at": "2026-06-26T22:17:38.003002+00:00",
-    "post_type": "original",
-    "topic": "Octavia",
-    "text": "Octavia es una banda con una discografía impresionante. Algunos de sus álbumes destacados incluyen: \n   1. 'Octavia' (2004), que marca el comienzo de su carrera musical.\n   2. 'La Cripta' (2006), conocido por temas que fusionan rock y folklore.\n   3. 'Grandes Éxitos' (2011), una recopilación de temas que reflejan su crecimiento artístico.\n   ¿Cuál es tu álbum favorito de Octavia?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Octavia rock band concert",
-    "extra_topics": [],
-    "post_year": "2004",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1429937655847443",
-    "ig_post_id": null,
-    "published_at": "2026-06-26T22:18:04.956970+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260627_044449",
     "status": "published",
     "created_at": "2026-06-27T04:44:49.030001+00:00",
@@ -1041,6 +1021,28 @@
     "fb_post_id": "1043162839046116_1441285091379366",
     "ig_post_id": null,
     "published_at": "2026-07-09T18:49:34.340611+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260709_222512",
+    "status": "published",
+    "created_at": "2026-07-09T22:25:12.487198+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "La fusión de estilos entre Café Tacvba y Los Fabulosos Cadillacs da como resultado una versión única de 'Matador'. La combinación de la originalidad de Los Fabulosos Cadillacs con el enfoque innovador de Café Tacvba crea una experiencia sonora que mezcla ritmo latino con elementos electrónicos. Esta interpretación muestra cómo el rock en español puede evolucionar manteniendo su esencia. ¿Cuál versión te gusta más, la original de Los Fabulosos Cadillacs o el cover de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=DPDedKb7WGw\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba Matador live",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=DPDedKb7WGw",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1441398358034706",
+    "ig_post_id": null,
+    "published_at": "2026-07-09T22:25:39.828261+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

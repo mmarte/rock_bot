@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Octavia",
     "Charly García",
     "Hombres G",
     "Los Rabanes",
@@ -19,7 +18,8 @@
     "Toque Profundo",
     "Los Prisioneros",
     "Fiel a la Vega",
-    "Desorden Público"
+    "Desorden Público",
+    "Alux Nahual"
   ],
   "used_poll_indices": [
     16,
@@ -34,13 +34,13 @@
     13
   ],
   "original_type_index": 8,
-  "last_updated": "2026-07-09T18:49:08.879961+00:00",
+  "last_updated": "2026-07-09T22:25:14.181815+00:00",
   "post_type_index": 10,
-  "total_posts": 283,
+  "total_posts": 284,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
