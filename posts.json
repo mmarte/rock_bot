@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260626_152126",
-    "status": "published",
-    "created_at": "2026-06-26T15:21:26.640364+00:00",
-    "post_type": "original",
-    "topic": "Los Rabanes",
-    "text": "La banda panameña Los Rabanes se formó en la ciudad de Panamá y ha sido una parte importante de la escena musical de la región. Fundada por Emilio Regueira, el grupo incluyó a otros músicos como Christian Torres y Javier Saavedra. Un hecho notable es que su álbum debut 'Los Rabanes' fue lanzado y contó con la producción de Lucho Azcárraga y Gustavo 'Chus' Borja. Este álbum marcó el comienzo de su carrera y los llevó a convertirse en una banda muy influyente en el rock en español. ¿Cuál es tu canción favorita de Los Rabanes y qué te gusta de su estilo musical?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Rabanes rock band concert",
-    "extra_topics": [],
-    "post_year": "1992",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1429693685871840",
-    "ig_post_id": null,
-    "published_at": "2026-06-26T15:21:30.733471+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260626_182900",
     "status": "failed",
     "created_at": "2026-06-26T18:29:00.326417+00:00",
@@ -1035,6 +1015,30 @@
     "fb_post_id": "1043162839046116_1440748354766373",
     "ig_post_id": null,
     "published_at": "2026-07-09T04:42:38.073530+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260709_155419",
+    "status": "published",
+    "created_at": "2026-07-09T15:54:19.982851+00:00",
+    "post_type": "poll",
+    "topic": "Fiel a la Vega",
+    "text": "La capacidad de una banda para adaptarse y mantener su identidad es fundamental para su éxito duradero. Algunas han logrado mantener su vitalidad a lo largo de su carrera. ¿Cuál crees que es la banda que mejor evolucionó con el tiempo? \n   Opciones: \n   Café Tacvba \n   Los Fabulosos Cadillacs \n   Maná \n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega #Mana #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Fiel a la Vega rock band concert",
+    "extra_topics": [
+      "Maná",
+      "Café Tacvba",
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1441174121390463",
+    "ig_post_id": null,
+    "published_at": "2026-07-09T15:54:46.975780+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

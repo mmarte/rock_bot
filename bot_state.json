@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Octavia",
     "Dedicados",
     "Octavia",
     "Charly García",
@@ -19,10 +18,10 @@
     "Habana Abierta",
     "Molotov",
     "Toque Profundo",
-    "Los Prisioneros"
+    "Los Prisioneros",
+    "Fiel a la Vega"
   ],
   "used_poll_indices": [
-    19,
     16,
     4,
     12,
@@ -31,16 +30,17 @@
     3,
     0,
     6,
-    5
+    5,
+    13
   ],
   "original_type_index": 7,
-  "last_updated": "2026-07-09T04:42:12.471456+00:00",
+  "last_updated": "2026-07-09T15:54:21.663003+00:00",
   "post_type_index": 10,
-  "total_posts": 281,
+  "total_posts": 282,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
