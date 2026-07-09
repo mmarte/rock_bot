@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Cuca",
     "Octavia",
     "Dedicados",
     "Octavia",
@@ -19,7 +18,8 @@
     "Maná",
     "Habana Abierta",
     "Molotov",
-    "Toque Profundo"
+    "Toque Profundo",
+    "Los Prisioneros"
   ],
   "used_poll_indices": [
     19,
@@ -33,14 +33,14 @@
     6,
     5
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-07-08T22:09:46.215734+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-07-09T04:42:12.471456+00:00",
   "post_type_index": 10,
-  "total_posts": 280,
+  "total_posts": 281,
   "used_event_indices": [
     12,
     11
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024
 }
