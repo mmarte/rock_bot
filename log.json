@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260518_183027",
-    "fb_post_id": "1043162839046116_1395583212616221",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Los Rodríguez",
-    "image_url": "https://img.youtube.com/vi/CvG5ihmx9jU/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-05-18T18:30:54.844455+00:00"
-  },
-  {
     "post_id": "post_20260518_220614",
     "fb_post_id": "1043162839046116_1395696472604895",
     "ig_post_id": null,
@@ -2302,5 +2290,17 @@
     "image_url": "https://img.youtube.com/vi/DPDedKb7WGw/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-09T22:25:39.828261+00:00"
+  },
+  {
+    "post_id": "post_20260710_044355",
+    "fb_post_id": "1043162839046116_1441584078016134",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Aterciopelados",
+    "image_url": "https://img.youtube.com/vi/XscDfQIEFB0/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-10T04:44:22.617257+00:00"
   }
 ]
