@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Líbido",
     "Habana Abierta",
     "Los Rabanes",
     "La Vela Puerca",
@@ -19,7 +18,8 @@
     "Caramelos de Cianuro",
     "Dedicados",
     "Zapato 3",
-    "Alux Nahual"
+    "Alux Nahual",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     16,
@@ -33,15 +33,15 @@
     5,
     13
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-07-11T14:20:12.449297+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-07-11T17:53:09.794969+00:00",
   "post_type_index": 10,
-  "total_posts": 290,
+  "total_posts": 291,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }
