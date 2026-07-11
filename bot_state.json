@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Toque Profundo",
     "Líbido",
     "Habana Abierta",
     "Los Rabanes",
@@ -19,7 +18,8 @@
     "La Renga",
     "Caramelos de Cianuro",
     "Dedicados",
-    "Zapato 3"
+    "Zapato 3",
+    "Alux Nahual"
   ],
   "used_poll_indices": [
     16,
@@ -34,14 +34,14 @@
     13
   ],
   "original_type_index": 9,
-  "last_updated": "2026-07-11T04:00:02.713554+00:00",
+  "last_updated": "2026-07-11T14:20:12.449297+00:00",
   "post_type_index": 10,
-  "total_posts": 289,
+  "total_posts": 290,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

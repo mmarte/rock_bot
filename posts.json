@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260628_180325",
-    "status": "published",
-    "created_at": "2026-06-28T18:03:25.951952+00:00",
-    "post_type": "poll",
-    "topic": "Radio Futura",
-    "text": "La unión de grandes talentos en el rock en español ha llevado a la creación de proyectos musicales increíbles. Desde la mezcla de estilos hasta la colaboración de artistas legendarios, estas uniones han producido resultados memorables. ¿Cuál es la colaboración que más te impacta? \n   Opciones: \n   👍 Cerati y Spinetta\n   ❤️ Maná y Santana\n   😮 Bunbury y Los Tigres del Norte\n   ¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #RadioFutura #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Radio Futura Spain rock 80s",
-    "extra_topics": [
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1431530039021538",
-    "ig_post_id": null,
-    "published_at": "2026-06-28T18:03:53.094072+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260628_220539",
     "status": "published",
     "created_at": "2026-06-28T22:05:39.978698+00:00",
@@ -1047,6 +1025,28 @@
     "fb_post_id": "1043162839046116_1442374767937065",
     "ig_post_id": null,
     "published_at": "2026-07-11T04:00:28.242062+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260711_142010",
+    "status": "published",
+    "created_at": "2026-07-11T14:20:10.385380+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "La combinación de la energía de Maná con el legado de Caifanes es verdaderamente emocionante. La versión en vivo de 'Afuera' en un festival de rock latino muestra cómo Maná logra reinterpretar un clásico. La voz impactante de Fher Olvera y el ritmo de la banda dan un toque único a esta canción. ¿Te gusta más la versión de Maná o la original de Caifanes?\n\nhttps://www.youtube.com/watch?v=Qytjdv89dXs\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=Qytjdv89dXs",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1442739137900628",
+    "ig_post_id": null,
+    "published_at": "2026-07-11T14:20:37.830416+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

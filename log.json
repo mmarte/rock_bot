@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260519_222150",
-    "fb_post_id": "1043162839046116_1396560912518451",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Cinema",
-    "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-05-19T22:22:18.542799+00:00"
-  },
-  {
     "post_id": "post_20260520_045845",
     "status": "failed",
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
@@ -2302,5 +2290,17 @@
     "image_url": "https://img1.wsimg.com/isteam/getty/166272871",
     "status": "published",
     "executed_at": "2026-07-11T04:00:28.242062+00:00"
+  },
+  {
+    "post_id": "post_20260711_142010",
+    "fb_post_id": "1043162839046116_1442739137900628",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Maná",
+    "image_url": "https://img.youtube.com/vi/Qytjdv89dXs/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-11T14:20:37.830416+00:00"
   }
 ]
