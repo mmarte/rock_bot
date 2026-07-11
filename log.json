@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260520_162308",
-    "fb_post_id": "1043162839046116_1397241155783760",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Gustavo Cerati",
-    "image_url": "https://img.youtube.com/vi/WQe8S2ZuhWQ/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-05-20T16:23:35.975198+00:00"
-  },
-  {
     "post_id": "post_20260520_192320",
     "fb_post_id": "1043162839046116_1397351095772766",
     "ig_post_id": null,
@@ -2308,5 +2296,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
     "status": "published",
     "executed_at": "2026-07-11T17:53:35.166782+00:00"
+  },
+  {
+    "post_id": "post_20260711_215407",
+    "fb_post_id": "1043162839046116_1443003531207522",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "image_url": "https://img.youtube.com/vi/kIr8hsVTCzg/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-11T21:54:35.356537+00:00"
   }
 ]

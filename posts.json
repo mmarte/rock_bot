@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260629_052303",
-    "status": "published",
-    "created_at": "2026-06-29T05:23:03.472937+00:00",
-    "post_type": "original",
-    "topic": "La Cuneta Son Machín",
-    "text": "La Cuneta Son Machín es una banda nicaragüense que ha dejado una huella notable en el rock en español. Aquí te dejo 3 claves para entender su atractivo: \n   1. Su sonido es una fusión de rock, punk y ritmos latinos, caracterizado por la energía y la crítica social en sus letras.\n   2. La banda se formó en Nicaragua y desde entonces ha estado liderada por el carismático Carlos Mejía Godoy y su hija, la talentosa Katia Cardenal.\n   3. La publicación de sus álbumes ha consolidado su posición en la escena musical latinoamericana. ¿Cuál es tu canción favorita de La Cuneta Son Machín?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaCunetaSonMachin\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "La Cuneta Son Machín rock band concert",
-    "extra_topics": [],
-    "post_year": "1999",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1431915075649701",
-    "ig_post_id": null,
-    "published_at": "2026-06-29T05:23:30.926179+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260629_163512",
     "status": "published",
     "created_at": "2026-06-29T16:35:12.207493+00:00",
@@ -1047,6 +1027,28 @@
     "fb_post_id": "1043162839046116_1442880281219847",
     "ig_post_id": null,
     "published_at": "2026-07-11T17:53:35.166782+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260711_215407",
+    "status": "published",
+    "created_at": "2026-07-11T21:54:07.187279+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "La fusión de estilos y la creatividad son clave en el rock en español. Café Tacvba interpreta 'La Negra Tomasa' de Caifanes de una manera que logra capturar la esencia de la canción original mientras le añade su propio toque único. La voz y el ritmo en esta versión crean una experiencia musical que tanto puede homenajear el original como ofrecer una nueva perspectiva. ¿Qué versión te gusta más, la original de Caifanes o el cover de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=kIr8hsVTCzg\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba La Negra Tomasa live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=kIr8hsVTCzg",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1443003531207522",
+    "ig_post_id": null,
+    "published_at": "2026-07-11T21:54:35.356537+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
