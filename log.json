@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260519_185845",
-    "fb_post_id": "1043162839046116_1396450252529517",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Caramelos de Cianuro",
-    "image_url": "https://img.youtube.com/vi/n3ZFr4Pa1tA/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-05-19T18:59:13.065142+00:00"
-  },
-  {
     "post_id": "post_20260519_222150",
     "fb_post_id": "1043162839046116_1396560912518451",
     "ig_post_id": null,
@@ -2302,5 +2290,17 @@
     "image_url": "https://img.youtube.com/vi/kIr8hsVTCzg/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-10T22:07:21.599665+00:00"
+  },
+  {
+    "post_id": "post_20260711_040000",
+    "fb_post_id": "1043162839046116_1442374767937065",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "hoy_en_historia",
+    "topic": "Los Fabulosos Cadillacs",
+    "image_url": "https://img1.wsimg.com/isteam/getty/166272871",
+    "status": "published",
+    "executed_at": "2026-07-11T04:00:28.242062+00:00"
   }
 ]
