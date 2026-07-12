@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260630_045754",
-    "status": "published",
-    "created_at": "2026-06-30T04:57:54.740098+00:00",
-    "post_type": "original",
-    "topic": "Los Tres",
-    "text": "La discografía de Los Tres es amplia y diversa, abarcando varias etapas y colaboraciones. La etapa clásica con Álvaro Henríquez, Ángel Parra, Roberto Lindl y Francisco Molina dio lugar a álbumes como 'Los Tres' y 'Señora Luna', mientras que la incorporación de otros músicos llevó a discos como 'Fome' y 'Peineta'. Ambas etapas tienen su propio atractivo, desde el sonido inicial de la banda hasta la experimentación y madurez en sus trabajos posteriores. La colaboración entre Álvaro Henríquez y Ángel Parra es destacable, pero la capacidad de la banda para evolucionar y explorar nuevos sonidos también es notable. ¿Cuál consideras la etapa más destacada de la trayectoria de Los Tres?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosTres\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Tres Chile rock band",
-    "extra_topics": [],
-    "post_year": "1991",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1432774172230458",
-    "ig_post_id": null,
-    "published_at": "2026-06-30T04:58:22.650157+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260630_152421",
     "status": "published",
     "created_at": "2026-06-30T15:24:21.419584+00:00",
@@ -1053,6 +1033,28 @@
     "fb_post_id": "1043162839046116_1443706181137257",
     "ig_post_id": null,
     "published_at": "2026-07-12T17:59:29.807318+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260712_215451",
+    "status": "published",
+    "created_at": "2026-07-12T21:54:51.134414+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "La fusión de estilos en 'Matador' es emocionante, con la versión de Café Tacvba que incorpora elementos electrónicos y ritmos latinos. Esta interpretación se ha destacado en diversos escenarios, incluyendo festivales de música en América Latina. ¿Te gusta más el original de Los Fabulosos Cadillacs o la versión de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=pGYLAb6pasQ\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba Matador live",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=pGYLAb6pasQ",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1443826341125241",
+    "ig_post_id": null,
+    "published_at": "2026-07-12T21:55:18.421448+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
