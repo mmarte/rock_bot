@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260520_222717",
-    "fb_post_id": "1043162839046116_1397443242430218",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Cascomar",
-    "image_url": "https://images.pexels.com/photos/17249634/pexels-photo-17249634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-05-20T22:27:45.061413+00:00"
-  },
-  {
     "post_id": "post_20260521_050436",
     "fb_post_id": "1043162839046116_1397640512410491",
     "ig_post_id": null,
@@ -2308,5 +2296,17 @@
     "image_url": "https://images.pexels.com/photos/15299013/pexels-photo-15299013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-07-12T04:21:38.601175+00:00"
+  },
+  {
+    "post_id": "post_20260712_142433",
+    "fb_post_id": "1043162839046116_1443562031151672",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Bomba Estéreo",
+    "image_url": "https://img.youtube.com/vi/gl1d_GdX0xw/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-12T14:25:00.238891+00:00"
   }
 ]

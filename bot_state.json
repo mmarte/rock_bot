@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Vela Puerca",
     "Cascomar",
     "Zoé",
     "Maná",
@@ -19,7 +18,8 @@
     "Alux Nahual",
     "Los Rabanes",
     "Habana Abierta",
-    "Habana Abierta"
+    "Habana Abierta",
+    "Bomba Estéreo"
   ],
   "used_poll_indices": [
     16,
@@ -34,14 +34,14 @@
     13
   ],
   "original_type_index": 1,
-  "last_updated": "2026-07-12T04:21:13.196464+00:00",
+  "last_updated": "2026-07-12T14:24:34.798784+00:00",
   "post_type_index": 10,
-  "total_posts": 293,
+  "total_posts": 294,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
