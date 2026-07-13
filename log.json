@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260521_185906",
-    "fb_post_id": "1043162839046116_1398153172359225",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Flou",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
-    "status": "published",
-    "executed_at": "2026-05-21T18:59:34.011791+00:00"
-  },
-  {
     "post_id": "post_20260521_222302",
     "fb_post_id": "1043162839046116_1398257005682175",
     "ig_post_id": null,
@@ -2308,5 +2296,17 @@
     "image_url": "https://img.youtube.com/vi/pGYLAb6pasQ/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-12T21:55:18.421448+00:00"
+  },
+  {
+    "post_id": "post_20260713_042454",
+    "fb_post_id": "1043162839046116_1444017274439481",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Los Rabanes",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
+    "status": "published",
+    "executed_at": "2026-07-13T04:25:22.038579+00:00"
   }
 ]
