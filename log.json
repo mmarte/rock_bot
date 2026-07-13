@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260522_154622",
-    "fb_post_id": "1043162839046116_1398857365622139",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/iJlWgE2-lkM/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-05-22T15:46:49.978908+00:00"
-  },
-  {
     "post_id": "post_20260522_185257",
     "status": "failed",
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
@@ -2314,5 +2302,17 @@
     "image_url": "https://img.youtube.com/vi/OX-us7PEfkc/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-13T18:32:27.048624+00:00"
+  },
+  {
+    "post_id": "post_20260713_220004",
+    "fb_post_id": "1043162839046116_1444622274378981",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Habana Abierta",
+    "image_url": "https://images.pexels.com/photos/27817797/pexels-photo-27817797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-07-13T22:00:31.476091+00:00"
   }
 ]
