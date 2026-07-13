@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Molotov",
     "Toque Profundo",
     "Los Prisioneros",
     "Fiel a la Vega",
@@ -19,7 +18,8 @@
     "Alux Nahual",
     "Toque Profundo",
     "Los Rabanes",
-    "Juanes"
+    "Juanes",
+    "Extremoduro"
   ],
   "used_poll_indices": [
     16,
@@ -34,14 +34,14 @@
     13
   ],
   "original_type_index": 4,
-  "last_updated": "2026-07-13T15:41:17.676160+00:00",
+  "last_updated": "2026-07-13T18:32:01.674392+00:00",
   "post_type_index": 10,
-  "total_posts": 298,
+  "total_posts": 299,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

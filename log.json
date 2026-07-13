@@ -1,11 +1,5 @@
 [
   {
-    "post_id": "post_20260522_045626",
-    "status": "failed",
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
-    "executed_at": "2026-05-22T04:56:54.749168+00:00"
-  },
-  {
     "post_id": "post_20260522_154622",
     "fb_post_id": "1043162839046116_1398857365622139",
     "ig_post_id": null,
@@ -2308,5 +2302,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2023-11-16_Gala_de_los_Latin_Grammy%2C_14_%28cropped%29.jpg",
     "status": "published",
     "executed_at": "2026-07-13T15:41:43.301367+00:00"
+  },
+  {
+    "post_id": "post_20260713_183159",
+    "fb_post_id": "1043162839046116_1444520591055816",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Maná",
+    "image_url": "https://img.youtube.com/vi/OX-us7PEfkc/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-13T18:32:27.048624+00:00"
   }
 ]
