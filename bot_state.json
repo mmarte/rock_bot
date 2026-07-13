@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Habana Abierta",
     "Molotov",
     "Toque Profundo",
     "Los Prisioneros",
@@ -19,7 +18,8 @@
     "Bomba Estéreo",
     "Alux Nahual",
     "Toque Profundo",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Juanes"
   ],
   "used_poll_indices": [
     16,
@@ -33,15 +33,15 @@
     5,
     13
   ],
-  "original_type_index": 3,
-  "last_updated": "2026-07-13T04:24:56.647633+00:00",
+  "original_type_index": 4,
+  "last_updated": "2026-07-13T15:41:17.676160+00:00",
   "post_type_index": 10,
-  "total_posts": 297,
+  "total_posts": 298,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "original",
   "curation_year": 2024
 }
