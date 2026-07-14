@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260522_221125",
-    "fb_post_id": "1043162839046116_1399088505599025",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Kraken",
-    "image_url": "https://img.youtube.com/vi/QXpVvf4oMXk/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-05-22T22:11:53.311239+00:00"
-  },
-  {
     "post_id": "post_20260523_043342",
     "status": "failed",
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
@@ -2320,5 +2308,17 @@
     "image_url": "https://img.youtube.com/vi/--x-TvRhj1c/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-14T03:53:27.345715+00:00"
+  },
+  {
+    "post_id": "post_20260714_144341",
+    "fb_post_id": "1043162839046116_1445171244324084",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Kraken",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Le_Poulpe_Colossal.jpg",
+    "status": "published",
+    "executed_at": "2026-07-14T14:44:08.715210+00:00"
   }
 ]
