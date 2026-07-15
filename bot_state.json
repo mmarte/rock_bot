@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Dedicados",
     "Zapato 3",
     "Alux Nahual",
     "Los Rabanes",
@@ -19,7 +18,8 @@
     "Panteon Rococo",
     "El Tri",
     "Flou",
-    "Aterciopelados"
+    "Aterciopelados",
+    "Cascomar"
   ],
   "used_poll_indices": [
     16,
@@ -33,15 +33,15 @@
     5,
     13
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-07-15T18:04:15.799863+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-07-15T22:04:16.833044+00:00",
   "post_type_index": 10,
-  "total_posts": 307,
+  "total_posts": 308,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }

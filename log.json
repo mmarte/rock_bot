@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260524_220110",
-    "fb_post_id": "1043162839046116_1400763112098231",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Malpaís",
-    "image_url": "https://images.pexels.com/photos/17249634/pexels-photo-17249634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-05-24T22:01:37.391262+00:00"
-  },
-  {
     "post_id": "post_20260525_154740",
     "fb_post_id": "1043162839046116_1401361942038348",
     "ig_post_id": null,
@@ -2326,5 +2314,17 @@
     "image_url": "https://img.youtube.com/vi/--x-TvRhj1c/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-15T18:04:41.319839+00:00"
+  },
+  {
+    "post_id": "post_20260715_220415",
+    "fb_post_id": "1043162839046116_1446308830876992",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Cascomar",
+    "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-07-15T22:04:42.414329+00:00"
   }
 ]
