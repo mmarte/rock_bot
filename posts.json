@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260702_221026",
-    "status": "published",
-    "created_at": "2026-07-02T22:10:26.096140+00:00",
-    "post_type": "original",
-    "topic": "Los Mojarras",
-    "text": "La carrera de Los Mojarras ha estado marcada por presentaciones destacadas en la Ciudad de México. Con su alineación, la banda ha interpretado éxitos que han cautivado a su audiencia, como 'Morena' y 'El Pistolero'. ¿Te ha gustado alguna vez escuchar a Los Mojarras en vivo?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosMojarras\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Mojarras rock band concert",
-    "extra_topics": [],
-    "post_year": "1994",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1435192311988644",
-    "ig_post_id": null,
-    "published_at": "2026-07-02T22:10:53.464769+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260703_043526",
     "status": "published",
     "created_at": "2026-07-03T04:35:26.005162+00:00",
@@ -1051,6 +1031,28 @@
     "fb_post_id": "1043162839046116_1446032077571334",
     "ig_post_id": null,
     "published_at": "2026-07-15T14:43:45.536972+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260715_180413",
+    "status": "published",
+    "created_at": "2026-07-15T18:04:13.763155+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "Maná reinterpretó 'Afuera' y le dio un giro en el escenario de rock latino. La versión en vivo de Maná es destacada, con un arreglo que expresa una amplia gama de emociones. La voz de Fher Olvera se combina perfectamente con la melodía. ¿Cuál versión te impacta más, la original de Caifanes o la interpretación en vivo de Maná?\n\nhttps://www.youtube.com/watch?v=--x-TvRhj1c\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=--x-TvRhj1c",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1446171980890677",
+    "ig_post_id": null,
+    "published_at": "2026-07-15T18:04:41.319839+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
