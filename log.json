@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260525_182500",
-    "fb_post_id": "1043162839046116_1401460665361809",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Cinema",
-    "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-05-25T18:25:27.520779+00:00"
-  },
-  {
     "post_id": "post_20260526_045738",
     "fb_post_id": "1043162839046116_1401777315330144",
     "ig_post_id": null,
@@ -2326,5 +2314,17 @@
     "image_url": "https://images.pexels.com/photos/27817790/pexels-photo-27817790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-07-16T03:56:54.842146+00:00"
+  },
+  {
+    "post_id": "post_20260716_145459",
+    "fb_post_id": "1043162839046116_1446898977484644",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "image_url": "https://img.youtube.com/vi/01gI22568dc/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-16T14:55:28.015960+00:00"
   }
 ]

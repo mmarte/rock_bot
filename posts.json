@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260703_220809",
-    "status": "published",
-    "created_at": "2026-07-03T22:08:09.695781+00:00",
-    "post_type": "youtube",
-    "topic": "Panteon Rococo",
-    "text": "Panteón Rococó es conocido por su enérgico y apasionante estilo en vivo. Su presentación en el Vive Latino es un ejemplo de cómo fusionan ritmos ska con letras profundas y un espectáculo visual impresionante. La banda ha demostrado una vez más su capacidad para entretener y conmover a su audiencia. ¿Cuál es tu tema favorito de Panteón Rococó?\n\nhttps://www.youtube.com/watch?v=4HXcmlKY_xw\n\nLo Mejor del Rock en Español les presenta: #PanteonRococo\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #PanteonRococo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Panteon Rococo Mexico ska band concert",
-    "extra_topics": [],
-    "post_year": "2024",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=4HXcmlKY_xw",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1436117988562743",
-    "ig_post_id": null,
-    "published_at": "2026-07-03T22:08:37.034443+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260704_042942",
     "status": "published",
     "created_at": "2026-07-04T04:29:42.042859+00:00",
@@ -1051,6 +1031,28 @@
     "fb_post_id": "1043162839046116_1446500134191195",
     "ig_post_id": null,
     "published_at": "2026-07-16T03:56:54.842146+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260716_145459",
+    "status": "published",
+    "created_at": "2026-07-16T14:54:59.943997+00:00",
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "text": "La versión de Soda Stereo de 'Paint It Black' es un ejemplo destacado de cómo una banda puede reinterpretar un clásico y hacerlo suyo. La energía y los arreglos innovadores que Gustavo Cerati y su banda le dieron a esta canción legendaria de The Rolling Stones son notables. ¿Te gusta más la esencia original de la canción o la versión que hizo Soda Stereo?\n\nhttps://www.youtube.com/watch?v=01gI22568dc\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Soda Stereo Paint It Black live",
+    "extra_topics": [
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=01gI22568dc",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1446898977484644",
+    "ig_post_id": null,
+    "published_at": "2026-07-16T14:55:28.015960+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

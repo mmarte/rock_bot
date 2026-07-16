@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Alux Nahual",
     "Los Rabanes",
     "Habana Abierta",
     "Habana Abierta",
@@ -19,7 +18,8 @@
     "Flou",
     "Aterciopelados",
     "Cascomar",
-    "Toque Profundo"
+    "Toque Profundo",
+    "La Vela Puerca"
   ],
   "used_poll_indices": [
     16,
@@ -34,14 +34,14 @@
     13
   ],
   "original_type_index": 9,
-  "last_updated": "2026-07-16T03:56:29.369005+00:00",
+  "last_updated": "2026-07-16T14:55:01.835521+00:00",
   "post_type_index": 10,
-  "total_posts": 309,
+  "total_posts": 310,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "concert",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
