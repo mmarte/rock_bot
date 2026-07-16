@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Zapato 3",
     "Alux Nahual",
     "Los Rabanes",
     "Habana Abierta",
@@ -19,7 +18,8 @@
     "El Tri",
     "Flou",
     "Aterciopelados",
-    "Cascomar"
+    "Cascomar",
+    "Toque Profundo"
   ],
   "used_poll_indices": [
     16,
@@ -33,15 +33,15 @@
     5,
     13
   ],
-  "original_type_index": 8,
-  "last_updated": "2026-07-15T22:04:16.833044+00:00",
+  "original_type_index": 9,
+  "last_updated": "2026-07-16T03:56:29.369005+00:00",
   "post_type_index": 10,
-  "total_posts": 308,
+  "total_posts": 309,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "original",
+  "last_post_type": "concert",
   "curation_year": 2024
 }
