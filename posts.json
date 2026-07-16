@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260704_042942",
-    "status": "published",
-    "created_at": "2026-07-04T04:29:42.042859+00:00",
-    "post_type": "poll",
-    "topic": "Cuca",
-    "text": "El rock en español es rico en diversidad y talento, con bandas que han conquistado el corazón de muchos fanáticos. Desde la emoción de los conciertos en vivo hasta la profunda conexión con las letras, cada banda ha dejado su huella única. ¿Cuál es la banda de rock en español que más te gusta? \n   Opciones: \n   Soda Stereo\n   Heroes del Silencio\n   Maná\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cuca #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Cuca Mexico rock band",
-    "extra_topics": [
-      "Soda Stereo",
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1436331505208058",
-    "ig_post_id": null,
-    "published_at": "2026-07-04T04:30:09.022422+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260704_142459",
     "status": "published",
     "created_at": "2026-07-04T14:24:59.663555+00:00",
@@ -1053,6 +1030,26 @@
     "fb_post_id": "1043162839046116_1446898977484644",
     "ig_post_id": null,
     "published_at": "2026-07-16T14:55:28.015960+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260716_220624",
+    "status": "published",
+    "created_at": "2026-07-16T22:06:24.547362+00:00",
+    "post_type": "youtube",
+    "topic": "Malpaís",
+    "text": "La música de Malpaís es una fusión única de la esencia costarricense y la pasión del rock, algo que se refleja en 'Vuela sobre la ciudad'. El videoclip de esta canción ofrece una experiencia visual impactante. ¿Cómo te hace sentir la música de Malpaís?\n\nhttps://www.youtube.com/watch?v=YrxftR3lzQQ\n\nLo Mejor del Rock en Español les presenta: #Malpais\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Malpais\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Malpaís rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=YrxftR3lzQQ",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1447158270792048",
+    "ig_post_id": null,
+    "published_at": "2026-07-16T22:06:51.421404+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

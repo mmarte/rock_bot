@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260526_045738",
-    "fb_post_id": "1043162839046116_1401777315330144",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Habana Abierta",
-    "image_url": "https://images.pexels.com/photos/27817808/pexels-photo-27817808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-05-26T04:58:05.318534+00:00"
-  },
-  {
     "post_id": "post_20260526_163811",
     "fb_post_id": "1043162839046116_1402205298620679",
     "ig_post_id": null,
@@ -2326,5 +2314,17 @@
     "image_url": "https://img.youtube.com/vi/01gI22568dc/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-16T14:55:28.015960+00:00"
+  },
+  {
+    "post_id": "post_20260716_220624",
+    "fb_post_id": "1043162839046116_1447158270792048",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Malpaís",
+    "image_url": "https://img.youtube.com/vi/YrxftR3lzQQ/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-16T22:06:51.421404+00:00"
   }
 ]
