@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260704_220318",
-    "status": "published",
-    "created_at": "2026-07-04T22:03:18.771805+00:00",
-    "post_type": "original",
-    "topic": "Octavia",
-    "text": "Octavia, una banda española con un estilo único que fusiona rock alternativo, pop y electrónica, ha dejado una huella notable en la escena musical. Con un sonido característico y álbumes destacados, la banda ha generado un impacto significativo en la música española. Su influencia se puede escuchar en varias bandas que han seguido su estela, y su música sigue siendo escuchada y apreciada por fans de diferentes generaciones. ¿Qué te gusta más de la música de Octavia?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Octavia rock band concert",
-    "extra_topics": [],
-    "post_year": "2002",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1436994431808432",
-    "ig_post_id": null,
-    "published_at": "2026-07-04T22:03:45.806646+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260705_044915",
     "status": "published",
     "created_at": "2026-07-05T04:49:15.295999+00:00",
@@ -1053,6 +1033,29 @@
     "fb_post_id": "1043162839046116_1447732290734646",
     "ig_post_id": null,
     "published_at": "2026-07-17T14:26:47.200029+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260717_180145",
+    "status": "published",
+    "created_at": "2026-07-17T18:01:45.548933+00:00",
+    "post_type": "poll",
+    "topic": "Flou",
+    "text": "En el mundo del rock en español, hay muchas canciones que han marcado un lugar especial en la historia musical. Desde ritmos que nos hacen mover hasta letras que tocan nuestro corazón, cada una de ellas tiene su propio lugar en la memoria de los fanáticos. ¿Cuál es la canción que no te cansa escuchar? \n   Opciones: \n   De Música Ligera - Soda Stereo\n   Entre Dos Tierras - Heroes del Silencio\n   Oye Mi Amor - Maná\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Flou #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Flou rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1447878147386727",
+    "ig_post_id": null,
+    "published_at": "2026-07-17T18:02:12.488177+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

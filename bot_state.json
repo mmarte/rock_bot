@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Bomba Estéreo",
     "Alux Nahual",
     "Toque Profundo",
     "Los Rabanes",
@@ -19,10 +18,10 @@
     "La Vela Puerca",
     "Malpaís",
     "Savage",
-    "Los Mojarras"
+    "Los Mojarras",
+    "Flou"
   ],
   "used_poll_indices": [
-    16,
     4,
     12,
     2,
@@ -31,17 +30,18 @@
     0,
     6,
     5,
-    13
+    13,
+    8
   ],
   "original_type_index": 1,
-  "last_updated": "2026-07-17T14:26:34.578790+00:00",
+  "last_updated": "2026-07-17T18:01:47.069690+00:00",
   "post_type_index": 10,
-  "total_posts": 313,
+  "total_posts": 314,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
