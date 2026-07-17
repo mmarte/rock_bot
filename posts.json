@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260704_142459",
-    "status": "published",
-    "created_at": "2026-07-04T14:24:59.663555+00:00",
-    "post_type": "youtube",
-    "topic": "Octavia",
-    "text": "Octavia es una banda que destaca en el escenario actual del rock en español gracias a su habilidad para crear una fusión única de ritmos y letras que conectan profundamente con los oyentes. En esta entrevista, se puede apreciar la pasión y dedicación que ponen en su música. La forma en que hablan sobre su proceso creativo y sus influencias es verdaderamente inspiradora. Octavia representa la esencia innovadora y emocionante del rock en español. ¿Cuál es tu canción favorita de Octavia?\n\nhttps://www.youtube.com/watch?v=B6-A7ESDnQg\n\nLo Mejor del Rock en Español les presenta: #Octavia\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Octavia rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=B6-A7ESDnQg",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1436707161837159",
-    "ig_post_id": null,
-    "published_at": "2026-07-04T14:25:26.937437+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260704_180045",
     "status": "published",
     "created_at": "2026-07-04T18:00:45.082059+00:00",
@@ -1050,6 +1030,29 @@
     "fb_post_id": "1043162839046116_1447158270792048",
     "ig_post_id": null,
     "published_at": "2026-07-16T22:06:51.421404+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260717_035548",
+    "status": "published",
+    "created_at": "2026-07-17T03:55:48.492958+00:00",
+    "post_type": "original",
+    "topic": "Savage",
+    "text": "La discografía de Savage ofrece una variedad de sonidos y estilos a lo largo de los años. La banda ha explorado diferentes direcciones musicales, desde sus inicios con álbumes que muestran su lado más rockero hasta etapas más experimentales y electrónicas. Ambas etapas tienen sus propias canciones destacadas. ¿Cuál período de la banda consideras más influyente y merecedor de reconocimiento?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Savage #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Savage rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Gustavo Cerati"
+    ],
+    "post_year": "1988",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1447343014106907",
+    "ig_post_id": null,
+    "published_at": "2026-07-17T03:56:15.986345+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
