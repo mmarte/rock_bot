@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260528_193514",
-    "fb_post_id": "1043162839046116_1404094171765125",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Charly García",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Charly_Garc%C3%ADa_%26_the_Prostitution_at_Cosqu%C3%ADn_Rock_12.02.2011_%285449800300%29.jpg",
-    "status": "published",
-    "executed_at": "2026-05-28T19:35:41.781360+00:00"
-  },
-  {
     "post_id": "post_20260528_224326",
     "fb_post_id": "1043162839046116_1404187748422434",
     "ig_post_id": null,
@@ -2332,5 +2320,17 @@
     "image_url": "https://images.pexels.com/photos/15603601/pexels-photo-15603601.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-07-19T14:22:27.036797+00:00"
+  },
+  {
+    "post_id": "post_20260719_175548",
+    "fb_post_id": "1043162839046116_1449485800559295",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "image_url": "https://img.youtube.com/vi/YuF4qnfGmfs/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-19T17:56:15.677508+00:00"
   }
 ]
