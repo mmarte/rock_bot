@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Habana Abierta",
     "Líbido",
     "Kraken",
     "Los Rabanes",
@@ -19,10 +18,10 @@
     "Gustavo Cerati",
     "Los Rabanes",
     "Kraken",
-    "Alux Nahual"
+    "Alux Nahual",
+    "Divididos"
   ],
   "used_poll_indices": [
-    12,
     2,
     10,
     3,
@@ -31,17 +30,18 @@
     5,
     13,
     8,
-    15
+    15,
+    9
   ],
   "original_type_index": 2,
-  "last_updated": "2026-07-19T04:17:30.252301+00:00",
+  "last_updated": "2026-07-19T14:22:01.485603+00:00",
   "post_type_index": 10,
-  "total_posts": 319,
+  "total_posts": 320,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "cover",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
