@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260528_224326",
-    "fb_post_id": "1043162839046116_1404187748422434",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Octavia",
-    "image_url": "https://images.pexels.com/photos/19353324/pexels-photo-19353324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-05-28T22:43:52.976094+00:00"
-  },
-  {
     "post_id": "post_20260529_050506",
     "fb_post_id": "1043162839046116_1404397161734826",
     "ig_post_id": null,
@@ -2332,5 +2320,17 @@
     "image_url": "https://img.youtube.com/vi/YuF4qnfGmfs/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-19T17:56:15.677508+00:00"
+  },
+  {
+    "post_id": "post_20260719_215602",
+    "fb_post_id": "1043162839046116_1449612077213334",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Radio Futura",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Radio_Futura.jpg/330px-Radio_Futura.jpg",
+    "status": "published",
+    "executed_at": "2026-07-19T21:56:29.175091+00:00"
   }
 ]

@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Kraken",
     "Los Rabanes",
     "Panteon Rococo",
     "El Tri",
@@ -19,7 +18,8 @@
     "Kraken",
     "Alux Nahual",
     "Divididos",
-    "Alux Nahual"
+    "Alux Nahual",
+    "Radio Futura"
   ],
   "used_poll_indices": [
     2,
@@ -33,15 +33,15 @@
     15,
     9
   ],
-  "original_type_index": 2,
-  "last_updated": "2026-07-19T17:55:50.019575+00:00",
+  "original_type_index": 3,
+  "last_updated": "2026-07-19T21:56:03.830962+00:00",
   "post_type_index": 10,
-  "total_posts": 321,
+  "total_posts": 322,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "cover",
+  "last_post_type": "concert",
   "curation_year": 2024
 }
