@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260529_193249",
-    "fb_post_id": "1043162839046116_1404957498345459",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/14lsFs1GrnU/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-05-29T19:33:16.275569+00:00"
-  },
-  {
     "post_id": "post_20260529_223955",
     "fb_post_id": "1043162839046116_1405054075002468",
     "ig_post_id": null,
@@ -2332,5 +2320,17 @@
     "image_url": "https://images.pexels.com/photos/16118359/pexels-photo-16118359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-07-20T15:05:12.506044+00:00"
+  },
+  {
+    "post_id": "post_20260720_185157",
+    "fb_post_id": "1043162839046116_1450340983807110",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Los Rabanes",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
+    "status": "published",
+    "executed_at": "2026-07-20T18:52:25.544006+00:00"
   }
 ]
