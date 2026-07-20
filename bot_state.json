@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Flou",
     "Aterciopelados",
     "Cascomar",
     "Toque Profundo",
@@ -19,10 +18,10 @@
     "Radio Futura",
     "Alux Nahual",
     "Habana Abierta",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Alux Nahual"
   ],
   "used_poll_indices": [
-    10,
     3,
     0,
     6,
@@ -31,17 +30,18 @@
     8,
     15,
     9,
-    7
+    7,
+    17
   ],
   "original_type_index": 4,
-  "last_updated": "2026-07-20T18:51:59.823300+00:00",
+  "last_updated": "2026-07-20T22:02:50.624292+00:00",
   "post_type_index": 10,
-  "total_posts": 325,
+  "total_posts": 326,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }

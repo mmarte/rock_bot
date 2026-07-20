@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260529_223955",
-    "fb_post_id": "1043162839046116_1405054075002468",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Fiel a la Vega",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
-    "status": "published",
-    "executed_at": "2026-05-29T22:40:22.208855+00:00"
-  },
-  {
     "post_id": "post_20260530_044522",
     "fb_post_id": "1043162839046116_1405251371649405",
     "ig_post_id": null,
@@ -2332,5 +2320,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
     "status": "published",
     "executed_at": "2026-07-20T18:52:25.544006+00:00"
+  },
+  {
+    "post_id": "post_20260720_220249",
+    "fb_post_id": "1043162839046116_1450441990463676",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Alux Nahual",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Alux_Nahual.jpg",
+    "status": "published",
+    "executed_at": "2026-07-20T22:03:16.024440+00:00"
   }
 ]
