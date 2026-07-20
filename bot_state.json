@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Panteon Rococo",
     "El Tri",
     "Flou",
     "Aterciopelados",
@@ -19,10 +18,10 @@
     "Divididos",
     "Alux Nahual",
     "Radio Futura",
-    "Alux Nahual"
+    "Alux Nahual",
+    "Habana Abierta"
   ],
   "used_poll_indices": [
-    2,
     10,
     3,
     0,
@@ -31,17 +30,18 @@
     13,
     8,
     15,
-    9
+    9,
+    7
   ],
   "original_type_index": 3,
-  "last_updated": "2026-07-20T04:31:24.684389+00:00",
+  "last_updated": "2026-07-20T15:04:51.386804+00:00",
   "post_type_index": 10,
-  "total_posts": 323,
+  "total_posts": 324,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024
 }

@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260707_154139",
-    "status": "published",
-    "created_at": "2026-07-07T15:41:39.404076+00:00",
-    "post_type": "poll",
-    "topic": "La Vela Puerca",
-    "text": "El rock en español cuenta con una rica discografía que ha dejado una huella imborrable en la música. Desde la energía en el escenario hasta la creación de himnos que perduran, estos álbumes son verdaderos tesoros. ¿Cuál es el álbum que consideras más influyente de La Vela Puerca?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaVelaPuerca #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "La Vela Puerca rock band concert",
-    "extra_topics": [
-      "Soda Stereo",
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1439445434896665",
-    "ig_post_id": null,
-    "published_at": "2026-07-07T15:42:06.526743+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260707_190011",
     "status": "published",
     "created_at": "2026-07-07T19:00:11.875596+00:00",
@@ -1058,6 +1035,29 @@
     "fb_post_id": "1043162839046116_1449821820525693",
     "ig_post_id": null,
     "published_at": "2026-07-20T04:31:50.106554+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260720_150449",
+    "status": "published",
+    "created_at": "2026-07-20T15:04:49.500408+00:00",
+    "post_type": "poll",
+    "topic": "Habana Abierta",
+    "text": "La escena del rock en español es rica y diversa, con muchas contribuciones destacadas. Desde la emotiva voz de Gustavo Cerati hasta el poderoso sonido de Caifanes, cada país ha aportado su propio estilo y energía. Ahora, ¿en qué lado estás? \n   👍 Rock argentino siempre\n   ❤️ Rock mexicano para siempre\n   😮 ¡Los dos son iguales!\n   ¿Cuál es tu preferencia?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta #Caifanes #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Habana Abierta rock band concert",
+    "extra_topics": [
+      "Caifanes",
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1450198747154667",
+    "ig_post_id": null,
+    "published_at": "2026-07-20T15:05:12.506044+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
