@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260529_050506",
-    "fb_post_id": "1043162839046116_1404397161734826",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Bomba Estéreo",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bomba_Est%C3%A9reo_Up_Close_and_Personal_2012.jpg/330px-Bomba_Est%C3%A9reo_Up_Close_and_Personal_2012.jpg",
-    "status": "published",
-    "executed_at": "2026-05-29T05:05:33.694120+00:00"
-  },
-  {
     "post_id": "post_20260529_163746",
     "fb_post_id": "1043162839046116_1404848275023048",
     "ig_post_id": null,
@@ -2332,5 +2320,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Radio_Futura.jpg/330px-Radio_Futura.jpg",
     "status": "published",
     "executed_at": "2026-07-19T21:56:29.175091+00:00"
+  },
+  {
+    "post_id": "post_20260720_043122",
+    "fb_post_id": "1043162839046116_1449821820525693",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Alux Nahual",
+    "image_url": "https://img.youtube.com/vi/sq8R-dLqLsg/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-20T04:31:50.106554+00:00"
   }
 ]
