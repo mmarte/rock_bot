@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260708_181612",
-    "status": "published",
-    "created_at": "2026-07-08T18:16:12.703377+00:00",
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "text": "Café Tacvba ofrece una interpretación única de 'La Negra Tomasa', original de Caifanes. La versión de Café Tacvba es una experiencia llena de pasión y energía. ¿Te mueve más la esencia original de Caifanes o la interpretación apasionada de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=14lsFs1GrnU\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Café Tacvba La Negra Tomasa live",
-    "extra_topics": [
-      "Caifanes"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=14lsFs1GrnU",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1440430688131473",
-    "ig_post_id": null,
-    "published_at": "2026-07-08T18:16:21.436524+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260708_220944",
     "status": "published",
     "created_at": "2026-07-08T22:09:44.519274+00:00",
@@ -1059,6 +1037,26 @@
     "fb_post_id": "1043162839046116_1451026090405266",
     "ig_post_id": null,
     "published_at": "2026-07-21T14:57:18.815685+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260721_181531",
+    "status": "published",
+    "created_at": "2026-07-21T18:15:31.867153+00:00",
+    "post_type": "original",
+    "topic": "Octavia",
+    "text": "Octavia, la banda argentina de rock, nos brinda una ecléctica mezcla de estilos que nos cautiva. Su álbum debut, 'Octavia', fue grabado en un plazo relativamente corto en estudios de Buenos Aires, con la producción de Adrián Taverna y la participación de músicos invitados como Diego Blanco en teclados. Este álbum marcó el comienzo de una carrera llena de fusiones musicales y letras profundas. La colaboración entre sus integrantes, incluyendo a Juan Manuel López en voces, generó un sonido único. ¿Cuál es tu canción favorita de Octavia y qué es lo que más te gusta de su música?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Octavia rock band concert",
+    "extra_topics": [],
+    "post_year": "2007",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1451153803725828",
+    "ig_post_id": null,
+    "published_at": "2026-07-21T18:15:59.138917+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

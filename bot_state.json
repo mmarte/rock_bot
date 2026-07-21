@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Toque Profundo",
     "La Vela Puerca",
     "Malpaís",
     "Savage",
@@ -19,7 +18,8 @@
     "Los Rabanes",
     "Alux Nahual",
     "Toque Profundo",
-    "Flou"
+    "Flou",
+    "Octavia"
   ],
   "used_poll_indices": [
     3,
@@ -33,15 +33,15 @@
     7,
     17
   ],
-  "original_type_index": 5,
-  "last_updated": "2026-07-21T14:56:53.164347+00:00",
+  "original_type_index": 6,
+  "last_updated": "2026-07-21T18:15:33.782846+00:00",
   "post_type_index": 10,
-  "total_posts": 328,
+  "total_posts": 329,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "concert",
   "curation_year": 2024
 }
