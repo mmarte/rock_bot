@@ -1,11 +1,5 @@
 [
   {
-    "post_id": "post_20260531_175853",
-    "status": "failed",
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
-    "executed_at": "2026-05-31T17:59:20.505725+00:00"
-  },
-  {
     "post_id": "post_20260531_220335",
     "fb_post_id": "1043162839046116_1406833764824499",
     "ig_post_id": null,
@@ -2338,5 +2332,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
     "status": "published",
     "executed_at": "2026-07-22T14:58:12.556983+00:00"
+  },
+  {
+    "post_id": "post_20260722_180724",
+    "fb_post_id": "1043162839046116_1451971946977347",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Habana Abierta",
+    "image_url": "https://images.pexels.com/photos/27817790/pexels-photo-27817790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-07-22T18:07:51.760698+00:00"
   }
 ]
