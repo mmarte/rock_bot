@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Savage",
     "Los Mojarras",
     "Flou",
     "Cinema",
@@ -19,10 +18,10 @@
     "Flou",
     "Octavia",
     "Bomba Estéreo",
-    "Héroes del Silencio"
+    "Héroes del Silencio",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
-    3,
     0,
     6,
     5,
@@ -31,17 +30,18 @@
     15,
     9,
     7,
-    17
+    17,
+    11
   ],
   "original_type_index": 7,
-  "last_updated": "2026-07-22T04:13:11.889118+00:00",
+  "last_updated": "2026-07-22T14:57:47.153203+00:00",
   "post_type_index": 10,
-  "total_posts": 331,
+  "total_posts": 332,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "poll",
   "curation_year": 2024
 }

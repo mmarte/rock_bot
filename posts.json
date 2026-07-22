@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260709_155419",
-    "status": "published",
-    "created_at": "2026-07-09T15:54:19.982851+00:00",
-    "post_type": "poll",
-    "topic": "Fiel a la Vega",
-    "text": "La capacidad de una banda para adaptarse y mantener su identidad es fundamental para su éxito duradero. Algunas han logrado mantener su vitalidad a lo largo de su carrera. ¿Cuál crees que es la banda que mejor evolucionó con el tiempo? \n   Opciones: \n   Café Tacvba \n   Los Fabulosos Cadillacs \n   Maná \n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega #Mana #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Fiel a la Vega rock band concert",
-    "extra_topics": [
-      "Maná",
-      "Café Tacvba",
-      "Los Fabulosos Cadillacs"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1441174121390463",
-    "ig_post_id": null,
-    "published_at": "2026-07-09T15:54:46.975780+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260709_184907",
     "status": "published",
     "created_at": "2026-07-09T18:49:07.087817+00:00",
@@ -1057,6 +1033,30 @@
     "fb_post_id": "1043162839046116_1451448393696369",
     "ig_post_id": null,
     "published_at": "2026-07-22T04:13:37.255265+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260722_145745",
+    "status": "published",
+    "created_at": "2026-07-22T14:57:45.535342+00:00",
+    "post_type": "poll",
+    "topic": "Los Rabanes",
+    "text": "Una gran intro de guitarra puede definir el ritmo de una canción. ¿Cuál es la que te inspira a moverte al ritmo del rock en español? ¿Es el estilo único de Gustavo Cerati, la pasión de Divididos o la creatividad de Los Fabulosos Cadillacs? Opciones: \n   De Música Ligera - Cerati, \n   La Chispa Adecuada - Divididos, \n   Matador - Los Fabulosos Cadillacs. \n   ¿Cuál es tu canción favorita para empezar a rockear?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes #LosFabulososCadillacs #Divididos #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Rabanes rock band concert",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs",
+      "Divididos",
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1451848163656392",
+    "ig_post_id": null,
+    "published_at": "2026-07-22T14:58:12.556983+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
