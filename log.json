@@ -1,11 +1,5 @@
 [
   {
-    "post_id": "post_20260601_183446",
-    "status": "failed",
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
-    "executed_at": "2026-06-01T18:35:13.735536+00:00"
-  },
-  {
     "post_id": "post_20260601_205441",
     "fb_post_id": "1043162839046116_1407747001399842",
     "ig_post_id": null,
@@ -2350,5 +2344,17 @@
     "image_url": "https://img.youtube.com/vi/go_8JvWg2zc/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-23T04:03:24.968908+00:00"
+  },
+  {
+    "post_id": "post_20260723_150355",
+    "fb_post_id": "1043162839046116_1452672973573911",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Gandhi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg",
+    "status": "published",
+    "executed_at": "2026-07-23T15:04:22.860225+00:00"
   }
 ]
