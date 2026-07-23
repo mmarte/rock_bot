@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Kraken",
     "Alux Nahual",
     "Divididos",
@@ -19,10 +18,10 @@
     "Habana Abierta",
     "Habana Abierta",
     "Habana Abierta",
-    "Gandhi"
+    "Gandhi",
+    "No Te Va Gustar"
   ],
   "used_poll_indices": [
-    0,
     6,
     5,
     13,
@@ -31,17 +30,18 @@
     9,
     7,
     17,
-    11
+    11,
+    10
   ],
   "original_type_index": 9,
-  "last_updated": "2026-07-23T15:03:57.425735+00:00",
+  "last_updated": "2026-07-23T18:10:32.626250+00:00",
   "post_type_index": 10,
-  "total_posts": 336,
+  "total_posts": 337,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
