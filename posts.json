@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260710_044355",
-    "status": "published",
-    "created_at": "2026-07-10T04:43:55.551302+00:00",
-    "post_type": "youtube",
-    "topic": "Aterciopelados",
-    "text": "La música en vivo de Aterciopelados es una experiencia única. Su capacidad para combinar ritmos tradicionales colombianos con rock moderno es lo que los hace destacar en la escena musical latinoamericana. Andrea Echeverri y la banda logran crear un ambiente emocionante con su presencia en el escenario. ¿Cuál es vuestra canción favorita de Aterciopelados?\n\nhttps://www.youtube.com/watch?v=XscDfQIEFB0\n\nLo Mejor del Rock en Español les presenta: #Aterciopelados\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Aterciopelados Colombia rock band",
-    "extra_topics": [],
-    "post_year": "2023",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=XscDfQIEFB0",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1441584078016134",
-    "ig_post_id": null,
-    "published_at": "2026-07-10T04:44:22.617257+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260710_152756",
     "status": "published",
     "created_at": "2026-07-10T15:27:56.179709+00:00",
@@ -1055,6 +1035,28 @@
     "fb_post_id": "1043162839046116_1452107406963801",
     "ig_post_id": null,
     "published_at": "2026-07-22T22:07:34.226582+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260723_040257",
+    "status": "published",
+    "created_at": "2026-07-23T04:02:57.395017+00:00",
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "text": "Soda Stereo logró una reinterpretación única de 'Paint It Black', clásico de The Rolling Stones. La voz apasionada de Gustavo Cerati y el arreglo innovador de la banda argentina le dieron un toque especial a esta canción icónica. En versiones en vivo, esta canción muestra cómo una clásico puede ser reimaginado para una audiencia nueva. La pasión que Soda Stereo aportó a 'Paint It Black' es notable. ¿Cuál versión prefieres, la original o la versión cover de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=go_8JvWg2zc\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Soda Stereo Paint It Black live",
+    "extra_topics": [
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=go_8JvWg2zc",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1452279973613211",
+    "ig_post_id": null,
+    "published_at": "2026-07-23T04:03:24.968908+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Cinema",
     "Gustavo Cerati",
     "Los Rabanes",
     "Kraken",
@@ -19,6 +18,7 @@
     "Héroes del Silencio",
     "Los Rabanes",
     "Habana Abierta",
+    "Habana Abierta",
     "Habana Abierta"
   ],
   "used_poll_indices": [
@@ -34,14 +34,14 @@
     11
   ],
   "original_type_index": 8,
-  "last_updated": "2026-07-22T22:07:08.055214+00:00",
+  "last_updated": "2026-07-23T04:02:59.511371+00:00",
   "post_type_index": 10,
-  "total_posts": 334,
+  "total_posts": 335,
   "used_event_indices": [
     12,
     11,
     16
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
