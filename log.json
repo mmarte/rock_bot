@@ -1,11 +1,5 @@
 [
   {
-    "post_id": "post_20260601_230441",
-    "status": "failed",
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
-    "executed_at": "2026-06-01T23:05:08.120280+00:00"
-  },
-  {
     "post_id": "post_20260602_052210",
     "fb_post_id": "1043162839046116_1408045668036642",
     "ig_post_id": null,
@@ -2356,5 +2350,17 @@
     "image_url": "https://images.pexels.com/photos/34072576/pexels-photo-34072576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-07-23T18:10:57.913906+00:00"
+  },
+  {
+    "post_id": "post_20260723_220743",
+    "fb_post_id": "1043162839046116_1452930436881498",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "hoy_en_historia",
+    "topic": "Soda Stereo",
+    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
+    "status": "published",
+    "executed_at": "2026-07-23T22:08:10.386277+00:00"
   }
 ]

@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260710_220654",
-    "status": "published",
-    "created_at": "2026-07-10T22:06:54.415224+00:00",
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "text": "La conexión musical entre Los Fabulosos Cadillacs y Café Tacvba es única. Café Tacvba reinterpretó 'Matador' con un toque electrónico latino que capturó la atención de muchos. Esta versión se destacó en varios escenarios, incluyendo festivales, donde el público disfrutó del ritmo. ¿Prefieres la versión original de Los Fabulosos Cadillacs o el cover innovador de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=kIr8hsVTCzg\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Café Tacvba Matador live",
-    "extra_topics": [
-      "Los Fabulosos Cadillacs"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=kIr8hsVTCzg",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1442199037954638",
-    "ig_post_id": null,
-    "published_at": "2026-07-10T22:07:21.599665+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260711_040000",
     "status": "published",
     "created_at": "2026-07-11T04:00:00.837242+00:00",
@@ -1057,6 +1035,26 @@
     "fb_post_id": "1043162839046116_1452792546895287",
     "ig_post_id": null,
     "published_at": "2026-07-23T18:10:57.913906+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260723_220743",
+    "status": "published",
+    "created_at": "2026-07-23T22:07:43.080429+00:00",
+    "post_type": "hoy_en_historia",
+    "topic": "Soda Stereo",
+    "text": "En el calendario del rock en español, un día como hoy es significativo porque marca la publicación de 'Canción Animal' de Soda Stereo en 1990. Este álbum es destacado por su mezcla innovadora de ritmos y letras, lo que lo convirtió en un punto de referencia para el género. Con 'Canción Animal', Soda Stereo fortaleció su posición en la escena rock en español, impactando profundamente la música latina. La publicación de este álbum no solo elevó a la banda a nuevas alturas, sino que también influyó en generaciones futuras de músicos. ¿Cuál es el legado de 'Canción Animal' en tu opinión?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Soda Stereo band Argentina rock 1990",
+    "extra_topics": [],
+    "post_year": "1990",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1452930436881498",
+    "ig_post_id": null,
+    "published_at": "2026-07-23T22:08:10.386277+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
