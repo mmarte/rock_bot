@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Alux Nahual",
     "Radio Futura",
     "Alux Nahual",
     "Habana Abierta",
@@ -19,7 +18,8 @@
     "No Te Va Gustar",
     "Flou",
     "Fiel a la Vega",
-    "Dedicados"
+    "Dedicados",
+    "Caramelos de Cianuro"
   ],
   "used_poll_indices": [
     6,
@@ -33,16 +33,16 @@
     11,
     10
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-07-24T14:47:46.520675+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-07-24T18:16:51.511173+00:00",
   "post_type_index": 10,
-  "total_posts": 340,
+  "total_posts": 341,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "original",
   "curation_year": 2024
 }
