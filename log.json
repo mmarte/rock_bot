@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260602_171611",
-    "fb_post_id": "1043162839046116_1408517917989417",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Enrique Bunbury",
-    "image_url": "https://img.youtube.com/vi/SzimletXB7M/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-02T17:16:38.189659+00:00"
-  },
-  {
     "post_id": "post_20260602_200649",
     "fb_post_id": "1043162839046116_1408630287978180",
     "ig_post_id": null,
@@ -2362,5 +2350,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
     "status": "published",
     "executed_at": "2026-07-24T04:01:55.943190+00:00"
+  },
+  {
+    "post_id": "post_20260724_144743",
+    "fb_post_id": "1043162839046116_1453533713487837",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Dedicados",
+    "image_url": "https://images.pexels.com/photos/14994003/pexels-photo-14994003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-07-24T14:48:12.283112+00:00"
   }
 ]
