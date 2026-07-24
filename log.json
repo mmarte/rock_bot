@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260602_052210",
-    "fb_post_id": "1043162839046116_1408045668036642",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "La Vela Puerca",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Vamoslavela.jpg",
-    "status": "published",
-    "executed_at": "2026-06-02T05:22:37.842891+00:00"
-  },
-  {
     "post_id": "post_20260602_171611",
     "fb_post_id": "1043162839046116_1408517917989417",
     "ig_post_id": null,
@@ -2362,5 +2350,17 @@
     "image_url": "https://www.sodastereo.com/img/image_src.jpg",
     "status": "published",
     "executed_at": "2026-07-23T22:08:10.386277+00:00"
+  },
+  {
+    "post_id": "post_20260724_040128",
+    "fb_post_id": "1043162839046116_1453116050196270",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Fiel a la Vega",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
+    "status": "published",
+    "executed_at": "2026-07-24T04:01:55.943190+00:00"
   }
 ]

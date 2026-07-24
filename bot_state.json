@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Alux Nahual",
     "Divididos",
     "Alux Nahual",
     "Radio Futura",
@@ -19,7 +18,8 @@
     "Habana Abierta",
     "Gandhi",
     "No Te Va Gustar",
-    "Flou"
+    "Flou",
+    "Fiel a la Vega"
   ],
   "used_poll_indices": [
     6,
@@ -33,16 +33,16 @@
     11,
     10
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-07-23T22:07:44.844275+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-07-24T04:01:30.331567+00:00",
   "post_type_index": 10,
-  "total_posts": 338,
+  "total_posts": 339,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "original",
   "curation_year": 2024
 }
