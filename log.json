@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260602_230517",
-    "fb_post_id": "1043162839046116_1408729067968302",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Divididos",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Divididos.JPG",
-    "status": "published",
-    "executed_at": "2026-06-02T23:05:44.494732+00:00"
-  },
-  {
     "post_id": "post_20260603_055605",
     "fb_post_id": "1043162839046116_1408981097943099",
     "ig_post_id": null,
@@ -2362,5 +2350,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Caramelos_de_Cianuro_at_Forum_2011.png",
     "status": "published",
     "executed_at": "2026-07-24T18:17:17.052188+00:00"
+  },
+  {
+    "post_id": "post_20260724_220724",
+    "fb_post_id": "1043162839046116_1453791710128704",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Líbido",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
+    "status": "published",
+    "executed_at": "2026-07-24T22:07:51.311996+00:00"
   }
 ]
