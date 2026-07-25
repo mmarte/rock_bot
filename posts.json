@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260712_142433",
-    "status": "published",
-    "created_at": "2026-07-12T14:24:33.169064+00:00",
-    "post_type": "youtube",
-    "topic": "Bomba Estéreo",
-    "text": "La colaboración entre Juanes y Bomba Estéreo en 'Muérdeme' es un ejemplo destacado de fusión musical. La forma en que se unen el rock latino y la electrónica crea un sonido interesante. La voz de Juanes junto a la energía de Bomba Estéreo produce una experiencia auditiva notable. ¿Qué opinan sobre la mezcla de géneros y estilos en la música contemporánea?\n\nhttps://www.youtube.com/watch?v=gl1d_GdX0xw\n\nLo Mejor del Rock en Español les presenta: #BombaEstereo #Juanes\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #BombaEstereo #Juanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Bomba Estéreo Colombia electronic rock",
-    "extra_topics": [
-      "Juanes"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=gl1d_GdX0xw",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1443562031151672",
-    "ig_post_id": null,
-    "published_at": "2026-07-12T14:25:00.238891+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260712_175902",
     "status": "published",
     "created_at": "2026-07-12T17:59:02.104345+00:00",
@@ -1053,6 +1031,28 @@
     "fb_post_id": "1043162839046116_1453973336777208",
     "ig_post_id": null,
     "published_at": "2026-07-25T03:58:07.173156+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260725_142816",
+    "status": "published",
+    "created_at": "2026-07-25T14:28:16.294212+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "Café Tacvba se atrevió a hacer su propia versión de 'La Negra Tomasa', originariamente interpretada por Caifanes. Esta versión ofrece una fusión de ritmos que le da un toque único a la canción. La interpretación de Café Tacvba es notable, pero ¿logra igualar la emoción del original o nos brinda una experiencia diferente y atractiva?\n\nhttps://www.youtube.com/watch?v=VB9_uzhHKE4\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba La Negra Tomasa live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=VB9_uzhHKE4",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1454368920070983",
+    "ig_post_id": null,
+    "published_at": "2026-07-25T14:28:43.584276+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

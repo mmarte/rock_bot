@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260603_201803",
-    "fb_post_id": "1043162839046116_1409570394550836",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Juanes",
-    "image_url": "https://img.youtube.com/vi/f1N_B2JYkOU/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-03T20:18:30.638560+00:00"
-  },
-  {
     "post_id": "post_20260603_230736",
     "status": "failed",
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
@@ -2362,5 +2350,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hombres_G_en_el_estudio_cantando.jpg",
     "status": "published",
     "executed_at": "2026-07-25T03:58:07.173156+00:00"
+  },
+  {
+    "post_id": "post_20260725_142816",
+    "fb_post_id": "1043162839046116_1454368920070983",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "image_url": "https://img.youtube.com/vi/VB9_uzhHKE4/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-25T14:28:43.584276+00:00"
   }
 ]

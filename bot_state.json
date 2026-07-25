@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Habana Abierta",
     "Los Rabanes",
     "Alux Nahual",
     "Toque Profundo",
@@ -19,7 +18,8 @@
     "Dedicados",
     "Caramelos de Cianuro",
     "Líbido",
-    "Hombres G"
+    "Hombres G",
+    "Los Mojarras"
   ],
   "used_poll_indices": [
     5,
@@ -34,15 +34,15 @@
     3
   ],
   "original_type_index": 3,
-  "last_updated": "2026-07-25T03:57:41.838818+00:00",
+  "last_updated": "2026-07-25T14:28:18.088994+00:00",
   "post_type_index": 10,
-  "total_posts": 343,
+  "total_posts": 344,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
