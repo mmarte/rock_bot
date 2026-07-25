@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260712_175902",
-    "status": "published",
-    "created_at": "2026-07-12T17:59:02.104345+00:00",
-    "post_type": "original",
-    "topic": "Alux Nahual",
-    "text": "Alux Nahual es una banda emblemática del rock en español con una historia fascinante. Algunos aspectos destacados de su carrera incluyen su formación en Guatemala, donde Juan Luis Velásquez se desempeña como vocalista y compositor principal. Su álbum 'Huellas' fue grabado en un estudio de la ciudad de México con la producción de un reconocido productor, lo que muestra la energía y creatividad de la banda en ese momento. En otro proyecto notable, la banda colaboró con un guitarrista mexicano en su álbum 'Jícamarl', fusionando estilos y explorando nuevos sonidos. ¿Qué aspecto de la carrera de Alux Nahual te resulta más intrigante?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #AluxNahual\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Alux Nahual rock band concert",
-    "extra_topics": [],
-    "post_year": "1995",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1443706181137257",
-    "ig_post_id": null,
-    "published_at": "2026-07-12T17:59:29.807318+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260712_215451",
     "status": "published",
     "created_at": "2026-07-12T21:54:51.134414+00:00",
@@ -1053,6 +1033,30 @@
     "fb_post_id": "1043162839046116_1454368920070983",
     "ig_post_id": null,
     "published_at": "2026-07-25T14:28:43.584276+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260725_175614",
+    "status": "published",
+    "created_at": "2026-07-25T17:56:14.548262+00:00",
+    "post_type": "poll",
+    "topic": "Flou",
+    "text": "El rock en español ha producido una gran variedad de talentos que han dejado su huella en la música. Algunos solistas han destacado por su capacidad de innovar y conectar con el público de manera única. ¿Quién crees que es el mejor solista de rock en español? \n   Opciones: \n   👍 Gustavo Cerati\n   ❤️ Enrique Bunbury\n   😮 Andrés Calamaro\n   ¡Vota con tu reacción! 👍❤️😮\n   ¿Cuál es tu elección?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Flou #EnriqueBunbury #GustavoCerati #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Flou rock band concert",
+    "extra_topics": [
+      "Enrique Bunbury",
+      "Gustavo Cerati",
+      "Andrés Calamaro"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1454503283390880",
+    "ig_post_id": null,
+    "published_at": "2026-07-25T17:56:41.275913+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

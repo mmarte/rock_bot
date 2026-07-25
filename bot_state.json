@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Alux Nahual",
     "Toque Profundo",
     "Flou",
@@ -19,10 +18,10 @@
     "Caramelos de Cianuro",
     "Líbido",
     "Hombres G",
-    "Los Mojarras"
+    "Los Mojarras",
+    "Flou"
   ],
   "used_poll_indices": [
-    5,
     13,
     8,
     15,
@@ -31,18 +30,19 @@
     17,
     11,
     10,
-    3
+    3,
+    19
   ],
   "original_type_index": 3,
-  "last_updated": "2026-07-25T14:28:18.088994+00:00",
+  "last_updated": "2026-07-25T17:56:15.928131+00:00",
   "post_type_index": 10,
-  "total_posts": 344,
+  "total_posts": 345,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "cover",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
