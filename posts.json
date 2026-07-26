@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260713_220004",
-    "status": "published",
-    "created_at": "2026-07-13T22:00:04.130672+00:00",
-    "post_type": "original",
-    "topic": "Habana Abierta",
-    "text": "Habana Abierta ha sido una fuerza musical destacada en la escena del rock en español. Con una formación que incluye a talentosos músicos cubanos, la banda ha logrado cautivar a audiencias con sus interpretaciones apasionadas y enérgicas. En sus presentaciones, habitan un mundo de ritmos y melodías que han dejado huella en el festival de Música de Barcelona, donde han compartido sus éxitos con miles de personas. ¿Qué es lo que más te gusta de la música de Habana Abierta?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Habana Abierta rock band concert",
-    "extra_topics": [],
-    "post_year": "2003",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1444622274378981",
-    "ig_post_id": null,
-    "published_at": "2026-07-13T22:00:31.476091+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260714_035259",
     "status": "published",
     "created_at": "2026-07-14T03:52:59.453725+00:00",
@@ -1057,6 +1037,28 @@
     "fb_post_id": "1043162839046116_1455350956639446",
     "ig_post_id": null,
     "published_at": "2026-07-26T18:00:07.670391+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260726_220238",
+    "status": "published",
+    "created_at": "2026-07-26T22:02:38.082960+00:00",
+    "post_type": "youtube",
+    "topic": "Cascomar",
+    "text": "La música de Cascomar es una explosión de sentimientos que nos hace reflexionar sobre la vida y nuestras emociones. Aunque cada artista tiene su propio estilo, la capacidad de Cascomar para conectar con el público a través de su música es verdaderamente única. Su música nos invita a la introspección y a encontrar la fuerza para superar los desafíos. ¿Qué es lo que te atrae de la música de Cascomar y cómo te hace sentir?\n\nhttps://www.youtube.com/watch?v=3cRACktTyu0\n\nLo Mejor del Rock en Español les presenta: #Cascomar #LosPrisioneros\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cascomar #LosPrisioneros\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Cascomar rock band concert",
+    "extra_topics": [
+      "Los Prisioneros"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=3cRACktTyu0",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1455481626626379",
+    "ig_post_id": null,
+    "published_at": "2026-07-26T22:03:05.347777+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

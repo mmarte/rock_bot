@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Bomba Estéreo",
     "Héroes del Silencio",
     "Los Rabanes",
     "Habana Abierta",
@@ -19,7 +18,8 @@
     "Juanes",
     "Frágil",
     "La Máquina Camaleón",
-    "Cinema"
+    "Cinema",
+    "Cascomar"
   ],
   "used_poll_indices": [
     13,
@@ -34,15 +34,15 @@
     19
   ],
   "original_type_index": 5,
-  "last_updated": "2026-07-26T17:59:42.158113+00:00",
+  "last_updated": "2026-07-26T22:02:39.970717+00:00",
   "post_type_index": 10,
-  "total_posts": 349,
+  "total_posts": 350,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }

@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260605_155019",
-    "fb_post_id": "1043162839046116_1411233231051219",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "La Renga",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/La_Renga.jpg",
-    "status": "published",
-    "executed_at": "2026-06-05T15:50:47.822521+00:00"
-  },
-  {
     "post_id": "post_20260605_185813",
     "fb_post_id": "1043162839046116_1411367707704438",
     "ig_post_id": null,
@@ -2374,5 +2362,17 @@
     "image_url": "https://images.pexels.com/photos/12894935/pexels-photo-12894935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-07-26T18:00:07.670391+00:00"
+  },
+  {
+    "post_id": "post_20260726_220238",
+    "fb_post_id": "1043162839046116_1455481626626379",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Cascomar",
+    "image_url": "https://img.youtube.com/vi/3cRACktTyu0/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-26T22:03:05.347777+00:00"
   }
 ]
