@@ -1,11 +1,5 @@
 [
   {
-    "post_id": "post_20260604_222410",
-    "status": "failed",
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
-    "executed_at": "2026-06-04T22:24:37.940171+00:00"
-  },
-  {
     "post_id": "post_20260605_050931",
     "fb_post_id": "1043162839046116_1410782047763004",
     "ig_post_id": null,
@@ -2368,5 +2362,17 @@
     "image_url": "https://img.youtube.com/vi/p4MenCQ2Mmg/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-26T04:22:05.573413+00:00"
+  },
+  {
+    "post_id": "post_20260726_142543",
+    "fb_post_id": "1043162839046116_1455204059987469",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "image_url": "https://img.youtube.com/vi/U_yRMPhXO9I/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-26T14:26:10.493287+00:00"
   }
 ]
