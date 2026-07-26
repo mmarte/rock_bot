@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Octavia",
     "Bomba Estéreo",
     "Héroes del Silencio",
     "Los Rabanes",
@@ -19,7 +18,8 @@
     "Flou",
     "Juanes",
     "Frágil",
-    "La Máquina Camaleón"
+    "La Máquina Camaleón",
+    "Cinema"
   ],
   "used_poll_indices": [
     13,
@@ -33,16 +33,16 @@
     3,
     19
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-07-26T14:25:44.966461+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-07-26T17:59:42.158113+00:00",
   "post_type_index": 10,
-  "total_posts": 348,
+  "total_posts": 349,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "cover",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }
