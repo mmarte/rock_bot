@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Toque Profundo",
     "Flou",
     "Octavia",
     "Bomba Estéreo",
@@ -19,7 +18,8 @@
     "Hombres G",
     "Los Mojarras",
     "Flou",
-    "Juanes"
+    "Juanes",
+    "Frágil"
   ],
   "used_poll_indices": [
     13,
@@ -34,15 +34,15 @@
     19
   ],
   "original_type_index": 4,
-  "last_updated": "2026-07-25T21:59:56.635882+00:00",
+  "last_updated": "2026-07-26T04:21:40.195146+00:00",
   "post_type_index": 10,
-  "total_posts": 346,
+  "total_posts": 347,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
