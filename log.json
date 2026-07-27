@@ -1,11 +1,5 @@
 [
   {
-    "post_id": "post_20260606_044618",
-    "status": "failed",
-    "error": "FB error 324: Missing or invalid image file",
-    "executed_at": "2026-06-06T04:46:46.139805+00:00"
-  },
-  {
     "post_id": "post_20260606_142544",
     "fb_post_id": "1043162839046116_1412091590965383",
     "ig_post_id": null,
@@ -2374,5 +2368,17 @@
     "image_url": "https://images.pexels.com/photos/27817797/pexels-photo-27817797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-07-27T15:39:18.054671+00:00"
+  },
+  {
+    "post_id": "post_20260727_182236",
+    "fb_post_id": "1043162839046116_1456254133215795",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Frágil",
+    "image_url": "https://img.youtube.com/vi/vDtHFw_lPl8/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-27T18:23:03.354399+00:00"
   }
 ]
