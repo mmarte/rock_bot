@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Héroes del Silencio",
     "Los Rabanes",
     "Habana Abierta",
     "Habana Abierta",
@@ -19,10 +18,10 @@
     "Frágil",
     "La Máquina Camaleón",
     "Cinema",
-    "Cascomar"
+    "Cascomar",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
-    13,
     8,
     15,
     9,
@@ -31,18 +30,19 @@
     11,
     10,
     3,
-    19
+    19,
+    14
   ],
   "original_type_index": 5,
-  "last_updated": "2026-07-26T22:02:39.970717+00:00",
+  "last_updated": "2026-07-27T04:30:57.927583+00:00",
   "post_type_index": 10,
-  "total_posts": 350,
+  "total_posts": 351,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024
 }

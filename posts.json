@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260714_035259",
-    "status": "published",
-    "created_at": "2026-07-14T03:52:59.453725+00:00",
-    "post_type": "cover",
-    "topic": "Maná",
-    "text": "Maná nos brinda una interpretación única de 'Afuera', originalmente creada por Caifanes. Esta canción se transforma en algo especial cuando Maná la toca en vivo. La pasión y la emoción que Maná le imprime a la canción son verdaderamente destacadas. ¿Te gusta más la versión original de Caifanes o el cover de Maná?\n\nhttps://www.youtube.com/watch?v=--x-TvRhj1c\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Maná Afuera live",
-    "extra_topics": [
-      "Caifanes"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=--x-TvRhj1c",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1444796891028186",
-    "ig_post_id": null,
-    "published_at": "2026-07-14T03:53:27.345715+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260714_144341",
     "status": "published",
     "created_at": "2026-07-14T14:43:41.613508+00:00",
@@ -1059,6 +1037,29 @@
     "fb_post_id": "1043162839046116_1455481626626379",
     "ig_post_id": null,
     "published_at": "2026-07-26T22:03:05.347777+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260727_043056",
+    "status": "published",
+    "created_at": "2026-07-27T04:30:56.548147+00:00",
+    "post_type": "poll",
+    "topic": "Los Rabanes",
+    "text": "El rock en español cuenta con una gran variedad de talentos en el bajo, cada uno con su propio estilo y habilidad. Desde Argentina hasta México, estos músicos han dejado huella en la escena musical. Zeta Bosio, Flavio Cianciarulo y Juan Alderete son algunos de los bajistas más destacados, conocidos por su energía y habilidad en el escenario. Opciones: \n   👍 Zeta Bosio - Soda Stereo\n   ❤️ Flavio Cianciarulo - Los Fabulosos Cadillacs\n   😮 Juan Alderete\n   ¡Vota con tu reacción! ¿Quién es tu bajista favorito?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes #SodaStereo #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Rabanes rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1455690569938818",
+    "ig_post_id": null,
+    "published_at": "2026-07-27T04:31:23.381328+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
