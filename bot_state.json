@@ -1,7 +1,6 @@
 {
   "used_bands": [
     "Habana Abierta",
-    "Habana Abierta",
     "Gandhi",
     "No Te Va Gustar",
     "Flou",
@@ -19,7 +18,8 @@
     "Cascomar",
     "Los Rabanes",
     "Toque Profundo",
-    "Frágil"
+    "Frágil",
+    "Desorden Público"
   ],
   "used_poll_indices": [
     8,
@@ -33,16 +33,16 @@
     19,
     14
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-07-27T18:22:37.961019+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-07-27T22:11:07.936239+00:00",
   "post_type_index": 10,
-  "total_posts": 353,
+  "total_posts": 354,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "concert",
   "curation_year": 2024
 }
