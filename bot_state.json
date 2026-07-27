@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Habana Abierta",
     "Habana Abierta",
     "Habana Abierta",
@@ -19,7 +18,8 @@
     "La Máquina Camaleón",
     "Cinema",
     "Cascomar",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Toque Profundo"
   ],
   "used_poll_indices": [
     8,
@@ -33,16 +33,16 @@
     19,
     14
   ],
-  "original_type_index": 5,
-  "last_updated": "2026-07-27T04:30:57.927583+00:00",
+  "original_type_index": 6,
+  "last_updated": "2026-07-27T15:38:52.684941+00:00",
   "post_type_index": 10,
-  "total_posts": 351,
+  "total_posts": 352,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024
 }

@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260605_221756",
-    "fb_post_id": "1043162839046116_1411488131025729",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Caifanes",
-    "image_url": "https://img.youtube.com/vi/U9IwsV1r66g/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-05T22:18:23.153468+00:00"
-  },
-  {
     "post_id": "post_20260606_044618",
     "status": "failed",
     "error": "FB error 324: Missing or invalid image file",
@@ -2374,5 +2362,17 @@
     "image_url": "https://www.sodastereo.com/img/image_src.jpg",
     "status": "published",
     "executed_at": "2026-07-27T04:31:23.381328+00:00"
+  },
+  {
+    "post_id": "post_20260727_153850",
+    "fb_post_id": "1043162839046116_1456138753227333",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Toque Profundo",
+    "image_url": "https://images.pexels.com/photos/27817797/pexels-photo-27817797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-07-27T15:39:18.054671+00:00"
   }
 ]
