@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260606_220557",
-    "fb_post_id": "1043162839046116_1412388654269010",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Rabanes",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
-    "status": "published",
-    "executed_at": "2026-06-06T22:06:24.151034+00:00"
-  },
-  {
     "post_id": "post_20260607_051643",
     "fb_post_id": "1043162839046116_1412640814243794",
     "ig_post_id": null,
@@ -2380,5 +2368,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
     "status": "published",
     "executed_at": "2026-07-28T03:56:07.563098+00:00"
+  },
+  {
+    "post_id": "post_20260728_151326",
+    "fb_post_id": "1043162839046116_1457051383136070",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Zapato 3",
+    "image_url": "https://img.youtube.com/vi/i3RBvbbgLoM/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-28T15:13:53.954926+00:00"
   }
 ]
