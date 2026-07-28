@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260715_220415",
-    "status": "published",
-    "created_at": "2026-07-15T22:04:15.081712+00:00",
-    "post_type": "original",
-    "topic": "Cascomar",
-    "text": "Cascomar es una banda que se destaca en el panorama del rock en español por su sonido innovador. Aquí te dejo 3 claves para entender su atractivo: 1) Su música combina elementos de rock progresivo y psicodelia, creando un ambiente sonoro cautivador. 2) La banda tiene sus raíces en Argentina y cuenta con integrantes talentosos que han contribuido a su estilo único. 3) La publicación de su álbum debut fue un momento crucial en su carrera, marcando un punto de inflexión y permitiéndolesexpandir su audiencia. ¿Cuál es tu tema favorito de Cascomar?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cascomar\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Cascomar rock band concert",
-    "extra_topics": [],
-    "post_year": "2012",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1446308830876992",
-    "ig_post_id": null,
-    "published_at": "2026-07-15T22:04:42.414329+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260716_035627",
     "status": "published",
     "created_at": "2026-07-16T03:56:27.814495+00:00",
@@ -1062,5 +1042,23 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260728_220649",
+    "status": "failed",
+    "created_at": "2026-07-28T22:06:49.492950+00:00",
+    "post_type": "original",
+    "topic": "Charly García",
+    "text": "Durante la grabación de 'Clics Modernos', Charly García experimentó un período de intensa creatividad y profundos cambios personales. El álbum incluye canciones emblemáticas que reflejan la transformación que estaba viviendo en ese momento. ¿Qué creen que inspiró a Charly García a componer canciones tan memorables?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CharlyGarcia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Charly Garcia Argentina rock piano",
+    "extra_topics": [],
+    "post_year": "1983",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]
