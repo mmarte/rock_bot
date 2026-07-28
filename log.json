@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260607_051643",
-    "fb_post_id": "1043162839046116_1412640814243794",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Habana Abierta",
-    "image_url": "https://images.pexels.com/photos/27817790/pexels-photo-27817790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-06-07T05:17:11.348108+00:00"
-  },
-  {
     "post_id": "post_20260607_144814",
     "fb_post_id": "1043162839046116_1413010084206867",
     "ig_post_id": null,
@@ -2380,5 +2368,17 @@
     "image_url": "https://img.youtube.com/vi/i3RBvbbgLoM/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-28T15:13:53.954926+00:00"
+  },
+  {
+    "post_id": "post_20260728_181119",
+    "fb_post_id": "1043162839046116_1457170149790860",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "image_url": "https://img.youtube.com/vi/ZC8XO4LviGk/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-28T18:11:46.549768+00:00"
   }
 ]
