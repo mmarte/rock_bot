@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Fiel a la Vega",
     "Dedicados",
     "Caramelos de Cianuro",
     "Líbido",
@@ -19,7 +18,8 @@
     "Flou",
     "Zapato 3",
     "Savage",
-    "Charly García"
+    "Charly García",
+    "Octavia"
   ],
   "used_poll_indices": [
     8,
@@ -33,16 +33,16 @@
     19,
     14
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-07-28T22:06:50.969802+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-07-29T03:58:54.384346+00:00",
   "post_type_index": 10,
-  "total_posts": 358,
+  "total_posts": 359,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "original",
   "curation_year": 2024
 }
