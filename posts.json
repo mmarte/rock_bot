@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260716_220624",
-    "status": "published",
-    "created_at": "2026-07-16T22:06:24.547362+00:00",
-    "post_type": "youtube",
-    "topic": "Malpaís",
-    "text": "La música de Malpaís es una fusión única de la esencia costarricense y la pasión del rock, algo que se refleja en 'Vuela sobre la ciudad'. El videoclip de esta canción ofrece una experiencia visual impactante. ¿Cómo te hace sentir la música de Malpaís?\n\nhttps://www.youtube.com/watch?v=YrxftR3lzQQ\n\nLo Mejor del Rock en Español les presenta: #Malpais\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Malpais\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Malpaís rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=YrxftR3lzQQ",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1447158270792048",
-    "ig_post_id": null,
-    "published_at": "2026-07-16T22:06:51.421404+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260717_035548",
     "status": "published",
     "created_at": "2026-07-17T03:55:48.492958+00:00",
@@ -1060,6 +1040,28 @@
     "fb_post_id": "1043162839046116_1457983653042843",
     "ig_post_id": null,
     "published_at": "2026-07-29T15:06:57.000576+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260729_180454",
+    "status": "published",
+    "created_at": "2026-07-29T18:04:54.311338+00:00",
+    "post_type": "youtube",
+    "topic": "Los Rodríguez",
+    "text": "La música de Los Rodríguez es un ejemplo de fusión y creación única. Andrés Calamaro aporta una perspectiva especial a la banda, lo que se refleja en su capacidad para combinar estilos y generar una conexión con el público. Desde su álbum debut, 'Buena suerte', han demostrado su habilidad para crear música que conecta con las personas. En vivo, la pasión y la energía de la banda son palpables. ¿Cuál es tu canción favorita de Los Rodríguez y qué significa para ti?\n\nhttps://www.youtube.com/watch?v=quQmaDIG1o4\n\nLo Mejor del Rock en Español les presenta: #LosRodriguez #AndresCalamaro\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRodriguez #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Rodriguez Spain Argentina rock band",
+    "extra_topics": [
+      "Andrés Calamaro"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=quQmaDIG1o4",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1458110943030114",
+    "ig_post_id": null,
+    "published_at": "2026-07-29T18:05:24.866968+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
