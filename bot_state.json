@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Dedicados",
     "Caramelos de Cianuro",
     "Líbido",
     "Hombres G",
@@ -19,10 +18,10 @@
     "Zapato 3",
     "Savage",
     "Charly García",
-    "Octavia"
+    "Octavia",
+    "Fiel a la Vega"
   ],
   "used_poll_indices": [
-    8,
     15,
     9,
     7,
@@ -31,18 +30,19 @@
     10,
     3,
     19,
-    14
+    14,
+    5
   ],
   "original_type_index": 10,
-  "last_updated": "2026-07-29T03:58:54.384346+00:00",
+  "last_updated": "2026-07-29T15:06:31.654503+00:00",
   "post_type_index": 10,
-  "total_posts": 359,
+  "total_posts": 360,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }

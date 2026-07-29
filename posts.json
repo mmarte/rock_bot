@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260716_145459",
-    "status": "published",
-    "created_at": "2026-07-16T14:54:59.943997+00:00",
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "text": "La versión de Soda Stereo de 'Paint It Black' es un ejemplo destacado de cómo una banda puede reinterpretar un clásico y hacerlo suyo. La energía y los arreglos innovadores que Gustavo Cerati y su banda le dieron a esta canción legendaria de The Rolling Stones son notables. ¿Te gusta más la esencia original de la canción o la versión que hizo Soda Stereo?\n\nhttps://www.youtube.com/watch?v=01gI22568dc\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Soda Stereo Paint It Black live",
-    "extra_topics": [
-      "Gustavo Cerati"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=01gI22568dc",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1446898977484644",
-    "ig_post_id": null,
-    "published_at": "2026-07-16T14:55:28.015960+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260716_220624",
     "status": "published",
     "created_at": "2026-07-16T22:06:24.547362+00:00",
@@ -1059,6 +1037,29 @@
     "fb_post_id": "1043162839046116_1457510786423463",
     "ig_post_id": null,
     "published_at": "2026-07-29T03:59:19.794118+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260729_150629",
+    "status": "published",
+    "created_at": "2026-07-29T15:06:29.680093+00:00",
+    "post_type": "poll",
+    "topic": "Fiel a la Vega",
+    "text": "La guitarra es un elemento fundamental en el rock en español, con una gran diversidad de estilos y talentos que han marcado la historia del género. Desde el norte hasta el sur de América Latina, han surgido guitarristas únicos que han dejado su huella con sus riff y solos inolvidables. Entre ellos, destacan figuras como Gustavo Cerati, conocido por su trabajo en una de las bandas más influyentes del rock en español, Iñaki Uoho, con su estilo particular y emotivo, y Tweety González, un nombre que evoca la pasión y la energía en cada acorde. ¿Quién crees que es el mejor guitarrista del rock en español? \n   Opciones: \n   Gustavo Cerati - Soda Stereo\n   Iñaki Uoho - Heroes del Silencio\n   Tweety González\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Fiel a la Vega rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1457983653042843",
+    "ig_post_id": null,
+    "published_at": "2026-07-29T15:06:57.000576+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
