@@ -1,11 +1,5 @@
 [
   {
-    "post_id": "post_20260608_191951",
-    "status": "failed",
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
-    "executed_at": "2026-06-08T19:20:18.395100+00:00"
-  },
-  {
     "post_id": "post_20260608_223145",
     "fb_post_id": "1043162839046116_1414183690756173",
     "ig_post_id": null,
@@ -2380,5 +2374,17 @@
     "image_url": "https://images.pexels.com/photos/14456994/pexels-photo-14456994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-07-29T22:04:29.645163+00:00"
+  },
+  {
+    "post_id": "post_20260730_035104",
+    "fb_post_id": "1043162839046116_1458434632997745",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Maná",
+    "image_url": "https://img.youtube.com/vi/UKJfA06pNM0/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-30T03:51:31.633697+00:00"
   }
 ]

@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Hombres G",
     "Los Mojarras",
     "Flou",
     "Juanes",
@@ -19,7 +18,8 @@
     "Octavia",
     "Fiel a la Vega",
     "Los Rodríguez",
-    "La Ley"
+    "La Ley",
+    "Fiel a la Vega"
   ],
   "used_poll_indices": [
     15,
@@ -34,15 +34,15 @@
     5
   ],
   "original_type_index": 1,
-  "last_updated": "2026-07-29T22:04:04.111169+00:00",
+  "last_updated": "2026-07-30T03:51:06.263966+00:00",
   "post_type_index": 10,
-  "total_posts": 362,
+  "total_posts": 363,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
