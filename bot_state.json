@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Juanes",
     "Frágil",
     "La Máquina Camaleón",
     "Cinema",
@@ -19,7 +18,8 @@
     "La Ley",
     "Fiel a la Vega",
     "Caramelos de Cianuro",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Savage"
   ],
   "used_poll_indices": [
     15,
@@ -34,15 +34,15 @@
     5
   ],
   "original_type_index": 3,
-  "last_updated": "2026-07-30T18:13:41.935435+00:00",
+  "last_updated": "2026-07-30T22:10:59.591472+00:00",
   "post_type_index": 10,
-  "total_posts": 365,
+  "total_posts": 366,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260609_155132",
-    "fb_post_id": "1043162839046116_1414805880693954",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Fiel a la Vega",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
-    "status": "published",
-    "executed_at": "2026-06-09T15:51:59.003684+00:00"
-  },
-  {
     "post_id": "post_20260609_191255",
     "fb_post_id": "1043162839046116_1414951677346041",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
     "status": "published",
     "executed_at": "2026-07-30T18:14:07.283045+00:00"
+  },
+  {
+    "post_id": "post_20260730_221057",
+    "fb_post_id": "1043162839046116_1459140089593866",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Aterciopelados",
+    "image_url": "https://img.youtube.com/vi/ON9hrnxZejc/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-30T22:11:25.243252+00:00"
   }
 ]
