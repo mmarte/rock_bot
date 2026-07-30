@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Mojarras",
     "Flou",
     "Juanes",
     "Frágil",
@@ -19,7 +18,8 @@
     "Fiel a la Vega",
     "Los Rodríguez",
     "La Ley",
-    "Fiel a la Vega"
+    "Fiel a la Vega",
+    "Caramelos de Cianuro"
   ],
   "used_poll_indices": [
     15,
@@ -33,16 +33,16 @@
     14,
     5
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-07-30T03:51:06.263966+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-07-30T15:06:31.483223+00:00",
   "post_type_index": 10,
-  "total_posts": 363,
+  "total_posts": 364,
   "used_event_indices": [
     12,
     11,
     16,
     18
   ],
-  "last_post_type": "cover",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }

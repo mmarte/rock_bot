@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260717_180145",
-    "status": "published",
-    "created_at": "2026-07-17T18:01:45.548933+00:00",
-    "post_type": "poll",
-    "topic": "Flou",
-    "text": "En el mundo del rock en español, hay muchas canciones que han marcado un lugar especial en la historia musical. Desde ritmos que nos hacen mover hasta letras que tocan nuestro corazón, cada una de ellas tiene su propio lugar en la memoria de los fanáticos. ¿Cuál es la canción que no te cansa escuchar? \n   Opciones: \n   De Música Ligera - Soda Stereo\n   Entre Dos Tierras - Heroes del Silencio\n   Oye Mi Amor - Maná\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Flou #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Flou rock band concert",
-    "extra_topics": [
-      "Soda Stereo",
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1447878147386727",
-    "ig_post_id": null,
-    "published_at": "2026-07-17T18:02:12.488177+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260717_215645",
     "status": "published",
     "created_at": "2026-07-17T21:56:45.275798+00:00",
@@ -1061,6 +1038,26 @@
     "fb_post_id": "1043162839046116_1458434632997745",
     "ig_post_id": null,
     "published_at": "2026-07-30T03:51:31.633697+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260730_150629",
+    "status": "published",
+    "created_at": "2026-07-30T15:06:29.085666+00:00",
+    "post_type": "original",
+    "topic": "Caramelos de Cianuro",
+    "text": "Caramelos de Cianuro es una banda que ha dejado una huella significativa en el rock venezolano. Aquí te dejo tres datos interesantes sobre la banda: \n   1. Su álbum debut 'Caramelos de Cianuro' marcó el comienzo de su carrera y sentó las bases para su éxito en la escena rock en español. \n   2. A lo largo de los años, la banda ha experimentado cambios en su alineación, pero su vocalista Asier Cazalís ha sido una figura clave en su trayectoria. \n   3. El álbum 'Flor de Fuego' es un ejemplo de su capacidad para evolucionar y colaborar con otros artistas, lo que ha enriquecido su sonido. \n   ¿Cuál de estos aspectos de la banda te parece más fascinante?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CaramelosdeCianuro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Caramelos de Cianuro rock band concert",
+    "extra_topics": [],
+    "post_year": "1992",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1458871112954097",
+    "ig_post_id": null,
+    "published_at": "2026-07-30T15:06:56.840482+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

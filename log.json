@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260608_223145",
-    "fb_post_id": "1043162839046116_1414183690756173",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Enrique Bunbury",
-    "image_url": "https://img.youtube.com/vi/SzimletXB7M/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-08T22:32:13.063725+00:00"
-  },
-  {
     "post_id": "post_20260609_045911",
     "fb_post_id": "1043162839046116_1414391397402069",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/UKJfA06pNM0/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-07-30T03:51:31.633697+00:00"
+  },
+  {
+    "post_id": "post_20260730_150629",
+    "fb_post_id": "1043162839046116_1458871112954097",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Caramelos de Cianuro",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Caramelos_de_Cianuro_at_Forum_2011.png",
+    "status": "published",
+    "executed_at": "2026-07-30T15:06:56.840482+00:00"
   }
 ]
