@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260718_175404",
-    "status": "published",
-    "created_at": "2026-07-18T17:54:04.437405+00:00",
-    "post_type": "youtube",
-    "topic": "Kraken",
-    "text": "La banda Kraken logró una presentación impactante en un escenario emblemático de Bogotá, acompañada por una orquesta filarmónica. Esta fusión única de rock y música clásica pone de relieve la versatilidad y habilidad de la banda para adaptar su sonido. La emoción que se percibe en este concierto es palpable. ¿Qué hace que Kraken tenga un lugar especial en la escena rock de Colombia?\n\nhttps://www.youtube.com/watch?v=kwGPn392UCg\n\nLo Mejor del Rock en Español les presenta: #Kraken\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Kraken\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Kraken rock band concert",
-    "extra_topics": [],
-    "post_year": "2006",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=kwGPn392UCg",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1448694373971771",
-    "ig_post_id": null,
-    "published_at": "2026-07-18T17:54:31.910998+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260719_041728",
     "status": "published",
     "created_at": "2026-07-19T04:17:28.524945+00:00",
@@ -1055,6 +1035,28 @@
     "fb_post_id": "1043162839046116_1459809206193621",
     "ig_post_id": null,
     "published_at": "2026-07-31T15:14:49.302839+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260731_181834",
+    "status": "published",
+    "created_at": "2026-07-31T18:18:34.586379+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "La reinterpretación de una canción icónica por una banda legendaria como Café Tacvba es un evento notable. Cuando toman 'La Negra Tomasa' de Caifanes, la resultante es un cover que combina el respeto al original con su propia identidad única. La versión de Café Tacvba destaca por su fusión de ritmos y actitud rock, creando una interpretación memorable. La manera en que fusionan su estilo con la esencia de la canción original es verdaderamente especial. ¿Cuál versión te gusta más, la original de Caifanes o la reinterpretación de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=-vExohgAKGE\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba La Negra Tomasa live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=-vExohgAKGE",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1459942379513637",
+    "ig_post_id": null,
+    "published_at": "2026-07-31T18:19:02.464044+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

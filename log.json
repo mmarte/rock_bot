@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260609_222721",
-    "fb_post_id": "1043162839046116_1415057324002143",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Héroes del Silencio",
-    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
-    "status": "published",
-    "executed_at": "2026-06-09T22:27:48.732343+00:00"
-  },
-  {
     "post_id": "post_20260610_051053",
     "fb_post_id": "1043162839046116_1415289430645599",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Vamoslavela.jpg",
     "status": "published",
     "executed_at": "2026-07-31T15:14:49.302839+00:00"
+  },
+  {
+    "post_id": "post_20260731_181834",
+    "fb_post_id": "1043162839046116_1459942379513637",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "image_url": "https://img.youtube.com/vi/-vExohgAKGE/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-07-31T18:19:02.464044+00:00"
   }
 ]
