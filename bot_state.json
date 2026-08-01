@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Toque Profundo",
     "Frágil",
     "Desorden Público",
@@ -19,7 +18,8 @@
     "La Vela Puerca",
     "Panteon Rococo",
     "Fiel a la Vega",
-    "Soda Stereo"
+    "Soda Stereo",
+    "Los Tres"
   ],
   "used_poll_indices": [
     15,
@@ -34,15 +34,16 @@
     5
   ],
   "original_type_index": 5,
-  "last_updated": "2026-08-01T04:17:28.937146+00:00",
+  "last_updated": "2026-08-01T14:23:54.608321+00:00",
   "post_type_index": 10,
-  "total_posts": 370,
+  "total_posts": 371,
   "used_event_indices": [
     12,
     11,
     16,
-    18
+    18,
+    19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }

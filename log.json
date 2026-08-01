@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260610_193236",
-    "fb_post_id": "1043162839046116_1415844950590047",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/iSWtBkdFeJk/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-10T19:33:03.481273+00:00"
-  },
-  {
     "post_id": "post_20260610_225432",
     "fb_post_id": "1043162839046116_1415949710579571",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/QO58s_oFU_4/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-01T04:17:54.706222+00:00"
+  },
+  {
+    "post_id": "post_20260801_142352",
+    "fb_post_id": "1043162839046116_1460663882774820",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "hoy_en_historia",
+    "topic": "Gustavo Cerati",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
+    "status": "published",
+    "executed_at": "2026-08-01T14:24:19.978040+00:00"
   }
 ]
