@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Frágil",
     "Desorden Público",
     "Flou",
     "Zapato 3",
@@ -19,7 +18,8 @@
     "Fiel a la Vega",
     "Soda Stereo",
     "Los Tres",
-    "Alux Nahual"
+    "Alux Nahual",
+    "Malpaís"
   ],
   "used_poll_indices": [
     9,
@@ -34,9 +34,9 @@
     6
   ],
   "original_type_index": 5,
-  "last_updated": "2026-08-01T17:58:08.351366+00:00",
+  "last_updated": "2026-08-01T21:59:24.324222+00:00",
   "post_type_index": 10,
-  "total_posts": 372,
+  "total_posts": 373,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

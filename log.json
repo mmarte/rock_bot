@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260611_052025",
-    "fb_post_id": "1043162839046116_1416172740557268",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Gandhi",
-    "image_url": "https://images.pexels.com/photos/30258455/pexels-photo-30258455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-06-11T05:20:52.666606+00:00"
-  },
-  {
     "post_id": "post_20260611_164614",
     "fb_post_id": "1043162839046116_1416644360510106",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Alux_Nahual.jpg",
     "status": "published",
     "executed_at": "2026-08-01T17:58:33.691786+00:00"
+  },
+  {
+    "post_id": "post_20260801_215922",
+    "fb_post_id": "1043162839046116_1460949592746249",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Maná",
+    "image_url": "https://img.youtube.com/vi/4y4lXE7TahQ/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-01T21:59:49.710831+00:00"
   }
 ]

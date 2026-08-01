@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260720_043122",
-    "status": "published",
-    "created_at": "2026-07-20T04:31:22.772360+00:00",
-    "post_type": "youtube",
-    "topic": "Alux Nahual",
-    "text": "Alux Nahual es una banda que ha dejado una huella significativa en la escena rock en español. Su álbum 'Alto al Fuego' es ampliamente reconocido y 'Como un Duende' es una de sus canciones más destacadas. La calidad de su música se mantiene intacta con el tiempo, lo que permite a los fanáticos disfrutar de su auténtica esencia. La remasterización de sus temas es un gesto hacia los seguidores, brindándoles la oportunidad de experimentar su arte con una nueva perspectiva sonora. ¿Qué es lo que más te atrae de la música de Alux Nahual?\n\nhttps://www.youtube.com/watch?v=sq8R-dLqLsg\n\nLo Mejor del Rock en Español les presenta: #AluxNahual\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #AluxNahual\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Alux Nahual rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=sq8R-dLqLsg",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1449821820525693",
-    "ig_post_id": null,
-    "published_at": "2026-07-20T04:31:50.106554+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260720_150449",
     "status": "published",
     "created_at": "2026-07-20T15:04:49.500408+00:00",
@@ -1060,6 +1040,28 @@
     "fb_post_id": "1043162839046116_1460814549426420",
     "ig_post_id": null,
     "published_at": "2026-08-01T17:58:33.691786+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260801_215922",
+    "status": "published",
+    "created_at": "2026-08-01T21:59:22.729845+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "La unión de la energía de Maná con la esencia de Caifanes es algo especial. La interpretación en vivo de 'Afuera' es un ejemplo de cómo se puede crear un momento único. La voz de Fher Olvera se combina con el espíritu de la canción, generando una experiencia memorable. ¿Qué te gusta más, la emoción del cover o la autenticidad del original?\n\nhttps://www.youtube.com/watch?v=4y4lXE7TahQ\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=4y4lXE7TahQ",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1460949592746249",
+    "ig_post_id": null,
+    "published_at": "2026-08-01T21:59:49.710831+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
