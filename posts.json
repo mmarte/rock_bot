@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260719_142159",
-    "status": "published",
-    "created_at": "2026-07-19T14:21:59.814654+00:00",
-    "post_type": "poll",
-    "topic": "Divididos",
-    "text": "El rock en español ha experimentado un crecimiento explosivo, generando una vibrante escena llena de energía y talento. Festivales en toda América Latina son el escenario perfecto para que las bandas más emblemáticas muestren su habilidad y conexión con el público. Entre los festivales más destacados, ¿cuál es el que más te emociona? \n   Opciones: \n   👍 Vive Latino\n   ❤️ Lollapalooza LatAm\n   😮 Festival Estéreo Picnic\n   ¡Vota con tu reacción! ¿Cuál es tu festival favorito?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Divididos\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Divididos Argentina rock concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1449344017240140",
-    "ig_post_id": null,
-    "published_at": "2026-07-19T14:22:27.036797+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260719_175548",
     "status": "published",
     "created_at": "2026-07-19T17:55:48.231726+00:00",
@@ -1055,6 +1035,28 @@
     "fb_post_id": "1043162839046116_1460070632834145",
     "ig_post_id": null,
     "published_at": "2026-07-31T22:10:00.207568+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260801_041727",
+    "status": "published",
+    "created_at": "2026-08-01T04:17:27.129166+00:00",
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "text": "Imagina un clásico rock como 'Paint It Black' de The Rolling Stones reinterpretado por Soda Stereo. Esta versión mantiene la esencia del original con un toque particular. La voz de Gustavo Cerati lleva la canción a un nivel distinto de emoción. ¿Cuál te llena más de emoción, el original o el cover?\n\nhttps://www.youtube.com/watch?v=QO58s_oFU_4\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Soda Stereo Paint It Black live",
+    "extra_topics": [
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=QO58s_oFU_4",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1460275689480306",
+    "ig_post_id": null,
+    "published_at": "2026-08-01T04:17:54.706222+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

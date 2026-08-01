@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260610_163114",
-    "fb_post_id": "1043162839046116_1415734260601116",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "La Máquina Camaleón",
-    "image_url": "https://images.pexels.com/photos/27817776/pexels-photo-27817776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-06-10T16:31:41.897519+00:00"
-  },
-  {
     "post_id": "post_20260610_193236",
     "fb_post_id": "1043162839046116_1415844950590047",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
     "status": "published",
     "executed_at": "2026-07-31T22:10:00.207568+00:00"
+  },
+  {
+    "post_id": "post_20260801_041727",
+    "fb_post_id": "1043162839046116_1460275689480306",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "image_url": "https://img.youtube.com/vi/QO58s_oFU_4/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-01T04:17:54.706222+00:00"
   }
 ]
