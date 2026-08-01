@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260610_225432",
-    "fb_post_id": "1043162839046116_1415949710579571",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Desorden Público",
-    "image_url": "https://img.youtube.com/vi/OfS-1IJajzc/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-10T22:54:34.208677+00:00"
-  },
-  {
     "post_id": "post_20260611_052025",
     "fb_post_id": "1043162839046116_1416172740557268",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
     "status": "published",
     "executed_at": "2026-08-01T14:24:19.978040+00:00"
+  },
+  {
+    "post_id": "post_20260801_175807",
+    "fb_post_id": "1043162839046116_1460814549426420",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Alux Nahual",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Alux_Nahual.jpg",
+    "status": "published",
+    "executed_at": "2026-08-01T17:58:33.691786+00:00"
   }
 ]
