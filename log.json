@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260612_052612",
-    "fb_post_id": "1043162839046116_1417084600466082",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Gustavo Cerati",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
-    "status": "published",
-    "executed_at": "2026-06-12T05:26:39.586944+00:00"
-  },
-  {
     "post_id": "post_20260612_161324",
     "fb_post_id": "1043162839046116_1417466797094529",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/ecVpvq1BNTQ/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-02T17:59:42.169725+00:00"
+  },
+  {
+    "post_id": "post_20260802_215931",
+    "fb_post_id": "1043162839046116_1461853029322572",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "image_url": "https://img.youtube.com/vi/Dck7W4IYyGI/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-02T21:59:58.554544+00:00"
   }
 ]

@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260721_041027",
-    "status": "published",
-    "created_at": "2026-07-21T04:10:27.940925+00:00",
-    "post_type": "original",
-    "topic": "Toque Profundo",
-    "text": "Toque Profundo ha dejado una huella imborrable en el rock en español. La banda, liderada por Ricardo Mollo y Marcelo Torres, ha ofrecido conciertos inolvidables a lo largo de su carrera, destacándose por interpretar algunas de sus canciones más emblemáticas. Aunque los detalles de algunas de sus presentaciones pueden ser difíciles de precisar, es innegable que han tenido un impacto significativo en la escena musical. ¿Qué es lo que más te gusta de Toque Profundo?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ToqueProfundo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Toque Profundo rock band concert",
-    "extra_topics": [],
-    "post_year": "1994",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1450636357110906",
-    "ig_post_id": null,
-    "published_at": "2026-07-21T04:10:55.414665+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260721_145651",
     "status": "published",
     "created_at": "2026-07-21T14:56:51.524764+00:00",
@@ -1058,6 +1038,28 @@
     "fb_post_id": "1043162839046116_1461719922669216",
     "ig_post_id": null,
     "published_at": "2026-08-02T17:59:42.169725+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260802_215931",
+    "status": "published",
+    "created_at": "2026-08-02T21:59:31.579284+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "La Negra Tomasa es un himno que ha sido reinterpretado con un sabor único y una actitud rock que nos hace vibrar. La versión original es un clásico del rock en español, pero el cover de Café Tacvba le da un giro fresco y lleno de energía. ¿Te gusta más la versión original o la reinterpretación de Café Tacvba? https://www.youtube.com/watch?v=Dck7W4IYyGI\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba La Negra Tomasa live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=Dck7W4IYyGI",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1461853029322572",
+    "ig_post_id": null,
+    "published_at": "2026-08-02T21:59:58.554544+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
