@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260720_220249",
-    "status": "published",
-    "created_at": "2026-07-20T22:02:49.183883+00:00",
-    "post_type": "poll",
-    "topic": "Alux Nahual",
-    "text": "La escena musical chilena ha producido bandas de rock notablemente influyentes en América Latina. Con estilos únicos y letras que reflejan la realidad y la pasión, cada una ha dejado su huella. Entre ellas, destacan grupos que han logrado fusionar el rock con otros géneros, creando sonidos innovadores. ¿Cuál es tu grupo favorito entre estos? \n   Opciones: \n   Los Prisioneros\n   La Ley\n   Los Tres\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #AluxNahual #LaLey #LosPrisioneros\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Alux Nahual rock band concert",
-    "extra_topics": [
-      "La Ley",
-      "Los Prisioneros"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1450441990463676",
-    "ig_post_id": null,
-    "published_at": "2026-07-20T22:03:16.024440+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260721_041027",
     "status": "published",
     "created_at": "2026-07-21T04:10:27.940925+00:00",
@@ -1061,6 +1038,26 @@
     "fb_post_id": "1043162839046116_1461568742684334",
     "ig_post_id": null,
     "published_at": "2026-08-02T14:25:30.559898+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260802_175915",
+    "status": "published",
+    "created_at": "2026-08-02T17:59:15.349001+00:00",
+    "post_type": "youtube",
+    "topic": "La Cuneta Son Machín",
+    "text": "La Cuneta Son Machín es una banda que logra conectar con su público a través de su música enérgica y auténtica. Esta interpretación de 'Fuego y Candela' es muy especial, muestra la química que tienen con su audiencia. ¿Cuál es tu momento favorito de esta presentación en vivo? https://www.youtube.com/watch?v=ecVpvq1BNTQ\n\nLo Mejor del Rock en Español les presenta: #LaCunetaSonMachin\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaCunetaSonMachin\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Cuneta Son Machín rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=ecVpvq1BNTQ",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1461719922669216",
+    "ig_post_id": null,
+    "published_at": "2026-08-02T17:59:42.169725+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

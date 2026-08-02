@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Zapato 3",
     "Savage",
     "Charly García",
     "Octavia",
@@ -19,7 +18,8 @@
     "Alux Nahual",
     "Malpaís",
     "Los Mojarras",
-    "Desorden Público"
+    "Desorden Público",
+    "La Cuneta Son Machín"
   ],
   "used_poll_indices": [
     9,
@@ -34,9 +34,9 @@
     6
   ],
   "original_type_index": 5,
-  "last_updated": "2026-08-02T14:25:04.996620+00:00",
+  "last_updated": "2026-08-02T17:59:16.876023+00:00",
   "post_type_index": 10,
-  "total_posts": 375,
+  "total_posts": 376,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
