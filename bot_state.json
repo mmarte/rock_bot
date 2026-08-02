@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Flou",
     "Zapato 3",
     "Savage",
     "Charly García",
@@ -19,7 +18,8 @@
     "Los Tres",
     "Alux Nahual",
     "Malpaís",
-    "Los Mojarras"
+    "Los Mojarras",
+    "Desorden Público"
   ],
   "used_poll_indices": [
     9,
@@ -34,9 +34,9 @@
     6
   ],
   "original_type_index": 5,
-  "last_updated": "2026-08-02T04:19:38.467066+00:00",
+  "last_updated": "2026-08-02T14:25:04.996620+00:00",
   "post_type_index": 10,
-  "total_posts": 374,
+  "total_posts": 375,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
