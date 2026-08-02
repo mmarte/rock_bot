@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Desorden Público",
     "Flou",
     "Zapato 3",
     "Savage",
@@ -19,7 +18,8 @@
     "Soda Stereo",
     "Los Tres",
     "Alux Nahual",
-    "Malpaís"
+    "Malpaís",
+    "Los Mojarras"
   ],
   "used_poll_indices": [
     9,
@@ -34,9 +34,9 @@
     6
   ],
   "original_type_index": 5,
-  "last_updated": "2026-08-01T21:59:24.324222+00:00",
+  "last_updated": "2026-08-02T04:19:38.467066+00:00",
   "post_type_index": 10,
-  "total_posts": 373,
+  "total_posts": 374,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }

@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260611_164614",
-    "fb_post_id": "1043162839046116_1416644360510106",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Juanes",
-    "image_url": "https://img.youtube.com/vi/8GhDNpqi7EQ/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-11T16:46:42.560804+00:00"
-  },
-  {
     "post_id": "post_20260611_193318",
     "fb_post_id": "1043162839046116_1416755773832298",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/4y4lXE7TahQ/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-01T21:59:49.710831+00:00"
+  },
+  {
+    "post_id": "post_20260802_041937",
+    "fb_post_id": "1043162839046116_1461168989390976",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Los Mojarras",
+    "image_url": "https://img.youtube.com/vi/qTUi2sCxQ1o/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-02T04:20:03.916919+00:00"
   }
 ]
