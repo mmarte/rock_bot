@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rodríguez",
     "La Ley",
     "Fiel a la Vega",
     "Caramelos de Cianuro",
@@ -19,7 +18,8 @@
     "Frágil",
     "Los Prisioneros",
     "Toque Profundo",
-    "Fiel a la Vega"
+    "Fiel a la Vega",
+    "Gandhi"
   ],
   "used_poll_indices": [
     7,
@@ -34,9 +34,9 @@
     12
   ],
   "original_type_index": 7,
-  "last_updated": "2026-08-03T18:48:31.764033+00:00",
+  "last_updated": "2026-08-03T22:12:13.693985+00:00",
   "post_type_index": 10,
-  "total_posts": 380,
+  "total_posts": 381,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "concert",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
