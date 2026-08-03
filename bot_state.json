@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Charly García",
     "Octavia",
     "Fiel a la Vega",
     "Los Rodríguez",
@@ -19,7 +18,8 @@
     "Los Mojarras",
     "Desorden Público",
     "La Cuneta Son Machín",
-    "Frágil"
+    "Frágil",
+    "Los Prisioneros"
   ],
   "used_poll_indices": [
     9,
@@ -33,10 +33,10 @@
     5,
     6
   ],
-  "original_type_index": 5,
-  "last_updated": "2026-08-02T21:59:33.186979+00:00",
+  "original_type_index": 6,
+  "last_updated": "2026-08-03T04:24:13.791795+00:00",
   "post_type_index": 10,
-  "total_posts": 377,
+  "total_posts": 378,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }
