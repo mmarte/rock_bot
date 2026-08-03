@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260612_222804",
-    "fb_post_id": "1043162839046116_1417693443738531",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Flou",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
-    "status": "published",
-    "executed_at": "2026-06-12T22:28:31.362023+00:00"
-  },
-  {
     "post_id": "post_20260613_051503",
     "fb_post_id": "1043162839046116_1417946570379885",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://www.sodastereo.com/img/image_src.jpg",
     "status": "published",
     "executed_at": "2026-08-03T15:40:52.943846+00:00"
+  },
+  {
+    "post_id": "post_20260803_184829",
+    "fb_post_id": "1043162839046116_1462637982577410",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Fiel a la Vega",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
+    "status": "published",
+    "executed_at": "2026-08-03T18:48:57.136107+00:00"
   }
 ]
