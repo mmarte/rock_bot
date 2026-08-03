@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260721_181531",
-    "status": "published",
-    "created_at": "2026-07-21T18:15:31.867153+00:00",
-    "post_type": "original",
-    "topic": "Octavia",
-    "text": "Octavia, la banda argentina de rock, nos brinda una ecléctica mezcla de estilos que nos cautiva. Su álbum debut, 'Octavia', fue grabado en un plazo relativamente corto en estudios de Buenos Aires, con la producción de Adrián Taverna y la participación de músicos invitados como Diego Blanco en teclados. Este álbum marcó el comienzo de una carrera llena de fusiones musicales y letras profundas. La colaboración entre sus integrantes, incluyendo a Juan Manuel López en voces, generó un sonido único. ¿Cuál es tu canción favorita de Octavia y qué es lo que más te gusta de su música?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Octavia rock band concert",
-    "extra_topics": [],
-    "post_year": "2007",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1451153803725828",
-    "ig_post_id": null,
-    "published_at": "2026-07-21T18:15:59.138917+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260721_220703",
     "status": "published",
     "created_at": "2026-07-21T22:07:03.135483+00:00",
@@ -1060,6 +1040,29 @@
     "fb_post_id": "1043162839046116_1462060872635121",
     "ig_post_id": null,
     "published_at": "2026-08-03T04:24:39.215517+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260803_154025",
+    "status": "published",
+    "created_at": "2026-08-03T15:40:25.929589+00:00",
+    "post_type": "poll",
+    "topic": "Toque Profundo",
+    "text": "El rock en español cuenta con una discografía en vivo impresionante, llena de momentos memorables y emotivos. Desde las actuaciones épicas hasta las interpretaciones intensas, estos álbumes reflejan la energía y la pasión de la música en vivo. ¿Cuál es el mejor disco en vivo del rock en español? \n   👍 Me Verás Volver - Soda Stereo\n   ❤️ En Directo - Heroes del Silencio\n   😮 MTV Unplugged - Maná\n   ¡Vota con tu reacción! ¿Cuál será tu elección?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ToqueProfundo #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Toque Profundo rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1462510699256805",
+    "ig_post_id": null,
+    "published_at": "2026-08-03T15:40:52.943846+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
