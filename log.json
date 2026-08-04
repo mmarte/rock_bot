@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260613_180607",
-    "fb_post_id": "1043162839046116_1418464610328081",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/QBqO-K-vYXU/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-13T18:06:35.533537+00:00"
-  },
-  {
     "post_id": "post_20260613_220732",
     "fb_post_id": "1043162839046116_1418599223647953",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/ROl_gUS8UWM/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-04T03:59:59.875734+00:00"
+  },
+  {
+    "post_id": "post_20260804_151650",
+    "fb_post_id": "1043162839046116_1463418072499401",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Malpaís",
+    "image_url": "https://images.pexels.com/photos/26508096/pexels-photo-26508096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-08-04T15:17:19.008862+00:00"
   }
 ]
