@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260613_145724",
-    "fb_post_id": "1043162839046116_1418330527008156",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Zapato 3",
-    "image_url": "https://img.youtube.com/vi/S0FO4xqXp1o/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-13T14:57:51.617632+00:00"
-  },
-  {
     "post_id": "post_20260613_180607",
     "fb_post_id": "1043162839046116_1418464610328081",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/DnJ_-99mtdk/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-03T22:12:39.038678+00:00"
+  },
+  {
+    "post_id": "post_20260804_035932",
+    "fb_post_id": "1043162839046116_1462955799212295",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Aterciopelados",
+    "image_url": "https://img.youtube.com/vi/ROl_gUS8UWM/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-04T03:59:59.875734+00:00"
   }
 ]

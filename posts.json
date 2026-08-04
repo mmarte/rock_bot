@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260722_145745",
-    "status": "published",
-    "created_at": "2026-07-22T14:57:45.535342+00:00",
-    "post_type": "poll",
-    "topic": "Los Rabanes",
-    "text": "Una gran intro de guitarra puede definir el ritmo de una canción. ¿Cuál es la que te inspira a moverte al ritmo del rock en español? ¿Es el estilo único de Gustavo Cerati, la pasión de Divididos o la creatividad de Los Fabulosos Cadillacs? Opciones: \n   De Música Ligera - Cerati, \n   La Chispa Adecuada - Divididos, \n   Matador - Los Fabulosos Cadillacs. \n   ¿Cuál es tu canción favorita para empezar a rockear?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes #LosFabulososCadillacs #Divididos #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Rabanes rock band concert",
-    "extra_topics": [
-      "Los Fabulosos Cadillacs",
-      "Divididos",
-      "Gustavo Cerati"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1451848163656392",
-    "ig_post_id": null,
-    "published_at": "2026-07-22T14:58:12.556983+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260722_180724",
     "status": "published",
     "created_at": "2026-07-22T18:07:24.493156+00:00",
@@ -1058,6 +1034,28 @@
     "fb_post_id": "1043162839046116_1462755549232320",
     "ig_post_id": null,
     "published_at": "2026-08-03T22:12:39.038678+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260804_035932",
+    "status": "published",
+    "created_at": "2026-08-04T03:59:32.122099+00:00",
+    "post_type": "cover",
+    "topic": "Aterciopelados",
+    "text": "La fusión de estilos entre Soda Stereo y Aterciopelados da como resultado un cover impactante de 'De Música Ligera'. La voz de Andrea Echeverri se une a la instrumentación innovadora de Aterciopelados, creando una versión única y llena de energía. Esta reinterpretación ofrece un enfoque fresco y emotivo, ¿cuál versión te gusta más, la original de Soda Stereo o este cover lleno de pasión de Aterciopelados?\n\nhttps://www.youtube.com/watch?v=ROl_gUS8UWM\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Aterciopelados De Música Ligera live",
+    "extra_topics": [
+      "Soda Stereo"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=ROl_gUS8UWM",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1462955799212295",
+    "ig_post_id": null,
+    "published_at": "2026-08-04T03:59:59.875734+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
