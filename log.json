@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260613_220732",
-    "fb_post_id": "1043162839046116_1418599223647953",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Savage",
-    "image_url": "https://images.pexels.com/photos/21245202/pexels-photo-21245202.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-06-13T22:07:58.870607+00:00"
-  },
-  {
     "post_id": "post_20260614_052457",
     "fb_post_id": "1043162839046116_1418845513623324",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://images.pexels.com/photos/26508096/pexels-photo-26508096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-08-04T15:17:19.008862+00:00"
+  },
+  {
+    "post_id": "post_20260804_221639",
+    "fb_post_id": "1043162839046116_1463670679140807",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Zapato 3",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Zapato_3_merida_2012.jpg/330px-Zapato_3_merida_2012.jpg",
+    "status": "published",
+    "executed_at": "2026-08-04T22:17:06.583585+00:00"
   }
 ]
