@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260614_181123",
-    "fb_post_id": "1043162839046116_1419361643571711",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Habana Abierta",
-    "image_url": "https://img.youtube.com/vi/GZXO5OvDS_o/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-14T18:11:51.466813+00:00"
-  },
-  {
     "post_id": "post_20260614_221438",
     "fb_post_id": "1043162839046116_1419492590225283",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/LosPiojosRiverPlate.jpg",
     "status": "published",
     "executed_at": "2026-08-05T15:11:19.895915+00:00"
+  },
+  {
+    "post_id": "post_20260805_181757",
+    "fb_post_id": "1043162839046116_1464474245727117",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "image_url": "https://img.youtube.com/vi/r2g0pM3PMNQ/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-05T18:18:24.707493+00:00"
   }
 ]
