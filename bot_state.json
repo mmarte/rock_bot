@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Savage",
     "La Vela Puerca",
     "Panteon Rococo",
     "Fiel a la Vega",
@@ -19,7 +18,8 @@
     "La Cuneta Son Machín",
     "Malpaís",
     "Zapato 3",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Los Piojos"
   ],
   "used_poll_indices": [
     17,
@@ -33,10 +33,10 @@
     12,
     13
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-08-05T03:54:42.833010+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-08-05T15:10:54.254645+00:00",
   "post_type_index": 10,
-  "total_posts": 385,
+  "total_posts": 386,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024
 }
