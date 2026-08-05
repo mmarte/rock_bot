@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Panteon Rococo",
     "Fiel a la Vega",
     "Soda Stereo",
     "Los Tres",
@@ -19,7 +18,8 @@
     "Zapato 3",
     "Los Rabanes",
     "Los Piojos",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Habana Abierta"
   ],
   "used_poll_indices": [
     17,
@@ -33,10 +33,10 @@
     12,
     13
   ],
-  "original_type_index": 10,
-  "last_updated": "2026-08-05T18:17:59.343427+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-08-05T22:14:43.576877+00:00",
   "post_type_index": 10,
-  "total_posts": 387,
+  "total_posts": 388,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }
