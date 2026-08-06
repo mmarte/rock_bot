@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260615_061405",
-    "fb_post_id": "1043162839046116_1419759456865263",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Piojos",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/LosPiojosRiverPlate.jpg",
-    "status": "published",
-    "executed_at": "2026-06-15T06:14:32.667236+00:00"
-  },
-  {
     "post_id": "post_20260615_180047",
     "fb_post_id": "1043162839046116_1420224476818761",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://images.pexels.com/photos/17249634/pexels-photo-17249634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-08-05T22:15:08.933782+00:00"
+  },
+  {
+    "post_id": "post_20260806_035849",
+    "fb_post_id": "1043162839046116_1464798265694715",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Juanes",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2023-11-16_Gala_de_los_Latin_Grammy%2C_14_%28cropped%29.jpg",
+    "status": "published",
+    "executed_at": "2026-08-06T03:59:16.280896+00:00"
   }
 ]
