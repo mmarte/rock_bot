@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260615_205432",
-    "fb_post_id": "1043162839046116_1420326010141941",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Líbido",
-    "image_url": "https://img.youtube.com/vi/35GA6VNiGMI/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-15T20:54:59.976410+00:00"
-  },
-  {
     "post_id": "post_20260615_230545",
     "fb_post_id": "1043162839046116_1420391143468761",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg",
     "status": "published",
     "executed_at": "2026-08-07T01:03:59.866037+00:00"
+  },
+  {
+    "post_id": "post_20260807_034407",
+    "fb_post_id": "1043162839046116_1465709315603610",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "image_url": "https://img.youtube.com/vi/01gI22568dc/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-07T03:44:34.709116+00:00"
   }
 ]

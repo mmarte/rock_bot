@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260724_181650",
-    "status": "published",
-    "created_at": "2026-07-24T18:16:50.197042+00:00",
-    "post_type": "original",
-    "topic": "Caramelos de Cianuro",
-    "text": "Caramelos de Cianuro es una banda venezolana de rock con una trayectoria impresionante. Tres aspectos destacados de su carrera son: su álbum homónimo, el lanzamiento de 'Miss Mujer' y otro álbum titulado '8'. ¿Qué te parece más fascinante sobre la discografía de esta banda?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CaramelosdeCianuro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Caramelos de Cianuro rock band concert",
-    "extra_topics": [],
-    "post_year": "1991",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1453673103473898",
-    "ig_post_id": null,
-    "published_at": "2026-07-24T18:17:17.052188+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260724_220724",
     "status": "published",
     "created_at": "2026-07-24T22:07:24.525777+00:00",
@@ -1060,6 +1040,28 @@
     "fb_post_id": "1043162839046116_1465616488946226",
     "ig_post_id": null,
     "published_at": "2026-08-07T01:03:59.866037+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260807_034407",
+    "status": "published",
+    "created_at": "2026-08-07T03:44:07.129910+00:00",
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "text": "La mezcla de la icónica 'Paint It Black' de The Rolling Stones con el estilo único de Soda Stereo da como resultado una versión en español que redefine un clásico. La voz de Gustavo Cerati y la interpretación de la canción crean un enlace entre el rock clásico y el rock en español. ¿Cuál versión te conecta más: la original de The Rolling Stones o la interpretación de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=01gI22568dc\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Soda Stereo Paint It Black live",
+    "extra_topics": [
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=01gI22568dc",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1465709315603610",
+    "ig_post_id": null,
+    "published_at": "2026-08-07T03:44:34.709116+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

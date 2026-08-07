@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Tres",
     "Alux Nahual",
     "Malpaís",
     "Los Mojarras",
@@ -19,7 +18,8 @@
     "Los Rabanes",
     "Habana Abierta",
     "Juanes",
-    "Gandhi"
+    "Gandhi",
+    "La Ley"
   ],
   "used_poll_indices": [
     17,
@@ -34,9 +34,9 @@
     13
   ],
   "original_type_index": 3,
-  "last_updated": "2026-08-07T01:03:34.305456+00:00",
+  "last_updated": "2026-08-07T03:44:09.256465+00:00",
   "post_type_index": 10,
-  "total_posts": 390,
+  "total_posts": 391,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "concert",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
