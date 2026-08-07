@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260725_142816",
-    "status": "published",
-    "created_at": "2026-07-25T14:28:16.294212+00:00",
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "text": "Café Tacvba se atrevió a hacer su propia versión de 'La Negra Tomasa', originariamente interpretada por Caifanes. Esta versión ofrece una fusión de ritmos que le da un toque único a la canción. La interpretación de Café Tacvba es notable, pero ¿logra igualar la emoción del original o nos brinda una experiencia diferente y atractiva?\n\nhttps://www.youtube.com/watch?v=VB9_uzhHKE4\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Café Tacvba La Negra Tomasa live",
-    "extra_topics": [
-      "Caifanes"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=VB9_uzhHKE4",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1454368920070983",
-    "ig_post_id": null,
-    "published_at": "2026-07-25T14:28:43.584276+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260725_175614",
     "status": "published",
     "created_at": "2026-07-25T17:56:14.548262+00:00",
@@ -1058,6 +1036,29 @@
     "fb_post_id": "1043162839046116_1466272745547267",
     "ig_post_id": null,
     "published_at": "2026-08-07T17:45:48.834955+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260807_214146",
+    "status": "published",
+    "created_at": "2026-08-07T21:41:46.983333+00:00",
+    "post_type": "poll",
+    "topic": "Fiel a la Vega",
+    "text": "El rock en español vivió un momento excepcional en la década de los 90, con bandas que definieron la música de su tiempo. Soda Stereo, Café Tacvba y Heroes del Silencio son algunos ejemplos de grupos influyentes. Entre sus álbumes más destacados, ¿cuál te parece el más impactante? \n   Opción A: Canción Animal - Soda Stereo \n   Opción B: Re - Café Tacvba \n   Opción C: El Espíritu del Vino - Heroes del Silencio \n   ¿Cuál es tu elección?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega #SodaStereo #CafeTacvba\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Fiel a la Vega rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Café Tacvba"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1466405845533957",
+    "ig_post_id": null,
+    "published_at": "2026-08-07T21:42:13.755292+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
