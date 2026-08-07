@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260615_180047",
-    "fb_post_id": "1043162839046116_1420224476818761",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Los Rabanes",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
-    "status": "published",
-    "executed_at": "2026-06-15T18:01:16.566523+00:00"
-  },
-  {
     "post_id": "post_20260615_205432",
     "fb_post_id": "1043162839046116_1420326010141941",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2023-11-16_Gala_de_los_Latin_Grammy%2C_14_%28cropped%29.jpg",
     "status": "published",
     "executed_at": "2026-08-06T03:59:16.280896+00:00"
+  },
+  {
+    "post_id": "post_20260807_010332",
+    "fb_post_id": "1043162839046116_1465616488946226",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Gandhi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg",
+    "status": "published",
+    "executed_at": "2026-08-07T01:03:59.866037+00:00"
   }
 ]
