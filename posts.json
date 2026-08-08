@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260726_142543",
-    "status": "published",
-    "created_at": "2026-07-26T14:25:43.135564+00:00",
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "text": "La reinterpretación de un clásico por una banda icónica puede llevar a resultados increíbles. Soda Stereo nos brinda una versión única de 'Paint It Black', con la energía y la voz distintiva de Gustavo Cerati, lo que lo convierte en una experiencia musical nueva. La fusión de rock argentino con el espíritu original de los Rolling Stones crea un sonido interesante. ¿Cuál versión te gusta más, la original o la interpretación de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=U_yRMPhXO9I\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Soda Stereo Paint It Black live",
-    "extra_topics": [
-      "Gustavo Cerati"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=U_yRMPhXO9I",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1455204059987469",
-    "ig_post_id": null,
-    "published_at": "2026-07-26T14:26:10.493287+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260726_175940",
     "status": "published",
     "created_at": "2026-07-26T17:59:40.281117+00:00",
@@ -1057,6 +1035,26 @@
     "fb_post_id": "1043162839046116_1467128612128347",
     "ig_post_id": null,
     "published_at": "2026-08-08T17:26:03.053220+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260808_213335",
+    "status": "published",
+    "created_at": "2026-08-08T21:33:35.352609+00:00",
+    "post_type": "original",
+    "topic": "La Vela Puerca",
+    "text": "La Vela Puerca, originaria de Uruguay, es una banda que ha hecho una notable impresión en la escena del rock en español. Con álbumes como 'Deskarado' y 'A contraluz', la banda ha demostrado su versatilidad y profundidad musical. Sebastián Teysera, Nicolás Méndez y Sebastián Cardero, entre otros, han sido parte de su alineación. Su influencia se extiende más allá de sus propias fronteras, ya que ha sido una fuente de inspiración para otras bandas. ¿Qué es lo que más te gusta de la música de La Vela Puerca?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaVelaPuerca\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Vela Puerca rock band concert",
+    "extra_topics": [],
+    "post_year": "1995",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1467266108781264",
+    "ig_post_id": null,
+    "published_at": "2026-08-08T21:34:02.338726+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

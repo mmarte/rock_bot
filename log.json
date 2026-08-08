@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260617_163419",
-    "fb_post_id": "1043162839046116_1421925103315365",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Fabulosos Cadillacs",
-    "image_url": "https://img1.wsimg.com/isteam/getty/166272871",
-    "status": "published",
-    "executed_at": "2026-06-17T16:34:46.847856+00:00"
-  },
-  {
     "post_id": "post_20260617_192323",
     "fb_post_id": "1043162839046116_1422032866637922",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Enrique_Bunbury_-_16.jpg",
     "status": "published",
     "executed_at": "2026-08-08T17:26:03.053220+00:00"
+  },
+  {
+    "post_id": "post_20260808_213335",
+    "fb_post_id": "1043162839046116_1467266108781264",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "La Vela Puerca",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Vamoslavela.jpg",
+    "status": "published",
+    "executed_at": "2026-08-08T21:34:02.338726+00:00"
   }
 ]
