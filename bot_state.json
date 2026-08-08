@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Cuneta Son Machín",
     "Frágil",
     "Los Prisioneros",
     "Toque Profundo",
@@ -19,7 +18,8 @@
     "El Cuarteto de Nos",
     "Caramelos de Cianuro",
     "Fiel a la Vega",
-    "Flou"
+    "Flou",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     11,
@@ -34,9 +34,9 @@
     1
   ],
   "original_type_index": 5,
-  "last_updated": "2026-08-08T02:49:47.488114+00:00",
+  "last_updated": "2026-08-08T13:39:23.851434+00:00",
   "post_type_index": 10,
-  "total_posts": 395,
+  "total_posts": 396,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
