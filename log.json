@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260617_055904",
-    "fb_post_id": "1043162839046116_1421484596692749",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Savage",
-    "image_url": "https://img.youtube.com/vi/VFdcOboiVOQ/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-17T05:59:31.052998+00:00"
-  },
-  {
     "post_id": "post_20260617_163419",
     "fb_post_id": "1043162839046116_1421925103315365",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/80ZZ_zk2VJA/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-08T13:39:49.312040+00:00"
+  },
+  {
+    "post_id": "post_20260808_172535",
+    "fb_post_id": "1043162839046116_1467128612128347",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Enrique Bunbury",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Enrique_Bunbury_-_16.jpg",
+    "status": "published",
+    "executed_at": "2026-08-08T17:26:03.053220+00:00"
   }
 ]

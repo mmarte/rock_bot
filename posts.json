@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260726_042138",
-    "status": "published",
-    "created_at": "2026-07-26T04:21:38.881387+00:00",
-    "post_type": "youtube",
-    "topic": "Frágil",
-    "text": "La música en vivo de Frágil es verdaderamente emotiva. La conexión que establecen con su público es palpable y su rock peruano tiene un toque distintivo. Me gusta cómo mezclan sus influencias con sonidos actuales, creando una experiencia musical intensa. ¿Cuál es tu tema favorito de esta banda?\n\nhttps://www.youtube.com/watch?v=p4MenCQ2Mmg\n\nLo Mejor del Rock en Español les presenta: #Fragil\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Fragil\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Frágil rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=p4MenCQ2Mmg",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1454830906691451",
-    "ig_post_id": null,
-    "published_at": "2026-07-26T04:22:05.573413+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260726_142543",
     "status": "published",
     "created_at": "2026-07-26T14:25:43.135564+00:00",
@@ -1055,6 +1035,28 @@
     "fb_post_id": "1043162839046116_1466968928810982",
     "ig_post_id": null,
     "published_at": "2026-08-08T13:39:49.312040+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260808_172535",
+    "status": "published",
+    "created_at": "2026-08-08T17:25:35.775546+00:00",
+    "post_type": "original",
+    "topic": "Enrique Bunbury",
+    "text": "Enrique Bunbury, el vocalista de Héroes del Silencio, lanzó su álbum 'Flamingos', un disco que marcó un punto importante en su carrera en solitario. Este álbum contó con la colaboración de varios artistas en su producción. 'Flamingos' se destaca por sus letras poéticas y su sonido experimental, mostrando la evolución artística de Bunbury. La canción 'San Cosme y San Damián' es notable por su ritmo enérgico y su letra introspectiva. ¿Qué te gusta más de 'Flamingos' y por qué te impacta?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Enrique Bunbury Spain rock singer",
+    "extra_topics": [
+      "Héroes del Silencio"
+    ],
+    "post_year": "2002",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1467128612128347",
+    "ig_post_id": null,
+    "published_at": "2026-08-08T17:26:03.053220+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
