@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260725_175614",
-    "status": "published",
-    "created_at": "2026-07-25T17:56:14.548262+00:00",
-    "post_type": "poll",
-    "topic": "Flou",
-    "text": "El rock en español ha producido una gran variedad de talentos que han dejado su huella en la música. Algunos solistas han destacado por su capacidad de innovar y conectar con el público de manera única. ¿Quién crees que es el mejor solista de rock en español? \n   Opciones: \n   👍 Gustavo Cerati\n   ❤️ Enrique Bunbury\n   😮 Andrés Calamaro\n   ¡Vota con tu reacción! 👍❤️😮\n   ¿Cuál es tu elección?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Flou #EnriqueBunbury #GustavoCerati #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Flou rock band concert",
-    "extra_topics": [
-      "Enrique Bunbury",
-      "Gustavo Cerati",
-      "Andrés Calamaro"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1454503283390880",
-    "ig_post_id": null,
-    "published_at": "2026-07-25T17:56:41.275913+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260725_215954",
     "status": "published",
     "created_at": "2026-07-25T21:59:54.962484+00:00",
@@ -1059,6 +1035,26 @@
     "fb_post_id": "1043162839046116_1466405845533957",
     "ig_post_id": null,
     "published_at": "2026-08-07T21:42:13.755292+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260808_024945",
+    "status": "published",
+    "created_at": "2026-08-08T02:49:45.299560+00:00",
+    "post_type": "original",
+    "topic": "Flou",
+    "text": "La banda argentina Flou, liderada por el vocalista Christian Basso, ha sido una fuerza importante en la escena musical de Sudamérica. En su carrera, han realizado giras exitosas y han tenido presentaciones destacadas en estadios y recintos emblemáticos. Sus conciertos suelen incluir una mezcla de temas que han marcado su trayectoria, y es común que toquen algunos de sus temas más queridos por el público. ¿Qué te parece su música y cuál es tu tema favorito de Flou?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Flou\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Flou rock band concert",
+    "extra_topics": [],
+    "post_year": "2007",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1466566425517899",
+    "ig_post_id": null,
+    "published_at": "2026-08-08T02:50:12.836894+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
