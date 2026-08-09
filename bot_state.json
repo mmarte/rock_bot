@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Gandhi",
     "La Cuneta Son Machín",
     "Malpaís",
     "Zapato 3",
@@ -19,10 +18,10 @@
     "Enrique Bunbury",
     "La Vela Puerca",
     "Fiel a la Vega",
-    "La Cuneta Son Machín"
+    "La Cuneta Son Machín",
+    "Divididos"
   ],
   "used_poll_indices": [
-    10,
     3,
     19,
     14,
@@ -31,12 +30,13 @@
     12,
     13,
     1,
-    4
+    4,
+    15
   ],
   "original_type_index": 7,
-  "last_updated": "2026-08-09T13:42:53.634982+00:00",
+  "last_updated": "2026-08-09T17:27:28.545828+00:00",
   "post_type_index": 10,
-  "total_posts": 400,
+  "total_posts": 401,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
