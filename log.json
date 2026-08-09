@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260617_192323",
-    "fb_post_id": "1043162839046116_1422032866637922",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Charly García",
-    "image_url": "https://img.youtube.com/vi/uiDcXyJTT1k/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-17T19:23:50.316140+00:00"
-  },
-  {
     "post_id": "post_20260617_224736",
     "fb_post_id": "1043162839046116_1422137983294077",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Vamoslavela.jpg",
     "status": "published",
     "executed_at": "2026-08-08T21:34:02.338726+00:00"
+  },
+  {
+    "post_id": "post_20260809_025713",
+    "fb_post_id": "1043162839046116_1467429528764922",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Fiel a la Vega",
+    "image_url": "https://images.pexels.com/photos/27817797/pexels-photo-27817797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-08-09T02:57:40.574856+00:00"
   }
 ]

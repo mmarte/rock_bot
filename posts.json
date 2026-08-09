@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260726_175940",
-    "status": "published",
-    "created_at": "2026-07-26T17:59:40.281117+00:00",
-    "post_type": "original",
-    "topic": "Cinema",
-    "text": "El concierto de Cinema en Buenos Aires es un evento que muchos fanáticos del rock en español aún recuerdan con cariño. La banda, liderada por Gustavo Cerati, ofrece shows impresionantes con un repertorio que incluye canciones emblemáticas. La energía y la emoción que se viven en sus conciertos son experiencias únicas para los asistentes. ¿Cuál es tu canción favorita de Cinema?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cinema #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Cinema rock band concert",
-    "extra_topics": [
-      "Gustavo Cerati"
-    ],
-    "post_year": "2004",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1455350956639446",
-    "ig_post_id": null,
-    "published_at": "2026-07-26T18:00:07.670391+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260726_220238",
     "status": "published",
     "created_at": "2026-07-26T22:02:38.082960+00:00",
@@ -1055,6 +1033,26 @@
     "fb_post_id": "1043162839046116_1467266108781264",
     "ig_post_id": null,
     "published_at": "2026-08-08T21:34:02.338726+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260809_025713",
+    "status": "published",
+    "created_at": "2026-08-09T02:57:13.789718+00:00",
+    "post_type": "poll",
+    "topic": "Fiel a la Vega",
+    "text": "El rock en español ha ofrecido una rica diversidad de sonidos y estilos a lo largo de los años, con cada década dejando su huella propia. ¿Cuál es tu década favorita del rock en español? \n   Opción 👍: Los 80s \n   Opción ❤️: Los 90s \n   Opción 😮: Los 2000s \n   ¡Vota con tu reacción! ¿Qué década te llena de energía?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Fiel a la Vega rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1467429528764922",
+    "ig_post_id": null,
+    "published_at": "2026-08-09T02:57:40.574856+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

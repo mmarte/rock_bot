@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Toque Profundo",
     "Fiel a la Vega",
     "Gandhi",
     "La Cuneta Son Machín",
@@ -19,10 +18,10 @@
     "Flou",
     "Los Rabanes",
     "Enrique Bunbury",
-    "La Vela Puerca"
+    "La Vela Puerca",
+    "Fiel a la Vega"
   ],
   "used_poll_indices": [
-    11,
     10,
     3,
     19,
@@ -31,12 +30,13 @@
     6,
     12,
     13,
-    1
+    1,
+    4
   ],
   "original_type_index": 7,
-  "last_updated": "2026-08-08T21:33:37.007527+00:00",
+  "last_updated": "2026-08-09T02:57:15.114084+00:00",
   "post_type_index": 10,
-  "total_posts": 398,
+  "total_posts": 399,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
