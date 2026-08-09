@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260618_162348",
-    "fb_post_id": "1043162839046116_1422777103230165",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Caifanes",
-    "image_url": "https://img.youtube.com/vi/rC7dTHSxcDE/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-18T16:24:16.688249+00:00"
-  },
-  {
     "post_id": "post_20260618_192457",
     "fb_post_id": "1043162839046116_1422888983218977",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "http://www.divididos.com.ar/imgs/divididos.jpg",
     "status": "published",
     "executed_at": "2026-08-09T17:27:53.898472+00:00"
+  },
+  {
+    "post_id": "post_20260809_213538",
+    "fb_post_id": "1043162839046116_1468126962028512",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "No Te Va Gustar",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/No_Te_Va_Gustar_-_Suenan_Las_Alarmas.jpg",
+    "status": "published",
+    "executed_at": "2026-08-09T21:36:07.025512+00:00"
   }
 ]
