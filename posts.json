@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260726_220238",
-    "status": "published",
-    "created_at": "2026-07-26T22:02:38.082960+00:00",
-    "post_type": "youtube",
-    "topic": "Cascomar",
-    "text": "La música de Cascomar es una explosión de sentimientos que nos hace reflexionar sobre la vida y nuestras emociones. Aunque cada artista tiene su propio estilo, la capacidad de Cascomar para conectar con el público a través de su música es verdaderamente única. Su música nos invita a la introspección y a encontrar la fuerza para superar los desafíos. ¿Qué es lo que te atrae de la música de Cascomar y cómo te hace sentir?\n\nhttps://www.youtube.com/watch?v=3cRACktTyu0\n\nLo Mejor del Rock en Español les presenta: #Cascomar #LosPrisioneros\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cascomar #LosPrisioneros\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Cascomar rock band concert",
-    "extra_topics": [
-      "Los Prisioneros"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=3cRACktTyu0",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1455481626626379",
-    "ig_post_id": null,
-    "published_at": "2026-07-26T22:03:05.347777+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260727_043056",
     "status": "published",
     "created_at": "2026-07-27T04:30:56.548147+00:00",
@@ -1053,6 +1031,26 @@
     "fb_post_id": "1043162839046116_1467429528764922",
     "ig_post_id": null,
     "published_at": "2026-08-09T02:57:40.574856+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260809_134251",
+    "status": "published",
+    "created_at": "2026-08-09T13:42:51.988389+00:00",
+    "post_type": "youtube",
+    "topic": "La Cuneta Son Machín",
+    "text": "La Cuneta Son Machín es una banda destacada en el rock en español, conocida por su capacidad para fusionar ritmos y crear una atmósfera cautivadora. 'Catalina' es un tema que muestra su habilidad para mezclar estilos y generar un sonido único. La conexión que establecen con el público en vivo es algo especial. La voz y la presencia en el escenario son verdaderamente impactantes. ¿Cuál es tu canción favorita de La Cuneta Son Machín?\n\nhttps://www.youtube.com/watch?v=8BxwLrHgIk8\n\nLo Mejor del Rock en Español les presenta: #LaCunetaSonMachin\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaCunetaSonMachin\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Cuneta Son Machín rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=8BxwLrHgIk8",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1467833298724545",
+    "ig_post_id": null,
+    "published_at": "2026-08-09T13:43:19.319188+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
