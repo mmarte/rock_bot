@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260728_151326",
-    "status": "published",
-    "created_at": "2026-07-28T15:13:26.809507+00:00",
-    "post_type": "youtube",
-    "topic": "Zapato 3",
-    "text": "Zapato 3 cautiva a su audiencia con su energía en el escenario. Su álbum 'Bésame y suicídate' es un trabajo destacado en el género del rock alternativo. ¿Cuál es tu canción favorita de esta producción?\n\nhttps://www.youtube.com/watch?v=i3RBvbbgLoM\n\nLo Mejor del Rock en Español les presenta: #Zapato3\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Zapato3\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Zapato 3 rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=i3RBvbbgLoM",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1457051383136070",
-    "ig_post_id": null,
-    "published_at": "2026-07-28T15:13:53.954926+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260728_181119",
     "status": "published",
     "created_at": "2026-07-28T18:11:19.027480+00:00",
@@ -1048,6 +1028,28 @@
     "fb_post_id": "1043162839046116_1468859231955285",
     "ig_post_id": null,
     "published_at": "2026-08-10T17:50:15.679398+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260810_214453",
+    "status": "published",
+    "created_at": "2026-08-10T21:44:53.269642+00:00",
+    "post_type": "original",
+    "topic": "Octavia",
+    "text": "En el mundo del rock en español, hay varias bandas que destacan por su energía y pasión. Octavia es conocida por su álbum debut y canciones que muestran un sonido intenso, mientras que Aterciopelados fusiona el rock con ritmos tradicionales colombianos en su música. La rica diversidad musical de Aterciopelados, con Andrea Echeverri y Héctor Buitrago, contrasta con el sonido directo de Octavia. ¿Te gustaría escuchar la potencia de Octavia o la fusión musical de Aterciopelados?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia #Aterciopelados\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Octavia rock band concert",
+    "extra_topics": [
+      "Aterciopelados"
+    ],
+    "post_year": "2002",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1469026231938585",
+    "ig_post_id": null,
+    "published_at": "2026-08-10T21:45:20.975946+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

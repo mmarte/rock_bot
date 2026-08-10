@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260619_155740",
-    "fb_post_id": "1043162839046116_1423620473145828",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/hkjmtrec2HM/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-19T15:58:08.270938+00:00"
-  },
-  {
     "post_id": "post_20260619_185231",
     "fb_post_id": "1043162839046116_1423734809801061",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lostres.jpg",
     "status": "published",
     "executed_at": "2026-08-10T17:50:15.679398+00:00"
+  },
+  {
+    "post_id": "post_20260810_214453",
+    "fb_post_id": "1043162839046116_1469026231938585",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Octavia",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG/330px-Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "status": "published",
+    "executed_at": "2026-08-10T21:45:20.975946+00:00"
   }
 ]
