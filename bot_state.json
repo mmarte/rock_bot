@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Los Piojos",
     "Los Rabanes",
     "Habana Abierta",
@@ -19,10 +18,10 @@
     "Divididos",
     "No Te Va Gustar",
     "Malpaís",
-    "Fiel a la Vega"
+    "Fiel a la Vega",
+    "Los Tres"
   ],
   "used_poll_indices": [
-    3,
     19,
     14,
     5,
@@ -31,12 +30,13 @@
     13,
     1,
     4,
-    15
+    15,
+    7
   ],
   "original_type_index": 10,
-  "last_updated": "2026-08-10T14:14:52.591109+00:00",
+  "last_updated": "2026-08-10T17:49:50.182188+00:00",
   "post_type_index": 10,
-  "total_posts": 404,
+  "total_posts": 405,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
