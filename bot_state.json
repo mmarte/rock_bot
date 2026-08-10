@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Malpaís",
     "Zapato 3",
     "Los Rabanes",
     "Los Piojos",
@@ -19,7 +18,8 @@
     "Fiel a la Vega",
     "La Cuneta Son Machín",
     "Divididos",
-    "No Te Va Gustar"
+    "No Te Va Gustar",
+    "Malpaís"
   ],
   "used_poll_indices": [
     3,
@@ -33,10 +33,10 @@
     4,
     15
   ],
-  "original_type_index": 8,
-  "last_updated": "2026-08-09T21:35:41.521809+00:00",
+  "original_type_index": 9,
+  "last_updated": "2026-08-10T03:06:29.154684+00:00",
   "post_type_index": 10,
-  "total_posts": 402,
+  "total_posts": 403,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "concert",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }
