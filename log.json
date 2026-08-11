@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260619_185231",
-    "fb_post_id": "1043162839046116_1423734809801061",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Malpaís",
-    "image_url": "https://images.pexels.com/photos/26508096/pexels-photo-26508096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-06-19T18:52:58.411212+00:00"
-  },
-  {
     "post_id": "post_20260619_220706",
     "fb_post_id": "1043162839046116_1423833183124557",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG/330px-Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "status": "published",
     "executed_at": "2026-08-10T21:45:20.975946+00:00"
+  },
+  {
+    "post_id": "post_20260811_025931",
+    "fb_post_id": "1043162839046116_1469187571922451",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "La Máquina Camaleón",
+    "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-08-11T02:59:58.250722+00:00"
   }
 ]
