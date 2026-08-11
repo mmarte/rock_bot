@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260620_050455",
-    "fb_post_id": "1043162839046116_1424064199768122",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "El Cuarteto de Nos",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Cuarteto-de-Nos.png",
-    "status": "published",
-    "executed_at": "2026-06-20T05:05:22.501732+00:00"
-  },
-  {
     "post_id": "post_20260620_150134",
     "fb_post_id": "1043162839046116_1424432073064668",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/XWAto1Qgxko/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-11T14:14:20.019466+00:00"
+  },
+  {
+    "post_id": "post_20260811_215143",
+    "fb_post_id": "1043162839046116_1469929441848264",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Kraken",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Le_Poulpe_Colossal.jpg",
+    "status": "published",
+    "executed_at": "2026-08-11T21:52:10.698302+00:00"
   }
 ]
