@@ -1,23 +1,5 @@
 [
   {
-    "id": "post_20260728_220649",
-    "status": "failed",
-    "created_at": "2026-07-28T22:06:49.492950+00:00",
-    "post_type": "original",
-    "topic": "Charly García",
-    "text": "Durante la grabación de 'Clics Modernos', Charly García experimentó un período de intensa creatividad y profundos cambios personales. El álbum incluye canciones emblemáticas que reflejan la transformación que estaba viviendo en ese momento. ¿Qué creen que inspiró a Charly García a componer canciones tan memorables?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CharlyGarcia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Charly Garcia Argentina rock piano",
-    "extra_topics": [],
-    "post_year": "1983",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
-  },
-  {
     "id": "post_20260729_035852",
     "status": "published",
     "created_at": "2026-07-29T03:58:52.355811+00:00",
@@ -1051,6 +1033,28 @@
     "fb_post_id": "1043162839046116_1469187571922451",
     "ig_post_id": null,
     "published_at": "2026-08-11T02:59:58.250722+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260811_141352",
+    "status": "published",
+    "created_at": "2026-08-11T14:13:52.650849+00:00",
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "text": "La voz única de Enrique Bunbury transforma 'Entre Dos Tierras' en una experiencia emotiva y personal. Su interpretación añade una capa de profundidad a la canción, lo que la hace sentir muy cercana. La versión original de Héroes del Silencio tiene su propio carácter épico, mientras que el cover de Bunbury ofrece una visión distinta y conmovedora. ¿Te conmueve más la intensidad de la versión original o la emoción del cover de Enrique Bunbury?\n\nhttps://www.youtube.com/watch?v=XWAto1Qgxko\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Enrique Bunbury Entre Dos Tierras live",
+    "extra_topics": [
+      "Héroes del Silencio"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=XWAto1Qgxko",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1469616751879533",
+    "ig_post_id": null,
+    "published_at": "2026-08-11T14:14:20.019466+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

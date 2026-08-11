@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260619_220706",
-    "fb_post_id": "1043162839046116_1423833183124557",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "image_url": "https://img.youtube.com/vi/nVrdXUHvsF0/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-19T22:07:34.137987+00:00"
-  },
-  {
     "post_id": "post_20260620_050455",
     "fb_post_id": "1043162839046116_1424064199768122",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-08-11T02:59:58.250722+00:00"
+  },
+  {
+    "post_id": "post_20260811_141352",
+    "fb_post_id": "1043162839046116_1469616751879533",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "image_url": "https://img.youtube.com/vi/XWAto1Qgxko/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-11T14:14:20.019466+00:00"
   }
 ]
