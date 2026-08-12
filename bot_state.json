@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Caramelos de Cianuro",
     "Fiel a la Vega",
     "Flou",
     "Los Rabanes",
@@ -19,7 +18,8 @@
     "Kraken",
     "Savage",
     "La Cuneta Son Machín",
-    "Alux Nahual"
+    "Alux Nahual",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     14,
@@ -34,9 +34,9 @@
     11
   ],
   "original_type_index": 3,
-  "last_updated": "2026-08-12T17:55:57.844575+00:00",
+  "last_updated": "2026-08-12T21:49:16.687279+00:00",
   "post_type_index": 10,
-  "total_posts": 412,
+  "total_posts": 413,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

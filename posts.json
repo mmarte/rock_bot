@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260730_035104",
-    "status": "published",
-    "created_at": "2026-07-30T03:51:04.559620+00:00",
-    "post_type": "cover",
-    "topic": "Maná",
-    "text": "En un emotivo encuentro musical, Maná interpretó una versión en vivo de 'Afuera', un clásico de Caifanes, logrando conectar profundamente con el público. La voz de Fher Olvera fue destacada en esta presentación. ¿Te gustó más la versión original o la interpretación que hizo Maná?\n\nhttps://www.youtube.com/watch?v=UKJfA06pNM0\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Maná Afuera live",
-    "extra_topics": [
-      "Caifanes"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=UKJfA06pNM0",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1458434632997745",
-    "ig_post_id": null,
-    "published_at": "2026-07-30T03:51:31.633697+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260730_150629",
     "status": "published",
     "created_at": "2026-07-30T15:06:29.085666+00:00",
@@ -1048,6 +1026,28 @@
     "fb_post_id": "1043162839046116_1470708771770331",
     "ig_post_id": null,
     "published_at": "2026-08-12T17:56:23.381019+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260812_214914",
+    "status": "published",
+    "created_at": "2026-08-12T21:49:14.326212+00:00",
+    "post_type": "cover",
+    "topic": "Aterciopelados",
+    "text": "Aterciopelados ofrece una interpretación única de 'De Música Ligera', originalmente de Soda Stereo. La fusión de estilos crea una versión emocional y cautivadora. La voz de Andrea Echeverri aporta una profundidad especial a la canción. ¿Qué te parece esta versión en comparación con la original?\n\nhttps://www.youtube.com/watch?v=HKG8gAMgIAM\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Aterciopelados De Música Ligera live",
+    "extra_topics": [
+      "Soda Stereo"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=HKG8gAMgIAM",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1470851541756054",
+    "ig_post_id": null,
+    "published_at": "2026-08-12T21:49:42.446038+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
