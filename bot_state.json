@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Gandhi",
     "La Ley",
     "El Cuarteto de Nos",
     "Caramelos de Cianuro",
@@ -19,7 +18,8 @@
     "Octavia",
     "La Máquina Camaleón",
     "Octavia",
-    "Kraken"
+    "Kraken",
+    "Savage"
   ],
   "used_poll_indices": [
     14,
@@ -34,9 +34,9 @@
     11
   ],
   "original_type_index": 2,
-  "last_updated": "2026-08-11T21:51:45.108203+00:00",
+  "last_updated": "2026-08-12T03:19:25.383202+00:00",
   "post_type_index": 10,
-  "total_posts": 409,
+  "total_posts": 410,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
