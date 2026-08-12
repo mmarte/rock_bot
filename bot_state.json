@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "El Cuarteto de Nos",
     "Caramelos de Cianuro",
     "Fiel a la Vega",
     "Flou",
@@ -19,7 +18,8 @@
     "Octavia",
     "Kraken",
     "Savage",
-    "La Cuneta Son Machín"
+    "La Cuneta Son Machín",
+    "Alux Nahual"
   ],
   "used_poll_indices": [
     14,
@@ -33,10 +33,10 @@
     7,
     11
   ],
-  "original_type_index": 2,
-  "last_updated": "2026-08-12T14:15:28.024467+00:00",
+  "original_type_index": 3,
+  "last_updated": "2026-08-12T17:55:57.844575+00:00",
   "post_type_index": 10,
-  "total_posts": 411,
+  "total_posts": 412,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
