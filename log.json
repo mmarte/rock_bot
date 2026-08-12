@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260620_180919",
-    "fb_post_id": "1043162839046116_1424549423052933",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Zapato 3",
-    "image_url": "https://images.pexels.com/photos/13143612/pexels-photo-13143612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-06-20T18:09:46.967729+00:00"
-  },
-  {
     "post_id": "post_20260620_221147",
     "fb_post_id": "1043162839046116_1424674769707065",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/rC7dTHSxcDE/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-12T03:19:51.240375+00:00"
+  },
+  {
+    "post_id": "post_20260812_141525",
+    "fb_post_id": "1043162839046116_1470548385119703",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "La Cuneta Son Machín",
+    "image_url": "https://img.youtube.com/vi/vMDoljpeWbc/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-12T14:15:53.347714+00:00"
   }
 ]

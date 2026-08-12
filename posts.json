@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260729_180454",
-    "status": "published",
-    "created_at": "2026-07-29T18:04:54.311338+00:00",
-    "post_type": "youtube",
-    "topic": "Los Rodríguez",
-    "text": "La música de Los Rodríguez es un ejemplo de fusión y creación única. Andrés Calamaro aporta una perspectiva especial a la banda, lo que se refleja en su capacidad para combinar estilos y generar una conexión con el público. Desde su álbum debut, 'Buena suerte', han demostrado su habilidad para crear música que conecta con las personas. En vivo, la pasión y la energía de la banda son palpables. ¿Cuál es tu canción favorita de Los Rodríguez y qué significa para ti?\n\nhttps://www.youtube.com/watch?v=quQmaDIG1o4\n\nLo Mejor del Rock en Español les presenta: #LosRodriguez #AndresCalamaro\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRodriguez #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Rodriguez Spain Argentina rock band",
-    "extra_topics": [
-      "Andrés Calamaro"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=quQmaDIG1o4",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1458110943030114",
-    "ig_post_id": null,
-    "published_at": "2026-07-29T18:05:24.866968+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260729_220402",
     "status": "published",
     "created_at": "2026-07-29T22:04:02.208964+00:00",
@@ -1052,6 +1030,26 @@
     "fb_post_id": "1043162839046116_1470119961829212",
     "ig_post_id": null,
     "published_at": "2026-08-12T03:19:51.240375+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260812_141525",
+    "status": "published",
+    "created_at": "2026-08-12T14:15:25.987330+00:00",
+    "post_type": "youtube",
+    "topic": "La Cuneta Son Machín",
+    "text": "La Cuneta Son Machín es conocida por su habilidad para fusionar ritmos y emociones en sus presentaciones en vivo, creando un ambiente único. La caponera en versión unplugged es un ejemplo de cómo esta banda nicaragüense logra conectar con su audiencia a través de la música. La intensidad y la pasión que se siente en cada nota y cada palabra cantada es algo especial. ¿Cuál es tu canción favorita de La Cuneta Son Machín?\n\nhttps://www.youtube.com/watch?v=vMDoljpeWbc\n\nLo Mejor del Rock en Español les presenta: #LaCunetaSonMachin\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaCunetaSonMachin\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Cuneta Son Machín rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=vMDoljpeWbc",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1470548385119703",
+    "ig_post_id": null,
+    "published_at": "2026-08-12T14:15:53.347714+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
