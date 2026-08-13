@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260621_181803",
-    "fb_post_id": "1043162839046116_1425444802963395",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Divididos",
-    "image_url": "https://img.youtube.com/vi/rczaANXhRCw/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-21T18:18:30.382255+00:00"
-  },
-  {
     "post_id": "post_20260621_221832",
     "fb_post_id": "1043162839046116_1425581516283057",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/HKG8gAMgIAM/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-12T21:49:42.446038+00:00"
+  },
+  {
+    "post_id": "post_20260813_032257",
+    "fb_post_id": "1043162839046116_1471031331738075",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Los Mojarras",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Los_Mojarras_08.jpg",
+    "status": "published",
+    "executed_at": "2026-08-13T03:23:24.053948+00:00"
   }
 ]
