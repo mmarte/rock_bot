@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Enrique Bunbury",
     "La Vela Puerca",
     "Fiel a la Vega",
@@ -19,7 +18,8 @@
     "Alux Nahual",
     "Los Rabanes",
     "Los Mojarras",
-    "Zapato 3"
+    "Zapato 3",
+    "Fiel a la Vega"
   ],
   "used_poll_indices": [
     14,
@@ -33,10 +33,10 @@
     7,
     11
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-08-13T14:16:52.558148+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-08-13T17:55:29.318820+00:00",
   "post_type_index": 10,
-  "total_posts": 415,
+  "total_posts": 416,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }

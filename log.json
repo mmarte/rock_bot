@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260622_061949",
-    "fb_post_id": "1043162839046116_1425855772922298",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Rabanes",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
-    "status": "published",
-    "executed_at": "2026-06-22T06:20:16.437028+00:00"
-  },
-  {
     "post_id": "post_20260622_172745",
     "fb_post_id": "1043162839046116_1426294912878384",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/u-qgYznLyYA/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-13T14:17:17.995162+00:00"
+  },
+  {
+    "post_id": "post_20260813_175527",
+    "fb_post_id": "1043162839046116_1471575661683642",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Fiel a la Vega",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
+    "status": "published",
+    "executed_at": "2026-08-13T17:55:54.713915+00:00"
   }
 ]
