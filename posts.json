@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260731_151422",
-    "status": "published",
-    "created_at": "2026-07-31T15:14:22.143655+00:00",
-    "post_type": "original",
-    "topic": "La Vela Puerca",
-    "text": "La discografía de La Vela Puerca es amplia y emocionante. Mi selección personal de álbumes favoritos es la siguiente: 1) 'A contraluz', que señala un punto importante en su carrera con temas destacados. 2) 'El Impulso', que incluye canciones icónicas que resaltan su dinamismo y habilidad para crear música diversa. 3) 'Piel y Hueso', que refleja la evolución y madurez de la banda a través de sus canciones. ¿Cuál consideras el álbum o canción más destacado de La Vela Puerca?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaVelaPuerca\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "La Vela Puerca rock band concert",
-    "extra_topics": [],
-    "post_year": "2004",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1459809206193621",
-    "ig_post_id": null,
-    "published_at": "2026-07-31T15:14:49.302839+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260731_181834",
     "status": "published",
     "created_at": "2026-07-31T18:18:34.586379+00:00",
@@ -1048,6 +1028,30 @@
     "fb_post_id": "1043162839046116_1471575661683642",
     "ig_post_id": null,
     "published_at": "2026-08-13T17:55:54.713915+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260813_214859",
+    "status": "published",
+    "created_at": "2026-08-13T21:48:59.069690+00:00",
+    "post_type": "poll",
+    "topic": "Habana Abierta",
+    "text": "El rock en español ha ofrecido una rica diversidad de voces y estilos a lo largo de los años. Algunos vocalistas han dejado una huella imborrable en la escena musical con su talento y conexión con el público. ¿Quién crees que es el vocalista más destacado del rock en español? \n   Opciones: \n   👍 Gustavo Cerati\n   ❤️ Enrique Bunbury\n   😮 Fito Páez\n   ¡Vota con tu reacción! 👍❤️😮\n   ¿Quién merece tu voto?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta #EnriqueBunbury #FitoPaez #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Habana Abierta rock band concert",
+    "extra_topics": [
+      "Enrique Bunbury",
+      "Fito Páez",
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1471719165002625",
+    "ig_post_id": null,
+    "published_at": "2026-08-13T21:49:26.043949+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

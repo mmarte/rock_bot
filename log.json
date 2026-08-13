@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260622_172745",
-    "fb_post_id": "1043162839046116_1426294912878384",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Juanes",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2023-11-16_Gala_de_los_Latin_Grammy%2C_14_%28cropped%29.jpg",
-    "status": "published",
-    "executed_at": "2026-06-22T17:28:12.191298+00:00"
-  },
-  {
     "post_id": "post_20260622_200905",
     "fb_post_id": "1043162839046116_1426392832868592",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
     "status": "published",
     "executed_at": "2026-08-13T17:55:54.713915+00:00"
+  },
+  {
+    "post_id": "post_20260813_214859",
+    "fb_post_id": "1043162839046116_1471719165002625",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Habana Abierta",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
+    "status": "published",
+    "executed_at": "2026-08-13T21:49:26.043949+00:00"
   }
 ]
