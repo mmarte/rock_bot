@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Cuneta Son Machín",
     "Divididos",
     "No Te Va Gustar",
     "Malpaís",
@@ -19,10 +18,10 @@
     "Fiel a la Vega",
     "Habana Abierta",
     "Habana Abierta",
-    "Savage"
+    "Savage",
+    "Gandhi"
   ],
   "used_poll_indices": [
-    5,
     6,
     12,
     13,
@@ -31,12 +30,13 @@
     15,
     7,
     11,
-    3
+    3,
+    2
   ],
   "original_type_index": 6,
-  "last_updated": "2026-08-14T14:10:23.447941+00:00",
+  "last_updated": "2026-08-14T17:49:37.859476+00:00",
   "post_type_index": 10,
-  "total_posts": 419,
+  "total_posts": 420,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "poll",
   "curation_year": 2024
 }

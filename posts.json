@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260801_041727",
-    "status": "published",
-    "created_at": "2026-08-01T04:17:27.129166+00:00",
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "text": "Imagina un clásico rock como 'Paint It Black' de The Rolling Stones reinterpretado por Soda Stereo. Esta versión mantiene la esencia del original con un toque particular. La voz de Gustavo Cerati lleva la canción a un nivel distinto de emoción. ¿Cuál te llena más de emoción, el original o el cover?\n\nhttps://www.youtube.com/watch?v=QO58s_oFU_4\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Soda Stereo Paint It Black live",
-    "extra_topics": [
-      "Gustavo Cerati"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=QO58s_oFU_4",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1460275689480306",
-    "ig_post_id": null,
-    "published_at": "2026-08-01T04:17:54.706222+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260801_142352",
     "status": "published",
     "created_at": "2026-08-01T14:23:52.925998+00:00",
@@ -1052,6 +1030,30 @@
     "fb_post_id": "1043162839046116_1472298834944658",
     "ig_post_id": null,
     "published_at": "2026-08-14T14:10:48.867847+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260814_174936",
+    "status": "published",
+    "created_at": "2026-08-14T17:49:36.503120+00:00",
+    "post_type": "poll",
+    "topic": "Gandhi",
+    "text": "La escena musical de México es rica y diversa, con许多 bandas de rock que han dejado una huella significativa en el mundo hispanohablante. Con tantas opciones increíbles, es un desafío elegir solo una. Pero, si tuvieras que escoger, ¿qué banda considerarías la mejor? \n   Opciones: \n   Café Tacvba\n   Molotov\n   Caifanes\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Gandhi #CafeTacvba #Caifanes #Molotov\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Gandhi rock band concert",
+    "extra_topics": [
+      "Café Tacvba",
+      "Caifanes",
+      "Molotov"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1472448124929729",
+    "ig_post_id": null,
+    "published_at": "2026-08-14T17:50:03.367345+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
