@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260731_220933",
-    "status": "published",
-    "created_at": "2026-07-31T22:09:33.231182+00:00",
-    "post_type": "original",
-    "topic": "Fiel a la Vega",
-    "text": "Fiel a la Vega ha ofrecido memorables presentaciones en vivo a lo largo de su carrera, incluyendo una destacada actuación en un festival en San Juan, Puerto Rico. En ese concierto, tocaron temas de su álbum 'En Estado de Producción', y la multitud cantaba junto a Tito Auger y sus compañeros de banda. ¿Alguien estuvo en ese concierto y puede compartir sus recuerdos?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Fiel a la Vega rock band concert",
-    "extra_topics": [],
-    "post_year": "2004",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1460070632834145",
-    "ig_post_id": null,
-    "published_at": "2026-07-31T22:10:00.207568+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260801_041727",
     "status": "published",
     "created_at": "2026-08-01T04:17:27.129166+00:00",
@@ -1050,6 +1030,28 @@
     "fb_post_id": "1043162839046116_1471893081651900",
     "ig_post_id": null,
     "published_at": "2026-08-14T03:20:44.260700+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260814_141021",
+    "status": "published",
+    "created_at": "2026-08-14T14:10:21.504060+00:00",
+    "post_type": "cover",
+    "topic": "Aterciopelados",
+    "text": "La música de Soda Stereo es icónica, y 'De Música Ligera' es uno de sus temas más destacados. Aterciopelados le dio su propio toque en un tributo latino, fusionando su estilo con la esencia original. ¿Te conmueve el cover de Aterciopelados o prefieres la versión original de Soda Stereo? https://www.youtube.com/watch?v=YlU6N0fxr0o\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Aterciopelados De Música Ligera live",
+    "extra_topics": [
+      "Soda Stereo"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=YlU6N0fxr0o",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1472298834944658",
+    "ig_post_id": null,
+    "published_at": "2026-08-14T14:10:48.867847+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

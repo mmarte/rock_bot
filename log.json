@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260622_225019",
-    "fb_post_id": "1043162839046116_1426480619526480",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Savage",
-    "image_url": "https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-06-22T22:50:46.633644+00:00"
-  },
-  {
     "post_id": "post_20260623_045455",
     "fb_post_id": "1043162839046116_1426680142839861",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://images.pexels.com/photos/27817808/pexels-photo-27817808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-08-14T03:20:44.260700+00:00"
+  },
+  {
+    "post_id": "post_20260814_141021",
+    "fb_post_id": "1043162839046116_1472298834944658",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Aterciopelados",
+    "image_url": "https://img.youtube.com/vi/YlU6N0fxr0o/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-14T14:10:48.867847+00:00"
   }
 ]
