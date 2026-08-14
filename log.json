@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260623_154512",
-    "fb_post_id": "1043162839046116_1427097699464772",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Alux Nahual",
-    "image_url": "https://img.youtube.com/vi/dT8ioZWpYIE/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-23T15:45:40.240119+00:00"
-  },
-  {
     "post_id": "post_20260623_221738",
     "fb_post_id": "1043162839046116_1427330062774869",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg",
     "status": "published",
     "executed_at": "2026-08-14T17:50:03.367345+00:00"
+  },
+  {
+    "post_id": "post_20260814_212816",
+    "fb_post_id": "1043162839046116_1472574271583781",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "image_url": "https://img.youtube.com/vi/pjPA7CXutDw/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-14T21:28:43.673357+00:00"
   }
 ]
