@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260622_200905",
-    "fb_post_id": "1043162839046116_1426392832868592",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Los Rabanes",
-    "image_url": "https://img.youtube.com/vi/kD2t5v50lEg/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-22T20:09:33.008677+00:00"
-  },
-  {
     "post_id": "post_20260622_225019",
     "fb_post_id": "1043162839046116_1426480619526480",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
     "status": "published",
     "executed_at": "2026-08-13T21:49:26.043949+00:00"
+  },
+  {
+    "post_id": "post_20260814_032017",
+    "fb_post_id": "1043162839046116_1471893081651900",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Habana Abierta",
+    "image_url": "https://images.pexels.com/photos/27817808/pexels-photo-27817808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-08-14T03:20:44.260700+00:00"
   }
 ]
