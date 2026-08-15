@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Fiel a la Vega",
     "Los Tres",
     "Octavia",
     "La Máquina Camaleón",
@@ -19,7 +18,8 @@
     "Gandhi",
     "Dedicados",
     "La Ley",
-    "Caramelos de Cianuro"
+    "Caramelos de Cianuro",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     6,
@@ -33,10 +33,10 @@
     3,
     2
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-08-15T13:24:09.517082+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-08-15T17:18:50.155129+00:00",
   "post_type_index": 10,
-  "total_posts": 423,
+  "total_posts": 424,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }
