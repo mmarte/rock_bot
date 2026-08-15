@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Tres",
     "Octavia",
     "La Máquina Camaleón",
     "Octavia",
@@ -19,7 +18,8 @@
     "Dedicados",
     "La Ley",
     "Caramelos de Cianuro",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Toque Profundo"
   ],
   "used_poll_indices": [
     6,
@@ -34,9 +34,9 @@
     2
   ],
   "original_type_index": 8,
-  "last_updated": "2026-08-15T17:18:50.155129+00:00",
+  "last_updated": "2026-08-15T21:24:27.546365+00:00",
   "post_type_index": 10,
-  "total_posts": 424,
+  "total_posts": 425,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

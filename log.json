@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260624_184935",
-    "fb_post_id": "1043162839046116_1428078322700043",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Fiel a la Vega",
-    "image_url": "https://img.youtube.com/vi/-B-Ol-WErtg/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-24T18:50:10.691934+00:00"
-  },
-  {
     "post_id": "post_20260624_222101",
     "fb_post_id": "1043162839046116_1428190276022181",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
     "status": "published",
     "executed_at": "2026-08-15T17:19:15.479614+00:00"
+  },
+  {
+    "post_id": "post_20260815_212425",
+    "fb_post_id": "1043162839046116_1473540788153796",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "image_url": "https://img.youtube.com/vi/vxEWIP2p2mU/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-15T21:24:53.065076+00:00"
   }
 ]
