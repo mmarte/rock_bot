@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "No Te Va Gustar",
     "Malpaís",
     "Fiel a la Vega",
     "Los Tres",
@@ -19,7 +18,8 @@
     "Habana Abierta",
     "Savage",
     "Gandhi",
-    "Dedicados"
+    "Dedicados",
+    "La Ley"
   ],
   "used_poll_indices": [
     6,
@@ -33,10 +33,10 @@
     3,
     2
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-08-14T21:28:18.217074+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-08-15T02:08:12.045541+00:00",
   "post_type_index": 10,
-  "total_posts": 421,
+  "total_posts": 422,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }

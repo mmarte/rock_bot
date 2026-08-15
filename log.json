@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260623_221738",
-    "fb_post_id": "1043162839046116_1427330062774869",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Líbido",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/L%C3%ADbido_band_in_2009.jpg",
-    "status": "published",
-    "executed_at": "2026-06-23T22:18:05.732004+00:00"
-  },
-  {
     "post_id": "post_20260624_045838",
     "fb_post_id": "1043162839046116_1427546216086587",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/pjPA7CXutDw/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-14T21:28:43.673357+00:00"
+  },
+  {
+    "post_id": "post_20260815_020810",
+    "fb_post_id": "1043162839046116_1472727914901750",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "La Ley",
+    "image_url": "https://images.pexels.com/photos/417473/pexels-photo-417473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-08-15T02:08:37.487022+00:00"
   }
 ]
