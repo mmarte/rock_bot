@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Malpaís",
     "Fiel a la Vega",
     "Los Tres",
     "Octavia",
@@ -19,7 +18,8 @@
     "Savage",
     "Gandhi",
     "Dedicados",
-    "La Ley"
+    "La Ley",
+    "Caramelos de Cianuro"
   ],
   "used_poll_indices": [
     6,
@@ -34,9 +34,9 @@
     2
   ],
   "original_type_index": 7,
-  "last_updated": "2026-08-15T02:08:12.045541+00:00",
+  "last_updated": "2026-08-15T13:24:09.517082+00:00",
   "post_type_index": 10,
-  "total_posts": 422,
+  "total_posts": 423,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }

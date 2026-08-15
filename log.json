@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260624_045838",
-    "fb_post_id": "1043162839046116_1427546216086587",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/h0p8yTqj8i4/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-24T04:59:06.118792+00:00"
-  },
-  {
     "post_id": "post_20260624_153100",
     "fb_post_id": "1043162839046116_1427951999379342",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://images.pexels.com/photos/417473/pexels-photo-417473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-08-15T02:08:37.487022+00:00"
+  },
+  {
+    "post_id": "post_20260815_132407",
+    "fb_post_id": "1043162839046116_1473189381522270",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Caramelos de Cianuro",
+    "image_url": "https://img.youtube.com/vi/Lz1-9jG9zWQ/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-15T13:24:35.086127+00:00"
   }
 ]
