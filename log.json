@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260625_190529",
-    "fb_post_id": "1043162839046116_1428972222610653",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Malpaís",
-    "image_url": "https://images.pexels.com/photos/26508096/pexels-photo-26508096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-06-25T19:05:58.080486+00:00"
-  },
-  {
     "post_id": "post_20260625_222337",
     "fb_post_id": "1043162839046116_1429074729267069",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/kIr8hsVTCzg/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-16T17:16:54.526102+00:00"
+  },
+  {
+    "post_id": "post_20260816_212237",
+    "fb_post_id": "1043162839046116_1474484588059416",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Cinema",
+    "image_url": "https://images.pexels.com/photos/27817807/pexels-photo-27817807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-08-16T21:23:04.608495+00:00"
   }
 ]

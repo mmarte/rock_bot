@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Kraken",
     "Savage",
     "La Cuneta Son Machín",
     "Alux Nahual",
@@ -19,7 +18,8 @@
     "Toque Profundo",
     "Desorden Público",
     "La Cuneta Son Machín",
-    "Los Rabanes"
+    "Los Rabanes",
+    "Cinema"
   ],
   "used_poll_indices": [
     12,
@@ -33,10 +33,10 @@
     2,
     0
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-08-16T17:16:29.002715+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-08-16T21:22:39.368643+00:00",
   "post_type_index": 10,
-  "total_posts": 428,
+  "total_posts": 429,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }
