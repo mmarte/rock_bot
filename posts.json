@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260802_175915",
-    "status": "published",
-    "created_at": "2026-08-02T17:59:15.349001+00:00",
-    "post_type": "youtube",
-    "topic": "La Cuneta Son Machín",
-    "text": "La Cuneta Son Machín es una banda que logra conectar con su público a través de su música enérgica y auténtica. Esta interpretación de 'Fuego y Candela' es muy especial, muestra la química que tienen con su audiencia. ¿Cuál es tu momento favorito de esta presentación en vivo? https://www.youtube.com/watch?v=ecVpvq1BNTQ\n\nLo Mejor del Rock en Español les presenta: #LaCunetaSonMachin\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaCunetaSonMachin\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "La Cuneta Son Machín rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=ecVpvq1BNTQ",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1461719922669216",
-    "ig_post_id": null,
-    "published_at": "2026-08-02T17:59:42.169725+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260802_215931",
     "status": "published",
     "created_at": "2026-08-02T21:59:31.579284+00:00",
@@ -1049,6 +1029,29 @@
     "fb_post_id": "1043162839046116_1473540788153796",
     "ig_post_id": null,
     "published_at": "2026-08-15T21:24:53.065076+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260816_021536",
+    "status": "published",
+    "created_at": "2026-08-16T02:15:36.932397+00:00",
+    "post_type": "poll",
+    "topic": "Desorden Público",
+    "text": "El rock en español es una explosión de talento y diversidad, con bandas que han marcado la escena musical en América Latina y España. Cada región ha contribuido con su propio estilo y energía. ¿Cuál es la banda que consideras la más influyente de todos los tiempos? \n   Opciones: \n   Soda Stereo \n   Heroes del Silencio \n   Maná \n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #DesordenPublico #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Desorden Público rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1473699471471261",
+    "ig_post_id": null,
+    "published_at": "2026-08-16T02:16:03.661370+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

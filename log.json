@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260624_222101",
-    "fb_post_id": "1043162839046116_1428190276022181",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "La Cuneta Son Machín",
-    "image_url": "https://images.pexels.com/photos/17249634/pexels-photo-17249634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-06-24T22:21:28.904399+00:00"
-  },
-  {
     "post_id": "post_20260625_045750",
     "fb_post_id": "1043162839046116_1428412012666674",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/vxEWIP2p2mU/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-15T21:24:53.065076+00:00"
+  },
+  {
+    "post_id": "post_20260816_021536",
+    "fb_post_id": "1043162839046116_1473699471471261",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Desorden Público",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/D.P.jpg",
+    "status": "published",
+    "executed_at": "2026-08-16T02:16:03.661370+00:00"
   }
 ]
