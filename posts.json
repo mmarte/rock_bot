@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260802_215931",
-    "status": "published",
-    "created_at": "2026-08-02T21:59:31.579284+00:00",
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "text": "La Negra Tomasa es un himno que ha sido reinterpretado con un sabor único y una actitud rock que nos hace vibrar. La versión original es un clásico del rock en español, pero el cover de Café Tacvba le da un giro fresco y lleno de energía. ¿Te gusta más la versión original o la reinterpretación de Café Tacvba? https://www.youtube.com/watch?v=Dck7W4IYyGI\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Café Tacvba La Negra Tomasa live",
-    "extra_topics": [
-      "Caifanes"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=Dck7W4IYyGI",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1461853029322572",
-    "ig_post_id": null,
-    "published_at": "2026-08-02T21:59:58.554544+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260803_042412",
     "status": "published",
     "created_at": "2026-08-03T04:24:12.485731+00:00",
@@ -1052,6 +1030,26 @@
     "fb_post_id": "1043162839046116_1473699471471261",
     "ig_post_id": null,
     "published_at": "2026-08-16T02:16:03.661370+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260816_132507",
+    "status": "published",
+    "created_at": "2026-08-16T13:25:07.537675+00:00",
+    "post_type": "original",
+    "topic": "La Cuneta Son Machín",
+    "text": "La Cuneta Son Machín es una banda destacada en la escena musical de Nicaragua, conocida por su enérgico estilo que combina elementos de la música folclórica nicaragüense con el rock. El vocalista y fundador, Carlos Mejía Godoy, buscaba crear una banda que fusionara estas tradiciones musicales. Esta fusión única se refleja en canciones que se han convertido en himnos para muchos nicaragüenses. ¿Cuál es tu canción favorita de La Cuneta Son Machín y cómo crees que su estilo musical ha influido en la escena del rock en español?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaCunetaSonMachin\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "La Cuneta Son Machín rock band concert",
+    "extra_topics": [],
+    "post_year": "1994",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1474142474760294",
+    "ig_post_id": null,
+    "published_at": "2026-08-16T13:25:34.518747+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
