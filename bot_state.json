@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Octavia",
     "Kraken",
     "Savage",
     "La Cuneta Son Machín",
@@ -19,7 +18,8 @@
     "Los Rabanes",
     "Toque Profundo",
     "Desorden Público",
-    "La Cuneta Son Machín"
+    "La Cuneta Son Machín",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     12,
@@ -34,9 +34,9 @@
     0
   ],
   "original_type_index": 9,
-  "last_updated": "2026-08-16T13:25:08.919235+00:00",
+  "last_updated": "2026-08-16T17:16:29.002715+00:00",
   "post_type_index": 10,
-  "total_posts": 427,
+  "total_posts": 428,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260803_042412",
-    "status": "published",
-    "created_at": "2026-08-03T04:24:12.485731+00:00",
-    "post_type": "original",
-    "topic": "Los Prisioneros",
-    "text": "El álbum 'Corazones' de Los Prisioneros es un clásico del rock en español, grabado en estudios de Santiago de Chile y con colaboraciones interesantes. La canción 'Tren al sur' destaca por su peculiaridad y se convirtió en un gran éxito. ¿Cuál es tu canción favorita de este álbum y qué es lo que te gusta de ella?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosPrisioneros\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Prisioneros Chile rock band",
-    "extra_topics": [],
-    "post_year": "1990",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1462060872635121",
-    "ig_post_id": null,
-    "published_at": "2026-08-03T04:24:39.215517+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260803_154025",
     "status": "published",
     "created_at": "2026-08-03T15:40:25.929589+00:00",
@@ -1050,6 +1030,28 @@
     "fb_post_id": "1043162839046116_1474142474760294",
     "ig_post_id": null,
     "published_at": "2026-08-16T13:25:34.518747+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260816_171627",
+    "status": "published",
+    "created_at": "2026-08-16T17:16:27.198796+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "La fusión de estilos entre Café Tacvba y canciones emblemáticas puede dar lugar a experiencias musicales sorprendentes. Un ejemplo es su versión de 'Matador', que combina elementos electrónicos y un ritmo latino contagioso, creando una interpretación única. ¿Cuál prefieres: la versión de Café Tacvba o la original?\n\nhttps://www.youtube.com/watch?v=kIr8hsVTCzg\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba Matador live",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=kIr8hsVTCzg",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1474320934742448",
+    "ig_post_id": null,
+    "published_at": "2026-08-16T17:16:54.526102+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
