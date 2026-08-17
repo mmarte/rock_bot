@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260625_222337",
-    "fb_post_id": "1043162839046116_1429074729267069",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Extremoduro",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Extremoduro_en_Getafe.jpg",
-    "status": "published",
-    "executed_at": "2026-06-25T22:24:03.869733+00:00"
-  },
-  {
     "post_id": "post_20260626_050305",
     "fb_post_id": "1043162839046116_1429307815910427",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://images.pexels.com/photos/27817807/pexels-photo-27817807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-08-16T21:23:04.608495+00:00"
+  },
+  {
+    "post_id": "post_20260817_021331",
+    "fb_post_id": "1043162839046116_1474631921378016",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "image_url": "https://img.youtube.com/vi/6wMMcCkRAsk/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-08-17T02:13:59.272758+00:00"
   }
 ]

@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Savage",
     "La Cuneta Son Machín",
     "Alux Nahual",
     "Los Rabanes",
@@ -19,7 +18,8 @@
     "Desorden Público",
     "La Cuneta Son Machín",
     "Los Rabanes",
-    "Cinema"
+    "Cinema",
+    "Juanes"
   ],
   "used_poll_indices": [
     12,
@@ -34,9 +34,9 @@
     0
   ],
   "original_type_index": 10,
-  "last_updated": "2026-08-16T21:22:39.368643+00:00",
+  "last_updated": "2026-08-17T02:13:33.727053+00:00",
   "post_type_index": 10,
-  "total_posts": 429,
+  "total_posts": 430,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
