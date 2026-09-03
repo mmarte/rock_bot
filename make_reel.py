@@ -87,7 +87,7 @@ def generate_script(topic_data: dict) -> str:
         f"Solo el texto a narrar, sin indicaciones de escena."
     )
     completion = client.chat.completions.create(
-        model       = "llama-3.3-70b-versatile",
+        model       = "openai/gpt-oss-120b",
         messages    = [
             {"role": "system", "content": SCRIPT_SYSTEM},
             {"role": "user",   "content": prompt},

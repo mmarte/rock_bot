@@ -555,7 +555,7 @@ def save_queue(posts):
 
 def call_groq(client, system, user, max_tokens=1024, json_mode=True):
     kwargs = dict(
-        model       = "llama-3.3-70b-versatile",
+        model       = "openai/gpt-oss-120b",
         messages    = [
             {"role": "system", "content": system},
             {"role": "user",   "content": user},
