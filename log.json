@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260626_050305",
-    "fb_post_id": "1043162839046116_1429307815910427",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "La Cuneta Son Machín",
-    "image_url": "https://img.youtube.com/vi/xMZQRgEjww4/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-26T05:03:32.767267+00:00"
-  },
-  {
     "post_id": "post_20260626_152126",
     "fb_post_id": "1043162839046116_1429693685871840",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/6wMMcCkRAsk/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-08-17T02:13:59.272758+00:00"
+  },
+  {
+    "post_id": "post_20260903_032756",
+    "fb_post_id": "1043162839046116_1489981899843018",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Fito Páez",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Homenaje_Gustavo_Cerati_%2815528982867%29_%28cropped%29.jpg",
+    "status": "published",
+    "executed_at": "2026-09-03T03:28:25.786888+00:00"
   }
 ]
