@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260804_035932",
-    "status": "published",
-    "created_at": "2026-08-04T03:59:32.122099+00:00",
-    "post_type": "cover",
-    "topic": "Aterciopelados",
-    "text": "La fusión de estilos entre Soda Stereo y Aterciopelados da como resultado un cover impactante de 'De Música Ligera'. La voz de Andrea Echeverri se une a la instrumentación innovadora de Aterciopelados, creando una versión única y llena de energía. Esta reinterpretación ofrece un enfoque fresco y emotivo, ¿cuál versión te gusta más, la original de Soda Stereo o este cover lleno de pasión de Aterciopelados?\n\nhttps://www.youtube.com/watch?v=ROl_gUS8UWM\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Aterciopelados De Música Ligera live",
-    "extra_topics": [
-      "Soda Stereo"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=ROl_gUS8UWM",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1462955799212295",
-    "ig_post_id": null,
-    "published_at": "2026-08-04T03:59:59.875734+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260804_151650",
     "status": "published",
     "created_at": "2026-08-04T15:16:50.890693+00:00",
@@ -1053,6 +1031,26 @@
     "fb_post_id": "1043162839046116_1489981899843018",
     "ig_post_id": null,
     "published_at": "2026-09-03T03:28:25.786888+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260903_164626",
+    "status": "published",
+    "created_at": "2026-09-03T16:46:26.396619+00:00",
+    "post_type": "youtube",
+    "topic": "El Tri",
+    "text": "El Tri tomó el escenario del Vive Latino 2019 con la fuerza que caracteriza sus presentaciones. Desde el primer acorde de \"Pobre Soñador\", la banda, encabezada por Carlos \"Che\" Santana, muestra por qué su álbum \"Simplemente\", publicado a finales de los 80, sigue influyendo en varias generaciones. La energía del público en el Foro Sol, con una audiencia numerosa, se percibe en cada golpe de batería y en la voz rasposa que narra la realidad mexicana con la crudeza de \"Triste canción\". El concierto también incluye momentos improvisados, como un riff espontáneo que surgió antes del bis, manteniendo viva la esencia del rock urbano sin perder la potencia de sus clásicos. Este video captura la química del grupo y el fervor del público, recordándonos por qué El Tri es un pilar del rock en español. ¿Cuál fue el momento del concierto que más te marcó?\n\nhttps://www.youtube.com/watch?v=YlOzZK0fYaQ\n\nLo Mejor del Rock en Español les presenta: #ElTri\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ElTri\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "El Tri Mexico rock band concert",
+    "extra_topics": [],
+    "post_year": "2019",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=YlOzZK0fYaQ",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1490507889790419",
+    "ig_post_id": null,
+    "published_at": "2026-09-03T16:46:32.803633+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
