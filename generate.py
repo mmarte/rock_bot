@@ -569,7 +569,14 @@ def call_groq(client, system, user, max_tokens=1024, json_mode=True):
         response = client.chat.completions.create(**kwargs)
     except Exception as error:
         error_code = getattr(error, "code", None)
-        if not json_mode or error_code != "json_validate_failed":
+        error_body = getattr(error, "body", None)
+        error_text = str(error)
+        is_json_validation_error = (
+            error_code == "json_validate_failed"
+            or "json_validate_failed" in error_text
+            or (isinstance(error_body, dict) and "json_validate_failed" in str(error_body))
+        )
+        if not json_mode or not is_json_validation_error:
             raise
         # Groq can reject an otherwise valid request when JSON mode returns an
         # empty generation. Retry once and let clean_json validate the output.
