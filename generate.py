@@ -554,40 +554,45 @@ def save_queue(posts):
 # ---------------------------------------------------------------------------
 
 def call_groq(client, system, user, max_tokens=1024, json_mode=True):
-    kwargs = dict(
-        model       = "openai/gpt-oss-120b",
-        messages    = [
-            {"role": "system", "content": system},
-            {"role": "user",   "content": user},
-        ],
-        temperature = 0.9,
-        max_tokens  = max_tokens,
-    )
-    if json_mode:
-        kwargs["response_format"] = {"type": "json_object"}
-    try:
-        response = client.chat.completions.create(**kwargs)
-    except Exception as error:
-        error_code = getattr(error, "code", None)
-        error_body = getattr(error, "body", None)
-        error_text = str(error)
-        is_json_validation_error = (
-            error_code == "json_validate_failed"
-            or "json_validate_failed" in error_text
-            or (isinstance(error_body, dict) and "json_validate_failed" in str(error_body))
-        )
-        if not json_mode or not is_json_validation_error:
-            raise
-        # Groq can reject an otherwise valid request when JSON mode returns an
-        # empty generation. Retry once and let clean_json validate the output.
-        retry_kwargs = dict(kwargs)
-        retry_kwargs.pop("response_format", None)
-        response = client.chat.completions.create(**retry_kwargs)
+    models = ["openai/gpt-oss-120b", "qwen/qwen3.6-27b"]
+    last_error = None
 
-    content = response.choices[0].message.content or ""
-    if not content.strip():
-        raise RuntimeError("Groq returned an empty response after retrying JSON mode.")
-    return content
+    for model in models:
+        kwargs = dict(
+            model       = model,
+            messages    = [
+                {"role": "system", "content": system},
+                {"role": "user",   "content": user},
+            ],
+            temperature = 0.9,
+            max_tokens  = max_tokens,
+        )
+
+        # The GPT-OSS endpoint can return an empty completion when strict JSON
+        # mode is enabled. The prompt still requires JSON, and clean_json below
+        # validates the model output.
+        for attempt in range(2):
+            try:
+                response = client.chat.completions.create(**kwargs)
+            except Exception as error:
+                error_text = str(error)
+                error_body = getattr(error, "body", None)
+                is_json_validation_error = (
+                    "json_validate_failed" in error_text
+                    or (isinstance(error_body, dict) and "json_validate_failed" in str(error_body))
+                )
+                if not is_json_validation_error:
+                    raise
+                last_error = error
+                break
+
+            content = response.choices[0].message.content or ""
+            if content.strip():
+                return content
+            last_error = RuntimeError("Groq returned an empty response.")
+            kwargs["temperature"] = 0.6
+
+    raise RuntimeError("Groq returned no usable response from the configured models.") from last_error
 
 
 def clean_json(raw):
