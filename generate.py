@@ -565,7 +565,22 @@ def call_groq(client, system, user, max_tokens=1024, json_mode=True):
     )
     if json_mode:
         kwargs["response_format"] = {"type": "json_object"}
-    return client.chat.completions.create(**kwargs).choices[0].message.content
+    try:
+        response = client.chat.completions.create(**kwargs)
+    except Exception as error:
+        error_code = getattr(error, "code", None)
+        if not json_mode or error_code != "json_validate_failed":
+            raise
+        # Groq can reject an otherwise valid request when JSON mode returns an
+        # empty generation. Retry once and let clean_json validate the output.
+        retry_kwargs = dict(kwargs)
+        retry_kwargs.pop("response_format", None)
+        response = client.chat.completions.create(**retry_kwargs)
+
+    content = response.choices[0].message.content or ""
+    if not content.strip():
+        raise RuntimeError("Groq returned an empty response after retrying JSON mode.")
+    return content
 
 
 def clean_json(raw):
