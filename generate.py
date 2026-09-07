@@ -554,18 +554,39 @@ def save_queue(posts):
 # ---------------------------------------------------------------------------
 
 def call_groq(client, system, user, max_tokens=1024, json_mode=True):
-    kwargs = dict(
-        model       = "openai/gpt-oss-120b",
-        messages    = [
-            {"role": "system", "content": system},
-            {"role": "user", "content": user},
-        ],
-        temperature = 0.9,
-        max_tokens  = max_tokens,
-    )
-    if json_mode:
-        kwargs["response_format"] = {"type": "json_object"}
-    return client.chat.completions.create(**kwargs).choices[0].message.content
+    last_error = None
+    for model in ("openai/gpt-oss-120b", "qwen/qwen3.6-27b"):
+        for attempt in range(2):
+            kwargs = dict(
+                model       = model,
+                messages    = [
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": user},
+                ],
+                temperature = 0.9 if attempt == 0 else 0.6,
+                max_tokens  = max_tokens,
+            )
+            try:
+                content = client.chat.completions.create(**kwargs).choices[0].message.content or ""
+            except Exception as error:
+                error_text = str(error)
+                if "json_validate_failed" not in error_text:
+                    raise
+                last_error = error
+                continue
+
+            if not content.strip():
+                last_error = RuntimeError("Groq returned an empty response.")
+                continue
+            if json_mode:
+                try:
+                    clean_json(content)
+                except (TypeError, ValueError, json.JSONDecodeError) as error:
+                    last_error = error
+                    continue
+            return content
+
+    raise RuntimeError("Groq returned no usable JSON response from the configured models.") from last_error
 
 
 def clean_json(raw):
