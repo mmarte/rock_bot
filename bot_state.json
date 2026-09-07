@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Los Mojarras",
     "Zapato 3",
     "Fiel a la Vega",
@@ -19,10 +18,10 @@
     "Cinema",
     "Juanes",
     "Fito Páez",
-    "El Tri"
+    "El Tri",
+    "La Vela Puerca"
   ],
   "used_poll_indices": [
-    12,
     13,
     1,
     4,
@@ -31,12 +30,13 @@
     11,
     3,
     2,
-    0
+    0,
+    9
   ],
   "original_type_index": 1,
-  "last_updated": "2026-09-03T16:46:29.559982+00:00",
+  "last_updated": "2026-09-07T04:01:12.506195+00:00",
   "post_type_index": 10,
-  "total_posts": 432,
+  "total_posts": 433,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
