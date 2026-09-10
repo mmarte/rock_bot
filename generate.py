@@ -590,12 +590,28 @@ def call_groq(client, system, user, max_tokens=1024, json_mode=True):
 
 
 def clean_json(raw):
-    raw = raw.strip()
+    raw = (raw or "").strip()
     if raw.startswith("```"):
-        raw = raw.split("```")[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-    return json.loads(raw.strip())
+        parts = raw.split("```", 2)
+        raw = parts[1] if len(parts) > 1 else raw
+        if raw.lstrip().lower().startswith("json"):
+            raw = raw.lstrip()[4:]
+
+    try:
+        return json.loads(raw.strip())
+    except json.JSONDecodeError as original_error:
+        # Models sometimes add a short explanation around otherwise valid JSON.
+        # Parse the first complete object/array found in that response.
+        decoder = json.JSONDecoder()
+        for index, character in enumerate(raw):
+            if character not in "[{":
+                continue
+            try:
+                value, _ = decoder.raw_decode(raw[index:])
+                return value
+            except json.JSONDecodeError:
+                continue
+        raise original_error
 
 
 def verify_and_normalize_post(client, topic: str, post_type: str, text: str) -> str:
