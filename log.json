@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260627_175911",
-    "fb_post_id": "1043162839046116_1430672519107290",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Toque Profundo",
-    "image_url": "https://img.youtube.com/vi/ZWOpTAF4XNA/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-27T17:59:38.181290+00:00"
-  },
-  {
     "post_id": "post_20260627_220611",
     "fb_post_id": "1043162839046116_1430800355761173",
     "ig_post_id": null,
@@ -2392,5 +2380,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Los_Prisioneros_-_Revista_Pelo_Argentina_1987.jpg",
     "status": "published",
     "executed_at": "2026-09-10T19:27:59.969891+00:00"
+  },
+  {
+    "post_id": "post_20260910_225902",
+    "fb_post_id": "1043162839046116_1497150342459507",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Los Tres",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lostres.jpg",
+    "status": "published",
+    "executed_at": "2026-09-10T22:59:35.504876+00:00"
   }
 ]
