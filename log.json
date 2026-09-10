@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260627_142420",
-    "fb_post_id": "1043162839046116_1430524452455430",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Alux Nahual",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Alux_Nahual.jpg",
-    "status": "published",
-    "executed_at": "2026-06-27T14:24:47.547351+00:00"
-  },
-  {
     "post_id": "post_20260627_175911",
     "fb_post_id": "1043162839046116_1430672519107290",
     "ig_post_id": null,
@@ -2392,5 +2380,17 @@
     "image_url": "https://images.pexels.com/photos/21245202/pexels-photo-21245202.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-09-10T16:47:04.463671+00:00"
+  },
+  {
+    "post_id": "post_20260910_192727",
+    "fb_post_id": "1043162839046116_1497036689137539",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Los Prisioneros",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Los_Prisioneros_-_Revista_Pelo_Argentina_1987.jpg",
+    "status": "published",
+    "executed_at": "2026-09-10T19:27:59.969891+00:00"
   }
 ]
