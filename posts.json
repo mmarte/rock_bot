@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260805_035441",
-    "status": "published",
-    "created_at": "2026-08-05T03:54:41.475263+00:00",
-    "post_type": "poll",
-    "topic": "Los Rabanes",
-    "text": "La evolución de una banda es fundamental para mantener su relevancia en la escena musical. Algunas bandas han logrado transformarse y adaptarse a nuevos sonidos y tendencias. Café Tacvba, Los Fabulosos Cadillacs y Maná son ejemplos de bandas que han fusionado diferentes estilos y ritmos a lo largo de sus carreras. ¿Cuál crees que es la banda que mejor ha logrado evolucionar y mantener su esencia?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes #Mana #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Rabanes rock band concert",
-    "extra_topics": [
-      "Maná",
-      "Café Tacvba",
-      "Los Fabulosos Cadillacs"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1463868939120981",
-    "ig_post_id": null,
-    "published_at": "2026-08-05T03:55:08.412110+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260805_151052",
     "status": "published",
     "created_at": "2026-08-05T15:10:52.299167+00:00",
@@ -1051,6 +1027,26 @@
     "fb_post_id": "1043162839046116_1494313289409879",
     "ig_post_id": null,
     "published_at": "2026-09-07T20:21:57.821683+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260910_164631",
+    "status": "published",
+    "created_at": "2026-09-10T16:46:31.125283+00:00",
+    "post_type": "poll",
+    "topic": "Savage",
+    "text": "¡Fans de Savage! Queremos saber cuál de sus temas les hace vibrar más. ¿Prefieres el ritmo intenso de sus primeros lanzamientos o la energía de sus últimas producciones? Cuéntanos en los comentarios cuál es tu canción favorita y por qué?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Savage\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Savage rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1496927219148486",
+    "ig_post_id": null,
+    "published_at": "2026-09-10T16:47:04.463671+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

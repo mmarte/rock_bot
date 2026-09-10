@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260627_044449",
-    "fb_post_id": "1043162839046116_1430157292492146",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Habana Abierta",
-    "image_url": "https://img.youtube.com/vi/GZXO5OvDS_o/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-27T04:45:15.873619+00:00"
-  },
-  {
     "post_id": "post_20260627_142420",
     "fb_post_id": "1043162839046116_1430524452455430",
     "ig_post_id": null,
@@ -2392,5 +2380,17 @@
     "image_url": "https://img.youtube.com/vi/h0p8yTqj8i4/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-09-07T20:21:57.821683+00:00"
+  },
+  {
+    "post_id": "post_20260910_164631",
+    "fb_post_id": "1043162839046116_1496927219148486",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Savage",
+    "image_url": "https://images.pexels.com/photos/21245202/pexels-photo-21245202.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-09-10T16:47:04.463671+00:00"
   }
 ]
