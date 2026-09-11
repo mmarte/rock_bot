@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260628_144418",
-    "fb_post_id": "1043162839046116_1431392312368644",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Habana Abierta",
-    "image_url": "https://images.pexels.com/photos/2601192/pexels-photo-2601192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-06-28T14:44:45.936349+00:00"
-  },
-  {
     "post_id": "post_20260628_180325",
     "fb_post_id": "1043162839046116_1431530039021538",
     "ig_post_id": null,
@@ -2392,5 +2380,17 @@
     "image_url": "https://img.youtube.com/vi/170sceOWWXc/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-09-11T05:24:41.288998+00:00"
+  },
+  {
+    "post_id": "post_20260911_165025",
+    "fb_post_id": "1043162839046116_1497860472388494",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Zapato 3",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Zapato_3_merida_2012.jpg/330px-Zapato_3_merida_2012.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "status": "published",
+    "executed_at": "2026-09-11T16:50:59.360217+00:00"
   }
 ]
