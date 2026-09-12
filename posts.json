@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260807_140649",
-    "status": "published",
-    "created_at": "2026-08-07T14:06:49.593942+00:00",
-    "post_type": "original",
-    "topic": "El Cuarteto de Nos",
-    "text": "¿Qué álbumes de El Cuarteto de Nos destacan para ti? Para muchos fans, algunos de los trabajos más destacados de la banda son 'Cortaciega', 'Porfiado' y 'Apocalypse Ya!', cada uno con su propio estilo y mensaje. La discografía de El Cuarteto de Nos, liderada por Roberto Musso, Santiago Tavella, Alen Sajaroff y Gastón 'French' Thomas, es una muestra de su habilidad para fusionar diferentes estilos y crear un sonido único. ¿Cuál consideras que es su mejor trabajo hasta la fecha?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ElCuartetodeNos\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "El Cuarteto de Nos Uruguay rock band",
-    "extra_topics": [],
-    "post_year": "2006",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1466116298896245",
-    "ig_post_id": null,
-    "published_at": "2026-08-07T14:07:16.731182+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260807_174521",
     "status": "published",
     "created_at": "2026-08-07T17:45:21.669209+00:00",
@@ -1043,6 +1023,28 @@
     "fb_post_id": "1043162839046116_1498298002344741",
     "ig_post_id": null,
     "published_at": "2026-09-12T05:14:47.583746+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260912_185515",
+    "status": "published",
+    "created_at": "2026-09-12T18:55:15.750718+00:00",
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "text": "¿Te imaginas una canción de los Rolling Stones reinterpretada al estilo del rock argentino? Se comenta que en 1995, durante la gira de Soda Stereo por Argentina, la banda habría presentado una versión en español de “Paint It Black”. Mientras la voz rasposa de Mick Jagger y el icónico riff de Brian Jones marcaban la atmósfera original, Gustavo Cerati habría adaptado la melodía con sintetizadores y una percusión más densa. La letra, supuestamente modificada por Cerati, cambiaba el “black” por “noche”, manteniendo la angustia pero añadiendo una melancolía propia de la escena latinoamericana de los 90. En el escenario, el contraste entre la crudeza de los Stones y la elegancia melódica de Soda Stereo habría creado una química memorable para los fans. ¿Cuál versión te mueve más, la icónica original de los Rolling Stones o la reinterpretación de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=O4irXQhgMqg\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Soda Stereo Paint It Black live",
+    "extra_topics": [
+      "Gustavo Cerati"
+    ],
+    "post_year": "1995",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=O4irXQhgMqg",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1498865412288000",
+    "ig_post_id": null,
+    "published_at": "2026-09-12T18:55:47.221167+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
