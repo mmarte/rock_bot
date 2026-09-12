@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Dedicados",
     "La Ley",
     "Caramelos de Cianuro",
     "Los Rabanes",
@@ -19,7 +18,8 @@
     "Los Tres",
     "Los Rodríguez",
     "Zapato 3",
-    "La Cuneta Son Machín"
+    "La Cuneta Son Machín",
+    "Desorden Público"
   ],
   "used_poll_indices": [
     1,
@@ -33,10 +33,10 @@
     9,
     12
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-09-11T19:25:15.823162+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-09-12T05:14:22.199655+00:00",
   "post_type_index": 10,
-  "total_posts": 440,
+  "total_posts": 441,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }

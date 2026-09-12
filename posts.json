@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260807_034407",
-    "status": "published",
-    "created_at": "2026-08-07T03:44:07.129910+00:00",
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "text": "La mezcla de la icónica 'Paint It Black' de The Rolling Stones con el estilo único de Soda Stereo da como resultado una versión en español que redefine un clásico. La voz de Gustavo Cerati y la interpretación de la canción crean un enlace entre el rock clásico y el rock en español. ¿Cuál versión te conecta más: la original de The Rolling Stones o la interpretación de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=01gI22568dc\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Soda Stereo Paint It Black live",
-    "extra_topics": [
-      "Gustavo Cerati"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=01gI22568dc",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1465709315603610",
-    "ig_post_id": null,
-    "published_at": "2026-08-07T03:44:34.709116+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260807_140649",
     "status": "published",
     "created_at": "2026-08-07T14:06:49.593942+00:00",
@@ -1045,6 +1023,26 @@
     "fb_post_id": "1043162839046116_1497968219044386",
     "ig_post_id": null,
     "published_at": "2026-09-11T19:25:41.297562+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260912_051415",
+    "status": "published",
+    "created_at": "2026-09-12T05:14:15.516224+00:00",
+    "post_type": "original",
+    "topic": "Desorden Público",
+    "text": "Imagínate estar en el Rock al Parque 2004, bajo el cielo de Bogotá, rodeado de una gran multitud que cantaba cada verso. Esa noche, el 17 de abril, Desorden Público subió al escenario del Parque Metropolitano y ofreció una actuación memorable. Desde el primer acorde de \"Todo está hecho\" el público se unió en una sola voz, y el ska‑punk venezolano resonó en todo el recinto. En el set se escucharon temas como \"Mujer de la ciudad\", \"El tiempo\", \"Canto a la libertad\", y también \"Poder\" y \"Bailando con los demonios\", que hicieron saltar a la gente. El cierre con \"El rey del swing\" dejó una sensación de revolución sonora. Fue un momento importante en la gira que celebraba los 20 años de la banda, y reforzó su reconocimiento como referentes del rock en español en Latinoamérica. ¿Estuviste allí y qué canción te marcó más esa noche?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #DesordenPublico\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Desorden Público rock band concert",
+    "extra_topics": [],
+    "post_year": "2004",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1498298002344741",
+    "ig_post_id": null,
+    "published_at": "2026-09-12T05:14:47.583746+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

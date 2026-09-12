@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260628_220539",
-    "fb_post_id": "1043162839046116_1431672679007274",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/K9NO5UY76jc/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-28T22:06:07.449923+00:00"
-  },
-  {
     "post_id": "post_20260629_052303",
     "fb_post_id": "1043162839046116_1431915075649701",
     "ig_post_id": null,
@@ -2392,5 +2380,17 @@
     "image_url": "https://img.youtube.com/vi/D37WlEFtzEc/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-09-11T19:25:41.297562+00:00"
+  },
+  {
+    "post_id": "post_20260912_051415",
+    "fb_post_id": "1043162839046116_1498298002344741",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Desorden Público",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/D.P.jpg",
+    "status": "published",
+    "executed_at": "2026-09-12T05:14:47.583746+00:00"
   }
 ]
