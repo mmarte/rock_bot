@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260629_163512",
-    "fb_post_id": "1043162839046116_1432351475606061",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Alux Nahual",
-    "image_url": "https://img.youtube.com/vi/k4QBnKcge_g/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-29T16:35:39.712068+00:00"
-  },
-  {
     "post_id": "post_20260629_190321",
     "fb_post_id": "1043162839046116_1432446525596556",
     "ig_post_id": null,
@@ -2392,5 +2380,17 @@
     "image_url": "https://img.youtube.com/vi/O4irXQhgMqg/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-09-12T18:55:47.221167+00:00"
+  },
+  {
+    "post_id": "post_20260912_225408",
+    "fb_post_id": "1043162839046116_1498988108942397",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Toque Profundo",
+    "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-09-12T22:54:41.448349+00:00"
   }
 ]
