@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260630_045754",
-    "fb_post_id": "1043162839046116_1432774172230458",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Tres",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lostres.jpg",
-    "status": "published",
-    "executed_at": "2026-06-30T04:58:22.650157+00:00"
-  },
-  {
     "post_id": "post_20260630_152421",
     "fb_post_id": "1043162839046116_1433170675524141",
     "ig_post_id": null,
@@ -2392,5 +2380,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Caramelos_de_Cianuro_at_Forum_2011.png",
     "status": "published",
     "executed_at": "2026-09-13T19:12:02.308915+00:00"
+  },
+  {
+    "post_id": "post_20260913_225859",
+    "fb_post_id": "1043162839046116_1499899498851258",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Extremoduro",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Extremoduro_en_Getafe.jpg",
+    "status": "published",
+    "executed_at": "2026-09-13T22:59:28.049167+00:00"
   }
 ]

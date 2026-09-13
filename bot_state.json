@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Desorden Público",
     "La Cuneta Son Machín",
     "Los Rabanes",
     "Cinema",
@@ -19,7 +18,8 @@
     "Cuca",
     "Toque Profundo",
     "Habana Abierta",
-    "Caramelos de Cianuro"
+    "Caramelos de Cianuro",
+    "Extremoduro"
   ],
   "used_poll_indices": [
     4,
@@ -33,10 +33,10 @@
     12,
     13
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-09-13T19:11:36.793095+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-09-13T22:59:02.612975+00:00",
   "post_type_index": 10,
-  "total_posts": 445,
+  "total_posts": 446,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }
