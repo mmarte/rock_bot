@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260629_190321",
-    "fb_post_id": "1043162839046116_1432446525596556",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Desorden Público",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/D.P.jpg",
-    "status": "published",
-    "executed_at": "2026-06-29T19:03:48.670361+00:00"
-  },
-  {
     "post_id": "post_20260629_221033",
     "fb_post_id": "1043162839046116_1432552378919304",
     "ig_post_id": null,
@@ -2392,5 +2380,17 @@
     "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-09-12T22:54:41.448349+00:00"
+  },
+  {
+    "post_id": "post_20260913_052922",
+    "fb_post_id": "1043162839046116_1499221305585744",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Habana Abierta",
+    "image_url": "https://images.pexels.com/photos/14994003/pexels-photo-14994003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-09-13T05:29:53.072367+00:00"
   }
 ]
