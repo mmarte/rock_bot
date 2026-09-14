@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Cinema",
     "Juanes",
     "Fito Páez",
@@ -19,7 +18,8 @@
     "Habana Abierta",
     "Caramelos de Cianuro",
     "Extremoduro",
-    "Los Fabulosos Cadillacs"
+    "Los Fabulosos Cadillacs",
+    "Cascomar"
   ],
   "used_poll_indices": [
     15,
@@ -34,9 +34,9 @@
     17
   ],
   "original_type_index": 8,
-  "last_updated": "2026-09-14T05:33:25.557723+00:00",
+  "last_updated": "2026-09-14T18:17:22.390992+00:00",
   "post_type_index": 10,
-  "total_posts": 447,
+  "total_posts": 448,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

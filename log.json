@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260630_185628",
-    "fb_post_id": "1043162839046116_1433318448842697",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Octavia",
-    "image_url": "https://img.youtube.com/vi/3-_qihkr7cQ/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-06-30T18:56:56.618537+00:00"
-  },
-  {
     "post_id": "post_20260630_221741",
     "fb_post_id": "1043162839046116_1433425575498651",
     "ig_post_id": null,
@@ -2392,5 +2380,17 @@
     "image_url": "https://img1.wsimg.com/isteam/getty/166272871",
     "status": "published",
     "executed_at": "2026-09-14T05:33:50.972423+00:00"
+  },
+  {
+    "post_id": "post_20260914_181713",
+    "fb_post_id": "1043162839046116_1500689338772274",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Aterciopelados",
+    "image_url": "https://img.youtube.com/vi/eqXHckx7zls/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-09-14T18:17:47.733025+00:00"
   }
 ]
