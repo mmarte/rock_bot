@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Cuneta Son Machín",
     "Los Rabanes",
     "Cinema",
     "Juanes",
@@ -19,10 +18,10 @@
     "Toque Profundo",
     "Habana Abierta",
     "Caramelos de Cianuro",
-    "Extremoduro"
+    "Extremoduro",
+    "Los Fabulosos Cadillacs"
   ],
   "used_poll_indices": [
-    4,
     15,
     7,
     11,
@@ -31,12 +30,13 @@
     0,
     9,
     12,
-    13
+    13,
+    17
   ],
   "original_type_index": 8,
-  "last_updated": "2026-09-13T22:59:02.612975+00:00",
+  "last_updated": "2026-09-14T05:33:25.557723+00:00",
   "post_type_index": 10,
-  "total_posts": 446,
+  "total_posts": 447,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "poll",
   "curation_year": 2024
 }
