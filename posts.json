@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260809_134251",
-    "status": "published",
-    "created_at": "2026-08-09T13:42:51.988389+00:00",
-    "post_type": "youtube",
-    "topic": "La Cuneta Son Machín",
-    "text": "La Cuneta Son Machín es una banda destacada en el rock en español, conocida por su capacidad para fusionar ritmos y crear una atmósfera cautivadora. 'Catalina' es un tema que muestra su habilidad para mezclar estilos y generar un sonido único. La conexión que establecen con el público en vivo es algo especial. La voz y la presencia en el escenario son verdaderamente impactantes. ¿Cuál es tu canción favorita de La Cuneta Son Machín?\n\nhttps://www.youtube.com/watch?v=8BxwLrHgIk8\n\nLo Mejor del Rock en Español les presenta: #LaCunetaSonMachin\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaCunetaSonMachin\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "La Cuneta Son Machín rock band concert",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=8BxwLrHgIk8",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1467833298724545",
-    "ig_post_id": null,
-    "published_at": "2026-08-09T13:43:19.319188+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260809_172726",
     "status": "published",
     "created_at": "2026-08-09T17:27:26.859810+00:00",
@@ -1043,6 +1023,28 @@
     "fb_post_id": "1043162839046116_1501070178734190",
     "ig_post_id": null,
     "published_at": "2026-09-15T05:34:54.747774+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260915_195819",
+    "status": "published",
+    "created_at": "2026-09-15T19:58:19.881890+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "En el Vive Latino 2018, cuando Maná tomó el escenario con su guitarra de 12 cuerdas y la voz rasposa de Fher, el público quedó atónito al escuchar \"Afuera\" reinterpretada a su manera. La canción, que salió originalmente en 1994 con Caifanes en el álbum \"El Silencio\", siempre tuvo una atmósfera gótica y una percusión que marcaba la melancolía de la juventud mexicana de los 90. Maná la transformó en un himno de estadio, añadiendo un riff más grueso, una sección de metales que elevó el clímax y una energía que hizo vibrar a toda la multitud. La magia del original radica en la voz etérea de Saúl Hernández y el toque de teclados que envuelve la letra, mientras que el cover destaca por la potencia del ritmo y la pasión de un público que cantó a pleno pulmón. ¿Te quedas con la potencia del cover de Maná o la magia del original de Caifanes?\n\nhttps://www.youtube.com/watch?v=ScCGUObZ4CI\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "2018",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=ScCGUObZ4CI",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1501671745340700",
+    "ig_post_id": null,
+    "published_at": "2026-09-15T19:58:51.089428+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

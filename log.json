@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260701_051808",
-    "fb_post_id": "1043162839046116_1433679138806628",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Octavia",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG/330px-Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG",
-    "status": "published",
-    "executed_at": "2026-07-01T05:18:35.599566+00:00"
-  },
-  {
     "post_id": "post_20260701_153602",
     "fb_post_id": "1043162839046116_1434100092097866",
     "ig_post_id": null,
@@ -2392,5 +2380,17 @@
     "image_url": "https://img.youtube.com/vi/zMeBtd8z9go/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-09-15T05:34:54.747774+00:00"
+  },
+  {
+    "post_id": "post_20260915_195819",
+    "fb_post_id": "1043162839046116_1501671745340700",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Maná",
+    "image_url": "https://img.youtube.com/vi/ScCGUObZ4CI/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-09-15T19:58:51.089428+00:00"
   }
 ]
