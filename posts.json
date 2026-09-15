@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260809_172726",
-    "status": "published",
-    "created_at": "2026-08-09T17:27:26.859810+00:00",
-    "post_type": "poll",
-    "topic": "Divididos",
-    "text": "El rock en español ha sido escenario de emocionales declaraciones de amor a través de la música. Desde letras apasionadas hasta reflejos de melancolía, estas canciones han conmovido a muchos seguidores. Entre elles, destacan obras de Soda Stereo y Maná. \n   Ella Usó Mi Cabeza es una explosión de sentimiento, \n   De Música Ligera nos transporta a un mundo de romance, \n   mientras que Te Necesito es una emotiva súplica. \n   Opciones: \n   Ella Usó Mi Cabeza - Soda Stereo\n   De Música Ligera - Soda Stereo\n   Te Necesito - Maná\n   ¿Cuál es tu canción de amor favorita?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Divididos #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Divididos Argentina rock concert",
-    "extra_topics": [
-      "Soda Stereo",
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1467989472042261",
-    "ig_post_id": null,
-    "published_at": "2026-08-09T17:27:53.898472+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260809_213538",
     "status": "published",
     "created_at": "2026-08-09T21:35:38.969350+00:00",
@@ -1048,5 +1025,23 @@
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
+  },
+  {
+    "id": "post_20260915_232758",
+    "status": "failed",
+    "created_at": "2026-09-15T23:27:58.066539+00:00",
+    "post_type": "original",
+    "topic": "Los Rabanes",
+    "text": "¿Sabías que el temazo “Mamá”, que impulsó a Los Rabanes al reconocimiento masivo a finales de los 90, surgió, según cuentan algunos, de una improvisación durante una pausa de sonido en un gran auditorio? Se dice que la versión espontánea quedó incluida en su primer disco y que el verso “cuando el canal se cierra, el pueblo grita” haría alusión a protestas de mediados de la década. La canción también generó controversia cuando surgieron rumores de que contenía un fragmento de una canción folklórica, lo que llevó a la banda a lanzar una versión sin esa muestra en una edición posterior. En ese mismo período, el baterista original abandonó el grupo y fue sustituido, lo que cambió la dinámica rítmica de la banda. ¿Cuál de estos detalles te sorprende más y cómo crees que influyó en la trayectoria de Los Rabanes?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Rabanes rock band concert",
+    "extra_topics": [],
+    "post_year": "1998",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "published_at": null,
+    "error": "FB error 324: Missing or invalid image file"
   }
 ]

@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Fito Páez",
     "El Tri",
     "La Vela Puerca",
     "La Máquina Camaleón",
@@ -19,7 +18,8 @@
     "Los Fabulosos Cadillacs",
     "Cascomar",
     "Savage",
-    "Los Mojarras"
+    "Los Mojarras",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     15,
@@ -33,10 +33,10 @@
     13,
     17
   ],
-  "original_type_index": 8,
-  "last_updated": "2026-09-15T19:58:25.631261+00:00",
+  "original_type_index": 9,
+  "last_updated": "2026-09-15T23:28:04.105712+00:00",
   "post_type_index": 10,
-  "total_posts": 450,
+  "total_posts": 451,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }
