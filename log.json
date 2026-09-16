@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260702_045306",
-    "fb_post_id": "1043162839046116_1434542345386974",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Aterciopelados",
-    "image_url": "https://img.youtube.com/vi/cGDX6cbqzsk/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-02T04:53:34.162346+00:00"
-  },
-  {
     "post_id": "post_20260702_150731",
     "fb_post_id": "1043162839046116_1434924025348806",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/Q9bWs0h2xZM/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-09-16T17:24:48.646340+00:00"
+  },
+  {
+    "post_id": "post_20260916_195053",
+    "fb_post_id": "1043162839046116_1502578608583347",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Panteon Rococo",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Pante%C3%B3n_Rococo_%40_SO36.jpg",
+    "status": "published",
+    "executed_at": "2026-09-16T19:51:04.380294+00:00"
   }
 ]
