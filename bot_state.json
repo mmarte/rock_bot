@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Vela Puerca",
     "La Máquina Camaleón",
     "Savage",
     "Los Prisioneros",
@@ -19,7 +18,8 @@
     "Savage",
     "Los Mojarras",
     "Los Rabanes",
-    "Charly García"
+    "Charly García",
+    "Dedicados"
   ],
   "used_poll_indices": [
     15,
@@ -34,9 +34,9 @@
     17
   ],
   "original_type_index": 10,
-  "last_updated": "2026-09-16T05:26:40.136001+00:00",
+  "last_updated": "2026-09-16T17:24:23.294974+00:00",
   "post_type_index": 10,
-  "total_posts": 452,
+  "total_posts": 453,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
