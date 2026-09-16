@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260810_174948",
-    "status": "published",
-    "created_at": "2026-08-10T17:49:48.917909+00:00",
-    "post_type": "poll",
-    "topic": "Los Tres",
-    "text": "La escena del rock en español es rica y diversa, con contribuciones significativas de varios países latinoamericanos. La pasión y la energía de este género musical han sido moldeadas por diferentes culturas y estilos. ¿Cuál es tu preferencia entre el rock argentino y el rock mexicano?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosTres\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Los Tres Chile rock band",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1468859231955285",
-    "ig_post_id": null,
-    "published_at": "2026-08-10T17:50:15.679398+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260810_214453",
     "status": "published",
     "created_at": "2026-08-10T21:44:53.269642+00:00",
@@ -1044,6 +1024,28 @@
     "fb_post_id": "1043162839046116_1502578608583347",
     "ig_post_id": null,
     "published_at": "2026-09-16T19:51:04.380294+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260916_233550",
+    "status": "published",
+    "created_at": "2026-09-16T23:35:50.449518+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "¿Qué pasa cuando el sonido enérgico de Los Fabulosos Cadillacs se cruza con la experimentación electrónica de Café Tacvba? \"Matador\", una canción que Los Cadillacs lanzaron a principios de los 90 y que se convirtió en himno de los bares de Buenos Aires, ha sido reinterpretada en diversas ocasiones por la banda mexicana. En algunos conciertos, Café Tacvba le ha añadido capas de sintetizadores, percusión latina y un groove que recuerda a la cumbia, creando una versión que muchos fans aprecian por su frescura. Esa adaptación ha sido presentada en festivales y eventos en vivo, recibiendo una ovación entusiasta del público que disfruta tanto del original como de la nueva mirada. Desde entonces, la versión ha aparecido en playlists de Spotify y sigue citándose como un ejemplo de cómo el rock en español puede renovarse sin perder su esencia. ¿Te inclinas más por la fuerza del original de Los Cadillacs o por la atmósfera electrónica que aporta Café Tacvba?\n\nhttps://www.youtube.com/watch?v=PlA9o1rw-rY\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba Matador live",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "1994",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=PlA9o1rw-rY",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1502694675238407",
+    "ig_post_id": null,
+    "published_at": "2026-09-16T23:36:19.580704+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

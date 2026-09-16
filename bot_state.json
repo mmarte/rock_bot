@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Savage",
     "Los Prisioneros",
     "Los Tres",
     "Los Rodríguez",
@@ -19,7 +18,8 @@
     "Los Rabanes",
     "Charly García",
     "Dedicados",
-    "Panteon Rococo"
+    "Panteon Rococo",
+    "Kraken"
   ],
   "used_poll_indices": [
     15,
@@ -34,9 +34,9 @@
     17
   ],
   "original_type_index": 1,
-  "last_updated": "2026-09-16T19:50:59.111297+00:00",
+  "last_updated": "2026-09-16T23:35:54.213082+00:00",
   "post_type_index": 10,
-  "total_posts": 454,
+  "total_posts": 455,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
