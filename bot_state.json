@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Los Tres",
     "Los Rodríguez",
     "Zapato 3",
     "La Cuneta Son Machín",
@@ -19,7 +18,8 @@
     "Dedicados",
     "Panteon Rococo",
     "Kraken",
-    "Cinema"
+    "Cinema",
+    "Líbido"
   ],
   "used_poll_indices": [
     15,
@@ -34,9 +34,9 @@
     17
   ],
   "original_type_index": 1,
-  "last_updated": "2026-09-19T05:15:19.627837+00:00",
+  "last_updated": "2026-09-19T16:10:56.473840+00:00",
   "post_type_index": 10,
-  "total_posts": 456,
+  "total_posts": 457,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260811_025931",
-    "status": "published",
-    "created_at": "2026-08-11T02:59:31.545975+00:00",
-    "post_type": "poll",
-    "topic": "La Máquina Camaleón",
-    "text": "Una gran intro de guitarra puede marcar la diferencia en una canción. En el rock en español, hay muchas intros memorables que evocan emociones intensas. ¿Cuál es la intro de guitarra que más te impacta? \n   Opciones: \n   De Música Ligera - Cerati\n   La Chispa Adecuada - Divididos\n   Matador - Los Fabulosos Cadillacs\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaMaquinaCamaleon #LosFabulososCadillacs #Divididos\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "La Máquina Camaleón rock band concert",
-    "extra_topics": [
-      "Los Fabulosos Cadillacs",
-      "Divididos"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1469187571922451",
-    "ig_post_id": null,
-    "published_at": "2026-08-11T02:59:58.250722+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260811_141352",
     "status": "published",
     "created_at": "2026-08-11T14:13:52.650849+00:00",
@@ -1044,6 +1021,28 @@
     "fb_post_id": "1043162839046116_1504741988367009",
     "ig_post_id": null,
     "published_at": "2026-09-19T05:15:45.104759+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260919_161051",
+    "status": "published",
+    "created_at": "2026-09-19T16:10:51.119491+00:00",
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "text": "Cuando Enrique Bunbury volvió a interpretar “Entre Dos Tierras” en solitario, la canción tomó una dirección distinta. El tema, escrito en 1990 para el álbum “Senderos de Traición” y convertido en uno de los clásicos de Héroes del Silencio, siempre estuvo marcado por las guitarras potentes y la voz rasposa de Bunbury. En una versión más íntima, grabada en una presentación en vivo que luego formó parte del disco “Bunbury en Directo” (2005), el acompañamiento se redujo a piano y una guitarra discreta, dejando que la voz y la letra brillaran con mayor claridad. Este arreglo más minimalista permite percibir cada metáfora como un susurro nocturno, añadiendo una sensación de vulnerabilidad que difiere de la energía del original. ¿Prefieres la fuerza del tema tal como nació o la delicadeza de esta reinterpretación?\n\nhttps://www.youtube.com/watch?v=XWAto1Qgxko\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Enrique Bunbury Entre Dos Tierras live",
+    "extra_topics": [
+      "Héroes del Silencio"
+    ],
+    "post_year": "1990",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=XWAto1Qgxko",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1505190481655493",
+    "ig_post_id": null,
+    "published_at": "2026-09-19T16:11:08.773090+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
