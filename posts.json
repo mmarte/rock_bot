@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260810_214453",
-    "status": "published",
-    "created_at": "2026-08-10T21:44:53.269642+00:00",
-    "post_type": "original",
-    "topic": "Octavia",
-    "text": "En el mundo del rock en español, hay varias bandas que destacan por su energía y pasión. Octavia es conocida por su álbum debut y canciones que muestran un sonido intenso, mientras que Aterciopelados fusiona el rock con ritmos tradicionales colombianos en su música. La rica diversidad musical de Aterciopelados, con Andrea Echeverri y Héctor Buitrago, contrasta con el sonido directo de Octavia. ¿Te gustaría escuchar la potencia de Octavia o la fusión musical de Aterciopelados?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia #Aterciopelados\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Octavia rock band concert",
-    "extra_topics": [
-      "Aterciopelados"
-    ],
-    "post_year": "2002",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1469026231938585",
-    "ig_post_id": null,
-    "published_at": "2026-08-10T21:45:20.975946+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260811_025931",
     "status": "published",
     "created_at": "2026-08-11T02:59:31.545975+00:00",
@@ -1046,6 +1024,26 @@
     "fb_post_id": "1043162839046116_1502694675238407",
     "ig_post_id": null,
     "published_at": "2026-09-16T23:36:19.580704+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260919_051514",
+    "status": "published",
+    "created_at": "2026-09-19T05:15:14.313427+00:00",
+    "post_type": "youtube",
+    "topic": "Cinema",
+    "text": "Este clip captura una de esas raras joyas que solo aparecen en eventos benéficos: Yes interpretando “Cinema” en Wembley Arena el 11 de noviembre de 2004. La pieza, compuesta por Steve Howe y Alan White para el álbum *Drama* (1980), sigue sorprendente en directo, con la energía de la sección rítmica y el bajo de Billy Sherwood, y los teclados de Oliver Wakeman aportando textura. El público de The Prince's Trust vibra con cada compás, demostrando que el legado progresivo de Yes sigue resonando más allá de los clásicos de los 70. ¿Cuál es el momento en vivo de Yes que más te ha dejado sin aliento?\n\nhttps://www.youtube.com/watch?v=4wjoWoGZzOQ\n\nLo Mejor del Rock en Español les presenta: #Cinema\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cinema\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Cinema rock band concert",
+    "extra_topics": [],
+    "post_year": "2004",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=4wjoWoGZzOQ",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1504741988367009",
+    "ig_post_id": null,
+    "published_at": "2026-09-19T05:15:45.104759+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
