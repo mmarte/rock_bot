@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260812_031923",
-    "status": "published",
-    "created_at": "2026-08-12T03:19:23.691286+00:00",
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "text": "La conexión entre Caifanes y Café Tacvba es evidente en su música, y un ejemplo notable es su interpretación de 'La Negra Tomasa', un clásico de Caifanes. La versión de Café Tacvba tiene un toque único y una actitud en el escenario que los distingue. ¿Cuál prefieres, el original de Caifanes o la interpretación de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=rC7dTHSxcDE\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Café Tacvba La Negra Tomasa live",
-    "extra_topics": [
-      "Caifanes"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=rC7dTHSxcDE",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1470119961829212",
-    "ig_post_id": null,
-    "published_at": "2026-08-12T03:19:51.240375+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260812_141525",
     "status": "published",
     "created_at": "2026-08-12T14:15:25.987330+00:00",
@@ -1041,6 +1019,26 @@
     "fb_post_id": "1043162839046116_1507226654785209",
     "ig_post_id": null,
     "published_at": "2026-09-21T18:24:48.340156+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260921_204526",
+    "status": "published",
+    "created_at": "2026-09-21T20:45:26.989604+00:00",
+    "post_type": "youtube",
+    "topic": "Toque Profundo",
+    "text": "Esta presentación de Toque Profundo en 1990, grabada en el histórico Hotel Jaragua, ofrece una cápsula de la escena dominicana de la época. La banda interpreta \"Mi País\" con una crudeza que aún resuena, varios años antes de que la canción apareciera en el álbum *Ciclos* (1994). El público vibró con el sonido directo de la guitarra y la voz rasgada de Lolo, creando una atmósfera que refleja la rebeldía del rock caribeño incipiente. Ver esa mezcla de poesía social y ritmos latinos muestra por qué Toque Profundo es considerado uno de los referentes que inspiraron a grupos posteriores. Cada acorde parece anticipar la evolución musical que seguiría en los años venideros. ¿Qué sensación te produce revivir este momento del rock en español?\n\nhttps://www.youtube.com/watch?v=faOQenWeOXs\n\nLo Mejor del Rock en Español les presenta: #ToqueProfundo\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #ToqueProfundo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Toque Profundo rock band concert",
+    "extra_topics": [],
+    "post_year": "1990",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=faOQenWeOXs",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1507311581443383",
+    "ig_post_id": null,
+    "published_at": "2026-09-21T20:45:57.880587+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

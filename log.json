@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260703_220809",
-    "fb_post_id": "1043162839046116_1436117988562743",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Panteon Rococo",
-    "image_url": "https://img.youtube.com/vi/4HXcmlKY_xw/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-03T22:08:37.034443+00:00"
-  },
-  {
     "post_id": "post_20260704_042942",
     "fb_post_id": "1043162839046116_1436331505208058",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/vNKUDiA2YQE/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-09-21T18:24:48.340156+00:00"
+  },
+  {
+    "post_id": "post_20260921_204526",
+    "fb_post_id": "1043162839046116_1507311581443383",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Toque Profundo",
+    "image_url": "https://img.youtube.com/vi/faOQenWeOXs/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-09-21T20:45:57.880587+00:00"
   }
 ]
