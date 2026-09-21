@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Zapato 3",
     "La Cuneta Son Machín",
     "Desorden Público",
     "Cuca",
@@ -19,7 +18,8 @@
     "Kraken",
     "Cinema",
     "Líbido",
-    "Kraken"
+    "Kraken",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     15,
@@ -34,9 +34,9 @@
     17
   ],
   "original_type_index": 2,
-  "last_updated": "2026-09-20T19:15:35.373749+00:00",
+  "last_updated": "2026-09-21T18:24:23.026513+00:00",
   "post_type_index": 10,
-  "total_posts": 458,
+  "total_posts": 459,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
