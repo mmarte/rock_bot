@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Cuca",
     "Toque Profundo",
     "Habana Abierta",
     "Caramelos de Cianuro",
@@ -19,7 +18,8 @@
     "Kraken",
     "Los Rabanes",
     "Toque Profundo",
-    "La Cuneta Son Machín"
+    "La Cuneta Son Machín",
+    "Zapato 3"
   ],
   "used_poll_indices": [
     15,
@@ -33,10 +33,10 @@
     13,
     17
   ],
-  "original_type_index": 3,
-  "last_updated": "2026-09-22T05:34:10.313414+00:00",
+  "original_type_index": 4,
+  "last_updated": "2026-09-22T20:00:49.178115+00:00",
   "post_type_index": 10,
-  "total_posts": 461,
+  "total_posts": 462,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }
