@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260704_180045",
-    "fb_post_id": "1043162839046116_1436860645155144",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Dedicados",
-    "image_url": "https://images.pexels.com/photos/27817790/pexels-photo-27817790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-07-04T18:00:49.664514+00:00"
-  },
-  {
     "post_id": "post_20260704_220318",
     "fb_post_id": "1043162839046116_1436994431808432",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Zapato_3_merida_2012.jpg/330px-Zapato_3_merida_2012.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "status": "published",
     "executed_at": "2026-09-22T20:01:14.479676+00:00"
+  },
+  {
+    "post_id": "post_20260922_233249",
+    "fb_post_id": "1043162839046116_1508301808011027",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "image_url": "https://img.youtube.com/vi/GYCIRuLICDY/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-09-22T23:33:22.189714+00:00"
   }
 ]
