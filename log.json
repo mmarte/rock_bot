@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260704_220318",
-    "fb_post_id": "1043162839046116_1436994431808432",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Octavia",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG/330px-Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG",
-    "status": "published",
-    "executed_at": "2026-07-04T22:03:45.806646+00:00"
-  },
-  {
     "post_id": "post_20260705_044915",
     "fb_post_id": "1043162839046116_1437230371784838",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/GYCIRuLICDY/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-09-22T23:33:22.189714+00:00"
+  },
+  {
+    "post_id": "post_20260923_232857",
+    "fb_post_id": "1043162839046116_1509237537917454",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Desorden Público",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/D.P.jpg",
+    "status": "published",
+    "executed_at": "2026-09-23T23:29:29.363074+00:00"
   }
 ]
