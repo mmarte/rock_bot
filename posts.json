@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260813_175527",
-    "status": "published",
-    "created_at": "2026-08-13T17:55:27.861981+00:00",
-    "post_type": "original",
-    "topic": "Fiel a la Vega",
-    "text": "Fiel a la Vega ha ofrecido conciertos inolvidables a lo largo de su carrera. La banda, liderada por Tito Auger, ha demostrado su capacidad para fusionar ritmos tradicionales con el rock moderno en sus presentaciones en vivo. Entre sus canciones destacadas se encuentran 'En Mi Timbal' y 'La Luna', que reflejan su habilidad para mezclar estilos musicales. ¿Qué te gustaría escuchar de Fiel a la Vega en su próximo concierto?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Fiel a la Vega rock band concert",
-    "extra_topics": [],
-    "post_year": "2004",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1471575661683642",
-    "ig_post_id": null,
-    "published_at": "2026-08-13T17:55:54.713915+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260813_214859",
     "status": "published",
     "created_at": "2026-08-13T21:48:59.069690+00:00",
@@ -1037,6 +1017,28 @@
     "fb_post_id": "1043162839046116_1512136600960881",
     "ig_post_id": null,
     "published_at": "2026-09-26T16:50:55.280676+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260926_232545",
+    "status": "published",
+    "created_at": "2026-09-26T23:25:45.415595+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "En el Vive Latino 2012, Maná ofreció su propia interpretación de \"Afuera\", el clásico de Caifanes. La canción, que se estrenó en 1992 y se volvió un himno para una generación, recibió un trato especial en el escenario del festival. Fher Olvera y su cuarteto le dieron un toque de rock más cargado, con una sección de guitarra que destacó en medio del público. El arreglo, más amplio que el original, invitó a los asistentes a cantar juntos cada verso mientras la multitud de la Ciudad de México disfrutaba del momento. Es una versión que respira energía nueva sin perder la melancolía que la hizo inolvidable. ¿Te gusta más el cover de Maná o prefieres la versión original de Caifanes?\n\nhttps://www.youtube.com/watch?v=PNm0hf_zZJY\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "2012",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=PNm0hf_zZJY",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1512390584268816",
+    "ig_post_id": null,
+    "published_at": "2026-09-26T23:26:15.999575+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
