@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260705_044915",
-    "fb_post_id": "1043162839046116_1437230371784838",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/bUBcfSLAk_0/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-05T04:49:42.962747+00:00"
-  },
-  {
     "post_id": "post_20260705_142700",
     "fb_post_id": "1043162839046116_1437592621748613",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/D.P.jpg",
     "status": "published",
     "executed_at": "2026-09-23T23:29:29.363074+00:00"
+  },
+  {
+    "post_id": "post_20260926_165026",
+    "fb_post_id": "1043162839046116_1512136600960881",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Zoé",
+    "image_url": "https://img.youtube.com/vi/_O_O4XesuA4/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-09-26T16:50:55.280676+00:00"
   }
 ]
