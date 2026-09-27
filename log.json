@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260705_220508",
-    "fb_post_id": "1043162839046116_1437884995052709",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Flou",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
-    "status": "published",
-    "executed_at": "2026-07-05T22:05:35.460516+00:00"
-  },
-  {
     "post_id": "post_20260706_050326",
     "fb_post_id": "1043162839046116_1438131595028049",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/8qlGfX4toWs/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-09-27T19:59:06.498249+00:00"
+  },
+  {
+    "post_id": "post_20260927_234253",
+    "fb_post_id": "1043162839046116_1513440067497201",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "image_url": "https://img.youtube.com/vi/L4HbN2Pfkvw/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-09-27T23:43:26.952790+00:00"
   }
 ]

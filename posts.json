@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260814_032017",
-    "status": "published",
-    "created_at": "2026-08-14T03:20:17.131390+00:00",
-    "post_type": "original",
-    "topic": "Habana Abierta",
-    "text": "La colaboración entre Habana Abierta y la Orquesta Aragón es un ejemplo destacado de fusión musical en el rock en español. Durante la grabación de su álbum, la banda logró combinar su sonido rock con los ritmos tradicionales cubanos de la Orquesta Aragón, lo que dio como resultado una experiencia musical única. La mezcla de estilos y tradiciones musicales puede generar algo verdaderamente especial. ¿Crees que este tipo de fusiones musicales es lo que hace que el rock en español sea tan rico y diverso?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Habana Abierta rock band concert",
-    "extra_topics": [],
-    "post_year": "2003",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1471893081651900",
-    "ig_post_id": null,
-    "published_at": "2026-08-14T03:20:44.260700+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260814_141021",
     "status": "published",
     "created_at": "2026-08-14T14:10:21.504060+00:00",
@@ -1035,6 +1015,28 @@
     "fb_post_id": "1043162839046116_1513310437510164",
     "ig_post_id": null,
     "published_at": "2026-09-27T19:59:06.498249+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260927_234253",
+    "status": "published",
+    "created_at": "2026-09-27T23:42:53.521932+00:00",
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "text": "¿Qué tal si te cuento la historia de cómo Soda Stereo tomó el icónico riff de \"Paint It Black\" y lo transformó en un himno del rock en español? La canción original, escrita por Mick Jagger y Keith Richards, salió en 1966 dentro del álbum *Aftermath* y se volvió un himno de la contracultura. En 1995, durante el MTV Unplugacoustic de Argentina, Gustavo Cerati y compañía la reinterpretaron con una guitarra acústica y una percusión más sutil, mientras la letra pasaba al español como \"Píntala de negro\". La voz de Cerati, más melancólica y etérea, le dio una dimensión introspectiva que contrastó con la agresividad de los Stones. Esa versión quedó grabada en la memoria de los fans latinoamericanos porque demostró que un clásico global puede renacer en otro idioma sin perder su fuerza. ¿Prefieres la crudeza de los Rolling Stones o la sensibilidad de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=L4HbN2Pfkvw\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Soda Stereo Paint It Black live",
+    "extra_topics": [
+      "Gustavo Cerati"
+    ],
+    "post_year": "1966",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=L4HbN2Pfkvw",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1513440067497201",
+    "ig_post_id": null,
+    "published_at": "2026-09-27T23:43:26.952790+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
