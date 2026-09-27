@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260705_175945",
-    "fb_post_id": "1043162839046116_1437747001733175",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Rabanes",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
-    "status": "published",
-    "executed_at": "2026-07-05T18:00:12.152640+00:00"
-  },
-  {
     "post_id": "post_20260705_220508",
     "fb_post_id": "1043162839046116_1437884995052709",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/PNm0hf_zZJY/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-09-26T23:26:15.999575+00:00"
+  },
+  {
+    "post_id": "post_20260927_195836",
+    "fb_post_id": "1043162839046116_1513310437510164",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "La Cuneta Son Machín",
+    "image_url": "https://img.youtube.com/vi/8qlGfX4toWs/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-09-27T19:59:06.498249+00:00"
   }
 ]
