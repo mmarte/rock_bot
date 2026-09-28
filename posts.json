@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260814_141021",
-    "status": "published",
-    "created_at": "2026-08-14T14:10:21.504060+00:00",
-    "post_type": "cover",
-    "topic": "Aterciopelados",
-    "text": "La música de Soda Stereo es icónica, y 'De Música Ligera' es uno de sus temas más destacados. Aterciopelados le dio su propio toque en un tributo latino, fusionando su estilo con la esencia original. ¿Te conmueve el cover de Aterciopelados o prefieres la versión original de Soda Stereo? https://www.youtube.com/watch?v=YlU6N0fxr0o\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Aterciopelados De Música Ligera live",
-    "extra_topics": [
-      "Soda Stereo"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=YlU6N0fxr0o",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1472298834944658",
-    "ig_post_id": null,
-    "published_at": "2026-08-14T14:10:48.867847+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260814_174936",
     "status": "published",
     "created_at": "2026-08-14T17:49:36.503120+00:00",
@@ -1037,6 +1015,26 @@
     "fb_post_id": "1043162839046116_1513440067497201",
     "ig_post_id": null,
     "published_at": "2026-09-27T23:43:26.952790+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260928_195603",
+    "status": "published",
+    "created_at": "2026-09-28T19:56:03.041370+00:00",
+    "post_type": "youtube",
+    "topic": "Caifanes",
+    "text": "Este documental nos sumerge en la historia de Caifanes, una de las bandas clave del rock mexicano de los años 90. Desde los acordes oscuros de \"Afuera\" hasta la intensidad de \"Viento\", cada entrevista muestra cómo la combinación de rock, new wave y matices góticos surgió en la Ciudad de México y se convirtió en un himno para una generación. Uno de los momentos más llamativos es la referencia al primer concierto en el Auditorio Nacional, donde Saúl y Alejandro tocaron un solo de guitarra bajo un efecto de luces rojas, un episodio que, según se comenta, influyó en la atmósfera de \"El Silencio\". Ver a los integrantes hablar de sus dudas, influencias y la presión de ser pioneros hace que este video sea esencial para cualquier fan que quiera comprender por qué Caifanes sigue resonando después de más de tres décadas. ¿Cuál es el momento del documental que más te impactó?\n\nhttps://www.youtube.com/watch?v=3JBlJIPG34U\n\nLo Mejor del Rock en Español les presenta: #Caifanes\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Caifanes Mexico gothic rock concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=3JBlJIPG34U",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1514334284074446",
+    "ig_post_id": null,
+    "published_at": "2026-09-28T19:56:33.323076+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

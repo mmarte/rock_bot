@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260706_050326",
-    "fb_post_id": "1043162839046116_1438131595028049",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Gandhi",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg",
-    "status": "published",
-    "executed_at": "2026-07-06T05:03:53.386919+00:00"
-  },
-  {
     "post_id": "post_20260706_161359",
     "fb_post_id": "1043162839046116_1438577424983466",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/L4HbN2Pfkvw/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-09-27T23:43:26.952790+00:00"
+  },
+  {
+    "post_id": "post_20260928_195603",
+    "fb_post_id": "1043162839046116_1514334284074446",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Caifanes",
+    "image_url": "https://img.youtube.com/vi/3JBlJIPG34U/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-09-28T19:56:33.323076+00:00"
   }
 ]
