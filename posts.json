@@ -1,29 +1,5 @@
 [
   {
-    "id": "post_20260814_174936",
-    "status": "published",
-    "created_at": "2026-08-14T17:49:36.503120+00:00",
-    "post_type": "poll",
-    "topic": "Gandhi",
-    "text": "La escena musical de México es rica y diversa, con许多 bandas de rock que han dejado una huella significativa en el mundo hispanohablante. Con tantas opciones increíbles, es un desafío elegir solo una. Pero, si tuvieras que escoger, ¿qué banda considerarías la mejor? \n   Opciones: \n   Café Tacvba\n   Molotov\n   Caifanes\n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Gandhi #CafeTacvba #Caifanes #Molotov\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Gandhi rock band concert",
-    "extra_topics": [
-      "Café Tacvba",
-      "Caifanes",
-      "Molotov"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1472448124929729",
-    "ig_post_id": null,
-    "published_at": "2026-08-14T17:50:03.367345+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260814_212816",
     "status": "published",
     "created_at": "2026-08-14T21:28:16.192584+00:00",
@@ -1035,6 +1011,28 @@
     "fb_post_id": "1043162839046116_1514334284074446",
     "ig_post_id": null,
     "published_at": "2026-09-28T19:56:33.323076+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20260929_005255",
+    "status": "published",
+    "created_at": "2026-09-29T00:52:55.815787+00:00",
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "text": "Cuando Enrique Bunbury volvió a interpretar \"Entre Dos Tierras\" en solitario, la canción adquirió una nueva perspectiva. El tema, que apareció en 1994 con Héroes del Silencio en el álbum *Avalancha*, se caracterizó por una producción de guitarras potentes y la voz rasposa de Bunbury dentro de la banda. En la versión íntima que incluyó en el disco en vivo *Bunbury en Directo: La Noche de los Girasoles* (2006), la guitarra acústica y la voz sin adornos convierten el tema en un momento más cercano, donde cada vibrato se percibe con claridad. El público percibe la vulnerabilidad del intérprete, como si la letra le hablara directamente. Esa reinterpretación muestra cómo una canción con gran fuerza puede mantenerse impactante aun en una puesta más sencilla. ¿Prefieren la fuerza del original de Héroes del Silencio o la intimidad del solo de Bunbury?\n\nhttps://www.youtube.com/watch?v=ZC8XO4LviGk\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Enrique Bunbury Entre Dos Tierras live",
+    "extra_topics": [
+      "Héroes del Silencio"
+    ],
+    "post_year": "1994",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=ZC8XO4LviGk",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1514504127390795",
+    "ig_post_id": null,
+    "published_at": "2026-09-29T00:53:26.578564+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

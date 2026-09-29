@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260706_161359",
-    "fb_post_id": "1043162839046116_1438577424983466",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Toque Profundo",
-    "image_url": "https://images.pexels.com/photos/27817797/pexels-photo-27817797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-07-06T16:14:26.913085+00:00"
-  },
-  {
     "post_id": "post_20260706_185338",
     "fb_post_id": "1043162839046116_1438682744972934",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/3JBlJIPG34U/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-09-28T19:56:33.323076+00:00"
+  },
+  {
+    "post_id": "post_20260929_005255",
+    "fb_post_id": "1043162839046116_1514504127390795",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "image_url": "https://img.youtube.com/vi/ZC8XO4LviGk/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-09-29T00:53:26.578564+00:00"
   }
 ]
