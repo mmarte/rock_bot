@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260706_185338",
-    "fb_post_id": "1043162839046116_1438682744972934",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/wD9FFnYwsYY/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-06T18:54:06.271060+00:00"
-  },
-  {
     "post_id": "post_20260706_221606",
     "fb_post_id": "1043162839046116_1438791881628687",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/ZC8XO4LviGk/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-09-29T00:53:26.578564+00:00"
+  },
+  {
+    "post_id": "post_20260930_181320",
+    "fb_post_id": "1043162839046116_1516298173878057",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Flou",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
+    "status": "published",
+    "executed_at": "2026-09-30T18:13:51.989045+00:00"
   }
 ]
