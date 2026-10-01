@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Dedicados",
     "Panteon Rococo",
     "Kraken",
     "Cinema",
@@ -19,7 +18,8 @@
     "Caifanes",
     "Divididos",
     "Flou",
-    "Los Mojarras"
+    "Los Mojarras",
+    "La Máquina Camaleón"
   ],
   "used_poll_indices": [
     15,
@@ -34,9 +34,9 @@
     17
   ],
   "original_type_index": 7,
-  "last_updated": "2026-10-01T06:40:33.957104+00:00",
+  "last_updated": "2026-10-01T18:38:56.866747+00:00",
   "post_type_index": 10,
-  "total_posts": 472,
+  "total_posts": 473,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
