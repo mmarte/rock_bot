@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260815_020810",
-    "status": "published",
-    "created_at": "2026-08-15T02:08:10.427728+00:00",
-    "post_type": "original",
-    "topic": "La Ley",
-    "text": "La Ley es una banda que ha hecho una gran contribución al rock en español con su álbum 'La Ley MTV Unplugged'. Liderada por Beto Cuevas y con exintegrantes como Andrés Bobe y Rodrigo Aboitiz, la banda ha dejado un legado duradero. Su música ha influido en artistas como Mon Laferte y Camilo, y su estilo único, que combina rock con ritmos latinos, sigue siendo una fuente de inspiración. Con canciones destacadas como 'Eternidad' y 'Día Cero', la música de La Ley sigue siendo muy popular. ¿Qué es lo que más te gusta de la música de La Ley?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaLey\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "La Ley Chile rock band concert",
-    "extra_topics": [],
-    "post_year": "2001",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1472727914901750",
-    "ig_post_id": null,
-    "published_at": "2026-08-15T02:08:37.487022+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260815_132407",
     "status": "published",
     "created_at": "2026-08-15T13:24:07.888457+00:00",
@@ -1033,6 +1013,28 @@
     "fb_post_id": "1043162839046116_1516298173878057",
     "ig_post_id": null,
     "published_at": "2026-09-30T18:13:51.989045+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20261001_064029",
+    "status": "published",
+    "created_at": "2026-10-01T06:40:29.277450+00:00",
+    "post_type": "original",
+    "topic": "Los Mojarras",
+    "text": "¿Sabías que Los Mojarras, formados en Medellín en 1995, fueron de los primeros en combinar ska‑punk con ritmos tradicionales antioqueños? Su debut, *El Desorden del Tiempo* (1999), recibió una buena acogida y la canción \"Cicatrices\" abrió la puerta a una generación que buscaba romper esquemas. Cuando en 2002 sacaron *Mojarras*, el álbum influyó en bandas como Superlitio y La Pestilencia, que lo citan como una inspiración para experimentar con fusiones latinas. Incluso Aterciopelados y Bomba Estéreo han mencionado en entrevistas que conocieron su música en los undergrounds de Medellín y adoptaron una actitud DIY. Hoy, los acordes de \"Cicatrices\" siguen resonando en bares de Bogotá y en playlists de Spotify dedicadas al rock latino, y los jóvenes grupos de la escena actual incluyen covers de su material en sus sets en vivo. El legado de Los Mojarras no es solo histórico, es una energía que sigue alimentando la creatividad del rock en español. ¿Cuál fue tu primer encuentro con Los Mojarras?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosMojarras #Aterciopelados\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Los Mojarras rock band concert",
+    "extra_topics": [
+      "Aterciopelados"
+    ],
+    "post_year": "1995",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1516780473829827",
+    "ig_post_id": null,
+    "published_at": "2026-10-01T06:40:59.292571+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

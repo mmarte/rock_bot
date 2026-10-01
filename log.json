@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260706_221606",
-    "fb_post_id": "1043162839046116_1438791881628687",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Habana Abierta",
-    "image_url": "https://images.pexels.com/photos/27817790/pexels-photo-27817790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-07-06T22:16:33.254876+00:00"
-  },
-  {
     "post_id": "post_20260707_044227",
     "fb_post_id": "1043162839046116_1439007008273841",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
     "status": "published",
     "executed_at": "2026-09-30T18:13:51.989045+00:00"
+  },
+  {
+    "post_id": "post_20261001_064029",
+    "fb_post_id": "1043162839046116_1516780473829827",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Los Mojarras",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Los_Mojarras_08.jpg",
+    "status": "published",
+    "executed_at": "2026-10-01T06:40:59.292571+00:00"
   }
 ]
