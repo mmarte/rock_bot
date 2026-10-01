@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260707_154139",
-    "fb_post_id": "1043162839046116_1439445434896665",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "La Vela Puerca",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Vamoslavela.jpg",
-    "status": "published",
-    "executed_at": "2026-07-07T15:42:06.526743+00:00"
-  },
-  {
     "post_id": "post_20260707_190011",
     "fb_post_id": "1043162839046116_1439587174882491",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/kIr8hsVTCzg/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-10-01T18:39:22.443299+00:00"
+  },
+  {
+    "post_id": "post_20261001_213417",
+    "fb_post_id": "1043162839046116_1517480290426512",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Héroes del Silencio",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Heroes_del_Silencio_Sevilla_Oct_07.jpg",
+    "status": "published",
+    "executed_at": "2026-10-01T21:34:48.591424+00:00"
   }
 ]

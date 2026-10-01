@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Panteon Rococo",
     "Kraken",
     "Cinema",
     "Líbido",
@@ -19,7 +18,8 @@
     "Divididos",
     "Flou",
     "Los Mojarras",
-    "La Máquina Camaleón"
+    "La Máquina Camaleón",
+    "Héroes del Silencio"
   ],
   "used_poll_indices": [
     15,
@@ -33,10 +33,10 @@
     13,
     17
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-10-01T18:38:56.866747+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-10-01T21:34:23.156908+00:00",
   "post_type_index": 10,
-  "total_posts": 473,
+  "total_posts": 474,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024
 }
