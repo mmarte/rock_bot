@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260815_212425",
-    "status": "published",
-    "created_at": "2026-08-15T21:24:25.855603+00:00",
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "text": "Soda Stereo ofrece una interpretación emocionante de 'Paint It Black' de The Rolling Stones. La voz distintiva de Gustavo Cerati y el arreglo único de la banda le dan un toque especial a este clásico. La versión de Soda Stereo es un homenaje al original, pero con su propio sello. ¿Te gusta más la versión original de The Rolling Stones o el cover de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=vxEWIP2p2mU\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Soda Stereo Paint It Black live",
-    "extra_topics": [
-      "Gustavo Cerati"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=vxEWIP2p2mU",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1473540788153796",
-    "ig_post_id": null,
-    "published_at": "2026-08-15T21:24:53.065076+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260816_021536",
     "status": "published",
     "created_at": "2026-08-16T02:15:36.932397+00:00",
@@ -1039,6 +1017,26 @@
     "fb_post_id": "1043162839046116_1517480290426512",
     "ig_post_id": null,
     "published_at": "2026-10-01T21:34:48.591424+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20261002_003551",
+    "status": "published",
+    "created_at": "2026-10-02T00:35:51.191664+00:00",
+    "post_type": "original",
+    "topic": "Cascomar",
+    "text": "¿Sabías que Cascomar guardó un secreto musical durante años? En la edición original de su primer disco, *Viviendo al Límite* (a principios de los 2000), se dice que incluyeron una pista oculta titulada \"El Rincón de los Tontos\". La canción, con una letra que hace referencia a protestas en Navarra a finales de los noventa, supuestamente generó dudas en la discográfica, que temía que pudiera provocar controversia. Según algunos seguidores, la banda la dejó al final del CD sin que apareciera en el encarte. En una reedición posterior, bajo otra compañía, la pista surgió oficialmente como bonus y muchos fans la consideran un himno de resistencia. Además, se ha escuchado en vivo en conciertos en Zaragoza, donde el público la coreó con una energía inesperada. ¿Habías escuchado esta historia antes?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cascomar\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Cascomar rock band concert",
+    "extra_topics": [],
+    "post_year": "2000",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1517593530415188",
+    "ig_post_id": null,
+    "published_at": "2026-10-02T00:36:20.937292+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null

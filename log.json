@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260707_190011",
-    "fb_post_id": "1043162839046116_1439587174882491",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Cascomar",
-    "image_url": "https://img.youtube.com/vi/WY6sYZ3lRN4/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-07T19:00:39.553867+00:00"
-  },
-  {
     "post_id": "post_20260707_221315",
     "fb_post_id": "1043162839046116_1439702511537624",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Heroes_del_Silencio_Sevilla_Oct_07.jpg",
     "status": "published",
     "executed_at": "2026-10-01T21:34:48.591424+00:00"
+  },
+  {
+    "post_id": "post_20261002_003551",
+    "fb_post_id": "1043162839046116_1517593530415188",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Cascomar",
+    "image_url": "https://images.pexels.com/photos/15299013/pexels-photo-15299013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-10-02T00:36:20.937292+00:00"
   }
 ]
