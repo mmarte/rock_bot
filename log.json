@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260707_221315",
-    "fb_post_id": "1043162839046116_1439702511537624",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Zoé",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/USKMXMTZLFA6BBRJWSG66DOG2Y.jpg/330px-USKMXMTZLFA6BBRJWSG66DOG2Y.jpg",
-    "status": "published",
-    "executed_at": "2026-07-07T22:13:42.211388+00:00"
-  },
-  {
     "post_id": "post_20260708_040216",
     "fb_post_id": "1043162839046116_1439898998184642",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://images.pexels.com/photos/15299013/pexels-photo-15299013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-10-02T00:36:20.937292+00:00"
+  },
+  {
+    "post_id": "post_20261002_180834",
+    "fb_post_id": "1043162839046116_1518403223667552",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "image_url": "https://img.youtube.com/vi/kIr8hsVTCzg/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-10-02T18:09:03.803552+00:00"
   }
 ]

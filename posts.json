@@ -1,28 +1,5 @@
 [
   {
-    "id": "post_20260816_021536",
-    "status": "published",
-    "created_at": "2026-08-16T02:15:36.932397+00:00",
-    "post_type": "poll",
-    "topic": "Desorden Público",
-    "text": "El rock en español es una explosión de talento y diversidad, con bandas que han marcado la escena musical en América Latina y España. Cada región ha contribuido con su propio estilo y energía. ¿Cuál es la banda que consideras la más influyente de todos los tiempos? \n   Opciones: \n   Soda Stereo \n   Heroes del Silencio \n   Maná \n   ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #DesordenPublico #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Desorden Público rock band concert",
-    "extra_topics": [
-      "Soda Stereo",
-      "Maná"
-    ],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1473699471471261",
-    "ig_post_id": null,
-    "published_at": "2026-08-16T02:16:03.661370+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260816_132507",
     "status": "published",
     "created_at": "2026-08-16T13:25:07.537675+00:00",
@@ -1037,6 +1014,28 @@
     "fb_post_id": "1043162839046116_1517593530415188",
     "ig_post_id": null,
     "published_at": "2026-10-02T00:36:20.937292+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20261002_180834",
+    "status": "published",
+    "created_at": "2026-10-02T18:08:34.570844+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "Cuando Caifanes incorporó la canción tradicional cubana “La Negra Tomasa” en su repertorio a finales de los 80, la versión recibió guitarras crudas y la voz profunda de Saúl Hernández, convirtiéndola en un referente del rock mexicano de la época. Años después, Café Tacvba también le dio su sello distintivo en una presentación acústica, añadiendo percusión latina y el estilo experimental de Rubén Albarrán. Esa interpretación ofreció un giro de sabor y actitud rock que hizo que el público cantara al unísono mientras la banda incluía trompetas y teclados vintage. Ambas versiones se han vuelto populares entre los seguidores de la música mexicana, generando debates entre distintas generaciones de fans. ¿Cuál de las dos te mueve más, la de Caifanes o la de Café Tacvba?\n\nhttps://www.youtube.com/watch?v=kIr8hsVTCzg\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Café Tacvba La Negra Tomasa live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "1988",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=kIr8hsVTCzg",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1518403223667552",
+    "ig_post_id": null,
+    "published_at": "2026-10-02T18:09:03.803552+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
