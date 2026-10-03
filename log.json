@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260708_151108",
-    "fb_post_id": "1043162839046116_1440311604810048",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Habana Abierta",
-    "image_url": "https://images.pexels.com/photos/27817787/pexels-photo-27817787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-07-08T15:11:35.484467+00:00"
-  },
-  {
     "post_id": "post_20260708_181612",
     "fb_post_id": "1043162839046116_1440430688131473",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://static.wixstatic.com/media/b524ac_937a3a78474545fd9b0e8c088bb0fa12%7Emv2.png/v1/fit/w_2500,h_1330,al_c/b524ac_937a3a78474545fd9b0e8c088bb0fa12%7Emv2.png",
     "status": "published",
     "executed_at": "2026-10-03T05:54:21.638984+00:00"
+  },
+  {
+    "post_id": "post_20261003_194034",
+    "fb_post_id": "1043162839046116_1519436526897555",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Caramelos de Cianuro",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Caramelos_de_Cianuro_at_Forum_2011.png",
+    "status": "published",
+    "executed_at": "2026-10-03T19:41:05.458495+00:00"
   }
 ]
