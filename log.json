@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260708_040216",
-    "fb_post_id": "1043162839046116_1439898998184642",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/D37WlEFtzEc/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-08T04:02:44.051891+00:00"
-  },
-  {
     "post_id": "post_20260708_151108",
     "fb_post_id": "1043162839046116_1440311604810048",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/kIr8hsVTCzg/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-10-02T18:09:03.803552+00:00"
+  },
+  {
+    "post_id": "post_20261003_055351",
+    "fb_post_id": "1043162839046116_1518853356955872",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Aterciopelados",
+    "image_url": "https://static.wixstatic.com/media/b524ac_937a3a78474545fd9b0e8c088bb0fa12%7Emv2.png/v1/fit/w_2500,h_1330,al_c/b524ac_937a3a78474545fd9b0e8c088bb0fa12%7Emv2.png",
+    "status": "published",
+    "executed_at": "2026-10-03T05:54:21.638984+00:00"
   }
 ]
