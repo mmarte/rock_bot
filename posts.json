@@ -1,27 +1,5 @@
 [
   {
-    "id": "post_20260816_212237",
-    "status": "published",
-    "created_at": "2026-08-16T21:22:37.417033+00:00",
-    "post_type": "original",
-    "topic": "Cinema",
-    "text": "La discografía de Cinema ofrece una variedad de estilos y sonidos. En sus álbumes iniciales, la banda exploró un enfoque experimental, mientras que en otros momentos, lograron una madurez musical notable gracias a la colaboración con otros artistas. ¿Te gustan más sus obras experimentales o sus producciones más maduras?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cinema #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Cinema rock band concert",
-    "extra_topics": [
-      "Gustavo Cerati"
-    ],
-    "post_year": "1989",
-    "curation_year": "2024",
-    "video_url": null,
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1474484588059416",
-    "ig_post_id": null,
-    "published_at": "2026-08-16T21:23:04.608495+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260817_021331",
     "status": "published",
     "created_at": "2026-08-17T02:13:31.881925+00:00",
@@ -1034,6 +1012,26 @@
     "fb_post_id": "1043162839046116_1519436526897555",
     "ig_post_id": null,
     "published_at": "2026-10-03T19:41:05.458495+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20261004_195529",
+    "status": "published",
+    "created_at": "2026-10-04T19:55:29.318155+00:00",
+    "post_type": "youtube",
+    "topic": "Bomba Estéreo",
+    "text": "Esta sesión en el estudio de KEXP, grabada el 3 de abril de 2013, captura a Bomba Estéreo en plena euforia. Desde el primer acorde de \"Bailar Conmigo\" la dupla colombiana despliega una mezcla de cumbia, electrónica y psicodelia que los ha convertido en referentes del tropical bass. La forma en que Liliana y Simón manejan los sintetizadores mientras la percusión vibra con ritmo festivo te hace sentir como si estuvieras en una plaza, pero con la intimidad de un estudio en Seattle. El cierre con \"Tócamelo\" muestra cómo la energía del público se traslada a la habitación, convirtiendo cada golpe de batería en un latido colectivo. Es un testimonio de por qué 2013 marcó un impulso internacional para la banda, alrededor del tiempo en que lanzaron el sencillo \"Elephant\" en 2015. ¿Qué canción de este live te hace mover los pies sin darte cuenta?\n\nhttps://www.youtube.com/watch?v=qU50MDtbkEk\n\nLo Mejor del Rock en Español les presenta: #BombaEstereo\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #BombaEstereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Bomba Estéreo Colombia electronic rock",
+    "extra_topics": [],
+    "post_year": "2013",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=qU50MDtbkEk",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1520408763466998",
+    "ig_post_id": null,
+    "published_at": "2026-10-04T19:55:57.720432+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
