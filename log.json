@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260709_044210",
-    "fb_post_id": "1043162839046116_1440748354766373",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Prisioneros",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Los_Prisioneros_-_Revista_Pelo_Argentina_1987.jpg",
-    "status": "published",
-    "executed_at": "2026-07-09T04:42:38.073530+00:00"
-  },
-  {
     "post_id": "post_20260709_155419",
     "fb_post_id": "1043162839046116_1441174121390463",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2023-11-16_Gala_de_los_Latin_Grammy%2C_14_%28cropped%29.jpg",
     "status": "published",
     "executed_at": "2026-10-06T06:59:55.199126+00:00"
+  },
+  {
+    "post_id": "post_20261006_184304",
+    "fb_post_id": "1043162839046116_1522263566614851",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Toque Profundo",
+    "image_url": "https://img.youtube.com/vi/ClKbL52ATRE/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-10-06T18:43:35.646743+00:00"
   }
 ]
