@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260709_155419",
-    "fb_post_id": "1043162839046116_1441174121390463",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Fiel a la Vega",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
-    "status": "published",
-    "executed_at": "2026-07-09T15:54:46.975780+00:00"
-  },
-  {
     "post_id": "post_20260709_184907",
     "fb_post_id": "1043162839046116_1441285091379366",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/ClKbL52ATRE/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-10-06T18:43:35.646743+00:00"
+  },
+  {
+    "post_id": "post_20261006_212637",
+    "fb_post_id": "1043162839046116_1522358306605377",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "image_url": "https://img.youtube.com/vi/pPg-dkCtjCY/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-10-06T21:27:08.522467+00:00"
   }
 ]
