@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Desorden Público",
     "Zoé",
     "Los Rabanes",
     "La Cuneta Son Machín",
@@ -19,7 +18,8 @@
     "Juanes",
     "Toque Profundo",
     "Gandhi",
-    "Habana Abierta"
+    "Habana Abierta",
+    "La Cuneta Son Machín"
   ],
   "used_poll_indices": [
     15,
@@ -33,10 +33,10 @@
     13,
     17
   ],
-  "original_type_index": 2,
-  "last_updated": "2026-10-07T21:45:11.005238+00:00",
+  "original_type_index": 3,
+  "last_updated": "2026-10-08T00:47:31.740526+00:00",
   "post_type_index": 10,
-  "total_posts": 483,
+  "total_posts": 484,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
