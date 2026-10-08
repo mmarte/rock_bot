@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260710_044355",
-    "fb_post_id": "1043162839046116_1441584078016134",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Aterciopelados",
-    "image_url": "https://img.youtube.com/vi/XscDfQIEFB0/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-10T04:44:22.617257+00:00"
-  },
-  {
     "post_id": "post_20260710_152756",
     "fb_post_id": "1043162839046116_1441969527977589",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://images.pexels.com/photos/2601192/pexels-photo-2601192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-10-08T00:47:57.251253+00:00"
+  },
+  {
+    "post_id": "post_20261008_064708",
+    "fb_post_id": "1043162839046116_1523637869810754",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Bomba Estéreo",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Bomba_Est%C3%A9reo_Up_Close_and_Personal_2012.jpg/330px-Bomba_Est%C3%A9reo_Up_Close_and_Personal_2012.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "status": "published",
+    "executed_at": "2026-10-08T06:47:39.822011+00:00"
   }
 ]

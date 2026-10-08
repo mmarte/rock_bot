@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Zoé",
     "Los Rabanes",
     "La Cuneta Son Machín",
     "Frágil",
@@ -19,7 +18,8 @@
     "Toque Profundo",
     "Gandhi",
     "Habana Abierta",
-    "La Cuneta Son Machín"
+    "La Cuneta Son Machín",
+    "Bomba Estéreo"
   ],
   "used_poll_indices": [
     15,
@@ -33,10 +33,10 @@
     13,
     17
   ],
-  "original_type_index": 3,
-  "last_updated": "2026-10-08T00:47:31.740526+00:00",
+  "original_type_index": 4,
+  "last_updated": "2026-10-08T06:47:14.299158+00:00",
   "post_type_index": 10,
-  "total_posts": 484,
+  "total_posts": 485,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024
 }
