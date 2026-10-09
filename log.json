@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260710_220654",
-    "fb_post_id": "1043162839046116_1442199037954638",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/kIr8hsVTCzg/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-10T22:07:21.599665+00:00"
-  },
-  {
     "post_id": "post_20260711_040000",
     "fb_post_id": "1043162839046116_1442374767937065",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/D.P.jpg",
     "status": "published",
     "executed_at": "2026-10-08T21:47:14.616381+00:00"
+  },
+  {
+    "post_id": "post_20261009_065507",
+    "fb_post_id": "1043162839046116_1524600163047858",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "image_url": "https://img.youtube.com/vi/pGYLAb6pasQ/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-10-09T06:55:36.319407+00:00"
   }
 ]

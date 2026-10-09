@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Frágil",
     "Caifanes",
     "Divididos",
     "Flou",
@@ -19,7 +18,8 @@
     "La Cuneta Son Machín",
     "Bomba Estéreo",
     "Toque Profundo",
-    "Desorden Público"
+    "Desorden Público",
+    "Extremoduro"
   ],
   "used_poll_indices": [
     7,
@@ -34,9 +34,9 @@
     4
   ],
   "original_type_index": 5,
-  "last_updated": "2026-10-08T21:46:48.992536+00:00",
+  "last_updated": "2026-10-09T06:55:10.865625+00:00",
   "post_type_index": 10,
-  "total_posts": 487,
+  "total_posts": 488,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024
 }
