@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Caifanes",
     "Divididos",
     "Flou",
     "Los Mojarras",
@@ -19,7 +18,8 @@
     "Bomba Estéreo",
     "Toque Profundo",
     "Desorden Público",
-    "Extremoduro"
+    "Extremoduro",
+    "Alux Nahual"
   ],
   "used_poll_indices": [
     7,
@@ -34,9 +34,9 @@
     4
   ],
   "original_type_index": 5,
-  "last_updated": "2026-10-09T06:55:10.865625+00:00",
+  "last_updated": "2026-10-10T17:33:19.410840+00:00",
   "post_type_index": 10,
-  "total_posts": 488,
+  "total_posts": 489,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
