@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Divididos",
     "Flou",
     "Los Mojarras",
     "La Máquina Camaleón",
@@ -19,7 +18,8 @@
     "Toque Profundo",
     "Desorden Público",
     "Extremoduro",
-    "Alux Nahual"
+    "Alux Nahual",
+    "La Cuneta Son Machín"
   ],
   "used_poll_indices": [
     7,
@@ -34,9 +34,9 @@
     4
   ],
   "original_type_index": 5,
-  "last_updated": "2026-10-10T17:33:19.410840+00:00",
+  "last_updated": "2026-10-13T07:13:11.925888+00:00",
   "post_type_index": 10,
-  "total_posts": 489,
+  "total_posts": 490,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "cover",
   "curation_year": 2024
 }

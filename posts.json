@@ -1,25 +1,5 @@
 [
   {
-    "id": "post_20260911_192509",
-    "status": "published",
-    "created_at": "2026-09-11T19:25:09.074214+00:00",
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "text": "Este cover de Café Tacvba nos transporta a la atmósfera única de la banda, combinando la energía del original con la interpretación personal del intérprete. Cada acorde y vocal refleja el cariño que los fans sienten por la música de Café Tacvba, manteniendo la esencia que los ha hecho tan queridos. ¿Qué les parece esta versión y qué canción de Café Tacvba les gustaría escuchar reinterpretada?\n\nhttps://www.youtube.com/watch?v=D37WlEFtzEc\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
-    "image_query": "Café Tacvba La Negra Tomasa live",
-    "extra_topics": [],
-    "post_year": "",
-    "curation_year": "2024",
-    "video_url": "https://www.youtube.com/watch?v=D37WlEFtzEc",
-    "concert_url": null,
-    "fb_post_id": "1043162839046116_1497968219044386",
-    "ig_post_id": null,
-    "published_at": "2026-09-11T19:25:41.297562+00:00",
-    "error": null,
-    "threads_post_id": null,
-    "youtube_post_url": null
-  },
-  {
     "id": "post_20260912_051415",
     "status": "published",
     "created_at": "2026-09-12T05:14:15.516224+00:00",
@@ -1035,6 +1015,28 @@
     "fb_post_id": "1043162839046116_1526003152907559",
     "ig_post_id": null,
     "published_at": "2026-10-10T17:33:44.682357+00:00",
+    "error": null,
+    "threads_post_id": null,
+    "youtube_post_url": null
+  },
+  {
+    "id": "post_20261013_071306",
+    "status": "published",
+    "created_at": "2026-10-13T07:13:06.728866+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "Cuando Maná subió al escenario del Festival Rock al Parque en Bogotá en 2003 y presentó su versión de \"Afuera\", la audiencia no sabía que estaban a punto de vivir una reinterpretación que quedaría marcada. La canción, originalmente de Caifanes y lanzada en 1992 dentro de \"El Silencio\", es un himno del rock mexicano: guitarras angulosas, la voz grave de Saúl Hernández y una atmósfera casi gótica. Maná, por su parte, le añadió la voz melódica de Fher Olvera, una capa de melancolía, percusión con tintes latinos y un solo de guitarra eléctrica más pulido, mientras el público cantaba el estribillo a coro. Esa mezcla de la crudeza de Caifanes con la sensibilidad pop‑rock de Maná hizo que la interpretación se difundiera ampliamente en televisión y entre los fans, convirtiéndose en un referente de cómo un cover puede darle una nueva vida a una canción. ¿Qué versión les hace vibrar más, la energía cruda de Caifanes o la reinterpretación de Maná?\n\nhttps://www.youtube.com/watch?v=WPrablD0bYQ\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "2003",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=WPrablD0bYQ",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1528704342637440",
+    "ig_post_id": null,
+    "published_at": "2026-10-13T07:13:37.330609+00:00",
     "error": null,
     "threads_post_id": null,
     "youtube_post_url": null
