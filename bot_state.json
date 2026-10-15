@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Flou",
     "Los Mojarras",
     "La Máquina Camaleón",
     "Héroes del Silencio",
@@ -19,7 +18,8 @@
     "Desorden Público",
     "Extremoduro",
     "Alux Nahual",
-    "La Cuneta Son Machín"
+    "La Cuneta Son Machín",
+    "Malpaís"
   ],
   "used_poll_indices": [
     7,
@@ -34,9 +34,9 @@
     4
   ],
   "original_type_index": 5,
-  "last_updated": "2026-10-13T07:13:11.925888+00:00",
+  "last_updated": "2026-10-15T23:36:00.453826+00:00",
   "post_type_index": 10,
-  "total_posts": 490,
+  "total_posts": 491,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }

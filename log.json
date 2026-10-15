@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260711_175308",
-    "fb_post_id": "1043162839046116_1442880281219847",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Rabanes",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
-    "status": "published",
-    "executed_at": "2026-07-11T17:53:35.166782+00:00"
-  },
-  {
     "post_id": "post_20260711_215407",
     "fb_post_id": "1043162839046116_1443003531207522",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/WPrablD0bYQ/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-10-13T07:13:37.330609+00:00"
+  },
+  {
+    "post_id": "post_20261015_233555",
+    "fb_post_id": "1043162839046116_1531473295693878",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Malpaís",
+    "image_url": "https://img.youtube.com/vi/bCmdUvZL7YY/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-10-15T23:36:25.890080+00:00"
   }
 ]
