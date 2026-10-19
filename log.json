@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260712_042111",
-    "fb_post_id": "1043162839046116_1443198884521320",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Habana Abierta",
-    "image_url": "https://images.pexels.com/photos/15299013/pexels-photo-15299013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-07-12T04:21:38.601175+00:00"
-  },
-  {
     "post_id": "post_20260712_142433",
     "fb_post_id": "1043162839046116_1443562031151672",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/Q9bWs0h2xZM/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-10-16T23:20:12.665245+00:00"
+  },
+  {
+    "post_id": "post_20261019_185520",
+    "fb_post_id": "1043162839046116_1535288681979006",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "La Cuneta Son Machín",
+    "image_url": "https://img.youtube.com/vi/6HDTzv0XhIk/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-10-19T18:55:50.675468+00:00"
   }
 ]

@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Máquina Camaleón",
     "Héroes del Silencio",
     "Cascomar",
     "Kraken",
@@ -19,7 +18,8 @@
     "Alux Nahual",
     "La Cuneta Son Machín",
     "Malpaís",
-    "Dedicados"
+    "Dedicados",
+    "La Cuneta Son Machín"
   ],
   "used_poll_indices": [
     7,
@@ -34,9 +34,9 @@
     4
   ],
   "original_type_index": 5,
-  "last_updated": "2026-10-16T23:19:47.103676+00:00",
+  "last_updated": "2026-10-19T18:55:25.262704+00:00",
   "post_type_index": 10,
-  "total_posts": 492,
+  "total_posts": 493,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
