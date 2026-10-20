@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Héroes del Silencio",
     "Cascomar",
     "Kraken",
     "Aterciopelados",
@@ -19,7 +18,8 @@
     "La Cuneta Son Machín",
     "Malpaís",
     "Dedicados",
-    "La Cuneta Son Machín"
+    "La Cuneta Son Machín",
+    "Bomba Estéreo"
   ],
   "used_poll_indices": [
     7,
@@ -33,10 +33,10 @@
     17,
     4
   ],
-  "original_type_index": 5,
-  "last_updated": "2026-10-19T18:55:25.262704+00:00",
+  "original_type_index": 6,
+  "last_updated": "2026-10-20T20:16:07.321297+00:00",
   "post_type_index": 10,
-  "total_posts": 493,
+  "total_posts": 494,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024
 }
