@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Aterciopelados",
     "Caramelos de Cianuro",
     "Bomba Estéreo",
     "Juanes",
@@ -19,7 +18,8 @@
     "La Cuneta Son Machín",
     "Bomba Estéreo",
     "Malpaís",
-    "El Cuarteto de Nos"
+    "El Cuarteto de Nos",
+    "La Cuneta Son Machín"
   ],
   "used_poll_indices": [
     11,
@@ -33,10 +33,10 @@
     4,
     15
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-10-23T20:11:48.165395+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-10-23T23:47:27.214988+00:00",
   "post_type_index": 10,
-  "total_posts": 496,
+  "total_posts": 497,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "concert",
   "curation_year": 2024
 }
