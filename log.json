@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260712_215451",
-    "fb_post_id": "1043162839046116_1443826341125241",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/pGYLAb6pasQ/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-12T21:55:18.421448+00:00"
-  },
-  {
     "post_id": "post_20260713_042454",
     "fb_post_id": "1043162839046116_1444017274439481",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/Xzyk4-2DvIg/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-10-21T17:53:26.841339+00:00"
+  },
+  {
+    "post_id": "post_20261023_201145",
+    "fb_post_id": "1043162839046116_1539303514910856",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "El Cuarteto de Nos",
+    "image_url": "https://images.pexels.com/photos/11751703/pexels-photo-11751703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-10-23T20:12:13.589083+00:00"
   }
 ]
