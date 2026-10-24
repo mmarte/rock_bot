@@ -589,10 +589,16 @@ def save_queue(posts):
 
 def call_groq(client, system, user, max_tokens=1024, json_mode=True):
     last_error = None
-    # qwen/qwen3.6-27b was removed (2026-10-24: Groq 404 model_not_found),
-    # so it is no longer in the fallback list. A dead model must not kill
-    # the run: any API error now falls through to the next model.
-    for model in ("openai/gpt-oss-120b", "llama-3.3-70b-versatile"):
+    # Model availability on Groq Developer accounts changed in 2026:
+    # qwen/qwen3.6-27b 404s, and llama-3.3-70b-versatile 404s too because
+    # Llama 3.x is now Enterprise-only on Groq (shut down for free/Developer
+    # accounts Aug 2026). The models that remain on Developer accounts are
+    # the gpt-oss pair, plus qwen3.8 as a third fallback. A dead model must
+    # not kill the run: any API error now falls through to the next model.
+    # Also request JSON mode from the API itself: gpt-oss was returning
+    # non-JSON text that clean_json rejected, which is what forced the
+    # fallback to a dead model in the first place.
+    for model in ("openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3.8-27b"):
         for attempt in range(2):
             kwargs = dict(
                 model       = model,
@@ -603,6 +609,8 @@ def call_groq(client, system, user, max_tokens=1024, json_mode=True):
                 temperature = 0.9 if attempt == 0 else 0.6,
                 max_tokens  = max_tokens,
             )
+            if json_mode:
+                kwargs["response_format"] = {"type": "json_object"}
             try:
                 content = client.chat.completions.create(**kwargs).choices[0].message.content or ""
             except Exception as error:
