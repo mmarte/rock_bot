@@ -432,10 +432,9 @@ def make_reel():
                     "  YouTube Short: skipped (set env YouTube OAuth trio, or youtube_client_secret.json + youtube_token.json, or run make_reel.py --auth)"
                 )
 
-        print(f"\n  Manual upload still needed for:")
-        print(f"  → Facebook: Open app → Reel → upload reel_{stamp}.mp4")
-        print(f"  → Instagram Reel: Open app → + → Reel → upload reel_{stamp}.mp4")
-        print(f"  → TikTok: Open app → + → upload reel_{stamp}.mp4")
+        print(f"\n  Next step: publish_reel.py handles Facebook, Instagram, X and TikTok")
+        print(f"  from this same reel file. YouTube Short is Step 5 above.")
+        print(f"  Manual upload is only needed if a platform step fails in publish_reel.py.")
     else:
         print(f"\n  Assembly failed. Audio at: {audio_path}")
 

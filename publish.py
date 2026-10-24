@@ -1,7 +1,7 @@
 """
 publish.py
 ----------
-Publishes the latest PENDING post from posts.json.
+Publishes the oldest PENDING post from posts.json.
 
 Image strategy (in order of preference):
   1. YouTube thumbnail  — for YouTube posts, uses the video's own thumbnail
@@ -12,9 +12,11 @@ Image strategy (in order of preference):
 For polls: fetches one image per band option → posts as multi-photo Facebook post.
 """
 
+import hashlib
 import json
 import os
 import random
+import re
 import requests
 import smtplib
 from email.mime.text import MIMEText
@@ -65,6 +67,59 @@ GRAPH_VERSION   = sanitize_token(os.getenv("META_GRAPH_VERSION", "v25.0"))
 GRAPH_BASE      = f"https://graph.facebook.com/{GRAPH_VERSION}"
 POSTS_FILE      = "posts.json"
 LOG_FILE        = "log.json"
+STATE_FILE      = "bot_state.json"
+
+
+def normalize_text_for_hash(text):
+    t = (text or "").lower()
+    t = re.sub(r"https?://\S+", " ", t)
+    t = re.sub(r"#[\w\-]+", " ", t)
+    t = re.sub(r"[^\w\s]", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def text_hash(text):
+    return hashlib.sha256(normalize_text_for_hash(text).encode("utf-8")).hexdigest()
+
+
+def topic_key(topic, post_type):
+    return ((topic or "").strip().lower() + "|" + (post_type or "").strip().lower())
+
+
+def load_state():
+    if os.path.exists(STATE_FILE):
+        with open(STATE_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_state(state):
+    state["last_updated"] = datetime.now(timezone.utc).isoformat()
+    with open(STATE_FILE, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+
+
+def update_state_after_publish(post, now):
+    """Auto-update bot_state.json with what actually went out.
+
+    Previously bot_state.json was only written by generate.py, so a band
+    was burned even if publishing failed, and a published topic was never
+    recorded at publish time. This is the publish-time source of truth.
+    """
+    try:
+        state = load_state()
+        tkey = topic_key(post.get("topic", ""), post.get("post_type", ""))
+        state["used_topics"] = (state.get("used_topics", []) + [tkey])[-100:]
+        thash = post.get("text_hash") or text_hash(post.get("text", ""))
+        state["used_text_hashes"] = (state.get("used_text_hashes", []) + [thash])[-200:]
+        if post.get("topic") and post["topic"] not in state.get("used_bands", []):
+            state["used_bands"] = (state.get("used_bands", []) + [post["topic"]])[-20:]
+        state["last_published_id"] = post.get("id")
+        state["last_published_at"] = now.isoformat()
+        state["last_published_topic"] = post.get("topic")
+        save_state(state)
+    except Exception as e:
+        print("  State update warning: " + str(e))
 
 try:
     from band_universe import get_band_universe
@@ -721,8 +776,19 @@ def post_to_threads(text, image_url):
         if not container_id:
             print("  Threads error: no thread ID returned")
             return None
-        # Some Threads endpoints return the published object immediately.
-        return container_id
+        # FIX 2026-10-24: creating a container does NOT publish it.
+        # The old code returned the container ID as if the post were live,
+        # so Threads posts never actually appeared. Publish it explicitly.
+        publish_r = requests.post(
+            "https://graph.threads.net/v1.0/" + THREADS_USER_ID + "/threads_publish",
+            data={"creation_id": container_id, "access_token": THREADS_TOKEN},
+            timeout=15,
+        )
+        published = publish_r.json()
+        if "error" in published:
+            print("  Threads publish error: " + published["error"].get("message", "?"))
+            return None
+        return published.get("id") or container_id
     except Exception as e:
         print("  Threads error: " + str(e))
         return None
@@ -923,13 +989,42 @@ def run():
         print("No pending posts — run generate.py first.")
         return
 
-    post  = pending[-1]
+    # Oldest pending first (was: pending[-1], newest first). Newest-first
+    # left older pending posts stuck behind newer ones and made the queue
+    # look like it was repeating the same recent topics.
+    post  = pending[0]
     ptype = post.get("post_type", "original")
     topic = post.get("topic", "")
 
     print("  Post type : " + ptype)
     print("  Topic     : " + topic)
     print("  Text      : " + post["text"][:80] + "...")
+
+    # ── Duplicate guard (publish-time safety net) ───────────────────────
+    # If this exact text, or this topic + post type, already went out,
+    # do NOT republish it. Mark it skipped_duplicate so the next run
+    # moves on instead of posting the same thing again.
+    _thash = post.get("text_hash") or text_hash(post.get("text", ""))
+    _tkey = topic_key(topic, ptype)
+    _dup = None
+    for _p in posts:
+        if _p is post or _p.get("id") == post.get("id"):
+            continue
+        if _p.get("status") != "published":
+            continue
+        if (_p.get("text_hash") or text_hash(_p.get("text", ""))) == _thash:
+            _dup = _p.get("id")
+            break
+        if topic_key(_p.get("topic", ""), _p.get("post_type", "")) == _tkey:
+            _dup = _p.get("id")
+            break
+    if _dup:
+        post["status"] = "skipped_duplicate"
+        post["error"] = "Duplicate of " + str(_dup) + " — not republished"
+        save_queue(posts)
+        append_log({"post_id": post["id"], "status": "skipped_duplicate", "error": post["error"], "executed_at": now.isoformat()})
+        print("  Duplicate : skipped — already published as " + str(_dup))
+        return
 
     # ── Get images based on post type ────────────────────────────────────
 
@@ -984,12 +1079,23 @@ def run():
     if fb_post_id:
         print("  Facebook  : Published! ID=" + str(fb_post_id))
     else:
-        print("  Facebook  : FAILED — no post ID returned")
+        # FIX 2026-10-24: the old code fell through here and marked the
+        # post "published" anyway, even with no Facebook ID. That hid
+        # failures and made the queue look published when nothing went out.
+        post["status"] = "failed"
+        post["error"] = "Facebook returned no post ID"
+        save_queue(posts)
+        append_log({"post_id": post["id"], "status": "failed", "error": post["error"], "executed_at": now.isoformat()})
+        print("  Facebook  : FAILED — no post ID returned, post marked failed (not published)")
+        return
 
     # ── Instagram ─────────────────────────────────────────────────────────
     if IG_USER_ID:
         ig_post_id = post_to_instagram(ig_text, image_url)
-        print("  Instagram : " + ("Published! ID=" + str(ig_post_id) if ig_post_id else "Failed/skipped"))
+        if ig_post_id:
+            print("  Instagram : Published! ID=" + str(ig_post_id))
+        else:
+            print("  Instagram : Failed — check IG_USER_ID is the @mejorrockespanol business account linked to this Page, and the token has instagram_content_publish")
     else:
         print("  Instagram : Not configured")
 
@@ -1007,6 +1113,7 @@ def run():
         print("  YouTube   : Not applicable")
 
     # ── Mark published ────────────────────────────────────────────────────
+    # Only reached if Facebook actually returned an ID (see above).
     post["status"]          = "published"
     post["fb_post_id"]      = fb_post_id
     post["ig_post_id"]      = ig_post_id
@@ -1014,8 +1121,13 @@ def run():
     post["youtube_post_url"] = youtube_post_url
     post["published_at"]    = now.isoformat()
     post["error"]           = None
+    if not post.get("text_hash"):
+        post["text_hash"] = text_hash(post.get("text", ""))
 
     save_queue(posts)
+    # Auto-update bot_state.json with what actually published, so the
+    # next generate run will not pick the same topic/text again.
+    update_state_after_publish(post, now)
     append_log({
         "post_id":          post["id"],
         "fb_post_id":       fb_post_id,

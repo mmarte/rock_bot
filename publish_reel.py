@@ -4,8 +4,16 @@ publish_reel.py
 Publishes the latest generated Reel video (reels/reel_YYYYMMDD.mp4) to:
   - Facebook Page Reels (Reels Publishing API)
   - Instagram Reels (IG Content Publishing API + resumable upload)
+  - X video tweet (v1.1 chunked media upload + v2 tweet, user token only)
+  - TikTok (Content Posting API v2, FILE_UPLOAD, chunked)
+
+YouTube is NOT re-uploaded here: make_reel.py already uploads the same
+reel as a YouTube Short in its Step 5, before this script runs. Uploading
+it again here would publish a duplicate Short.
 
 This script is designed to run in GitHub Actions right after make_reel.py.
+Each platform is independent: one platform failing does not block the
+others, and the log records which ones actually succeeded.
 """
 
 from __future__ import annotations
@@ -26,6 +34,15 @@ FB_PAGE_TOKEN = os.getenv("FB_PAGE_TOKEN", "").strip()
 
 IG_USER_ID = os.getenv("IG_USER_ID", "").strip()
 IG_ACCESS_TOKEN = os.getenv("IG_ACCESS_TOKEN", "").strip()
+
+# X: a user OAuth token (tweet.write + media upload), NOT an app-only
+# bearer token, which cannot post. Set as GitHub secret X_USER_TOKEN.
+X_USER_TOKEN = os.getenv("X_USER_TOKEN", "").strip()
+
+# TikTok: Content Posting API v2. The app must be approved for Content
+# Posting, otherwise init returns 403. Set as GitHub secrets.
+TIKTOK_ACCESS_TOKEN = os.getenv("TIKTOK_ACCESS_TOKEN", "").strip()
+TIKTOK_OPEN_ID = os.getenv("TIKTOK_OPEN_ID", "").strip()
 
 LOG_FILE = "log.json"
 REELS_DIR = Path("reels")
@@ -238,6 +255,161 @@ def publish_instagram_reel(video_path: Path, caption: str) -> PublishResult:
     return PublishResult(platform="instagram_reel", ok=True, id=str(ig_media_id) if ig_media_id else None)
 
 
+def _shorten(text: str, limit: int) -> str:
+    """Truncate to limit chars, cutting at the last space if possible."""
+    text = (text or "").strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit].rsplit(" ", 1)[0].strip()
+    return cut if cut else text[:limit].strip()
+
+
+def publish_x_video(video_path: Path, caption: str) -> PublishResult:
+    """
+    X video tweet, using the daily reel file (user decision 2026-10-24:
+    reel/video for X, TikTok and YouTube, not the text post).
+      1) INIT   POST upload.twitter.com/1.1/media/upload.json
+      2) APPEND chunked, 5 MB segments (a single APPEND fails over 5 MB)
+      3) FINALIZE, then poll STATUS until succeeded/failed
+      4) POST api.twitter.com/2/tweets with media_ids, text <= 280 chars
+    Requires X_USER_TOKEN (user token). Returns the tweet ID, never a
+    media ID alone, so a logged success means the tweet actually exists.
+    """
+    if not X_USER_TOKEN:
+        return PublishResult(platform="x", ok=False, error="Missing X_USER_TOKEN")
+    file_size = video_path.stat().st_size
+    headers = {"Authorization": f"Bearer {X_USER_TOKEN}"}
+    upload_url = "https://upload.twitter.com/1.1/media/upload.json"
+    try:
+        init = requests.post(
+            upload_url, headers=headers, timeout=60,
+            data={"command": "INIT", "total_bytes": str(file_size),
+                  "media_type": "video/mp4", "media_category": "tweet_video"},
+        )
+        init.raise_for_status()
+        media_id = init.json().get("media_id_string")
+        if not media_id:
+            return PublishResult(platform="x", ok=False, error=f"X media INIT returned no media_id: {init.text[:300]}")
+        with open(video_path, "rb") as f:
+            segment = 0
+            while True:
+                chunk = f.read(5 * 1024 * 1024)
+                if not chunk:
+                    break
+                app = requests.post(
+                    upload_url, headers=headers, timeout=120,
+                    data={"command": "APPEND", "media_id": media_id, "segment_index": str(segment)},
+                    files={"media": chunk},
+                )
+                app.raise_for_status()
+                segment += 1
+        fin = requests.post(
+            upload_url, headers=headers, timeout=60,
+            data={"command": "FINALIZE", "media_id": media_id},
+        )
+        fin.raise_for_status()
+        processing = fin.json().get("processing_info")
+        # Poll STATUS (max ~5 minutes); X usually finishes in seconds.
+        for _ in range(30):
+            if not processing:
+                break
+            state = processing.get("state")
+            if state == "succeeded":
+                break
+            if state == "failed":
+                return PublishResult(platform="x", ok=False, error=f"X media processing failed: {processing}")
+            time.sleep(min(int(processing.get("check_after_secs", 5)), 10))
+            st = requests.get(
+                upload_url, headers=headers, timeout=60,
+                params={"command": "STATUS", "media_id": media_id},
+            )
+            st.raise_for_status()
+            processing = st.json().get("processing_info")
+        else:
+            return PublishResult(platform="x", ok=False, error="X media processing timed out")
+        tweet_text = _shorten(caption, 280)
+        tw = requests.post(
+            "https://api.twitter.com/2/tweets",
+            headers={**headers, "Content-Type": "application/json"},
+            json={"text": tweet_text, "media": {"media_ids": [media_id]}},
+            timeout=60,
+        )
+        tw.raise_for_status()
+        tweet_id = tw.json().get("data", {}).get("id")
+        if not tweet_id:
+            return PublishResult(platform="x", ok=False, error=f"X tweet returned no id: {tw.text[:300]}")
+        return PublishResult(platform="x", ok=True, id=str(tweet_id))
+    except Exception as e:
+        return PublishResult(platform="x", ok=False, error=str(e))
+
+
+def publish_tiktok_video(video_path: Path, caption: str) -> PublishResult:
+    """
+    TikTok video post, using the daily reel file.
+    Content Posting API v2, FILE_UPLOAD:
+      1) POST /v2/post/publish/video/init/ with title (<=150 chars)
+      2) PUT the file to upload_url, chunked at 5 MB, with Content-Range
+      3) Upload completion publishes the direct post; publish_id is logged
+    Requires TIKTOK_ACCESS_TOKEN and a TikTok app approved for Content
+    Posting, otherwise init returns 403. TIKTOK_OPEN_ID identifies the
+    account in setup; the API itself authenticates via the token.
+    """
+    if not TIKTOK_ACCESS_TOKEN:
+        return PublishResult(platform="tiktok", ok=False, error="Missing TIKTOK_ACCESS_TOKEN")
+    if not TIKTOK_OPEN_ID:
+        print("  TikTok note: TIKTOK_OPEN_ID not set — continuing with token auth only")
+    file_size = video_path.stat().st_size
+    chunk_size = 5 * 1024 * 1024
+    total_chunks = (file_size + chunk_size - 1) // chunk_size or 1
+    try:
+        init = requests.post(
+            "https://open.tiktokapis.com/v2/post/publish/video/init/",
+            headers={"Authorization": f"Bearer {TIKTOK_ACCESS_TOKEN}",
+                     "Content-Type": "application/json; charset=UTF-8"},
+            json={
+                "post_info": {
+                    "title": _shorten(caption, 150),
+                    "privacy_level": "PUBLIC_TO_EVERYONE",
+                    "disable_comment": False,
+                    "disable_duet": False,
+                    "disable_stitch": False,
+                },
+                "source_info": {
+                    "source": "FILE_UPLOAD",
+                    "video_size": file_size,
+                    "chunk_size": chunk_size,
+                    "total_chunk_count": total_chunks,
+                },
+            },
+            timeout=60,
+        )
+        init_data = init.json()
+        if init.status_code >= 400 or init_data.get("error"):
+            return PublishResult(platform="tiktok", ok=False, error=f"TikTok init failed: {init_data}")
+        upload_url = init_data.get("data", {}).get("upload_url")
+        publish_id = init_data.get("data", {}).get("publish_id")
+        if not upload_url:
+            return PublishResult(platform="tiktok", ok=False, error=f"TikTok init returned no upload_url: {init_data}")
+        with open(video_path, "rb") as f:
+            offset = 0
+            while True:
+                chunk = f.read(chunk_size)
+                if not chunk:
+                    break
+                end = offset + len(chunk) - 1
+                up = requests.put(
+                    upload_url, data=chunk, timeout=300,
+                    headers={"Content-Type": "video/mp4",
+                             "Content-Range": f"bytes {offset}-{end}/{file_size}"},
+                )
+                if up.status_code >= 400:
+                    return PublishResult(platform="tiktok", ok=False, error=f"TikTok upload failed: {up.text[:300]}")
+                offset += len(chunk)
+        return PublishResult(platform="tiktok", ok=True, id=str(publish_id) if publish_id else None)
+    except Exception as e:
+        return PublishResult(platform="tiktok", ok=False, error=str(e))
+
+
 def build_caption(script_path: Optional[Path]) -> str:
     """
     Keep captions short-ish for Reels; use the reel script if present.
@@ -280,6 +452,16 @@ def main() -> None:
     ig_res = publish_instagram_reel(reel_path, caption)
     print("  Instagram Reel: " + ("OK id=" + str(ig_res.id) if ig_res.ok else "FAILED " + str(ig_res.error)))
 
+    # Reel/video destinations (user decision 2026-10-24). YouTube is
+    # handled by make_reel.py Step 5 and is intentionally not repeated here.
+    x_res = publish_x_video(reel_path, caption)
+    print("  X Video       : " + ("OK tweet id=" + str(x_res.id) if x_res.ok else "FAILED " + str(x_res.error)))
+
+    tiktok_res = publish_tiktok_video(reel_path, caption)
+    print("  TikTok Video  : " + ("OK publish_id=" + str(tiktok_res.id) if tiktok_res.ok else "FAILED " + str(tiktok_res.error)))
+
+    print("  YouTube Short : uploaded by make_reel.py Step 5, not here — check that step's log for its URL")
+
     _append_log(
         {
             "post_id": f"reel_{stamp}",
@@ -287,8 +469,11 @@ def main() -> None:
             "reel_path": str(reel_path),
             "fb_reel_id": fb_res.id,
             "ig_reel_id": ig_res.id,
-            "status": "published" if (fb_res.ok or ig_res.ok) else "failed",
-            "errors": {"facebook": fb_res.error, "instagram": ig_res.error},
+            "x_tweet_id": x_res.id,
+            "tiktok_publish_id": tiktok_res.id,
+            "status": "published" if (fb_res.ok or ig_res.ok or x_res.ok or tiktok_res.ok) else "failed",
+            "errors": {"facebook": fb_res.error, "instagram": ig_res.error,
+                       "x": x_res.error, "tiktok": tiktok_res.error},
             "executed_at": now,
         }
     )

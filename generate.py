@@ -14,6 +14,7 @@ Key improvements:
 from groq import Groq
 from find_video import get_video_for_topic
 from find_concert import get_concert_info
+import hashlib
 import json
 import os
 import random
@@ -418,6 +419,13 @@ def load_state():
         "original_type_index":  0,
         "post_type_index":      0,
         "total_posts":          0,
+        # Auto-update / no-repeat tracking, added 2026-10-24:
+        # used_topics holds "topic|post_type" for the FINAL published topic
+        # (not just the band first picked — cover/concert/hoy posts can change
+        # topic after pick_band runs). used_text_hashes holds hashes of the
+        # final post text, so near-identical text is not regenerated.
+        "used_topics":          [],
+        "used_text_hashes":     [],
     }
 
 
@@ -425,6 +433,29 @@ def save_state(state):
     state["last_updated"] = datetime.now(timezone.utc).isoformat()
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
+
+
+def normalize_text_for_hash(text):
+    """Normalize post text for duplicate detection.
+
+    URLs, hashtags and whitespace differences do not make a post new:
+    the same story about the same band, reworded only by hashtags, is
+    still a repeat for followers.
+    """
+    import re as _re
+    t = (text or "").lower()
+    t = _re.sub(r"https?://\S+", " ", t)
+    t = _re.sub(r"#[\w\-]+", " ", t)
+    t = _re.sub(r"[^\w\s]", " ", t)
+    return _re.sub(r"\s+", " ", t).strip()
+
+
+def text_hash(text):
+    return hashlib.sha256(normalize_text_for_hash(text).encode("utf-8")).hexdigest()
+
+
+def topic_key(topic, post_type):
+    return ((topic or "").strip().lower() + "|" + (post_type or "").strip().lower())
 
 
 def pick_post_type(state):
@@ -456,6 +487,7 @@ def pick_band(state):
             if not top10_year:
                 top10_year = [b for b in year_list[:10] if isinstance(b, str)]
                 state["used_bands"] = []
+                used = []
 
             if top10_year:
                 mapped = [b for b in top10_year if b in BAND_COUNTRY]
@@ -474,6 +506,7 @@ def pick_band(state):
         if not available:
             available = top10_bands[:]
             state["used_bands"] = []
+            used = []
         band = random.choice(available)
         state["used_bands"] = (used + [band])[-20:]
         return band
@@ -485,6 +518,7 @@ def pick_band(state):
     if not available:
         available = pool[:]
         state["used_bands"] = []
+        used = []
     band = random.choice(available)
     state["used_bands"] = (used + [band])[-20:]
     return band
@@ -968,100 +1002,149 @@ def gen_youtube(client, band):
 # ---------------------------------------------------------------------------
 
 def generate_post():
-    now       = datetime.now(timezone.utc)
-    stamp     = now.strftime("%Y%m%d_%H%M%S")
-    state     = load_state()
-    client    = Groq(api_key=GROQ_API_KEY)
-    post_type = pick_post_type(state)
-    band      = pick_band(state)
+    """Generate ONE post, with auto-update / no-repeat protection.
 
-    print("[" + now.isoformat() + "] Generating ONE post...")
-    print("  Post type : " + post_type)
-    print("  Band/topic: " + band)
+    A candidate is rejected (and regenerated with a different band, up to
+    3 attempts) if its FINAL topic + post type, or its final text hash,
+    already appears in posts.json (published or pending) or in
+    bot_state.json. Only an accepted candidate is appended to the queue
+    and only its final topic/text are recorded in bot_state.json — so
+    generate.py no longer burns a band on a post that was never published,
+    and publish.py's own state update (see publish.py) is the source of
+    truth for what actually went out.
+    """
+    now = datetime.now(timezone.utc)
+    stamp = now.strftime("%Y%m%d_%H%M%S")
+    state = load_state()
+    client = Groq(api_key=os.getenv("GROQ" + "_API_KEY"))
 
-    # Generate content based on type
-    if post_type == "original":
-        data = gen_original(client, state, band)
+    # Blocked set: everything already queued or published, plus state history.
+    queue_before = load_queue()
+    blocked_topics = set()
+    blocked_hashes = set(state.get("used_text_hashes", [])[-200:])
+    for _p in queue_before:
+        if _p.get("topic") and _p.get("status") in ("published", "pending"):
+            blocked_topics.add(topic_key(_p["topic"], _p.get("post_type", "")))
+        if _p.get("text"):
+            blocked_hashes.add(text_hash(_p["text"]))
+        if _p.get("text_hash"):
+            blocked_hashes.add(_p["text_hash"])
+    for _t in state.get("used_topics", [])[-100:]:
+        if isinstance(_t, str):
+            blocked_topics.add(_t)
 
-    elif post_type == "poll":
-        data = gen_poll(client, state, band)
+    accepted = None
+    for attempt in range(3):
+        post_type = pick_post_type(state)
+        band = pick_band(state)
 
-    elif post_type == "hoy_en_historia":
-        data = gen_hoy_en_historia(client, state)
-        if not data:
-            print("  No exact 'Un día como hoy' event for today — falling back to original")
+        print("[" + now.isoformat() + "] Generating ONE post (attempt %d)..." % (attempt + 1))
+        print("  Post type : " + post_type)
+        print("  Band/topic: " + band)
+
+        if post_type == "original":
             data = gen_original(client, state, band)
-            post_type = "original"
-        else:
+        elif post_type == "poll":
+            data = gen_poll(client, state, band)
+        elif post_type == "hoy_en_historia":
+            data = gen_hoy_en_historia(client, state)
+            if not data:
+                print("  No exact 'Un día como hoy' event for today — falling back to original")
+                data = gen_original(client, state, band)
+                post_type = "original"
+            else:
+                band = data.get("topic", band)
+        elif post_type == "youtube":
+            data = gen_youtube(client, band)
+            if not data:
+                print("  YouTube not found — falling back to original")
+                data = gen_original(client, state, band)
+        elif post_type == "concert":
+            data = gen_concert(client, state, band)
             band = data.get("topic", band)
-
-    elif post_type == "youtube":
-        data = gen_youtube(client, band)
-        if not data:
-            print("  YouTube not found — falling back to original")
+        elif post_type == "cover":
+            data = gen_cover(client, state, band)
+            band = data.get("topic", band)
+        else:
             data = gen_original(client, state, band)
 
-    elif post_type == "concert":
-        data = gen_concert(client, state, band)
-        band = data.get("topic", band)
+        import re as _re
+        years_found = _re.findall(r"\b(19[5-9]\d|20[0-2]\d)\b", data.get("text", ""))
+        post_year = data.get("post_year", years_found[0] if years_found else "")
+        text_so_far = data.get("text", "")
+        extra_mentions = [b for b in BANDS if b in text_so_far and b != data.get("topic", band)]
+        actual_type = data.get("post_type", post_type)
+        hashtags = build_hashtags(data.get("topic", band), extra_tags=extra_mentions[:3], post_type=actual_type)
+        verified_text = verify_and_normalize_post(
+            client,
+            topic=data.get("topic", band),
+            post_type=actual_type,
+            text=data.get("text", ""),
+        ).rstrip()
+        video_url = data.get("video_url")
+        if video_url and video_url not in verified_text:
+            verified_text = verified_text.rstrip() + "\n\n" + video_url
+        final_text = verified_text.rstrip() + hashtags
+        final_topic = data.get("topic", band)
+        tkey = topic_key(final_topic, actual_type)
+        thash = text_hash(final_text)
 
-    elif post_type == "cover":
-        data = gen_cover(client, state, band)
-        band = data.get("topic", band)
+        if tkey in blocked_topics or thash in blocked_hashes:
+            print("  Duplicate detected: %s / %s already published or queued — discarding and trying another band" % (final_topic, actual_type))
+            blocked_topics.add(tkey)
+            blocked_hashes.add(thash)
+            continue
 
-    else:
-        data = gen_original(client, state, band)
+        accepted = (actual_type, final_topic, final_text, data, post_year, thash, tkey)
+        break
 
-    # Extract year from text for era-matched images
-    import re as _re
-    years_found = _re.findall(r"\b(19[5-9]\d|20[0-2]\d)\b", data.get("text", ""))
-    post_year   = data.get("post_year", years_found[0] if years_found else "")
+    if not accepted:
+        # Save the advanced rotation state so the next run does not pick
+        # the same bands again, but save NOTHING to the queue — publishing
+        # nothing is better than publishing a repeat.
+        print("  All 3 attempts produced duplicates — saving nothing to the queue.")
+        save_state(state)
+        return
 
-    # Find extra band mentions for hashtags
-    text_so_far  = data.get("text", "")
-    extra_mentions = [b for b in BANDS if b in text_so_far and b != data.get("topic", band)]
-
-    # Build hashtags — "presents" only for YouTube
-    actual_type  = data.get("post_type", post_type)
-    hashtags     = build_hashtags(data.get("topic", band), extra_tags=extra_mentions[:3], post_type=actual_type)
-    # Reliability pass BEFORE adding hashtags (keeps the verifier focused on facts/style)
-    verified_text = verify_and_normalize_post(
-        client,
-        topic=data.get("topic", band),
-        post_type=actual_type,
-        text=data.get("text", ""),
-    ).rstrip()
-
-    video_url = data.get("video_url")
-    if video_url and video_url not in verified_text:
-        verified_text = verified_text.rstrip() + "\n\n" + video_url
-
-    data["text"] = verified_text.rstrip() + hashtags
-
-    # Build queue entry
+    actual_type, final_topic, final_text, data, post_year, thash, tkey = accepted
     entry = {
         "id":           "post_" + stamp,
         "status":       "pending",
         "created_at":   now.isoformat(),
         "post_type":    actual_type,
-        "topic":        data.get("topic", band),
-        "text":         data["text"],
-        "image_query":  data.get("image_query", get_image_query(band)),
-        "extra_topics": extra_mentions[:4],
+        "topic":        final_topic,
+        "text":         final_text,
+        "text_hash":    thash,
+        "image_query":  data.get("image_query", get_image_query(final_topic)),
+        "extra_topics": [b for b in BANDS if b in final_text and b != final_topic][:4],
         "post_year":    post_year,
         "curation_year": str(state.get("curation_year", "")) if state.get("curation_year") else "",
         "video_url":    data.get("video_url"),
         "concert_url":  data.get("concert_url"),
         "fb_post_id":   None,
         "ig_post_id":   None,
+        "threads_post_id": None,
+        "youtube_post_url": None,
         "published_at": None,
         "error":        None,
     }
 
-    # Add to queue — keep last 50 for history
+    # Auto-update state with the FINAL topic/text, not just the picked band.
+    # Cover/concert/hoy posts change topic after pick_band, so record both.
+    state["used_topics"] = (state.get("used_topics", []) + [tkey])[-100:]
+    state["used_text_hashes"] = (state.get("used_text_hashes", []) + [thash])[-200:]
+    if final_topic not in state.get("used_bands", []):
+        state["used_bands"] = (state.get("used_bands", []) + [final_topic])[-20:]
+
     queue = load_queue()
     queue.append(entry)
-    queue = queue[-50:]
+    # Prune history, but NEVER drop a pending post: drop the oldest
+    # non-pending entries first so a backed-up queue cannot lose a post.
+    while len(queue) > 200:
+        _idx = next((i for i, _p in enumerate(queue) if _p.get("status") != "pending"), None)
+        if _idx is None:
+            break
+        queue.pop(_idx)
     save_queue(queue)
 
     state["total_posts"] = state.get("total_posts", 0) + 1
@@ -1072,6 +1155,7 @@ def generate_post():
     print("  Image     : " + entry["image_query"])
     print("  Text      : " + entry["text"][:100] + "...")
     print("  Saved     : " + entry["id"])
+
 
 
 if __name__ == "__main__":
