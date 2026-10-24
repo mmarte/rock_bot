@@ -37,13 +37,18 @@ jobs:
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
         run: python make_reel.py
 
-      - name: Publish Reel to Facebook + Instagram
+      - name: Publish Reel to Facebook, Instagram, X, TikTok
+        # YouTube Short is already uploaded by make_reel.py Step 5 above.
         env:
           FB_PAGE_ID:      ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN:   ${{ secrets.FB_PAGE_TOKEN }}
           IG_USER_ID:      ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          X_USER_TOKEN:    ${{ secrets.X_USER_TOKEN }}
+          TIKTOK_ACCESS_TOKEN: ${{ secrets.TIKTOK_ACCESS_TOKEN }}
+          TIKTOK_OPEN_ID:  ${{ secrets.TIKTOK_OPEN_ID }}
         run: python publish_reel.py
+
 
       - name: Upload Reel artifact
         uses: actions/upload-artifact@v4
