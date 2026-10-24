@@ -1,7 +1,8 @@
 {
   "used_bands": [
     "La Cuneta Son Machín",
-    "Alux Nahual"
+    "Alux Nahual",
+    "Gustavo Cerati"
   ],
   "used_poll_indices": [
     11,
@@ -15,10 +16,10 @@
     4,
     15
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-10-24T20:36:33.020851+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-10-24T20:55:01.142778+00:00",
   "post_type_index": 10,
-  "total_posts": 498,
+  "total_posts": 499,
   "used_event_indices": [
     12,
     11,
@@ -26,6 +27,17 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
-  "curation_year": 2024
+  "last_post_type": "concert",
+  "curation_year": 2024,
+  "used_topics": [
+    "gustavo cerati|original",
+    "gustavo cerati|original"
+  ],
+  "used_text_hashes": [
+    "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
+    "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1"
+  ],
+  "last_published_id": "post_20261024_205346",
+  "last_published_at": "2026-10-24T20:54:25.833093+00:00",
+  "last_published_topic": "Gustavo Cerati"
 }
