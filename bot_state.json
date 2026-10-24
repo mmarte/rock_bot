@@ -2,10 +2,10 @@
   "used_bands": [
     "La Cuneta Son Machín",
     "Alux Nahual",
-    "Gustavo Cerati"
+    "Gustavo Cerati",
+    "Zoé"
   ],
   "used_poll_indices": [
-    11,
     3,
     2,
     0,
@@ -14,12 +14,13 @@
     13,
     17,
     4,
-    15
+    15,
+    7
   ],
   "original_type_index": 10,
-  "last_updated": "2026-10-24T20:55:01.142778+00:00",
+  "last_updated": "2026-10-24T21:01:56.416317+00:00",
   "post_type_index": 10,
-  "total_posts": 499,
+  "total_posts": 500,
   "used_event_indices": [
     12,
     11,
@@ -27,17 +28,21 @@
     18,
     19
   ],
-  "last_post_type": "concert",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
-    "gustavo cerati|original"
+    "gustavo cerati|original",
+    "zoé|poll",
+    "zoé|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
-    "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1"
+    "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
+    "93be8165e3d47d00dbf30ef3cb41175adde3386767d90573051397e181bea11d",
+    "93be8165e3d47d00dbf30ef3cb41175adde3386767d90573051397e181bea11d"
   ],
-  "last_published_id": "post_20261024_205346",
-  "last_published_at": "2026-10-24T20:54:25.833093+00:00",
-  "last_published_topic": "Gustavo Cerati"
+  "last_published_id": "post_20261024_210104",
+  "last_published_at": "2026-10-24T21:01:37.077163+00:00",
+  "last_published_topic": "Zoé"
 }
