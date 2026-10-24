@@ -1,25 +1,7 @@
 {
   "used_bands": [
-    "Bomba Estéreo",
-    "Juanes",
-    "Toque Profundo",
-    "Gandhi",
-    "Habana Abierta",
     "La Cuneta Son Machín",
-    "Bomba Estéreo",
-    "Toque Profundo",
-    "Desorden Público",
-    "Extremoduro",
-    "Alux Nahual",
-    "La Cuneta Son Machín",
-    "Malpaís",
-    "Dedicados",
-    "La Cuneta Son Machín",
-    "Bomba Estéreo",
-    "Malpaís",
-    "El Cuarteto de Nos",
-    "La Cuneta Son Machín",
-    "Habana Abierta"
+    "Alux Nahual"
   ],
   "used_poll_indices": [
     11,
@@ -33,8 +15,8 @@
     4,
     15
   ],
-  "original_type_index": 8,
-  "last_updated": "2026-10-24T05:12:08.380786+00:00",
+  "original_type_index": 9,
+  "last_updated": "2026-10-24T20:36:33.020851+00:00",
   "post_type_index": 10,
   "total_posts": 498,
   "used_event_indices": [
@@ -44,6 +26,6 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024
 }
