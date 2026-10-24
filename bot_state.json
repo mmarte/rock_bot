@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Caramelos de Cianuro",
     "Bomba Estéreo",
     "Juanes",
     "Toque Profundo",
@@ -19,7 +18,8 @@
     "Bomba Estéreo",
     "Malpaís",
     "El Cuarteto de Nos",
-    "La Cuneta Son Machín"
+    "La Cuneta Son Machín",
+    "Habana Abierta"
   ],
   "used_poll_indices": [
     11,
@@ -33,10 +33,10 @@
     4,
     15
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-10-23T23:47:27.214988+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-10-24T05:12:08.380786+00:00",
   "post_type_index": 10,
-  "total_posts": 497,
+  "total_posts": 498,
   "used_event_indices": [
     12,
     11,
@@ -44,6 +44,6 @@
     18,
     19
   ],
-  "last_post_type": "concert",
+  "last_post_type": "original",
   "curation_year": 2024
 }

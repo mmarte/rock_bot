@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260713_154114",
-    "fb_post_id": "1043162839046116_1444413451066530",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Juanes",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2023-11-16_Gala_de_los_Latin_Grammy%2C_14_%28cropped%29.jpg",
-    "status": "published",
-    "executed_at": "2026-07-13T15:41:43.301367+00:00"
-  },
-  {
     "post_id": "post_20260713_183159",
     "fb_post_id": "1043162839046116_1444520591055816",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://images.pexels.com/photos/2601192/pexels-photo-2601192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-10-23T23:47:52.732760+00:00"
+  },
+  {
+    "post_id": "post_20261024_051202",
+    "fb_post_id": "1043162839046116_1539624278212113",
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Habana Abierta",
+    "image_url": "https://images.pexels.com/photos/12894935/pexels-photo-12894935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-10-24T05:12:33.882816+00:00"
   }
 ]
