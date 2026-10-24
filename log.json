@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260714_035259",
-    "fb_post_id": "1043162839046116_1444796891028186",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/--x-TvRhj1c/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-14T03:53:27.345715+00:00"
-  },
-  {
     "post_id": "post_20260714_144341",
     "fb_post_id": "1043162839046116_1445171244324084",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://images.pexels.com/photos/16118359/pexels-photo-16118359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-10-24T21:01:37.077163+00:00"
+  },
+  {
+    "post_id": "post_20261024_212437",
+    "fb_post_id": "1043162839046116_1540318304809377",
+    "ig_post_id": "18116793709821732",
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Octavia",
+    "image_url": "https://img.youtube.com/vi/IRiz6DIxthw/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-10-24T21:25:12.035900+00:00"
   }
 ]

@@ -1085,5 +1085,26 @@
     "youtube_post_url": null,
     "published_at": "2026-10-24T21:01:37.077163+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261024_212437",
+    "status": "published",
+    "created_at": "2026-10-24T21:24:37.099206+00:00",
+    "post_type": "youtube",
+    "topic": "Octavia",
+    "text": "Esta toma en vivo desde La Paz, Bolivia, muestra cómo Octavia conecta con el público más allá de su país. No es solo la música; es la forma en que la banda interactúa con la audiencia, convirtiendo cada concierto en una experiencia única. La energía se siente sin filtros, y la guitarra de Luis Daniel corta el aire con una precisión notable. Es interesante ver cómo una agrupación de este nivel lleva su esencia a escenarios tan distintos, manteniendo la pasión que los ha caracterizado desde sus inicios. Este video recuerda que el rock en español sigue activo y abierto a evolucionar. A veces olvidamos que detrás de cada canción hay una historia de lucha y dedicación, y este clip la refleja con crudeza, capturada lejos de los estudios. No es perfecto, y quizás eso lo hace más auténtico. ¿Qué otros conciertos internacionales de bandas latinas te han dejado sin aliento?\n\nhttps://www.youtube.com/watch?v=IRiz6DIxthw\n\nLo Mejor del Rock en Español les presenta: #Octavia\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "0acfb08e645eb44f3b1e3ddbc2e6e530542506ca4014e79137aec2199b77068e",
+    "image_query": "Octavia rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=IRiz6DIxthw",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1540318304809377",
+    "ig_post_id": "18116793709821732",
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": "2026-10-24T21:25:12.035900+00:00",
+    "error": null
   }
 ]

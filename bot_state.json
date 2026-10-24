@@ -3,7 +3,8 @@
     "La Cuneta Son Machín",
     "Alux Nahual",
     "Gustavo Cerati",
-    "Zoé"
+    "Zoé",
+    "Octavia"
   ],
   "used_poll_indices": [
     3,
@@ -18,9 +19,9 @@
     7
   ],
   "original_type_index": 10,
-  "last_updated": "2026-10-24T21:01:56.416317+00:00",
+  "last_updated": "2026-10-24T21:25:36.003735+00:00",
   "post_type_index": 10,
-  "total_posts": 500,
+  "total_posts": 501,
   "used_event_indices": [
     12,
     11,
@@ -28,21 +29,25 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
     "gustavo cerati|original",
     "zoé|poll",
-    "zoé|poll"
+    "zoé|poll",
+    "octavia|youtube",
+    "octavia|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
     "93be8165e3d47d00dbf30ef3cb41175adde3386767d90573051397e181bea11d",
-    "93be8165e3d47d00dbf30ef3cb41175adde3386767d90573051397e181bea11d"
+    "93be8165e3d47d00dbf30ef3cb41175adde3386767d90573051397e181bea11d",
+    "0acfb08e645eb44f3b1e3ddbc2e6e530542506ca4014e79137aec2199b77068e",
+    "0acfb08e645eb44f3b1e3ddbc2e6e530542506ca4014e79137aec2199b77068e"
   ],
-  "last_published_id": "post_20261024_210104",
-  "last_published_at": "2026-10-24T21:01:37.077163+00:00",
-  "last_published_topic": "Zoé"
+  "last_published_id": "post_20261024_212437",
+  "last_published_at": "2026-10-24T21:25:12.035900+00:00",
+  "last_published_topic": "Octavia"
 }
