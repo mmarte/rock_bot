@@ -589,7 +589,10 @@ def save_queue(posts):
 
 def call_groq(client, system, user, max_tokens=1024, json_mode=True):
     last_error = None
-    for model in ("openai/gpt-oss-120b", "qwen/qwen3.6-27b"):
+    # qwen/qwen3.6-27b was removed (2026-10-24: Groq 404 model_not_found),
+    # so it is no longer in the fallback list. A dead model must not kill
+    # the run: any API error now falls through to the next model.
+    for model in ("openai/gpt-oss-120b", "llama-3.3-70b-versatile"):
         for attempt in range(2):
             kwargs = dict(
                 model       = model,
@@ -603,10 +606,12 @@ def call_groq(client, system, user, max_tokens=1024, json_mode=True):
             try:
                 content = client.chat.completions.create(**kwargs).choices[0].message.content or ""
             except Exception as error:
-                error_text = str(error)
-                if "json_validate_failed" not in error_text:
-                    raise
                 last_error = error
+                error_text = str(error)
+                # A missing/retired model will fail the same way on retry,
+                # so skip straight to the next model instead of retrying it.
+                if "not_found" in error_text or "does not exist" in error_text:
+                    break
                 continue
 
             if not content.strip():
