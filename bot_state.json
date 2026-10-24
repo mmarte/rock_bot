@@ -4,7 +4,8 @@
     "Alux Nahual",
     "Gustavo Cerati",
     "Zoé",
-    "Octavia"
+    "Octavia",
+    "Radio Futura"
   ],
   "used_poll_indices": [
     3,
@@ -18,10 +19,10 @@
     15,
     7
   ],
-  "original_type_index": 10,
-  "last_updated": "2026-10-24T21:25:36.003735+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-10-24T23:00:27.192671+00:00",
   "post_type_index": 10,
-  "total_posts": 501,
+  "total_posts": 502,
   "used_event_indices": [
     12,
     11,
@@ -29,7 +30,7 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -37,7 +38,9 @@
     "zoé|poll",
     "zoé|poll",
     "octavia|youtube",
-    "octavia|youtube"
+    "octavia|youtube",
+    "radio futura|original",
+    "radio futura|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -45,9 +48,11 @@
     "93be8165e3d47d00dbf30ef3cb41175adde3386767d90573051397e181bea11d",
     "93be8165e3d47d00dbf30ef3cb41175adde3386767d90573051397e181bea11d",
     "0acfb08e645eb44f3b1e3ddbc2e6e530542506ca4014e79137aec2199b77068e",
-    "0acfb08e645eb44f3b1e3ddbc2e6e530542506ca4014e79137aec2199b77068e"
+    "0acfb08e645eb44f3b1e3ddbc2e6e530542506ca4014e79137aec2199b77068e",
+    "98d3e0e7df0e389b2c7db69ce235e9d8b87646b33bc5aa3af70a7bd398dc422d",
+    "98d3e0e7df0e389b2c7db69ce235e9d8b87646b33bc5aa3af70a7bd398dc422d"
   ],
-  "last_published_id": "post_20261024_212437",
-  "last_published_at": "2026-10-24T21:25:12.035900+00:00",
-  "last_published_topic": "Octavia"
+  "last_published_id": "post_20261024_225859",
+  "last_published_at": "2026-10-24T22:59:34.726625+00:00",
+  "last_published_topic": "Radio Futura"
 }

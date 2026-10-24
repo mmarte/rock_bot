@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260714_144341",
-    "fb_post_id": "1043162839046116_1445171244324084",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Kraken",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Le_Poulpe_Colossal.jpg",
-    "status": "published",
-    "executed_at": "2026-07-14T14:44:08.715210+00:00"
-  },
-  {
     "post_id": "post_20260714_175957",
     "fb_post_id": "1043162839046116_1445296807644861",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/IRiz6DIxthw/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-10-24T21:25:12.035900+00:00"
+  },
+  {
+    "post_id": "post_20261024_225859",
+    "fb_post_id": "1043162839046116_1540371301470744",
+    "ig_post_id": "18170212567475485",
+    "threads_post_id": "18130776649694044",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Radio Futura",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Radio_Futura.jpg/330px-Radio_Futura.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "status": "published",
+    "executed_at": "2026-10-24T22:59:34.726625+00:00"
   }
 ]
