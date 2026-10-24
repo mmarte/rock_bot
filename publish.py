@@ -19,6 +19,7 @@ import random
 import re
 import requests
 import smtplib
+import time
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timezone
@@ -727,6 +728,31 @@ def post_to_instagram(text, image_url):
             return None
         container_id = container.get("id")
         if not container_id:
+            return None
+        # FIX 2026-10-24: a container is NOT ready to publish immediately.
+        # Publishing at once fails with "Media ID is not available" while
+        # Instagram is still processing the image (e.g. a Wikimedia URL).
+        # Poll status_code until FINISHED, exactly as publish_reel.py
+        # already does for reels. Do not publish an IN_PROGRESS container.
+        status = None
+        for _attempt in range(18):  # up to ~90s, 5s apart
+            try:
+                status_r = requests.get(
+                    GRAPH_BASE + "/" + container_id,
+                    params={"fields": "status_code", "access_token": ig_token},
+                    timeout=15,
+                )
+                status = status_r.json().get("status_code")
+            except Exception:
+                status = None
+            if status == "FINISHED":
+                break
+            if status in ("ERROR", "EXPIRED"):
+                print("  Instagram container status: " + str(status))
+                return None
+            time.sleep(5)
+        if status != "FINISHED":
+            print("  Instagram container not ready (last status: " + str(status) + ") — skipping publish, not retrying a not-ready container.")
             return None
         publish_r = requests.post(
             GRAPH_BASE + "/" + IG_USER_ID + "/media_publish",
