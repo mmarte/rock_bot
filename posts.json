@@ -1215,5 +1215,29 @@
     "youtube_post_url": null,
     "published_at": "2026-10-25T20:45:11.509905+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261025_230400",
+    "status": "skipped_duplicate",
+    "created_at": "2026-10-25T23:04:00.475248+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "¿Quién dijo que el rock nacional no puede mutar? Pongan pausa a la nostalgia por un segundo. Los Fabulosos Cadillacs tienen a 'Matador' en su ADN desde los 90, pero llevarla a un giro electrónico con alma latina... eso sí que es otro nivel. Café Tacvba no solo versionó la canción; la desarmó con ritmos bailables y sintetizadores, transformando esa agresividad característica de Gustavo Cerati en una explosión sonora donde el groove manda. Es un choque interesante entre dos bandas clave del género. Mientras Cadillacs se destaca por su garra cruda, Tacvba invita a moverse sobre los escombros. No es una copia, es una reinvención que demuestra que un clásico puede tener vida propia si le cambias el traje. Aquí no hay ganador, hay dos caras de la misma moneda rockera. ¿Qué versión te hace mover más el cuerpo: la original con toda la furia de Cadillacs o la de Tacvba?\n\nhttps://www.youtube.com/watch?v=Nh26cDCPlKo\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #LosFabulososCadillacs #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "9533832341e6ab128eeaecf81011ce6186965c114963095c2267da60e75dc9bc",
+    "image_query": "Café Tacvba Matador live",
+    "extra_topics": [
+      "Los Fabulosos Cadillacs",
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=Nh26cDCPlKo",
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20260916_233550 — not republished"
   }
 ]

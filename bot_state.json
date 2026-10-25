@@ -1,7 +1,7 @@
 {
   "used_bands": [
     "Flou",
-    "Octavia",
+    "Caifanes",
     "Café Tacvba"
   ],
   "used_poll_indices": [
@@ -16,10 +16,10 @@
     6,
     10
   ],
-  "original_type_index": 3,
-  "last_updated": "2026-10-25T20:45:42.079247+00:00",
+  "original_type_index": 4,
+  "last_updated": "2026-10-25T23:04:35.853959+00:00",
   "post_type_index": 10,
-  "total_posts": 506,
+  "total_posts": 507,
   "used_event_indices": [
     12,
     11,
@@ -27,7 +27,7 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "cover",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -45,7 +45,8 @@
     "los tres|original",
     "los tres|original",
     "café tacvba|poll",
-    "café tacvba|poll"
+    "café tacvba|poll",
+    "café tacvba|cover"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -63,7 +64,8 @@
     "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5",
     "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5",
     "68e5fd8e1d3ad521bf902c6d268c62b058cae1de348b23c1ddfd2a1c052c9cb3",
-    "68e5fd8e1d3ad521bf902c6d268c62b058cae1de348b23c1ddfd2a1c052c9cb3"
+    "68e5fd8e1d3ad521bf902c6d268c62b058cae1de348b23c1ddfd2a1c052c9cb3",
+    "9533832341e6ab128eeaecf81011ce6186965c114963095c2267da60e75dc9bc"
   ],
   "last_published_id": "post_20261025_204419",
   "last_published_at": "2026-10-25T20:45:11.509905+00:00",

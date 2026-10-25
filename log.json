@@ -1,53 +1,5 @@
 [
   {
-    "post_id": "post_20260715_180413",
-    "fb_post_id": "1043162839046116_1446171980890677",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/--x-TvRhj1c/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-15T18:04:41.319839+00:00"
-  },
-  {
-    "post_id": "post_20260715_220415",
-    "fb_post_id": "1043162839046116_1446308830876992",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Cascomar",
-    "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-07-15T22:04:42.414329+00:00"
-  },
-  {
-    "post_id": "post_20260716_035627",
-    "fb_post_id": "1043162839046116_1446500134191195",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Toque Profundo",
-    "image_url": "https://images.pexels.com/photos/27817790/pexels-photo-27817790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-07-16T03:56:54.842146+00:00"
-  },
-  {
-    "post_id": "post_20260716_145459",
-    "fb_post_id": "1043162839046116_1446898977484644",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "image_url": "https://img.youtube.com/vi/01gI22568dc/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-16T14:55:28.015960+00:00"
-  },
-  {
     "post_id": "post_20260716_220624",
     "fb_post_id": "1043162839046116_1447158270792048",
     "ig_post_id": null,
@@ -2437,5 +2389,11 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-10-25T22:25:41.474875+00:00"
+  },
+  {
+    "post_id": "post_20261025_230400",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20260916_233550 — not republished",
+    "executed_at": "2026-10-25T23:05:01.256568+00:00"
   }
 ]
