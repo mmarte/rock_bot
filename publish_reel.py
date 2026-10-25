@@ -35,9 +35,44 @@ FB_PAGE_TOKEN = os.getenv("FB_PAGE_TOKEN", "").strip()
 IG_USER_ID = os.getenv("IG_USER_ID", "").strip()
 IG_ACCESS_TOKEN = os.getenv("IG_ACCESS_TOKEN", "").strip()
 
-# X: a user OAuth token (tweet.write + media upload), NOT an app-only
-# bearer token, which cannot post. Set as GitHub secret X_USER_TOKEN.
+# X: two auth paths, OAuth 1.0a preferred.
+# OAuth 1.0a (non-expiring, app-owner token): set GitHub secrets
+#   X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET
+# from the app's Keys and Tokens page, OAuth 1.0a section. This is the
+# path to use for @mejorrockespanol: the portal-generated owner token
+# does not expire, unlike an OAuth 2.0 user token (~2h, needs refresh).
+# Fallback: a user OAuth 2.0 token, NOT an app-only bearer token, which
+# cannot post. Set as GitHub secret X_USER_TOKEN. Use only for a quick
+# test within its 2h lifetime; it will stop working when it expires.
 X_USER_TOKEN = os.getenv("X_USER_TOKEN", "").strip()
+X_API_KEY = os.getenv("X_API_KEY", "").strip()
+X_API_SECRET = os.getenv("X_API_SECRET", "").strip()
+X_ACCESS_TOKEN = os.getenv("X_ACCESS_TOKEN", "").strip()
+X_ACCESS_TOKEN_SECRET = os.getenv("X_ACCESS_TOKEN_SECRET", "").strip()
+
+
+def _x_auth():
+    """Return (headers, auth) for X requests.
+
+    OAuth 1.0a if all four OAuth 1.0a secrets are present, otherwise
+    Bearer with X_USER_TOKEN if present, otherwise (None, None).
+    Returns headers dict (may be empty) and a requests auth object.
+    """
+    if X_API_KEY and X_API_SECRET and X_ACCESS_TOKEN and X_ACCESS_TOKEN_SECRET:
+        try:
+            from requests_oauthlib import OAuth1
+
+            return {}, OAuth1(
+                X_API_KEY,
+                client_secret=X_API_SECRET,
+                resource_owner_key=X_ACCESS_TOKEN,
+                resource_owner_secret=X_ACCESS_TOKEN_SECRET,
+            )
+        except ImportError:
+            return {}, None
+    if X_USER_TOKEN:
+        return {"Authorization": f"Bearer {X_USER_TOKEN}"}, None
+    return {}, None
 
 # TikTok: Content Posting API v2. The app must be approved for Content
 # Posting, otherwise init returns 403. Set as GitHub secrets.
@@ -272,17 +307,18 @@ def publish_x_video(video_path: Path, caption: str) -> PublishResult:
       2) APPEND chunked, 5 MB segments (a single APPEND fails over 5 MB)
       3) FINALIZE, then poll STATUS until succeeded/failed
       4) POST api.twitter.com/2/tweets with media_ids, text <= 280 chars
-    Requires X_USER_TOKEN (user token). Returns the tweet ID, never a
-    media ID alone, so a logged success means the tweet actually exists.
+    Requires OAuth 1.0a secrets, or X_USER_TOKEN as a fallback.
+    Returns the tweet ID, never a media ID alone, so a logged success
+    means the tweet actually exists.
     """
-    if not X_USER_TOKEN:
-        return PublishResult(platform="x", ok=False, error="Missing X_USER_TOKEN")
+    headers, x_auth = _x_auth()
+    if not headers and x_auth is None:
+        return PublishResult(platform="x", ok=False, error="Missing X OAuth 1.0a secrets or X_USER_TOKEN")
     file_size = video_path.stat().st_size
-    headers = {"Authorization": f"Bearer {X_USER_TOKEN}"}
     upload_url = "https://upload.twitter.com/1.1/media/upload.json"
     try:
         init = requests.post(
-            upload_url, headers=headers, timeout=60,
+            upload_url, headers=headers, auth=x_auth, timeout=60,
             data={"command": "INIT", "total_bytes": str(file_size),
                   "media_type": "video/mp4", "media_category": "tweet_video"},
         )
@@ -297,14 +333,14 @@ def publish_x_video(video_path: Path, caption: str) -> PublishResult:
                 if not chunk:
                     break
                 app = requests.post(
-                    upload_url, headers=headers, timeout=120,
+                    upload_url, headers=headers, auth=x_auth, timeout=120,
                     data={"command": "APPEND", "media_id": media_id, "segment_index": str(segment)},
                     files={"media": chunk},
                 )
                 app.raise_for_status()
                 segment += 1
         fin = requests.post(
-            upload_url, headers=headers, timeout=60,
+            upload_url, headers=headers, auth=x_auth, timeout=60,
             data={"command": "FINALIZE", "media_id": media_id},
         )
         fin.raise_for_status()
@@ -320,7 +356,7 @@ def publish_x_video(video_path: Path, caption: str) -> PublishResult:
                 return PublishResult(platform="x", ok=False, error=f"X media processing failed: {processing}")
             time.sleep(min(int(processing.get("check_after_secs", 5)), 10))
             st = requests.get(
-                upload_url, headers=headers, timeout=60,
+                upload_url, headers=headers, auth=x_auth, timeout=60,
                 params={"command": "STATUS", "media_id": media_id},
             )
             st.raise_for_status()
@@ -331,6 +367,7 @@ def publish_x_video(video_path: Path, caption: str) -> PublishResult:
         tw = requests.post(
             "https://api.twitter.com/2/tweets",
             headers={**headers, "Content-Type": "application/json"},
+            auth=x_auth,
             json={"text": tweet_text, "media": {"media_ids": [media_id]}},
             timeout=60,
         )

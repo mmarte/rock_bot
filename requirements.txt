@@ -11,3 +11,4 @@ kokoro>=0.9.4
 yt_dlp
 google-api-python-client
 google-auth-oauthlib
+requests-oauthlib
