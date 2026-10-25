@@ -1,7 +1,9 @@
 {
   "used_bands": [
     "Alux Nahual",
-    "Fiel a la Vega"
+    "Fiel a la Vega",
+    "Hombres G",
+    "Flou"
   ],
   "used_poll_indices": [
     2,
@@ -16,9 +18,9 @@
     6
   ],
   "original_type_index": 1,
-  "last_updated": "2026-10-25T05:29:21.708874+00:00",
+  "last_updated": "2026-10-25T16:56:44.325886+00:00",
   "post_type_index": 10,
-  "total_posts": 503,
+  "total_posts": 504,
   "used_event_indices": [
     12,
     11,
@@ -26,7 +28,7 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -38,7 +40,9 @@
     "radio futura|original",
     "radio futura|original",
     "fiel a la vega|poll",
-    "fiel a la vega|poll"
+    "fiel a la vega|poll",
+    "flou|youtube",
+    "flou|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -50,9 +54,11 @@
     "98d3e0e7df0e389b2c7db69ce235e9d8b87646b33bc5aa3af70a7bd398dc422d",
     "98d3e0e7df0e389b2c7db69ce235e9d8b87646b33bc5aa3af70a7bd398dc422d",
     "3919e794f1b74f142b733fb5a8c16578af5e2abb04f2019dfda59b16c5429600",
-    "3919e794f1b74f142b733fb5a8c16578af5e2abb04f2019dfda59b16c5429600"
+    "3919e794f1b74f142b733fb5a8c16578af5e2abb04f2019dfda59b16c5429600",
+    "f0a180f911462d5870f0ac5ab8e7a9356b436638ac9dbb822933088000fe2fbb",
+    "f0a180f911462d5870f0ac5ab8e7a9356b436638ac9dbb822933088000fe2fbb"
   ],
-  "last_published_id": "post_20261025_052804",
-  "last_published_at": "2026-10-25T05:28:49.783642+00:00",
-  "last_published_topic": "Fiel a la Vega"
+  "last_published_id": "post_20261025_165533",
+  "last_published_at": "2026-10-25T16:56:20.146105+00:00",
+  "last_published_topic": "Flou"
 }
