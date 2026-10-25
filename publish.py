@@ -805,6 +805,32 @@ def post_to_threads(text, image_url):
         # FIX 2026-10-24: creating a container does NOT publish it.
         # The old code returned the container ID as if the post were live,
         # so Threads posts never actually appeared. Publish it explicitly.
+        # FIX 2026-10-25: a media container is NOT ready immediately.
+        # Publishing an IN_PROGRESS container fails with "The requested
+        # resource does not exist" (the Octavia run, 2026-10-24 21:25 UTC).
+        # Poll the container's status until FINISHED, as with Instagram.
+        # Threads uses "status", not "status_code".
+        if image_url:
+            tstatus = None
+            for _attempt in range(18):  # up to ~90s, 5s apart
+                try:
+                    status_r = requests.get(
+                        "https://graph.threads.net/v1.0/" + container_id,
+                        params={"fields": "status", "access_token": THREADS_TOKEN},
+                        timeout=15,
+                    )
+                    tstatus = status_r.json().get("status")
+                except Exception:
+                    tstatus = None
+                if tstatus == "FINISHED":
+                    break
+                if tstatus in ("ERROR", "EXPIRED"):
+                    print("  Threads container status: " + str(tstatus))
+                    return None
+                time.sleep(5)
+            if tstatus != "FINISHED":
+                print("  Threads container not ready (last status: " + str(tstatus) + ") — skipping publish, not retrying a not-ready container.")
+                return None
         publish_r = requests.post(
             "https://graph.threads.net/v1.0/" + THREADS_USER_ID + "/threads_publish",
             data={"creation_id": container_id, "access_token": THREADS_TOKEN},
