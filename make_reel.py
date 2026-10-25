@@ -86,16 +86,29 @@ def generate_script(topic_data: dict) -> str:
         f"Si tienes menos de 140 palabras, agrega más detalles y ejemplos. "
         f"Solo el texto a narrar, sin indicaciones de escena."
     )
-    completion = client.chat.completions.create(
-        model       = "openai/gpt-oss-120b",
-        messages    = [
-            {"role": "system", "content": SCRIPT_SYSTEM},
-            {"role": "user",   "content": prompt},
-        ],
-        temperature = 0.85,
-        max_tokens  = 400,
-    )
-    return completion.choices[0].message.content.strip()
+    # Same fallback chain as generate.py: gpt-oss-120b can return empty
+    # content, and older models were retired on Groq. Try each model in
+    # order and return the first non-empty script; an empty script must
+    # never reach TTS, because Kokoro then returns no audio and the
+    # whole reel run produces no mp4 (seen 2026-10-25).
+    for model in ("openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3.8-27b"):
+        try:
+            completion = client.chat.completions.create(
+                model       = model,
+                messages    = [
+                    {"role": "system", "content": SCRIPT_SYSTEM},
+                    {"role": "user",   "content": prompt},
+                ],
+                temperature = 0.85,
+                max_tokens  = 400,
+            )
+            text = (completion.choices[0].message.content or "").strip()
+            if text:
+                return text
+            print(f"  Groq {model} returned empty script, trying next model...")
+        except Exception as e:
+            print(f"  Groq {model} failed: {e}, trying next model...")
+    return ""
 
 
 def text_to_speech_kokoro(script: str, output_path: str) -> str | None:
@@ -120,8 +133,8 @@ def text_to_speech_kokoro(script: str, output_path: str) -> str | None:
                 audio_chunks.append(chunk.audio)
 
         if not audio_chunks:
-            print("  Kokoro returned no audio.")
-            return False
+            print("  Kokoro returned no audio. Falling back to gTTS...")
+            return text_to_speech_gtts(script, output_path)
 
         # Concatenate chunks and save as WAV
         audio = np.concatenate(audio_chunks)
@@ -369,6 +382,9 @@ def make_reel():
     print("  Step 1: Writing script with Groq...")
     script = generate_script(topic_data)
     print(f"  Script ({len(script.split())} words):\n  {script[:120]}...\n")
+    if not script:
+        print("  Script generation failed on all Groq models — aborting before TTS, so the run fails loudly instead of producing an empty script and no mp4.")
+        return
 
     script_path = OUTPUT_DIR / f"reel_{stamp}_script.txt"
     script_path.write_text(
