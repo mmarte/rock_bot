@@ -2386,5 +2386,22 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cafe_Tacuba_1.jpg",
     "status": "published",
     "executed_at": "2026-10-25T20:45:11.509905+00:00"
+  },
+  {
+    "post_id": "reel_20261025",
+    "post_type": "reel",
+    "reel_path": "reels/reel_20261025.mp4",
+    "fb_reel_id": "29202931399343488",
+    "ig_reel_id": "17917911159531259",
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": null,
+      "x": "402 Client Error: Payment Required for url: https://api.twitter.com/2/tweets",
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-10-25T21:20:11.663769+00:00"
   }
 ]
