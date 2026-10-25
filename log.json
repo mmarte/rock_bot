@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260715_035352",
-    "fb_post_id": "1043162839046116_1445611684280040",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "El Tri",
-    "image_url": "https://img.youtube.com/vi/PSHunfoztdY/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-15T03:54:20.868500+00:00"
-  },
-  {
     "post_id": "post_20260715_144318",
     "fb_post_id": "1043162839046116_1446032077571334",
     "ig_post_id": null,
@@ -2386,5 +2374,17 @@
     "image_url": "https://img.youtube.com/vi/UTtOycDmXlI/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-10-25T16:56:20.146105+00:00"
+  },
+  {
+    "post_id": "post_20261025_192629",
+    "fb_post_id": "1043162839046116_1541245828049958",
+    "ig_post_id": "18182467198429002",
+    "threads_post_id": "18223525708338249",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Los Tres",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lostres.jpg",
+    "status": "published",
+    "executed_at": "2026-10-25T19:27:55.314473+00:00"
   }
 ]

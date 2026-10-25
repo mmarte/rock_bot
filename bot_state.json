@@ -3,7 +3,10 @@
     "Alux Nahual",
     "Fiel a la Vega",
     "Hombres G",
-    "Flou"
+    "Flou",
+    "Cascomar",
+    "La Cuneta Son Machín",
+    "Los Tres"
   ],
   "used_poll_indices": [
     2,
@@ -17,10 +20,10 @@
     7,
     6
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-10-25T16:56:44.325886+00:00",
+  "original_type_index": 3,
+  "last_updated": "2026-10-25T19:28:47.270082+00:00",
   "post_type_index": 10,
-  "total_posts": 504,
+  "total_posts": 505,
   "used_event_indices": [
     12,
     11,
@@ -28,7 +31,7 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -42,7 +45,9 @@
     "fiel a la vega|poll",
     "fiel a la vega|poll",
     "flou|youtube",
-    "flou|youtube"
+    "flou|youtube",
+    "los tres|original",
+    "los tres|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -56,9 +61,11 @@
     "3919e794f1b74f142b733fb5a8c16578af5e2abb04f2019dfda59b16c5429600",
     "3919e794f1b74f142b733fb5a8c16578af5e2abb04f2019dfda59b16c5429600",
     "f0a180f911462d5870f0ac5ab8e7a9356b436638ac9dbb822933088000fe2fbb",
-    "f0a180f911462d5870f0ac5ab8e7a9356b436638ac9dbb822933088000fe2fbb"
+    "f0a180f911462d5870f0ac5ab8e7a9356b436638ac9dbb822933088000fe2fbb",
+    "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5",
+    "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5"
   ],
-  "last_published_id": "post_20261025_165533",
-  "last_published_at": "2026-10-25T16:56:20.146105+00:00",
-  "last_published_topic": "Flou"
+  "last_published_id": "post_20261025_192629",
+  "last_published_at": "2026-10-25T19:27:55.314473+00:00",
+  "last_published_topic": "Los Tres"
 }

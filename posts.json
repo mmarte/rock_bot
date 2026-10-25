@@ -1173,5 +1173,26 @@
     "youtube_post_url": null,
     "published_at": "2026-10-25T16:56:20.146105+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261025_192629",
+    "status": "published",
+    "created_at": "2026-10-25T19:26:29.372186+00:00",
+    "post_type": "original",
+    "topic": "Los Tres",
+    "text": "El origen de Los Tres está ligado a la escena musical de Conchalí, Santiago. En 1987, Álvaro Henríquez, Roberto Lindl y Ángel Parra se unieron tras tocar en distintas bandas locales para crear algo propio, dando origen al nombre de la trilogía. La formación se completó cuando Francisco Molina asumió la batería, aportando la potencia rítmica que definiría su sonido distintivo. Su etapa inicial se caracterizó por grabaciones crudas e íntimas que plasmaban la energía de la banda en espacios no convencionales. Esa mezcla de intimidad y fuerza marcó el camino hacia su éxito nacional e internacional con su álbum debut en 1991. ¿Cuál de sus primeras grabaciones te parece la que mejor refleja el espíritu de la banda?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosTres\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5",
+    "image_query": "Los Tres Chile rock band",
+    "extra_topics": [],
+    "post_year": "1987",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1541245828049958",
+    "ig_post_id": "18182467198429002",
+    "threads_post_id": "18223525708338249",
+    "youtube_post_url": null,
+    "published_at": "2026-10-25T19:27:55.314473+00:00",
+    "error": null
   }
 ]
