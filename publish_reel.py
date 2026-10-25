@@ -92,6 +92,7 @@ class PublishResult:
     ok: bool
     id: Optional[str] = None
     error: Optional[str] = None
+    skipped: bool = False
 
 
 def _utcnow_iso() -> str:
@@ -310,7 +311,12 @@ def publish_x_video(video_path: Path, caption: str) -> PublishResult:
     Requires OAuth 1.0a secrets, or X_USER_TOKEN as a fallback.
     Returns the tweet ID, never a media ID alone, so a logged success
     means the tweet actually exists.
+    DISABLED 2026-10-25: POST /2/tweets returned 402 Payment Required
+    for this app, so X is off by default. Re-enable by setting
+    X_ENABLED=true in the workflow env; the OAuth code stays intact.
     """
+    if os.getenv("X_ENABLED", "false").lower() in ("false", "0", "no", "off", ""):
+        return PublishResult(platform="x", ok=False, skipped=True, error="X disabled (paid API, 2026-10-25)")
     headers, x_auth = _x_auth()
     if not headers and x_auth is None:
         return PublishResult(platform="x", ok=False, error="Missing X OAuth 1.0a secrets or X_USER_TOKEN")
@@ -492,7 +498,7 @@ def main() -> None:
     # Reel/video destinations (user decision 2026-10-24). YouTube is
     # handled by make_reel.py Step 5 and is intentionally not repeated here.
     x_res = publish_x_video(reel_path, caption)
-    print("  X Video       : " + ("OK tweet id=" + str(x_res.id) if x_res.ok else "FAILED " + str(x_res.error)))
+    print("  X Video       : " + ("SKIPPED (disabled)" if x_res.skipped else "OK tweet id=" + str(x_res.id) if x_res.ok else "FAILED " + str(x_res.error)))
 
     tiktok_res = publish_tiktok_video(reel_path, caption)
     print("  TikTok Video  : " + ("OK publish_id=" + str(tiktok_res.id) if tiktok_res.ok else "FAILED " + str(tiktok_res.error)))
@@ -510,7 +516,7 @@ def main() -> None:
             "tiktok_publish_id": tiktok_res.id,
             "status": "published" if (fb_res.ok or ig_res.ok or x_res.ok or tiktok_res.ok) else "failed",
             "errors": {"facebook": fb_res.error, "instagram": ig_res.error,
-                       "x": x_res.error, "tiktok": tiktok_res.error},
+                       "x": None if x_res.skipped else x_res.error, "tiktok": tiktok_res.error},
             "executed_at": now,
         }
     )

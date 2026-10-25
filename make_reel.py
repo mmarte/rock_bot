@@ -79,6 +79,27 @@ def pick_topic() -> dict:
     return REEL_TOPICS[day_index % len(REEL_TOPICS)]
 
 
+# TTS-only pronunciation fixes (2026-10-25, user request: correct band
+# name pronunciation). Applied ONLY to the voiceover text, never to the
+# saved script file or the reel caption, so captions keep the correct
+# spelling (e.g. Tacvba, Cadillacs) while the voice says the name the
+# way fans say it. Longest names first, so "Café Tacvba" is replaced
+# before the bare "Tacvba" rule.
+TTS_PRONUNCIATION = {
+    "Café Tacvba": "Café Tacuba",
+    "Tacvba": "Tacuba",
+    "Los Fabulosos Cadillacs": "Los Fabulosos Cadilacs",
+    "Cadillacs": "Cadilacs",
+    "Héroes del Silencio": "Éroes del Silencio",
+}
+
+
+def _apply_tts_pronunciation(text: str) -> str:
+    for name in sorted(TTS_PRONUNCIATION, key=len, reverse=True):
+        text = text.replace(name, TTS_PRONUNCIATION[name])
+    return text
+
+
 def generate_script(topic_data: dict) -> str:
     client = Groq(api_key=GROQ_API_KEY)
     prompt = (
@@ -121,6 +142,9 @@ def text_to_speech_kokoro(script: str, output_path: str) -> str | None:
     Install: pip install kokoro soundfile
     Kokoro supports Spanish with the 'es' language code.
     """
+    # Voiceover text only: pronounce band names correctly, keep the
+    # written script/caption spelling unchanged (see TTS_PRONUNCIATION).
+    script = _apply_tts_pronunciation(script)
     try:
         from kokoro import KPipeline
         import soundfile as sf
@@ -161,6 +185,7 @@ def text_to_speech_gtts(script: str, output_path: str) -> str | None:
     Quality is lower than Kokoro but works everywhere.
     Install: pip install gtts
     """
+    script = _apply_tts_pronunciation(script)
     try:
         from gtts import gTTS
         # gTTS always outputs MP3 bytes. Do NOT save them to a .wav path.
@@ -418,7 +443,10 @@ def make_reel():
     print(f"\n  Step 3: Looking for actual footage and sound for '{topic_data['topic']}'...")
     video_urls = []
     if YOUTUBE_API_KEY and get_video_for_topic:
-        video_urls = get_youtube_clips(topic_data["topic"], count=2)
+        # 6 clips x 10s = ~60s, matching the narration, instead of 2 clips
+        # looped over and over. Requires YOUTUBE_API_KEY in the Generate
+        # Reel workflow env (YouTube Data API v3 key, not the OAuth trio).
+        video_urls = get_youtube_clips(topic_data["topic"], count=6)
         if video_urls:
             print(f"  Found {len(video_urls)} actual YouTube clip(s) with artist footage.")
 
