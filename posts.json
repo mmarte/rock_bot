@@ -1127,5 +1127,30 @@
     "youtube_post_url": null,
     "published_at": "2026-10-24T22:59:34.726625+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261025_052804",
+    "status": "published",
+    "created_at": "2026-10-25T05:28:04.234754+00:00",
+    "post_type": "poll",
+    "topic": "Fiel a la Vega",
+    "text": "¿Cuál disco marcó la pauta en la música en español durante los 90? No solo hablamos de cifras, sino de la huella cultural que cada uno dejó. 'Canción Animal' transformó el pop-rock hispano con una producción cuidadosa que sigue siendo referente. 'El Espíritu del Vino' llevó la melancolía del rock ibérico a un nivel lírico que conectó profundamente con su generación. Y 'Dónde Jugarán los Niños' demostró la versatilidad del rock mexicano, logrando un sonido épico y sin perder su esencia. Cada uno impactó la industria de manera distinta. ¿Cuál crees que tuvo la mayor influencia en la era moderna?\n\n👍 Canción Animal - Soda Stereo\n❤️ El Espíritu del Vino - Héroes del Silencio\n😮 Dónde Jugarán los Niños - Maná\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "3919e794f1b74f142b733fb5a8c16578af5e2abb04f2019dfda59b16c5429600",
+    "image_query": "Fiel a la Vega rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná",
+      "Héroes del Silencio"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1540616878112853",
+    "ig_post_id": "18118040735098672",
+    "threads_post_id": "18106938493976369",
+    "youtube_post_url": null,
+    "published_at": "2026-10-25T05:28:49.783642+00:00",
+    "error": null
   }
 ]

@@ -1,14 +1,9 @@
 {
   "used_bands": [
-    "La Cuneta Son Machín",
     "Alux Nahual",
-    "Gustavo Cerati",
-    "Zoé",
-    "Octavia",
-    "Radio Futura"
+    "Fiel a la Vega"
   ],
   "used_poll_indices": [
-    3,
     2,
     0,
     9,
@@ -17,12 +12,13 @@
     17,
     4,
     15,
-    7
+    7,
+    6
   ],
   "original_type_index": 1,
-  "last_updated": "2026-10-24T23:00:27.192671+00:00",
+  "last_updated": "2026-10-25T05:29:21.708874+00:00",
   "post_type_index": 10,
-  "total_posts": 502,
+  "total_posts": 503,
   "used_event_indices": [
     12,
     11,
@@ -30,7 +26,7 @@
     18,
     19
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -40,7 +36,9 @@
     "octavia|youtube",
     "octavia|youtube",
     "radio futura|original",
-    "radio futura|original"
+    "radio futura|original",
+    "fiel a la vega|poll",
+    "fiel a la vega|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -50,9 +48,11 @@
     "0acfb08e645eb44f3b1e3ddbc2e6e530542506ca4014e79137aec2199b77068e",
     "0acfb08e645eb44f3b1e3ddbc2e6e530542506ca4014e79137aec2199b77068e",
     "98d3e0e7df0e389b2c7db69ce235e9d8b87646b33bc5aa3af70a7bd398dc422d",
-    "98d3e0e7df0e389b2c7db69ce235e9d8b87646b33bc5aa3af70a7bd398dc422d"
+    "98d3e0e7df0e389b2c7db69ce235e9d8b87646b33bc5aa3af70a7bd398dc422d",
+    "3919e794f1b74f142b733fb5a8c16578af5e2abb04f2019dfda59b16c5429600",
+    "3919e794f1b74f142b733fb5a8c16578af5e2abb04f2019dfda59b16c5429600"
   ],
-  "last_published_id": "post_20261024_225859",
-  "last_published_at": "2026-10-24T22:59:34.726625+00:00",
-  "last_published_topic": "Radio Futura"
+  "last_published_id": "post_20261025_052804",
+  "last_published_at": "2026-10-25T05:28:49.783642+00:00",
+  "last_published_topic": "Fiel a la Vega"
 }
