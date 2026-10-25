@@ -286,7 +286,12 @@ def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
         TARGET_W, TARGET_H = 1080, 1920
 
         narration_audio = AudioFileClip(audio_path)
-        duration = narration_audio.duration + 1.0
+        # Do NOT add +1.0 here: the 2026-10-25 run set video/narration
+        # duration to narration+1 (57.4s) while the wav itself was ~56s,
+        # and MoviePy failed reading audio at t=56.35-56.40 with
+        # "clip duration=56 seconds". Video length must never exceed
+        # the actual narration file length.
+        duration = narration_audio.duration
         print(f"  Narration duration: {duration:.1f}s")
 
         # Download clips to a permanent temp folder (avoids Windows file-locking issue)
@@ -341,7 +346,11 @@ def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
         if video.audio is not None:
             print("  Using actual clip audio with narration overlay.")
             clip_audio = video.audio.volumex(0.65)
-            narration = narration_audio.volumex(1.0).set_duration(video.duration)
+            # Cap narration at its real length: extending an AudioFileClip
+            # beyond its file length makes MoviePy read past EOF.
+            narration = narration_audio.volumex(1.0).set_duration(
+                min(video.duration, narration_audio.duration)
+            )
             mixed_audio = CompositeAudioClip([clip_audio, narration])
             mixed_audio = mixed_audio.set_duration(video.duration)
             video = video.set_audio(mixed_audio)
