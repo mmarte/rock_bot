@@ -1194,5 +1194,26 @@
     "youtube_post_url": null,
     "published_at": "2026-10-25T19:27:55.314473+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261025_204419",
+    "status": "published",
+    "created_at": "2026-10-25T20:44:19.693036+00:00",
+    "post_type": "poll",
+    "topic": "Café Tacvba",
+    "text": "¿Qué ocurre cuando dos gigantes del rock se suben al mismo escenario y su química sorprende a todos? No se trata de encuentros puntuales, sino de colaboraciones que han aportado nuevas sonoridades y han abierto cruces entre estilos que antes rara vez se juntaban. Cada una de estas tres alianzas dejó una huella notable y sigue influyendo en la producción musical actual. ¿Cuál de estas dinámicas consideras que marcó un punto de referencia importante para la música en español? El debate está abierto y la comunidad tiene mucho que aportar. ¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "68e5fd8e1d3ad521bf902c6d268c62b058cae1de348b23c1ddfd2a1c052c9cb3",
+    "image_query": "Cafe Tacvba Mexico alternative rock band",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1541292158045325",
+    "ig_post_id": "18082068566359411",
+    "threads_post_id": "18108918686195571",
+    "youtube_post_url": null,
+    "published_at": "2026-10-25T20:45:11.509905+00:00",
+    "error": null
   }
 ]

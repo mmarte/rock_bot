@@ -1,15 +1,10 @@
 {
   "used_bands": [
-    "Alux Nahual",
-    "Fiel a la Vega",
-    "Hombres G",
     "Flou",
-    "Cascomar",
-    "La Cuneta Son Machín",
-    "Los Tres"
+    "Octavia",
+    "Café Tacvba"
   ],
   "used_poll_indices": [
-    2,
     0,
     9,
     12,
@@ -18,12 +13,13 @@
     4,
     15,
     7,
-    6
+    6,
+    10
   ],
   "original_type_index": 3,
-  "last_updated": "2026-10-25T19:28:47.270082+00:00",
+  "last_updated": "2026-10-25T20:45:42.079247+00:00",
   "post_type_index": 10,
-  "total_posts": 505,
+  "total_posts": 506,
   "used_event_indices": [
     12,
     11,
@@ -31,7 +27,7 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -47,7 +43,9 @@
     "flou|youtube",
     "flou|youtube",
     "los tres|original",
-    "los tres|original"
+    "los tres|original",
+    "café tacvba|poll",
+    "café tacvba|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -63,9 +61,11 @@
     "f0a180f911462d5870f0ac5ab8e7a9356b436638ac9dbb822933088000fe2fbb",
     "f0a180f911462d5870f0ac5ab8e7a9356b436638ac9dbb822933088000fe2fbb",
     "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5",
-    "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5"
+    "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5",
+    "68e5fd8e1d3ad521bf902c6d268c62b058cae1de348b23c1ddfd2a1c052c9cb3",
+    "68e5fd8e1d3ad521bf902c6d268c62b058cae1de348b23c1ddfd2a1c052c9cb3"
   ],
-  "last_published_id": "post_20261025_192629",
-  "last_published_at": "2026-10-25T19:27:55.314473+00:00",
-  "last_published_topic": "Los Tres"
+  "last_published_id": "post_20261025_204419",
+  "last_published_at": "2026-10-25T20:45:11.509905+00:00",
+  "last_published_topic": "Café Tacvba"
 }
