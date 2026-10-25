@@ -263,6 +263,10 @@ def download_youtube_video(video_url: str, output_path: str) -> bool:
         return False
 
     print(f"  Downloading YouTube footage: {video_url}")
+    # 2026-10-25: default web client hit YouTube's "Sign in to confirm
+    # you're not a bot" check from GitHub Actions IPs, so the download
+    # failed and the reel fell back to Pexels. Android client is far
+    # less likely to hit that check, and needs no cookies.
     ydl_opts = {
         "format": "best[ext=mp4]+bestaudio/best",
         "outtmpl": output_path,
@@ -270,6 +274,7 @@ def download_youtube_video(video_url: str, output_path: str) -> bool:
         "no_warnings": True,
         "noplaylist": True,
         "merge_output_format": "mp4",
+        "extractor_args": {"youtube": {"player_client": ["android", "web"]}},
     }
     try:
         with YoutubeDL(ydl_opts) as ydl:
@@ -285,7 +290,12 @@ def get_youtube_clips(topic: str, count: int = 2) -> list:
         return []
     clips = []
     used_ids = []
-    for _ in range(count):
+    # Try extra videos: a single bot-blocked download must not kill the
+    # whole YouTube path (old code used break, so one failure fell back
+    # to Pexels even when other videos would have downloaded).
+    for _ in range(count + 4):
+        if len(clips) >= count:
+            break
         video = get_video_for_topic(topic, used_ids)
         if not video:
             break
@@ -295,7 +305,7 @@ def get_youtube_clips(topic: str, count: int = 2) -> list:
         if filename.exists() or download_youtube_video(video["url"], str(filename)):
             clips.append(str(filename))
         else:
-            break
+            continue
     return clips
 
 
