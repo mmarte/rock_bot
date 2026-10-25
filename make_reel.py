@@ -31,9 +31,12 @@ except Exception:
 
 load_dotenv()
 
-GROQ_API_KEY  = os.getenv("GROQ_API_KEY")
-PEXELS_KEY    = os.getenv("PEXELS_API_KEY")
-YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
+# Strip: a pasted GitHub secret with a trailing newline breaks HTTP
+# headers — Pexels failed 2026-10-25 with "Invalid leading whitespace
+# ... in header value" because PEXELS_KEY was not stripped.
+GROQ_API_KEY  = (os.getenv("GROQ_API_KEY") or "").strip()
+PEXELS_KEY    = (os.getenv("PEXELS_API_KEY") or "").strip()
+YOUTUBE_API_KEY = (os.getenv("YOUTUBE_API_KEY") or "").strip()
 
 OUTPUT_DIR = Path("reels")
 OUTPUT_DIR.mkdir(exist_ok=True)
