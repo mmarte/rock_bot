@@ -205,6 +205,20 @@ def publish_facebook_reel(video_path: Path, caption: str) -> PublishResult:
 
 
 def publish_instagram_reel(video_path: Path, caption: str) -> PublishResult:
+    """Retry wrapper: a ProcessingFailedError on the resumable upload
+    (seen 2026-10-25) is not always file-fatal — a fresh container on a
+    second attempt can succeed. Retry once on that error only, so a
+    genuine file rejection still fails fast instead of looping.
+    """
+    result = _publish_instagram_reel_once(video_path, caption)
+    if not result.ok and result.error and "ProcessingFailedError" in result.error:
+        print("  Instagram Reel: upload ProcessingFailedError, retrying with a fresh container...")
+        time.sleep(30)
+        result = _publish_instagram_reel_once(video_path, caption)
+    return result
+
+
+def _publish_instagram_reel_once(video_path: Path, caption: str) -> PublishResult:
     """
     Instagram Reels publishing using resumable upload:
       1) Create container: POST /{ig-user-id}/media with media_type=REELS, upload_type=resumable

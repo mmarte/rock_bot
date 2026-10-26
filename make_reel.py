@@ -542,6 +542,10 @@ def _credentials_from_env() -> object | None:
         return creds
     except Exception as e:
         print(f"  YouTube env credentials error: {e}")
+        if "invalid_grant" in str(e):
+            print("  -> invalid_grant means YOUTUBE_REFRESH_TOKEN is expired/revoked. "
+                  "Fix: locally delete youtube_token.json, run python make_reel.py --auth, "
+                  "and update GitHub secret YOUTUBE_REFRESH_TOKEN with the new token it prints.")
         return None
 
 
