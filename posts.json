@@ -1262,5 +1262,26 @@
     "youtube_post_url": null,
     "published_at": null,
     "error": "Duplicate of post_20260915_195819 — not republished"
+  },
+  {
+    "id": "post_20261026_185721",
+    "status": "published",
+    "created_at": "2026-10-26T18:57:21.879473+00:00",
+    "post_type": "original",
+    "topic": "Octavia",
+    "text": "¿Sabías que Octavia comenzó su trayectoria en el hard rock español de los 90 con una producción artesanal que marcó su sello identitario? En una época donde otros apostaban por grandes estudios, ellos lograron una densidad sonora característica que definía su agresividad pura. El nombre de la banda tiene un origen histórico poco común: no es una elección al azar, sino una referencia directa a la hija de César Augusto, la emperadora que rompió con las normas de su tiempo. Ese espíritu rebelde se reflejó en su etapa activa, centrada en el mediodía de la década, donde publicaron dos trabajos esenciales: el álbum debut en 1995 y 'Arrepijos' en 1997. En este segundo disco, la producción pulida permitió destacar unos riffs que siguen sonando vivos hoy en día. Su presencia en la escena estatal fue un punto clave para consolidarse como un referente underground. Aunque su carrera fue breve, la intensidad de sus directos en salas pequeñas dejó una huella inborrable. La calidad musical permanece intacta, resistiendo el paso del tiempo sin depender de la nostalgia vacía, y sigue siendo analizada con respeto por la crítica actual. ¿Conoces algún detalle técnico sobre cómo sonaba esa primera guitarra en el 95?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "07e295735767fb947f5c412dafdca6d70a3dca91be9d191dc6c8d11a4fd330b0",
+    "image_query": "Octavia rock band concert",
+    "extra_topics": [],
+    "post_year": "1994",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1542233477951193",
+    "ig_post_id": "18137373436725528",
+    "threads_post_id": "18631809079018392",
+    "youtube_post_url": null,
+    "published_at": "2026-10-26T18:58:02.915292+00:00",
+    "error": null
   }
 ]

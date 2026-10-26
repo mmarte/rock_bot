@@ -1,29 +1,5 @@
 [
   {
-    "post_id": "post_20260717_215645",
-    "fb_post_id": "1043162839046116_1447998510708024",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Cinema",
-    "image_url": "https://images.pexels.com/photos/27817790/pexels-photo-27817790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-07-17T21:57:12.554535+00:00"
-  },
-  {
-    "post_id": "post_20260718_034917",
-    "fb_post_id": "1043162839046116_1448174224023786",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/14lsFs1GrnU/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-18T03:49:44.374093+00:00"
-  },
-  {
     "post_id": "post_20260718_141731",
     "fb_post_id": "1043162839046116_1448554193985789",
     "ig_post_id": null,
@@ -2421,5 +2397,17 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-10-26T15:36:16.938707+00:00"
+  },
+  {
+    "post_id": "post_20261026_185721",
+    "fb_post_id": "1043162839046116_1542233477951193",
+    "ig_post_id": "18137373436725528",
+    "threads_post_id": "18631809079018392",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Octavia",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG/330px-Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "status": "published",
+    "executed_at": "2026-10-26T18:58:02.915292+00:00"
   }
 ]
