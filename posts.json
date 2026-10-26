@@ -1283,5 +1283,26 @@
     "youtube_post_url": null,
     "published_at": "2026-10-26T18:58:02.915292+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261026_211847",
+    "status": "published",
+    "created_at": "2026-10-26T21:18:47.575522+00:00",
+    "post_type": "youtube",
+    "topic": "Fito Páez",
+    "text": "El pánico escénico puede ser implacable, pero Fito Páez transforma esa vulnerabilidad en una actuación brillante. Verlo en el Tiny Desk, con su piano y una silla, es una lección de cómo reírse de uno mismo para conectar más profundamente. No solo interpreta temas como “El gordo” o “El amor después del amor”; muestra la grieta humana detrás del mito. La cercanía que impone la cámara de NPR permite escuchar cada matiz de su voz, sin la capa de una producción masiva. Es un recordatorio de que el rock en español no siempre necesita bombos y platillos para ser impactante; a veces basta un piano, una silla y la honestidad de quien entiende que la eternidad se mide en segundos de silencio. Este video es más una confesión que un discurso. ¿Te animas a escucharlo de nuevo? https://www.youtube.com/watch?v=3MH37M3wPas\n\nLo Mejor del Rock en Español les presenta: #FitoPaez\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FitoPaez\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "e921918de5b5cc484c85c65bc14e70b691cbf4a53b7575ce2c0e4fe63fcc083a",
+    "image_query": "Fito Paez Argentina rock piano concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=3MH37M3wPas",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1542319134609294",
+    "ig_post_id": "18095884499656352",
+    "threads_post_id": "18195055114392362",
+    "youtube_post_url": null,
+    "published_at": "2026-10-26T21:19:20.966935+00:00",
+    "error": null
   }
 ]

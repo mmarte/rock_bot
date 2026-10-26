@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260718_141731",
-    "fb_post_id": "1043162839046116_1448554193985789",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Los Rabanes",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
-    "status": "published",
-    "executed_at": "2026-07-18T14:18:01.646260+00:00"
-  },
-  {
     "post_id": "post_20260718_175404",
     "fb_post_id": "1043162839046116_1448694373971771",
     "ig_post_id": null,
@@ -2409,5 +2397,17 @@
     "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG/330px-Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "status": "published",
     "executed_at": "2026-10-26T18:58:02.915292+00:00"
+  },
+  {
+    "post_id": "post_20261026_211847",
+    "fb_post_id": "1043162839046116_1542319134609294",
+    "ig_post_id": "18095884499656352",
+    "threads_post_id": "18195055114392362",
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Fito Páez",
+    "image_url": "https://img.youtube.com/vi/3MH37M3wPas/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-10-26T21:19:20.966935+00:00"
   }
 ]

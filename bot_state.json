@@ -1,6 +1,7 @@
 {
   "used_bands": [
-    "Octavia"
+    "Octavia",
+    "Fito Páez"
   ],
   "used_poll_indices": [
     0,
@@ -15,9 +16,9 @@
     10
   ],
   "original_type_index": 6,
-  "last_updated": "2026-10-26T18:59:05.547376+00:00",
+  "last_updated": "2026-10-26T21:19:42.220728+00:00",
   "post_type_index": 10,
-  "total_posts": 509,
+  "total_posts": 510,
   "used_event_indices": [
     12,
     11,
@@ -25,7 +26,7 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -47,7 +48,9 @@
     "café tacvba|cover",
     "maná|cover",
     "octavia|original",
-    "octavia|original"
+    "octavia|original",
+    "fito páez|youtube",
+    "fito páez|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -69,9 +72,11 @@
     "9533832341e6ab128eeaecf81011ce6186965c114963095c2267da60e75dc9bc",
     "2da7742768178125939eef3b79c090c1eb02ae5a8bd523c578521cec1eb83539",
     "07e295735767fb947f5c412dafdca6d70a3dca91be9d191dc6c8d11a4fd330b0",
-    "07e295735767fb947f5c412dafdca6d70a3dca91be9d191dc6c8d11a4fd330b0"
+    "07e295735767fb947f5c412dafdca6d70a3dca91be9d191dc6c8d11a4fd330b0",
+    "e921918de5b5cc484c85c65bc14e70b691cbf4a53b7575ce2c0e4fe63fcc083a",
+    "e921918de5b5cc484c85c65bc14e70b691cbf4a53b7575ce2c0e4fe63fcc083a"
   ],
-  "last_published_id": "post_20261026_185721",
-  "last_published_at": "2026-10-26T18:58:02.915292+00:00",
-  "last_published_topic": "Octavia"
+  "last_published_id": "post_20261026_211847",
+  "last_published_at": "2026-10-26T21:19:20.966935+00:00",
+  "last_published_topic": "Fito Páez"
 }
