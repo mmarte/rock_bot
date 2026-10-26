@@ -398,12 +398,29 @@ def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
             fps         = 30,
             codec       = "libx264",
             audio_codec = "aac",
+            audio_bitrate = "128k",
             bitrate     = "4000k",
             verbose     = False,
             logger      = None,
+            # Instagram ProcessingFailedError fix attempt 2026-10-26:
+            # IG requires H.264 in yuv420p (not yuv444/HDR) and AAC
+            # ~128 kbps. MoviePy/ffmpeg defaults can vary by source
+            # clip, so force both explicitly. Also log ffprobe streams
+            # after writing, so the next run's log shows the exact
+            # codec/pixel-format/sample-rate IG received.
+            ffmpeg_params = ["-pix_fmt", "yuv420p"],
         )
         video.close()
         narration_audio.close()
+        try:
+            import subprocess
+            probe = subprocess.run(
+                ["ffprobe", "-hide_banner", output_path],
+                capture_output=True, text=True, timeout=30,
+            )
+            print(f"  Reel ffprobe:\n{probe.stderr.strip()}")
+        except Exception as e:
+            print(f"  ffprobe skipped: {e}")
 
         # Clean up temp clips after MoviePy has fully released file handles
         shutil.rmtree(clips_dir, ignore_errors=True)
