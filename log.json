@@ -2426,5 +2426,22 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-10-26T22:15:14.918404+00:00"
+  },
+  {
+    "post_id": "reel_20261026",
+    "post_type": "reel",
+    "reel_path": "reels/reel_20261026.mp4",
+    "fb_reel_id": "1101802322641497",
+    "ig_reel_id": "18221974384344283",
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": null,
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-10-26T22:32:14.146385+00:00"
   }
 ]
