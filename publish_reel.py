@@ -346,6 +346,7 @@ def _publish_instagram_reel_once(video_path: Path, caption: str, upload_mode: st
 
     file_size = video_path.stat().st_size
     upload_url = f"https://rupload.facebook.com/ig-api-upload/{GRAPH_VERSION}/{container_id}"
+    upload_error = None
     try:
         if upload_mode == "chunked":
             # 5 MB chunks, advancing offset. If the server returns an
@@ -373,14 +374,24 @@ def _publish_instagram_reel_once(video_path: Path, caption: str, upload_mode: st
                     except Exception:
                         upj = {"success": up.ok, "status": up.status_code, "raw": up.text[:500]}
                     if not up.ok or (isinstance(upj, dict) and upj.get("success") is False):
-                        return PublishResult(
-                            platform="instagram_reel", ok=False,
-                            error=f"Chunked upload failed at offset {sent}: {upj} (container status: {_ig_container_status(graph_base, container_id, token)})")
+                        # 2026-10-26 22:15 UTC: all three upload methods
+                        # returned ProcessingFailedError, yet the
+                        # container status was IN_PROGRESS, not ERROR,
+                        # after every one. That means the rupload
+                        # response alone is not the final verdict —
+                        # Meta may still be processing the uploaded
+                        # bytes. Do NOT abandon the container here;
+                        # fall through to the poll loop below, which
+                        # will publish it if it reaches FINISHED, or
+                        # fail it properly if it turns ERROR/EXPIRED.
+                        print(f"  Instagram Reel: chunked upload reported failure at offset {sent}: {upj}, polling container instead of abandoning it...")
+                        upload_error = f"Chunked upload failed at offset {sent}: {upj}"
+                        break
                     if isinstance(upj, dict) and isinstance(upj.get("offset"), int):
                         sent = upj["offset"]
                     else:
                         sent += len(chunk)
-            if sent < file_size:
+            if sent < file_size and upload_error is None:
                 return PublishResult(platform="instagram_reel", ok=False, error=f"Chunked upload incomplete: sent {sent} of {file_size} bytes")
         else:
             with open(video_path, "rb") as f:
@@ -400,9 +411,10 @@ def _publish_instagram_reel_once(video_path: Path, caption: str, upload_mode: st
             except Exception:
                 upj = {"success": up.ok, "status": up.status_code, "raw": up.text[:500]}
             if not up.ok or (isinstance(upj, dict) and upj.get("success") is False):
-                return PublishResult(
-                    platform="instagram_reel", ok=False,
-                    error=f"Upload failed: {upj} (container status: {_ig_container_status(graph_base, container_id, token)})")
+                # Same IN_PROGRESS clue as chunked above: poll the
+                # container instead of abandoning it on this error.
+                print(f"  Instagram Reel: upload reported failure: {upj}, polling container instead of abandoning it...")
+                upload_error = f"Upload failed: {upj}"
     except Exception as e:
         return PublishResult(platform="instagram_reel", ok=False, error=f"Upload exception: {e}")
 
@@ -420,11 +432,11 @@ def _publish_instagram_reel_once(video_path: Path, caption: str, upload_mode: st
         if status == "FINISHED":
             break
         if status in ("ERROR", "EXPIRED"):
-            return PublishResult(platform="instagram_reel", ok=False, error=f"Container status: {status}")
+            return PublishResult(platform="instagram_reel", ok=False, error=f"Container status: {status} (earlier upload report: {upload_error})")
         time.sleep(10)
 
     if status != "FINISHED":
-        return PublishResult(platform="instagram_reel", ok=False, error=f"Timed out waiting for FINISHED (last={status})")
+        return PublishResult(platform="instagram_reel", ok=False, error=f"Timed out waiting for FINISHED (last={status}, earlier upload report: {upload_error})")
 
     pub = _post(
         f"{graph_base}/{IG_USER_ID}/media_publish",

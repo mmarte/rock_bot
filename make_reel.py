@@ -322,8 +322,15 @@ def download_youtube_video(video_url: str, output_path: str) -> bool:
     # you're not a bot" check from GitHub Actions IPs, so the download
     # failed and the reel fell back to Pexels. Android client is far
     # less likely to hit that check, and needs no cookies.
-    # 2026-10-26: android/web also blocked from CI IPs. Cookies (see
-    # _youtube_cookies_path) are the remaining standard fix.
+    # 2026-10-26: android/web also blocked from CI IPs, and cookies
+    # alone (22:15 UTC run, "Using YouTube cookies from secret") also
+    # did NOT unblock CI downloads. YouTube now also enforces a PO
+    # token for many clients, which cookies do not provide. Adding
+    # ios/tv clients as well is the next cheap test: yt-dlp tries
+    # clients in order, and ios/tv have historically needed less
+    # verification. If this still fails, the remaining CI options
+    # are a PO-token provider or a residential proxy, both heavy,
+    # or accepting Pexels stock — not another client shuffle.
     ydl_opts = {
         "format": "best[ext=mp4]+bestaudio/best",
         "outtmpl": output_path,
@@ -331,7 +338,7 @@ def download_youtube_video(video_url: str, output_path: str) -> bool:
         "no_warnings": True,
         "noplaylist": True,
         "merge_output_format": "mp4",
-        "extractor_args": {"youtube": {"player_client": ["android", "web"]}},
+        "extractor_args": {"youtube": {"player_client": ["android", "ios", "web", "tv"]}},
     }
     cookies_path = _youtube_cookies_path()
     if cookies_path:
