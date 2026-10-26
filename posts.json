@@ -1239,5 +1239,28 @@
     "youtube_post_url": null,
     "published_at": null,
     "error": "Duplicate of post_20260916_233550 — not republished"
+  },
+  {
+    "id": "post_20261026_053252",
+    "status": "skipped_duplicate",
+    "created_at": "2026-10-26T05:32:52.921820+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "¿Qué ocurre cuando dos bandas que alguna vez fueron rivales terminan compartiendo el mismo escenario? En 2005, durante un concierto en México, Caifanes (reunidos) y Maná interpretaron juntos \"Afuera\". No fue sólo un bis, fue una declaración de principios. Mientras Caifanes aportaba la fuerza del álbum \"Venga\", los hermanos Arriola añadían su característico rock. El resultado no diluyó el himno, sino que le dio una nueva energía. Se percibió la tensión de su historia, pero también un respeto mutuo inesperado. La versión en vivo capturó esa crudeza, con el público cantando junto a ambas bandas. La guitarra de Maná y los coros de Caifanes crearon una capa sonora única que difícilmente se reproduce en estudio. ¿Cuál versión prefieres: la original de estudio con su aspereza o esta fusión en vivo donde dos íconos se unen?\n\nhttps://www.youtube.com/watch?v=QZjyWpX46ss\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "2da7742768178125939eef3b79c090c1eb02ae5a8bd523c578521cec1eb83539",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "2005",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=QZjyWpX46ss",
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20260915_195819 — not republished"
   }
 ]
