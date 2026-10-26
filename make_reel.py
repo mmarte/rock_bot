@@ -252,6 +252,61 @@ def download_file(url: str, path: str) -> bool:
         return False
 
 
+_TEMP_COOKIES_PATH = None
+_COOKIES_LOGGED = False
+
+
+def _youtube_cookies_path():
+    """Return a cookies.txt path for yt-dlp, or None.
+
+    2026-10-26: android/web player clients alone do NOT beat YouTube's
+    bot check from GitHub Actions runner IPs (all 10 videos blocked on
+    2026-10-26, three runs in a row). The yt-dlp-recommended fix is
+    cookies from a real browser session. Two ways to supply them,
+    never in chat and never logged:
+      - YOUTUBE_COOKIES_FILE: path to a cookies.txt file on disk.
+      - YOUTUBE_COOKIES: the cookies.txt content itself, passed as a
+        GitHub Actions secret into the workflow env. It is written to
+        a temp file here (never committed, never printed) and deleted
+        after the YouTube clip loop finishes.
+    Without either, downloads will keep failing from CI and the reel
+    falls back to Pexels stock, which is expected, not a code bug.
+    """
+    global _TEMP_COOKIES_PATH, _COOKIES_LOGGED
+    cookies_file = os.getenv("YOUTUBE_COOKIES_FILE", "").strip()
+    if cookies_file and os.path.exists(cookies_file):
+        if not _COOKIES_LOGGED:
+            print("  Using YouTube cookies from file (values never logged).")
+            _COOKIES_LOGGED = True
+        return cookies_file
+    cookies_content = os.getenv("YOUTUBE_COOKIES", "")
+    if cookies_content.strip():
+        if _TEMP_COOKIES_PATH is None:
+            import tempfile
+            fd, tmp = tempfile.mkstemp(prefix="youtube_cookies_", suffix=".txt")
+            with os.fdopen(fd, "w", encoding="utf-8") as f:
+                f.write(cookies_content)
+            _TEMP_COOKIES_PATH = tmp
+        if not _COOKIES_LOGGED:
+            print("  Using YouTube cookies from secret (values never logged).")
+            _COOKIES_LOGGED = True
+        return _TEMP_COOKIES_PATH
+    if not _COOKIES_LOGGED:
+        print("  No YouTube cookies configured — CI runner IPs are bot-blocked, expect Pexels fallback.")
+        _COOKIES_LOGGED = True
+    return None
+
+
+def _cleanup_youtube_cookies():
+    global _TEMP_COOKIES_PATH
+    if _TEMP_COOKIES_PATH and os.path.exists(_TEMP_COOKIES_PATH):
+        try:
+            os.remove(_TEMP_COOKIES_PATH)
+        except Exception:
+            pass
+    _TEMP_COOKIES_PATH = None
+
+
 def download_youtube_video(video_url: str, output_path: str) -> bool:
     if get_video_for_topic is None:
         print("  YouTube download helper unavailable.")
@@ -267,6 +322,8 @@ def download_youtube_video(video_url: str, output_path: str) -> bool:
     # you're not a bot" check from GitHub Actions IPs, so the download
     # failed and the reel fell back to Pexels. Android client is far
     # less likely to hit that check, and needs no cookies.
+    # 2026-10-26: android/web also blocked from CI IPs. Cookies (see
+    # _youtube_cookies_path) are the remaining standard fix.
     ydl_opts = {
         "format": "best[ext=mp4]+bestaudio/best",
         "outtmpl": output_path,
@@ -276,6 +333,9 @@ def download_youtube_video(video_url: str, output_path: str) -> bool:
         "merge_output_format": "mp4",
         "extractor_args": {"youtube": {"player_client": ["android", "web"]}},
     }
+    cookies_path = _youtube_cookies_path()
+    if cookies_path:
+        ydl_opts["cookiefile"] = cookies_path
     try:
         with YoutubeDL(ydl_opts) as ydl:
             ydl.download([video_url])
@@ -306,6 +366,10 @@ def get_youtube_clips(topic: str, count: int = 2) -> list:
             clips.append(str(filename))
         else:
             continue
+    # Temp cookies file (from YOUTUBE_COOKIES secret content) must not
+    # linger on disk after the run. A user-supplied YOUTUBE_COOKIES_FILE
+    # path is never deleted — only the temp file we created is.
+    _cleanup_youtube_cookies()
     return clips
 
 

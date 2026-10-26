@@ -205,24 +205,118 @@ def publish_facebook_reel(video_path: Path, caption: str) -> PublishResult:
 
 
 def publish_instagram_reel(video_path: Path, caption: str) -> PublishResult:
-    """Retry wrapper: a ProcessingFailedError on the resumable upload
-    (seen 2026-10-25) is not always file-fatal — a fresh container on a
-    second attempt can succeed. Retry once on that error only, so a
-    genuine file rejection still fails fast instead of looping.
+    """IG Reel publish, with three different attempts, not three copies
+    of the same attempt.
+
+    Ruled out by 2026-10-26 (three runs, same error every time):
+      - format: ffprobe proved h264 High, yuv420p, 1080x1920, 30 fps,
+        aac LC 44100 Hz stereo 129 kb/s, 52-57s — all in spec.
+      - transient container: fresh-container retry also failed twice.
+      - Content-Type: sending application/octet-stream also failed.
+    So the next run tries, in order, each with a fresh container, and
+    only the attempt that reaches FINISHED calls media_publish, so a
+    failed attempt can never publish a duplicate:
+      1) single POST, original file (the method that worked once, on
+         2026-10-25 21:20 UTC, and has failed ever since).
+      2) re-encoded file: ffmpeg H.264 Main profile, level 4.0,
+         yuv420p, +faststart (moov atom at the front, required by
+         some IG processing paths), AAC 128k, single POST.
+      3) chunked upload: original file in 5 MB chunks with advancing
+         offset headers, instead of one 26 MB POST.
+    If all three fail, the error summary says so plainly, and the
+    next diagnostic is a manual upload of that exact mp4 in the
+    Instagram app / an account-status check, not another code guess.
     """
-    result = _publish_instagram_reel_once(video_path, caption)
-    if not result.ok and result.error and "ProcessingFailedError" in result.error:
-        print("  Instagram Reel: upload ProcessingFailedError, retrying with a fresh container...")
-        time.sleep(30)
-        result = _publish_instagram_reel_once(video_path, caption)
-    return result
+    attempts = [
+        ("single, original file", video_path, "single", False),
+    ]
+    reencoded = _reencode_for_instagram(video_path)
+    if reencoded is not None:
+        attempts.append(("single, re-encoded (Main/faststart)", reencoded, "single", True))
+    attempts.append(("chunked, original file", video_path, "chunked", False))
+
+    last = None
+    for label, path, mode, is_temp in attempts:
+        print(f"  Instagram Reel: attempt — {label}...")
+        result = _publish_instagram_reel_once(path, caption, upload_mode=mode)
+        if is_temp:
+            try:
+                os.remove(path)
+            except Exception:
+                pass
+        if result.ok:
+            return result
+        last = result
+        print(f"  Instagram Reel: attempt failed — {label}: {result.error}")
+        time.sleep(10)
+    return last if last is not None else PublishResult(
+        platform="instagram_reel", ok=False, error="No IG attempt ran")
 
 
-def _publish_instagram_reel_once(video_path: Path, caption: str) -> PublishResult:
+def _reencode_for_instagram(video_path: Path):
+    """Re-encode a reel for IG processing: Main profile + faststart.
+
+    Returns the temp file path, or None if ffmpeg is unavailable or
+    the re-encode fails. The caller deletes the temp file.
+    """
+    import shutil
+    import subprocess
+    import tempfile
+    if shutil.which("ffmpeg") is None:
+        print("  Instagram Reel: ffmpeg not available, skipping re-encode attempt.")
+        return None
+    fd, tmp = tempfile.mkstemp(prefix="ig_reel_", suffix=".mp4")
+    os.close(fd)
+    tmp_path = Path(tmp)
+    try:
+        r = subprocess.run(
+            ["ffmpeg", "-y", "-i", str(video_path),
+             "-c:v", "libx264", "-profile:v", "main", "-level", "4.0",
+             "-pix_fmt", "yuv420p", "-r", "30",
+             "-movflags", "+faststart",
+             "-c:a", "aac", "-b:a", "128k", "-ar", "44100",
+             str(tmp_path)],
+            capture_output=True, text=True, timeout=300,
+        )
+        if r.returncode != 0 or not tmp_path.exists() or tmp_path.stat().st_size == 0:
+            print(f"  Instagram Reel: re-encode failed, skipping that attempt: {r.stderr[-300:]}")
+            try:
+                tmp_path.unlink()
+            except Exception:
+                pass
+            return None
+        print(f"  Instagram Reel: re-encoded file ready ({tmp_path.stat().st_size} bytes).")
+        return tmp_path
+    except Exception as e:
+        print(f"  Instagram Reel: re-encode exception, skipping that attempt: {e}")
+        try:
+            tmp_path.unlink()
+        except Exception:
+            pass
+        return None
+
+
+def _ig_container_status(graph_base: str, container_id: str, token: str) -> str:
+    """Best-effort container status after an upload failure, for diagnosis."""
+    try:
+        st = _get(
+            f"{graph_base}/{container_id}",
+            params={"fields": "status_code", "access_token": token},
+            timeout_s=30,
+        )
+        if "error" in st:
+            return f"status check error: {st['error'].get('message', 'unknown')}"
+        return str(st.get("status_code", "unknown"))
+    except Exception as e:
+        return f"status check exception: {e}"
+
+
+def _publish_instagram_reel_once(video_path: Path, caption: str, upload_mode: str = "single") -> PublishResult:
     """
     Instagram Reels publishing using resumable upload:
       1) Create container: POST /{ig-user-id}/media with media_type=REELS, upload_type=resumable
       2) Upload bytes: POST https://rupload.facebook.com/ig-api-upload/{api-version}/{container-id}
+         (single POST, or 5 MB chunks if upload_mode="chunked")
       3) Poll: GET /{container-id}?fields=status_code until FINISHED
       4) Publish: POST /{ig-user-id}/media_publish
     """
@@ -253,28 +347,62 @@ def _publish_instagram_reel_once(video_path: Path, caption: str) -> PublishResul
     file_size = video_path.stat().st_size
     upload_url = f"https://rupload.facebook.com/ig-api-upload/{GRAPH_VERSION}/{container_id}"
     try:
-        with open(video_path, "rb") as f:
-            up = requests.post(
-                upload_url,
-                headers={
-                    "Authorization": f"OAuth {token}",
-                    "offset": "0",
-                    "file_size": str(file_size),
-                    # 2026-10-26: IG rupload examples set this explicitly.
-                    # Previously no Content-Type was sent at all, which
-                    # is a possible cause of ProcessingFailedError even
-                    # when the file itself (ffprobe-verified) is valid.
-                    "Content-Type": "application/octet-stream",
-                },
-                data=f,
-                timeout=300,
-            )
-        try:
-            upj = up.json()
-        except Exception:
-            upj = {"success": up.ok, "status": up.status_code, "raw": up.text[:500]}
-        if not up.ok or (isinstance(upj, dict) and upj.get("success") is False):
-            return PublishResult(platform="instagram_reel", ok=False, error=f"Upload failed: {upj}")
+        if upload_mode == "chunked":
+            # 5 MB chunks, advancing offset. If the server returns an
+            # offset, trust it (resume position); otherwise advance by
+            # the chunk length we just sent.
+            sent = 0
+            with open(video_path, "rb") as f:
+                while sent < file_size:
+                    chunk = f.read(5 * 1024 * 1024)
+                    if not chunk:
+                        break
+                    up = requests.post(
+                        upload_url,
+                        headers={
+                            "Authorization": f"OAuth {token}",
+                            "offset": str(sent),
+                            "file_size": str(file_size),
+                            "Content-Type": "application/octet-stream",
+                        },
+                        data=chunk,
+                        timeout=300,
+                    )
+                    try:
+                        upj = up.json()
+                    except Exception:
+                        upj = {"success": up.ok, "status": up.status_code, "raw": up.text[:500]}
+                    if not up.ok or (isinstance(upj, dict) and upj.get("success") is False):
+                        return PublishResult(
+                            platform="instagram_reel", ok=False,
+                            error=f"Chunked upload failed at offset {sent}: {upj} (container status: {_ig_container_status(graph_base, container_id, token)})")
+                    if isinstance(upj, dict) and isinstance(upj.get("offset"), int):
+                        sent = upj["offset"]
+                    else:
+                        sent += len(chunk)
+            if sent < file_size:
+                return PublishResult(platform="instagram_reel", ok=False, error=f"Chunked upload incomplete: sent {sent} of {file_size} bytes")
+        else:
+            with open(video_path, "rb") as f:
+                up = requests.post(
+                    upload_url,
+                    headers={
+                        "Authorization": f"OAuth {token}",
+                        "offset": "0",
+                        "file_size": str(file_size),
+                        "Content-Type": "application/octet-stream",
+                    },
+                    data=f,
+                    timeout=300,
+                )
+            try:
+                upj = up.json()
+            except Exception:
+                upj = {"success": up.ok, "status": up.status_code, "raw": up.text[:500]}
+            if not up.ok or (isinstance(upj, dict) and upj.get("success") is False):
+                return PublishResult(
+                    platform="instagram_reel", ok=False,
+                    error=f"Upload failed: {upj} (container status: {_ig_container_status(graph_base, container_id, token)})")
     except Exception as e:
         return PublishResult(platform="instagram_reel", ok=False, error=f"Upload exception: {e}")
 
