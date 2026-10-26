@@ -2409,5 +2409,22 @@
     "image_url": "https://img.youtube.com/vi/3MH37M3wPas/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-10-26T21:19:20.966935+00:00"
+  },
+  {
+    "post_id": "reel_20261026",
+    "post_type": "reel",
+    "reel_path": "reels/reel_20261026.mp4",
+    "fb_reel_id": "1286207040313415",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "Chunked upload failed at offset 26214400: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} (container status: IN_PROGRESS)",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-10-26T22:15:14.918404+00:00"
   }
 ]
