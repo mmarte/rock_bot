@@ -260,6 +260,11 @@ def _publish_instagram_reel_once(video_path: Path, caption: str) -> PublishResul
                     "Authorization": f"OAuth {token}",
                     "offset": "0",
                     "file_size": str(file_size),
+                    # 2026-10-26: IG rupload examples set this explicitly.
+                    # Previously no Content-Type was sent at all, which
+                    # is a possible cause of ProcessingFailedError even
+                    # when the file itself (ffprobe-verified) is valid.
+                    "Content-Type": "application/octet-stream",
                 },
                 data=f,
                 timeout=300,
