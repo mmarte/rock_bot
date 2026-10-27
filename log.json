@@ -1,29 +1,5 @@
 [
   {
-    "post_id": "post_20260719_175548",
-    "fb_post_id": "1043162839046116_1449485800559295",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/YuF4qnfGmfs/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-19T17:56:15.677508+00:00"
-  },
-  {
-    "post_id": "post_20260719_215602",
-    "fb_post_id": "1043162839046116_1449612077213334",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Radio Futura",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Radio_Futura.jpg/330px-Radio_Futura.jpg",
-    "status": "published",
-    "executed_at": "2026-07-19T21:56:29.175091+00:00"
-  },
-  {
     "post_id": "post_20260720_043122",
     "fb_post_id": "1043162839046116_1449821820525693",
     "ig_post_id": null,
@@ -2437,5 +2413,17 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-10-27T02:25:37.056771+00:00"
+  },
+  {
+    "post_id": "post_20261027_054744",
+    "fb_post_id": "1043162839046116_1542662771241597",
+    "ig_post_id": "18117266396099226",
+    "threads_post_id": "18094813901662778",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Líbido",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
+    "status": "published",
+    "executed_at": "2026-10-27T05:48:24.719937+00:00"
   }
 ]

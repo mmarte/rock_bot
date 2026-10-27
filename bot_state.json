@@ -3,10 +3,11 @@
     "Octavia",
     "Fito Páez",
     "Habana Abierta",
-    "La Renga"
+    "La Renga",
+    "Héroes del Silencio",
+    "Líbido"
   ],
   "used_poll_indices": [
-    0,
     9,
     12,
     13,
@@ -15,12 +16,13 @@
     15,
     7,
     6,
-    10
+    10,
+    3
   ],
   "original_type_index": 7,
-  "last_updated": "2026-10-27T00:17:56.283341+00:00",
+  "last_updated": "2026-10-27T05:49:03.638253+00:00",
   "post_type_index": 10,
-  "total_posts": 511,
+  "total_posts": 512,
   "used_event_indices": [
     12,
     11,
@@ -28,7 +30,7 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -54,7 +56,9 @@
     "fito páez|youtube",
     "fito páez|youtube",
     "la renga|youtube",
-    "la renga|youtube"
+    "la renga|youtube",
+    "líbido|poll",
+    "líbido|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -80,9 +84,11 @@
     "e921918de5b5cc484c85c65bc14e70b691cbf4a53b7575ce2c0e4fe63fcc083a",
     "e921918de5b5cc484c85c65bc14e70b691cbf4a53b7575ce2c0e4fe63fcc083a",
     "9cf415af15d313252ace4e4f3532ac81521021094100ac40c3d06ea43105aa37",
-    "9cf415af15d313252ace4e4f3532ac81521021094100ac40c3d06ea43105aa37"
+    "9cf415af15d313252ace4e4f3532ac81521021094100ac40c3d06ea43105aa37",
+    "f675927794ed92bfac423ef2a4d3ed00d66007a2b1a3aa1224f4b48f8a82c3db",
+    "f675927794ed92bfac423ef2a4d3ed00d66007a2b1a3aa1224f4b48f8a82c3db"
   ],
-  "last_published_id": "post_20261027_001642",
-  "last_published_at": "2026-10-27T00:17:22.951991+00:00",
-  "last_published_topic": "La Renga"
+  "last_published_id": "post_20261027_054744",
+  "last_published_at": "2026-10-27T05:48:24.719937+00:00",
+  "last_published_topic": "Líbido"
 }
