@@ -1,7 +1,9 @@
 {
   "used_bands": [
     "Octavia",
-    "Fito Páez"
+    "Fito Páez",
+    "Habana Abierta",
+    "La Renga"
   ],
   "used_poll_indices": [
     0,
@@ -15,10 +17,10 @@
     6,
     10
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-10-26T21:19:42.220728+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-10-27T00:17:56.283341+00:00",
   "post_type_index": 10,
-  "total_posts": 510,
+  "total_posts": 511,
   "used_event_indices": [
     12,
     11,
@@ -50,7 +52,9 @@
     "octavia|original",
     "octavia|original",
     "fito páez|youtube",
-    "fito páez|youtube"
+    "fito páez|youtube",
+    "la renga|youtube",
+    "la renga|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -74,9 +78,11 @@
     "07e295735767fb947f5c412dafdca6d70a3dca91be9d191dc6c8d11a4fd330b0",
     "07e295735767fb947f5c412dafdca6d70a3dca91be9d191dc6c8d11a4fd330b0",
     "e921918de5b5cc484c85c65bc14e70b691cbf4a53b7575ce2c0e4fe63fcc083a",
-    "e921918de5b5cc484c85c65bc14e70b691cbf4a53b7575ce2c0e4fe63fcc083a"
+    "e921918de5b5cc484c85c65bc14e70b691cbf4a53b7575ce2c0e4fe63fcc083a",
+    "9cf415af15d313252ace4e4f3532ac81521021094100ac40c3d06ea43105aa37",
+    "9cf415af15d313252ace4e4f3532ac81521021094100ac40c3d06ea43105aa37"
   ],
-  "last_published_id": "post_20261026_211847",
-  "last_published_at": "2026-10-26T21:19:20.966935+00:00",
-  "last_published_topic": "Fito Páez"
+  "last_published_id": "post_20261027_001642",
+  "last_published_at": "2026-10-27T00:17:22.951991+00:00",
+  "last_published_topic": "La Renga"
 }

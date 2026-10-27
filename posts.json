@@ -1304,5 +1304,26 @@
     "youtube_post_url": null,
     "published_at": "2026-10-26T21:19:20.966935+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261027_001642",
+    "status": "published",
+    "created_at": "2026-10-27T00:16:42.489819+00:00",
+    "post_type": "youtube",
+    "topic": "La Renga",
+    "text": "El concierto de 2001 en el Estadio de Huracán muestra la crudeza característica de La Renga en la época del álbum *Madre*, que introdujo letras más introspectivas sin perder la potencia que los hizo legendarios. Desde la primera nota de \"El Final es donde Partí\" se percibe la conexión entre Chizzo y el público porteño, y el momento más emotivo llega cuando interpretan \"Cuando Estés Acá\"; la voz rasgada de Chizzo se funde con el canto masivo de los asistentes, creando una ola de sonido que recorre el estadio. El solo de guitarra, con su fraseo melódico y agresivo, ilustra por qué muchos fans consideran esa etapa como muy auténtica. Ver este video es como estar allí, sintiendo la vibra del barrio, el polvo del escenario y la pasión que solo La Renga puede generar. ¿Cuál es tu recuerdo favorito de ese show?\n\nhttps://www.youtube.com/watch?v=uHuAl8GZMt8\n\nLo Mejor del Rock en Español les presenta: #LaRenga\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaRenga\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "9cf415af15d313252ace4e4f3532ac81521021094100ac40c3d06ea43105aa37",
+    "image_query": "La Renga Argentina rock concert",
+    "extra_topics": [],
+    "post_year": "2001",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=uHuAl8GZMt8",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1542423271265547",
+    "ig_post_id": "17919507027456387",
+    "threads_post_id": "17874182094602273",
+    "youtube_post_url": null,
+    "published_at": "2026-10-27T00:17:22.951991+00:00",
+    "error": null
   }
 ]

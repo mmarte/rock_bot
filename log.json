@@ -1,41 +1,5 @@
 [
   {
-    "post_id": "post_20260718_175404",
-    "fb_post_id": "1043162839046116_1448694373971771",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Kraken",
-    "image_url": "https://img.youtube.com/vi/kwGPn392UCg/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-18T17:54:31.910998+00:00"
-  },
-  {
-    "post_id": "post_20260719_041728",
-    "fb_post_id": "1043162839046116_1449018483939360",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/Fc0aeCTtdiA/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-19T04:17:55.810984+00:00"
-  },
-  {
-    "post_id": "post_20260719_142159",
-    "fb_post_id": "1043162839046116_1449344017240140",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Divididos",
-    "image_url": "https://images.pexels.com/photos/15603601/pexels-photo-15603601.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-07-19T14:22:27.036797+00:00"
-  },
-  {
     "post_id": "post_20260719_175548",
     "fb_post_id": "1043162839046116_1449485800559295",
     "ig_post_id": null,
@@ -2443,5 +2407,17 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-10-26T22:32:14.146385+00:00"
+  },
+  {
+    "post_id": "post_20261027_001642",
+    "fb_post_id": "1043162839046116_1542423271265547",
+    "ig_post_id": "17919507027456387",
+    "threads_post_id": "17874182094602273",
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "La Renga",
+    "image_url": "https://img.youtube.com/vi/uHuAl8GZMt8/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-10-27T00:17:22.951991+00:00"
   }
 ]
