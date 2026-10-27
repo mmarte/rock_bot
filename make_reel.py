@@ -263,6 +263,39 @@ def download_file(url: str, path: str) -> bool:
         return False
 
 
+def _add_wikimedia_page(page, photos, sources, seen_urls, count, topic):
+    """Filter one Commons page, download it if usable, append to photos."""
+    info_list = page.get("imageinfo") or []
+    if not info_list:
+        return
+    info = info_list[0]
+    mime = info.get("mime", "")
+    width = info.get("width", 0)
+    height = info.get("height", 0)
+    title = page.get("title", "")
+    low = title.lower()
+    if mime not in ("image/jpeg", "image/png"):
+        return
+    if width < 900 or height < 600:
+        return
+    if any(bad in low for bad in ("logo", "icon", "album cover", "single cover", "signature")):
+        return
+    url = info.get("thumburl") or info.get("url")
+    if not url or url in seen_urls:
+        return
+    seen_urls.add(url)
+    ext = ".jpg" if mime == "image/jpeg" else ".png"
+    slug = "".join(c if c.isalnum() else "_" for c in topic)[:20]
+    local = OUTPUT_DIR / f"photo_{slug}_{len(photos)}{ext}"
+    if download_file(url, str(local)):
+        photos.append(str(local))
+        meta = info.get("extmetadata") or {}
+        lic = (meta.get("LicenseShortName") or {}).get("value", "unknown")
+        artist = (meta.get("Artist") or {}).get("value", "")
+        sources.append(f"{title} | {url} | License: {lic} | Artist: {artist}")
+        print(f"    Photo {len(photos)} OK: {title}")
+
+
 def get_wikimedia_photos(topic: str, count: int = 6, sources_path=None) -> list:
     """Actual photos of the band from Wikimedia Commons (freely licensed).
 
@@ -280,67 +313,90 @@ def get_wikimedia_photos(topic: str, count: int = 6, sources_path=None) -> list:
     photos = []
     sources = []
     seen_urls = set()
+
+    def _get_with_retry(params):
+        # Commons rate-limits (429) — seen 2026-10-26 on a manual check.
+        # Wait and retry twice before giving up on that query, so a
+        # transient 429 does not kill the whole photo path.
+        for attempt in range(3):
+            r = requests.get(
+                "https://commons.wikimedia.org/w/api.php",
+                headers=headers, params=params, timeout=20,
+            )
+            if r.status_code == 429 and attempt < 2:
+                print("  Wikimedia rate-limited (429), waiting 10s and retrying...")
+                import time as _time
+                _time.sleep(10)
+                continue
+            r.raise_for_status()
+            return r.json()
+        return {}
+
+    # First, try the band's Commons category — far more precise than
+    # text search, which for Molotov returned mostly PDFs and an
+    # opening-band photo. Category names vary, so try the plain name
+    # and the "(band)" form.
+    for cat in (topic, f"{topic} (band)"):
+        if len(photos) >= count:
+            break
+        try:
+            data = _get_with_retry({
+                "action": "query", "format": "json", "formatversion": "2",
+                "list": "categorymembers",
+                "cmtitle": f"Category:{cat}",
+                "cmtype": "file", "cmlimit": "50",
+            })
+            members = data.get("query", {}).get("categorymembers", []) or []
+            if not members:
+                continue
+            print(f"  Wikimedia category found: Category:{cat} ({len(members)} files)")
+            # imageinfo in batches, by page title
+            titles = "|".join(m.get("title", "") for m in members if m.get("title"))
+            if not titles:
+                continue
+            info_data = _get_with_retry({
+                "action": "query", "format": "json", "formatversion": "2",
+                "titles": titles, "prop": "imageinfo",
+                "iiprop": "url|size|mime|extmetadata", "iiurlwidth": "1600",
+            })
+            pages = info_data.get("query", {}).get("pages", []) or []
+            # Reuse the same per-page filtering below by treating these
+            # pages as search results.
+            for page in pages:
+                if len(photos) >= count:
+                    break
+                _add_wikimedia_page(page, photos, sources, seen_urls, count, topic)
+        except Exception as e:
+            print(f"  Wikimedia category error ({cat}): {e}")
+            continue
+
     queries = [f"{topic} band", f"{topic} concert", topic]
     for query in queries:
         if len(photos) >= count:
             break
         try:
-            r = requests.get(
-                "https://commons.wikimedia.org/w/api.php",
-                headers=headers,
-                params={
-                    "action": "query",
-                    "format": "json",
-                    "formatversion": "2",
-                    "generator": "search",
-                    "gsrnamespace": "6",
-                    "gsrsearch": query,
-                    "gsrlimit": "20",
-                    "prop": "imageinfo",
-                    "iiprop": "url|size|mime|extmetadata",
-                    "iiurlwidth": "1600",
-                },
-                timeout=20,
-            )
-            r.raise_for_status()
-            pages = r.json().get("query", {}).get("pages", []) or []
+            data = _get_with_retry({
+                "action": "query",
+                "format": "json",
+                "formatversion": "2",
+                "generator": "search",
+                "gsrnamespace": "6",
+                # filetype:bitmap excludes the PDFs text search
+                # returned for Molotov (5 of 8 results were PDFs).
+                "gsrsearch": f"{query} filetype:bitmap",
+                "gsrlimit": "20",
+                "prop": "imageinfo",
+                "iiprop": "url|size|mime|extmetadata",
+                "iiurlwidth": "1600",
+            })
+            pages = data.get("query", {}).get("pages", []) or []
         except Exception as e:
             print(f"  Wikimedia search error ({query}): {e}")
             continue
         for page in pages:
             if len(photos) >= count:
                 break
-            info_list = page.get("imageinfo") or []
-            if not info_list:
-                continue
-            info = info_list[0]
-            mime = info.get("mime", "")
-            width = info.get("width", 0)
-            height = info.get("height", 0)
-            title = page.get("title", "")
-            low = title.lower()
-            if mime not in ("image/jpeg", "image/png"):
-                continue
-            if width < 900 or height < 600:
-                continue
-            if any(bad in low for bad in ("logo", "icon", "album cover", "single cover", "signature")):
-                continue
-            # Prefer the 1600px thumb when available (smaller download,
-            # still plenty for 1080x1920), else the original URL.
-            url = info.get("thumburl") or info.get("url")
-            if not url or url in seen_urls:
-                continue
-            seen_urls.add(url)
-            ext = ".jpg" if mime == "image/jpeg" else ".png"
-            slug = "".join(c if c.isalnum() else "_" for c in topic)[:20]
-            local = OUTPUT_DIR / f"photo_{slug}_{len(photos)}.jpg" if ext == ".jpg" else OUTPUT_DIR / f"photo_{slug}_{len(photos)}.png"
-            if download_file(url, str(local)):
-                photos.append(str(local))
-                meta = info.get("extmetadata") or {}
-                lic = (meta.get("LicenseShortName") or {}).get("value", "unknown")
-                artist = (meta.get("Artist") or {}).get("value", "")
-                sources.append(f"{title} | {url} | License: {lic} | Artist: {artist}")
-                print(f"    Photo {len(photos)} OK: {title}")
+            _add_wikimedia_page(page, photos, sources, seen_urls, count, topic)
     if sources_path and sources:
         try:
             Path(sources_path).write_text("\n".join(sources) + "\n", encoding="utf-8")
