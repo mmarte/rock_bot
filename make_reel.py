@@ -4,14 +4,22 @@ make_reel.py
 Generates a 60-second Facebook/Instagram Reel — 100% free:
   1. Groq  → writes Spanish script
   2. Kokoro → converts to Spanish voiceover (free, local, no API key)
-  3. Pexels → fetches video clips
-  4. MoviePy → assembles 9:16 vertical Reel
+  3. Wikimedia Commons → actual photos of the band (new, 2026-10-26)
+  4. MoviePy → assembles 9:16 vertical Reel (photo slideshow, Ken Burns)
 
 Output: reels/reel_YYYYMMDD.mp4  — download from GitHub Actions artifacts,
         upload to Facebook/Instagram manually (takes ~5 minutes)
 
 Run manually:  python make_reel.py
 Runs via cron: every day at 09:00 UTC (GitHub Actions)
+
+2026-10-26, user decision: STOP chasing YouTube downloads. YouTube
+footage from GitHub Actions IPs is bot-blocked even with cookies and
+ios/tv clients, and Pexels stock is generic, not the band. The reel
+now uses actual band photos first (Wikimedia Commons, freely licensed),
+with Pexels video as fallback only when Commons has too few usable
+photos. YouTube download code stays in the file but is no longer
+called from make_reel().
 """
 
 import os
@@ -241,7 +249,10 @@ def get_pexels_videos(query: str, count: int = 6) -> list:
 
 def download_file(url: str, path: str) -> bool:
     try:
-        r = requests.get(url, timeout=60, stream=True)
+        r = requests.get(
+            url, timeout=60, stream=True,
+            headers={"User-Agent": "rock_bot/1.0 (Lo Mejor del Rock en Espanol)"},
+        )
         r.raise_for_status()
         with open(path, "wb") as f:
             for chunk in r.iter_content(8192):
@@ -250,6 +261,92 @@ def download_file(url: str, path: str) -> bool:
     except Exception as e:
         print(f"  Download error: {e}")
         return False
+
+
+def get_wikimedia_photos(topic: str, count: int = 6, sources_path=None) -> list:
+    """Actual photos of the band from Wikimedia Commons (freely licensed).
+
+    2026-10-26, user decision: stop chasing YouTube downloads, use
+    actual photos instead of Pexels stock or YouTube video. Commons
+    is the legal source for this: its photos are CC-licensed or public
+    domain, unlike official YouTube footage or promotional photos
+    scraped from Google/Instagram, which would be copyrighted.
+    Returns local file paths (downloaded into reels/), plus a sources
+    file with title/URL/license per photo for attribution, when
+    sources_path is given. Returns [] when Commons has too few usable
+    photos, so the caller can fall back to Pexels video.
+    """
+    headers = {"User-Agent": "rock_bot/1.0 (Lo Mejor del Rock en Espanol; https://www.tiktok.com/@mejorrockespanol)"}
+    photos = []
+    sources = []
+    seen_urls = set()
+    queries = [f"{topic} band", f"{topic} concert", topic]
+    for query in queries:
+        if len(photos) >= count:
+            break
+        try:
+            r = requests.get(
+                "https://commons.wikimedia.org/w/api.php",
+                headers=headers,
+                params={
+                    "action": "query",
+                    "format": "json",
+                    "formatversion": "2",
+                    "generator": "search",
+                    "gsrnamespace": "6",
+                    "gsrsearch": query,
+                    "gsrlimit": "20",
+                    "prop": "imageinfo",
+                    "iiprop": "url|size|mime|extmetadata",
+                    "iiurlwidth": "1600",
+                },
+                timeout=20,
+            )
+            r.raise_for_status()
+            pages = r.json().get("query", {}).get("pages", []) or []
+        except Exception as e:
+            print(f"  Wikimedia search error ({query}): {e}")
+            continue
+        for page in pages:
+            if len(photos) >= count:
+                break
+            info_list = page.get("imageinfo") or []
+            if not info_list:
+                continue
+            info = info_list[0]
+            mime = info.get("mime", "")
+            width = info.get("width", 0)
+            height = info.get("height", 0)
+            title = page.get("title", "")
+            low = title.lower()
+            if mime not in ("image/jpeg", "image/png"):
+                continue
+            if width < 900 or height < 600:
+                continue
+            if any(bad in low for bad in ("logo", "icon", "album cover", "single cover", "signature")):
+                continue
+            # Prefer the 1600px thumb when available (smaller download,
+            # still plenty for 1080x1920), else the original URL.
+            url = info.get("thumburl") or info.get("url")
+            if not url or url in seen_urls:
+                continue
+            seen_urls.add(url)
+            ext = ".jpg" if mime == "image/jpeg" else ".png"
+            slug = "".join(c if c.isalnum() else "_" for c in topic)[:20]
+            local = OUTPUT_DIR / f"photo_{slug}_{len(photos)}.jpg" if ext == ".jpg" else OUTPUT_DIR / f"photo_{slug}_{len(photos)}.png"
+            if download_file(url, str(local)):
+                photos.append(str(local))
+                meta = info.get("extmetadata") or {}
+                lic = (meta.get("LicenseShortName") or {}).get("value", "unknown")
+                artist = (meta.get("Artist") or {}).get("value", "")
+                sources.append(f"{title} | {url} | License: {lic} | Artist: {artist}")
+                print(f"    Photo {len(photos)} OK: {title}")
+    if sources_path and sources:
+        try:
+            Path(sources_path).write_text("\n".join(sources) + "\n", encoding="utf-8")
+        except Exception:
+            pass
+    return photos
 
 
 _TEMP_COOKIES_PATH = None
@@ -418,7 +515,21 @@ def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
         clips = []
         for i, path in enumerate(clip_paths):
             try:
-                clip  = VideoFileClip(path)
+                is_photo = path.lower().endswith((".jpg", ".jpeg", ".png", ".webp"))
+                if is_photo:
+                    # Photo slideshow (2026-10-26): actual band photos,
+                    # not video. Static 10s per photo, hard cuts, no
+                    # clip audio — narration carries the reel. Ken Burns
+                    # zoom is intentionally NOT done here: a
+                    # time-varying resize changes frame size mid-clip
+                    # and breaks MoviePy concatenate in CI. A stable
+                    # slideshow is the reliable v1; zoom/crossfade can
+                    # be added later only if this version proves out.
+                    from moviepy.editor import ImageClip
+                    clip = ImageClip(path)
+                    clip = clip.set_duration(10.0)
+                else:
+                    clip = VideoFileClip(path)
                 ratio = clip.w / clip.h
                 tgt   = TARGET_W / TARGET_H
                 if ratio > tgt:
@@ -428,9 +539,10 @@ def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
                     new_h = int(clip.w / tgt)
                     clip  = clip.crop(y1=(clip.h - new_h) // 2, height=new_h)
                 clip = clip.resize((TARGET_W, TARGET_H))
-                clip = clip.subclip(0, min(clip.duration, 10.0))
+                if not is_photo:
+                    clip = clip.subclip(0, min(clip.duration, 10.0))
                 clips.append(clip)
-                print(f"    Clip {i} OK ({clip.duration:.1f}s)")
+                print(f"    Clip {i} OK ({clip.duration:.1f}s, {'photo' if is_photo else 'video'})")
             except Exception as e:
                 print(f"    Clip {i} error: {e}")
 
@@ -537,24 +649,31 @@ def make_reel():
         print(f"  Script: {script_path}")
         return
 
-    # Step 3 — Video clips: prefer actual artist footage and audio via YouTube, fallback to Pexels stock clips.
-    print(f"\n  Step 3: Looking for actual footage and sound for '{topic_data['topic']}'...")
-    video_urls = []
-    if YOUTUBE_API_KEY and get_video_for_topic:
-        # 6 clips x 10s = ~60s, matching the narration, instead of 2 clips
-        # looped over and over. Requires YOUTUBE_API_KEY in the Generate
-        # Reel workflow env (YouTube Data API v3 key, not the OAuth trio).
-        video_urls = get_youtube_clips(topic_data["topic"], count=6)
+    # Step 3 — Visuals, new order 2026-10-26 (user decision):
+    # 1) Actual band photos from Wikimedia Commons (freely licensed).
+    # 2) Pexels stock video, ONLY if Commons has fewer than 3 usable photos.
+    # YouTube downloads are DISABLED here on purpose — CI downloads
+    # are bot-blocked even with cookies and ios/tv clients, and chasing
+    # them further wastes every run. get_youtube_clips() stays in the
+    # file, unused, in case a future PO-token/proxy solution revives it.
+    print(f"\n  Step 3: Looking for actual photos of '{topic_data['topic']}'...")
+    print("  YouTube footage disabled per user decision 2026-10-26 — using photos instead.")
+    sources_path = OUTPUT_DIR / f"reel_{stamp}_photos.txt"
+    video_urls = get_wikimedia_photos(topic_data["topic"], count=6, sources_path=str(sources_path))
+    if len(video_urls) >= 3:
+        print(f"  Found {len(video_urls)} actual band photo(s) on Wikimedia Commons. Sources: {sources_path}")
+    else:
         if video_urls:
-            print(f"  Found {len(video_urls)} actual YouTube clip(s) with artist footage.")
-
-    if not video_urls:
+            print(f"  Only {len(video_urls)} usable Commons photo(s) — falling back to Pexels video, so the reel still assembles.")
+        else:
+            print("  No usable Commons photos — falling back to Pexels video.")
+        video_urls = []
         print(f"  Step 3 fallback: Fetching Pexels clips ('{topic_data['search']}')...")
         video_urls = get_pexels_videos(topic_data["search"], count=6)
         print(f"  Found {len(video_urls)} stock clips.")
 
     if not video_urls:
-        print("  No clips found. Audio saved — edit manually in CapCut.")
+        print("  No photos or clips found. Audio saved — edit manually in CapCut.")
         return
 
     # Step 4 — Assemble
