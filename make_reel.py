@@ -49,8 +49,17 @@ YOUTUBE_API_KEY = (os.getenv("YOUTUBE_API_KEY") or "").strip()
 OUTPUT_DIR = Path("reels")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-# Reel topics — rotated by calendar day so daily runs get variety
-REEL_TOPICS = [
+# Reel topics — RANDOM each run, not a fixed 12-band rotation.
+# 2026-10-26, user correction: the old code rotated 12 bands by
+# calendar day, so every manual run on the same day picked the same
+# band (Oct 26 was always Molotov, which is why all the test reels
+# were Molotov). Text posts already pick randomly from a broad pool
+# (generate.py COUNTRY_BAND_POOLS); reels now do the same.
+# Core 12 keep their hand-written angles/searches. Every other band
+# gets a generic angle/search — Groq still writes a fresh, different
+# script per band per run, so the post itself is never a repeat, even
+# when a band comes up again weeks later.
+CORE_TOPICS = [
     {"topic": "Soda Stereo",              "search": "rock concert argentina crowd",   "angle": "el legado eterno de Soda Stereo"},
     {"topic": "Heroes del Silencio",      "search": "rock band spain concert stage",  "angle": "el fenómeno de Heroes del Silencio"},
     {"topic": "Maná",                     "search": "latin rock concert mexico city", "angle": "por qué Maná es el rey del rock mexicano"},
@@ -64,6 +73,48 @@ REEL_TOPICS = [
     {"topic": "Divididos",                "search": "rock band argentina concert",    "angle": "el rock más puro de Argentina"},
     {"topic": "La Ley",                   "search": "rock band chile concert stage",  "angle": "La Ley y el rock chileno en su mejor momento"},
 ]
+
+# Broad pool, mirroring generate.py's country pools plus other major
+# rock en español acts. Country is only used for the generic angle.
+EXPANDED_BANDS = [
+    ("Fito Páez", "Argentina"), ("La Renga", "Argentina"), ("Charly García", "Argentina"),
+    ("Los Piojos", "Argentina"), ("Enanitos Verdes", "Argentina"), ("Babasónicos", "Argentina"),
+    ("Attaque 77", "Argentina"), ("Virus", "Argentina"), ("Luis Alberto Spinetta", "Argentina"),
+    ("Patricio Rey y sus Redonditos de Ricota", "Argentina"), ("Bersuit Vergarabat", "Argentina"),
+    ("Miranda!", "Argentina"),
+    ("El Tri", "México"), ("Zoé", "México"), ("Panteon Rococo", "México"), ("Cuca", "México"),
+    ("Maldita Vecindad", "México"), ("Santa Sabina", "México"), ("Fobia", "México"),
+    ("Kinky", "México"), ("Control Machete", "México"), ("Los de Abajo", "México"),
+    ("Enrique Bunbury", "España"), ("Mecano", "España"), ("Hombres G", "España"),
+    ("Radio Futura", "España"), ("Los Rodríguez", "España"), ("Extremoduro", "España"),
+    ("Ska-P", "España"), ("Jarabe de Palo", "España"), ("Barricada", "España"),
+    ("Los Secretos", "España"), ("Alaska y Dinarama", "España"),
+    ("Los Prisioneros", "Chile"), ("Los Tres", "Chile"), ("Lucybell", "Chile"),
+    ("Joe Vasconcellos", "Chile"),
+    ("Juanes", "Colombia"), ("Aterciopelados", "Colombia"), ("Bomba Estéreo", "Colombia"),
+    ("No Te Va Gustar", "Uruguay"), ("El Cuarteto de Nos", "Uruguay"), ("La Vela Puerca", "Uruguay"),
+    ("Líbido", "Perú"), ("Los Mojarras", "Perú"), ("Frágil", "Perú"),
+    ("Caramelos de Cianuro", "Venezuela"), ("Desorden Público", "Venezuela"), ("Zapato 3", "Venezuela"),
+    ("La Máquina Camaleón", "Ecuador"), ("Los Rabanes", "Panamá"), ("Fiel a la Vega", "Puerto Rico"),
+    ("Alux Nahual", "Guatemala"), ("Gandhi", "Costa Rica"), ("Malpaís", "Costa Rica"),
+    ("Toque Profundo", "República Dominicana"), ("Octavia", "Bolivia"), ("Flou", "Paraguay"),
+    ("Habana Abierta", "Cuba"), ("Intocable", "México"),
+]
+
+def _build_reel_topics():
+    topics = list(CORE_TOPICS)
+    core_names = {t["topic"] for t in topics}
+    for band, country in EXPANDED_BANDS:
+        if band in core_names:
+            continue
+        topics.append({
+            "topic": band,
+            "search": f"{band} rock concert",
+            "angle": f"la historia y el legado de {band}, el rock de {country} en su mejor momento",
+        })
+    return topics
+
+REEL_TOPICS = _build_reel_topics()
 
 SCRIPT_SYSTEM = """Eres el guionista de "Mejor Rock en Español".
 Escribes guiones cortos y apasionantes para Reels de 60 segundos.
@@ -80,11 +131,48 @@ REGLAS:
 - EXACTAMENTE entre 130 y 150 palabras"""
 
 
-def pick_topic() -> dict:
-    now = datetime.now(timezone.utc)
-    # One topic per UTC day (not one per ISO week), so daily workflow stays varied.
-    day_index = int(now.timestamp() // 86400)
-    return REEL_TOPICS[day_index % len(REEL_TOPICS)]
+def _recent_reel_topics(limit=10):
+    """Last reel topics from log.json, so random picks avoid repeats.
+
+    publish_reel.py logs the topic (parsed from the script file) for
+    every published reel, so this file, committed by the workflow,
+    is the recent-history source. Old log entries without a topic
+    are simply ignored. If log.json is missing (local run), no
+    exclusion is applied — random choice alone still varies.
+    """
+    try:
+        import json as _json
+        log_path = Path("log.json")
+        if not log_path.exists():
+            return []
+        entries = _json.loads(log_path.read_text(encoding="utf-8"))
+        topics = []
+        for e in reversed(entries):
+            t = e.get("topic")
+            if t and e.get("post_type") == "reel" and t not in topics:
+                topics.append(t)
+            if len(topics) >= limit:
+                break
+        return topics
+    except Exception:
+        return []
+
+
+def pick_topic(forced_topic=None) -> dict:
+    if forced_topic:
+        for t in REEL_TOPICS:
+            if t["topic"].lower() == forced_topic.lower():
+                return t
+        # Manual override for a band not in the pool: generic angle.
+        return {"topic": forced_topic, "search": f"{forced_topic} rock concert",
+                "angle": f"la historia y el legado de {forced_topic} en el rock en español"}
+    recent = _recent_reel_topics()
+    available = [t for t in REEL_TOPICS if t["topic"] not in recent]
+    if not available:
+        available = REEL_TOPICS[:]
+    chosen = random.choice(available)
+    print(f"  Picked topic: {chosen['topic']} (pool: {len(REEL_TOPICS)} bands, excluding last {len(recent)} reel topics)")
+    return chosen
 
 
 # TTS-only pronunciation fixes (2026-10-25, user request: correct band
@@ -673,10 +761,10 @@ def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
         return False
 
 
-def make_reel():
+def make_reel(forced_topic=None):
     now        = datetime.now(timezone.utc)
     stamp      = now.strftime("%Y%m%d")
-    topic_data = pick_topic()
+    topic_data = pick_topic(forced_topic)
 
     print(f"[{now.isoformat()}] Making Reel: {topic_data['topic']}")
     print(f"  Angle: {topic_data['angle']}\n")
@@ -940,4 +1028,11 @@ if __name__ == "__main__":
     if "--auth" in sys.argv:
         run_auth()
     else:
-        make_reel()
+        # Manual override, e.g. python make_reel.py --topic "Zoé"
+        # Default (no --topic) is a random band, excluding recent reels.
+        forced = None
+        if "--topic" in sys.argv:
+            idx = sys.argv.index("--topic")
+            if idx + 1 < len(sys.argv):
+                forced = sys.argv[idx + 1]
+        make_reel(forced)

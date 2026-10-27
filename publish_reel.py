@@ -649,6 +649,17 @@ def main() -> None:
     stamp = reel_path.stem.replace("reel_", "")
     script_path = REELS_DIR / f"reel_{stamp}_script.txt"
     caption = build_caption(script_path if script_path.exists() else None)
+    # Topic for the log, so future make_reel runs can avoid recent
+    # bands. Script files start with "Topic: <band>" (see make_reel).
+    reel_topic = None
+    try:
+        if script_path.exists():
+            for line in script_path.read_text(encoding="utf-8").splitlines():
+                if line.startswith("Topic:"):
+                    reel_topic = line.split("Topic:", 1)[1].strip()
+                    break
+    except Exception:
+        reel_topic = None
 
     print(f"[{now}] Publishing reel: {reel_path}")
     print(f"  Caption preview: {caption[:90]}...")
@@ -673,6 +684,7 @@ def main() -> None:
         {
             "post_id": f"reel_{stamp}",
             "post_type": "reel",
+            "topic": reel_topic,
             "reel_path": str(reel_path),
             "fb_reel_id": fb_res.id,
             "ig_reel_id": ig_res.id,
