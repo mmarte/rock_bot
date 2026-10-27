@@ -216,24 +216,29 @@ def publish_instagram_reel(video_path: Path, caption: str) -> PublishResult:
     So the next run tries, in order, each with a fresh container, and
     only the attempt that reaches FINISHED calls media_publish, so a
     failed attempt can never publish a duplicate:
-      1) single POST, original file (the method that worked once, on
-         2026-10-25 21:20 UTC, and has failed ever since).
-      2) re-encoded file: ffmpeg H.264 Main profile, level 4.0,
-         yuv420p, +faststart (moov atom at the front, required by
-         some IG processing paths), AAC 128k, single POST.
-      3) chunked upload: original file in 5 MB chunks with advancing
-         offset headers, instead of one 26 MB POST.
+      1) chunked upload: original file in 5 MB chunks with advancing
+         offset headers — PROVEN 2026-10-26 22:32 UTC, published after
+         the final chunk reported ProcessingFailedError and the
+         container was then polled to FINISHED.
+      2) single POST, original file.
+      3) re-encoded file: ffmpeg H.264 Main profile, level 4.0,
+         yuv420p, +faststart, AAC 128k, single POST.
     If all three fail, the error summary says so plainly, and the
     next diagnostic is a manual upload of that exact mp4 in the
     Instagram app / an account-status check, not another code guess.
     """
+    # 2026-10-26 22:32 UTC: chunked + poll-after-failure PUBLISHED
+    # (id 18221974384344283), while single and re-encoded single
+    # attempts timed out at IN_PROGRESS. So chunked goes FIRST now —
+    # the old order wasted ~10 minutes on two attempts that never
+    # finished, before the method that works even ran.
     attempts = [
+        ("chunked, original file", video_path, "chunked", False),
         ("single, original file", video_path, "single", False),
     ]
     reencoded = _reencode_for_instagram(video_path)
     if reencoded is not None:
         attempts.append(("single, re-encoded (Main/faststart)", reencoded, "single", True))
-    attempts.append(("chunked, original file", video_path, "chunked", False))
 
     last = None
     for label, path, mode, is_temp in attempts:
