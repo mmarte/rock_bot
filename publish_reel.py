@@ -648,6 +648,20 @@ def main() -> None:
     # Find matching script file
     stamp = reel_path.stem.replace("reel_", "")
     script_path = REELS_DIR / f"reel_{stamp}_script.txt"
+    # Stale-file guard, 2026-10-27: if make_reel failed, publish must
+    # NOT publish yesterday's (or a partial) mp4 just because it is
+    # the latest file in reels/. Only publish a reel whose script
+    # file exists and whose mp4 is not older than its script — i.e.
+    # the mp4 was actually built in the same run as the script.
+    if not script_path.exists():
+        print(f"Refusing to publish stale reel {reel_path}: no matching script file {script_path}.")
+        return
+    try:
+        if reel_path.stat().st_mtime < script_path.stat().st_mtime - 60:
+            print(f"Refusing to publish stale reel {reel_path}: mp4 is older than its script file (assembly likely failed).")
+            return
+    except Exception:
+        pass
     caption = build_caption(script_path if script_path.exists() else None)
     # Topic for the log, so future make_reel runs can avoid recent
     # bands. Script files start with "Topic: <band>" (see make_reel).

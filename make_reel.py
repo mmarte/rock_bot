@@ -336,19 +336,33 @@ def get_pexels_videos(query: str, count: int = 6) -> list:
 
 
 def download_file(url: str, path: str) -> bool:
-    try:
-        r = requests.get(
-            url, timeout=60, stream=True,
-            headers={"User-Agent": "rock_bot/1.0 (Lo Mejor del Rock en Espanol)"},
-        )
-        r.raise_for_status()
-        with open(path, "wb") as f:
-            for chunk in r.iter_content(8192):
-                f.write(chunk)
-        return True
-    except Exception as e:
-        print(f"  Download error: {e}")
-        return False
+    # Strip Commons utm tracking params — they are not part of the
+    # file URL and only add noise to logs.
+    url = url.split("?", 1)[0]
+    for attempt in range(3):
+        try:
+            r = requests.get(
+                url, timeout=60, stream=True,
+                headers={"User-Agent": "rock_bot/1.0 (Lo Mejor del Rock en Espanol)"},
+            )
+            if r.status_code == 429 and attempt < 2:
+                print(f"  Download rate-limited (429), waiting {5 * (attempt + 1)}s and retrying: {path}")
+                import time as _time
+                _time.sleep(5 * (attempt + 1))
+                continue
+            r.raise_for_status()
+            with open(path, "wb") as f:
+                for chunk in r.iter_content(8192):
+                    f.write(chunk)
+            return True
+        except Exception as e:
+            if attempt < 2:
+                import time as _time
+                _time.sleep(5)
+                continue
+            print(f"  Download error: {e}")
+            return False
+    return False
 
 
 def _add_wikimedia_page(page, photos, sources, seen_urls, count, topic):
@@ -367,6 +381,19 @@ def _add_wikimedia_page(page, photos, sources, seen_urls, count, topic):
     if width < 900 or height < 600:
         return
     if any(bad in low for bad in ("logo", "icon", "album cover", "single cover", "signature")):
+        return
+    # 2026-10-27, Barricada run: WITHOUT this filter, Commons
+    # returned historic "Barricade Paris 1871" photos for the Spanish
+    # band Barricada, and the reel published photos of 19th-century
+    # barricades, not the band. A usable photo's title must contain
+    # the band name (accents stripped, so "Maná" matches "Mana").
+    # This is stricter than ideal — a member-only title will be
+    # skipped — but a wrong-band photo is worse than falling back
+    # to Pexels, so wrong is excluded, not hoped away.
+    import unicodedata as _ud
+    def _norm(s):
+        return "".join(c for c in _ud.normalize("NFD", s.lower()) if _ud.category(c) != "Mn")
+    if _norm(topic) not in _norm(title):
         return
     url = info.get("thumburl") or info.get("url")
     if not url or url in seen_urls:
@@ -422,9 +449,13 @@ def get_wikimedia_photos(topic: str, count: int = 6, sources_path=None) -> list:
 
     # First, try the band's Commons category — far more precise than
     # text search, which for Molotov returned mostly PDFs and an
-    # opening-band photo. Category names vary, so try the plain name
-    # and the "(band)" form.
-    for cat in (topic, f"{topic} (band)"):
+    # opening-band photo. Category names vary, and plain names are
+    # ambiguous ("Barricada" is also a common noun — its plain
+    # category is 19th-century barricades, not the band), so try
+    # the "(band)" form FIRST, then the plain name. With the
+    # title-must-contain-band filter above, a wrong plain category
+    # now yields zero photos instead of wrong photos.
+    for cat in (f"{topic} (band)", topic):
         if len(photos) >= count:
             break
         try:
@@ -670,7 +701,17 @@ def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
                     # slideshow is the reliable v1; zoom/crossfade can
                     # be added later only if this version proves out.
                     from moviepy.editor import ImageClip
-                    clip = ImageClip(path)
+                    # 2026-10-27, Barricada run: a grayscale historic
+                    # photo broke assembly with "could not broadcast
+                    # input array from shape (1920,1080) into shape
+                    # (1920,1080,3)" — MoviePy concatenate expects
+                    # RGB frames. Convert EVERY photo to RGB first,
+                    # so grayscale and RGBA photos cannot break the
+                    # reel, and so a partial mp4 is never written.
+                    rgb_path = str(clips_dir / f"photo_rgb_{i}.jpg")
+                    with _PILImage.open(path) as _im:
+                        _im.convert("RGB").save(rgb_path)
+                    clip = ImageClip(rgb_path)
                     clip = clip.set_duration(10.0)
                 else:
                     clip = VideoFileClip(path)
@@ -758,6 +799,16 @@ def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
         return False
     except Exception as e:
         print(f"  Assembly error: {e}")
+        # 2026-10-27: a failed assembly left a partial mp4 on disk,
+        # and the next workflow step published that partial/stale file
+        # to Facebook and Instagram anyway. Never leave a partial
+        # file behind — delete it, so publish cannot pick it up.
+        try:
+            if os.path.exists(output_path):
+                os.remove(output_path)
+                print(f"  Deleted partial output: {output_path}")
+        except Exception:
+            pass
         return False
 
 
@@ -854,6 +905,12 @@ def make_reel(forced_topic=None):
         print(f"  Manual upload is only needed if a platform step fails in publish_reel.py.")
     else:
         print(f"\n  Assembly failed. Audio at: {audio_path}")
+        # Exit non-zero so the GitHub workflow STOPS here and does
+        # NOT run publish_reel.py on a stale/partial file. On
+        # 2026-10-27 a zero exit here let publish run anyway and
+        # publish a broken reel to Facebook and Instagram.
+        import sys as _sys
+        _sys.exit(1)
 
 
 # ---------------------------------------------------------------------------
