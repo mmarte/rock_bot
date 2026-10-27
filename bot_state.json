@@ -8,7 +8,8 @@
     "Líbido",
     "Juanes",
     "Flou",
-    "Toque Profundo"
+    "Toque Profundo",
+    "Gandhi"
   ],
   "used_poll_indices": [
     9,
@@ -23,9 +24,9 @@
     3
   ],
   "original_type_index": 9,
-  "last_updated": "2026-10-27T18:31:27.905810+00:00",
+  "last_updated": "2026-10-27T21:07:16.215240+00:00",
   "post_type_index": 10,
-  "total_posts": 513,
+  "total_posts": 514,
   "used_event_indices": [
     12,
     11,
@@ -33,7 +34,7 @@
     18,
     19
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -63,7 +64,9 @@
     "líbido|poll",
     "líbido|poll",
     "toque profundo|original",
-    "toque profundo|original"
+    "toque profundo|original",
+    "gandhi|youtube",
+    "gandhi|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -93,9 +96,11 @@
     "f675927794ed92bfac423ef2a4d3ed00d66007a2b1a3aa1224f4b48f8a82c3db",
     "f675927794ed92bfac423ef2a4d3ed00d66007a2b1a3aa1224f4b48f8a82c3db",
     "917d2b78b61fc4630f7d964423ff25e3ead1daac6ec7f9de9a8fb082523b5804",
-    "917d2b78b61fc4630f7d964423ff25e3ead1daac6ec7f9de9a8fb082523b5804"
+    "917d2b78b61fc4630f7d964423ff25e3ead1daac6ec7f9de9a8fb082523b5804",
+    "d83a56b4c2fe506d747391c164d38c1c5bbe72c9e051936a081cbb152d25fc86",
+    "d83a56b4c2fe506d747391c164d38c1c5bbe72c9e051936a081cbb152d25fc86"
   ],
-  "last_published_id": "post_20261027_182941",
-  "last_published_at": "2026-10-27T18:30:41.118094+00:00",
-  "last_published_topic": "Toque Profundo"
+  "last_published_id": "post_20261027_210605",
+  "last_published_at": "2026-10-27T21:06:44.519156+00:00",
+  "last_published_topic": "Gandhi"
 }
