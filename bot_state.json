@@ -5,7 +5,10 @@
     "Habana Abierta",
     "La Renga",
     "Héroes del Silencio",
-    "Líbido"
+    "Líbido",
+    "Juanes",
+    "Flou",
+    "Toque Profundo"
   ],
   "used_poll_indices": [
     9,
@@ -19,10 +22,10 @@
     10,
     3
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-10-27T05:49:03.638253+00:00",
+  "original_type_index": 9,
+  "last_updated": "2026-10-27T18:31:27.905810+00:00",
   "post_type_index": 10,
-  "total_posts": 512,
+  "total_posts": 513,
   "used_event_indices": [
     12,
     11,
@@ -30,7 +33,7 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -58,7 +61,9 @@
     "la renga|youtube",
     "la renga|youtube",
     "líbido|poll",
-    "líbido|poll"
+    "líbido|poll",
+    "toque profundo|original",
+    "toque profundo|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -86,9 +91,11 @@
     "9cf415af15d313252ace4e4f3532ac81521021094100ac40c3d06ea43105aa37",
     "9cf415af15d313252ace4e4f3532ac81521021094100ac40c3d06ea43105aa37",
     "f675927794ed92bfac423ef2a4d3ed00d66007a2b1a3aa1224f4b48f8a82c3db",
-    "f675927794ed92bfac423ef2a4d3ed00d66007a2b1a3aa1224f4b48f8a82c3db"
+    "f675927794ed92bfac423ef2a4d3ed00d66007a2b1a3aa1224f4b48f8a82c3db",
+    "917d2b78b61fc4630f7d964423ff25e3ead1daac6ec7f9de9a8fb082523b5804",
+    "917d2b78b61fc4630f7d964423ff25e3ead1daac6ec7f9de9a8fb082523b5804"
   ],
-  "last_published_id": "post_20261027_054744",
-  "last_published_at": "2026-10-27T05:48:24.719937+00:00",
-  "last_published_topic": "Líbido"
+  "last_published_id": "post_20261027_182941",
+  "last_published_at": "2026-10-27T18:30:41.118094+00:00",
+  "last_published_topic": "Toque Profundo"
 }

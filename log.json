@@ -1,29 +1,5 @@
 [
   {
-    "post_id": "post_20260720_043122",
-    "fb_post_id": "1043162839046116_1449821820525693",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Alux Nahual",
-    "image_url": "https://img.youtube.com/vi/sq8R-dLqLsg/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-20T04:31:50.106554+00:00"
-  },
-  {
-    "post_id": "post_20260720_150449",
-    "fb_post_id": "1043162839046116_1450198747154667",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Habana Abierta",
-    "image_url": "https://images.pexels.com/photos/16118359/pexels-photo-16118359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-07-20T15:05:12.506044+00:00"
-  },
-  {
     "post_id": "post_20260720_185157",
     "fb_post_id": "1043162839046116_1450340983807110",
     "ig_post_id": null,
@@ -2443,5 +2419,17 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-10-27T15:01:05.358693+00:00"
+  },
+  {
+    "post_id": "post_20261027_182941",
+    "fb_post_id": "1043162839046116_1543299911177883",
+    "ig_post_id": "18192776935405933",
+    "threads_post_id": "18383778769232512",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Toque Profundo",
+    "image_url": "https://images.pexels.com/photos/15299013/pexels-photo-15299013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-10-27T18:30:41.118094+00:00"
   }
 ]
