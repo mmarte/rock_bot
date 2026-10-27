@@ -2425,5 +2425,23 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
     "status": "published",
     "executed_at": "2026-10-27T05:48:24.719937+00:00"
+  },
+  {
+    "post_id": "reel_20261027",
+    "post_type": "reel",
+    "topic": "La Vela Puerca",
+    "reel_path": "reels/reel_20261027.mp4",
+    "fb_reel_id": "1505888831369460",
+    "ig_reel_id": "18096195449149267",
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": null,
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-10-27T15:01:05.358693+00:00"
   }
 ]
