@@ -395,6 +395,21 @@ def _add_wikimedia_page(page, photos, sources, seen_urls, count, topic):
         return "".join(c for c in _ud.normalize("NFD", s.lower()) if _ud.category(c) != "Mn")
     if _norm(topic) not in _norm(title):
         return
+    # 2026-10-27, user follow-up: title alone is not enough for
+    # common-noun bands (Barricada, La Ley, Virus, Cuca). When Commons
+    # returns categories for a file, at least one category must be
+    # band/concert/music/rock related, or contain the band name.
+    # Historic barricade photos have categories like "Barricades"
+    # and "Paris Commune" — neither matches, so they are rejected
+    # even if their title somehow passed the title filter.
+    cats = page.get("categories") or []
+    if cats:
+        cat_text = " ".join(_norm(c.get("title", "")) for c in cats)
+        band_norm = _norm(topic)
+        if band_norm not in cat_text and not any(
+            kw in cat_text for kw in ("concert", "band", "music", "rock", "live performance", "musicians")
+        ):
+            return
     url = info.get("thumburl") or info.get("url")
     if not url or url in seen_urls:
         return
@@ -409,6 +424,80 @@ def _add_wikimedia_page(page, photos, sources, seen_urls, count, topic):
         artist = (meta.get("Artist") or {}).get("value", "")
         sources.append(f"{title} | {url} | License: {lic} | Artist: {artist}")
         print(f"    Photo {len(photos)} OK: {title}")
+
+
+def _get_wikipedia_band_photo(topic: str, photos: list, sources: list, seen_urls: set):
+    """One guaranteed band photo: the infobox image from the band's
+    Wikipedia article (Spanish Wikipedia first, then English).
+
+    This is the strongest relevance signal available: the image
+    comes from the band's own article, not from a text search that
+    can match a common noun (Barricada = barricade). It does not
+    need to pass the Commons title filter, because its source is
+    the band's page itself. If Wikipedia has no image, return
+    quietly — Commons is the next source, not a failure.
+    """
+    import unicodedata as _ud
+    def _norm(s):
+        return "".join(c for c in _ud.normalize("NFD", s.lower()) if _ud.category(c) != "Mn")
+    headers = {"User-Agent": "rock_bot/1.0 (Lo Mejor del Rock en Espanol)"}
+    for wiki in ("es.wikipedia.org", "en.wikipedia.org"):
+        try:
+            sr = requests.get(
+                f"https://{wiki}/w/api.php",
+                headers=headers,
+                params={"action": "query", "format": "json", "formatversion": "2",
+                        "list": "search", "srsearch": f"{topic} banda rock", "srlimit": "5"},
+                timeout=20,
+            )
+            sr.raise_for_status()
+            results = sr.json().get("query", {}).get("search", []) or []
+            page_title = None
+            for r in results:
+                if _norm(topic) in _norm(r.get("title", "")):
+                    page_title = r["title"]
+                    break
+            if not page_title:
+                continue
+            pi = requests.get(
+                f"https://{wiki}/w/api.php",
+                headers=headers,
+                params={"action": "query", "format": "json", "formatversion": "2",
+                        "titles": page_title, "prop": "pageimages",
+                        "piprop": "original", "pithumbsize": "1600"},
+                timeout=20,
+            )
+            pi.raise_for_status()
+            pages = pi.json().get("query", {}).get("pages", []) or []
+            if not pages or not pages[0].get("original", {}).get("source"):
+                continue
+            url = pages[0]["original"]["source"].split("?", 1)[0]
+            if url in seen_urls:
+                continue
+            slug = "".join(c if c.isalnum() else "_" for c in topic)[:20]
+            local = OUTPUT_DIR / f"photo_{slug}_wikipedia.jpg"
+            if download_file(url, str(local)):
+                # Wikipedia infobox images can be smaller than the
+                # Commons 900px bar — accept >=500px here, because
+                # relevance is guaranteed by the article source.
+                try:
+                    from PIL import Image as _PIL
+                    with _PIL.open(local) as _im:
+                        if _im.width < 500:
+                            print(f"  Wikipedia photo too small ({_im.width}px), skipping: {page_title}")
+                            local.unlink(missing_ok=True)
+                            continue
+                except Exception:
+                    pass
+                seen_urls.add(url)
+                photos.append(str(local))
+                sources.append(f"Wikipedia: {page_title} ({wiki}) | {url}")
+                print(f"    Photo 1 OK (Wikipedia band article): {page_title}")
+                return True
+        except Exception as e:
+            print(f"  Wikipedia photo error ({wiki}): {e}")
+            continue
+    return False
 
 
 def get_wikimedia_photos(topic: str, count: int = 6, sources_path=None) -> list:
@@ -428,6 +517,8 @@ def get_wikimedia_photos(topic: str, count: int = 6, sources_path=None) -> list:
     photos = []
     sources = []
     seen_urls = set()
+    # Strongest relevance first: the band's own Wikipedia article image.
+    _get_wikipedia_band_photo(topic, photos, sources, seen_urls)
 
     def _get_with_retry(params):
         # Commons rate-limits (429) — seen 2026-10-26 on a manual check.
@@ -475,8 +566,9 @@ def get_wikimedia_photos(topic: str, count: int = 6, sources_path=None) -> list:
                 continue
             info_data = _get_with_retry({
                 "action": "query", "format": "json", "formatversion": "2",
-                "titles": titles, "prop": "imageinfo",
+                "titles": titles, "prop": "imageinfo|categories",
                 "iiprop": "url|size|mime|extmetadata", "iiurlwidth": "1600",
+                "cllimit": "max",
             })
             pages = info_data.get("query", {}).get("pages", []) or []
             # Reuse the same per-page filtering below by treating these
@@ -504,9 +596,10 @@ def get_wikimedia_photos(topic: str, count: int = 6, sources_path=None) -> list:
                 # returned for Molotov (5 of 8 results were PDFs).
                 "gsrsearch": f"{query} filetype:bitmap",
                 "gsrlimit": "20",
-                "prop": "imageinfo",
+                "prop": "imageinfo|categories",
                 "iiprop": "url|size|mime|extmetadata",
                 "iiurlwidth": "1600",
+                "cllimit": "max",
             })
             pages = data.get("query", {}).get("pages", []) or []
         except Exception as e:
@@ -845,23 +938,32 @@ def make_reel(forced_topic=None):
         return
 
     # Step 3 — Visuals, new order 2026-10-26 (user decision):
-    # 1) Actual band photos from Wikimedia Commons (freely licensed).
-    # 2) Pexels stock video, ONLY if Commons has fewer than 3 usable photos.
+    # 1) Actual band photos: Wikipedia band article image first,
+    #    then Wikimedia Commons, both relevance-checked.
+    # 2) Pexels stock video, ONLY if fewer than 2 relevant photos.
+    #    Correctness beats variety: 2 correct band photos looped
+    #    is better than 6 wrong photos or generic stock, and a
+    #    single correct photo looped for 60s is a static reel, so
+    #    the floor is 2, not 1.
     # YouTube downloads are DISABLED here on purpose — CI downloads
     # are bot-blocked even with cookies and ios/tv clients, and chasing
     # them further wastes every run. get_youtube_clips() stays in the
     # file, unused, in case a future PO-token/proxy solution revives it.
     print(f"\n  Step 3: Looking for actual photos of '{topic_data['topic']}'...")
     print("  YouTube footage disabled per user decision 2026-10-26 — using photos instead.")
+    print("  Relevance rule: every photo must come from the band's Wikipedia article, or have the band name in its title AND a band/concert/music category — otherwise it is dropped, not published.")
     sources_path = OUTPUT_DIR / f"reel_{stamp}_photos.txt"
     video_urls = get_wikimedia_photos(topic_data["topic"], count=6, sources_path=str(sources_path))
-    if len(video_urls) >= 3:
-        print(f"  Found {len(video_urls)} actual band photo(s) on Wikimedia Commons. Sources: {sources_path}")
+    if len(video_urls) >= 2:
+        print(f"  Found {len(video_urls)} relevant band photo(s). Sources: {sources_path}")
+        if sources_path.exists():
+            for _line in sources_path.read_text(encoding="utf-8").splitlines():
+                print(f"    Source: {_line[:160]}")
     else:
         if video_urls:
-            print(f"  Only {len(video_urls)} usable Commons photo(s) — falling back to Pexels video, so the reel still assembles.")
+            print(f"  Only {len(video_urls)} relevant photo(s) — falling back to Pexels video, so the reel still assembles.")
         else:
-            print("  No usable Commons photos — falling back to Pexels video.")
+            print("  No relevant band photos — falling back to Pexels video.")
         video_urls = []
         print(f"  Step 3 fallback: Fetching Pexels clips ('{topic_data['search']}')...")
         video_urls = get_pexels_videos(topic_data["search"], count=6)
