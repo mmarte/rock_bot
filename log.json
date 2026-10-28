@@ -2431,5 +2431,23 @@
     "image_url": "https://images.pexels.com/photos/12894935/pexels-photo-12894935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-10-28T06:27:19.591048+00:00"
+  },
+  {
+    "post_id": "reel_20261028",
+    "post_type": "reel",
+    "topic": "Gustavo Cerati",
+    "reel_path": "reels/reel_20261028.mp4",
+    "fb_reel_id": "1736432184673608",
+    "ig_reel_id": "18098703002656116",
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": null,
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-10-28T15:35:13.647269+00:00"
   }
 ]
