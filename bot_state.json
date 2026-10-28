@@ -4,10 +4,10 @@
     "Enrique Bunbury",
     "La Cuneta Son Machín",
     "Toque Profundo",
-    "Los Rodríguez"
+    "Los Rodríguez",
+    "Savage"
   ],
   "used_poll_indices": [
-    13,
     17,
     4,
     15,
@@ -16,12 +16,13 @@
     10,
     3,
     2,
-    0
+    0,
+    18
   ],
   "original_type_index": 10,
-  "last_updated": "2026-10-28T06:28:14.948589+00:00",
+  "last_updated": "2026-10-28T18:36:28.730450+00:00",
   "post_type_index": 10,
-  "total_posts": 516,
+  "total_posts": 517,
   "used_event_indices": [
     12,
     11,
@@ -29,7 +30,7 @@
     18,
     19
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -65,7 +66,9 @@
     "enrique bunbury|poll",
     "enrique bunbury|poll",
     "los rodríguez|original",
-    "los rodríguez|original"
+    "los rodríguez|original",
+    "savage|poll",
+    "savage|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -101,9 +104,11 @@
     "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee",
     "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee",
     "6ba14905bac960b93f5eabbaafa44243375965b7db9c9cb76e1f181b8fa83a5a",
-    "6ba14905bac960b93f5eabbaafa44243375965b7db9c9cb76e1f181b8fa83a5a"
+    "6ba14905bac960b93f5eabbaafa44243375965b7db9c9cb76e1f181b8fa83a5a",
+    "a4188e43e1f811f0f33aec98f0976f150b008ae18cfb010fb08842a4981d92f7",
+    "a4188e43e1f811f0f33aec98f0976f150b008ae18cfb010fb08842a4981d92f7"
   ],
-  "last_published_id": "post_20261028_062621",
-  "last_published_at": "2026-10-28T06:27:19.591048+00:00",
-  "last_published_topic": "Los Rodríguez"
+  "last_published_id": "post_20261028_183517",
+  "last_published_at": "2026-10-28T18:35:49.870931+00:00",
+  "last_published_topic": "Savage"
 }
