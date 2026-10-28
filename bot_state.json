@@ -1,18 +1,9 @@
 {
   "used_bands": [
-    "Octavia",
-    "Fito Páez",
     "Habana Abierta",
-    "La Renga",
-    "Héroes del Silencio",
-    "Líbido",
-    "Juanes",
-    "Flou",
-    "Toque Profundo",
-    "Gandhi"
+    "Enrique Bunbury"
   ],
   "used_poll_indices": [
-    9,
     12,
     13,
     17,
@@ -21,12 +12,13 @@
     7,
     6,
     10,
-    3
+    3,
+    2
   ],
   "original_type_index": 9,
-  "last_updated": "2026-10-27T21:07:16.215240+00:00",
+  "last_updated": "2026-10-28T00:18:57.583176+00:00",
   "post_type_index": 10,
-  "total_posts": 514,
+  "total_posts": 515,
   "used_event_indices": [
     12,
     11,
@@ -34,7 +26,7 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -66,7 +58,9 @@
     "toque profundo|original",
     "toque profundo|original",
     "gandhi|youtube",
-    "gandhi|youtube"
+    "gandhi|youtube",
+    "enrique bunbury|poll",
+    "enrique bunbury|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -98,9 +92,11 @@
     "917d2b78b61fc4630f7d964423ff25e3ead1daac6ec7f9de9a8fb082523b5804",
     "917d2b78b61fc4630f7d964423ff25e3ead1daac6ec7f9de9a8fb082523b5804",
     "d83a56b4c2fe506d747391c164d38c1c5bbe72c9e051936a081cbb152d25fc86",
-    "d83a56b4c2fe506d747391c164d38c1c5bbe72c9e051936a081cbb152d25fc86"
+    "d83a56b4c2fe506d747391c164d38c1c5bbe72c9e051936a081cbb152d25fc86",
+    "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee",
+    "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee"
   ],
-  "last_published_id": "post_20261027_210605",
-  "last_published_at": "2026-10-27T21:06:44.519156+00:00",
-  "last_published_topic": "Gandhi"
+  "last_published_id": "post_20261028_001747",
+  "last_published_at": "2026-10-28T00:18:29.308032+00:00",
+  "last_published_topic": "Enrique Bunbury"
 }

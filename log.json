@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260720_220249",
-    "fb_post_id": "1043162839046116_1450441990463676",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Alux Nahual",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Alux_Nahual.jpg",
-    "status": "published",
-    "executed_at": "2026-07-20T22:03:16.024440+00:00"
-  },
-  {
     "post_id": "post_20260721_041027",
     "fb_post_id": "1043162839046116_1450636357110906",
     "ig_post_id": null,
@@ -2431,5 +2419,17 @@
     "image_url": "https://img.youtube.com/vi/NUxgfNwxJi4/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-10-27T21:06:44.519156+00:00"
+  },
+  {
+    "post_id": "post_20261028_001747",
+    "fb_post_id": "1043162839046116_1543541287820412",
+    "ig_post_id": "17915319855543998",
+    "threads_post_id": "18590259256069952",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Enrique Bunbury",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cafe_Tacuba_1.jpg",
+    "status": "published",
+    "executed_at": "2026-10-28T00:18:29.308032+00:00"
   }
 ]

@@ -1392,5 +1392,30 @@
     "youtube_post_url": null,
     "published_at": "2026-10-27T21:06:44.519156+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261028_001747",
+    "status": "published",
+    "created_at": "2026-10-28T00:17:47.290977+00:00",
+    "post_type": "poll",
+    "topic": "Enrique Bunbury",
+    "text": "El rock en español cuenta con artistas que se han convertido en leyenda, y elegir al exponente más representativo de México siempre genera opiniones encontradas. No se trata solo de vender boletos, sino de reconocer qué grupo marcó la identidad sonora de su época y dejó una huella en la cultura popular. Cada una de estas bandas tuvo una etapa dorada y un impacto social que va más allá de la música. ¿Cuál crees que tiene el peso histórico más sólido para llevar la corona? 👍 Café Tacvba ❤️ Molotov 😮 Caifanes. ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #CafeTacvba #Caifanes #Molotov\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee",
+    "image_query": "Enrique Bunbury Spain rock singer",
+    "extra_topics": [
+      "Café Tacvba",
+      "Caifanes",
+      "Molotov"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1543541287820412",
+    "ig_post_id": "17915319855543998",
+    "threads_post_id": "18590259256069952",
+    "youtube_post_url": null,
+    "published_at": "2026-10-28T00:18:29.308032+00:00",
+    "error": null
   }
 ]
