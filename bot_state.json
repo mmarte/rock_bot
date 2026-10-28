@@ -5,7 +5,8 @@
     "La Cuneta Son Machín",
     "Toque Profundo",
     "Los Rodríguez",
-    "Savage"
+    "Savage",
+    "Zoé"
   ],
   "used_poll_indices": [
     17,
@@ -19,10 +20,10 @@
     0,
     18
   ],
-  "original_type_index": 10,
-  "last_updated": "2026-10-28T18:36:28.730450+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-10-28T21:31:48.434125+00:00",
   "post_type_index": 10,
-  "total_posts": 517,
+  "total_posts": 518,
   "used_event_indices": [
     12,
     11,
@@ -30,7 +31,7 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -68,7 +69,9 @@
     "los rodríguez|original",
     "los rodríguez|original",
     "savage|poll",
-    "savage|poll"
+    "savage|poll",
+    "zoé|original",
+    "zoé|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -106,9 +109,11 @@
     "6ba14905bac960b93f5eabbaafa44243375965b7db9c9cb76e1f181b8fa83a5a",
     "6ba14905bac960b93f5eabbaafa44243375965b7db9c9cb76e1f181b8fa83a5a",
     "a4188e43e1f811f0f33aec98f0976f150b008ae18cfb010fb08842a4981d92f7",
-    "a4188e43e1f811f0f33aec98f0976f150b008ae18cfb010fb08842a4981d92f7"
+    "a4188e43e1f811f0f33aec98f0976f150b008ae18cfb010fb08842a4981d92f7",
+    "995daf4520133441bd885992a0994c0546cc266f02cdebc85df864ede45bb7db",
+    "995daf4520133441bd885992a0994c0546cc266f02cdebc85df864ede45bb7db"
   ],
-  "last_published_id": "post_20261028_183517",
-  "last_published_at": "2026-10-28T18:35:49.870931+00:00",
-  "last_published_topic": "Savage"
+  "last_published_id": "post_20261028_213019",
+  "last_published_at": "2026-10-28T21:31:00.885591+00:00",
+  "last_published_topic": "Zoé"
 }
