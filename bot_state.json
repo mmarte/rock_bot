@@ -1,10 +1,12 @@
 {
   "used_bands": [
     "Habana Abierta",
-    "Enrique Bunbury"
+    "Enrique Bunbury",
+    "La Cuneta Son Machín",
+    "Toque Profundo",
+    "Los Rodríguez"
   ],
   "used_poll_indices": [
-    12,
     13,
     17,
     4,
@@ -13,12 +15,13 @@
     6,
     10,
     3,
-    2
+    2,
+    0
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-10-28T00:18:57.583176+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-10-28T06:28:14.948589+00:00",
   "post_type_index": 10,
-  "total_posts": 515,
+  "total_posts": 516,
   "used_event_indices": [
     12,
     11,
@@ -26,7 +29,7 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -60,7 +63,9 @@
     "gandhi|youtube",
     "gandhi|youtube",
     "enrique bunbury|poll",
-    "enrique bunbury|poll"
+    "enrique bunbury|poll",
+    "los rodríguez|original",
+    "los rodríguez|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -94,9 +99,11 @@
     "d83a56b4c2fe506d747391c164d38c1c5bbe72c9e051936a081cbb152d25fc86",
     "d83a56b4c2fe506d747391c164d38c1c5bbe72c9e051936a081cbb152d25fc86",
     "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee",
-    "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee"
+    "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee",
+    "6ba14905bac960b93f5eabbaafa44243375965b7db9c9cb76e1f181b8fa83a5a",
+    "6ba14905bac960b93f5eabbaafa44243375965b7db9c9cb76e1f181b8fa83a5a"
   ],
-  "last_published_id": "post_20261028_001747",
-  "last_published_at": "2026-10-28T00:18:29.308032+00:00",
-  "last_published_topic": "Enrique Bunbury"
+  "last_published_id": "post_20261028_062621",
+  "last_published_at": "2026-10-28T06:27:19.591048+00:00",
+  "last_published_topic": "Los Rodríguez"
 }
