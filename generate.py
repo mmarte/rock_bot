@@ -163,6 +163,30 @@ BAND_COUNTRY = {
 }
 
 # ---------------------------------------------------------------------------
+# Monthly pool additions (pool_refresh.py, fully automated).
+# pool_additions.json is merged here so new bands enter the rotation
+# without editing this file. Additive only — never removes bands.
+# ---------------------------------------------------------------------------
+def _load_pool_additions():
+    try:
+        _p = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pool_additions.json")
+        with open(_p, encoding="utf-8") as _f:
+            _data = json.load(_f)
+        for _country, _bands in (_data.get("text") or {}).items():
+            _existing = {b.lower() for b in COUNTRY_BAND_POOLS.get(_country, [])}
+            for _b in _bands:
+                if _b and _b.lower() not in _existing:
+                    COUNTRY_BAND_POOLS.setdefault(_country, []).append(_b)
+                    _existing.add(_b.lower())
+    except FileNotFoundError:
+        pass
+    except Exception as _e:
+        print(f"  pool_additions.json not loaded: {_e}")
+
+
+_load_pool_additions()
+
+# ---------------------------------------------------------------------------
 # Proven rock en español artists — focus on those with top-10 presence in the last 30 years
 # ---------------------------------------------------------------------------
 FAMOUS_FALLBACK_BANDS = [

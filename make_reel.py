@@ -25,6 +25,7 @@ called from make_reel().
 import os
 import random
 import requests
+import json
 import tempfile
 import shutil
 from datetime import datetime, timezone
@@ -112,6 +113,25 @@ def _build_reel_topics():
             "search": f"{band} rock concert",
             "angle": f"la historia y el legado de {band}, el rock de {country} en su mejor momento",
         })
+    # Monthly pool additions (pool_refresh.py, fully automated). Additive only.
+    try:
+        _p = Path(__file__).with_name("pool_additions.json")
+        _data = json.loads(_p.read_text(encoding="utf-8"))
+        _known = {t["topic"].lower() for t in topics} | {c.lower() for c in core_names}
+        for _entry in _data.get("reels") or []:
+            _band = (_entry.get("topic") or "").strip()
+            _country = (_entry.get("country") or "").strip()
+            if _band and _band.lower() not in _known:
+                topics.append({
+                    "topic": _band,
+                    "search": f"{_band} rock concert",
+                    "angle": f"la historia y el legado de {_band}, el rock de {_country} en su mejor momento" if _country else f"la historia y el legado de {_band}",
+                })
+                _known.add(_band.lower())
+    except FileNotFoundError:
+        pass
+    except Exception as _e:
+        print(f"  reel pool_additions.json not loaded: {_e}")
     return topics
 
 REEL_TOPICS = _build_reel_topics()
