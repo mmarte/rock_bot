@@ -1548,5 +1548,26 @@
     "youtube_post_url": null,
     "published_at": "2026-10-29T18:45:33.520553+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261029_213130",
+    "status": "published",
+    "created_at": "2026-10-29T21:31:30.745975+00:00",
+    "post_type": "youtube",
+    "topic": "Los Rabanes",
+    "text": "Este clip captura la chispa que consolidó a Los Rabanes como una referencia del rock-ska panameño a inicios de los 2000. El video de 'Señorita A Mi Me Gusta Su Style' muestra la fusión característica de ritmos caribeños con la energía punk de la banda, destacando la actuación en vivo que los llevó a ganar el Grammy Latino al Mejor Álbum de Rock en 2002. Lo que más impacta es la dinamismo visual: la cámara sigue a los músicos mientras interactúan con los acordes de guitarra y los metales, creando una atmósfera de fiesta callejera que mantiene su frescura. Cada línea de bajo y cada grito de la banda invita al público a moverse sin pensarlo. Si disfrutas de la mezcla entre ska, reggae y rock, esta película es una experiencia imperdible. ¿Qué parte del video te hizo levantar la mano o mover los pies por primera vez?\n\nhttps://www.youtube.com/watch?v=led-aH-6qWQ\n\nLo Mejor del Rock en Español les presenta: #LosRabanes\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "ed7102eed2293ccf10dde291ef0397ff9e9a503c873888f785b993b95e12e405",
+    "image_query": "Los Rabanes rock band concert",
+    "extra_topics": [],
+    "post_year": "2000",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=led-aH-6qWQ",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1545655510942323",
+    "ig_post_id": "17928299697441325",
+    "threads_post_id": "18112059503590956",
+    "youtube_post_url": null,
+    "published_at": "2026-10-29T21:32:06.163265+00:00",
+    "error": null
   }
 ]
