@@ -2437,5 +2437,23 @@
     "image_url": "https://img.youtube.com/vi/rhEc07uhtig/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-10-29T06:37:00.804501+00:00"
+  },
+  {
+    "post_id": "reel_20261029",
+    "post_type": "reel",
+    "topic": "Toque Profundo",
+    "reel_path": "reels/reel_20261029.mp4",
+    "fb_reel_id": "1825560311808990",
+    "ig_reel_id": "18104866487304456",
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": null,
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-10-29T15:44:11.552522+00:00"
   }
 ]
