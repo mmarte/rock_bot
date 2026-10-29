@@ -1,15 +1,9 @@
 {
   "used_bands": [
-    "Habana Abierta",
-    "Enrique Bunbury",
     "La Cuneta Son Machín",
-    "Toque Profundo",
-    "Los Rodríguez",
-    "Savage",
-    "Zoé"
+    "Los Fabulosos Cadillacs"
   ],
   "used_poll_indices": [
-    17,
     4,
     15,
     7,
@@ -18,12 +12,13 @@
     3,
     2,
     0,
-    18
+    18,
+    11
   ],
   "original_type_index": 1,
-  "last_updated": "2026-10-28T21:31:48.434125+00:00",
+  "last_updated": "2026-10-29T00:42:27.688670+00:00",
   "post_type_index": 10,
-  "total_posts": 518,
+  "total_posts": 519,
   "used_event_indices": [
     12,
     11,
@@ -31,7 +26,7 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -71,7 +66,9 @@
     "savage|poll",
     "savage|poll",
     "zoé|original",
-    "zoé|original"
+    "zoé|original",
+    "los fabulosos cadillacs|poll",
+    "los fabulosos cadillacs|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -111,9 +108,11 @@
     "a4188e43e1f811f0f33aec98f0976f150b008ae18cfb010fb08842a4981d92f7",
     "a4188e43e1f811f0f33aec98f0976f150b008ae18cfb010fb08842a4981d92f7",
     "995daf4520133441bd885992a0994c0546cc266f02cdebc85df864ede45bb7db",
-    "995daf4520133441bd885992a0994c0546cc266f02cdebc85df864ede45bb7db"
+    "995daf4520133441bd885992a0994c0546cc266f02cdebc85df864ede45bb7db",
+    "7a569be0381b420b8285897132c4cc58a1bb06873632a6ecb0451e1ced22e598",
+    "7a569be0381b420b8285897132c4cc58a1bb06873632a6ecb0451e1ced22e598"
   ],
-  "last_published_id": "post_20261028_213019",
-  "last_published_at": "2026-10-28T21:31:00.885591+00:00",
-  "last_published_topic": "Zoé"
+  "last_published_id": "post_20261029_004039",
+  "last_published_at": "2026-10-29T00:41:46.628597+00:00",
+  "last_published_topic": "Los Fabulosos Cadillacs"
 }
