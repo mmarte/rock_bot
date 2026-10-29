@@ -1527,5 +1527,26 @@
     "youtube_post_url": null,
     "published_at": "2026-10-29T06:37:00.804501+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261029_184458",
+    "status": "published",
+    "created_at": "2026-10-29T18:44:58.965322+00:00",
+    "post_type": "original",
+    "topic": "Gandhi",
+    "text": "Gandhi tiene una historia llena de anécdotas que pocos conocen para entender mejor su legado. 1. Durante la grabación de su segundo disco, el equipo musical trabajó bajo presión en una sesión intensiva que definió el sonido del álbum. 2. En los inicios de su carrera, la banda exploró colaboraciones y arreglos que aportaron una capa adicional de profundidad a su propuesta rockera antes de consolidar su estilo. 3. A lo largo de su trayectoria, han reinterpretado su catálogo con diferentes enfoques para conectar con nuevas generaciones. ¿Cuál de estos momentos crees que marca más su evolución?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Gandhi #CharlyGarcia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "45a9bc819faa11b04cda9d2b0db4a00d4c17c8d3aee149cc75b86d2f276c1c08",
+    "image_query": "Gandhi rock band concert",
+    "extra_topics": [],
+    "post_year": "1999",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1545547384286469",
+    "ig_post_id": "17993405487028379",
+    "threads_post_id": "18133582591665970",
+    "youtube_post_url": null,
+    "published_at": "2026-10-29T18:45:33.520553+00:00",
+    "error": null
   }
 ]

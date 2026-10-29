@@ -2,7 +2,8 @@
   "used_bands": [
     "La Cuneta Son Machín",
     "Los Fabulosos Cadillacs",
-    "Los Tres"
+    "Los Tres",
+    "Gandhi"
   ],
   "used_poll_indices": [
     4,
@@ -16,10 +17,10 @@
     18,
     11
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-10-29T06:37:31.327221+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-10-29T18:46:31.457017+00:00",
   "post_type_index": 10,
-  "total_posts": 520,
+  "total_posts": 521,
   "used_event_indices": [
     12,
     11,
@@ -27,7 +28,7 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "concert",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -71,7 +72,9 @@
     "los fabulosos cadillacs|poll",
     "los fabulosos cadillacs|poll",
     "los tres|youtube",
-    "los tres|youtube"
+    "los tres|youtube",
+    "gandhi|original",
+    "gandhi|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -115,9 +118,11 @@
     "7a569be0381b420b8285897132c4cc58a1bb06873632a6ecb0451e1ced22e598",
     "7a569be0381b420b8285897132c4cc58a1bb06873632a6ecb0451e1ced22e598",
     "d18a72e8b778d7bddb359ec15f94a5ca87d5a77e4fcd040ea148cd191b12e9a0",
-    "d18a72e8b778d7bddb359ec15f94a5ca87d5a77e4fcd040ea148cd191b12e9a0"
+    "d18a72e8b778d7bddb359ec15f94a5ca87d5a77e4fcd040ea148cd191b12e9a0",
+    "45a9bc819faa11b04cda9d2b0db4a00d4c17c8d3aee149cc75b86d2f276c1c08",
+    "45a9bc819faa11b04cda9d2b0db4a00d4c17c8d3aee149cc75b86d2f276c1c08"
   ],
-  "last_published_id": "post_20261029_063627",
-  "last_published_at": "2026-10-29T06:37:00.804501+00:00",
-  "last_published_topic": "Los Tres"
+  "last_published_id": "post_20261029_184458",
+  "last_published_at": "2026-10-29T18:45:33.520553+00:00",
+  "last_published_topic": "Gandhi"
 }
