@@ -45,6 +45,8 @@ UA = {"User-Agent": "rock_bot-pool-refresh/1.0 (Lo Mejor del Rock en Espanol; mo
 # Wikipedia categories (en.wikipedia) of notable rock groups by country.
 # A band with a Wikipedia article is notable enough for a text post; the
 # photo gate decides reel eligibility separately.
+# Member counts verified 2026-10-29. Bolivian, Panamanian, Honduran and
+# Dominican Republic categories returned no members and are omitted.
 WIKI_CATEGORIES = {
     "Argentina": "Argentine rock music groups",
     "México": "Mexican rock music groups",
@@ -54,6 +56,15 @@ WIKI_CATEGORIES = {
     "Uruguay": "Uruguayan rock music groups",
     "Perú": "Peruvian rock music groups",
     "Venezuela": "Venezuelan rock music groups",
+    # Thin pools (verified member counts 2026-10-29):
+    "Cuba": "Cuban rock music groups",                    # 6 members
+    "Costa Rica": "Costa Rican rock music groups",        # 5 members
+    "El Salvador": "Salvadoran rock music groups",        # 3 members
+    "Guatemala": "Guatemalan rock music groups",          # 3 members
+    "Ecuador": "Ecuadorian rock music groups",            # 2 members
+    "Nicaragua": "Nicaraguan rock music groups",          # 2 members
+    "Paraguay": "Paraguayan rock music groups",           # 2 members
+    "Puerto Rico": "Puerto Rican rock music groups",      # 10 members
 }
 
 SKIP_TITLE_PATTERNS = (
