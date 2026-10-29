@@ -1,7 +1,8 @@
 {
   "used_bands": [
     "La Cuneta Son Machín",
-    "Los Fabulosos Cadillacs"
+    "Los Fabulosos Cadillacs",
+    "Los Tres"
   ],
   "used_poll_indices": [
     4,
@@ -16,9 +17,9 @@
     11
   ],
   "original_type_index": 1,
-  "last_updated": "2026-10-29T00:42:27.688670+00:00",
+  "last_updated": "2026-10-29T06:37:31.327221+00:00",
   "post_type_index": 10,
-  "total_posts": 519,
+  "total_posts": 520,
   "used_event_indices": [
     12,
     11,
@@ -26,7 +27,7 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -68,7 +69,9 @@
     "zoé|original",
     "zoé|original",
     "los fabulosos cadillacs|poll",
-    "los fabulosos cadillacs|poll"
+    "los fabulosos cadillacs|poll",
+    "los tres|youtube",
+    "los tres|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -110,9 +113,11 @@
     "995daf4520133441bd885992a0994c0546cc266f02cdebc85df864ede45bb7db",
     "995daf4520133441bd885992a0994c0546cc266f02cdebc85df864ede45bb7db",
     "7a569be0381b420b8285897132c4cc58a1bb06873632a6ecb0451e1ced22e598",
-    "7a569be0381b420b8285897132c4cc58a1bb06873632a6ecb0451e1ced22e598"
+    "7a569be0381b420b8285897132c4cc58a1bb06873632a6ecb0451e1ced22e598",
+    "d18a72e8b778d7bddb359ec15f94a5ca87d5a77e4fcd040ea148cd191b12e9a0",
+    "d18a72e8b778d7bddb359ec15f94a5ca87d5a77e4fcd040ea148cd191b12e9a0"
   ],
-  "last_published_id": "post_20261029_004039",
-  "last_published_at": "2026-10-29T00:41:46.628597+00:00",
-  "last_published_topic": "Los Fabulosos Cadillacs"
+  "last_published_id": "post_20261029_063627",
+  "last_published_at": "2026-10-29T06:37:00.804501+00:00",
+  "last_published_topic": "Los Tres"
 }
