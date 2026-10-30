@@ -1611,5 +1611,26 @@
     "youtube_post_url": null,
     "published_at": "2026-10-30T18:21:21.985243+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261030_212143",
+    "status": "published",
+    "created_at": "2026-10-30T21:21:43.898481+00:00",
+    "post_type": "poll",
+    "topic": "Octavia",
+    "text": "Existe un debate encendido entre los fanáticos más comprometidos de la escena del rock en español sobre qué año marcó un punto de inflexión. Algunos destacan la explosión de la movida madrileña, que abrió nuevas posibilidades al pop de la época, mientras que otros resaltan la madurez lírica y la aparición de varios clásicos a finales de los noventa, que aportaron una nueva dirección al género. Cada uno de estos momentos dejó una huella importante en la historia musical de nuestro idioma. ¿Cuál de estos tres momentos consideras que tuvo un impacto más duradero en la cultura del rock? ¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Octavia\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "28a7ec2711322ecfec8cc2f21aa0fe0e93fd555a5416776e08c2423704cee0eb",
+    "image_query": "Octavia rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1546703297504211",
+    "ig_post_id": "18135744259662246",
+    "threads_post_id": "18074029304752436",
+    "youtube_post_url": null,
+    "published_at": "2026-10-30T21:22:16.009361+00:00",
+    "error": null
   }
 ]

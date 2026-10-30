@@ -8,10 +8,10 @@
     "Charly García",
     "Líbido",
     "Malpaís",
-    "Fiel a la Vega"
+    "Fiel a la Vega",
+    "Octavia"
   ],
   "used_poll_indices": [
-    4,
     15,
     7,
     6,
@@ -20,12 +20,13 @@
     2,
     0,
     18,
-    11
+    11,
+    16
   ],
   "original_type_index": 4,
-  "last_updated": "2026-10-30T18:22:10.641033+00:00",
+  "last_updated": "2026-10-30T21:22:41.564719+00:00",
   "post_type_index": 10,
-  "total_posts": 524,
+  "total_posts": 525,
   "used_event_indices": [
     12,
     11,
@@ -33,7 +34,7 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -85,7 +86,9 @@
     "líbido|youtube",
     "líbido|youtube",
     "fiel a la vega|original",
-    "fiel a la vega|original"
+    "fiel a la vega|original",
+    "octavia|poll",
+    "octavia|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -137,9 +140,11 @@
     "dcbe637b67aa019952101447e2f6bd9be38597df850794628d24b84dffc59c1d",
     "dcbe637b67aa019952101447e2f6bd9be38597df850794628d24b84dffc59c1d",
     "a2fb5e2a793edb6d429d53c2c95c871b3954c2caf7f58d41e91681d1ce10c7cb",
-    "a2fb5e2a793edb6d429d53c2c95c871b3954c2caf7f58d41e91681d1ce10c7cb"
+    "a2fb5e2a793edb6d429d53c2c95c871b3954c2caf7f58d41e91681d1ce10c7cb",
+    "28a7ec2711322ecfec8cc2f21aa0fe0e93fd555a5416776e08c2423704cee0eb",
+    "28a7ec2711322ecfec8cc2f21aa0fe0e93fd555a5416776e08c2423704cee0eb"
   ],
-  "last_published_id": "post_20261030_182037",
-  "last_published_at": "2026-10-30T18:21:21.985243+00:00",
-  "last_published_topic": "Fiel a la Vega"
+  "last_published_id": "post_20261030_212143",
+  "last_published_at": "2026-10-30T21:22:16.009361+00:00",
+  "last_published_topic": "Octavia"
 }
