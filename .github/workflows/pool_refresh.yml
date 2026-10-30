@@ -1,0 +1,41 @@
+name: 6 — Monthly Pool Refresh
+
+on:
+  schedule:
+    - cron: "0 9 1 * *"   # 1st of each month, 09:00 UTC
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  refresh:
+    name: Refresh band pools
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Refresh pools
+        run: python pool_refresh.py
+
+      - name: Commit and push additions
+        run: |
+          git config user.name "rock-bot"
+          git config user.email "rock-bot@users.noreply.github.com"
+          git add pool_additions.json
+          if git diff --cached --quiet; then
+            echo "No pool changes this month."
+          else
+            git commit -m "pool refresh $(date -u +%Y-%m): automated band additions"
+            git pull --rebase origin main
+            git push origin main
+          fi
