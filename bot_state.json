@@ -6,7 +6,9 @@
     "Gandhi",
     "Los Rabanes",
     "Charly García",
-    "Líbido"
+    "Líbido",
+    "Malpaís",
+    "Fiel a la Vega"
   ],
   "used_poll_indices": [
     4,
@@ -20,10 +22,10 @@
     18,
     11
   ],
-  "original_type_index": 3,
-  "last_updated": "2026-10-30T06:37:23.686810+00:00",
+  "original_type_index": 4,
+  "last_updated": "2026-10-30T18:22:10.641033+00:00",
   "post_type_index": 10,
-  "total_posts": 523,
+  "total_posts": 524,
   "used_event_indices": [
     12,
     11,
@@ -31,7 +33,7 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -81,7 +83,9 @@
     "los rabanes|youtube",
     "los rabanes|youtube",
     "líbido|youtube",
-    "líbido|youtube"
+    "líbido|youtube",
+    "fiel a la vega|original",
+    "fiel a la vega|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -131,9 +135,11 @@
     "ed7102eed2293ccf10dde291ef0397ff9e9a503c873888f785b993b95e12e405",
     "ed7102eed2293ccf10dde291ef0397ff9e9a503c873888f785b993b95e12e405",
     "dcbe637b67aa019952101447e2f6bd9be38597df850794628d24b84dffc59c1d",
-    "dcbe637b67aa019952101447e2f6bd9be38597df850794628d24b84dffc59c1d"
+    "dcbe637b67aa019952101447e2f6bd9be38597df850794628d24b84dffc59c1d",
+    "a2fb5e2a793edb6d429d53c2c95c871b3954c2caf7f58d41e91681d1ce10c7cb",
+    "a2fb5e2a793edb6d429d53c2c95c871b3954c2caf7f58d41e91681d1ce10c7cb"
   ],
-  "last_published_id": "post_20261030_063611",
-  "last_published_at": "2026-10-30T06:36:54.883540+00:00",
-  "last_published_topic": "Líbido"
+  "last_published_id": "post_20261030_182037",
+  "last_published_at": "2026-10-30T18:21:21.985243+00:00",
+  "last_published_topic": "Fiel a la Vega"
 }
