@@ -2443,5 +2443,23 @@
     "image_url": "https://img.youtube.com/vi/grTGtx5ukUg/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-10-30T06:36:54.883540+00:00"
+  },
+  {
+    "post_id": "reel_20261030",
+    "post_type": "reel",
+    "topic": "El Tri",
+    "reel_path": "reels/reel_20261030.mp4",
+    "fb_reel_id": "1159246546760001",
+    "ig_reel_id": "18114666626270397",
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": null,
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-10-30T15:32:01.564654+00:00"
   }
 ]
