@@ -10,7 +10,9 @@
     "Malpaís",
     "Fiel a la Vega",
     "Octavia",
-    "Cinema"
+    "Cinema",
+    "Juanes",
+    "Aterciopelados"
   ],
   "used_poll_indices": [
     15,
@@ -25,9 +27,9 @@
     16
   ],
   "original_type_index": 5,
-  "last_updated": "2026-10-31T00:33:20.204748+00:00",
+  "last_updated": "2026-10-31T06:26:49.159448+00:00",
   "post_type_index": 10,
-  "total_posts": 526,
+  "total_posts": 527,
   "used_event_indices": [
     12,
     11,
@@ -35,7 +37,7 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -91,7 +93,9 @@
     "octavia|poll",
     "octavia|poll",
     "cinema|original",
-    "cinema|original"
+    "cinema|original",
+    "aterciopelados|youtube",
+    "aterciopelados|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -147,9 +151,11 @@
     "28a7ec2711322ecfec8cc2f21aa0fe0e93fd555a5416776e08c2423704cee0eb",
     "28a7ec2711322ecfec8cc2f21aa0fe0e93fd555a5416776e08c2423704cee0eb",
     "d92cc58c8ec2d7e7b2ee5f5ef2f32c073dd2e2ddf193a90f00a82d28ca701aea",
-    "d92cc58c8ec2d7e7b2ee5f5ef2f32c073dd2e2ddf193a90f00a82d28ca701aea"
+    "d92cc58c8ec2d7e7b2ee5f5ef2f32c073dd2e2ddf193a90f00a82d28ca701aea",
+    "9a2d61505f935987a0f5d54db46c0776de50e8e3f04fb345bc1afbae826905e4",
+    "9a2d61505f935987a0f5d54db46c0776de50e8e3f04fb345bc1afbae826905e4"
   ],
-  "last_published_id": "post_20261031_003146",
-  "last_published_at": "2026-10-31T00:32:24.109370+00:00",
-  "last_published_topic": "Cinema"
+  "last_published_id": "post_20261031_062535",
+  "last_published_at": "2026-10-31T06:26:20.872052+00:00",
+  "last_published_topic": "Aterciopelados"
 }
