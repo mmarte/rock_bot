@@ -426,9 +426,20 @@ def _add_wikimedia_page(page, photos, sources, seen_urls, count, topic):
     if cats:
         cat_text = " ".join(_norm(c.get("title", "")) for c in cats)
         band_norm = _norm(topic)
-        if band_norm not in cat_text and not any(
-            kw in cat_text for kw in ("concert", "band", "music", "rock", "live performance", "musicians")
-        ):
+        music_kw = ("concert", "band", "music", "rock",
+                    "live performance", "musicians")
+        has_name = band_norm in cat_text
+        has_music = any(kw in cat_text for kw in music_kw)
+        # 2026-10-29, Amen gate check: single-word band names are the
+        # weak spot — "Amen" (Peruvian rock band) matched "Amen Bank"
+        # (a Tunisian bank) on the substring "amen", whose categories
+        # carry no music signal. For single-word topics, require BOTH
+        # the band name and a music/concert keyword in the categories;
+        # a wrong-band photo is worse than falling back to Pexels.
+        if " " not in band_norm.strip():
+            if not (has_name and has_music):
+                return
+        elif not has_name and not has_music:
             return
     url = info.get("thumburl") or info.get("url")
     if not url or url in seen_urls:
