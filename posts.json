@@ -1632,5 +1632,26 @@
     "youtube_post_url": null,
     "published_at": "2026-10-30T21:22:16.009361+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261031_003146",
+    "status": "published",
+    "created_at": "2026-10-31T00:31:46.126686+00:00",
+    "post_type": "original",
+    "topic": "Cinema",
+    "text": "En marzo de 2013, el Movistar Arena de Buenos Aires fue escenario del cierre de la gira 'Triste Sombra'. No fue solo un show; el público alcanzó una asistencia cercana a los 14.000 asistentes, uno de los mayores públicos que la banda ha tenido en el país. Guillermo Viskovich y su grupo abrieron con la visceral 'Fuego Lento' y mantuvieron la intensidad con 'Amor Gitano', que provocó una gran participación del público. Un momento destacado de la noche fue la interpretación acústica de 'Quebrar', una apuesta que mostró la vulnerabilidad del grupo y conectó con la nueva fase melódica del disco. La banda también realizó presentaciones en Madrid y Santiago de Chile, reforzando su presencia internacional tras el éxito de 'Sangre y Furia'. El concierto cerró con una versión de 'Miedo', creando un instante de silencio antes del último rugido. ¿Cuál fue el instante que más te hizo sentir la música en la piel?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cinema\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "d92cc58c8ec2d7e7b2ee5f5ef2f32c073dd2e2ddf193a90f00a82d28ca701aea",
+    "image_query": "Cinema rock band concert",
+    "extra_topics": [],
+    "post_year": "2013",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1546821594159048",
+    "ig_post_id": "18105567818316576",
+    "threads_post_id": "18136818586640391",
+    "youtube_post_url": null,
+    "published_at": "2026-10-31T00:32:24.109370+00:00",
+    "error": null
   }
 ]

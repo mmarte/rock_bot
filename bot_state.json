@@ -9,7 +9,8 @@
     "Líbido",
     "Malpaís",
     "Fiel a la Vega",
-    "Octavia"
+    "Octavia",
+    "Cinema"
   ],
   "used_poll_indices": [
     15,
@@ -23,10 +24,10 @@
     11,
     16
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-10-30T21:22:41.564719+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-10-31T00:33:20.204748+00:00",
   "post_type_index": 10,
-  "total_posts": 525,
+  "total_posts": 526,
   "used_event_indices": [
     12,
     11,
@@ -34,7 +35,7 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -88,7 +89,9 @@
     "fiel a la vega|original",
     "fiel a la vega|original",
     "octavia|poll",
-    "octavia|poll"
+    "octavia|poll",
+    "cinema|original",
+    "cinema|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -142,9 +145,11 @@
     "a2fb5e2a793edb6d429d53c2c95c871b3954c2caf7f58d41e91681d1ce10c7cb",
     "a2fb5e2a793edb6d429d53c2c95c871b3954c2caf7f58d41e91681d1ce10c7cb",
     "28a7ec2711322ecfec8cc2f21aa0fe0e93fd555a5416776e08c2423704cee0eb",
-    "28a7ec2711322ecfec8cc2f21aa0fe0e93fd555a5416776e08c2423704cee0eb"
+    "28a7ec2711322ecfec8cc2f21aa0fe0e93fd555a5416776e08c2423704cee0eb",
+    "d92cc58c8ec2d7e7b2ee5f5ef2f32c073dd2e2ddf193a90f00a82d28ca701aea",
+    "d92cc58c8ec2d7e7b2ee5f5ef2f32c073dd2e2ddf193a90f00a82d28ca701aea"
   ],
-  "last_published_id": "post_20261030_212143",
-  "last_published_at": "2026-10-30T21:22:16.009361+00:00",
-  "last_published_topic": "Octavia"
+  "last_published_id": "post_20261031_003146",
+  "last_published_at": "2026-10-31T00:32:24.109370+00:00",
+  "last_published_topic": "Cinema"
 }
