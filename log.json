@@ -2449,5 +2449,23 @@
     "image_url": "https://img.youtube.com/vi/kaJ-FQ0_ksg/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-10-31T06:26:20.872052+00:00"
+  },
+  {
+    "post_id": "reel_20261031",
+    "post_type": "reel",
+    "topic": "Enanitos Verdes",
+    "reel_path": "reels/reel_20261031.mp4",
+    "fb_reel_id": "1112021761535206",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}})",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-10-31T14:59:57.403329+00:00"
   }
 ]
