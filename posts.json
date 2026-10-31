@@ -1674,5 +1674,30 @@
     "youtube_post_url": null,
     "published_at": "2026-10-31T06:26:20.872052+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261031_172733",
+    "status": "published",
+    "created_at": "2026-10-31T17:27:33.563004+00:00",
+    "post_type": "poll",
+    "topic": "Habana Abierta",
+    "text": "Cada década dejó una huella en la historia del rock en español. En los 80, bandas como Hombres G y Río Bravo aportaron nuevas sonoridades que ayudaron a que el rock saliera del underground. En los 90, grupos como Soda Stereo y Los Prisioneros alcanzaron gran popularidad en Latinoamérica y tocaron en grandes escenarios. En los 2000, la escena indie y alternativa se expandió, diversificando los estilos y generando nuevas identidades. ¿Cuál de estas tres épocas marcó más tu vida musical? 👍 Los 80s clásicos ❤️ Los 90s dorados 😮 Los 2000s alternativos ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta #SodaStereo #LosPrisioneros #HombresG\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "21285f549e958d141622c6008951b38eede28802342aae2a33770eed038b55e0",
+    "image_query": "Habana Abierta rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Los Prisioneros",
+      "Hombres G"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1547570964084111",
+    "ig_post_id": "17921984499453130",
+    "threads_post_id": "17935904631142512",
+    "youtube_post_url": null,
+    "published_at": "2026-10-31T17:28:07.845146+00:00",
+    "error": null
   }
 ]

@@ -12,10 +12,10 @@
     "Octavia",
     "Cinema",
     "Juanes",
-    "Aterciopelados"
+    "Aterciopelados",
+    "Habana Abierta"
   ],
   "used_poll_indices": [
-    15,
     7,
     6,
     10,
@@ -24,12 +24,13 @@
     0,
     18,
     11,
-    16
+    16,
+    4
   ],
   "original_type_index": 5,
-  "last_updated": "2026-10-31T06:26:49.159448+00:00",
+  "last_updated": "2026-10-31T17:28:39.609840+00:00",
   "post_type_index": 10,
-  "total_posts": 527,
+  "total_posts": 528,
   "used_event_indices": [
     12,
     11,
@@ -37,7 +38,7 @@
     18,
     19
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -95,7 +96,9 @@
     "cinema|original",
     "cinema|original",
     "aterciopelados|youtube",
-    "aterciopelados|youtube"
+    "aterciopelados|youtube",
+    "habana abierta|poll",
+    "habana abierta|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -153,9 +156,11 @@
     "d92cc58c8ec2d7e7b2ee5f5ef2f32c073dd2e2ddf193a90f00a82d28ca701aea",
     "d92cc58c8ec2d7e7b2ee5f5ef2f32c073dd2e2ddf193a90f00a82d28ca701aea",
     "9a2d61505f935987a0f5d54db46c0776de50e8e3f04fb345bc1afbae826905e4",
-    "9a2d61505f935987a0f5d54db46c0776de50e8e3f04fb345bc1afbae826905e4"
+    "9a2d61505f935987a0f5d54db46c0776de50e8e3f04fb345bc1afbae826905e4",
+    "21285f549e958d141622c6008951b38eede28802342aae2a33770eed038b55e0",
+    "21285f549e958d141622c6008951b38eede28802342aae2a33770eed038b55e0"
   ],
-  "last_published_id": "post_20261031_062535",
-  "last_published_at": "2026-10-31T06:26:20.872052+00:00",
-  "last_published_topic": "Aterciopelados"
+  "last_published_id": "post_20261031_172733",
+  "last_published_at": "2026-10-31T17:28:07.845146+00:00",
+  "last_published_topic": "Habana Abierta"
 }
