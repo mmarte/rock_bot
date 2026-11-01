@@ -1745,5 +1745,28 @@
     "youtube_post_url": null,
     "published_at": "2026-11-01T07:00:08.089469+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261101_181244",
+    "status": "skipped_duplicate",
+    "created_at": "2026-11-01T18:12:44.825020+00:00",
+    "post_type": "cover",
+    "topic": "Aterciopelados",
+    "text": "¿Quién hubiera imaginado que la icónica \"De Música Ligera\" de Soda Stereo pudiera sonar de forma tan distinta? Cuando Aterciopelados interpretaron su versión en 2017, la guitarra se suavizó, la percusión se hizo más marcada y la voz de Andrea Echeverri le aportó una intensidad cruda y honesta. El arreglo incorpora cuerdas y un bajo eléctrico cuyo solo destaca en el tema. Esta reinterpretación muestra cómo una canción puede cruzar generaciones y estilos sin perder su esencia. ¿Prefieres la energía del original de Soda Stereo o la versión renovada de Aterciopelados?\n\nhttps://www.youtube.com/watch?v=6aSi7oWREhk\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "44a55c476ddf802a3cf3388b2885ef62593638a2c104d7c75145c4e60f63120b",
+    "image_query": "Aterciopelados De Música Ligera live",
+    "extra_topics": [
+      "Soda Stereo"
+    ],
+    "post_year": "2017",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=6aSi7oWREhk",
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20260921_182416 — not republished"
   }
 ]

@@ -1,22 +1,7 @@
 {
   "used_bands": [
-    "La Cuneta Son Machín",
-    "Los Fabulosos Cadillacs",
-    "Los Tres",
-    "Gandhi",
-    "Los Rabanes",
-    "Charly García",
-    "Líbido",
-    "Malpaís",
-    "Fiel a la Vega",
-    "Octavia",
-    "Cinema",
-    "Juanes",
-    "Aterciopelados",
-    "Habana Abierta",
     "Kraken",
-    "Divididos",
-    "La Ley"
+    "Aterciopelados"
   ],
   "used_poll_indices": [
     6,
@@ -31,9 +16,9 @@
     8
   ],
   "original_type_index": 6,
-  "last_updated": "2026-11-01T07:01:06.917440+00:00",
+  "last_updated": "2026-11-01T18:13:17.564498+00:00",
   "post_type_index": 10,
-  "total_posts": 530,
+  "total_posts": 531,
   "used_event_indices": [
     12,
     11,
@@ -41,7 +26,7 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -105,7 +90,8 @@
     "divididos|poll",
     "divididos|poll",
     "la ley|original",
-    "la ley|original"
+    "la ley|original",
+    "aterciopelados|cover"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -169,7 +155,8 @@
     "43008ec0424ee7b08f0869dde8a4489da3279658263fbaf60d3385320eaea33a",
     "43008ec0424ee7b08f0869dde8a4489da3279658263fbaf60d3385320eaea33a",
     "10dad348e401ae6b2d7cde90fc1fceb7fb55a25d4c3f337440e8fccf0e6ccdb7",
-    "10dad348e401ae6b2d7cde90fc1fceb7fb55a25d4c3f337440e8fccf0e6ccdb7"
+    "10dad348e401ae6b2d7cde90fc1fceb7fb55a25d4c3f337440e8fccf0e6ccdb7",
+    "44a55c476ddf802a3cf3388b2885ef62593638a2c104d7c75145c4e60f63120b"
   ],
   "last_published_id": "post_20261101_065930",
   "last_published_at": "2026-11-01T07:00:08.089469+00:00",
