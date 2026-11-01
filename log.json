@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260726_042138",
-    "fb_post_id": "1043162839046116_1454830906691451",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Frágil",
-    "image_url": "https://img.youtube.com/vi/p4MenCQ2Mmg/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-26T04:22:05.573413+00:00"
-  },
-  {
     "post_id": "post_20260726_142543",
     "fb_post_id": "1043162839046116_1455204059987469",
     "ig_post_id": null,
@@ -2449,5 +2437,17 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20260921_182416 — not republished",
     "executed_at": "2026-11-01T18:13:43.161664+00:00"
+  },
+  {
+    "post_id": "post_20261101_205656",
+    "fb_post_id": "1043162839046116_1548771157297425",
+    "ig_post_id": "18112099361592396",
+    "threads_post_id": "18641975092019036",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Cecilia & The Argonauts",
+    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
+    "status": "published",
+    "executed_at": "2026-11-01T20:57:28.653405+00:00"
   }
 ]

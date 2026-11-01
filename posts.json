@@ -1768,5 +1768,30 @@
     "youtube_post_url": null,
     "published_at": null,
     "error": "Duplicate of post_20260921_182416 — not republished"
+  },
+  {
+    "id": "post_20261101_205656",
+    "status": "published",
+    "created_at": "2026-11-01T20:56:56.463680+00:00",
+    "post_type": "poll",
+    "topic": "Cecilia & The Argonauts",
+    "text": "Podemos hablar de técnica pura o de virtuosismo, pero el rock en español se sustenta en la identidad sonora que cada músico imprime en sus cuerdas. No se trata solo de cuántos trastes dominas, sino de la historia que transmites en cada nota. Estos tres artistas han dejado una huella importante con su voz y su estilo distintivo. ¿Quién recibe más votos y marca la diferencia en la memoria colectiva del género? 👍 Gustavo Cerati (Soda Stereo) ❤️ Iñaki Uoho (Héroes del Silencio) 😮 Tweety González ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CeciliaandTheArgonauts #SodaStereo #HeroesdelSilencio #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "4797dc09f1de281d9908bc114e0ee083dda05668f5a051843c845b46e5c7f1ae",
+    "image_query": "Cecilia & The Argonauts rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Héroes del Silencio",
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1548771157297425",
+    "ig_post_id": "18112099361592396",
+    "threads_post_id": "18641975092019036",
+    "youtube_post_url": null,
+    "published_at": "2026-11-01T20:57:28.653405+00:00",
+    "error": null
   }
 ]

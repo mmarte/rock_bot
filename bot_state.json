@@ -1,10 +1,10 @@
 {
   "used_bands": [
     "Kraken",
-    "Aterciopelados"
+    "Aterciopelados",
+    "Cecilia & The Argonauts"
   ],
   "used_poll_indices": [
-    6,
     10,
     3,
     2,
@@ -13,12 +13,13 @@
     11,
     16,
     4,
-    8
+    8,
+    5
   ],
   "original_type_index": 6,
-  "last_updated": "2026-11-01T18:13:17.564498+00:00",
+  "last_updated": "2026-11-01T20:57:55.990129+00:00",
   "post_type_index": 10,
-  "total_posts": 531,
+  "total_posts": 532,
   "used_event_indices": [
     12,
     11,
@@ -26,7 +27,7 @@
     18,
     19
   ],
-  "last_post_type": "cover",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -91,7 +92,9 @@
     "divididos|poll",
     "la ley|original",
     "la ley|original",
-    "aterciopelados|cover"
+    "aterciopelados|cover",
+    "cecilia & the argonauts|poll",
+    "cecilia & the argonauts|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -156,9 +159,11 @@
     "43008ec0424ee7b08f0869dde8a4489da3279658263fbaf60d3385320eaea33a",
     "10dad348e401ae6b2d7cde90fc1fceb7fb55a25d4c3f337440e8fccf0e6ccdb7",
     "10dad348e401ae6b2d7cde90fc1fceb7fb55a25d4c3f337440e8fccf0e6ccdb7",
-    "44a55c476ddf802a3cf3388b2885ef62593638a2c104d7c75145c4e60f63120b"
+    "44a55c476ddf802a3cf3388b2885ef62593638a2c104d7c75145c4e60f63120b",
+    "4797dc09f1de281d9908bc114e0ee083dda05668f5a051843c845b46e5c7f1ae",
+    "4797dc09f1de281d9908bc114e0ee083dda05668f5a051843c845b46e5c7f1ae"
   ],
-  "last_published_id": "post_20261101_065930",
-  "last_published_at": "2026-11-01T07:00:08.089469+00:00",
-  "last_published_topic": "La Ley"
+  "last_published_id": "post_20261101_205656",
+  "last_published_at": "2026-11-01T20:57:28.653405+00:00",
+  "last_published_topic": "Cecilia & The Argonauts"
 }
