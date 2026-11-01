@@ -15,7 +15,8 @@
     "Aterciopelados",
     "Habana Abierta",
     "Kraken",
-    "Divididos"
+    "Divididos",
+    "La Ley"
   ],
   "used_poll_indices": [
     6,
@@ -29,10 +30,10 @@
     4,
     8
   ],
-  "original_type_index": 5,
-  "last_updated": "2026-11-01T00:00:32.630847+00:00",
+  "original_type_index": 6,
+  "last_updated": "2026-11-01T07:01:06.917440+00:00",
   "post_type_index": 10,
-  "total_posts": 529,
+  "total_posts": 530,
   "used_event_indices": [
     12,
     11,
@@ -40,7 +41,7 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -102,7 +103,9 @@
     "habana abierta|poll",
     "habana abierta|poll",
     "divididos|poll",
-    "divididos|poll"
+    "divididos|poll",
+    "la ley|original",
+    "la ley|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -164,9 +167,11 @@
     "21285f549e958d141622c6008951b38eede28802342aae2a33770eed038b55e0",
     "21285f549e958d141622c6008951b38eede28802342aae2a33770eed038b55e0",
     "43008ec0424ee7b08f0869dde8a4489da3279658263fbaf60d3385320eaea33a",
-    "43008ec0424ee7b08f0869dde8a4489da3279658263fbaf60d3385320eaea33a"
+    "43008ec0424ee7b08f0869dde8a4489da3279658263fbaf60d3385320eaea33a",
+    "10dad348e401ae6b2d7cde90fc1fceb7fb55a25d4c3f337440e8fccf0e6ccdb7",
+    "10dad348e401ae6b2d7cde90fc1fceb7fb55a25d4c3f337440e8fccf0e6ccdb7"
   ],
-  "last_published_id": "post_20261031_235915",
-  "last_published_at": "2026-10-31T23:59:53.968229+00:00",
-  "last_published_topic": "Divididos"
+  "last_published_id": "post_20261101_065930",
+  "last_published_at": "2026-11-01T07:00:08.089469+00:00",
+  "last_published_topic": "La Ley"
 }

@@ -1724,5 +1724,26 @@
     "youtube_post_url": null,
     "published_at": "2026-10-31T23:59:53.968229+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261101_065930",
+    "status": "published",
+    "created_at": "2026-11-01T06:59:30.905329+00:00",
+    "post_type": "original",
+    "topic": "La Ley",
+    "text": "¿Sabías que la emblemática canción \"Reina de Corazones\", incluida en uno de los discos de La Ley a finales de los noventa, no surgió de golpe, sino que se construyó a partir de ideas que la banda llevaba gestando desde hacía tiempo? Aunque muchos la asocian directamente con Álvaro Henríquez, la pieza tomó forma gracias a la colaboración estrecha con el productor que acompañó al grupo en esa época, quien ayudó a pulir la estructura melódica y el ritmo hasta conseguir el sonido que todos reconocemos. Esa atención al detalle llevó a la banda a grabar en estudios equipados con tecnología analógica, buscando una calidez que, según ellos, no se lograba en los estudios locales. El resultado fue un tema que resonó en México, España y gran parte de Latinoamérica, demostrando que el rock chileno podía conversar con otras escenas sin perder su esencia. Esa apuesta por la calidad de producción, más que por la cantidad de discos, marcó una diferencia notable en la carrera de La Ley durante los noventa. Hoy la canción sigue sonando con la misma fuerza, gracias a una base sólida y a una visión que se adelantó a su tiempo. ¿Crees que las producciones de entonces conservan una magia que las actuales no pueden replicar?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaLey #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "10dad348e401ae6b2d7cde90fc1fceb7fb55a25d4c3f337440e8fccf0e6ccdb7",
+    "image_query": "La Ley Chile rock band concert",
+    "extra_topics": [],
+    "post_year": "1997",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1548122940695580",
+    "ig_post_id": "18146549677720415",
+    "threads_post_id": "18060060452802765",
+    "youtube_post_url": null,
+    "published_at": "2026-11-01T07:00:08.089469+00:00",
+    "error": null
   }
 ]
