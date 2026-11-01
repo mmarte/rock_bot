@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260725_142816",
-    "fb_post_id": "1043162839046116_1454368920070983",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/VB9_uzhHKE4/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-25T14:28:43.584276+00:00"
-  },
-  {
     "post_id": "post_20260725_175614",
     "fb_post_id": "1043162839046116_1454503283390880",
     "ig_post_id": null,
@@ -2455,5 +2443,17 @@
     "image_url": "https://www.sodastereo.com/img/image_src.jpg",
     "status": "published",
     "executed_at": "2026-10-31T17:28:07.845146+00:00"
+  },
+  {
+    "post_id": "post_20261031_235915",
+    "fb_post_id": "1043162839046116_1547824284058779",
+    "ig_post_id": "18127616507302038",
+    "threads_post_id": "18138452410651091",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Divididos",
+    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
+    "status": "published",
+    "executed_at": "2026-10-31T23:59:53.968229+00:00"
   }
 ]

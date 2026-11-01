@@ -13,10 +13,11 @@
     "Cinema",
     "Juanes",
     "Aterciopelados",
-    "Habana Abierta"
+    "Habana Abierta",
+    "Kraken",
+    "Divididos"
   ],
   "used_poll_indices": [
-    7,
     6,
     10,
     3,
@@ -25,12 +26,13 @@
     18,
     11,
     16,
-    4
+    4,
+    8
   ],
   "original_type_index": 5,
-  "last_updated": "2026-10-31T17:28:39.609840+00:00",
+  "last_updated": "2026-11-01T00:00:32.630847+00:00",
   "post_type_index": 10,
-  "total_posts": 528,
+  "total_posts": 529,
   "used_event_indices": [
     12,
     11,
@@ -98,7 +100,9 @@
     "aterciopelados|youtube",
     "aterciopelados|youtube",
     "habana abierta|poll",
-    "habana abierta|poll"
+    "habana abierta|poll",
+    "divididos|poll",
+    "divididos|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -158,9 +162,11 @@
     "9a2d61505f935987a0f5d54db46c0776de50e8e3f04fb345bc1afbae826905e4",
     "9a2d61505f935987a0f5d54db46c0776de50e8e3f04fb345bc1afbae826905e4",
     "21285f549e958d141622c6008951b38eede28802342aae2a33770eed038b55e0",
-    "21285f549e958d141622c6008951b38eede28802342aae2a33770eed038b55e0"
+    "21285f549e958d141622c6008951b38eede28802342aae2a33770eed038b55e0",
+    "43008ec0424ee7b08f0869dde8a4489da3279658263fbaf60d3385320eaea33a",
+    "43008ec0424ee7b08f0869dde8a4489da3279658263fbaf60d3385320eaea33a"
   ],
-  "last_published_id": "post_20261031_172733",
-  "last_published_at": "2026-10-31T17:28:07.845146+00:00",
-  "last_published_topic": "Habana Abierta"
+  "last_published_id": "post_20261031_235915",
+  "last_published_at": "2026-10-31T23:59:53.968229+00:00",
+  "last_published_topic": "Divididos"
 }
