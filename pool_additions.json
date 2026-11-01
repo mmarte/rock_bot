@@ -1,1 +1,99 @@
-{"meta":{"created":"2026-10-29","runs":[]},"reels":[],"text":{}}
+{
+  "meta": {
+    "created": "2026-10-29",
+    "runs": [
+      {
+        "date": "2026-11-01",
+        "added_text": 11,
+        "added_reels": 2,
+        "gate_checked": 11,
+        "text_by_country": {
+          "Cuba": [
+            "Anima Mundi",
+            "Burbles"
+          ],
+          "Guatemala": [
+            "Bohemia Suburbana",
+            "Malacates Trébol Shop"
+          ],
+          "Nicaragua": [
+            "Cecilia & The Argonauts",
+            "Grupo Armado"
+          ],
+          "Paraguay": [
+            "Revolber"
+          ],
+          "Puerto Rico": [
+            "Black Guayaba",
+            "Los Chicos"
+          ],
+          "Costa Rica": [
+            "Evolución",
+            "The Great Wilderness"
+          ]
+        },
+        "reel_bands": [
+          "Anima Mundi",
+          "Bohemia Suburbana"
+        ],
+        "most_used_60d": [
+          {
+            "topic": "Café Tacvba",
+            "count": 6
+          },
+          {
+            "topic": "Toque Profundo",
+            "count": 6
+          },
+          {
+            "topic": "Enrique Bunbury",
+            "count": 6
+          },
+          {
+            "topic": "Maná",
+            "count": 5
+          },
+          {
+            "topic": "La Cuneta Son Machín",
+            "count": 5
+          }
+        ]
+      }
+    ]
+  },
+  "reels": [
+    {
+      "topic": "Anima Mundi",
+      "country": "Cuba"
+    },
+    {
+      "topic": "Bohemia Suburbana",
+      "country": "Guatemala"
+    }
+  ],
+  "text": {
+    "Cuba": [
+      "Anima Mundi",
+      "Burbles"
+    ],
+    "Guatemala": [
+      "Bohemia Suburbana",
+      "Malacates Trébol Shop"
+    ],
+    "Nicaragua": [
+      "Cecilia & The Argonauts",
+      "Grupo Armado"
+    ],
+    "Paraguay": [
+      "Revolber"
+    ],
+    "Puerto Rico": [
+      "Black Guayaba",
+      "Los Chicos"
+    ],
+    "Costa Rica": [
+      "Evolución",
+      "The Great Wilderness"
+    ]
+  }
+}
