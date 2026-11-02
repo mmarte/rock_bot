@@ -1,14 +1,9 @@
 {
   "used_bands": [
-    "Kraken",
-    "Aterciopelados",
-    "Cecilia & The Argonauts",
-    "Fiel a la Vega",
     "Octavia",
-    "Cinema"
+    "Habana Abierta"
   ],
   "used_poll_indices": [
-    10,
     3,
     2,
     0,
@@ -17,12 +12,13 @@
     16,
     4,
     8,
-    5
+    5,
+    9
   ],
-  "original_type_index": 8,
-  "last_updated": "2026-11-02T00:24:21.868466+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-11-02T06:59:32.013757+00:00",
   "post_type_index": 10,
-  "total_posts": 533,
+  "total_posts": 534,
   "used_event_indices": [
     12,
     11,
@@ -30,7 +26,7 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -98,7 +94,8 @@
     "aterciopelados|cover",
     "cecilia & the argonauts|poll",
     "cecilia & the argonauts|poll",
-    "cinema|original"
+    "cinema|original",
+    "habana abierta|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -166,7 +163,8 @@
     "44a55c476ddf802a3cf3388b2885ef62593638a2c104d7c75145c4e60f63120b",
     "4797dc09f1de281d9908bc114e0ee083dda05668f5a051843c845b46e5c7f1ae",
     "4797dc09f1de281d9908bc114e0ee083dda05668f5a051843c845b46e5c7f1ae",
-    "e1d51b0fe5211563b454cb3ea08d6faa6ce27c6489f4348740009a25d421e6b9"
+    "e1d51b0fe5211563b454cb3ea08d6faa6ce27c6489f4348740009a25d421e6b9",
+    "1fe9ca9131bf59380e838220fa27893d036612893e13619d2bba3f7603faa61b"
   ],
   "last_published_id": "post_20261101_205656",
   "last_published_at": "2026-11-01T20:57:28.653405+00:00",

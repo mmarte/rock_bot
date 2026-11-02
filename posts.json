@@ -1814,5 +1814,26 @@
     "youtube_post_url": null,
     "published_at": null,
     "error": "Duplicate of post_20261031_003146 — not republished"
+  },
+  {
+    "id": "post_20261102_065906",
+    "status": "skipped_duplicate",
+    "created_at": "2026-11-02T06:59:06.156844+00:00",
+    "post_type": "poll",
+    "topic": "Habana Abierta",
+    "text": "Hablar de festivales en nuestra región es debatir qué escenario te dejó con la boca abierta. El Vive Latino en México ha sido un epicentro fundamental para la escena, atrayendo a grandes nombres del rock y el pop latino a lo largo de los años. Por otro lado, Lollapalooza Chile ha demostrado que las multitudes pueden vibrar con una intensidad comparable a las de Austin, combinando géneros con una curaduría impecable. Sin embargo, Estéreo Picnic en Bogotá rompió barreras al integrar propuestas diversas del rock y la electrónica en un mismo escenario. ¿Dónde sentiste esa chispa que no se apaga? Vive Latino, Lollapalooza LatAm o Festival Estéreo Picnic: ¿cuál fue tu experiencia más memorable?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HabanaAbierta #LosAutenticosDecadentes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "1fe9ca9131bf59380e838220fa27893d036612893e13619d2bba3f7603faa61b",
+    "image_query": "Habana Abierta rock band concert",
+    "extra_topics": [],
+    "post_year": "2000",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20261031_172733 — not republished"
   }
 ]
