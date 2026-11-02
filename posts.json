@@ -1835,5 +1835,26 @@
     "youtube_post_url": null,
     "published_at": null,
     "error": "Duplicate of post_20261031_172733 — not republished"
+  },
+  {
+    "id": "post_20261102_220134",
+    "status": "published",
+    "created_at": "2026-11-02T22:01:34.665841+00:00",
+    "post_type": "original",
+    "topic": "Black Guayaba",
+    "text": "¿Es imposible superar la racha de Black Guayaba? Vamos al duelo. Por un lado, el grupo puertorriqueño que se dio a conocer a finales de los 90 y rompió esquemas con su mezcla de rock y letras introspectivas, marcando una época para el rock en español. Por el otro, La Berreta, la banda dominicana que en los 90 aportó una crudeza más pesada al sonido local, destacándose por su actitud y distorsión. Uno representa la elegancia oscura del post‑punk caribeño, el otro la agresión del grunge y el metal de la región. Black Guayaba demostró que no hace falta ser de México o Argentina para ser influyentes; sus canciones siguen resonando en la escena. La Berreta, por su parte, mostró que el volumen y la intensidad pueden ser tan relevantes como la melodía. ¿Tiene peso la crítica que dice que La Berreta tomó referencias del rock norteamericano, o fue una evolución necesaria? El debate está abierto: ¿qué banda dejó un impacto más duradero en la identidad del rock latinoamericano, la sofisticación de Black Guayaba o la furia de La Berreta? Elijan su bando y justifiquen con canciones específicas. ¿Cuál de estas bandas consideras que marcó una huella más profunda en el rock latinoamericano?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #BlackGuayaba\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "c46f4475f5ffb71eafb8089e59a03db45b6c9f59ac4413df5249d978a5646a5f",
+    "image_query": "Black Guayaba rock band concert",
+    "extra_topics": [],
+    "post_year": "1988",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1549842163856991",
+    "ig_post_id": "17870394621660339",
+    "threads_post_id": "18665119411016285",
+    "youtube_post_url": null,
+    "published_at": "2026-11-02T22:02:12.063560+00:00",
+    "error": null
   }
 ]

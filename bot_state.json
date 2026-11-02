@@ -1,7 +1,8 @@
 {
   "used_bands": [
     "Octavia",
-    "Habana Abierta"
+    "Habana Abierta",
+    "Black Guayaba"
   ],
   "used_poll_indices": [
     3,
@@ -15,10 +16,10 @@
     5,
     9
   ],
-  "original_type_index": 10,
-  "last_updated": "2026-11-02T06:59:32.013757+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-11-02T22:03:08.692152+00:00",
   "post_type_index": 10,
-  "total_posts": 534,
+  "total_posts": 535,
   "used_event_indices": [
     12,
     11,
@@ -26,7 +27,7 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -95,7 +96,9 @@
     "cecilia & the argonauts|poll",
     "cecilia & the argonauts|poll",
     "cinema|original",
-    "habana abierta|poll"
+    "habana abierta|poll",
+    "black guayaba|original",
+    "black guayaba|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -164,9 +167,11 @@
     "4797dc09f1de281d9908bc114e0ee083dda05668f5a051843c845b46e5c7f1ae",
     "4797dc09f1de281d9908bc114e0ee083dda05668f5a051843c845b46e5c7f1ae",
     "e1d51b0fe5211563b454cb3ea08d6faa6ce27c6489f4348740009a25d421e6b9",
-    "1fe9ca9131bf59380e838220fa27893d036612893e13619d2bba3f7603faa61b"
+    "1fe9ca9131bf59380e838220fa27893d036612893e13619d2bba3f7603faa61b",
+    "c46f4475f5ffb71eafb8089e59a03db45b6c9f59ac4413df5249d978a5646a5f",
+    "c46f4475f5ffb71eafb8089e59a03db45b6c9f59ac4413df5249d978a5646a5f"
   ],
-  "last_published_id": "post_20261101_205656",
-  "last_published_at": "2026-11-01T20:57:28.653405+00:00",
-  "last_published_topic": "Cecilia & The Argonauts"
+  "last_published_id": "post_20261102_220134",
+  "last_published_at": "2026-11-02T22:02:12.063560+00:00",
+  "last_published_topic": "Black Guayaba"
 }
