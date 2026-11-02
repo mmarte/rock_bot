@@ -2437,5 +2437,23 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261031_172733 — not republished",
     "executed_at": "2026-11-02T06:59:57.848638+00:00"
+  },
+  {
+    "post_id": "reel_20261102",
+    "post_type": "reel",
+    "topic": "Babasónicos",
+    "reel_path": "reels/reel_20261102.mp4",
+    "fb_reel_id": "1584306690113505",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}})",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-02T18:58:46.560786+00:00"
   }
 ]
