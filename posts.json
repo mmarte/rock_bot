@@ -1856,5 +1856,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-02T22:02:12.063560+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261102_234724",
+    "status": "published",
+    "created_at": "2026-11-02T23:47:24.639134+00:00",
+    "post_type": "poll",
+    "topic": "Los Chicos",
+    "text": "¿Qué disco marcó un antes y un después en el rock en español y sirvió de referencia para la nueva generación? No se trata solo de ventas, sino de cómo estas obras influyeron en la cultura musical durante los años 80 y 90. Cada una de las tres propuestas dejó una huella importante en la escena, ya sea por la experimentación electrónica, la fusión más oscura o el pop‑rock masivo. Analiza cuál ha resonado más en las bandas que le siguieron. ¡Vota con tu reacción! 👍❤️😮 ¿Cuál crees que tuvo el eco más largo?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosChicos\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "7cdb90448ee70da4dd41521c9dfe5288332265b56a521598db5a160051ad9f05",
+    "image_query": "Los Chicos rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1549904110517463",
+    "ig_post_id": "18081308150743708",
+    "threads_post_id": "17912752242510383",
+    "youtube_post_url": null,
+    "published_at": "2026-11-02T23:47:57.132968+00:00",
+    "error": null
   }
 ]
