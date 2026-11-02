@@ -1793,5 +1793,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-01T20:57:28.653405+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261102_002350",
+    "status": "skipped_duplicate",
+    "created_at": "2026-11-02T00:23:50.232061+00:00",
+    "post_type": "original",
+    "topic": "Cinema",
+    "text": "¿Qué define a Cinema? En tres claves puedes entender por qué esta banda sigue marcando la escena del rock en español. 1️⃣ **Sonido:** Fusionan el post‑punk con guitarras crudas y sintetizadores atmosféricos; su estilo se consolidó en su álbum debut, donde la crudeza de sus instrumentales convive con la melancolía electrónica. 2️⃣ **Historia:** Surgió en Madrid a finales de los 80, en pleno auge de la Movida, tras la disolución de formaciones anteriores. Su segundo disco les valió el reconocimiento del público y una gira por Sudamérica que amplió su base de seguidores. 3️⃣ **Momento decisivo:** Su participación en festivales clave de los 90, transmitidos en directo, catapultó a Cinema al estrellato; la interpretación de uno de sus temas principales quedó como himno de una generación y abrió puertas a giras europeas. Cada una de estas etapas muestra cómo la banda ha evolucionado sin perder su esencia rebelde. ¿Cuál de estos momentos te parece el más icónico de Cinema?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cinema\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "e1d51b0fe5211563b454cb3ea08d6faa6ce27c6489f4348740009a25d421e6b9",
+    "image_query": "Cinema rock band concert",
+    "extra_topics": [],
+    "post_year": "1990",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20261031_003146 — not republished"
   }
 ]
