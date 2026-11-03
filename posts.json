@@ -1919,5 +1919,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-03T19:55:14.901116+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261103_221120",
+    "status": "published",
+    "created_at": "2026-11-03T22:11:20.205244+00:00",
+    "post_type": "original",
+    "topic": "La Máquina Camaleón",
+    "text": "¿Sabías que el disco que los definió estuvo a punto de quedar en el olvido? Según relatos de la época, mientras grababan *La Doble Cara* en 1986, la productora consideró que el sonido era demasiado comercial para el mercado entonces. Alex Oropesa y su banda decidieron seguir adelante con la grabación, aunque el álbum quedó archivado durante un tiempo. Fue después, alrededor de 1988, cuando ya habían alcanzado reconocimiento con *Cruzando la frontera*, que optaron por rescatar esas pistas y publicarlas.\n\nEl tema \"Mi Amor\" surgió en medio de esa tensión creativa. Jorge Velázquez (voz) y Alex trabajaron la melodía durante una pausa de una gira por México y EE. UU., intentando combinar el rock alternativo emergente con una atmósfera melancólica. Una anécdota curiosa es que la guitarra rítmica original se grabó con un amplificador que presentaba fallas; ese tono áspero y distorsionado terminó convirtiéndose en una característica distintiva del grupo.\n\nSi no hubiera sido por ese accidente técnico y la decisión de rescatar material que había sido descartado, el panorama del rock alternativo en español de finales de los 80 podría haber tomado otro rumbo. Al escuchar *La Doble Cara* hoy, se percibe cómo surgía una rebeldía sonora que no encajaba en los moldes de la época. ¿Cuál fue tu primer contacto con la discografía de Los Camaleones antes de que alcanzaran el éxito?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaMaquinaCamaleon\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "f8d344bc23f7f4fb385bc46c132afdbad4329ac3b381d7ef538000e41380368c",
+    "image_query": "La Máquina Camaleón rock band concert",
+    "extra_topics": [],
+    "post_year": "1986",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1550900070417867",
+    "ig_post_id": "17952591330323603",
+    "threads_post_id": "18452598313126257",
+    "youtube_post_url": null,
+    "published_at": "2026-11-03T22:12:21.075558+00:00",
+    "error": null
   }
 ]

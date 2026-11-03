@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260728_151326",
-    "fb_post_id": "1043162839046116_1457051383136070",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Zapato 3",
-    "image_url": "https://img.youtube.com/vi/i3RBvbbgLoM/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-28T15:13:53.954926+00:00"
-  },
-  {
     "post_id": "post_20260728_181119",
     "fb_post_id": "1043162839046116_1457170149790860",
     "ig_post_id": null,
@@ -2449,5 +2437,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Argo-0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "status": "published",
     "executed_at": "2026-11-03T19:55:14.901116+00:00"
+  },
+  {
+    "post_id": "post_20261103_221120",
+    "fb_post_id": "1043162839046116_1550900070417867",
+    "ig_post_id": "17952591330323603",
+    "threads_post_id": "18452598313126257",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "La Máquina Camaleón",
+    "image_url": "https://images.pexels.com/photos/12894935/pexels-photo-12894935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-11-03T22:12:21.075558+00:00"
   }
 ]
