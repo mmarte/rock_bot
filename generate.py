@@ -338,7 +338,7 @@ ORIGINAL_TYPES = [
     {"type": "sorpresa",
      "instruction": "SOPRESA: cuenta un dato poco conocido o una polémica real sobre la banda que muchos fans no saben. Relaciónalo con una canción, un concierto o un cambio de miembros."},
     {"type": "duelo",
-     "instruction": "DUEL﻿O entre dos épocas de la banda o entre la banda y otra histórica. Hazlo visual y emotivo, menciona discos, canciones y por qué cada lado merece su lugar."},
+     "instruction": "DUELO entre dos épocas de la MISMA banda (nunca inventes una banda rival). Menciona solo discos, canciones, integrantes y fechas REALES y verificables de esa banda. Hazlo visual y emotivo y explica por qué cada época merece su lugar."},
 ]
 
 COVER_SEEDS = [

@@ -148,7 +148,8 @@ REGLAS:
 - Español conversacional y energético
 - NUNCA copies letras de canciones
 - Sin indicaciones de escena, sin paréntesis, solo el texto a narrar
-- EXACTAMENTE entre 130 y 150 palabras"""
+- EXACTAMENTE entre 130 y 150 palabras
+- Solo datos REALES y verificables: no inventes nombres de integrantes, álbumes, canciones ni fechas; ante la duda, usa solo hechos seguros"""
 
 
 def _recent_reel_topics(limit=10):
