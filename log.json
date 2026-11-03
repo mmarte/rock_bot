@@ -2443,5 +2443,23 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/MX_TV_CAIFANES_Z%C3%93CALO_%2838305781132%29.jpg",
     "status": "published",
     "executed_at": "2026-11-03T07:22:20.528142+00:00"
+  },
+  {
+    "post_id": "reel_20261103",
+    "post_type": "reel",
+    "topic": "Radio Futura",
+    "reel_path": "reels/reel_20261103.mp4",
+    "fb_reel_id": "1140888738447072",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}})",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-03T16:44:35.378927+00:00"
   }
 ]
