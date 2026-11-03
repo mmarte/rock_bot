@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260727_182236",
-    "fb_post_id": "1043162839046116_1456254133215795",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Frágil",
-    "image_url": "https://img.youtube.com/vi/vDtHFw_lPl8/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-27T18:23:03.354399+00:00"
-  },
-  {
     "post_id": "post_20260727_221106",
     "fb_post_id": "1043162839046116_1456375999870275",
     "ig_post_id": null,
@@ -2443,5 +2431,17 @@
     "image_url": "https://images.pexels.com/photos/32447923/pexels-photo-32447923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-11-02T23:47:57.132968+00:00"
+  },
+  {
+    "post_id": "post_20261103_072140",
+    "fb_post_id": "1043162839046116_1550210997153441",
+    "ig_post_id": "18130552408869955",
+    "threads_post_id": "18639925177037238",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Caifanes",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/MX_TV_CAIFANES_Z%C3%93CALO_%2838305781132%29.jpg",
+    "status": "published",
+    "executed_at": "2026-11-03T07:22:20.528142+00:00"
   }
 ]

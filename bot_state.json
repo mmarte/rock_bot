@@ -3,7 +3,8 @@
     "Octavia",
     "Habana Abierta",
     "Black Guayaba",
-    "Los Chicos"
+    "Los Chicos",
+    "Caifanes"
   ],
   "used_poll_indices": [
     2,
@@ -17,10 +18,10 @@
     9,
     6
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-11-02T23:48:22.770886+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-11-03T07:23:16.417047+00:00",
   "post_type_index": 10,
-  "total_posts": 536,
+  "total_posts": 537,
   "used_event_indices": [
     12,
     11,
@@ -28,7 +29,7 @@
     18,
     19
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -101,7 +102,9 @@
     "black guayaba|original",
     "black guayaba|original",
     "los chicos|poll",
-    "los chicos|poll"
+    "los chicos|poll",
+    "caifanes|original",
+    "caifanes|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -174,9 +177,11 @@
     "c46f4475f5ffb71eafb8089e59a03db45b6c9f59ac4413df5249d978a5646a5f",
     "c46f4475f5ffb71eafb8089e59a03db45b6c9f59ac4413df5249d978a5646a5f",
     "7cdb90448ee70da4dd41521c9dfe5288332265b56a521598db5a160051ad9f05",
-    "7cdb90448ee70da4dd41521c9dfe5288332265b56a521598db5a160051ad9f05"
+    "7cdb90448ee70da4dd41521c9dfe5288332265b56a521598db5a160051ad9f05",
+    "ac1192fdd9ddb586bdf3e294631af580f365d058eb223d827d84e21143ec6d80",
+    "ac1192fdd9ddb586bdf3e294631af580f365d058eb223d827d84e21143ec6d80"
   ],
-  "last_published_id": "post_20261102_234724",
-  "last_published_at": "2026-11-02T23:47:57.132968+00:00",
-  "last_published_topic": "Los Chicos"
+  "last_published_id": "post_20261103_072140",
+  "last_published_at": "2026-11-03T07:22:20.528142+00:00",
+  "last_published_topic": "Caifanes"
 }
