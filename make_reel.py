@@ -873,7 +873,27 @@ def assemble_reel(audio_path: str, video_urls: list, output_path: str) -> bool:
         # Prefer actual clip audio when available, otherwise use narration only.
         if video.audio is not None:
             print("  Using actual clip audio with narration overlay.")
-            clip_audio = video.audio.volumex(0.65)
+            # 2026-11-03: normalize clip loudness BEFORE mixing. Source clips
+            # vary wildly (quiet interview vs. loud concert), so the old fixed
+            # 0.65 mix drowned the narration only in some reels. loudnorm to
+            # -23 LUFS makes the mix ratio predictable; 0.35 then keeps the
+            # music clearly under the narration (~13 dB of separation).
+            try:
+                import subprocess
+                raw_audio_path = os.path.join(clips_dir, "clip_audio_raw.m4a")
+                norm_audio_path = os.path.join(clips_dir, "clip_audio_norm.m4a")
+                video.audio.write_audiofile(raw_audio_path, logger=None)
+                subprocess.run(
+                    ["ffmpeg", "-y", "-i", raw_audio_path,
+                     "-af", "loudnorm=I=-23:TP=-2:LRA=7",
+                     "-c:a", "aac", norm_audio_path],
+                    check=True, capture_output=True, timeout=120,
+                )
+                clip_audio = AudioFileClip(norm_audio_path).volumex(0.35)
+                print("  Clip audio loudness-normalized (-23 LUFS).")
+            except Exception as e:
+                print(f"  Loudness normalization failed ({e}); using plain mix.")
+                clip_audio = video.audio.volumex(0.35)
             # Cap narration at its real length: extending an AudioFileClip
             # beyond its file length makes MoviePy read past EOF.
             narration = narration_audio.volumex(1.0).set_duration(
