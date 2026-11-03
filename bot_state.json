@@ -4,7 +4,8 @@
     "Habana Abierta",
     "Black Guayaba",
     "Los Chicos",
-    "Caifanes"
+    "Caifanes",
+    "Cecilia & The Argonauts"
   ],
   "used_poll_indices": [
     2,
@@ -18,10 +19,10 @@
     9,
     6
   ],
-  "original_type_index": 2,
-  "last_updated": "2026-11-03T07:23:16.417047+00:00",
+  "original_type_index": 3,
+  "last_updated": "2026-11-03T19:56:11.067434+00:00",
   "post_type_index": 10,
-  "total_posts": 537,
+  "total_posts": 538,
   "used_event_indices": [
     12,
     11,
@@ -29,7 +30,7 @@
     18,
     19
   ],
-  "last_post_type": "original",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -104,7 +105,9 @@
     "los chicos|poll",
     "los chicos|poll",
     "caifanes|original",
-    "caifanes|original"
+    "caifanes|original",
+    "cecilia & the argonauts|original",
+    "cecilia & the argonauts|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -179,9 +182,11 @@
     "7cdb90448ee70da4dd41521c9dfe5288332265b56a521598db5a160051ad9f05",
     "7cdb90448ee70da4dd41521c9dfe5288332265b56a521598db5a160051ad9f05",
     "ac1192fdd9ddb586bdf3e294631af580f365d058eb223d827d84e21143ec6d80",
-    "ac1192fdd9ddb586bdf3e294631af580f365d058eb223d827d84e21143ec6d80"
+    "ac1192fdd9ddb586bdf3e294631af580f365d058eb223d827d84e21143ec6d80",
+    "1a8e416fe563d9ccac3c707bc320ae4ad909e8f19f6084059efd53937ebdd7ae",
+    "1a8e416fe563d9ccac3c707bc320ae4ad909e8f19f6084059efd53937ebdd7ae"
   ],
-  "last_published_id": "post_20261103_072140",
-  "last_published_at": "2026-11-03T07:22:20.528142+00:00",
-  "last_published_topic": "Caifanes"
+  "last_published_id": "post_20261103_195447",
+  "last_published_at": "2026-11-03T19:55:14.901116+00:00",
+  "last_published_topic": "Cecilia & The Argonauts"
 }
