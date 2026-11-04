@@ -4,7 +4,10 @@
     "La Máquina Camaleón",
     "Desorden Público",
     "Maná",
-    "No Te Va Gustar"
+    "No Te Va Gustar",
+    "Zapato 3",
+    "Octavia",
+    "Cinema"
   ],
   "used_poll_indices": [
     0,
@@ -18,10 +21,10 @@
     6,
     17
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-11-04T07:04:57.682658+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-11-04T20:10:28.780530+00:00",
   "post_type_index": 10,
-  "total_posts": 541,
+  "total_posts": 542,
   "used_event_indices": [
     12,
     11,
@@ -30,7 +33,7 @@
     19,
     28
   ],
-  "last_post_type": "poll",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -113,7 +116,8 @@
     "maná|hoy_en_historia",
     "maná|hoy_en_historia",
     "no te va gustar|poll",
-    "no te va gustar|poll"
+    "no te va gustar|poll",
+    "cinema|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -196,7 +200,8 @@
     "96beaea6d5168b474f582d230324e3a8c68050250a828516493d734742055b00",
     "96beaea6d5168b474f582d230324e3a8c68050250a828516493d734742055b00",
     "118407522e886d10dfd16a38a41ba68ac520b1f2dd695d5b306916edc62f6ed0",
-    "118407522e886d10dfd16a38a41ba68ac520b1f2dd695d5b306916edc62f6ed0"
+    "118407522e886d10dfd16a38a41ba68ac520b1f2dd695d5b306916edc62f6ed0",
+    "fefe166b10a6ecd3f5c9aeea7f951731762e66d8dbddbba7662f0551e5821168"
   ],
   "last_published_id": "post_20261104_070326",
   "last_published_at": "2026-11-04T07:04:01.016225+00:00",

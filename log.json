@@ -1,29 +1,5 @@
 [
   {
-    "post_id": "post_20260729_035852",
-    "fb_post_id": "1043162839046116_1457510786423463",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Octavia",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG/330px-Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG",
-    "status": "published",
-    "executed_at": "2026-07-29T03:59:19.794118+00:00"
-  },
-  {
-    "post_id": "post_20260729_150629",
-    "fb_post_id": "1043162839046116_1457983653042843",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Fiel a la Vega",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
-    "status": "published",
-    "executed_at": "2026-07-29T15:06:57.000576+00:00"
-  },
-  {
     "post_id": "post_20260729_180454",
     "fb_post_id": "1043162839046116_1458110943030114",
     "ig_post_id": null,
@@ -2473,5 +2449,11 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-11-04T16:42:47.481588+00:00"
+  },
+  {
+    "post_id": "post_20261104_200944",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261031_003146 — not republished",
+    "executed_at": "2026-11-04T20:10:54.071191+00:00"
   }
 ]

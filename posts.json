@@ -1982,5 +1982,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-04T07:04:01.016225+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261104_200944",
+    "status": "skipped_duplicate",
+    "created_at": "2026-11-04T20:09:44.262058+00:00",
+    "post_type": "original",
+    "topic": "Cinema",
+    "text": "⚡ Sonido: Cinema fusiona la crudeza del post-punk con sintetizadores new-wave, creando atmósferas densas y coros melódicos. La guitarra de Luis Ochoa evoca sonidos oscuros mientras la voz rasgada de Alejandro Gutiérrez le da un toque distintivo. 🎸\n\n📜 Historia: La agrupación surgió en Monterrey a finales de la década de 2000, cuando Gutiérrez y Ochoa se reunieron con el baterista Carlos Méndez. Su trayectoria los llevó a lanzar varios trabajos que consolidaron su presencia en la escena indie mexicana, ganando un amplio reconocimiento por su propuesta sonora.\n\n🚀 Momento decisivo: Sus presentaciones en grandes festivales marcaron un antes y un después para la banda; la respuesta del público impulsó la popularidad de su discografía y les valió reconocimientos en la industria. ¿Cuál de sus canciones crees que mejor representa esa explosión de energía?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Cinema\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "fefe166b10a6ecd3f5c9aeea7f951731762e66d8dbddbba7662f0551e5821168",
+    "image_query": "Cinema rock band concert",
+    "extra_topics": [],
+    "post_year": "2008",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20261031_003146 — not republished"
   }
 ]
