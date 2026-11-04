@@ -2455,5 +2455,23 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/No_Te_Va_Gustar_-_Suenan_Las_Alarmas.jpg",
     "status": "published",
     "executed_at": "2026-11-04T07:04:01.016225+00:00"
+  },
+  {
+    "post_id": "reel_20261104",
+    "post_type": "reel",
+    "topic": "Fito Páez",
+    "reel_path": "reels/reel_20261104.mp4",
+    "fb_reel_id": "969900395744552",
+    "ig_reel_id": "18026442185868620",
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": null,
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-04T16:42:47.481588+00:00"
   }
 ]
