@@ -1,7 +1,9 @@
 {
   "used_bands": [
     "Black Guayaba",
-    "La Máquina Camaleón"
+    "La Máquina Camaleón",
+    "Desorden Público",
+    "Maná"
   ],
   "used_poll_indices": [
     2,
@@ -16,17 +18,18 @@
     6
   ],
   "original_type_index": 6,
-  "last_updated": "2026-11-03T22:13:19.247830+00:00",
+  "last_updated": "2026-11-04T01:07:29.051208+00:00",
   "post_type_index": 10,
-  "total_posts": 539,
+  "total_posts": 540,
   "used_event_indices": [
     12,
     11,
     16,
     18,
-    19
+    19,
+    28
   ],
-  "last_post_type": "original",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -105,7 +108,9 @@
     "cecilia & the argonauts|original",
     "cecilia & the argonauts|original",
     "la máquina camaleón|original",
-    "la máquina camaleón|original"
+    "la máquina camaleón|original",
+    "maná|hoy_en_historia",
+    "maná|hoy_en_historia"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -184,9 +189,11 @@
     "1a8e416fe563d9ccac3c707bc320ae4ad909e8f19f6084059efd53937ebdd7ae",
     "1a8e416fe563d9ccac3c707bc320ae4ad909e8f19f6084059efd53937ebdd7ae",
     "f8d344bc23f7f4fb385bc46c132afdbad4329ac3b381d7ef538000e41380368c",
-    "f8d344bc23f7f4fb385bc46c132afdbad4329ac3b381d7ef538000e41380368c"
+    "f8d344bc23f7f4fb385bc46c132afdbad4329ac3b381d7ef538000e41380368c",
+    "96beaea6d5168b474f582d230324e3a8c68050250a828516493d734742055b00",
+    "96beaea6d5168b474f582d230324e3a8c68050250a828516493d734742055b00"
   ],
-  "last_published_id": "post_20261103_221120",
-  "last_published_at": "2026-11-03T22:12:21.075558+00:00",
-  "last_published_topic": "La Máquina Camaleón"
+  "last_published_id": "post_20261104_010604",
+  "last_published_at": "2026-11-04T01:06:39.666299+00:00",
+  "last_published_topic": "Maná"
 }

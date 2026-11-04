@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260728_181119",
-    "fb_post_id": "1043162839046116_1457170149790860",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Enrique Bunbury",
-    "image_url": "https://img.youtube.com/vi/ZC8XO4LviGk/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-28T18:11:46.549768+00:00"
-  },
-  {
     "post_id": "post_20260728_220649",
     "status": "failed",
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
@@ -2449,5 +2437,17 @@
     "image_url": "https://images.pexels.com/photos/12894935/pexels-photo-12894935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-11-03T22:12:21.075558+00:00"
+  },
+  {
+    "post_id": "post_20261104_010604",
+    "fb_post_id": "1043162839046116_1551015803739627",
+    "ig_post_id": "18134352028746821",
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "hoy_en_historia",
+    "topic": "Maná",
+    "image_url": "http://static1.squarespace.com/static/5c66225bf8135a3f1a696d77/t/623518fd843b0d6a3c3711d7/1647646973320/social-img.jpg?format=1500w",
+    "status": "published",
+    "executed_at": "2026-11-04T01:06:39.666299+00:00"
   }
 ]

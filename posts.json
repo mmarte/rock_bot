@@ -1940,5 +1940,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-03T22:12:21.075558+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261104_010604",
+    "status": "published",
+    "created_at": "2026-11-04T01:06:04.283369+00:00",
+    "post_type": "hoy_en_historia",
+    "topic": "Maná",
+    "text": "🎸 Un día como hoy, 4 de noviembre, celebramos el legado del álbum 'Falta Amor' de Maná, publicado en 1990 por WEA Latina. Este disco marcó un hito en el rock latino, combinando la pulida producción con la composición de los hermanos Arriola y entregando temas que se convirtieron en himnos de toda una generación. El álbum recibió certificaciones de platino en México y logró ventas significativas en varios países de América, abriendo puertas a la banda en mercados internacionales.\n\n'Falta Amor' demostró que el rock en español podía competir a nivel global sin perder su esencia. Para muchos, escuchar el vinilo o el casete de este trabajo fue la banda sonora de sus primeros amores, rupturas y noches de estudio en la universidad. ¿Cuál es la canción de 'Falta Amor' que todavía te pone la piel de gallina al escucharla hoy?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "96beaea6d5168b474f582d230324e3a8c68050250a828516493d734742055b00",
+    "image_query": "Mana band Mexico rock concert 1991",
+    "extra_topics": [],
+    "post_year": "1991",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1551015803739627",
+    "ig_post_id": "18134352028746821",
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": "2026-11-04T01:06:39.666299+00:00",
+    "error": null
   }
 ]
