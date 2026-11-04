@@ -3,10 +3,10 @@
     "Black Guayaba",
     "La Máquina Camaleón",
     "Desorden Público",
-    "Maná"
+    "Maná",
+    "No Te Va Gustar"
   ],
   "used_poll_indices": [
-    2,
     0,
     18,
     11,
@@ -15,12 +15,13 @@
     8,
     5,
     9,
-    6
+    6,
+    17
   ],
   "original_type_index": 6,
-  "last_updated": "2026-11-04T01:07:29.051208+00:00",
+  "last_updated": "2026-11-04T07:04:57.682658+00:00",
   "post_type_index": 10,
-  "total_posts": 540,
+  "total_posts": 541,
   "used_event_indices": [
     12,
     11,
@@ -29,7 +30,7 @@
     19,
     28
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -110,7 +111,9 @@
     "la máquina camaleón|original",
     "la máquina camaleón|original",
     "maná|hoy_en_historia",
-    "maná|hoy_en_historia"
+    "maná|hoy_en_historia",
+    "no te va gustar|poll",
+    "no te va gustar|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -191,9 +194,11 @@
     "f8d344bc23f7f4fb385bc46c132afdbad4329ac3b381d7ef538000e41380368c",
     "f8d344bc23f7f4fb385bc46c132afdbad4329ac3b381d7ef538000e41380368c",
     "96beaea6d5168b474f582d230324e3a8c68050250a828516493d734742055b00",
-    "96beaea6d5168b474f582d230324e3a8c68050250a828516493d734742055b00"
+    "96beaea6d5168b474f582d230324e3a8c68050250a828516493d734742055b00",
+    "118407522e886d10dfd16a38a41ba68ac520b1f2dd695d5b306916edc62f6ed0",
+    "118407522e886d10dfd16a38a41ba68ac520b1f2dd695d5b306916edc62f6ed0"
   ],
-  "last_published_id": "post_20261104_010604",
-  "last_published_at": "2026-11-04T01:06:39.666299+00:00",
-  "last_published_topic": "Maná"
+  "last_published_id": "post_20261104_070326",
+  "last_published_at": "2026-11-04T07:04:01.016225+00:00",
+  "last_published_topic": "No Te Va Gustar"
 }

@@ -1961,5 +1961,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-04T01:06:39.666299+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261104_070326",
+    "status": "published",
+    "created_at": "2026-11-04T07:03:26.344845+00:00",
+    "post_type": "poll",
+    "topic": "No Te Va Gustar",
+    "text": "Ocho años de estudio audiovisual sobre la escena underground de la capital chilena muestran que, aunque no hay un acuerdo único, tres nombres destacan en la historia del rock en español. Hablamos de la banda que ayudó a popularizar el rock en América Latina con su sonido basado en la pentatónica, del trío que hizo de la flauta un elemento central para expresar una nostalgia existencial, y del colectivo que ganó gran notoriedad tras triunfar en el Festival de Viña del Mar en 1994. Cada uno tiene su propio universo sonoro y su impacto social documentado. ¿Quién, según tú, merece el trono indiscutible?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #NoTeVaGustar #LaLey #LosPrisioneros\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "118407522e886d10dfd16a38a41ba68ac520b1f2dd695d5b306916edc62f6ed0",
+    "image_query": "No Te Va Gustar Uruguay rock band",
+    "extra_topics": [],
+    "post_year": "1994",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1551267470381127",
+    "ig_post_id": "18018594425748007",
+    "threads_post_id": "18191225194407664",
+    "youtube_post_url": null,
+    "published_at": "2026-11-04T07:04:01.016225+00:00",
+    "error": null
   }
 ]
