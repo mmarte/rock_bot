@@ -2003,5 +2003,30 @@
     "youtube_post_url": null,
     "published_at": null,
     "error": "Duplicate of post_20261031_003146 — not republished"
+  },
+  {
+    "id": "post_20261104_222224",
+    "status": "published",
+    "created_at": "2026-11-04T22:22:24.796353+00:00",
+    "post_type": "poll",
+    "topic": "Caramelos de Cianuro",
+    "text": "Escuchar en vivo a estas tres leyendas muestra por qué son referentes del rock en español. Cada una ha evolucionado, pasando de sonidos más crudos a producciones de alcance internacional, sin perder su esencia ni la rebeldía inicial. No se trata solo de los años en la carretera, sino de cómo han transformado su estilo manteniendo la conexión con quienes los descubrieron en sus primeros discos. El debate está encendido porque cada opción tiene argumentos sólidos. ¿Cuál de ellas consideras la más influyente?\n\n👍 Café Tacvba\n❤️ Los Fabulosos Cadillacs\n😮 Maná\n\n¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CaramelosdeCianuro #Mana #CafeTacvba #LosFabulososCadillacs\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "3ca1fe921281ee6a42a953c73cc9480ac6e449203acaab6e94864ea9c7615400",
+    "image_query": "Caramelos de Cianuro rock band concert",
+    "extra_topics": [
+      "Maná",
+      "Café Tacvba",
+      "Los Fabulosos Cadillacs"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1552005866973954",
+    "ig_post_id": "18125928013908043",
+    "threads_post_id": "18201559309387793",
+    "youtube_post_url": null,
+    "published_at": "2026-11-04T22:23:12.524002+00:00",
+    "error": null
   }
 ]

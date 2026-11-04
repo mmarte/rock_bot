@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260729_180454",
-    "fb_post_id": "1043162839046116_1458110943030114",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Los Rodríguez",
-    "image_url": "https://img.youtube.com/vi/quQmaDIG1o4/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-29T18:05:24.866968+00:00"
-  },
-  {
     "post_id": "post_20260729_220402",
     "fb_post_id": "1043162839046116_1458242799683595",
     "ig_post_id": null,
@@ -2455,5 +2443,17 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261031_003146 — not republished",
     "executed_at": "2026-11-04T20:10:54.071191+00:00"
+  },
+  {
+    "post_id": "post_20261104_222224",
+    "fb_post_id": "1043162839046116_1552005866973954",
+    "ig_post_id": "18125928013908043",
+    "threads_post_id": "18201559309387793",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Caramelos de Cianuro",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cafe_Tacuba_1.jpg",
+    "status": "published",
+    "executed_at": "2026-11-04T22:23:12.524002+00:00"
   }
 ]
