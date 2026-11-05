@@ -2091,5 +2091,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-05T20:25:38.501552+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261105_223018",
+    "status": "published",
+    "created_at": "2026-11-05T22:30:18.961112+00:00",
+    "post_type": "original",
+    "topic": "La Vela Puerca",
+    "text": "¿Quién diría que una banda que cambió el panorama del rock uruguayo nació en plena Navidad? El 24 de diciembre de 1995, un grupo de amigos decidió armar lo que hoy conocemos como La Vela Puerca. No fue un ensayo técnico ni una reunión formal; fue un encuentro entre Sebastián Teysera, alias el Enano, Sebastián Cebolla Cebreiro, Nicolás Mandril Lieutier, José Pepe Canedo, Rafael Di Bello, Santiago Butler, Carlos Coli Quijano, Alejandro Piccone y Diego Méndez. Esta formación inicial mezclaba voces potentes con una base rítmica firme, sentando las bases de un sonido que se destacaría en la segunda mitad de los noventa.\n\nHay un dato que mucha gente olvida: la estabilidad de la batería fue un factor crítico en su consolidación. Lucas De Azevedo estuvo al frente de la batería hasta mediados de 2004, momento en el que debió abandonar el proyecto por motivos de salud. Su salida marcó un punto de inflexión en la estructura interna de la banda, obligando a reelaborar la dinámica en vivo de una agrupación que ya venía ganando reconocencia internacional. No se trataba solo de tocar juntos, sino de sostener una identidad propia en medio de la explosión del nuevo rock uruguayo. ¿Crees que mantener esa esencia desde los inicios fue clave para su éxito?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaVelaPuerca\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "44d1f0eaf6b625adcda90f745343d848a14e5d333315a9bac105d680f13859e5",
+    "image_query": "La Vela Puerca rock band concert",
+    "extra_topics": [],
+    "post_year": "1995",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1553124166862124",
+    "ig_post_id": "18104803118634962",
+    "threads_post_id": "18042527225842206",
+    "youtube_post_url": null,
+    "published_at": "2026-11-05T22:30:50.300213+00:00",
+    "error": null
   }
 ]

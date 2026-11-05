@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260730_221057",
-    "fb_post_id": "1043162839046116_1459140089593866",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Aterciopelados",
-    "image_url": "https://img.youtube.com/vi/ON9hrnxZejc/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-30T22:11:25.243252+00:00"
-  },
-  {
     "post_id": "post_20260731_151422",
     "fb_post_id": "1043162839046116_1459809206193621",
     "ig_post_id": null,
@@ -2461,5 +2449,17 @@
     "image_url": "https://images.pexels.com/photos/1652361/pexels-photo-1652361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-11-05T20:25:38.501552+00:00"
+  },
+  {
+    "post_id": "post_20261105_223018",
+    "fb_post_id": "1043162839046116_1553124166862124",
+    "ig_post_id": "18104803118634962",
+    "threads_post_id": "18042527225842206",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "La Vela Puerca",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Vamoslavela.jpg",
+    "status": "published",
+    "executed_at": "2026-11-05T22:30:50.300213+00:00"
   }
 ]
