@@ -10,7 +10,8 @@
     "Cinema",
     "Toque Profundo",
     "Caramelos de Cianuro",
-    "Bohemia Suburbana"
+    "Bohemia Suburbana",
+    "Los Chicos"
   ],
   "used_poll_indices": [
     18,
@@ -24,10 +25,10 @@
     17,
     13
   ],
-  "original_type_index": 10,
-  "last_updated": "2026-11-05T01:24:03.690592+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-11-05T07:31:56.792732+00:00",
   "post_type_index": 10,
-  "total_posts": 544,
+  "total_posts": 545,
   "used_event_indices": [
     12,
     11,
@@ -36,7 +37,7 @@
     19,
     28
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -124,7 +125,9 @@
     "caramelos de cianuro|poll",
     "caramelos de cianuro|poll",
     "bohemia suburbana|original",
-    "bohemia suburbana|original"
+    "bohemia suburbana|original",
+    "los chicos|original",
+    "los chicos|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -212,9 +215,11 @@
     "3ca1fe921281ee6a42a953c73cc9480ac6e449203acaab6e94864ea9c7615400",
     "3ca1fe921281ee6a42a953c73cc9480ac6e449203acaab6e94864ea9c7615400",
     "3028860a73da376bcc491a8ea4781ef554cff514f390feba2e2e4f981d3be5d8",
-    "3028860a73da376bcc491a8ea4781ef554cff514f390feba2e2e4f981d3be5d8"
+    "3028860a73da376bcc491a8ea4781ef554cff514f390feba2e2e4f981d3be5d8",
+    "528c90276852b158f3ea72df4b7d2060b43371c61b2ecc14ba69a2c6d2d02bb0",
+    "528c90276852b158f3ea72df4b7d2060b43371c61b2ecc14ba69a2c6d2d02bb0"
   ],
-  "last_published_id": "post_20261105_012205",
-  "last_published_at": "2026-11-05T01:23:12.019929+00:00",
-  "last_published_topic": "Bohemia Suburbana"
+  "last_published_id": "post_20261105_073039",
+  "last_published_at": "2026-11-05T07:31:09.456142+00:00",
+  "last_published_topic": "Los Chicos"
 }

@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260730_035104",
-    "fb_post_id": "1043162839046116_1458434632997745",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/UKJfA06pNM0/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-30T03:51:31.633697+00:00"
-  },
-  {
     "post_id": "post_20260730_150629",
     "fb_post_id": "1043162839046116_1458871112954097",
     "ig_post_id": null,
@@ -2455,5 +2443,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Bohemia_Suburbana_live_2015.jpg",
     "status": "published",
     "executed_at": "2026-11-05T01:23:12.019929+00:00"
+  },
+  {
+    "post_id": "post_20261105_073039",
+    "fb_post_id": "1043162839046116_1552408510267023",
+    "ig_post_id": "17960136168264367",
+    "threads_post_id": "17957050155278440",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Los Chicos",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Los_Chicos_1.jpg/330px-Los_Chicos_1.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "status": "published",
+    "executed_at": "2026-11-05T07:31:09.456142+00:00"
   }
 ]
