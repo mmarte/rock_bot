@@ -11,10 +11,12 @@
     "Toque Profundo",
     "Caramelos de Cianuro",
     "Bohemia Suburbana",
-    "Los Chicos"
+    "Los Chicos",
+    "Los Prisioneros",
+    "Fiel a la Vega",
+    "Los Rabanes"
   ],
   "used_poll_indices": [
-    18,
     11,
     16,
     4,
@@ -23,12 +25,13 @@
     9,
     6,
     17,
-    13
+    13,
+    7
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-11-05T07:31:56.792732+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-11-05T20:26:14.093475+00:00",
   "post_type_index": 10,
-  "total_posts": 545,
+  "total_posts": 546,
   "used_event_indices": [
     12,
     11,
@@ -37,7 +40,7 @@
     19,
     28
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -127,7 +130,9 @@
     "bohemia suburbana|original",
     "bohemia suburbana|original",
     "los chicos|original",
-    "los chicos|original"
+    "los chicos|original",
+    "los rabanes|poll",
+    "los rabanes|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -217,9 +222,11 @@
     "3028860a73da376bcc491a8ea4781ef554cff514f390feba2e2e4f981d3be5d8",
     "3028860a73da376bcc491a8ea4781ef554cff514f390feba2e2e4f981d3be5d8",
     "528c90276852b158f3ea72df4b7d2060b43371c61b2ecc14ba69a2c6d2d02bb0",
-    "528c90276852b158f3ea72df4b7d2060b43371c61b2ecc14ba69a2c6d2d02bb0"
+    "528c90276852b158f3ea72df4b7d2060b43371c61b2ecc14ba69a2c6d2d02bb0",
+    "d2009b2f1abd852c7a6dc8ad3e23a95fea303988d8242631adb089836427a753",
+    "d2009b2f1abd852c7a6dc8ad3e23a95fea303988d8242631adb089836427a753"
   ],
-  "last_published_id": "post_20261105_073039",
-  "last_published_at": "2026-11-05T07:31:09.456142+00:00",
-  "last_published_topic": "Los Chicos"
+  "last_published_id": "post_20261105_202451",
+  "last_published_at": "2026-11-05T20:25:38.501552+00:00",
+  "last_published_topic": "Los Rabanes"
 }

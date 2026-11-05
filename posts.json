@@ -2070,5 +2070,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-05T07:31:09.456142+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261105_202451",
+    "status": "published",
+    "created_at": "2026-11-05T20:24:51.526806+00:00",
+    "post_type": "poll",
+    "topic": "Los Rabanes",
+    "text": "¿Se puede hablar de estas dos escuelas sin sentir que falta el aire? Buenos Aires y la Ciudad de México han creado estilos que han marcado a varias generaciones en Hispanoamérica. Por un lado, el rock argentino ofreció crudeza directa y un golpe seco de rock and roll; por otro, el rock mexicano mezcló cumbia, blues y distorsión, llegando a festivales de varios países. Ambas ciudades conservan un carácter sonoro propio que sigue presente hoy. ¿Cuál consideras que tiene mayor autenticidad? 👍 Rock argentino siempre ❤️ Rock mexicano para siempre 😮 ¡Los dos son iguales! ¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRabanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "d2009b2f1abd852c7a6dc8ad3e23a95fea303988d8242631adb089836427a753",
+    "image_query": "Los Rabanes rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1553038396870701",
+    "ig_post_id": "17955152271322916",
+    "threads_post_id": "18075350807750997",
+    "youtube_post_url": null,
+    "published_at": "2026-11-05T20:25:38.501552+00:00",
+    "error": null
   }
 ]

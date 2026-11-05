@@ -1,29 +1,5 @@
 [
   {
-    "post_id": "post_20260730_150629",
-    "fb_post_id": "1043162839046116_1458871112954097",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Caramelos de Cianuro",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Caramelos_de_Cianuro_at_Forum_2011.png",
-    "status": "published",
-    "executed_at": "2026-07-30T15:06:56.840482+00:00"
-  },
-  {
-    "post_id": "post_20260730_181339",
-    "fb_post_id": "1043162839046116_1459008112940397",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Rabanes",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
-    "status": "published",
-    "executed_at": "2026-07-30T18:14:07.283045+00:00"
-  },
-  {
     "post_id": "post_20260730_221057",
     "fb_post_id": "1043162839046116_1459140089593866",
     "ig_post_id": null,
@@ -2473,5 +2449,17 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-11-05T16:57:59.362421+00:00"
+  },
+  {
+    "post_id": "post_20261105_202451",
+    "fb_post_id": "1043162839046116_1553038396870701",
+    "ig_post_id": "17955152271322916",
+    "threads_post_id": "18075350807750997",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Los Rabanes",
+    "image_url": "https://images.pexels.com/photos/1652361/pexels-photo-1652361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-11-05T20:25:38.501552+00:00"
   }
 ]
