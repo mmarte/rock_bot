@@ -18,6 +18,9 @@ import hashlib
 import json
 import os
 import random
+import re
+import requests
+import unicodedata
 from datetime import datetime, timezone
 from dotenv import load_dotenv
 
@@ -228,7 +231,7 @@ HISTORICAL_EVENTS = [
 
     # May
     (5, 16, 1959, "Victor Jara", "nació en Chile, el músico y poeta que inspiró generaciones de artistas latinoamericanos"),
-    (5, 13, 1963, "Fito Páez", "nació en Rosario, Argentina, el pianista y compositor que redefinió el rock argentino"),
+    (3, 13, 1963, "Fito Páez", "nació en Rosario, Argentina, el pianista y compositor que redefinió el rock argentino"),
     (5, 25, 1994, "Heroes del Silencio", "publicó 'El Espíritu del Vino', su obra maestra y el álbum que los llevó a la cima del rock en español"),
 
     # June
@@ -248,7 +251,7 @@ HISTORICAL_EVENTS = [
 
     # September
     (9, 2, 1996, "Heroes del Silencio", "anunció su separación oficial, dejando a millones de fans devastados en todo el mundo"),
-    (9, 11, 1966, "Maná", "el vocalista Fher Olvera nació en Guadalajara, México"),
+    (12, 8, 1959, "Maná", "el vocalista Fher Olvera nació en Puebla, México"),
     (9, 20, 2014, "Gustavo Cerati", "falleció en Buenos Aires a los 55 años, dejando un legado inmortal en el rock en español"),
 
     # October
@@ -257,7 +260,7 @@ HISTORICAL_EVENTS = [
     (10, 20, 2007, "Soda Stereo", "reunió a 250,000 personas en el concierto 'Me Verás Volver' en Buenos Aires, uno de los eventos más grandes de la historia del rock latinoamericano"),
 
     # November
-    (11, 4, 1991, "Maná", "publicó 'Falta Amor', el álbum que los lanzó a la fama internacional"),
+    (7, 3, 1990, "Maná", "publicó 'Falta Amor', el álbum que los lanzó a la fama internacional"),
     (11, 9, 1989, "Los Rodríguez", "se formó en Madrid, uniendo el rock argentino de Andrés Calamaro con el español"),
     (11, 25, 1992, "Heroes del Silencio", "dio su concierto más multitudinario hasta la fecha, llenando el Palacio de los Deportes de Madrid"),
 
@@ -685,11 +688,12 @@ def clean_json(raw):
         raise original_error
 
 
-def verify_and_normalize_post(client, topic: str, post_type: str, text: str) -> str:
+def verify_and_normalize_post(client, topic: str, post_type: str, text: str, facts: str = "") -> str:
     """
     Lightweight reliability pass:
     - remove obvious hallucinations / fix wrong dates if the model can self-correct
     - enforce style rules (no lyrics, end with a question, no mention of other posts)
+    - when `facts` (Wikipedia) is given, claims are checked against it instead of memory
     Returns corrected text (or original if verification fails).
     """
     system = (
@@ -705,6 +709,12 @@ def verify_and_normalize_post(client, topic: str, post_type: str, text: str) -> 
         "Evita clichés repetidos (ej: 'la energía es increíble', 'una de las bandas más...', 'ha sido una fuerza dominante').\n"
         "Responde ÚNICAMENTE con JSON válido."
     )
+    if facts:
+        system += (
+            "\nDATOS VERIFICADOS (fuente: Wikipedia) — coteja cada nombre, fecha, álbum, canción e integrante contra estos datos:\n"
+            + facts[:1200] + "\n"
+            "Todo lo que contradiga estos datos o no aparezca en ellos, suavízalo a una frase general o elimínalo.\n"
+        )
     prompt = (
         f"Tema: {topic}\n"
         f"Tipo: {post_type}\n\n"
@@ -879,15 +889,126 @@ FORMATO: JSON puro.
 {"topic":"cover","text":"contenido","image_query":"artista cover + canción"}"""
 
 # ---------------------------------------------------------------------------
+# Wikipedia facts grounding (2026-11-04)
+# Text posts are grounded in the band's Wikipedia article lead at generation
+# time, so the generator AND the verifier check claims against a real source
+# instead of the model's memory alone. Keyless; soft-fails to "" (no facts),
+# in which case the prompts forbid inventing concrete facts outright.
+# ---------------------------------------------------------------------------
+
+_WIKI_FACTS_UA = {"User-Agent": "rock_bot-text-posts/1.0 (Lo Mejor del Rock en Espanol; fact grounding)"}
+_WIKI_FACTS_CACHE = {}
+
+
+def _wiki_norm(s):
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return re.sub(r"\s+", " ", s).strip().lower()
+
+
+# Parentheticals that mark the article as the musical act, not a homonym
+# (e.g. "Maná (banda)" over "Maná", the biblical manna).
+_BAND_DISAMBIG = ("(banda)", "(band)", "(grupo)", "(grupo musical)",
+                  "(cantante)", "(m\u00fasico)", "(musician)", "(singer)")
+_DISAMBIG_RE = re.compile(r"(?i)may refer to|desambiguaci|puede referirse|se puede referir")
+# The lead must read like a musical act, not a homonym (footballer, cookie…).
+_MUSIC_RE = re.compile(
+    r"(?i)\b(banda|grupo|rock|pop|música|music|cantante|singer"
+    r"|músico|musician|álbum|album|discograf|trovador|sonero|dúo|trío)"
+)
+
+
+def _rank_article_titles(titles, key):
+    """Candidate article titles for the band, best first: musical-act
+    disambiguation ("X (banda)") wins over bare homonyms ("X"), then exact
+    name match. Returns [] when nothing fits."""
+    scored = []
+    for t in titles:
+        plain = re.sub(r"\s*\([^)]*\)\s*$", "", t).strip()
+        pnorm = _wiki_norm(plain)
+        if not key or key not in pnorm:
+            continue
+        score = (
+            1 if any(d in t.lower() for d in _BAND_DISAMBIG) else 0,
+            1 if pnorm == key else 0,
+        )
+        scored.append((score, t))
+    scored.sort(key=lambda s: s[0], reverse=True)
+    return [t for _, t in scored]
+
+
+def get_wikipedia_facts(band):
+    """Short verified-facts block for a band from Wikipedia, or "" if none."""
+    key = _wiki_norm(band)
+    if key in _WIKI_FACTS_CACHE:
+        return _WIKI_FACTS_CACHE[key]
+    facts = ""
+    for wiki in ("es.wikipedia.org", "en.wikipedia.org"):
+        try:
+            # Resolve the article title first (opensearch, keyless).
+            r = requests.get(
+                "https://" + wiki + "/w/api.php",
+                headers=_WIKI_FACTS_UA,
+                params={"action": "opensearch", "search": band, "limit": 8,
+                        "namespace": 0, "format": "json"},
+                timeout=20,
+            )
+            r.raise_for_status()
+            titles = (r.json() or [None, []])[1]
+            for title in _rank_article_titles(titles, key)[:4]:
+                # Fetch the plain-text lead section.
+                r2 = requests.get(
+                    "https://" + wiki + "/w/api.php",
+                    headers=_WIKI_FACTS_UA,
+                    params={"action": "query", "format": "json", "formatversion": "2",
+                            "prop": "extracts", "exintro": "1", "explaintext": "1",
+                            "exsectionformat": "plain", "redirects": "1",
+                            "titles": title},
+                    timeout=20,
+                )
+                r2.raise_for_status()
+                pages = (r2.json().get("query") or {}).get("pages") or []
+                extract = (pages[0].get("extract") or "").strip() if pages else ""
+                if len(extract) < 120 or _DISAMBIG_RE.search(extract):
+                    continue
+                # The lead must describe a musical act — never a homonym
+                # (footballer, cookie, …). Wrong facts are worse than none.
+                if _MUSIC_RE.search(extract[:600]):
+                    facts = extract[:1500]
+                    break
+            if facts:
+                break
+        except Exception:
+            continue
+    _WIKI_FACTS_CACHE[key] = facts
+    return facts
+
+
+# ---------------------------------------------------------------------------
 # Content generators
 # ---------------------------------------------------------------------------
 
 def gen_original(client, state, band):
     chosen      = pick_original_type(state)
     image_query = get_image_query(band)
+    facts = get_wikipedia_facts(band)
+    if facts:
+        facts_block = (
+            "DATOS VERIFICADOS sobre " + band + " (fuente: Wikipedia \u2014 tu \u00daNICA fuente de hechos):\n"
+            + facts + "\n"
+            "REGLA: todo nombre, fecha, \u00e1lbum, canci\u00f3n e integrante debe salir de estos datos. "
+            "Lo que no aparezca aqu\u00ed, NO lo inventes: usa frases generales sin datos concretos.\n\n"
+        )
+    else:
+        facts_block = (
+            "No se encontraron datos verificados sobre " + band + ". "
+            "REGLA: NO inventes nombres, fechas, \u00e1lbumes, canciones ni integrantes. "
+            "Escribe solo afirmaciones generales y verdaderas.\n\n"
+        )
     prompt = (
         "Genera un post tipo " + chosen["type"].upper() + " sobre: " + band + "\n"
         "Instrucción: " + chosen["instruction"] + "\n\n"
+        + facts_block +
         "IMPORTANTE: usa datos reales y verificables sobre " + band + ".\n"
         "image_query: '" + image_query + "'\n\n"
         "Responde ÚNICAMENTE con JSON válido."
@@ -1118,6 +1239,7 @@ def generate_post():
             topic=data.get("topic", band),
             post_type=actual_type,
             text=data.get("text", ""),
+            facts=get_wikipedia_facts(data.get("topic", band)) if actual_type == "original" else "",
         ).rstrip()
         video_url = data.get("video_url")
         if video_url and video_url not in verified_text:
