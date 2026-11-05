@@ -2455,5 +2455,23 @@
     "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Los_Chicos_1.jpg/330px-Los_Chicos_1.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "status": "published",
     "executed_at": "2026-11-05T07:31:09.456142+00:00"
+  },
+  {
+    "post_id": "reel_20261105",
+    "post_type": "reel",
+    "topic": "Heroes del Silencio",
+    "reel_path": "reels/reel_20261105.mp4",
+    "fb_reel_id": "1662472678742399",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}})",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-05T16:57:59.362421+00:00"
   }
 ]
