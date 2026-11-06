@@ -1,29 +1,5 @@
 [
   {
-    "post_id": "post_20260731_220933",
-    "fb_post_id": "1043162839046116_1460070632834145",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Fiel a la Vega",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
-    "status": "published",
-    "executed_at": "2026-07-31T22:10:00.207568+00:00"
-  },
-  {
-    "post_id": "post_20260801_041727",
-    "fb_post_id": "1043162839046116_1460275689480306",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "image_url": "https://img.youtube.com/vi/QO58s_oFU_4/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-01T04:17:54.706222+00:00"
-  },
-  {
     "post_id": "post_20260801_142352",
     "fb_post_id": "1043162839046116_1460663882774820",
     "ig_post_id": null,
@@ -2479,5 +2455,17 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-11-06T16:25:53.980032+00:00"
+  },
+  {
+    "post_id": "post_20261106_194712",
+    "fb_post_id": "1043162839046116_1554205893420618",
+    "ig_post_id": "17997989649013377",
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Los Prisioneros",
+    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
+    "status": "published",
+    "executed_at": "2026-11-06T19:47:50.763306+00:00"
   }
 ]

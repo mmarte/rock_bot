@@ -2,10 +2,10 @@
   "used_bands": [
     "Toque Profundo",
     "Aterciopelados",
-    "La Ley"
+    "La Ley",
+    "Los Prisioneros"
   ],
   "used_poll_indices": [
-    16,
     4,
     8,
     5,
@@ -14,12 +14,13 @@
     17,
     13,
     7,
-    19
+    19,
+    15
   ],
   "original_type_index": 4,
-  "last_updated": "2026-11-06T07:30:51.326511+00:00",
+  "last_updated": "2026-11-06T19:48:12.583574+00:00",
   "post_type_index": 10,
-  "total_posts": 549,
+  "total_posts": 550,
   "used_event_indices": [
     12,
     11,
@@ -28,7 +29,7 @@
     19,
     28
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -126,7 +127,9 @@
     "aterciopelados|poll",
     "aterciopelados|poll",
     "la ley|youtube",
-    "la ley|youtube"
+    "la ley|youtube",
+    "los prisioneros|poll",
+    "los prisioneros|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -224,9 +227,11 @@
     "a84fcda68e05a28760f6b3376eed2753cecab337033bc4bea9b6c61fa30c9ffe",
     "a84fcda68e05a28760f6b3376eed2753cecab337033bc4bea9b6c61fa30c9ffe",
     "2a98a2c48e4e57af1339adb3c17331f3d02680a6fb381a3a1596fc35d38cf89d",
-    "2a98a2c48e4e57af1339adb3c17331f3d02680a6fb381a3a1596fc35d38cf89d"
+    "2a98a2c48e4e57af1339adb3c17331f3d02680a6fb381a3a1596fc35d38cf89d",
+    "fcb3525bbf5d6e20dee1e0eba185e4b1f4af72c86fddf8e74422dad0208253d1",
+    "fcb3525bbf5d6e20dee1e0eba185e4b1f4af72c86fddf8e74422dad0208253d1"
   ],
-  "last_published_id": "post_20261106_072951",
-  "last_published_at": "2026-11-06T07:30:24.274424+00:00",
-  "last_published_topic": "La Ley"
+  "last_published_id": "post_20261106_194712",
+  "last_published_at": "2026-11-06T19:47:50.763306+00:00",
+  "last_published_topic": "Los Prisioneros"
 }

@@ -2159,5 +2159,29 @@
     "youtube_post_url": null,
     "published_at": "2026-11-06T07:30:24.274424+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261106_194712",
+    "status": "published",
+    "created_at": "2026-11-06T19:47:12.922788+00:00",
+    "post_type": "poll",
+    "topic": "Los Prisioneros",
+    "text": "En el rock en español, el amor no siempre es un cuento de hadas; a veces es herida abierta, a veces es la canción que cantas a gritos en la soledad de tu habitación. Soda Stereo definió la melancolía ochentera con producción impecable y letras que duelen bonito, mientras Maná llevó esa rabia romántica a estadios enteros donde todos coreaban la misma frustración. No hay empatía como la de quienes cantaban 'Me Necesito' con los ojos cerrados en 1990.\n\n👍 Ella Usó Mi Cabeza - Soda Stereo\n❤️ De Música Ligera - Soda Stereo\n😮 Me Necesito - Maná\n\n¿Cuál te destripó el corazón?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosPrisioneros #SodaStereo #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "fcb3525bbf5d6e20dee1e0eba185e4b1f4af72c86fddf8e74422dad0208253d1",
+    "image_query": "Los Prisioneros Chile rock band",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná"
+    ],
+    "post_year": "1990",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1554205893420618",
+    "ig_post_id": "17997989649013377",
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": "2026-11-06T19:47:50.763306+00:00",
+    "error": null
   }
 ]
