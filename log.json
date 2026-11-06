@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260731_181834",
-    "fb_post_id": "1043162839046116_1459942379513637",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/-vExohgAKGE/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-07-31T18:19:02.464044+00:00"
-  },
-  {
     "post_id": "post_20260731_220933",
     "fb_post_id": "1043162839046116_1460070632834145",
     "ig_post_id": null,
@@ -2461,5 +2449,17 @@
     "image_url": "https://www.sodastereo.com/img/image_src.jpg",
     "status": "published",
     "executed_at": "2026-11-06T01:26:49.407890+00:00"
+  },
+  {
+    "post_id": "post_20261106_072951",
+    "fb_post_id": "1043162839046116_1553554763485731",
+    "ig_post_id": "17960160657258306",
+    "threads_post_id": "18128930065950637",
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "La Ley",
+    "image_url": "https://img.youtube.com/vi/9uVuodKHkko/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-11-06T07:30:24.274424+00:00"
   }
 ]

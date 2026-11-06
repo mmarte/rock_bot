@@ -2138,5 +2138,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-06T01:26:49.407890+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261106_072951",
+    "status": "published",
+    "created_at": "2026-11-06T07:29:51.169377+00:00",
+    "post_type": "youtube",
+    "topic": "La Ley",
+    "text": "La Ley MTV Unplugged no fue solo un concierto, fue una demostración clara de que la banda podía desnudar sus composiciones sin perder intensidad. \"Mentira\" suena aquí con una carga emocional distinta a la versión de estudio; la acústica permite percibir las sutilezas de la interpretación mientras la banda explora la melancolía del tema. No se trata solo de la calidad vocal, sino de la intimidad que solo un formato unplugged puede exigir. Este clip es un registro histórico de un momento en que la agrupación chilena buscaba renovar su sonido tras el éxito de sus discos anteriores. Cada nota de guitarra limpia aquí cuenta una historia de vulnerabilidad que el rock eléctrico a menudo oculta. ¿Te animas a escucharla de nuevo?\n\nhttps://www.youtube.com/watch?v=9uVuodKHkko\n\nLo Mejor del Rock en Español les presenta: #LaLey #GustavoCerati\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LaLey #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "2a98a2c48e4e57af1339adb3c17331f3d02680a6fb381a3a1596fc35d38cf89d",
+    "image_query": "La Ley Chile rock band concert",
+    "extra_topics": [],
+    "post_year": "2001",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=9uVuodKHkko",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1553554763485731",
+    "ig_post_id": "17960160657258306",
+    "threads_post_id": "18128930065950637",
+    "youtube_post_url": null,
+    "published_at": "2026-11-06T07:30:24.274424+00:00",
+    "error": null
   }
 ]

@@ -1,7 +1,8 @@
 {
   "used_bands": [
     "Toque Profundo",
-    "Aterciopelados"
+    "Aterciopelados",
+    "La Ley"
   ],
   "used_poll_indices": [
     16,
@@ -16,9 +17,9 @@
     19
   ],
   "original_type_index": 4,
-  "last_updated": "2026-11-06T01:27:25.791282+00:00",
+  "last_updated": "2026-11-06T07:30:51.326511+00:00",
   "post_type_index": 10,
-  "total_posts": 548,
+  "total_posts": 549,
   "used_event_indices": [
     12,
     11,
@@ -27,7 +28,7 @@
     19,
     28
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -123,7 +124,9 @@
     "la vela puerca|original",
     "la vela puerca|original",
     "aterciopelados|poll",
-    "aterciopelados|poll"
+    "aterciopelados|poll",
+    "la ley|youtube",
+    "la ley|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -219,9 +222,11 @@
     "44d1f0eaf6b625adcda90f745343d848a14e5d333315a9bac105d680f13859e5",
     "44d1f0eaf6b625adcda90f745343d848a14e5d333315a9bac105d680f13859e5",
     "a84fcda68e05a28760f6b3376eed2753cecab337033bc4bea9b6c61fa30c9ffe",
-    "a84fcda68e05a28760f6b3376eed2753cecab337033bc4bea9b6c61fa30c9ffe"
+    "a84fcda68e05a28760f6b3376eed2753cecab337033bc4bea9b6c61fa30c9ffe",
+    "2a98a2c48e4e57af1339adb3c17331f3d02680a6fb381a3a1596fc35d38cf89d",
+    "2a98a2c48e4e57af1339adb3c17331f3d02680a6fb381a3a1596fc35d38cf89d"
   ],
-  "last_published_id": "post_20261106_012602",
-  "last_published_at": "2026-11-06T01:26:49.407890+00:00",
-  "last_published_topic": "Aterciopelados"
+  "last_published_id": "post_20261106_072951",
+  "last_published_at": "2026-11-06T07:30:24.274424+00:00",
+  "last_published_topic": "La Ley"
 }
