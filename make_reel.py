@@ -24,10 +24,12 @@ called from make_reel().
 
 import os
 import random
+import re
 import requests
 import json
 import tempfile
 import shutil
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from dotenv import load_dotenv
@@ -152,6 +154,160 @@ REGLAS:
 - Solo datos REALES y verificables: no inventes nombres de integrantes, álbumes, canciones, fechas ni datos biográficos (ciudad de nacimiento, etc.); ante la duda, usa solo hechos seguros"""
 
 
+# ---------------------------------------------------------------------------
+# Wikipedia facts grounding + programmatic date gate (2026-11-05)
+# Mirrors generate.py's text-post grounding: the Nov 5 spot-check showed
+# the Héroes del Silencio reel inventing a singer ("la voz" Valdivia),
+# a city (Barcelona, not Zaragoza) and a song, with only a prompt rule
+# to stop it — reels had no grounding at all. Now the script prompt gets
+# the band's Wikipedia lead as its ONLY fact source, and the script is
+# date-gated with code before TTS: any year/decade not supported by the
+# lead fails that model attempt; if no model passes, generate_script
+# returns "" and the run aborts loudly (existing fail-loud behaviour),
+# instead of publishing a fabricated reel. The caption is built from
+# this script (publish_reel.py build_caption), so grounding the script
+# grounds the caption too.
+# Honest limit, same as text posts: wrong cities, member roles and
+# invented song titles with no date attached are NOT caught by the gate —
+# only the grounding prompt defends those. The gate is deliberately
+# date-only so it almost never false-positives.
+# ---------------------------------------------------------------------------
+
+_WIKI_FACTS_UA = {"User-Agent": "rock_bot-reels/1.0 (Lo Mejor del Rock en Espanol; fact grounding)"}
+_WIKI_FACTS_CACHE = {}
+
+
+def _wiki_norm(s):
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return re.sub(r"\s+", " ", s).strip().lower()
+
+
+_BAND_DISAMBIG = ("(banda)", "(band)", "(grupo)", "(grupo musical)",
+                  "(cantante)", "(m\u00fasico)", "(musician)", "(singer)")
+_DISAMBIG_RE = re.compile(r"(?i)may refer to|desambiguaci|puede referirse|se puede referir")
+_MUSIC_RE = re.compile(
+    r"(?i)\b(banda|grupo|rock|pop|música|music|cantante|singer"
+    r"|músico|musician|álbum|album|discograf|trovador|sonero|dúo|trío)"
+)
+# Parentheticals that mark the article as a NON-musical work (film, novel,
+# book, …) — never accept these as the band, even when the extract happens
+# to contain a music word. Found 2026-11-05: "Los chicos de la banda
+# (película)" passed the music check on the word "banda" in its own title,
+# while the real band's one-sentence lead (71 chars) was skipped by the
+# 120-char minimum — so grounding returned a 1970 film's facts for the band.
+_NONMUSIC_DISAMBIG_RE = re.compile(
+    r"(?i)\((película|pelicula|film|movie|novela|libro|book|serie|videojuego"
+    r"|obra|relato|cómic|comic|programa|telenovela|documental)\)"
+)
+
+
+def _rank_article_titles(titles, key):
+    scored = []
+    for t in titles:
+        plain = re.sub(r"\s*\([^)]*\)\s*$", "", t).strip()
+        pnorm = _wiki_norm(plain)
+        if not key or key not in pnorm:
+            continue
+        score = (
+            1 if any(d in t.lower() for d in _BAND_DISAMBIG) else 0,
+            1 if pnorm == key else 0,
+        )
+        scored.append((score, t))
+    scored.sort(key=lambda s: s[0], reverse=True)
+    return [t for _, t in scored]
+
+
+def get_wikipedia_facts(band):
+    """Short verified-facts block for a band from Wikipedia, or "" if none."""
+    key = _wiki_norm(band)
+    if key in _WIKI_FACTS_CACHE:
+        return _WIKI_FACTS_CACHE[key]
+    facts = ""
+    for wiki in ("es.wikipedia.org", "en.wikipedia.org"):
+        try:
+            r = requests.get(
+                "https://" + wiki + "/w/api.php",
+                headers=_WIKI_FACTS_UA,
+                params={"action": "opensearch", "search": band, "limit": 8,
+                        "namespace": 0, "format": "json"},
+                timeout=20,
+            )
+            r.raise_for_status()
+            titles = (r.json() or [None, []])[1]
+            for title in _rank_article_titles(titles, key)[:4]:
+                if _NONMUSIC_DISAMBIG_RE.search(title):
+                    continue
+                r2 = requests.get(
+                    "https://" + wiki + "/w/api.php",
+                    headers=_WIKI_FACTS_UA,
+                    params={"action": "query", "format": "json", "formatversion": "2",
+                            "prop": "extracts", "exintro": "1", "explaintext": "1",
+                            "exsectionformat": "plain", "redirects": "1",
+                            "titles": title},
+                    timeout=20,
+                )
+                r2.raise_for_status()
+                pages = (r2.json().get("query") or {}).get("pages") or []
+                extract = (pages[0].get("extract") or "").strip() if pages else ""
+                # Short leads are valid (Los Chicos' real lead is 71 chars).
+                if len(extract) < 50 or _DISAMBIG_RE.search(extract):
+                    continue
+                if _MUSIC_RE.search(extract[:600]):
+                    facts = extract[:1500]
+                    break
+            if facts:
+                break
+        except Exception:
+            continue
+    _WIKI_FACTS_CACHE[key] = facts
+    return facts
+
+
+_YEAR_RE = re.compile(r"\b(19|20)\d{2}\b")
+_DECADE_WORD = {"sesenta": 1960, "setenta": 1970, "ochenta": 1980, "noventa": 1990}
+# Decade forms: "años 2000" / "década de 2000" (4-digit), "años 80" /
+# "década de los ochenta" (2-digit/word after años/década), bare "los 80"
+# (rock decades only, 50-99 — "los 15 años" is a count, not a decade),
+# and "80s". A decade span is masked out before the year pass, so
+# "los 2000" is checked as the 2000s decade, not as the year 2000.
+_DECADE_RE = re.compile(
+    r"(?i)\b(?:a\u00f1os|los|(?:la\s+)?d\u00e9cada\s+de(?:\s+los)?)\s+((?:19|20)\d{2})(?!\d)\b"
+    r"|\b(?:a\u00f1os|(?:la\s+)?d\u00e9cada\s+de(?:\s+los)?)\s+(\d{2}|sesenta|setenta|ochenta|noventa)(?!\d)\b"
+    r"|\blos\s+([5-9]\d)(?!\d)\b"
+    r"|\b(\d{2})s\b"
+)
+
+
+def _unsupported_date_claims(text, facts):
+    """Date tokens (years, decades, quoted titles when facts are empty)
+    in `text` with no support in `facts`. Returns offending tokens."""
+    bad = []
+    fnorm = _wiki_norm(facts) if facts else ""
+    text = text or ""
+    decades = list(_DECADE_RE.finditer(text))
+    masked = text
+    for m in reversed(decades):
+        masked = masked[:m.start()] + " " * (m.end() - m.start()) + masked[m.end():]
+    for m in _YEAR_RE.finditer(masked):
+        if m.group(0) not in fnorm:
+            bad.append(m.group(0))
+    for m in decades:
+        tok = (m.group(1) or m.group(2) or m.group(3) or m.group(4) or "").lower()
+        if tok.isdigit():
+            start = int(tok) if len(tok) == 4 else int(tok) + 1900
+        else:
+            start = _DECADE_WORD.get(tok)
+        if start is None:
+            continue
+        if not any(str(y) in fnorm for y in range(start, start + 10)):
+            bad.append(m.group(0).strip())
+    if not facts:
+        for m in re.finditer(r"[\u201c\"«]([^\"\u201d»]{3,60})[\"\u201d»]", text or ""):
+            bad.append("\u201c" + m.group(1) + "\u201d")
+    return bad
+
+
 def _recent_reel_topics(limit=10):
     """Last reel topics from log.json, so random picks avoid repeats.
 
@@ -219,9 +375,25 @@ def _apply_tts_pronunciation(text: str) -> str:
 
 def generate_script(topic_data: dict) -> str:
     client = Groq(api_key=GROQ_API_KEY)
+    topic = topic_data["topic"]
+    facts = get_wikipedia_facts(topic)
+    if facts:
+        facts_block = (
+            "DATOS VERIFICADOS sobre " + topic + " (fuente: Wikipedia \u2014 tu \u00daNICA fuente de hechos):\n"
+            + facts + "\n"
+            "REGLA: todo nombre, fecha, \u00e1lbum, canci\u00f3n e integrante debe salir de estos datos. "
+            "Lo que no aparezca aqu\u00ed, NO lo inventes: usa frases generales sin datos concretos.\n\n"
+        )
+    else:
+        facts_block = (
+            "No se encontraron datos verificados sobre " + topic + ". "
+            "REGLA: NO inventes nombres, fechas, \u00e1lbumes, canciones ni integrantes. "
+            "Escribe solo afirmaciones generales y verdaderas.\n\n"
+        )
     prompt = (
-        f"Escribe un guión de Reel de 60 segundos sobre: {topic_data['topic']}\n"
+        f"Escribe un guión de Reel de 60 segundos sobre: {topic}\n"
         f"Ángulo: {topic_data['angle']}\n\n"
+        + facts_block +
         f"OBLIGATORIO: escribe EXACTAMENTE entre 140 y 155 palabras. "
         f"Cuenta las palabras antes de responder. "
         f"Si tienes menos de 140 palabras, agrega más detalles y ejemplos. "
@@ -245,6 +417,15 @@ def generate_script(topic_data: dict) -> str:
             )
             text = (completion.choices[0].message.content or "").strip()
             if text:
+                # Programmatic date gate: a script whose years/decades
+                # aren't in the Wikipedia facts fails this model attempt
+                # and the next model is tried. All models failing returns
+                # "" so the run aborts loudly instead of narrating
+                # invented facts.
+                bad = _unsupported_date_claims(text, facts)
+                if bad:
+                    print(f"  Groq {model} script failed date gate {bad}, trying next model...")
+                    continue
                 return text
             print(f"  Groq {model} returned empty script, trying next model...")
         except Exception as e:

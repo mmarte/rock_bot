@@ -694,6 +694,10 @@ def verify_and_normalize_post(client, topic: str, post_type: str, text: str, fac
     - remove obvious hallucinations / fix wrong dates if the model can self-correct
     - enforce style rules (no lyrics, end with a question, no mention of other posts)
     - when `facts` (Wikipedia) is given, claims are checked against it instead of memory
+    - then the programmatic date gate runs on the result: years/decades
+      must be supported by `facts` (see _unsupported_date_claims). Dates
+      the model invented are stripped sentence-by-sentence; if nothing
+      salvageable remains, the post falls back to _safe_post_from_facts.
     Returns corrected text (or original if verification fails).
     """
     system = (
@@ -733,9 +737,21 @@ def verify_and_normalize_post(client, topic: str, post_type: str, text: str, fac
         raw = call_groq(client, system, prompt, max_tokens=700, json_mode=True)
         data = clean_json(raw)
         out = (data.get("text") or "").strip()
-        return out if len(out) >= 40 else text
+        base = out if len(out) >= 40 else text
     except Exception:
-        return text
+        base = text
+    bad = _unsupported_date_claims(base, facts) if post_type != "hoy_en_historia" else []
+    # "hoy_en_historia" is exempt: its date is injected from the curated
+    # HISTORICAL_EVENTS list (corrected against Wikipedia 2026-11-04),
+    # not invented by the model, so the gate must not strip it.
+    if not bad:
+        return base
+    print(f"  Date gate: unsupported date claims {bad} — stripping those sentences.")
+    stripped = _strip_sentences_with(base, bad)
+    if len(stripped) >= 40 and "?" in stripped:
+        return stripped
+    print("  Date gate: nothing salvageable — using safe fallback post.")
+    return _safe_post_from_facts(topic, facts)
 
 
 # ---------------------------------------------------------------------------
@@ -916,6 +932,16 @@ _MUSIC_RE = re.compile(
     r"(?i)\b(banda|grupo|rock|pop|música|music|cantante|singer"
     r"|músico|musician|álbum|album|discograf|trovador|sonero|dúo|trío)"
 )
+# Parentheticals that mark the article as a NON-musical work (film, novel,
+# book, …) — never accept these as the band, even when the extract happens
+# to contain a music word. Found 2026-11-05: "Los chicos de la banda
+# (película)" passed the music check on the word "banda" in its own title,
+# while the real band's one-sentence lead (71 chars) was skipped by the
+# 120-char minimum — so grounding returned a 1970 film's facts for the band.
+_NONMUSIC_DISAMBIG_RE = re.compile(
+    r"(?i)\((película|pelicula|film|movie|novela|libro|book|serie|videojuego"
+    r"|obra|relato|cómic|comic|programa|telenovela|documental)\)"
+)
 
 
 def _rank_article_titles(titles, key):
@@ -956,6 +982,8 @@ def get_wikipedia_facts(band):
             r.raise_for_status()
             titles = (r.json() or [None, []])[1]
             for title in _rank_article_titles(titles, key)[:4]:
+                if _NONMUSIC_DISAMBIG_RE.search(title):
+                    continue
                 # Fetch the plain-text lead section.
                 r2 = requests.get(
                     "https://" + wiki + "/w/api.php",
@@ -969,7 +997,8 @@ def get_wikipedia_facts(band):
                 r2.raise_for_status()
                 pages = (r2.json().get("query") or {}).get("pages") or []
                 extract = (pages[0].get("extract") or "").strip() if pages else ""
-                if len(extract) < 120 or _DISAMBIG_RE.search(extract):
+                # Short leads are valid (Los Chicos' real lead is 71 chars).
+                if len(extract) < 50 or _DISAMBIG_RE.search(extract):
                     continue
                 # The lead must describe a musical act — never a homonym
                 # (footballer, cookie, …). Wrong facts are worse than none.
@@ -982,6 +1011,101 @@ def get_wikipedia_facts(band):
             continue
     _WIKI_FACTS_CACHE[key] = facts
     return facts
+
+
+# ---------------------------------------------------------------------------
+# Programmatic date gate (2026-11-05)
+# Why: the Nov 5 spot-check proved the model verifier cannot be the last
+# word on dates — it is the same model that invents them, and it let an
+# "años 80" Los Chicos post through even with Wikipedia grounding live.
+# So dates are now checked with code, not judgment:
+#   - a 4-digit year must appear verbatim in the Wikipedia facts block;
+#   - a decade ("años 80", "80s", "década de los 80", "los ochenta")
+#     needs at least one year of that decade in the facts;
+#   - when there are NO verified facts at all, every date token and every
+#     quoted title is unsupported (nothing verified = nothing concrete).
+# What it does NOT catch (honest limit): wrong cities, wrong member roles
+# and invented song titles with no date attached — e.g. "Nació en La Plata
+# en 1963" passes because 1963 IS in Fito's facts. Those still rely on the
+# grounding prompt above. The gate is deliberately narrow so it almost
+# never false-positives: it only fires on dates, and dates in the post
+# are supposed to come from the facts block by construction.
+# ---------------------------------------------------------------------------
+
+_YEAR_RE = re.compile(r"\b(19|20)\d{2}\b")
+_DECADE_WORD = {"sesenta": 1960, "setenta": 1970, "ochenta": 1980, "noventa": 1990}
+# Decade forms: "años 2000" / "década de 2000" (4-digit), "años 80" /
+# "década de los ochenta" (2-digit/word after años/década), bare "los 80"
+# (rock decades only, 50-99 — "los 15 años" is a count, not a decade),
+# and "80s". A decade span is masked out before the year pass, so
+# "los 2000" is checked as the 2000s decade, not as the year 2000.
+_DECADE_RE = re.compile(
+    r"(?i)\b(?:a\u00f1os|los|(?:la\s+)?d\u00e9cada\s+de(?:\s+los)?)\s+((?:19|20)\d{2})(?!\d)\b"
+    r"|\b(?:a\u00f1os|(?:la\s+)?d\u00e9cada\s+de(?:\s+los)?)\s+(\d{2}|sesenta|setenta|ochenta|noventa)(?!\d)\b"
+    r"|\blos\s+([5-9]\d)(?!\d)\b"
+    r"|\b(\d{2})s\b"
+)
+
+
+def _unsupported_date_claims(text, facts):
+    """Date tokens (years, decades, quoted titles when facts are empty)
+    in `text` with no support in `facts`. Returns offending tokens."""
+    bad = []
+    fnorm = _wiki_norm(facts) if facts else ""
+    text = text or ""
+    decades = list(_DECADE_RE.finditer(text))
+    masked = text
+    for m in reversed(decades):
+        masked = masked[:m.start()] + " " * (m.end() - m.start()) + masked[m.end():]
+    for m in _YEAR_RE.finditer(masked):
+        if m.group(0) not in fnorm:
+            bad.append(m.group(0))
+    for m in decades:
+        tok = (m.group(1) or m.group(2) or m.group(3) or m.group(4) or "").lower()
+        if tok.isdigit():
+            start = int(tok) if len(tok) == 4 else int(tok) + 1900
+        else:
+            start = _DECADE_WORD.get(tok)
+        if start is None:
+            continue
+        if not any(str(y) in fnorm for y in range(start, start + 10)):
+            bad.append(m.group(0).strip())
+    # Quoted titles are concrete claims too, but only reject them when
+    # there are NO verified facts (a real song often isn't in the short
+    # lead, so checking quotes against a non-empty lead would
+    # false-positive constantly).
+    if not facts:
+        for m in re.finditer(r"[\u201c\"«]([^\"\u201d»]{3,60})[\"\u201d»]", text or ""):
+            bad.append("\u201c" + m.group(1) + "\u201d")
+    return bad
+
+
+def _strip_sentences_with(text, bad_tokens):
+    """Drop sentences containing any of `bad_tokens` (accent-insensitive)."""
+    kept = []
+    for sent in re.split(r"(?<=[.!?])\s+", (text or "").strip()):
+        low = _wiki_norm(sent)
+        if any(_wiki_norm(t).strip("\u201c\u201d\"") in low for t in bad_tokens if t.strip("\u201c\u201d\"")):
+            continue
+        kept.append(sent)
+    return " ".join(kept).strip()
+
+
+def _safe_post_from_facts(topic, facts):
+    """Generic, verifiably-true fallback post, used when the gated text
+    can't be salvaged. Built only from the verified lead (first sentence)
+    or, with no facts at all, from no concrete claims whatsoever."""
+    if facts:
+        first = re.split(r"\.\s+", facts.strip(), maxsplit=1)[0].strip()
+        first = first if first.endswith(".") else first + "."
+        if len(first) > 280:
+            first = first[:277].rsplit(" ", 1)[0] + "."
+        return first + " ¿Cuál es tu canción favorita de " + topic + "?"
+    return (
+        "Hoy suena " + topic + " en Lo Mejor del Rock en Español. "
+        "Una banda para redescubrir con calma y a todo volumen. "
+        "¿Cuál es tu canción favorita de " + topic + "?"
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -1239,7 +1363,7 @@ def generate_post():
             topic=data.get("topic", band),
             post_type=actual_type,
             text=data.get("text", ""),
-            facts=get_wikipedia_facts(data.get("topic", band)) if actual_type == "original" else "",
+            facts=get_wikipedia_facts(data.get("topic", band)),
         ).rstrip()
         video_url = data.get("video_url")
         if video_url and video_url not in verified_text:
