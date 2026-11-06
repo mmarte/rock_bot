@@ -2112,5 +2112,31 @@
     "youtube_post_url": null,
     "published_at": "2026-11-05T22:30:50.300213+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261106_012602",
+    "status": "published",
+    "created_at": "2026-11-06T01:26:02.859291+00:00",
+    "post_type": "poll",
+    "topic": "Aterciopelados",
+    "text": "¿Quién dejó la huella más profunda al subir al escenario como solista? No hablamos de una banda, sino del artista cuya voz y energía marcó a toda una generación tras su paso por el grupo de origen.\n\n👍 Gustavo Cerati: El visionario que convirtió la melancolía en estética pura, después de su paso por Soda Stereo.\n❤️ Enrique Bunbury: El torrente que tomó el micrófono y transformó cada grito en un monumento sonoro tras su etapa en Héroes del Silencio.\n😮 Andrés Calamaro: El creador de contrastes que volvió la elegancia en una declaración sonora luego de su paso por Sumo.\n\n¡Vota con tu reacción! 👍❤️😮 ¿Cuál de ellos consideras que dejó la huella más profunda?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados #HeroesdelSilencio #EnriqueBunbury #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "a84fcda68e05a28760f6b3376eed2753cecab337033bc4bea9b6c61fa30c9ffe",
+    "image_query": "Aterciopelados Colombia rock band",
+    "extra_topics": [
+      "Soda Stereo",
+      "Héroes del Silencio",
+      "Enrique Bunbury",
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1553262023515005",
+    "ig_post_id": "18100306628436177",
+    "threads_post_id": "18036651905666924",
+    "youtube_post_url": null,
+    "published_at": "2026-11-06T01:26:49.407890+00:00",
+    "error": null
   }
 ]
