@@ -2461,5 +2461,23 @@
     "image_url": "https://img.youtube.com/vi/9uVuodKHkko/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-11-06T07:30:24.274424+00:00"
+  },
+  {
+    "post_id": "reel_20261106",
+    "post_type": "reel",
+    "topic": "Alaska y Dinarama",
+    "reel_path": "reels/reel_20261106.mp4",
+    "fb_reel_id": "1670647451088731",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}})",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-06T16:25:53.980032+00:00"
   }
 ]
