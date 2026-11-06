@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260801_142352",
-    "fb_post_id": "1043162839046116_1460663882774820",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "hoy_en_historia",
-    "topic": "Gustavo Cerati",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
-    "status": "published",
-    "executed_at": "2026-08-01T14:24:19.978040+00:00"
-  },
-  {
     "post_id": "post_20260801_175807",
     "fb_post_id": "1043162839046116_1460814549426420",
     "ig_post_id": null,
@@ -2467,5 +2455,17 @@
     "image_url": "https://www.sodastereo.com/img/image_src.jpg",
     "status": "published",
     "executed_at": "2026-11-06T19:47:50.763306+00:00"
+  },
+  {
+    "post_id": "post_20261106_215544",
+    "fb_post_id": "1043162839046116_1554295440078330",
+    "ig_post_id": "18132466783773563",
+    "threads_post_id": "18173236006462212",
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Black Guayaba",
+    "image_url": "https://img.youtube.com/vi/aX9mPaPNVxE/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-11-06T21:56:22.593061+00:00"
   }
 ]

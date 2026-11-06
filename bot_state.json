@@ -3,7 +3,8 @@
     "Toque Profundo",
     "Aterciopelados",
     "La Ley",
-    "Los Prisioneros"
+    "Los Prisioneros",
+    "Black Guayaba"
   ],
   "used_poll_indices": [
     4,
@@ -18,9 +19,9 @@
     15
   ],
   "original_type_index": 4,
-  "last_updated": "2026-11-06T19:48:12.583574+00:00",
+  "last_updated": "2026-11-06T21:56:59.223025+00:00",
   "post_type_index": 10,
-  "total_posts": 550,
+  "total_posts": 551,
   "used_event_indices": [
     12,
     11,
@@ -29,7 +30,7 @@
     19,
     28
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
     "gustavo cerati|original",
@@ -129,7 +130,9 @@
     "la ley|youtube",
     "la ley|youtube",
     "los prisioneros|poll",
-    "los prisioneros|poll"
+    "los prisioneros|poll",
+    "black guayaba|youtube",
+    "black guayaba|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -229,9 +232,11 @@
     "2a98a2c48e4e57af1339adb3c17331f3d02680a6fb381a3a1596fc35d38cf89d",
     "2a98a2c48e4e57af1339adb3c17331f3d02680a6fb381a3a1596fc35d38cf89d",
     "fcb3525bbf5d6e20dee1e0eba185e4b1f4af72c86fddf8e74422dad0208253d1",
-    "fcb3525bbf5d6e20dee1e0eba185e4b1f4af72c86fddf8e74422dad0208253d1"
+    "fcb3525bbf5d6e20dee1e0eba185e4b1f4af72c86fddf8e74422dad0208253d1",
+    "a51de58ed6943750b4e208824877f449a82f1f37ccddbf5af45b95fa06c9b053",
+    "a51de58ed6943750b4e208824877f449a82f1f37ccddbf5af45b95fa06c9b053"
   ],
-  "last_published_id": "post_20261106_194712",
-  "last_published_at": "2026-11-06T19:47:50.763306+00:00",
-  "last_published_topic": "Los Prisioneros"
+  "last_published_id": "post_20261106_215544",
+  "last_published_at": "2026-11-06T21:56:22.593061+00:00",
+  "last_published_topic": "Black Guayaba"
 }
