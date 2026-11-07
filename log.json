@@ -2461,5 +2461,23 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261030_182037 — not republished",
     "executed_at": "2026-11-07T06:43:25.841144+00:00"
+  },
+  {
+    "post_id": "reel_20261107",
+    "post_type": "reel",
+    "topic": "Los Secretos",
+    "reel_path": "reels/reel_20261107.mp4",
+    "fb_reel_id": "1126669780326640",
+    "ig_reel_id": "18138545584674973",
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": null,
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-07T15:18:36.422345+00:00"
   }
 ]
