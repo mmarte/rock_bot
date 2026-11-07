@@ -2225,5 +2225,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-07T00:42:07.182922+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261107_064235",
+    "status": "skipped_duplicate",
+    "created_at": "2026-11-07T06:42:35.823820+00:00",
+    "post_type": "original",
+    "topic": "Fiel a la Vega",
+    "text": "El nombre de Fiel a la Vega refleja directamente sus raíces en los municipios de Vega Baja y Vega Alta, donde se reunieron en 1994 para formar la banda. La unión de jóvenes músicos de esos lugares dio origen a una identidad fuerte que se mantiene hasta hoy. Sus primeros ensayos y su primera exposición en vivo consolidaron el sonido que hoy reconocemos como un sello del rock puertorriqueño. ¿Te interesa conocer más sobre cómo estos inicios moldearon su música?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #FielalaVega\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "8974e310e805ffa7d27ae2dd7e608d04660dcc55ef984a49dc99e35f7dee525e",
+    "image_query": "Fiel a la Vega rock band concert",
+    "extra_topics": [],
+    "post_year": "1994",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20261030_182037 — not republished"
   }
 ]

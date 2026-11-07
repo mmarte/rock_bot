@@ -6,7 +6,10 @@
     "Los Prisioneros",
     "Black Guayaba",
     "Bohemia Suburbana",
-    "Molotov"
+    "Molotov",
+    "Octavia",
+    "Savage",
+    "Fiel a la Vega"
   ],
   "used_poll_indices": [
     4,
@@ -20,10 +23,10 @@
     19,
     15
   ],
-  "original_type_index": 5,
-  "last_updated": "2026-11-07T00:43:03.527032+00:00",
+  "original_type_index": 6,
+  "last_updated": "2026-11-07T06:43:00.507898+00:00",
   "post_type_index": 10,
-  "total_posts": 552,
+  "total_posts": 553,
   "used_event_indices": [
     12,
     11,
@@ -35,7 +38,6 @@
   "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "zoé|poll",
     "zoé|poll",
     "octavia|youtube",
     "octavia|youtube",
@@ -134,7 +136,8 @@
     "black guayaba|youtube",
     "black guayaba|youtube",
     "molotov|original",
-    "molotov|original"
+    "molotov|original",
+    "fiel a la vega|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -238,7 +241,8 @@
     "a51de58ed6943750b4e208824877f449a82f1f37ccddbf5af45b95fa06c9b053",
     "a51de58ed6943750b4e208824877f449a82f1f37ccddbf5af45b95fa06c9b053",
     "d5cb6af5e6a2030da834c0fe2ff9535d50565379265689756861d4a1771a764f",
-    "d5cb6af5e6a2030da834c0fe2ff9535d50565379265689756861d4a1771a764f"
+    "d5cb6af5e6a2030da834c0fe2ff9535d50565379265689756861d4a1771a764f",
+    "8974e310e805ffa7d27ae2dd7e608d04660dcc55ef984a49dc99e35f7dee525e"
   ],
   "last_published_id": "post_20261107_004131",
   "last_published_at": "2026-11-07T00:42:07.182922+00:00",
