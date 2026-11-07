@@ -1354,10 +1354,7 @@ def generate_post():
         import re as _re
         years_found = _re.findall(r"\b(19[5-9]\d|20[0-2]\d)\b", data.get("text", ""))
         post_year = data.get("post_year", years_found[0] if years_found else "")
-        text_so_far = data.get("text", "")
-        extra_mentions = [b for b in BANDS if b in text_so_far and b != data.get("topic", band)]
         actual_type = data.get("post_type", post_type)
-        hashtags = build_hashtags(data.get("topic", band), extra_tags=extra_mentions[:3], post_type=actual_type)
         verified_text = verify_and_normalize_post(
             client,
             topic=data.get("topic", band),
@@ -1368,6 +1365,15 @@ def generate_post():
         video_url = data.get("video_url")
         if video_url and video_url not in verified_text:
             verified_text = verified_text.rstrip() + "\n\n" + video_url
+        # 2026-11-06: hashtags from the VERIFIED text, not the pre-verification
+        # draft. Extra tags used to come from substring matches over the draft,
+        # computed BEFORE verify_and_normalize_post ran — so a passing mention
+        # the verifier stripped still left its tag behind (La Ley post, Nov 6:
+        # #GustavoCerati with Cerati nowhere in the published text). Matching
+        # against verified_text keeps legitimate multi-band tags (a Soda vs
+        # Maná duelo still tags both) while orphan tags disappear.
+        extra_mentions = [b for b in BANDS if b in verified_text and b != data.get("topic", band)]
+        hashtags = build_hashtags(data.get("topic", band), extra_tags=extra_mentions[:3], post_type=actual_type)
         final_text = verified_text.rstrip() + hashtags
         final_topic = data.get("topic", band)
         tkey = topic_key(final_topic, actual_type)
