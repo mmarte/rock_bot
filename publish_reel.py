@@ -226,6 +226,16 @@ def publish_instagram_reel(video_path: Path, caption: str) -> PublishResult:
     If all three fail, the error summary says so plainly, and the
     next diagnostic is a manual upload of that exact mp4 in the
     Instagram app / an account-status check, not another code guess.
+
+    2026-11-06: reels Oct 31 and Nov 2, 3, 5, 6 all timed out with the container
+    still IN_PROGRESS after the 5-minute poll, while Nov 4 published
+    fine — Meta's processing time varies past the 5-minute cutoff, so
+    the cutoff itself was discarding containers that might still have
+    finished. The chunked attempt (the proven method) now polls up to
+    15 minutes; single and re-encoded stay at 5 minutes to bound the
+    worst case at ~25 minutes of polling. All attempt errors are also
+    reported together now, so log.json stops hiding everything but the
+    last attempt's error.
     """
     # 2026-10-26 22:32 UTC: chunked + poll-after-failure PUBLISHED
     # (id 18221974384344283), while single and re-encoded single
@@ -233,17 +243,18 @@ def publish_instagram_reel(video_path: Path, caption: str) -> PublishResult:
     # the old order wasted ~10 minutes on two attempts that never
     # finished, before the method that works even ran.
     attempts = [
-        ("chunked, original file", video_path, "chunked", False),
-        ("single, original file", video_path, "single", False),
+        ("chunked, original file", video_path, "chunked", False, 15),
+        ("single, original file", video_path, "single", False, 5),
     ]
     reencoded = _reencode_for_instagram(video_path)
     if reencoded is not None:
-        attempts.append(("single, re-encoded (Main/faststart)", reencoded, "single", True))
+        attempts.append(("single, re-encoded (Main/faststart)", reencoded, "single", True, 5))
 
     last = None
-    for label, path, mode, is_temp in attempts:
-        print(f"  Instagram Reel: attempt — {label}...")
-        result = _publish_instagram_reel_once(path, caption, upload_mode=mode)
+    attempt_errors = []
+    for label, path, mode, is_temp, poll_minutes in attempts:
+        print(f"  Instagram Reel: attempt — {label} (poll up to {poll_minutes} min)...")
+        result = _publish_instagram_reel_once(path, caption, upload_mode=mode, poll_minutes=poll_minutes)
         if is_temp:
             try:
                 os.remove(path)
@@ -252,9 +263,17 @@ def publish_instagram_reel(video_path: Path, caption: str) -> PublishResult:
         if result.ok:
             return result
         last = result
+        attempt_errors.append(f"{label}: {result.error}")
         print(f"  Instagram Reel: attempt failed — {label}: {result.error}")
         time.sleep(10)
-    return last if last is not None else PublishResult(
+    if last is not None:
+        # Report every attempt, not just the last: the log used to keep
+        # only the final error, which hid whether the chunked attempt
+        # failed differently from the single/re-encoded ones.
+        return PublishResult(
+            platform="instagram_reel", ok=False,
+            error="; ".join(attempt_errors))
+    return PublishResult(
         platform="instagram_reel", ok=False, error="No IG attempt ran")
 
 
@@ -316,7 +335,7 @@ def _ig_container_status(graph_base: str, container_id: str, token: str) -> str:
         return f"status check exception: {e}"
 
 
-def _publish_instagram_reel_once(video_path: Path, caption: str, upload_mode: str = "single") -> PublishResult:
+def _publish_instagram_reel_once(video_path: Path, caption: str, upload_mode: str = "single", poll_minutes: int = 5) -> PublishResult:
     """
     Instagram Reels publishing using resumable upload:
       1) Create container: POST /{ig-user-id}/media with media_type=REELS, upload_type=resumable
@@ -423,9 +442,13 @@ def _publish_instagram_reel_once(video_path: Path, caption: str, upload_mode: st
     except Exception as e:
         return PublishResult(platform="instagram_reel", ok=False, error=f"Upload exception: {e}")
 
-    # Poll status (once per ~10s, max 5 minutes)
+    # Poll status (once per ~10s, up to poll_minutes). The container
+    # can sit IN_PROGRESS long after the upload reports
+    # ProcessingFailedError and still reach FINISHED — see the
+    # 2026-10-26 chunked success and the Nov 2/3/5/6 timeouts.
+    poll_rounds = max(1, int(poll_minutes * 6))
     status = None
-    for _ in range(30):
+    for _ in range(poll_rounds):
         st = _get(
             f"{graph_base}/{container_id}",
             params={"fields": "status_code", "access_token": token},
