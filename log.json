@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260801_175807",
-    "fb_post_id": "1043162839046116_1460814549426420",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Alux Nahual",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Alux_Nahual.jpg",
-    "status": "published",
-    "executed_at": "2026-08-01T17:58:33.691786+00:00"
-  },
-  {
     "post_id": "post_20260801_215922",
     "fb_post_id": "1043162839046116_1460949592746249",
     "ig_post_id": null,
@@ -2467,5 +2455,17 @@
     "image_url": "https://img.youtube.com/vi/aX9mPaPNVxE/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-11-06T21:56:22.593061+00:00"
+  },
+  {
+    "post_id": "post_20261107_004131",
+    "fb_post_id": "1043162839046116_1554403183400889",
+    "ig_post_id": "18113987914888133",
+    "threads_post_id": "18055659866594308",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Molotov",
+    "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-11-07T00:42:07.182922+00:00"
   }
 ]
