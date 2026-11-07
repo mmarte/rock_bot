@@ -1,29 +1,5 @@
 [
   {
-    "post_id": "post_20260802_041937",
-    "fb_post_id": "1043162839046116_1461168989390976",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Los Mojarras",
-    "image_url": "https://img.youtube.com/vi/qTUi2sCxQ1o/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-02T04:20:03.916919+00:00"
-  },
-  {
-    "post_id": "post_20260802_142502",
-    "fb_post_id": "1043162839046116_1461568742684334",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/WPrablD0bYQ/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-02T14:25:30.559898+00:00"
-  },
-  {
     "post_id": "post_20260802_175915",
     "fb_post_id": "1043162839046116_1461719922669216",
     "ig_post_id": null,
@@ -2479,5 +2455,17 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-11-07T15:18:36.422345+00:00"
+  },
+  {
+    "post_id": "post_20261107_175616",
+    "fb_post_id": "1043162839046116_1555231296651411",
+    "ig_post_id": "17953605699277785",
+    "threads_post_id": "18025714370940438",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Los Rodríguez",
+    "image_url": "https://static.wixstatic.com/media/b524ac_937a3a78474545fd9b0e8c088bb0fa12%7Emv2.png/v1/fit/w_2500,h_1330,al_c/b524ac_937a3a78474545fd9b0e8c088bb0fa12%7Emv2.png",
+    "status": "published",
+    "executed_at": "2026-11-07T17:56:50.914244+00:00"
   }
 ]

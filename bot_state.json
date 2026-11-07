@@ -9,10 +9,10 @@
     "Molotov",
     "Octavia",
     "Savage",
-    "Fiel a la Vega"
+    "Fiel a la Vega",
+    "Los Rodríguez"
   ],
   "used_poll_indices": [
-    4,
     8,
     5,
     9,
@@ -21,12 +21,13 @@
     13,
     7,
     19,
-    15
+    15,
+    18
   ],
   "original_type_index": 6,
-  "last_updated": "2026-11-07T06:43:00.507898+00:00",
+  "last_updated": "2026-11-07T17:57:24.292641+00:00",
   "post_type_index": 10,
-  "total_posts": 553,
+  "total_posts": 554,
   "used_event_indices": [
     12,
     11,
@@ -35,11 +36,9 @@
     19,
     28
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "zoé|poll",
-    "octavia|youtube",
     "octavia|youtube",
     "radio futura|original",
     "radio futura|original",
@@ -137,7 +136,9 @@
     "black guayaba|youtube",
     "molotov|original",
     "molotov|original",
-    "fiel a la vega|original"
+    "fiel a la vega|original",
+    "los rodríguez|poll",
+    "los rodríguez|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -242,9 +243,11 @@
     "a51de58ed6943750b4e208824877f449a82f1f37ccddbf5af45b95fa06c9b053",
     "d5cb6af5e6a2030da834c0fe2ff9535d50565379265689756861d4a1771a764f",
     "d5cb6af5e6a2030da834c0fe2ff9535d50565379265689756861d4a1771a764f",
-    "8974e310e805ffa7d27ae2dd7e608d04660dcc55ef984a49dc99e35f7dee525e"
+    "8974e310e805ffa7d27ae2dd7e608d04660dcc55ef984a49dc99e35f7dee525e",
+    "9fb0ee97b123f32531b8c3aa8c8ad14e8e19a6ed3a2da8589db282ceab979e13",
+    "9fb0ee97b123f32531b8c3aa8c8ad14e8e19a6ed3a2da8589db282ceab979e13"
   ],
-  "last_published_id": "post_20261107_004131",
-  "last_published_at": "2026-11-07T00:42:07.182922+00:00",
-  "last_published_topic": "Molotov"
+  "last_published_id": "post_20261107_175616",
+  "last_published_at": "2026-11-07T17:56:50.914244+00:00",
+  "last_published_topic": "Los Rodríguez"
 }

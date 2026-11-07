@@ -2246,5 +2246,29 @@
     "youtube_post_url": null,
     "published_at": null,
     "error": "Duplicate of post_20261030_182037 — not republished"
+  },
+  {
+    "id": "post_20261107_175616",
+    "status": "published",
+    "created_at": "2026-11-07T17:56:16.092235+00:00",
+    "post_type": "poll",
+    "topic": "Los Rodríguez",
+    "text": "Colombia cuenta con una escena vibrante y varios artistas que han trascendido fronteras. Entre ellos destacan Aterciopelados, Juanes y Bomba Estéreo, cuyas propuestas han influido en la música contemporánea. ¿Cuál de estos tres te ha marcado más? 👍 Aterciopelados ❤️ Juanes 😮 Bomba Estéreo ¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRodriguez #Aterciopelados #Juanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "9fb0ee97b123f32531b8c3aa8c8ad14e8e19a6ed3a2da8589db282ceab979e13",
+    "image_query": "Los Rodriguez Spain Argentina rock band",
+    "extra_topics": [
+      "Aterciopelados",
+      "Juanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1555231296651411",
+    "ig_post_id": "17953605699277785",
+    "threads_post_id": "18025714370940438",
+    "youtube_post_url": null,
+    "published_at": "2026-11-07T17:56:50.914244+00:00",
+    "error": null
   }
 ]
