@@ -2337,5 +2337,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-08T18:11:00.029622+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261108_205712",
+    "status": "skipped_duplicate",
+    "created_at": "2026-11-08T20:57:12.321569+00:00",
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "text": "¿Quién dijo que el rock argentino no podía llegar a la escena británica? En alguna ocasión, Soda Stereo ofreció su propia interpretación de \"Paint It Black\" de The Rolling Stones, dándole una energía eléctrica que sorprende. La versión conserva la melancolía del tema original, pero la lleva al estilo propio del grupo, combinando la intensidad del rock con matices que recuerdan su sonido característico. La actuación en vivo resultó potente, conectando con el público sin importar la lengua, y demuestra cómo la música puede traspasar fronteras. ¿Cuál versión prefieres, la original de Jagger o la reinterpretación de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=73vmEcSlMNk\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "465d40062ac0fdb46ed55614f4b39631b04a644beed8d5f438619ef1a9d97055",
+    "image_query": "Soda Stereo Paint It Black live",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=73vmEcSlMNk",
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20260922_233249 — not republished"
   }
 ]

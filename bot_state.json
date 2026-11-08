@@ -13,7 +13,11 @@
     "Los Rodríguez",
     "Dedicados",
     "Alux Nahual",
-    "Caifanes"
+    "Caifanes",
+    "Cecilia & The Argonauts",
+    "La Máquina Camaleón",
+    "Radio Futura",
+    "Soda Stereo"
   ],
   "used_poll_indices": [
     5,
@@ -27,10 +31,10 @@
     18,
     0
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-11-08T18:11:28.384458+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-11-08T20:57:57.582523+00:00",
   "post_type_index": 10,
-  "total_posts": 557,
+  "total_posts": 558,
   "used_event_indices": [
     12,
     11,
@@ -39,10 +43,9 @@
     19,
     28
   ],
-  "last_post_type": "poll",
+  "last_post_type": "cover",
   "curation_year": 2024,
   "used_topics": [
-    "flou|youtube",
     "los tres|original",
     "los tres|original",
     "café tacvba|poll",
@@ -141,7 +144,8 @@
     "alux nahual|original",
     "alux nahual|original",
     "caifanes|poll",
-    "caifanes|poll"
+    "caifanes|poll",
+    "soda stereo|cover"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -254,7 +258,8 @@
     "73b33a47f1bd5fcf930b2e70f5b829fdee9369c8c465e043992b33d9cd4aa52b",
     "73b33a47f1bd5fcf930b2e70f5b829fdee9369c8c465e043992b33d9cd4aa52b",
     "18b89001c0b14b8fa29574249abeb6498dd2e644c775908b1e5eaeeb098f9eeb",
-    "18b89001c0b14b8fa29574249abeb6498dd2e644c775908b1e5eaeeb098f9eeb"
+    "18b89001c0b14b8fa29574249abeb6498dd2e644c775908b1e5eaeeb098f9eeb",
+    "465d40062ac0fdb46ed55614f4b39631b04a644beed8d5f438619ef1a9d97055"
   ],
   "last_published_id": "post_20261108_181024",
   "last_published_at": "2026-11-08T18:11:00.029622+00:00",
