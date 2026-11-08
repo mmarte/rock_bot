@@ -12,10 +12,10 @@
     "Fiel a la Vega",
     "Los Rodríguez",
     "Dedicados",
-    "Alux Nahual"
+    "Alux Nahual",
+    "Caifanes"
   ],
   "used_poll_indices": [
-    8,
     5,
     9,
     6,
@@ -24,12 +24,13 @@
     7,
     19,
     15,
-    18
+    18,
+    0
   ],
   "original_type_index": 7,
-  "last_updated": "2026-11-08T06:50:00.014865+00:00",
+  "last_updated": "2026-11-08T18:11:28.384458+00:00",
   "post_type_index": 10,
-  "total_posts": 556,
+  "total_posts": 557,
   "used_event_indices": [
     12,
     11,
@@ -38,11 +39,9 @@
     19,
     28
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "fiel a la vega|poll",
-    "flou|youtube",
     "flou|youtube",
     "los tres|original",
     "los tres|original",
@@ -140,7 +139,9 @@
     "dedicados|youtube",
     "dedicados|youtube",
     "alux nahual|original",
-    "alux nahual|original"
+    "alux nahual|original",
+    "caifanes|poll",
+    "caifanes|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -251,9 +252,11 @@
     "7be90e4fb30f72a5f5dbb2d914e84070b89c1c660a603848ad38169e0c229f4c",
     "7be90e4fb30f72a5f5dbb2d914e84070b89c1c660a603848ad38169e0c229f4c",
     "73b33a47f1bd5fcf930b2e70f5b829fdee9369c8c465e043992b33d9cd4aa52b",
-    "73b33a47f1bd5fcf930b2e70f5b829fdee9369c8c465e043992b33d9cd4aa52b"
+    "73b33a47f1bd5fcf930b2e70f5b829fdee9369c8c465e043992b33d9cd4aa52b",
+    "18b89001c0b14b8fa29574249abeb6498dd2e644c775908b1e5eaeeb098f9eeb",
+    "18b89001c0b14b8fa29574249abeb6498dd2e644c775908b1e5eaeeb098f9eeb"
   ],
-  "last_published_id": "post_20261108_064826",
-  "last_published_at": "2026-11-08T06:49:07.239830+00:00",
-  "last_published_topic": "Alux Nahual"
+  "last_published_id": "post_20261108_181024",
+  "last_published_at": "2026-11-08T18:11:00.029622+00:00",
+  "last_published_topic": "Caifanes"
 }
