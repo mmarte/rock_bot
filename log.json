@@ -2467,5 +2467,23 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Alux_Nahual.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "status": "published",
     "executed_at": "2026-11-08T06:49:07.239830+00:00"
+  },
+  {
+    "post_id": "reel_20261108",
+    "post_type": "reel",
+    "topic": "Anima Mundi",
+    "reel_path": "reels/reel_20261108.mp4",
+    "fb_reel_id": "1444100077242759",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "chunked, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Chunked upload failed at offset 20971520: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, re-encoded (Main/faststart): Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}})",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-08T15:41:24.818758+00:00"
   }
 ]
