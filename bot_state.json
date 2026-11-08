@@ -11,7 +11,8 @@
     "Savage",
     "Fiel a la Vega",
     "Los Rodríguez",
-    "Dedicados"
+    "Dedicados",
+    "Alux Nahual"
   ],
   "used_poll_indices": [
     8,
@@ -25,10 +26,10 @@
     15,
     18
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-11-08T00:16:53.414846+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-11-08T06:50:00.014865+00:00",
   "post_type_index": 10,
-  "total_posts": 555,
+  "total_posts": 556,
   "used_event_indices": [
     12,
     11,
@@ -37,11 +38,9 @@
     19,
     28
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "radio futura|original",
-    "fiel a la vega|poll",
     "fiel a la vega|poll",
     "flou|youtube",
     "flou|youtube",
@@ -139,7 +138,9 @@
     "los rodríguez|poll",
     "los rodríguez|poll",
     "dedicados|youtube",
-    "dedicados|youtube"
+    "dedicados|youtube",
+    "alux nahual|original",
+    "alux nahual|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -248,9 +249,11 @@
     "9fb0ee97b123f32531b8c3aa8c8ad14e8e19a6ed3a2da8589db282ceab979e13",
     "9fb0ee97b123f32531b8c3aa8c8ad14e8e19a6ed3a2da8589db282ceab979e13",
     "7be90e4fb30f72a5f5dbb2d914e84070b89c1c660a603848ad38169e0c229f4c",
-    "7be90e4fb30f72a5f5dbb2d914e84070b89c1c660a603848ad38169e0c229f4c"
+    "7be90e4fb30f72a5f5dbb2d914e84070b89c1c660a603848ad38169e0c229f4c",
+    "73b33a47f1bd5fcf930b2e70f5b829fdee9369c8c465e043992b33d9cd4aa52b",
+    "73b33a47f1bd5fcf930b2e70f5b829fdee9369c8c465e043992b33d9cd4aa52b"
   ],
-  "last_published_id": "post_20261108_001555",
-  "last_published_at": "2026-11-08T00:16:26.441394+00:00",
-  "last_published_topic": "Dedicados"
+  "last_published_id": "post_20261108_064826",
+  "last_published_at": "2026-11-08T06:49:07.239830+00:00",
+  "last_published_topic": "Alux Nahual"
 }

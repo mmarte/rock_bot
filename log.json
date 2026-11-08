@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260802_215931",
-    "fb_post_id": "1043162839046116_1461853029322572",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/Dck7W4IYyGI/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-02T21:59:58.554544+00:00"
-  },
-  {
     "post_id": "post_20260803_042412",
     "fb_post_id": "1043162839046116_1462060872635121",
     "ig_post_id": null,
@@ -2467,5 +2455,17 @@
     "image_url": "https://img.youtube.com/vi/mUdm1nAxN6o/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-11-08T00:16:26.441394+00:00"
+  },
+  {
+    "post_id": "post_20261108_064826",
+    "fb_post_id": "1043162839046116_1555775059930368",
+    "ig_post_id": "18097826555670174",
+    "threads_post_id": "17880236235565060",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Alux Nahual",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Alux_Nahual.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "status": "published",
+    "executed_at": "2026-11-08T06:49:07.239830+00:00"
   }
 ]
