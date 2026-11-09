@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260803_221212",
-    "fb_post_id": "1043162839046116_1462755549232320",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Gandhi",
-    "image_url": "https://img.youtube.com/vi/DnJ_-99mtdk/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-03T22:12:39.038678+00:00"
-  },
-  {
     "post_id": "post_20260804_035932",
     "fb_post_id": "1043162839046116_1462955799212295",
     "ig_post_id": null,
@@ -2467,5 +2455,17 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20260922_233249 — not republished",
     "executed_at": "2026-11-08T20:58:23.132026+00:00"
+  },
+  {
+    "post_id": "post_20261109_003749",
+    "fb_post_id": "1043162839046116_1556634993177708",
+    "ig_post_id": "18140952472622482",
+    "threads_post_id": "18092925422241922",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Revolber",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Sadzdrfgg.jpg",
+    "status": "published",
+    "executed_at": "2026-11-09T00:38:31.028129+00:00"
   }
 ]

@@ -17,7 +17,8 @@
     "Cecilia & The Argonauts",
     "La Máquina Camaleón",
     "Radio Futura",
-    "Soda Stereo"
+    "Soda Stereo",
+    "Revolber"
   ],
   "used_poll_indices": [
     5,
@@ -31,10 +32,10 @@
     18,
     0
   ],
-  "original_type_index": 8,
-  "last_updated": "2026-11-08T20:57:57.582523+00:00",
+  "original_type_index": 9,
+  "last_updated": "2026-11-09T00:39:25.675557+00:00",
   "post_type_index": 10,
-  "total_posts": 558,
+  "total_posts": 559,
   "used_event_indices": [
     12,
     11,
@@ -43,11 +44,9 @@
     19,
     28
   ],
-  "last_post_type": "cover",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "los tres|original",
-    "los tres|original",
     "café tacvba|poll",
     "café tacvba|poll",
     "café tacvba|cover",
@@ -145,7 +144,9 @@
     "alux nahual|original",
     "caifanes|poll",
     "caifanes|poll",
-    "soda stereo|cover"
+    "soda stereo|cover",
+    "revolber|original",
+    "revolber|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -259,9 +260,11 @@
     "73b33a47f1bd5fcf930b2e70f5b829fdee9369c8c465e043992b33d9cd4aa52b",
     "18b89001c0b14b8fa29574249abeb6498dd2e644c775908b1e5eaeeb098f9eeb",
     "18b89001c0b14b8fa29574249abeb6498dd2e644c775908b1e5eaeeb098f9eeb",
-    "465d40062ac0fdb46ed55614f4b39631b04a644beed8d5f438619ef1a9d97055"
+    "465d40062ac0fdb46ed55614f4b39631b04a644beed8d5f438619ef1a9d97055",
+    "8954fa9d9420bd9feb5b73b8243e9314669d25a2cf74ee5ded564a0d95e3d580",
+    "8954fa9d9420bd9feb5b73b8243e9314669d25a2cf74ee5ded564a0d95e3d580"
   ],
-  "last_published_id": "post_20261108_181024",
-  "last_published_at": "2026-11-08T18:11:00.029622+00:00",
-  "last_published_topic": "Caifanes"
+  "last_published_id": "post_20261109_003749",
+  "last_published_at": "2026-11-09T00:38:31.028129+00:00",
+  "last_published_topic": "Revolber"
 }

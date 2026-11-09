@@ -2358,5 +2358,26 @@
     "youtube_post_url": null,
     "published_at": null,
     "error": "Duplicate of post_20260922_233249 — not republished"
+  },
+  {
+    "id": "post_20261109_003749",
+    "status": "published",
+    "created_at": "2026-11-09T00:37:49.831124+00:00",
+    "post_type": "original",
+    "topic": "Revolber",
+    "text": "Pocas bandas en el rock paraguayo han tenido el valor de llevar su sonido más allá de los escenarios convencionales para registrarlo en un lugar tan cargado de simbolismo social. Hablamos de Revolber, formación originaria de Presidente Franco, Paraguay, que vio la luz en 1999 con una identidad sonora única que mezcla rock alternativo, ska, pop, funk y otros géneros. Pero el dato que pocos conocen y que generó mucha conversación fue la grabación de su DVD 'Vivo en Tacumbú'. Su título no es una metfora poética: fue filmado dentro de la penitenciaría de Tacumbú. Esta decisión artística radical los distinguió al conectar su música con la realidad cruda del encierro, algo muy pocas bandas de rock en español han atrevido a documentar directamente. Además, su vínculo con la cultura local se fortalece con el uso recurrente del jopará, esa mezcla de guaraní y español que permea muchas de sus letras, además de toques de portugués e inglés. En casi dos décadas de trayectoria, han lanzado cuatro álbumes de estudio, dos EP y un documental titulado 'Un Revolber en la Chaca', priorizando la calidad y la producción audiovisual por sobre el volumen de lanzamientos. No es casualidad que sean considerados una de las bandas más representativas y con más público del rock paraguayo en los últimos 20 años. ¿Crees que es éticamente correcto grabar música en lugares de privación de libertad?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Revolber\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "8954fa9d9420bd9feb5b73b8243e9314669d25a2cf74ee5ded564a0d95e3d580",
+    "image_query": "Revolber rock band concert",
+    "extra_topics": [],
+    "post_year": "1999",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1556634993177708",
+    "ig_post_id": "18140952472622482",
+    "threads_post_id": "18092925422241922",
+    "youtube_post_url": null,
+    "published_at": "2026-11-09T00:38:31.028129+00:00",
+    "error": null
   }
 ]
