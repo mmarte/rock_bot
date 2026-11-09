@@ -2467,5 +2467,23 @@
     "image_url": "https://www.sodastereo.com/img/image_src.jpg",
     "status": "published",
     "executed_at": "2026-11-09T07:23:03.908825+00:00"
+  },
+  {
+    "post_id": "reel_20261109",
+    "post_type": "reel",
+    "topic": "Alux Nahual",
+    "reel_path": "reels/reel_20261109.mp4",
+    "fb_reel_id": "1928564371447137",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "chunked, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Chunked upload failed at offset 26214400: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, re-encoded (Main/faststart): Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}})",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-09T19:18:41.919954+00:00"
   }
 ]
