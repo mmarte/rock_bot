@@ -18,10 +18,10 @@
     "La Máquina Camaleón",
     "Radio Futura",
     "Soda Stereo",
-    "Revolber"
+    "Revolber",
+    "Desorden Público"
   ],
   "used_poll_indices": [
-    5,
     9,
     6,
     17,
@@ -30,12 +30,13 @@
     19,
     15,
     18,
-    0
+    0,
+    12
   ],
   "original_type_index": 9,
-  "last_updated": "2026-11-09T00:39:25.675557+00:00",
+  "last_updated": "2026-11-09T07:23:31.309780+00:00",
   "post_type_index": 10,
-  "total_posts": 559,
+  "total_posts": 560,
   "used_event_indices": [
     12,
     11,
@@ -44,11 +45,9 @@
     19,
     28
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "café tacvba|poll",
-    "café tacvba|poll",
     "café tacvba|cover",
     "maná|cover",
     "octavia|original",
@@ -146,7 +145,9 @@
     "caifanes|poll",
     "soda stereo|cover",
     "revolber|original",
-    "revolber|original"
+    "revolber|original",
+    "desorden público|poll",
+    "desorden público|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -262,9 +263,11 @@
     "18b89001c0b14b8fa29574249abeb6498dd2e644c775908b1e5eaeeb098f9eeb",
     "465d40062ac0fdb46ed55614f4b39631b04a644beed8d5f438619ef1a9d97055",
     "8954fa9d9420bd9feb5b73b8243e9314669d25a2cf74ee5ded564a0d95e3d580",
-    "8954fa9d9420bd9feb5b73b8243e9314669d25a2cf74ee5ded564a0d95e3d580"
+    "8954fa9d9420bd9feb5b73b8243e9314669d25a2cf74ee5ded564a0d95e3d580",
+    "91484e817855f7236d309907d5837fa8deb79640a81b9e2bcbbe691cd22a97d1",
+    "91484e817855f7236d309907d5837fa8deb79640a81b9e2bcbbe691cd22a97d1"
   ],
-  "last_published_id": "post_20261109_003749",
-  "last_published_at": "2026-11-09T00:38:31.028129+00:00",
-  "last_published_topic": "Revolber"
+  "last_published_id": "post_20261109_072231",
+  "last_published_at": "2026-11-09T07:23:03.908825+00:00",
+  "last_published_topic": "Desorden Público"
 }

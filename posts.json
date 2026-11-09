@@ -2379,5 +2379,30 @@
     "youtube_post_url": null,
     "published_at": "2026-11-09T00:38:31.028129+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261109_072231",
+    "status": "published",
+    "created_at": "2026-11-09T07:22:31.921136+00:00",
+    "post_type": "poll",
+    "topic": "Desorden Público",
+    "text": "¿Qué cuenta más para un show perfecto: la pureza acústica o la energía desbordante? Soda Stereo ofreció un concierto memorable en Madrid que dejó una gran impresión. Héroes del Silencio entregó una intensidad cruda que aún resuena. Maná transmitió emociones profundas con su estilo único. No hay nada comparable a ver a tus ídolos en su estado más puro y vulnerable frente a miles de personas. Elige el álbum que más te hizo sentir dentro del escenario y no solo como espectador. ¡Vota con tu reacción! 👍❤️😮 ¿Cuál prefieres?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #DesordenPublico #SodaStereo #Mana #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "91484e817855f7236d309907d5837fa8deb79640a81b9e2bcbbe691cd22a97d1",
+    "image_query": "Desorden Público rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná",
+      "Héroes del Silencio"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1556916163149591",
+    "ig_post_id": "18101695535666756",
+    "threads_post_id": "18107299592626978",
+    "youtube_post_url": null,
+    "published_at": "2026-11-09T07:23:03.908825+00:00",
+    "error": null
   }
 ]

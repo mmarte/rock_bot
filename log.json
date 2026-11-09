@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260804_035932",
-    "fb_post_id": "1043162839046116_1462955799212295",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Aterciopelados",
-    "image_url": "https://img.youtube.com/vi/ROl_gUS8UWM/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-04T03:59:59.875734+00:00"
-  },
-  {
     "post_id": "post_20260804_151650",
     "fb_post_id": "1043162839046116_1463418072499401",
     "ig_post_id": null,
@@ -2467,5 +2455,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Sadzdrfgg.jpg",
     "status": "published",
     "executed_at": "2026-11-09T00:38:31.028129+00:00"
+  },
+  {
+    "post_id": "post_20261109_072231",
+    "fb_post_id": "1043162839046116_1556916163149591",
+    "ig_post_id": "18101695535666756",
+    "threads_post_id": "18107299592626978",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Desorden Público",
+    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
+    "status": "published",
+    "executed_at": "2026-11-09T07:23:03.908825+00:00"
   }
 ]
