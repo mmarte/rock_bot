@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Octavia",
     "Savage",
     "Fiel a la Vega",
     "Los Rodríguez",
@@ -19,7 +18,8 @@
     "Zoé",
     "Toque Profundo",
     "Bomba Estéreo",
-    "Gandhi"
+    "Gandhi",
+    "Evolución"
   ],
   "used_poll_indices": [
     6,
@@ -33,10 +33,10 @@
     12,
     4
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-11-10T03:19:39.413940+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-11-10T07:54:23.774679+00:00",
   "post_type_index": 10,
-  "total_posts": 563,
+  "total_posts": 564,
   "used_event_indices": [
     12,
     11,
@@ -45,11 +45,9 @@
     19,
     28
   ],
-  "last_post_type": "poll",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024,
   "used_topics": [
-    "fito páez|youtube",
-    "la renga|youtube",
     "la renga|youtube",
     "líbido|poll",
     "líbido|poll",
@@ -147,7 +145,9 @@
     "grupo armado|original",
     "zoé|original",
     "gandhi|poll",
-    "gandhi|poll"
+    "gandhi|poll",
+    "evolución|original",
+    "evolución|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -270,9 +270,11 @@
     "bbc721b5aa255edf01a022dd5694648abe62b0fb63d6bb923feca3dce57568f7",
     "3d7f7369162497a1d19b25096408c2ef2352716962be8c76c3c95d70c46b26d9",
     "704414527e2bd56fd0ee471459388881ee84bb8d2bd045d795d02bb330eb28a4",
-    "704414527e2bd56fd0ee471459388881ee84bb8d2bd045d795d02bb330eb28a4"
+    "704414527e2bd56fd0ee471459388881ee84bb8d2bd045d795d02bb330eb28a4",
+    "10d9d52397b8a711a7b37f32d40a7630428470c05d9e3cd5ba6c5bd6eacf5e8c",
+    "10d9d52397b8a711a7b37f32d40a7630428470c05d9e3cd5ba6c5bd6eacf5e8c"
   ],
-  "last_published_id": "post_20261110_031732",
-  "last_published_at": "2026-11-10T03:18:30.187330+00:00",
-  "last_published_topic": "Gandhi"
+  "last_published_id": "post_20261110_075255",
+  "last_published_at": "2026-11-10T07:53:29.015170+00:00",
+  "last_published_topic": "Evolución"
 }

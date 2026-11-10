@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260805_181757",
-    "fb_post_id": "1043162839046116_1464474245727117",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/r2g0pM3PMNQ/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-05T18:18:24.707493+00:00"
-  },
-  {
     "post_id": "post_20260805_221441",
     "fb_post_id": "1043162839046116_1464608945713647",
     "ig_post_id": null,
@@ -2467,5 +2455,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg",
     "status": "published",
     "executed_at": "2026-11-10T03:18:30.187330+00:00"
+  },
+  {
+    "post_id": "post_20261110_075255",
+    "fb_post_id": "1043162839046116_1558043889703485",
+    "ig_post_id": "18007380273005971",
+    "threads_post_id": "17898895260610826",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Evolución",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Tree_of_Living_Organisms_2.png/330px-Tree_of_Living_Organisms_2.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "status": "published",
+    "executed_at": "2026-11-10T07:53:29.015170+00:00"
   }
 ]
