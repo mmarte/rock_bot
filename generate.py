@@ -772,33 +772,41 @@ def clean_tag(text):
 FOLLOW_HANDLE = "@mejorrockespanol"
 
 
-def build_hashtags(band, extra_tags=None, post_type="original"):
+def build_hashtags(band, extra_tags=None, post_type="original", include_band_tag=True):
     """
     "Lo Mejor del Rock en Español les presenta:" only on YouTube posts.
     No country-specific hashtags.
+
+    include_band_tag=False (2026-11-09 topic-tag guardrail): omit the
+    topic band's own tag when the verified body never names it — a tag
+    for a band the post is not about is misleading. Extra tags for bands
+    the body DOES name are still appended.
     """
     band_tag  = clean_tag(band)
     core_tags = "#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol"
 
-    band_tags = "#" + band_tag
+    band_tags = ("#" + band_tag) if include_band_tag else ""
     if extra_tags:
         for t in extra_tags[:3]:
             cleaned = clean_tag(t)
             if cleaned and cleaned.lower() != band_tag.lower():
-                band_tags += " #" + cleaned
+                band_tags += (" " if band_tags else "") + "#" + cleaned
 
     follow_text = "🎸 Síguenos para más rock en español → " + FOLLOW_HANDLE
+    tag_line = (core_tags + " " + band_tags).rstrip()
 
     if post_type == "youtube":
+        presenta = ("Lo Mejor del Rock en Español les presenta: " + band_tags
+                    if band_tags else "Lo Mejor del Rock en Español les presenta:")
         footer = (
-            "\n\nLo Mejor del Rock en Español les presenta: " + band_tags + "\n\n"
-            + core_tags + " " + band_tags + "\n\n"
+            "\n\n" + presenta + "\n\n"
+            + tag_line + "\n\n"
             + follow_text
         )
     else:
         footer = (
             "\n\n"
-            + core_tags + " " + band_tags + "\n\n"
+            + tag_line + "\n\n"
             + follow_text
         )
     return footer
@@ -1373,7 +1381,26 @@ def generate_post():
         # against verified_text keeps legitimate multi-band tags (a Soda vs
         # Maná duelo still tags both) while orphan tags disappear.
         extra_mentions = [b for b in BANDS if b in verified_text and b != data.get("topic", band)]
-        hashtags = build_hashtags(data.get("topic", band), extra_tags=extra_mentions[:3], post_type=actual_type)
+        # 2026-11-09: topic-tag guardrail. The topic band comes from the
+        # rotation (pick_band) and for polls it is unrelated to the poll
+        # question — gen_poll writes about the question's options, not the
+        # picked band — so the body can never name it (Nov 9 Desorden
+        # Público poll: all Soda Stereo / Héroes del Silencio / Maná,
+        # #DesordenPublico orphaned; same pattern Nov 6 #LosPrisioneros
+        # and the Nov 7 Soda vs Maná poll). A tag for a band the post
+        # never names is misleading, so drop just the topic tag; bands
+        # the body DOES name keep their tags via extra_mentions.
+        # Accent-insensitive (_wiki_norm), so "Heroes" in the text still
+        # counts as "Héroes del Silencio". Applies to every post type:
+        # it is a no-op whenever the body names its topic band, and it
+        # also catches drift in non-poll posts (e.g. a verifier strip
+        # that removed the topic mention).
+        topic_band = data.get("topic", band)
+        topic_mentioned = _wiki_norm(topic_band) in _wiki_norm(verified_text)
+        if not topic_mentioned:
+            print("  Topic tag dropped: %s never named in verified text." % topic_band)
+        hashtags = build_hashtags(topic_band, extra_tags=extra_mentions[:3], post_type=actual_type,
+                                  include_band_tag=topic_mentioned)
         final_text = verified_text.rstrip() + hashtags
         final_topic = data.get("topic", band)
         tkey = topic_key(final_topic, actual_type)
