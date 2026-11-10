@@ -2425,5 +2425,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-09T22:49:14.241906+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261110_003250",
+    "status": "skipped_duplicate",
+    "created_at": "2026-11-10T00:32:50.455180+00:00",
+    "post_type": "original",
+    "topic": "Zoé",
+    "text": "¿Cuál es la fase definitiva de Zoé? Allí, la producción de Adrian Schinoff incorporó sintetizadores más pulidos y una estética pop-rock que amplió aún más la audiencia de la banda. Cada era tiene su argumento: la experimentación espacial contra la accesibilidad melódica. ¿Con cuál de estas dos etapas te sientes más conectado y por qué?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Zoe\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "3d7f7369162497a1d19b25096408c2ef2352716962be8c76c3c95d70c46b26d9",
+    "image_query": "Zoe Mexico alternative rock band",
+    "extra_topics": [],
+    "post_year": "2006",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20261028_213019 — not republished"
   }
 ]

@@ -1,8 +1,5 @@
 {
   "used_bands": [
-    "Aterciopelados",
-    "La Ley",
-    "Los Prisioneros",
     "Black Guayaba",
     "Bohemia Suburbana",
     "Molotov",
@@ -19,7 +16,10 @@
     "Soda Stereo",
     "Revolber",
     "Desorden Público",
-    "Grupo Armado"
+    "Grupo Armado",
+    "Los Rabanes",
+    "Cinema",
+    "Zoé"
   ],
   "used_poll_indices": [
     9,
@@ -33,10 +33,10 @@
     0,
     12
   ],
-  "original_type_index": 10,
-  "last_updated": "2026-11-09T22:50:14.369924+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-11-10T00:33:28.485608+00:00",
   "post_type_index": 10,
-  "total_posts": 561,
+  "total_posts": 562,
   "used_event_indices": [
     12,
     11,
@@ -48,7 +48,6 @@
   "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "octavia|original",
     "octavia|original",
     "fito páez|youtube",
     "fito páez|youtube",
@@ -147,7 +146,8 @@
     "desorden público|poll",
     "desorden público|poll",
     "grupo armado|original",
-    "grupo armado|original"
+    "grupo armado|original",
+    "zoé|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -267,7 +267,8 @@
     "91484e817855f7236d309907d5837fa8deb79640a81b9e2bcbbe691cd22a97d1",
     "91484e817855f7236d309907d5837fa8deb79640a81b9e2bcbbe691cd22a97d1",
     "bbc721b5aa255edf01a022dd5694648abe62b0fb63d6bb923feca3dce57568f7",
-    "bbc721b5aa255edf01a022dd5694648abe62b0fb63d6bb923feca3dce57568f7"
+    "bbc721b5aa255edf01a022dd5694648abe62b0fb63d6bb923feca3dce57568f7",
+    "3d7f7369162497a1d19b25096408c2ef2352716962be8c76c3c95d70c46b26d9"
   ],
   "last_published_id": "post_20261109_224844",
   "last_published_at": "2026-11-09T22:49:14.241906+00:00",

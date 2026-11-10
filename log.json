@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260805_035441",
-    "fb_post_id": "1043162839046116_1463868939120981",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Los Rabanes",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
-    "status": "published",
-    "executed_at": "2026-08-05T03:55:08.412110+00:00"
-  },
-  {
     "post_id": "post_20260805_151052",
     "fb_post_id": "1043162839046116_1464340675740474",
     "ig_post_id": null,
@@ -2473,5 +2461,11 @@
     "image_url": "https://images.pexels.com/photos/5476178/pexels-photo-5476178.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-11-09T22:49:14.241906+00:00"
+  },
+  {
+    "post_id": "post_20261110_003250",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261028_213019 — not republished",
+    "executed_at": "2026-11-10T00:33:53.904120+00:00"
   }
 ]
