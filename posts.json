@@ -2509,5 +2509,30 @@
     "youtube_post_url": null,
     "published_at": "2026-11-10T20:07:42.657496+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261110_220801",
+    "status": "published",
+    "created_at": "2026-11-10T22:08:01.617392+00:00",
+    "post_type": "poll",
+    "topic": "Cascomar",
+    "text": "El registro vocal en el rock latino no se limita a una sola figura; hay tres voces que marcaron diferentes épocas. Desde la melancolía de Buenos Aires hasta la fuerza de la escena española, cada una ofrece una estética propia. La intensidad de estos intérpretes redefinió lo que significa cantar con emoción. ¿Cuál de estas tres identidades musicales te toca más el alma? 🎤\n\n👍 Gustavo Cerati\n❤️ Enrique Bunbury\n😮 Fito Páez\n\n¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #EnriqueBunbury #FitoPaez #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "7ef81f1710bf29d497dfa1fd6e4ffe7729778632c84b7c95affac407cffb2b14",
+    "image_query": "Cascomar rock band concert",
+    "extra_topics": [
+      "Enrique Bunbury",
+      "Fito Páez",
+      "Gustavo Cerati"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1558767296297811",
+    "ig_post_id": "18137640712737201",
+    "threads_post_id": "18148758541576189",
+    "youtube_post_url": null,
+    "published_at": "2026-11-10T22:08:35.246026+00:00",
+    "error": null
   }
 ]
