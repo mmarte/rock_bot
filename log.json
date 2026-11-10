@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260805_221441",
-    "fb_post_id": "1043162839046116_1464608945713647",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Habana Abierta",
-    "image_url": "https://images.pexels.com/photos/17249634/pexels-photo-17249634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-08-05T22:15:08.933782+00:00"
-  },
-  {
     "post_id": "post_20260806_035849",
     "fb_post_id": "1043162839046116_1464798265694715",
     "ig_post_id": null,
@@ -2467,5 +2455,17 @@
     "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Tree_of_Living_Organisms_2.png/330px-Tree_of_Living_Organisms_2.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "status": "published",
     "executed_at": "2026-11-10T07:53:29.015170+00:00"
+  },
+  {
+    "post_id": "post_20261110_200659",
+    "fb_post_id": "1043162839046116_1558682586306282",
+    "ig_post_id": "18073726976768235",
+    "threads_post_id": "17963602454998672",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "The Great Wilderness",
+    "image_url": "https://images.pexels.com/photos/7513465/pexels-photo-7513465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-11-10T20:07:42.657496+00:00"
   }
 ]
