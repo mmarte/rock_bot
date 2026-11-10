@@ -1,8 +1,5 @@
 {
   "used_bands": [
-    "Black Guayaba",
-    "Bohemia Suburbana",
-    "Molotov",
     "Octavia",
     "Savage",
     "Fiel a la Vega",
@@ -19,10 +16,12 @@
     "Grupo Armado",
     "Los Rabanes",
     "Cinema",
-    "Zoé"
+    "Zoé",
+    "Toque Profundo",
+    "Bomba Estéreo",
+    "Gandhi"
   ],
   "used_poll_indices": [
-    9,
     6,
     17,
     13,
@@ -31,12 +30,13 @@
     15,
     18,
     0,
-    12
+    12,
+    4
   ],
   "original_type_index": 1,
-  "last_updated": "2026-11-10T00:33:28.485608+00:00",
+  "last_updated": "2026-11-10T03:19:39.413940+00:00",
   "post_type_index": 10,
-  "total_posts": 562,
+  "total_posts": 563,
   "used_event_indices": [
     12,
     11,
@@ -45,11 +45,9 @@
     19,
     28
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "octavia|original",
-    "fito páez|youtube",
     "fito páez|youtube",
     "la renga|youtube",
     "la renga|youtube",
@@ -147,7 +145,9 @@
     "desorden público|poll",
     "grupo armado|original",
     "grupo armado|original",
-    "zoé|original"
+    "zoé|original",
+    "gandhi|poll",
+    "gandhi|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -268,9 +268,11 @@
     "91484e817855f7236d309907d5837fa8deb79640a81b9e2bcbbe691cd22a97d1",
     "bbc721b5aa255edf01a022dd5694648abe62b0fb63d6bb923feca3dce57568f7",
     "bbc721b5aa255edf01a022dd5694648abe62b0fb63d6bb923feca3dce57568f7",
-    "3d7f7369162497a1d19b25096408c2ef2352716962be8c76c3c95d70c46b26d9"
+    "3d7f7369162497a1d19b25096408c2ef2352716962be8c76c3c95d70c46b26d9",
+    "704414527e2bd56fd0ee471459388881ee84bb8d2bd045d795d02bb330eb28a4",
+    "704414527e2bd56fd0ee471459388881ee84bb8d2bd045d795d02bb330eb28a4"
   ],
-  "last_published_id": "post_20261109_224844",
-  "last_published_at": "2026-11-09T22:49:14.241906+00:00",
-  "last_published_topic": "Grupo Armado"
+  "last_published_id": "post_20261110_031732",
+  "last_published_at": "2026-11-10T03:18:30.187330+00:00",
+  "last_published_topic": "Gandhi"
 }

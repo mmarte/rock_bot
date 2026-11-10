@@ -2446,5 +2446,26 @@
     "youtube_post_url": null,
     "published_at": null,
     "error": "Duplicate of post_20261028_213019 — not republished"
+  },
+  {
+    "id": "post_20261110_031732",
+    "status": "published",
+    "created_at": "2026-11-10T03:17:32.784510+00:00",
+    "post_type": "poll",
+    "topic": "Gandhi",
+    "text": "Gandhi es una banda del Rock alternativo, formada en 1993 en San José, Costa Rica. ¿Cuál es tu canción favorita de Gandhi?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Gandhi\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "704414527e2bd56fd0ee471459388881ee84bb8d2bd045d795d02bb330eb28a4",
+    "image_query": "Gandhi rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1557840943057113",
+    "ig_post_id": "18120734387060257",
+    "threads_post_id": "18417775837080451",
+    "youtube_post_url": null,
+    "published_at": "2026-11-10T03:18:30.187330+00:00",
+    "error": null
   }
 ]
