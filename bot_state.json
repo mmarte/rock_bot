@@ -1,25 +1,6 @@
 {
   "used_bands": [
-    "Dedicados",
-    "Alux Nahual",
-    "Caifanes",
-    "Cecilia & The Argonauts",
-    "La Máquina Camaleón",
-    "Radio Futura",
-    "Soda Stereo",
-    "Revolber",
-    "Desorden Público",
-    "Grupo Armado",
-    "Los Rabanes",
-    "Cinema",
-    "Zoé",
-    "Toque Profundo",
-    "Bomba Estéreo",
-    "Gandhi",
-    "Evolución",
-    "Héroes del Silencio",
-    "The Great Wilderness",
-    "Cascomar"
+    "Los Rabanes"
   ],
   "used_poll_indices": [
     17,
@@ -33,10 +14,10 @@
     4,
     3
   ],
-  "original_type_index": 3,
-  "last_updated": "2026-11-10T22:09:18.413737+00:00",
+  "original_type_index": 4,
+  "last_updated": "2026-11-11T01:08:34.023273+00:00",
   "post_type_index": 10,
-  "total_posts": 566,
+  "total_posts": 567,
   "used_event_indices": [
     12,
     11,
@@ -45,11 +26,9 @@
     19,
     28
   ],
-  "last_post_type": "poll",
+  "last_post_type": "concert",
   "curation_year": 2024,
   "used_topics": [
-    "toque profundo|original",
-    "gandhi|youtube",
     "gandhi|youtube",
     "enrique bunbury|poll",
     "enrique bunbury|poll",
@@ -147,7 +126,9 @@
     "the great wilderness|original",
     "the great wilderness|original",
     "cascomar|poll",
-    "cascomar|poll"
+    "cascomar|poll",
+    "los rabanes|original",
+    "los rabanes|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -276,9 +257,11 @@
     "9fd5408b9c1824bbe592aebd7f69c7776918f865638766a7021ab18b9566cabf",
     "9fd5408b9c1824bbe592aebd7f69c7776918f865638766a7021ab18b9566cabf",
     "7ef81f1710bf29d497dfa1fd6e4ffe7729778632c84b7c95affac407cffb2b14",
-    "7ef81f1710bf29d497dfa1fd6e4ffe7729778632c84b7c95affac407cffb2b14"
+    "7ef81f1710bf29d497dfa1fd6e4ffe7729778632c84b7c95affac407cffb2b14",
+    "a80bc181d92784084505138215f915fc1b1111b693f01446dba58957d00612bb",
+    "a80bc181d92784084505138215f915fc1b1111b693f01446dba58957d00612bb"
   ],
-  "last_published_id": "post_20261110_220801",
-  "last_published_at": "2026-11-10T22:08:35.246026+00:00",
-  "last_published_topic": "Cascomar"
+  "last_published_id": "post_20261111_010702",
+  "last_published_at": "2026-11-11T01:07:38.254655+00:00",
+  "last_published_topic": "Los Rabanes"
 }
