@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260807_034407",
-    "fb_post_id": "1043162839046116_1465709315603610",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "image_url": "https://img.youtube.com/vi/01gI22568dc/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-07T03:44:34.709116+00:00"
-  },
-  {
     "post_id": "post_20260807_140649",
     "fb_post_id": "1043162839046116_1466116298896245",
     "ig_post_id": null,
@@ -2467,5 +2455,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
     "status": "published",
     "executed_at": "2026-11-11T01:07:38.254655+00:00"
+  },
+  {
+    "post_id": "post_20261111_072020",
+    "fb_post_id": "1043162839046116_1559182322922975",
+    "ig_post_id": "18159381022518695",
+    "threads_post_id": "17911758774580473",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Los Piojos",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/LosPiojosRiverPlate.jpg",
+    "status": "published",
+    "executed_at": "2026-11-11T07:21:06.090999+00:00"
   }
 ]

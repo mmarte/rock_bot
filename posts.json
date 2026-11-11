@@ -2555,5 +2555,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-11T01:07:38.254655+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261111_072020",
+    "status": "published",
+    "created_at": "2026-11-11T07:20:20.375174+00:00",
+    "post_type": "original",
+    "topic": "Los Piojos",
+    "text": "Imaginemos la tensión eléctrica del escenario a principios de los 90. Fue cuando Los Piojos lanzaron su primer álbum, *Chactuchac*, que el público empezó a sentir su sonido crudo y enérgico. Andrés Ciro Martínez, con su armónica y voz rasgada, lideraba a una banda que llevaba varios años recorriendo el país antes de grabar ese disco. Aunque las presentaciones masivas llegaron después, la intensidad se percibía en cada show. Canciones como “Tan solo” y “Yira‑yira” se convirtieron rápidamente en referentes para los seguidores, marcando la identidad sonora que los acompañaría. En esa época la formación estaba compuesta por Ciro Martínez, los guitarristas Daniel Fernández y Gustavo Kupinski, el bajista Miguel Ángel Rodríguez y el baterista Daniel Buira, el quinteto que sentó las bases del grupo. ¿Cuál de las canciones de *Chactuchac* te marcó más?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosPiojos\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "5d2e92a19be750086a6d2a2ed55ba981d459beddf2188d1d963a509f1703a6a5",
+    "image_query": "Los Piojos Argentina rock concert",
+    "extra_topics": [],
+    "post_year": "1992",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1559182322922975",
+    "ig_post_id": "18159381022518695",
+    "threads_post_id": "17911758774580473",
+    "youtube_post_url": null,
+    "published_at": "2026-11-11T07:21:06.090999+00:00",
+    "error": null
   }
 ]
