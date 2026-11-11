@@ -1,7 +1,9 @@
 {
   "used_bands": [
     "Los Rabanes",
-    "Los Piojos"
+    "Los Piojos",
+    "Burbles",
+    "Frágil"
   ],
   "used_poll_indices": [
     17,
@@ -15,10 +17,10 @@
     4,
     3
   ],
-  "original_type_index": 5,
-  "last_updated": "2026-11-11T07:22:02.036098+00:00",
+  "original_type_index": 6,
+  "last_updated": "2026-11-11T19:59:01.399637+00:00",
   "post_type_index": 10,
-  "total_posts": 568,
+  "total_posts": 569,
   "used_event_indices": [
     12,
     11,
@@ -27,11 +29,9 @@
     19,
     28
   ],
-  "last_post_type": "original",
+  "last_post_type": "concert",
   "curation_year": 2024,
   "used_topics": [
-    "enrique bunbury|poll",
-    "los rodríguez|original",
     "los rodríguez|original",
     "savage|poll",
     "savage|poll",
@@ -129,7 +129,9 @@
     "los rabanes|original",
     "los rabanes|original",
     "los piojos|original",
-    "los piojos|original"
+    "los piojos|original",
+    "frágil|original",
+    "frágil|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -262,9 +264,11 @@
     "a80bc181d92784084505138215f915fc1b1111b693f01446dba58957d00612bb",
     "a80bc181d92784084505138215f915fc1b1111b693f01446dba58957d00612bb",
     "5d2e92a19be750086a6d2a2ed55ba981d459beddf2188d1d963a509f1703a6a5",
-    "5d2e92a19be750086a6d2a2ed55ba981d459beddf2188d1d963a509f1703a6a5"
+    "5d2e92a19be750086a6d2a2ed55ba981d459beddf2188d1d963a509f1703a6a5",
+    "c5c2b9ea4e43c4e127c5af0e1e1ef5df0eb64bd9941946f98da2e8e8931e520e",
+    "c5c2b9ea4e43c4e127c5af0e1e1ef5df0eb64bd9941946f98da2e8e8931e520e"
   ],
-  "last_published_id": "post_20261111_072020",
-  "last_published_at": "2026-11-11T07:21:06.090999+00:00",
-  "last_published_topic": "Los Piojos"
+  "last_published_id": "post_20261111_195723",
+  "last_published_at": "2026-11-11T19:58:01.241731+00:00",
+  "last_published_topic": "Frágil"
 }

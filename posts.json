@@ -2576,5 +2576,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-11T07:21:06.090999+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261111_195723",
+    "status": "published",
+    "created_at": "2026-11-11T19:57:23.332809+00:00",
+    "post_type": "original",
+    "topic": "Frágil",
+    "text": "¿Sabías que el video de \"Avenida Larco\" marcó un hito en la historia audiovisual peruana? En 1981, Frágil, el grupo fundado en agosto de 1976 en Lima, rodó el segundo videoclip jamás realizado en el país, y lo hizo para su canción más emblemática, \"Avenida Larco\". La producción se llevó a cabo en la propia calle que da nombre al tema, convirtiendo la avenida en un escenario natural que captura la atmósfera urbana de la época. A diferencia de los videos internacionales de la década, el rodaje se realizó con un equipo local y recursos modestos, lo que demuestra la determinación del grupo para llevar su sonido progresivo a la pantalla. Este hecho no solo consolidó a Frágil como pionero del rock progresivo peruano, sino que también abrió la puerta a que otros artistas locales empezaran a explorar el formato audiovisual. ¿Te sorprende que una banda de rock progresivo haya sido responsable de este importante salto visual en Perú?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Fragil\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "c5c2b9ea4e43c4e127c5af0e1e1ef5df0eb64bd9941946f98da2e8e8931e520e",
+    "image_query": "Frágil rock band concert",
+    "extra_topics": [],
+    "post_year": "1981",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1559845112856696",
+    "ig_post_id": "18340283569256128",
+    "threads_post_id": "18062035982557119",
+    "youtube_post_url": null,
+    "published_at": "2026-11-11T19:58:01.241731+00:00",
+    "error": null
   }
 ]
