@@ -3,10 +3,12 @@
     "Los Rabanes",
     "Los Piojos",
     "Burbles",
-    "Frágil"
+    "Frágil",
+    "Aterciopelados",
+    "La Máquina Camaleón",
+    "Malpaís"
   ],
   "used_poll_indices": [
-    17,
     13,
     7,
     19,
@@ -15,12 +17,13 @@
     0,
     12,
     4,
-    3
+    3,
+    6
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-11-11T19:59:01.399637+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-11-11T23:18:30.242521+00:00",
   "post_type_index": 10,
-  "total_posts": 569,
+  "total_posts": 570,
   "used_event_indices": [
     12,
     11,
@@ -29,11 +32,9 @@
     19,
     28
   ],
-  "last_post_type": "concert",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "los rodríguez|original",
-    "savage|poll",
     "savage|poll",
     "zoé|original",
     "zoé|original",
@@ -131,7 +132,9 @@
     "los piojos|original",
     "los piojos|original",
     "frágil|original",
-    "frágil|original"
+    "frágil|original",
+    "malpaís|poll",
+    "malpaís|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -266,9 +269,11 @@
     "5d2e92a19be750086a6d2a2ed55ba981d459beddf2188d1d963a509f1703a6a5",
     "5d2e92a19be750086a6d2a2ed55ba981d459beddf2188d1d963a509f1703a6a5",
     "c5c2b9ea4e43c4e127c5af0e1e1ef5df0eb64bd9941946f98da2e8e8931e520e",
-    "c5c2b9ea4e43c4e127c5af0e1e1ef5df0eb64bd9941946f98da2e8e8931e520e"
+    "c5c2b9ea4e43c4e127c5af0e1e1ef5df0eb64bd9941946f98da2e8e8931e520e",
+    "3276bee744c1002f9d8f10505df64d8c405decaeea83c2eaf89f779d088b9501",
+    "3276bee744c1002f9d8f10505df64d8c405decaeea83c2eaf89f779d088b9501"
   ],
-  "last_published_id": "post_20261111_195723",
-  "last_published_at": "2026-11-11T19:58:01.241731+00:00",
-  "last_published_topic": "Frágil"
+  "last_published_id": "post_20261111_231706",
+  "last_published_at": "2026-11-11T23:17:58.027693+00:00",
+  "last_published_topic": "Malpaís"
 }

@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260807_174521",
-    "fb_post_id": "1043162839046116_1466272745547267",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Caramelos de Cianuro",
-    "image_url": "https://img.youtube.com/vi/kSvtVD8r-iI/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-07T17:45:48.834955+00:00"
-  },
-  {
     "post_id": "post_20260807_214146",
     "fb_post_id": "1043162839046116_1466405845533957",
     "ig_post_id": null,
@@ -2467,5 +2455,17 @@
     "image_url": "https://images.pexels.com/photos/17249634/pexels-photo-17249634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-11-11T19:58:01.241731+00:00"
+  },
+  {
+    "post_id": "post_20261111_231706",
+    "fb_post_id": "1043162839046116_1559965986177942",
+    "ig_post_id": "18132391135838802",
+    "threads_post_id": "18104248475563258",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Malpaís",
+    "image_url": "https://images.pexels.com/photos/11156173/pexels-photo-11156173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-11-11T23:17:58.027693+00:00"
   }
 ]
