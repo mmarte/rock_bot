@@ -2618,5 +2618,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-11T23:17:58.027693+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261112_020919",
+    "status": "skipped_duplicate",
+    "created_at": "2026-11-12T02:09:19.310161+00:00",
+    "post_type": "original",
+    "topic": "Aterciopelados",
+    "text": "Casi nadie sabe que el nombre icónico que hoy resuena en Latinoamérica no nació en 1993, sino que fue una metamorfosis forzada por la realidad. Antes de firmar contratos internacionales, la banda se llamaba Delia y los Aminoácidos, un proyecto que surgía en las calles de Bogotá en 1990. El cambio a Aterciopelados no fue solo estético; marcó una evolución artística para abrazar lo que Time describió como su capacidad de dar vida nueva a los estilos del norte con un brillo claramente colombiano.\n\nLo sorprendente es cómo Andrea Echeverri y Héctor Buitrago decidieron no solo sonar diferente, sino hablar diferente. Mientras otros se quedaban en lo musical, ellos se convirtieron en voces que mezclan sus guitarras con la lucha por la justicia social, los derechos de las mujeres y el medio ambiente. Esa fusión de folclore y conciencia social es lo que les valió tres premios Latin Grammy y los sitúa entre los precursores del rock colombiano global. Su mensaje no fue solo ruido, sino una postura política y artística que cambió la narrativa del género.\n\n¿Creen que la música debe alinearse con causas sociales para ser realmente grande, o el arte debe permanecer neutral?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Aterciopelados\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "3b8feed796f7fe3625b94887303f8d8606119bcdd5631b3c7e338c3d7b01d634",
+    "image_query": "Aterciopelados Colombia rock band",
+    "extra_topics": [],
+    "post_year": "1993",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20261003_055351 — not republished"
   }
 ]

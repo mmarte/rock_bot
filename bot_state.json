@@ -1,12 +1,8 @@
 {
   "used_bands": [
     "Los Rabanes",
-    "Los Piojos",
-    "Burbles",
-    "Frágil",
-    "Aterciopelados",
-    "La Máquina Camaleón",
-    "Malpaís"
+    "Toque Profundo",
+    "Aterciopelados"
   ],
   "used_poll_indices": [
     13,
@@ -20,10 +16,10 @@
     3,
     6
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-11-11T23:18:30.242521+00:00",
+  "original_type_index": 9,
+  "last_updated": "2026-11-12T02:10:07.591314+00:00",
   "post_type_index": 10,
-  "total_posts": 570,
+  "total_posts": 571,
   "used_event_indices": [
     12,
     11,
@@ -32,10 +28,9 @@
     19,
     28
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "savage|poll",
     "zoé|original",
     "zoé|original",
     "los fabulosos cadillacs|poll",
@@ -134,7 +129,8 @@
     "frágil|original",
     "frágil|original",
     "malpaís|poll",
-    "malpaís|poll"
+    "malpaís|poll",
+    "aterciopelados|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -271,7 +267,8 @@
     "c5c2b9ea4e43c4e127c5af0e1e1ef5df0eb64bd9941946f98da2e8e8931e520e",
     "c5c2b9ea4e43c4e127c5af0e1e1ef5df0eb64bd9941946f98da2e8e8931e520e",
     "3276bee744c1002f9d8f10505df64d8c405decaeea83c2eaf89f779d088b9501",
-    "3276bee744c1002f9d8f10505df64d8c405decaeea83c2eaf89f779d088b9501"
+    "3276bee744c1002f9d8f10505df64d8c405decaeea83c2eaf89f779d088b9501",
+    "3b8feed796f7fe3625b94887303f8d8606119bcdd5631b3c7e338c3d7b01d634"
   ],
   "last_published_id": "post_20261111_231706",
   "last_published_at": "2026-11-11T23:17:58.027693+00:00",
