@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260808_024945",
-    "fb_post_id": "1043162839046116_1466566425517899",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Flou",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Slider-frf-4.jpg",
-    "status": "published",
-    "executed_at": "2026-08-08T02:50:12.836894+00:00"
-  },
-  {
     "post_id": "post_20260808_133922",
     "fb_post_id": "1043162839046116_1466968928810982",
     "ig_post_id": null,
@@ -2461,5 +2449,17 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261003_055351 — not republished",
     "executed_at": "2026-11-12T02:10:32.961299+00:00"
+  },
+  {
+    "post_id": "post_20261112_075122",
+    "fb_post_id": "1043162839046116_1560338076140733",
+    "ig_post_id": "18179321269449383",
+    "threads_post_id": "18239184478321750",
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Mecano",
+    "image_url": "https://img.youtube.com/vi/r33yywGj58U/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-11-12T07:51:55.834839+00:00"
   }
 ]

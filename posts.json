@@ -2639,5 +2639,26 @@
     "youtube_post_url": null,
     "published_at": null,
     "error": "Duplicate of post_20261003_055351 — not republished"
+  },
+  {
+    "id": "post_20261112_075122",
+    "status": "published",
+    "created_at": "2026-11-12T07:51:22.141539+00:00",
+    "post_type": "youtube",
+    "topic": "Mecano",
+    "text": "¿Quién dijo que un trío de pop‑synth no podía llenar el escenario con la fuerza de una banda de metal? Mezclaron sus característicos sintetizadores con una presencia escénica que rompía moldes en una España que aún se encontraba en plena transición musical. No solo interpretaron sus canciones, sino que ofrecieron una actuación con toques teatrales donde cada instrumento tuvo su momento. La conexión entre el grupo y el público era intensa, casi mística, algo difícil de replicar hoy con la misma autenticidad. Verlos en acción muestra la calidad que tenían en directo, más allá de su éxito comercial. Si piensas que el rock en español se limitaba a los gritos, este video puede cambiar tu perspectiva en segundos. ¿Consideras que este concierto representa el punto más alto de su trayectoria en vivo?\n\nhttps://www.youtube.com/watch?v=r33yywGj58U\n\nLo Mejor del Rock en Español les presenta:\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "aa5030f9b99789bba73005389cfff429b5ce5d2fd98ba9c4fa50416be83b5273",
+    "image_query": "Mecano Spain pop rock band",
+    "extra_topics": [],
+    "post_year": "1991",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=r33yywGj58U",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1560338076140733",
+    "ig_post_id": "18179321269449383",
+    "threads_post_id": "18239184478321750",
+    "youtube_post_url": null,
+    "published_at": "2026-11-12T07:51:55.834839+00:00",
+    "error": null
   }
 ]
