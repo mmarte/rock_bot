@@ -2660,5 +2660,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-12T07:51:55.834839+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261112_223315",
+    "status": "published",
+    "created_at": "2026-11-12T22:33:15.321887+00:00",
+    "post_type": "youtube",
+    "topic": "Desorden Público",
+    "text": "¿Te imaginas la explosión de ska que se vivió en Rock al Parque? Desorden Público, con casi cuatro décadas de trayectoria, demostró que su energía sigue intacta. Desde sus primeros acordes hasta el cierre con un tema enérgico, la sección de metales y la voz característica de Horacio Blanco mantuvieron a la multitud de Bogotá saltando como en sus inicios. Cada salto del público, cada coro que se vuelve un grito colectivo, muestra por qué el ska venezolano sigue siendo referencia en Latinoamérica. ¿Cuál fue el momento que más te marcó de este concierto y por qué crees que Desorden Público sigue siendo tan relevante hoy?\n\nhttps://www.youtube.com/watch?v=HI7UqffePIg\n\nLo Mejor del Rock en Español les presenta: #DesordenPublico\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #DesordenPublico\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "f3d00a2bded552ef64cfb25d9d1fafadc159d81989432edfaa8da67a8af2fb89",
+    "image_query": "Desorden Público rock band concert",
+    "extra_topics": [],
+    "post_year": "2026",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=HI7UqffePIg",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1561115622729645",
+    "ig_post_id": "17892335517653267",
+    "threads_post_id": "18148821322566635",
+    "youtube_post_url": null,
+    "published_at": "2026-11-12T22:33:51.485953+00:00",
+    "error": null
   }
 ]

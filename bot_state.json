@@ -3,7 +3,9 @@
     "Los Rabanes",
     "Toque Profundo",
     "Aterciopelados",
-    "Mecano"
+    "Mecano",
+    "Fiel a la Vega",
+    "Desorden Público"
   ],
   "used_poll_indices": [
     13,
@@ -18,9 +20,9 @@
     6
   ],
   "original_type_index": 9,
-  "last_updated": "2026-11-12T07:52:26.503568+00:00",
+  "last_updated": "2026-11-12T22:34:25.928644+00:00",
   "post_type_index": 10,
-  "total_posts": 572,
+  "total_posts": 573,
   "used_event_indices": [
     12,
     11,
@@ -32,8 +34,6 @@
   "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
-    "los fabulosos cadillacs|poll",
-    "los fabulosos cadillacs|poll",
     "los tres|youtube",
     "los tres|youtube",
     "gandhi|original",
@@ -131,7 +131,9 @@
     "malpaís|poll",
     "aterciopelados|original",
     "mecano|youtube",
-    "mecano|youtube"
+    "mecano|youtube",
+    "desorden público|youtube",
+    "desorden público|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -271,9 +273,11 @@
     "3276bee744c1002f9d8f10505df64d8c405decaeea83c2eaf89f779d088b9501",
     "3b8feed796f7fe3625b94887303f8d8606119bcdd5631b3c7e338c3d7b01d634",
     "aa5030f9b99789bba73005389cfff429b5ce5d2fd98ba9c4fa50416be83b5273",
-    "aa5030f9b99789bba73005389cfff429b5ce5d2fd98ba9c4fa50416be83b5273"
+    "aa5030f9b99789bba73005389cfff429b5ce5d2fd98ba9c4fa50416be83b5273",
+    "f3d00a2bded552ef64cfb25d9d1fafadc159d81989432edfaa8da67a8af2fb89",
+    "f3d00a2bded552ef64cfb25d9d1fafadc159d81989432edfaa8da67a8af2fb89"
   ],
-  "last_published_id": "post_20261112_075122",
-  "last_published_at": "2026-11-12T07:51:55.834839+00:00",
-  "last_published_topic": "Mecano"
+  "last_published_id": "post_20261112_223315",
+  "last_published_at": "2026-11-12T22:33:51.485953+00:00",
+  "last_published_topic": "Desorden Público"
 }
