@@ -5,7 +5,10 @@
     "Aterciopelados",
     "Mecano",
     "Fiel a la Vega",
-    "Desorden Público"
+    "Desorden Público",
+    "Zapato 3",
+    "La Vela Puerca",
+    "Juanes"
   ],
   "used_poll_indices": [
     13,
@@ -19,10 +22,10 @@
     3,
     6
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-11-12T22:34:25.928644+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-11-13T01:45:31.879570+00:00",
   "post_type_index": 10,
-  "total_posts": 573,
+  "total_posts": 574,
   "used_event_indices": [
     12,
     11,
@@ -31,10 +34,9 @@
     19,
     28
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "concert",
   "curation_year": 2024,
   "used_topics": [
-    "los tres|youtube",
     "los tres|youtube",
     "gandhi|original",
     "gandhi|original",
@@ -133,7 +135,8 @@
     "mecano|youtube",
     "mecano|youtube",
     "desorden público|youtube",
-    "desorden público|youtube"
+    "desorden público|youtube",
+    "juanes|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -275,7 +278,8 @@
     "aa5030f9b99789bba73005389cfff429b5ce5d2fd98ba9c4fa50416be83b5273",
     "aa5030f9b99789bba73005389cfff429b5ce5d2fd98ba9c4fa50416be83b5273",
     "f3d00a2bded552ef64cfb25d9d1fafadc159d81989432edfaa8da67a8af2fb89",
-    "f3d00a2bded552ef64cfb25d9d1fafadc159d81989432edfaa8da67a8af2fb89"
+    "f3d00a2bded552ef64cfb25d9d1fafadc159d81989432edfaa8da67a8af2fb89",
+    "3d43eca330808e07b5acfee148970ebd851d5db5acd75d04776a6438cf13ac71"
   ],
   "last_published_id": "post_20261112_223315",
   "last_published_at": "2026-11-12T22:33:51.485953+00:00",

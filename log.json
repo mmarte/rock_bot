@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260808_172535",
-    "fb_post_id": "1043162839046116_1467128612128347",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Enrique Bunbury",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Enrique_Bunbury_-_16.jpg",
-    "status": "published",
-    "executed_at": "2026-08-08T17:26:03.053220+00:00"
-  },
-  {
     "post_id": "post_20260808_213335",
     "fb_post_id": "1043162839046116_1467266108781264",
     "ig_post_id": null,
@@ -2461,5 +2449,11 @@
     "image_url": "https://img.youtube.com/vi/HI7UqffePIg/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-11-12T22:33:51.485953+00:00"
+  },
+  {
+    "post_id": "post_20261113_014428",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261006_065921 — not republished",
+    "executed_at": "2026-11-13T01:45:57.297505+00:00"
   }
 ]

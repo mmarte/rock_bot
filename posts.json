@@ -2681,5 +2681,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-12T22:33:51.485953+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261113_014428",
+    "status": "skipped_duplicate",
+    "created_at": "2026-11-13T01:44:28.746751+00:00",
+    "post_type": "original",
+    "topic": "Juanes",
+    "text": "¿Juanes en su faceta de solista o su etapa metalera con Ekhymosis? Por un lado, su carrera como solista arrancó en 2000 con 'Fíjate bien', y en 2002 'Un día normal' consolidó su presencia en Latinoamérica. El álbum 'Mi sangre' (2004) se volvió superventas internacional. Por otro lado, a los 15 años Juanes inició su trayectoria en la banda de metal Ekhymosis, con la que publicó seis álbumes y logró reconocimiento en la escena musical de su país natal. Aquellos que prefieren la agresividad del metal resaltan la autenticidad de sus inicios y la influencia que tuvo en la generación de bandas underground. ¿Cuál de los dos caminos consideras que define mejor a Juanes: la explosión pop-rock que conquistó al mundo o la rebeldía metalera que lo formó?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Juanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "3d43eca330808e07b5acfee148970ebd851d5db5acd75d04776a6438cf13ac71",
+    "image_query": "Juanes Colombia rock singer guitar",
+    "extra_topics": [],
+    "post_year": "2000",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20261006_065921 — not republished"
   }
 ]
