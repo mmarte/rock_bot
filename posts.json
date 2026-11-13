@@ -2725,5 +2725,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-13T07:28:57.691685+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261113_201049",
+    "status": "skipped_duplicate",
+    "created_at": "2026-11-13T20:10:49.351356+00:00",
+    "post_type": "original",
+    "topic": "The Great Wilderness",
+    "text": "¿Sabías que una banda costarricense logró abrir los ojos de la prensa mundial antes de que el rock hispano explotara? Aquí van tres datos que rompen el molde sobre The Great Wilderness.\n\nPrimero: en 2010, la revista Cuchara Sonica los eligió como la mejor banda underground emergente, un logro silencioso pero clave para su reputación. Seguidamente, aparecieron en publicaciones como NME y Filter Magazine, algo inusual para una agrupación no angloparlante de esa época.\n\nSegundo: el 31 de enero de 2012, fueron anunciados formalmente en el Festival Imperial, compartiendo cartel con artistas como Björk, Manchester Orchestra y The Flaming Lips. No fue una cita local, sino internacional, donde su sonido de dream rock y post-punk británico encajó perfectamente.\n\nTercero: tras lanzar su tercer LP, In the Hour of the Wolf, en 2013 y promocionarlo en SXSW 2014, la banda tomó una pausa que duró hasta finales de 2017. En ese momento, volvieron a los escenarios con Monserrat Vargas de regreso en la formación.\n\nDe esos tres momentos, ¿cuál te sorprendió más: el reconocimiento inicial, el cartel con Björk o el regreso tras la pausa?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #TheGreatWilderness\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "f11a8416516f788a515d6c189b5bf01803c3ebc29c058e63b6feac24d122c7f3",
+    "image_query": "The Great Wilderness rock band concert",
+    "extra_topics": [],
+    "post_year": "2010",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20261110_200659 — not republished"
   }
 ]

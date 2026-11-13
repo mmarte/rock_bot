@@ -1,18 +1,10 @@
 {
   "used_bands": [
-    "Los Rabanes",
     "Toque Profundo",
-    "Aterciopelados",
-    "Mecano",
-    "Fiel a la Vega",
-    "Desorden Público",
-    "Zapato 3",
-    "La Vela Puerca",
-    "Juanes",
-    "Los Rodríguez"
+    "No Te Va Gustar",
+    "The Great Wilderness"
   ],
   "used_poll_indices": [
-    13,
     7,
     19,
     15,
@@ -21,12 +13,13 @@
     12,
     4,
     3,
-    6
+    6,
+    2
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-11-13T07:29:32.625848+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-11-13T20:11:34.047926+00:00",
   "post_type_index": 10,
-  "total_posts": 575,
+  "total_posts": 576,
   "used_event_indices": [
     12,
     11,
@@ -35,10 +28,9 @@
     19,
     28
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "gandhi|original",
     "los rabanes|youtube",
     "los rabanes|youtube",
     "líbido|youtube",
@@ -137,7 +129,8 @@
     "desorden público|youtube",
     "juanes|original",
     "los rodríguez|youtube",
-    "los rodríguez|youtube"
+    "los rodríguez|youtube",
+    "the great wilderness|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -282,7 +275,8 @@
     "f3d00a2bded552ef64cfb25d9d1fafadc159d81989432edfaa8da67a8af2fb89",
     "3d43eca330808e07b5acfee148970ebd851d5db5acd75d04776a6438cf13ac71",
     "4b62994b1010d5f606328f4b34d3b63b57307ea2d7b8bc09e1eff039253908db",
-    "4b62994b1010d5f606328f4b34d3b63b57307ea2d7b8bc09e1eff039253908db"
+    "4b62994b1010d5f606328f4b34d3b63b57307ea2d7b8bc09e1eff039253908db",
+    "f11a8416516f788a515d6c189b5bf01803c3ebc29c058e63b6feac24d122c7f3"
   ],
   "last_published_id": "post_20261113_072823",
   "last_published_at": "2026-11-13T07:28:57.691685+00:00",
