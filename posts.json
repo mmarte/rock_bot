@@ -2746,5 +2746,30 @@
     "youtube_post_url": null,
     "published_at": null,
     "error": "Duplicate of post_20261110_200659 — not republished"
+  },
+  {
+    "id": "post_20261113_222207",
+    "status": "published",
+    "created_at": "2026-11-13T22:22:07.202938+00:00",
+    "post_type": "poll",
+    "topic": "Flou",
+    "text": "Hay un debate constante sobre cuál es el himno que mejor representa a una generación. Cada una de estas tres canciones mantiene una estructura sólida que sigue sonando fresca en cualquier reproducción. ¿Cuál de estas joyas no puede faltar jamás en tu playlist personal y representa la cumbre del género? 👍 De Música Ligera - Soda Stereo ❤️ Entre Dos Tierras - Héroes del Silencio 😮 Oye Mi Amor - Maná\n\n¡Vota con tu reacción!\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #Mana #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "c78c8adfcf5f2756f9e626623942f986107e3944b69c77f978c3379493627510",
+    "image_query": "Flou rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Maná",
+      "Héroes del Silencio"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1562345005940040",
+    "ig_post_id": "18078485705744236",
+    "threads_post_id": "18111530422921470",
+    "youtube_post_url": null,
+    "published_at": "2026-11-13T22:23:06.547723+00:00",
+    "error": null
   }
 ]

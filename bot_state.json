@@ -2,10 +2,12 @@
   "used_bands": [
     "Toque Profundo",
     "No Te Va Gustar",
-    "The Great Wilderness"
+    "The Great Wilderness",
+    "Octavia",
+    "Los Rabanes",
+    "Flou"
   ],
   "used_poll_indices": [
-    7,
     19,
     15,
     18,
@@ -14,12 +16,13 @@
     4,
     3,
     6,
-    2
+    2,
+    8
   ],
   "original_type_index": 2,
-  "last_updated": "2026-11-13T20:11:34.047926+00:00",
+  "last_updated": "2026-11-13T22:23:34.016674+00:00",
   "post_type_index": 10,
-  "total_posts": 576,
+  "total_posts": 577,
   "used_event_indices": [
     12,
     11,
@@ -28,11 +31,9 @@
     19,
     28
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "los rabanes|youtube",
-    "los rabanes|youtube",
     "líbido|youtube",
     "líbido|youtube",
     "fiel a la vega|original",
@@ -130,7 +131,9 @@
     "juanes|original",
     "los rodríguez|youtube",
     "los rodríguez|youtube",
-    "the great wilderness|original"
+    "the great wilderness|original",
+    "flou|poll",
+    "flou|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -276,9 +279,11 @@
     "3d43eca330808e07b5acfee148970ebd851d5db5acd75d04776a6438cf13ac71",
     "4b62994b1010d5f606328f4b34d3b63b57307ea2d7b8bc09e1eff039253908db",
     "4b62994b1010d5f606328f4b34d3b63b57307ea2d7b8bc09e1eff039253908db",
-    "f11a8416516f788a515d6c189b5bf01803c3ebc29c058e63b6feac24d122c7f3"
+    "f11a8416516f788a515d6c189b5bf01803c3ebc29c058e63b6feac24d122c7f3",
+    "c78c8adfcf5f2756f9e626623942f986107e3944b69c77f978c3379493627510",
+    "c78c8adfcf5f2756f9e626623942f986107e3944b69c77f978c3379493627510"
   ],
-  "last_published_id": "post_20261113_072823",
-  "last_published_at": "2026-11-13T07:28:57.691685+00:00",
-  "last_published_topic": "Los Rodríguez"
+  "last_published_id": "post_20261113_222207",
+  "last_published_at": "2026-11-13T22:23:06.547723+00:00",
+  "last_published_topic": "Flou"
 }
