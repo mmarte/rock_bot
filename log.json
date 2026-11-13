@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260808_213335",
-    "fb_post_id": "1043162839046116_1467266108781264",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "La Vela Puerca",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Vamoslavela.jpg",
-    "status": "published",
-    "executed_at": "2026-08-08T21:34:02.338726+00:00"
-  },
-  {
     "post_id": "post_20260809_025713",
     "fb_post_id": "1043162839046116_1467429528764922",
     "ig_post_id": null,
@@ -2455,5 +2443,17 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261006_065921 — not republished",
     "executed_at": "2026-11-13T01:45:57.297505+00:00"
+  },
+  {
+    "post_id": "post_20261113_072823",
+    "fb_post_id": "1043162839046116_1561555526018988",
+    "ig_post_id": "18117377291585109",
+    "threads_post_id": "18134123353704573",
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Los Rodríguez",
+    "image_url": "https://img.youtube.com/vi/EmTHRdo8hmI/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-11-13T07:28:57.691685+00:00"
   }
 ]

@@ -2702,5 +2702,28 @@
     "youtube_post_url": null,
     "published_at": null,
     "error": "Duplicate of post_20261006_065921 — not republished"
+  },
+  {
+    "id": "post_20261113_072823",
+    "status": "published",
+    "created_at": "2026-11-13T07:28:23.099988+00:00",
+    "post_type": "youtube",
+    "topic": "Los Rodríguez",
+    "text": "¿Alguien más siente que la química entre Andrés Calamaro y Ariel Rot en sus presentaciones en vivo sigue siendo única? Es fascinante ver cómo dos destacados músicos del rock lograron fusionar sus estilos para crear algo íntimo y eléctrico a la vez. No era solo un encargo discográfico; se percibía una tensión creativa que Los Rodríguez llevaban desde los noventa, ahora filtrada por la madurez de ambos artistas en sus proyectos personales. Esa voz rasgada de Ariel mezclada con la melodía inconfundible de Andrés tiene un peso especial que pocos dúos logran capturar. Ver a estas dos leyendas compartiendo el escenario sin miedo y con una complicidad que trasciende la amistad es un momento memorable. Si te perdiste esta etapa, el video es la prueba de que la calidad se mantiene intacta incluso fuera del estudio. ¿Cuál de sus canciones en vivo consideras que marca el punto de inflexión de su carrera conjunta?\n\nhttps://www.youtube.com/watch?v=EmTHRdo8hmI\n\nLo Mejor del Rock en Español les presenta: #LosRodriguez #AndresCalamaro\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRodriguez #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "4b62994b1010d5f606328f4b34d3b63b57307ea2d7b8bc09e1eff039253908db",
+    "image_query": "Los Rodriguez Spain Argentina rock band",
+    "extra_topics": [
+      "Andrés Calamaro"
+    ],
+    "post_year": "2006",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=EmTHRdo8hmI",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1561555526018988",
+    "ig_post_id": "18117377291585109",
+    "threads_post_id": "18134123353704573",
+    "youtube_post_url": null,
+    "published_at": "2026-11-13T07:28:57.691685+00:00",
+    "error": null
   }
 ]
