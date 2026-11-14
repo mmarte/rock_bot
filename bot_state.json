@@ -9,7 +9,10 @@
     "Los Prisioneros",
     "Zapato 3",
     "Soda Stereo",
-    "Grupo Armado"
+    "Grupo Armado",
+    "Desorden Público",
+    "Caramelos de Cianuro",
+    "Savage"
   ],
   "used_poll_indices": [
     15,
@@ -23,10 +26,10 @@
     8,
     10
   ],
-  "original_type_index": 3,
-  "last_updated": "2026-11-14T18:36:47.822374+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-11-14T21:06:05.793995+00:00",
   "post_type_index": 10,
-  "total_posts": 580,
+  "total_posts": 581,
   "used_event_indices": [
     12,
     11,
@@ -38,7 +41,6 @@
   "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
-    "octavia|poll",
     "cinema|original",
     "cinema|original",
     "aterciopelados|youtube",
@@ -137,7 +139,8 @@
     "los prisioneros|youtube",
     "soda stereo|poll",
     "soda stereo|poll",
-    "grupo armado|youtube"
+    "grupo armado|youtube",
+    "savage|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -290,7 +293,8 @@
     "bfe11acfb6427f23be3f14fbb5829a685b7b58c17996d99a22ec3dc9d268ac3c",
     "828abd0a5305b794dcebdd2fb109391959c3eb8e55dc6830c53b444c6610283d",
     "828abd0a5305b794dcebdd2fb109391959c3eb8e55dc6830c53b444c6610283d",
-    "f6c89434e35343482c307a4ddd3e54f36b1f676679f42f7d7f8100529317c3f7"
+    "f6c89434e35343482c307a4ddd3e54f36b1f676679f42f7d7f8100529317c3f7",
+    "e67e77cca8c6b3a7ef01816b3aba7733a03eb66a9a81584f471854d418a6dc6d"
   ],
   "last_published_id": "post_20261114_070907",
   "last_published_at": "2026-11-14T07:09:48.068044+00:00",

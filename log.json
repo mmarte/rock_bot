@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260810_214453",
-    "fb_post_id": "1043162839046116_1469026231938585",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Octavia",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG/330px-Ritratto_di_claudia_ottavia%2C_da_roma%2C_via_varese.JPG?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "status": "published",
-    "executed_at": "2026-08-10T21:45:20.975946+00:00"
-  },
-  {
     "post_id": "post_20260811_025931",
     "fb_post_id": "1043162839046116_1469187571922451",
     "ig_post_id": null,
@@ -2455,5 +2443,11 @@
     "status": "failed",
     "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request",
     "executed_at": "2026-11-14T18:37:13.326594+00:00"
+  },
+  {
+    "post_id": "post_20261114_210451",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20260915_053424 — not republished",
+    "executed_at": "2026-11-14T21:06:31.235735+00:00"
   }
 ]
