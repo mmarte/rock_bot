@@ -2813,5 +2813,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-14T07:09:48.068044+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261114_183642",
+    "status": "failed",
+    "created_at": "2026-11-14T18:36:42.171010+00:00",
+    "post_type": "youtube",
+    "topic": "Grupo Armado",
+    "text": "La interpretación combina rock urbano y ritmos latinos que se sentían en los garajes de South Gate, y el ritmo de la batería late como un latido. Ver a la banda en plena acción, con el público vibrando con cada riff, es como retroceder a una época en que la escena underground se alimentaba de la improvisación y la camaradería. ¿Cuál es tu recuerdo favorito de los conciertos de Grupo Armado?\n\nhttps://www.youtube.com/watch?v=7Aq4HjupW4E\n\nLo Mejor del Rock en Español les presenta: #GrupoArmado\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #GrupoArmado\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "f6c89434e35343482c307a4ddd3e54f36b1f676679f42f7d7f8100529317c3f7",
+    "image_query": "Grupo Armado rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=7Aq4HjupW4E",
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
   }
 ]
