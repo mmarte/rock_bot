@@ -2792,5 +2792,26 @@
     "youtube_post_url": null,
     "published_at": "2026-11-14T01:20:49.116834+00:00",
     "error": null
+  },
+  {
+    "id": "post_20261114_070907",
+    "status": "published",
+    "created_at": "2026-11-14T07:09:07.484465+00:00",
+    "post_type": "poll",
+    "topic": "Soda Stereo",
+    "text": "Dicen que las leyendas se hacen notar cuando se unen, y en el rock en español hay tres momentos que dejaron huella al cruzar fronteras de estilo y región. Son colaboraciones que, más allá del sonido en el estudio, ampliaron nuestras ideas sobre lo que este género puede lograr. No se trata de quién lo hizo mejor, sino de cuál de esas alianzas te sorprendió más. ¿Cuál de estos encuentros históricos consideras la cumbre absoluta?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "828abd0a5305b794dcebdd2fb109391959c3eb8e55dc6830c53b444c6610283d",
+    "image_query": "Soda Stereo band Argentina rock",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1562724259235448",
+    "ig_post_id": "18138007825662430",
+    "threads_post_id": "17902286037438121",
+    "youtube_post_url": null,
+    "published_at": "2026-11-14T07:09:48.068044+00:00",
+    "error": null
   }
 ]

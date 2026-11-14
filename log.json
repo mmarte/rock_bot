@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260810_030626",
-    "fb_post_id": "1043162839046116_1468297648678110",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Malpaís",
-    "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-08-10T03:06:54.445283+00:00"
-  },
-  {
     "post_id": "post_20260810_141450",
     "fb_post_id": "1043162839046116_1468713081969900",
     "ig_post_id": null,
@@ -2455,5 +2443,17 @@
     "image_url": "https://img.youtube.com/vi/LyLzpszWivI/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-11-14T01:20:49.116834+00:00"
+  },
+  {
+    "post_id": "post_20261114_070907",
+    "fb_post_id": "1043162839046116_1562724259235448",
+    "ig_post_id": "18138007825662430",
+    "threads_post_id": "17902286037438121",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Soda Stereo",
+    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
+    "status": "published",
+    "executed_at": "2026-11-14T07:09:48.068044+00:00"
   }
 ]
