@@ -2455,5 +2455,23 @@
     "image_url": "https://www.sodastereo.com/img/image_src.jpg",
     "status": "published",
     "executed_at": "2026-11-14T07:09:48.068044+00:00"
+  },
+  {
+    "post_id": "reel_20261114",
+    "post_type": "reel",
+    "topic": "El Cuarteto de Nos",
+    "reel_path": "reels/reel_20261114.mp4",
+    "fb_reel_id": "1875675536940372",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "chunked, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Chunked upload failed at offset 26214400: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, re-encoded (Main/faststart): Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}})",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-14T15:27:04.464521+00:00"
   }
 ]
