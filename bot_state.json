@@ -5,7 +5,8 @@
     "The Great Wilderness",
     "Octavia",
     "Los Rabanes",
-    "Flou"
+    "Flou",
+    "Los Prisioneros"
   ],
   "used_poll_indices": [
     19,
@@ -20,9 +21,9 @@
     8
   ],
   "original_type_index": 2,
-  "last_updated": "2026-11-13T22:23:34.016674+00:00",
+  "last_updated": "2026-11-14T01:21:23.620512+00:00",
   "post_type_index": 10,
-  "total_posts": 577,
+  "total_posts": 578,
   "used_event_indices": [
     12,
     11,
@@ -31,11 +32,9 @@
     19,
     28
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
-    "líbido|youtube",
-    "líbido|youtube",
     "fiel a la vega|original",
     "fiel a la vega|original",
     "octavia|poll",
@@ -133,7 +132,9 @@
     "los rodríguez|youtube",
     "the great wilderness|original",
     "flou|poll",
-    "flou|poll"
+    "flou|poll",
+    "los prisioneros|youtube",
+    "los prisioneros|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -281,9 +282,11 @@
     "4b62994b1010d5f606328f4b34d3b63b57307ea2d7b8bc09e1eff039253908db",
     "f11a8416516f788a515d6c189b5bf01803c3ebc29c058e63b6feac24d122c7f3",
     "c78c8adfcf5f2756f9e626623942f986107e3944b69c77f978c3379493627510",
-    "c78c8adfcf5f2756f9e626623942f986107e3944b69c77f978c3379493627510"
+    "c78c8adfcf5f2756f9e626623942f986107e3944b69c77f978c3379493627510",
+    "bfe11acfb6427f23be3f14fbb5829a685b7b58c17996d99a22ec3dc9d268ac3c",
+    "bfe11acfb6427f23be3f14fbb5829a685b7b58c17996d99a22ec3dc9d268ac3c"
   ],
-  "last_published_id": "post_20261113_222207",
-  "last_published_at": "2026-11-13T22:23:06.547723+00:00",
-  "last_published_topic": "Flou"
+  "last_published_id": "post_20261114_012015",
+  "last_published_at": "2026-11-14T01:20:49.116834+00:00",
+  "last_published_topic": "Los Prisioneros"
 }
