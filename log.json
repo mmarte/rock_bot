@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260811_025931",
-    "fb_post_id": "1043162839046116_1469187571922451",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "La Máquina Camaleón",
-    "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-08-11T02:59:58.250722+00:00"
-  },
-  {
     "post_id": "post_20260811_141352",
     "fb_post_id": "1043162839046116_1469616751879533",
     "ig_post_id": null,
@@ -2449,5 +2437,17 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20260915_053424 — not republished",
     "executed_at": "2026-11-14T21:06:31.235735+00:00"
+  },
+  {
+    "post_id": "post_20261115_005100",
+    "fb_post_id": "1043162839046116_1563584005816140",
+    "ig_post_id": "18014603958000740",
+    "threads_post_id": "18032291678858643",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Extremoduro",
+    "image_url": "https://images.pexels.com/photos/29872936/pexels-photo-29872936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-11-15T00:51:33.815347+00:00"
   }
 ]

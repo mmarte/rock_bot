@@ -2855,5 +2855,26 @@
     "youtube_post_url": null,
     "published_at": null,
     "error": "Duplicate of post_20260915_053424 — not republished"
+  },
+  {
+    "id": "post_20261115_005100",
+    "status": "published",
+    "created_at": "2026-11-15T00:51:00.688835+00:00",
+    "post_type": "poll",
+    "topic": "Extremoduro",
+    "text": "¿Cuál consideras que fue el año que realmente marcó un antes y un después para el rock en español? En los primeros años de la década de los 90, Extremoduro empezó a llamar la atención con letras crudas que resonaron en una generación. Otros grupos como Love of Lesbian surgieron unos años después, aportando su propia carga melancólica. También hubo momentos intermedios en los que bandas emergentes combinaron distintas influencias, creando sonidos novedosos. Cada una de esas fechas representa un pilar en nuestra historia musical. Elige el año que sientes que dejó la huella más profunda. 👍❤️😮\n\n¿Qué año elegirías?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Extremoduro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "be84c0df4154c623564c0e6f743525a64fe005e086c1ad2b5e2b3281e9a76f71",
+    "image_query": "Extremoduro Spain rock band",
+    "extra_topics": [],
+    "post_year": "1990",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1563584005816140",
+    "ig_post_id": "18014603958000740",
+    "threads_post_id": "18032291678858643",
+    "youtube_post_url": null,
+    "published_at": "2026-11-15T00:51:33.815347+00:00",
+    "error": null
   }
 ]

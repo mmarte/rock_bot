@@ -12,10 +12,10 @@
     "Grupo Armado",
     "Desorden Público",
     "Caramelos de Cianuro",
-    "Savage"
+    "Savage",
+    "Extremoduro"
   ],
   "used_poll_indices": [
-    15,
     18,
     0,
     12,
@@ -24,12 +24,13 @@
     6,
     2,
     8,
-    10
+    10,
+    16
   ],
   "original_type_index": 5,
-  "last_updated": "2026-11-14T21:06:05.793995+00:00",
+  "last_updated": "2026-11-15T00:52:07.700291+00:00",
   "post_type_index": 10,
-  "total_posts": 581,
+  "total_posts": 582,
   "used_event_indices": [
     12,
     11,
@@ -38,11 +39,9 @@
     19,
     28
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "cinema|original",
-    "cinema|original",
     "aterciopelados|youtube",
     "aterciopelados|youtube",
     "habana abierta|poll",
@@ -140,7 +139,9 @@
     "soda stereo|poll",
     "soda stereo|poll",
     "grupo armado|youtube",
-    "savage|youtube"
+    "savage|youtube",
+    "extremoduro|poll",
+    "extremoduro|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -294,9 +295,11 @@
     "828abd0a5305b794dcebdd2fb109391959c3eb8e55dc6830c53b444c6610283d",
     "828abd0a5305b794dcebdd2fb109391959c3eb8e55dc6830c53b444c6610283d",
     "f6c89434e35343482c307a4ddd3e54f36b1f676679f42f7d7f8100529317c3f7",
-    "e67e77cca8c6b3a7ef01816b3aba7733a03eb66a9a81584f471854d418a6dc6d"
+    "e67e77cca8c6b3a7ef01816b3aba7733a03eb66a9a81584f471854d418a6dc6d",
+    "be84c0df4154c623564c0e6f743525a64fe005e086c1ad2b5e2b3281e9a76f71",
+    "be84c0df4154c623564c0e6f743525a64fe005e086c1ad2b5e2b3281e9a76f71"
   ],
-  "last_published_id": "post_20261114_070907",
-  "last_published_at": "2026-11-14T07:09:48.068044+00:00",
-  "last_published_topic": "Soda Stereo"
+  "last_published_id": "post_20261115_005100",
+  "last_published_at": "2026-11-15T00:51:33.815347+00:00",
+  "last_published_topic": "Extremoduro"
 }
