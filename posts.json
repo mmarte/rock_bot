@@ -2816,7 +2816,7 @@
   },
   {
     "id": "post_20261114_183642",
-    "status": "pending",
+    "status": "published",
     "created_at": "2026-11-14T18:36:42.171010+00:00",
     "post_type": "youtube",
     "topic": "Grupo Armado",
@@ -2828,11 +2828,11 @@
     "curation_year": "2024",
     "video_url": "https://www.youtube.com/watch?v=7Aq4HjupW4E",
     "concert_url": null,
-    "fb_post_id": null,
-    "ig_post_id": null,
-    "threads_post_id": null,
+    "fb_post_id": "1043162839046116_1563898579118016",
+    "ig_post_id": "18122233286281669",
+    "threads_post_id": "17975238753177778",
     "youtube_post_url": null,
-    "published_at": null,
+    "published_at": "2026-11-15T07:21:17.360965+00:00",
     "error": null
   },
   {
@@ -2875,6 +2875,27 @@
     "threads_post_id": "18032291678858643",
     "youtube_post_url": null,
     "published_at": "2026-11-15T00:51:33.815347+00:00",
+    "error": null
+  },
+  {
+    "id": "post_20261115_072015",
+    "status": "pending",
+    "created_at": "2026-11-15T07:20:15.073185+00:00",
+    "post_type": "original",
+    "topic": "Malacates Trébol Shop",
+    "text": "Pocos grupos en la escena latinoamericana logran que el ska y el rock tradicional suenen tan orgánicos y a la vez tan modernos como Malacates Trébol Shop. Originarios de Guatemala, esta banda fusiona el rock, el ska y elementos del pop en composiciones innovadoras y únicas. Su propuesta no es solo tocar instrumentos, sino construir un sonido híbrido donde cada elemento tiene un peso específico en la mezcla que los caracteriza.\n\nLo fascinante de su trayectoria es cómo mantienen una identidad propia mientras exploran nuevos territorios sonoros, creando piezas que desafían las categorías habituales. No se trata solo de una banda de rock, sino de un proyecto en constante evolución que ha cautivado a audiencias que buscan algo más allá de lo convencional. Su capacidad para integrar lo festivo del ska con la estructura del rock y el pop les ha ganado un lugar especial en la música actual, demostrando que la innovación no está reñida con la conexión emocional del público.\n\n¿Creen que esta fusión de géneros estaba destinada a ser efectiva o fue un experimento arriesgado que supieron pulir a la perfección?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #MalacatesTrebolShop\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "9a3f1432754598338fcc2f77cc70ac79c974a06da1f21666f5e3585977c513a2",
+    "image_query": "Malacates Trébol Shop rock band concert",
+    "extra_topics": [],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
     "error": null
   }
 ]
