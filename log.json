@@ -2449,5 +2449,23 @@
     "image_url": "https://img.youtube.com/vi/7Aq4HjupW4E/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-11-15T07:21:17.360965+00:00"
+  },
+  {
+    "post_id": "reel_20261115",
+    "post_type": "reel",
+    "topic": "Hombres G",
+    "reel_path": "reels/reel_20261115.mp4",
+    "fb_reel_id": "4539030136352534",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "chunked, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Chunked upload failed at offset 10485760: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, re-encoded (Main/faststart): Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}})",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-15T15:58:09.814712+00:00"
   }
 ]
