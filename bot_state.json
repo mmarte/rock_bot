@@ -2,10 +2,11 @@
   "used_bands": [
     "Savage",
     "Malacates Trébol Shop",
-    "Grupo Armado"
+    "Grupo Armado",
+    "Toque Profundo",
+    "Enrique Bunbury"
   ],
   "used_poll_indices": [
-    18,
     0,
     12,
     4,
@@ -14,12 +15,13 @@
     2,
     8,
     10,
-    16
+    16,
+    15
   ],
   "original_type_index": 6,
-  "last_updated": "2026-11-15T07:21:43.162969+00:00",
+  "last_updated": "2026-11-15T19:14:13.740242+00:00",
   "post_type_index": 10,
-  "total_posts": 583,
+  "total_posts": 584,
   "used_event_indices": [
     12,
     11,
@@ -28,11 +30,9 @@
     19,
     28
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
-    "habana abierta|poll",
-    "habana abierta|poll",
     "divididos|poll",
     "divididos|poll",
     "la ley|original",
@@ -130,7 +130,9 @@
     "extremoduro|poll",
     "extremoduro|poll",
     "malacates trébol shop|original",
-    "grupo armado|youtube"
+    "grupo armado|youtube",
+    "enrique bunbury|youtube",
+    "malacates trébol shop|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -288,9 +290,11 @@
     "be84c0df4154c623564c0e6f743525a64fe005e086c1ad2b5e2b3281e9a76f71",
     "be84c0df4154c623564c0e6f743525a64fe005e086c1ad2b5e2b3281e9a76f71",
     "9a3f1432754598338fcc2f77cc70ac79c974a06da1f21666f5e3585977c513a2",
-    "f6c89434e35343482c307a4ddd3e54f36b1f676679f42f7d7f8100529317c3f7"
+    "f6c89434e35343482c307a4ddd3e54f36b1f676679f42f7d7f8100529317c3f7",
+    "55ca148d1a64d22895ab24498c206444622f281edec4e0e065ee3c0ac5bbd199",
+    "9a3f1432754598338fcc2f77cc70ac79c974a06da1f21666f5e3585977c513a2"
   ],
-  "last_published_id": "post_20261114_183642",
-  "last_published_at": "2026-11-15T07:21:17.360965+00:00",
-  "last_published_topic": "Grupo Armado"
+  "last_published_id": "post_20261115_072015",
+  "last_published_at": "2026-11-15T19:13:23.054827+00:00",
+  "last_published_topic": "Malacates Trébol Shop"
 }
