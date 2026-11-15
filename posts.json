@@ -2816,7 +2816,7 @@
   },
   {
     "id": "post_20261114_183642",
-    "status": "failed",
+    "status": "pending",
     "created_at": "2026-11-14T18:36:42.171010+00:00",
     "post_type": "youtube",
     "topic": "Grupo Armado",
@@ -2833,7 +2833,7 @@
     "threads_post_id": null,
     "youtube_post_url": null,
     "published_at": null,
-    "error": "FB error 1: Please reduce the amount of data you're asking for, then retry your request"
+    "error": null
   },
   {
     "id": "post_20261114_210451",
