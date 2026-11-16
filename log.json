@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260812_175556",
-    "fb_post_id": "1043162839046116_1470708771770331",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Alux Nahual",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/3/36/Alux_Nahual.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "status": "published",
-    "executed_at": "2026-08-12T17:56:23.381019+00:00"
-  },
-  {
     "post_id": "post_20260812_214914",
     "fb_post_id": "1043162839046116_1470851541756054",
     "ig_post_id": null,
@@ -2455,5 +2443,11 @@
     "image_url": "https://img.youtube.com/vi/t5A-lV8bU1k/hqdefault.jpg",
     "status": "published",
     "executed_at": "2026-11-15T21:28:42.589933+00:00"
+  },
+  {
+    "post_id": "post_20261115_212738",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261027_182941 — not republished",
+    "executed_at": "2026-11-16T00:51:18.694858+00:00"
   }
 ]

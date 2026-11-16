@@ -2921,7 +2921,7 @@
   },
   {
     "id": "post_20261115_212738",
-    "status": "pending",
+    "status": "skipped_duplicate",
     "created_at": "2026-11-15T21:27:38.616604+00:00",
     "post_type": "original",
     "topic": "Toque Profundo",
@@ -2932,6 +2932,29 @@
     "post_year": "1989",
     "curation_year": "2024",
     "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20261027_182941 — not republished"
+  },
+  {
+    "id": "post_20261116_005024",
+    "status": "pending",
+    "created_at": "2026-11-16T00:50:24.663817+00:00",
+    "post_type": "youtube",
+    "topic": "Los Rodríguez",
+    "text": "Este documental captura la esencia de Los Rodríguez durante su etapa más vibrante, mostrando a Andrés Calamaro y Ariel Rot en plena euforia. Verlos intercambiando riffs en el escenario, con la audiencia coreando clásicos, permite revivir la chispa que marcó al rock en español de los noventa. El material no solo incluye conciertos, sino también momentos entre bastidores: el sonido de la cerveza, las bromas y la energía de un público que vibra entre España y Argentina. Cada plano revela cómo la combinación de rock, blues y tango creó un sonido que sigue influyendo. ¿Cuál es tu recuerdo favorito de esa época o qué canción te transporta a esos conciertos?\n\nhttps://www.youtube.com/watch?v=bW8Jti5LR1M\n\nLo Mejor del Rock en Español les presenta: #LosRodriguez #AndresCalamaro\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #LosRodriguez #AndresCalamaro\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "67a044cc791ef1e461e1244cbd8807fc9ecf19461daba2461cd9b15fee80a80b",
+    "image_query": "Los Rodriguez Spain Argentina rock band",
+    "extra_topics": [
+      "Andrés Calamaro"
+    ],
+    "post_year": "1994",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=bW8Jti5LR1M",
     "concert_url": null,
     "fb_post_id": null,
     "ig_post_id": null,
