@@ -4,10 +4,12 @@
     "Desorden Público",
     "Los Rodríguez",
     "La Ley",
-    "Los Prisioneros"
+    "Los Prisioneros",
+    "Los Rabanes",
+    "La Cuneta Son Machín",
+    "Los Mojarras"
   ],
   "used_poll_indices": [
-    12,
     4,
     3,
     6,
@@ -16,12 +18,13 @@
     10,
     16,
     15,
-    11
+    11,
+    17
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-11-16T07:28:16.478804+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-11-16T22:42:21.249274+00:00",
   "post_type_index": 10,
-  "total_posts": 587,
+  "total_posts": 588,
   "used_event_indices": [
     12,
     11,
@@ -33,8 +36,6 @@
   "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "aterciopelados|cover",
-    "cecilia & the argonauts|poll",
     "cecilia & the argonauts|poll",
     "cinema|original",
     "habana abierta|poll",
@@ -132,6 +133,8 @@
     "toque profundo|original",
     "enrique bunbury|youtube",
     "los rodríguez|youtube",
+    "los prisioneros|original",
+    "los mojarras|original",
     "los prisioneros|original"
   ],
   "used_text_hashes": [
@@ -296,9 +299,11 @@
     "fb6b4395dbca77bff587816750b32b6d17c289d43ffda712ba8e692471404598",
     "55ca148d1a64d22895ab24498c206444622f281edec4e0e065ee3c0ac5bbd199",
     "67a044cc791ef1e461e1244cbd8807fc9ecf19461daba2461cd9b15fee80a80b",
+    "a47d795bc05ed70c81c4683bea52f9a42d8ef823dbfe8f4a8fe7140ea1a3cc4d",
+    "58889c6d7568ca0f76bb6597eafe08bad1e3ae128aac370ff5c8034f695e2f66",
     "a47d795bc05ed70c81c4683bea52f9a42d8ef823dbfe8f4a8fe7140ea1a3cc4d"
   ],
-  "last_published_id": "post_20261115_191235",
-  "last_published_at": "2026-11-15T21:28:42.589933+00:00",
-  "last_published_topic": "Enrique Bunbury"
+  "last_published_id": "post_20261116_072747",
+  "last_published_at": "2026-11-16T22:41:20.733096+00:00",
+  "last_published_topic": "Los Prisioneros"
 }
