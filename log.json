@@ -2443,5 +2443,23 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261113_072823 — not republished",
     "executed_at": "2026-11-16T07:28:41.758881+00:00"
+  },
+  {
+    "post_id": "reel_20261116",
+    "post_type": "reel",
+    "topic": "Toque Profundo",
+    "reel_path": "reels/reel_20261116.mp4",
+    "fb_reel_id": "1041833785107362",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "chunked, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Chunked upload failed at offset 31457280: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, re-encoded (Main/faststart): Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}})",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-16T19:02:07.916410+00:00"
   }
 ]
