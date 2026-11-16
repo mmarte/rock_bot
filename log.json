@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260812_214914",
-    "fb_post_id": "1043162839046116_1470851541756054",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Aterciopelados",
-    "image_url": "https://img.youtube.com/vi/HKG8gAMgIAM/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-12T21:49:42.446038+00:00"
-  },
-  {
     "post_id": "post_20260813_032257",
     "fb_post_id": "1043162839046116_1471031331738075",
     "ig_post_id": null,
@@ -2449,5 +2437,11 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261027_182941 — not republished",
     "executed_at": "2026-11-16T00:51:18.694858+00:00"
+  },
+  {
+    "post_id": "post_20261116_005024",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261113_072823 — not republished",
+    "executed_at": "2026-11-16T07:28:41.758881+00:00"
   }
 ]

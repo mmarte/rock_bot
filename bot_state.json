@@ -2,7 +2,9 @@
   "used_bands": [
     "Savage",
     "Desorden Público",
-    "Los Rodríguez"
+    "Los Rodríguez",
+    "La Ley",
+    "Los Prisioneros"
   ],
   "used_poll_indices": [
     12,
@@ -16,10 +18,10 @@
     15,
     11
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-11-16T00:50:53.320013+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-11-16T07:28:16.478804+00:00",
   "post_type_index": 10,
-  "total_posts": 586,
+  "total_posts": 587,
   "used_event_indices": [
     12,
     11,
@@ -28,10 +30,9 @@
     19,
     28
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "la ley|original",
     "aterciopelados|cover",
     "cecilia & the argonauts|poll",
     "cecilia & the argonauts|poll",
@@ -130,7 +131,8 @@
     "malacates trébol shop|original",
     "toque profundo|original",
     "enrique bunbury|youtube",
-    "los rodríguez|youtube"
+    "los rodríguez|youtube",
+    "los prisioneros|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -293,7 +295,8 @@
     "9a3f1432754598338fcc2f77cc70ac79c974a06da1f21666f5e3585977c513a2",
     "fb6b4395dbca77bff587816750b32b6d17c289d43ffda712ba8e692471404598",
     "55ca148d1a64d22895ab24498c206444622f281edec4e0e065ee3c0ac5bbd199",
-    "67a044cc791ef1e461e1244cbd8807fc9ecf19461daba2461cd9b15fee80a80b"
+    "67a044cc791ef1e461e1244cbd8807fc9ecf19461daba2461cd9b15fee80a80b",
+    "a47d795bc05ed70c81c4683bea52f9a42d8ef823dbfe8f4a8fe7140ea1a3cc4d"
   ],
   "last_published_id": "post_20261115_191235",
   "last_published_at": "2026-11-15T21:28:42.589933+00:00",
