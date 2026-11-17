@@ -2437,5 +2437,23 @@
     "image_url": "https://img.youtube.com/vi/b5sRYYPZqVI/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-11-17T08:40:42.878014+00:00"
+  },
+  {
+    "post_id": "reel_20261117",
+    "post_type": "reel",
+    "topic": "Juanes",
+    "reel_path": "reels/reel_20261117.mp4",
+    "fb_reel_id": "2161877164702038",
+    "ig_reel_id": "17880147000634070",
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": null,
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-17T18:00:19.294388+00:00"
   }
 ]
