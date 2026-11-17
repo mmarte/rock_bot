@@ -3075,7 +3075,7 @@
   },
   {
     "id": "post_20261117_213010",
-    "status": "pending",
+    "status": "published",
     "created_at": "2026-11-17T21:30:10.917963+00:00",
     "post_type": "poll",
     "topic": "Anima Mundi",
@@ -3084,6 +3084,29 @@
     "image_query": "Anima Mundi rock band concert",
     "extra_topics": [],
     "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1566753392165868",
+    "ig_post_id": "18016417886994467",
+    "threads_post_id": "18006257609991431",
+    "youtube_post_url": null,
+    "published_at": "2026-11-17T23:45:12.020224+00:00",
+    "error": null
+  },
+  {
+    "id": "post_20261117_234430",
+    "status": "pending",
+    "created_at": "2026-11-17T23:44:30.368139+00:00",
+    "post_type": "original",
+    "topic": "Soda Stereo",
+    "text": "Definir el rock en español sin mencionar a Soda Stereo es como intentar explicar el pop moderno sin Beatles. Gustavo Cerati, Zeta Bosio y Charly Alberti no solo tocaron instrumentos; reescribieron las reglas del juego desde 1982. Al ser el primer grupo de habla hispana en conseguir un éxito masivo en Latinoamérica, abrieron un camino que antes parecía intransitable. Su evolución, pasando por la new wave, el hard rock y el rock electrónico, demostró una vanguardia que no buscaba seguir modas, sino crearlas.\n\nHoy, su huella es inabarcable. Numerosas bandas actuales citan sus arreglos y la voz distintiva de Cerati como parte fundamental de su sonido. No es casualidad que sigan encabezando las listas de todos los tiempos, estableciendo récord de ventas y asistencias. En 1995, los Premios Konex les otorgaron el Diploma al Mérito y el Premio de Platino, reconociéndolos como la mejor banda de la década en Argentina. Su música trasciende las fronteras y los géneros gracias a la frescura de sus composiciones. Cada vez que suena un riff o una melodía, se valida que el arte verdadero no caduca. ¿Cómo fue tu primer contacto con su discografía?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "22b4ea03e870423910c674ad45ff5e68646654877c482d56507780452924b419",
+    "image_query": "Soda Stereo band Argentina rock",
+    "extra_topics": [
+      "Gustavo Cerati"
+    ],
+    "post_year": "1982",
     "curation_year": "2024",
     "video_url": null,
     "concert_url": null,

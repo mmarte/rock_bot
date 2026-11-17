@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260814_212816",
-    "fb_post_id": "1043162839046116_1472574271583781",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/pjPA7CXutDw/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-14T21:28:43.673357+00:00"
-  },
-  {
     "post_id": "post_20260815_020810",
     "fb_post_id": "1043162839046116_1472727914901750",
     "ig_post_id": null,
@@ -2437,5 +2425,17 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261107_175616 — not republished",
     "executed_at": "2026-11-17T21:30:54.923568+00:00"
+  },
+  {
+    "post_id": "post_20261117_213010",
+    "fb_post_id": "1043162839046116_1566753392165868",
+    "ig_post_id": "18016417886994467",
+    "threads_post_id": "18006257609991431",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Anima Mundi",
+    "image_url": "https://images.pexels.com/photos/37610662/pexels-photo-37610662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-11-17T23:45:12.020224+00:00"
   }
 ]
