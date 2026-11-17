@@ -1,22 +1,10 @@
 {
   "used_bands": [
-    "Savage",
-    "Desorden Público",
-    "Los Rodríguez",
-    "La Ley",
-    "Los Prisioneros",
-    "Los Rabanes",
-    "La Cuneta Son Machín",
-    "Los Mojarras",
-    "Héroes del Silencio",
-    "Cinema",
     "Octavia",
-    "Aterciopelados",
-    "Los Piojos",
+    "Los Rodríguez",
     "La Máquina Camaleón"
   ],
   "used_poll_indices": [
-    4,
     3,
     6,
     2,
@@ -25,12 +13,13 @@
     16,
     15,
     11,
-    17
+    17,
+    19
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-11-17T03:29:44.493795+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-11-17T08:41:14.843027+00:00",
   "post_type_index": 10,
-  "total_posts": 590,
+  "total_posts": 591,
   "used_event_indices": [
     12,
     11,
@@ -39,11 +28,9 @@
     19,
     28
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "habana abierta|poll",
-    "black guayaba|original",
     "black guayaba|original",
     "los chicos|poll",
     "los chicos|poll",
@@ -141,6 +128,8 @@
     "los mojarras|original",
     "los prisioneros|original",
     "aterciopelados|cover",
+    "la máquina camaleón|youtube",
+    "los rodríguez|poll",
     "la máquina camaleón|youtube"
   ],
   "used_text_hashes": [
@@ -309,9 +298,11 @@
     "58889c6d7568ca0f76bb6597eafe08bad1e3ae128aac370ff5c8034f695e2f66",
     "a47d795bc05ed70c81c4683bea52f9a42d8ef823dbfe8f4a8fe7140ea1a3cc4d",
     "e9641c4703cea62fa9dd2970547292f2753ece18bb703af30314a3548af3f0ac",
+    "13fa6f22e079f549f03693d9cc7ad04f6825f669e22ff18a87aacd9bdb30f5a7",
+    "6bf430e28fa25cda0c66ec5a113c755f91dbd7fd80e395e4bafc4cb99528950c",
     "13fa6f22e079f549f03693d9cc7ad04f6825f669e22ff18a87aacd9bdb30f5a7"
   ],
-  "last_published_id": "post_20261116_072747",
-  "last_published_at": "2026-11-16T22:41:20.733096+00:00",
-  "last_published_topic": "Los Prisioneros"
+  "last_published_id": "post_20261117_032930",
+  "last_published_at": "2026-11-17T08:40:42.878014+00:00",
+  "last_published_topic": "La Máquina Camaleón"
 }
