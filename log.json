@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260813_175527",
-    "fb_post_id": "1043162839046116_1471575661683642",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Fiel a la Vega",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fiel_A_La_Vega.jpg",
-    "status": "published",
-    "executed_at": "2026-08-13T17:55:54.713915+00:00"
-  },
-  {
     "post_id": "post_20260813_214859",
     "fb_post_id": "1043162839046116_1471719165002625",
     "ig_post_id": null,
@@ -2449,5 +2437,11 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Los_Prisioneros_-_Revista_Pelo_Argentina_1987.jpg",
     "status": "published",
     "executed_at": "2026-11-16T22:41:20.733096+00:00"
+  },
+  {
+    "post_id": "post_20261116_224003",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261001_064029 — not republished",
+    "executed_at": "2026-11-17T00:39:57.484405+00:00"
   }
 ]
