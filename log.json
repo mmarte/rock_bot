@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260813_214859",
-    "fb_post_id": "1043162839046116_1471719165002625",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Habana Abierta",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
-    "status": "published",
-    "executed_at": "2026-08-13T21:49:26.043949+00:00"
-  },
-  {
     "post_id": "post_20260814_032017",
     "fb_post_id": "1043162839046116_1471893081651900",
     "ig_post_id": null,
@@ -2443,5 +2431,11 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261001_064029 — not republished",
     "executed_at": "2026-11-17T00:39:57.484405+00:00"
+  },
+  {
+    "post_id": "post_20261117_003908",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20260921_182416 — not republished",
+    "executed_at": "2026-11-17T03:30:09.827948+00:00"
   }
 ]
