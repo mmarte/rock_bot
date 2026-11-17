@@ -1,29 +1,5 @@
 [
   {
-    "post_id": "post_20260814_141021",
-    "fb_post_id": "1043162839046116_1472298834944658",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Aterciopelados",
-    "image_url": "https://img.youtube.com/vi/YlU6N0fxr0o/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-14T14:10:48.867847+00:00"
-  },
-  {
-    "post_id": "post_20260814_174936",
-    "fb_post_id": "1043162839046116_1472448124929729",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Gandhi",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg",
-    "status": "published",
-    "executed_at": "2026-08-14T17:50:03.367345+00:00"
-  },
-  {
     "post_id": "post_20260814_212816",
     "fb_post_id": "1043162839046116_1472574271583781",
     "ig_post_id": null,
@@ -2455,5 +2431,11 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-11-17T18:00:19.294388+00:00"
+  },
+  {
+    "post_id": "post_20261117_083929",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261107_175616 — not republished",
+    "executed_at": "2026-11-17T21:30:54.923568+00:00"
   }
 ]
