@@ -2437,5 +2437,23 @@
     "image_url": "https://images.pexels.com/photos/14087283/pexels-photo-14087283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-11-18T08:03:19.170134+00:00"
+  },
+  {
+    "post_id": "reel_20261118",
+    "post_type": "reel",
+    "topic": "Los Fabulosos Cadillacs",
+    "reel_path": "reels/reel_20261118.mp4",
+    "fb_reel_id": "1724069829282484",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "chunked, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Chunked upload failed at offset 31457280: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, re-encoded (Main/faststart): Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}})",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-18T17:42:26.934081+00:00"
   }
 ]
