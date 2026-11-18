@@ -3140,7 +3140,7 @@
   },
   {
     "id": "post_20261118_080231",
-    "status": "pending",
+    "status": "published",
     "created_at": "2026-11-18T08:02:31.815309+00:00",
     "post_type": "youtube",
     "topic": "Zapato 3",
@@ -3151,6 +3151,29 @@
     "post_year": "",
     "curation_year": "2024",
     "video_url": "https://www.youtube.com/watch?v=nFBYjjuRVR8",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1567673802073827",
+    "ig_post_id": "18154438234556467",
+    "threads_post_id": "18170892361477376",
+    "youtube_post_url": null,
+    "published_at": "2026-11-18T21:01:53.865903+00:00",
+    "error": null
+  },
+  {
+    "id": "post_20261118_210057",
+    "status": "pending",
+    "created_at": "2026-11-18T21:00:57.033636+00:00",
+    "post_type": "cover",
+    "topic": "Soda Stereo",
+    "text": "¿Sabías que Soda Stereo ha rendido homenaje a grupos internacionales como los Rolling Stones en algunos de sus shows en los años 90? La admiración de Gustavo Cerati por el riff de “Paint It Black” se refleja en anécdotas de conciertos donde la banda incorporó fragmentos de la canción, creando una atmósfera oscura con luces rojas y negras. En esas presentaciones, Cerati y Charly Alberti experimentaban con sonidos que mezclaban el rock británico y su propio estilo, a veces añadiendo toques inesperados. Aunque no existe un video oficial ni un premio reconocido por una versión grabada, la energía de esos momentos quedó grabada en la memoria de los fans. ¿Qué versión te mueve más, la original de los Rolling Stones o alguna interpretación de Soda Stereo?\n\nhttps://www.youtube.com/watch?v=8kl6q_9qZOs\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #GustavoCerati\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "c3cc3a9b81201feb430d5796fc347c0ee6031703024e72911824d2eb167ae738",
+    "image_query": "Soda Stereo Paint It Black live",
+    "extra_topics": [
+      "Gustavo Cerati"
+    ],
+    "post_year": "1992",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=8kl6q_9qZOs",
     "concert_url": null,
     "fb_post_id": null,
     "ig_post_id": null,

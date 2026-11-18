@@ -1,17 +1,11 @@
 {
   "used_bands": [
-    "Octavia",
-    "Los Rodríguez",
-    "La Máquina Camaleón",
-    "Los Piojos",
-    "Anima Mundi",
-    "Soda Stereo",
-    "Juanes",
     "Toque Profundo",
+    "La Ley",
+    "Soda Stereo",
     "Zapato 3"
   ],
   "used_poll_indices": [
-    2,
     8,
     10,
     16,
@@ -20,12 +14,13 @@
     17,
     19,
     18,
-    9
+    9,
+    4
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-11-18T08:03:56.273321+00:00",
+  "original_type_index": 8,
+  "last_updated": "2026-11-18T21:02:26.156394+00:00",
   "post_type_index": 10,
-  "total_posts": 595,
+  "total_posts": 596,
   "used_event_indices": [
     12,
     11,
@@ -34,11 +29,9 @@
     19,
     28
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "cover",
   "curation_year": 2024,
   "used_topics": [
-    "la máquina camaleón|original",
-    "la máquina camaleón|original",
     "maná|hoy_en_historia",
     "maná|hoy_en_historia",
     "no te va gustar|poll",
@@ -136,7 +129,9 @@
     "juanes|poll",
     "soda stereo|original",
     "zapato 3|youtube",
-    "juanes|poll"
+    "juanes|poll",
+    "soda stereo|cover",
+    "zapato 3|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -313,9 +308,11 @@
     "0cdef675c82be5f6681b55e35a3f83133dfbfd53e5f4e5828ffcc31736eca728",
     "22b4ea03e870423910c674ad45ff5e68646654877c482d56507780452924b419",
     "0ce08abff3a73e677da688a7f0428ec2e5fd0e89acff408a14c40328484d83df",
-    "0cdef675c82be5f6681b55e35a3f83133dfbfd53e5f4e5828ffcc31736eca728"
+    "0cdef675c82be5f6681b55e35a3f83133dfbfd53e5f4e5828ffcc31736eca728",
+    "c3cc3a9b81201feb430d5796fc347c0ee6031703024e72911824d2eb167ae738",
+    "0ce08abff3a73e677da688a7f0428ec2e5fd0e89acff408a14c40328484d83df"
   ],
-  "last_published_id": "post_20261118_024738",
-  "last_published_at": "2026-11-18T08:03:19.170134+00:00",
-  "last_published_topic": "Juanes"
+  "last_published_id": "post_20261118_080231",
+  "last_published_at": "2026-11-18T21:01:53.865903+00:00",
+  "last_published_topic": "Zapato 3"
 }

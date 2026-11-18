@@ -1,29 +1,5 @@
 [
   {
-    "post_id": "post_20260815_171848",
-    "fb_post_id": "1043162839046116_1473382674836274",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Rabanes",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rabanes-foto_1-alta.tif",
-    "status": "published",
-    "executed_at": "2026-08-15T17:19:15.479614+00:00"
-  },
-  {
-    "post_id": "post_20260815_212425",
-    "fb_post_id": "1043162839046116_1473540788153796",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "image_url": "https://img.youtube.com/vi/vxEWIP2p2mU/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-15T21:24:53.065076+00:00"
-  },
-  {
     "post_id": "post_20260816_021536",
     "fb_post_id": "1043162839046116_1473699471471261",
     "ig_post_id": null,
@@ -2455,5 +2431,17 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-11-18T17:42:26.934081+00:00"
+  },
+  {
+    "post_id": "post_20261118_080231",
+    "fb_post_id": "1043162839046116_1567673802073827",
+    "ig_post_id": "18154438234556467",
+    "threads_post_id": "18170892361477376",
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Zapato 3",
+    "image_url": "https://img.youtube.com/vi/nFBYjjuRVR8/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-11-18T21:01:53.865903+00:00"
   }
 ]
