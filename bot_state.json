@@ -6,7 +6,9 @@
     "Los Piojos",
     "Anima Mundi",
     "Soda Stereo",
-    "Juanes"
+    "Juanes",
+    "Toque Profundo",
+    "Zapato 3"
   ],
   "used_poll_indices": [
     2,
@@ -21,9 +23,9 @@
     9
   ],
   "original_type_index": 7,
-  "last_updated": "2026-11-18T02:49:11.908017+00:00",
+  "last_updated": "2026-11-18T08:03:56.273321+00:00",
   "post_type_index": 10,
-  "total_posts": 594,
+  "total_posts": 595,
   "used_event_indices": [
     12,
     11,
@@ -32,11 +34,9 @@
     19,
     28
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
-    "cecilia & the argonauts|original",
-    "cecilia & the argonauts|original",
     "la máquina camaleón|original",
     "la máquina camaleón|original",
     "maná|hoy_en_historia",
@@ -134,7 +134,9 @@
     "soda stereo|original",
     "anima mundi|poll",
     "juanes|poll",
-    "soda stereo|original"
+    "soda stereo|original",
+    "zapato 3|youtube",
+    "juanes|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -309,9 +311,11 @@
     "22b4ea03e870423910c674ad45ff5e68646654877c482d56507780452924b419",
     "f913bbfbd2dc0e114388678d7c90636926ebfac8be7a54938f7c3cab248791ab",
     "0cdef675c82be5f6681b55e35a3f83133dfbfd53e5f4e5828ffcc31736eca728",
-    "22b4ea03e870423910c674ad45ff5e68646654877c482d56507780452924b419"
+    "22b4ea03e870423910c674ad45ff5e68646654877c482d56507780452924b419",
+    "0ce08abff3a73e677da688a7f0428ec2e5fd0e89acff408a14c40328484d83df",
+    "0cdef675c82be5f6681b55e35a3f83133dfbfd53e5f4e5828ffcc31736eca728"
   ],
-  "last_published_id": "post_20261117_234430",
-  "last_published_at": "2026-11-18T02:48:12.409303+00:00",
-  "last_published_topic": "Soda Stereo"
+  "last_published_id": "post_20261118_024738",
+  "last_published_at": "2026-11-18T08:03:19.170134+00:00",
+  "last_published_topic": "Juanes"
 }
