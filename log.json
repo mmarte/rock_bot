@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260903_032756",
-    "fb_post_id": "1043162839046116_1489981899843018",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Fito Páez",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Homenaje_Gustavo_Cerati_%2815528982867%29_%28cropped%29.jpg",
-    "status": "published",
-    "executed_at": "2026-09-03T03:28:25.786888+00:00"
-  },
-  {
     "post_id": "post_20260903_164626",
     "fb_post_id": "1043162839046116_1490507889790419",
     "ig_post_id": null,
@@ -2437,5 +2425,11 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20260916_172420 — not republished",
     "executed_at": "2026-11-19T21:07:08.269847+00:00"
+  },
+  {
+    "post_id": "post_20261119_210613",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261105_202451 — not republished",
+    "executed_at": "2026-11-19T23:25:08.069609+00:00"
   }
 ]
