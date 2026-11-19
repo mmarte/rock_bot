@@ -7,10 +7,13 @@
     "Savage",
     "Fito Páez",
     "Los Fabulosos Cadillacs",
-    "Caramelos de Cianuro"
+    "Caramelos de Cianuro",
+    "Juanes",
+    "Cascomar",
+    "Desorden Público",
+    "Enrique Bunbury"
   ],
   "used_poll_indices": [
-    8,
     10,
     16,
     15,
@@ -19,12 +22,13 @@
     19,
     18,
     9,
-    4
+    4,
+    6
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-11-19T02:23:42.351964+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-11-19T08:08:45.712865+00:00",
   "post_type_index": 10,
-  "total_posts": 598,
+  "total_posts": 599,
   "used_event_indices": [
     12,
     11,
@@ -33,11 +37,9 @@
     19,
     28
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "cover",
   "curation_year": 2024,
   "used_topics": [
-    "no te va gustar|poll",
-    "cinema|original",
     "caramelos de cianuro|poll",
     "caramelos de cianuro|poll",
     "bohemia suburbana|original",
@@ -135,7 +137,9 @@
     "zapato 3|youtube",
     "fito páez|original",
     "caramelos de cianuro|youtube",
-    "fito páez|original"
+    "fito páez|original",
+    "enrique bunbury|cover",
+    "caramelos de cianuro|youtube"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -317,9 +321,11 @@
     "0ce08abff3a73e677da688a7f0428ec2e5fd0e89acff408a14c40328484d83df",
     "45c001c197d0fe8cb92eab021557f5a143f332ea9cf0c6531f7d1f00e9170645",
     "789a7a5e4de03cc6a976266e981f9f98c05a320e7eca5afd62d06b36769ae78a",
-    "45c001c197d0fe8cb92eab021557f5a143f332ea9cf0c6531f7d1f00e9170645"
+    "45c001c197d0fe8cb92eab021557f5a143f332ea9cf0c6531f7d1f00e9170645",
+    "24aa69fb4c230b5d522fd56ae8b5e67e6a92727142f9ef31f75be4f53f9d32e2",
+    "789a7a5e4de03cc6a976266e981f9f98c05a320e7eca5afd62d06b36769ae78a"
   ],
-  "last_published_id": "post_20261118_231617",
-  "last_published_at": "2026-11-19T02:22:56.462477+00:00",
-  "last_published_topic": "Fito Páez"
+  "last_published_id": "post_20261119_022214",
+  "last_published_at": "2026-11-19T08:08:24.194035+00:00",
+  "last_published_topic": "Caramelos de Cianuro"
 }

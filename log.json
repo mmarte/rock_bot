@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260816_171627",
-    "fb_post_id": "1043162839046116_1474320934742448",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/kIr8hsVTCzg/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-08-16T17:16:54.526102+00:00"
-  },
-  {
     "post_id": "post_20260816_212237",
     "fb_post_id": "1043162839046116_1474484588059416",
     "ig_post_id": null,
@@ -2437,5 +2425,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Homenaje_Gustavo_Cerati_%2815528982867%29_%28cropped%29.jpg",
     "status": "published",
     "executed_at": "2026-11-19T02:22:56.462477+00:00"
+  },
+  {
+    "post_id": "post_20261119_022214",
+    "fb_post_id": "1043162839046116_1568108422030365",
+    "ig_post_id": "18201978229343398",
+    "threads_post_id": "18044292524841761",
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Caramelos de Cianuro",
+    "image_url": "https://img.youtube.com/vi/1BJ_qKEgLHs/hqdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-11-19T08:08:24.194035+00:00"
   }
 ]

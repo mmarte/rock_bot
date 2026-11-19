@@ -3205,7 +3205,7 @@
   },
   {
     "id": "post_20261119_022214",
-    "status": "pending",
+    "status": "published",
     "created_at": "2026-11-19T02:22:14.163970+00:00",
     "post_type": "youtube",
     "topic": "Caramelos de Cianuro",
@@ -3216,6 +3216,29 @@
     "post_year": "",
     "curation_year": "2024",
     "video_url": "https://www.youtube.com/watch?v=1BJ_qKEgLHs",
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1568108422030365",
+    "ig_post_id": "18201978229343398",
+    "threads_post_id": "18044292524841761",
+    "youtube_post_url": null,
+    "published_at": "2026-11-19T08:08:24.194035+00:00",
+    "error": null
+  },
+  {
+    "id": "post_20261119_080737",
+    "status": "pending",
+    "created_at": "2026-11-19T08:07:37.829482+00:00",
+    "post_type": "cover",
+    "topic": "Enrique Bunbury",
+    "text": "Cuando el vocalista que dio voz a los himnos de Héroes del Silencio decide reinterpretar una canción que marcó a toda una generación, el resultado resulta revelador. El arreglo minimalista resalta la poesía de la letra, mientras la interpretación de Bunbury le añade una carga melancólica que extrae el dolor de cada verso. La audiencia, acostumbrada al estruendo de la banda, quedó hipnotizada ante esa vulnerabilidad que solo un solista puede ofrecer. ¿Prefieres la potencia del cover o la magia del original?\n\nhttps://www.youtube.com/watch?v=ZC8XO4LviGk\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "24aa69fb4c230b5d522fd56ae8b5e67e6a92727142f9ef31f75be4f53f9d32e2",
+    "image_query": "Enrique Bunbury Entre Dos Tierras live",
+    "extra_topics": [
+      "Héroes del Silencio"
+    ],
+    "post_year": "2005",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=ZC8XO4LviGk",
     "concert_url": null,
     "fb_post_id": null,
     "ig_post_id": null,
