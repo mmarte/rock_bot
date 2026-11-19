@@ -5,7 +5,9 @@
     "Soda Stereo",
     "Zapato 3",
     "Savage",
-    "Fito Páez"
+    "Fito Páez",
+    "Los Fabulosos Cadillacs",
+    "Caramelos de Cianuro"
   ],
   "used_poll_indices": [
     8,
@@ -20,9 +22,9 @@
     4
   ],
   "original_type_index": 9,
-  "last_updated": "2026-11-18T23:16:30.764449+00:00",
+  "last_updated": "2026-11-19T02:23:42.351964+00:00",
   "post_type_index": 10,
-  "total_posts": 597,
+  "total_posts": 598,
   "used_event_indices": [
     12,
     11,
@@ -31,11 +33,9 @@
     19,
     28
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
-    "maná|hoy_en_historia",
-    "no te va gustar|poll",
     "no te va gustar|poll",
     "cinema|original",
     "caramelos de cianuro|poll",
@@ -133,6 +133,8 @@
     "juanes|poll",
     "soda stereo|cover",
     "zapato 3|youtube",
+    "fito páez|original",
+    "caramelos de cianuro|youtube",
     "fito páez|original"
   ],
   "used_text_hashes": [
@@ -313,9 +315,11 @@
     "0cdef675c82be5f6681b55e35a3f83133dfbfd53e5f4e5828ffcc31736eca728",
     "c3cc3a9b81201feb430d5796fc347c0ee6031703024e72911824d2eb167ae738",
     "0ce08abff3a73e677da688a7f0428ec2e5fd0e89acff408a14c40328484d83df",
+    "45c001c197d0fe8cb92eab021557f5a143f332ea9cf0c6531f7d1f00e9170645",
+    "789a7a5e4de03cc6a976266e981f9f98c05a320e7eca5afd62d06b36769ae78a",
     "45c001c197d0fe8cb92eab021557f5a143f332ea9cf0c6531f7d1f00e9170645"
   ],
-  "last_published_id": "post_20261118_080231",
-  "last_published_at": "2026-11-18T21:01:53.865903+00:00",
-  "last_published_topic": "Zapato 3"
+  "last_published_id": "post_20261118_231617",
+  "last_published_at": "2026-11-19T02:22:56.462477+00:00",
+  "last_published_topic": "Fito Páez"
 }
