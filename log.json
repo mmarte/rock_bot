@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260910_192727",
-    "fb_post_id": "1043162839046116_1497036689137539",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Prisioneros",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Los_Prisioneros_-_Revista_Pelo_Argentina_1987.jpg",
-    "status": "published",
-    "executed_at": "2026-09-10T19:27:59.969891+00:00"
-  },
-  {
     "post_id": "post_20260910_225902",
     "fb_post_id": "1043162839046116_1497150342459507",
     "ig_post_id": null,
@@ -2431,5 +2419,11 @@
     "image_url": "https://www.sodastereo.com/img/image_src.jpg",
     "status": "published",
     "executed_at": "2026-11-20T20:53:12.373975+00:00"
+  },
+  {
+    "post_id": "post_20261120_205216",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261111_010702 — not republished",
+    "executed_at": "2026-11-20T22:57:59.072800+00:00"
   }
 ]

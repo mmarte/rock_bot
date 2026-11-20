@@ -1,10 +1,12 @@
 {
   "used_bands": [
     "Los Rabanes",
-    "Alux Nahual"
+    "Alux Nahual",
+    "Toque Profundo",
+    "El Cuarteto de Nos",
+    "Cascomar"
   ],
   "used_poll_indices": [
-    11,
     17,
     19,
     18,
@@ -13,12 +15,13 @@
     6,
     8,
     12,
-    1
+    1,
+    14
   ],
   "original_type_index": 6,
-  "last_updated": "2026-11-20T20:53:39.785537+00:00",
+  "last_updated": "2026-11-20T22:57:33.869755+00:00",
   "post_type_index": 10,
-  "total_posts": 604,
+  "total_posts": 605,
   "used_event_indices": [
     12,
     11,
@@ -27,10 +30,9 @@
     19,
     28
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "los rabanes|poll",
     "la vela puerca|original",
     "la vela puerca|original",
     "aterciopelados|poll",
@@ -129,7 +131,8 @@
     "alux nahual|poll",
     "extremoduro|original",
     "los rabanes|original",
-    "alux nahual|poll"
+    "alux nahual|poll",
+    "cascomar|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -320,7 +323,8 @@
     "dc4bd12f82aad019406ed729d1ebf994141ad804c8f259a0b642f18e8a2b36bf",
     "88c0df4b7c74586030483e3107d683501c9ee204d11217028d12142de5836016",
     "36590959887f6d1c548c66515a836d403cad0bd9ffb5e8bb9c67bacb0c370fbc",
-    "dc4bd12f82aad019406ed729d1ebf994141ad804c8f259a0b642f18e8a2b36bf"
+    "dc4bd12f82aad019406ed729d1ebf994141ad804c8f259a0b642f18e8a2b36bf",
+    "06c85c71d24ebe420e0b1e795e6c06e1dac73d8ab4c499c6a95b0d7b3dc13e72"
   ],
   "last_published_id": "post_20261120_075340",
   "last_published_at": "2026-11-20T20:53:12.373975+00:00",
