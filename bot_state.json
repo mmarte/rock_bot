@@ -1,24 +1,6 @@
 {
   "used_bands": [
-    "Soda Stereo",
-    "Zapato 3",
-    "Savage",
-    "Fito Páez",
-    "Los Fabulosos Cadillacs",
-    "Caramelos de Cianuro",
-    "Juanes",
-    "Cascomar",
-    "Desorden Público",
-    "Enrique Bunbury",
-    "Dedicados",
-    "Cinema",
     "Los Rabanes",
-    "Los Tres",
-    "Divididos",
-    "Flou",
-    "Fiel a la Vega",
-    "Black Guayaba",
-    "Extremoduro",
     "Alux Nahual"
   ],
   "used_poll_indices": [
@@ -33,10 +15,10 @@
     12,
     1
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-11-20T07:55:12.736260+00:00",
+  "original_type_index": 6,
+  "last_updated": "2026-11-20T20:53:39.785537+00:00",
   "post_type_index": 10,
-  "total_posts": 603,
+  "total_posts": 604,
   "used_event_indices": [
     12,
     11,
@@ -45,11 +27,9 @@
     19,
     28
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "los chicos|original",
-    "los rabanes|poll",
     "los rabanes|poll",
     "la vela puerca|original",
     "la vela puerca|original",
@@ -147,7 +127,9 @@
     "flou|youtube",
     "extremoduro|original",
     "alux nahual|poll",
-    "extremoduro|original"
+    "extremoduro|original",
+    "los rabanes|original",
+    "alux nahual|poll"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -336,9 +318,11 @@
     "4e6f00e10041409953968d391b651fbb8589d433fff9ab8d4ba6d089f2f5ea96",
     "88c0df4b7c74586030483e3107d683501c9ee204d11217028d12142de5836016",
     "dc4bd12f82aad019406ed729d1ebf994141ad804c8f259a0b642f18e8a2b36bf",
-    "88c0df4b7c74586030483e3107d683501c9ee204d11217028d12142de5836016"
+    "88c0df4b7c74586030483e3107d683501c9ee204d11217028d12142de5836016",
+    "36590959887f6d1c548c66515a836d403cad0bd9ffb5e8bb9c67bacb0c370fbc",
+    "dc4bd12f82aad019406ed729d1ebf994141ad804c8f259a0b642f18e8a2b36bf"
   ],
-  "last_published_id": "post_20261120_020506",
-  "last_published_at": "2026-11-20T07:54:17.390674+00:00",
-  "last_published_topic": "Extremoduro"
+  "last_published_id": "post_20261120_075340",
+  "last_published_at": "2026-11-20T20:53:12.373975+00:00",
+  "last_published_topic": "Alux Nahual"
 }

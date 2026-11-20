@@ -1,29 +1,5 @@
 [
   {
-    "post_id": "post_20260907_202127",
-    "fb_post_id": "1043162839046116_1494313289409879",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/h0p8yTqj8i4/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-09-07T20:21:57.821683+00:00"
-  },
-  {
-    "post_id": "post_20260910_164631",
-    "fb_post_id": "1043162839046116_1496927219148486",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "Savage",
-    "image_url": "https://images.pexels.com/photos/21245202/pexels-photo-21245202.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-09-10T16:47:04.463671+00:00"
-  },
-  {
     "post_id": "post_20260910_192727",
     "fb_post_id": "1043162839046116_1497036689137539",
     "ig_post_id": null,
@@ -2443,5 +2419,17 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-11-20T17:48:58.394614+00:00"
+  },
+  {
+    "post_id": "post_20261120_075340",
+    "fb_post_id": "1043162839046116_1569849138522960",
+    "ig_post_id": "18455855110132739",
+    "threads_post_id": "18079755506768916",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Alux Nahual",
+    "image_url": "https://www.sodastereo.com/img/image_src.jpg",
+    "status": "published",
+    "executed_at": "2026-11-20T20:53:12.373975+00:00"
   }
 ]
