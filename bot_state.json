@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "Toque Profundo",
     "La Ley",
     "Soda Stereo",
     "Zapato 3",
@@ -17,7 +16,10 @@
     "Los Rabanes",
     "Los Tres",
     "Divididos",
-    "Flou"
+    "Flou",
+    "Fiel a la Vega",
+    "Black Guayaba",
+    "Extremoduro"
   ],
   "used_poll_indices": [
     15,
@@ -31,10 +33,10 @@
     8,
     12
   ],
-  "original_type_index": 2,
-  "last_updated": "2026-11-19T23:24:42.685437+00:00",
+  "original_type_index": 4,
+  "last_updated": "2026-11-20T02:05:39.106395+00:00",
   "post_type_index": 10,
-  "total_posts": 601,
+  "total_posts": 602,
   "used_event_indices": [
     12,
     11,
@@ -43,10 +45,9 @@
     19,
     28
   ],
-  "last_post_type": "youtube",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "bohemia suburbana|original",
     "bohemia suburbana|original",
     "los chicos|original",
     "los chicos|original",
@@ -145,7 +146,8 @@
     "enrique bunbury|cover",
     "caramelos de cianuro|youtube",
     "los rabanes|poll",
-    "flou|youtube"
+    "flou|youtube",
+    "extremoduro|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -331,7 +333,8 @@
     "24aa69fb4c230b5d522fd56ae8b5e67e6a92727142f9ef31f75be4f53f9d32e2",
     "789a7a5e4de03cc6a976266e981f9f98c05a320e7eca5afd62d06b36769ae78a",
     "4fe981558af87acbc3adb86f7acc68b1140925e3a0993193647c83748400d789",
-    "4e6f00e10041409953968d391b651fbb8589d433fff9ab8d4ba6d089f2f5ea96"
+    "4e6f00e10041409953968d391b651fbb8589d433fff9ab8d4ba6d089f2f5ea96",
+    "88c0df4b7c74586030483e3107d683501c9ee204d11217028d12142de5836016"
   ],
   "last_published_id": "post_20261119_022214",
   "last_published_at": "2026-11-19T08:08:24.194035+00:00",

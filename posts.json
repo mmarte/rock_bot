@@ -3273,7 +3273,7 @@
   },
   {
     "id": "post_20261119_232406",
-    "status": "pending",
+    "status": "skipped_duplicate",
     "created_at": "2026-11-19T23:24:06.719632+00:00",
     "post_type": "youtube",
     "topic": "Flou",
@@ -3284,6 +3284,29 @@
     "post_year": "2009",
     "curation_year": "2024",
     "video_url": "https://www.youtube.com/watch?v=e3AMJhN40Lc",
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20261025_165533 — not republished"
+  },
+  {
+    "id": "post_20261120_020506",
+    "status": "pending",
+    "created_at": "2026-11-20T02:05:06.603813+00:00",
+    "post_type": "original",
+    "topic": "Extremoduro",
+    "text": "Vamos a repasar tres discos que, según muchos seguidores, representan la cúspide de Extremoduro. 1️⃣ **Agila (1996)** – El álbum que catapultó al grupo a la notoriedad nacional. Su mezcla de rock duro y letras explícitas con alusiones poéticas marcó un antes y un después, y sigue siendo la referencia de su estilo transgresivo. 2️⃣ **La Ley Innata** – Trabajo que consolidó la madurez de la banda, donde la complejidad instrumental y la profundidad lírica demuestran cómo la poesía se volvió protagonista en la composición. 3️⃣ **Los inicios** – Aunque el primer disco no tenía el alcance posterior, sentó las bases de un sonido agresivo que Robe Iniesta y, más tarde, Iñaki «Uoho» (integrado en 1993) fueron puliendo con mayor complejidad a lo largo de los años. ¿Cuál es tu ranking personal de los discos de Extremoduro y qué álbum consideras el punto más alto de su trayectoria?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Extremoduro #LaLey\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "88c0df4b7c74586030483e3107d683501c9ee204d11217028d12142de5836016",
+    "image_query": "Extremoduro Spain rock band",
+    "extra_topics": [
+      "La Ley"
+    ],
+    "post_year": "1996",
+    "curation_year": "2024",
+    "video_url": null,
     "concert_url": null,
     "fb_post_id": null,
     "ig_post_id": null,
