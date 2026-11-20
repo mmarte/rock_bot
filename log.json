@@ -2425,5 +2425,23 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Extremoduro_en_Getafe.jpg",
     "status": "published",
     "executed_at": "2026-11-20T07:54:17.390674+00:00"
+  },
+  {
+    "post_id": "reel_20261120",
+    "post_type": "reel",
+    "topic": "Enrique Bunbury",
+    "reel_path": "reels/reel_20261120.mp4",
+    "fb_reel_id": "1549701940329161",
+    "ig_reel_id": "18149834830584283",
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": null,
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-20T17:48:58.394614+00:00"
   }
 ]
