@@ -3294,7 +3294,7 @@
   },
   {
     "id": "post_20261120_020506",
-    "status": "pending",
+    "status": "published",
     "created_at": "2026-11-20T02:05:06.603813+00:00",
     "post_type": "original",
     "topic": "Extremoduro",
@@ -3305,6 +3305,31 @@
       "La Ley"
     ],
     "post_year": "1996",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1569192545255286",
+    "ig_post_id": "18120685517041577",
+    "threads_post_id": "17916920700287521",
+    "youtube_post_url": null,
+    "published_at": "2026-11-20T07:54:17.390674+00:00",
+    "error": null
+  },
+  {
+    "id": "post_20261120_075340",
+    "status": "pending",
+    "created_at": "2026-11-20T07:53:40.211533+00:00",
+    "post_type": "poll",
+    "topic": "Alux Nahual",
+    "text": "Los noventa fueron una erupción sísmica donde el pop melódico, el ska alternativo y el rock oscuro se fusionaron para definir una década irrepetible. No hablamos solo de éxitos comerciales, sino de discos que rompieron moldes y crearon nuevas formas de escuchar el español con distorsión. Cada una de estas obras maestras tiene un ADN sonoro completamente distinto, lo que hace que elegir al gran vencedor sea una agonía deliciosa para cualquier melómano.\n\n¿Cuál de estos tres clásicos define mejor la esencia de aquella época dorada?\n\n👍 Canción Animal - Soda Stereo\n❤️ Re - Café Tacvba\n😮 El Espíritu del Vino - Héroes del Silencio\n\n¿Cuál es tu elección? 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #SodaStereo #CafeTacvba #HeroesdelSilencio\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "dc4bd12f82aad019406ed729d1ebf994141ad804c8f259a0b642f18e8a2b36bf",
+    "image_query": "Alux Nahual rock band concert",
+    "extra_topics": [
+      "Soda Stereo",
+      "Café Tacvba",
+      "Héroes del Silencio"
+    ],
+    "post_year": "",
     "curation_year": "2024",
     "video_url": null,
     "concert_url": null,

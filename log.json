@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260907_040109",
-    "fb_post_id": "1043162839046116_1493660506141824",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "poll",
-    "topic": "La Vela Puerca",
-    "image_url": "https://images.pexels.com/photos/38704305/pexels-photo-38704305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-09-07T04:01:37.779278+00:00"
-  },
-  {
     "post_id": "post_20260907_202127",
     "fb_post_id": "1043162839046116_1494313289409879",
     "ig_post_id": null,
@@ -2425,5 +2413,17 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261025_165533 — not republished",
     "executed_at": "2026-11-20T02:06:04.395163+00:00"
+  },
+  {
+    "post_id": "post_20261120_020506",
+    "fb_post_id": "1043162839046116_1569192545255286",
+    "ig_post_id": "18120685517041577",
+    "threads_post_id": "17916920700287521",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Extremoduro",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Extremoduro_en_Getafe.jpg",
+    "status": "published",
+    "executed_at": "2026-11-20T07:54:17.390674+00:00"
   }
 ]

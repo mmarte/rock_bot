@@ -1,6 +1,5 @@
 {
   "used_bands": [
-    "La Ley",
     "Soda Stereo",
     "Zapato 3",
     "Savage",
@@ -19,10 +18,10 @@
     "Flou",
     "Fiel a la Vega",
     "Black Guayaba",
-    "Extremoduro"
+    "Extremoduro",
+    "Alux Nahual"
   ],
   "used_poll_indices": [
-    15,
     11,
     17,
     19,
@@ -31,12 +30,13 @@
     4,
     6,
     8,
-    12
+    12,
+    1
   ],
   "original_type_index": 4,
-  "last_updated": "2026-11-20T02:05:39.106395+00:00",
+  "last_updated": "2026-11-20T07:55:12.736260+00:00",
   "post_type_index": 10,
-  "total_posts": 602,
+  "total_posts": 603,
   "used_event_indices": [
     12,
     11,
@@ -45,11 +45,9 @@
     19,
     28
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "bohemia suburbana|original",
-    "los chicos|original",
     "los chicos|original",
     "los rabanes|poll",
     "los rabanes|poll",
@@ -147,6 +145,8 @@
     "caramelos de cianuro|youtube",
     "los rabanes|poll",
     "flou|youtube",
+    "extremoduro|original",
+    "alux nahual|poll",
     "extremoduro|original"
   ],
   "used_text_hashes": [
@@ -334,9 +334,11 @@
     "789a7a5e4de03cc6a976266e981f9f98c05a320e7eca5afd62d06b36769ae78a",
     "4fe981558af87acbc3adb86f7acc68b1140925e3a0993193647c83748400d789",
     "4e6f00e10041409953968d391b651fbb8589d433fff9ab8d4ba6d089f2f5ea96",
+    "88c0df4b7c74586030483e3107d683501c9ee204d11217028d12142de5836016",
+    "dc4bd12f82aad019406ed729d1ebf994141ad804c8f259a0b642f18e8a2b36bf",
     "88c0df4b7c74586030483e3107d683501c9ee204d11217028d12142de5836016"
   ],
-  "last_published_id": "post_20261119_022214",
-  "last_published_at": "2026-11-19T08:08:24.194035+00:00",
-  "last_published_topic": "Caramelos de Cianuro"
+  "last_published_id": "post_20261120_020506",
+  "last_published_at": "2026-11-20T07:54:17.390674+00:00",
+  "last_published_topic": "Extremoduro"
 }
