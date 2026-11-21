@@ -2419,5 +2419,23 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/No_Te_Va_Gustar_-_Suenan_Las_Alarmas.jpg",
     "status": "published",
     "executed_at": "2026-11-21T07:49:52.714977+00:00"
+  },
+  {
+    "post_id": "reel_20261121",
+    "post_type": "reel",
+    "topic": "Caramelos de Cianuro",
+    "reel_path": "reels/reel_20261121.mp4",
+    "fb_reel_id": "2149878272308545",
+    "ig_reel_id": "17919182301555359",
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": null,
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-21T16:31:56.740737+00:00"
   }
 ]
