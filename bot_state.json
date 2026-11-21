@@ -6,10 +6,10 @@
     "El Cuarteto de Nos",
     "Cascomar",
     "Héroes del Silencio",
-    "No Te Va Gustar"
+    "No Te Va Gustar",
+    "La Cuneta Son Machín"
   ],
   "used_poll_indices": [
-    17,
     19,
     18,
     9,
@@ -18,12 +18,13 @@
     8,
     12,
     1,
-    14
+    14,
+    10
   ],
   "original_type_index": 7,
-  "last_updated": "2026-11-21T02:02:03.063113+00:00",
+  "last_updated": "2026-11-21T07:50:52.168089+00:00",
   "post_type_index": 10,
-  "total_posts": 606,
+  "total_posts": 607,
   "used_event_indices": [
     12,
     11,
@@ -32,11 +33,9 @@
     19,
     28
   ],
-  "last_post_type": "original",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "la vela puerca|original",
-    "aterciopelados|poll",
     "aterciopelados|poll",
     "la ley|youtube",
     "la ley|youtube",
@@ -134,6 +133,8 @@
     "los rabanes|original",
     "alux nahual|poll",
     "cascomar|poll",
+    "no te va gustar|original",
+    "la cuneta son machín|poll",
     "no te va gustar|original"
   ],
   "used_text_hashes": [
@@ -327,9 +328,11 @@
     "36590959887f6d1c548c66515a836d403cad0bd9ffb5e8bb9c67bacb0c370fbc",
     "dc4bd12f82aad019406ed729d1ebf994141ad804c8f259a0b642f18e8a2b36bf",
     "06c85c71d24ebe420e0b1e795e6c06e1dac73d8ab4c499c6a95b0d7b3dc13e72",
+    "d7cca4facc89262d43438e573cf6f2424837c9ac6882d7b00c25fb9876931101",
+    "a22766a3ec6d43edff65c0d1f4ac854d1e970f2e8fa78bd2bc565ce7941eab29",
     "d7cca4facc89262d43438e573cf6f2424837c9ac6882d7b00c25fb9876931101"
   ],
-  "last_published_id": "post_20261120_075340",
-  "last_published_at": "2026-11-20T20:53:12.373975+00:00",
-  "last_published_topic": "Alux Nahual"
+  "last_published_id": "post_20261121_020139",
+  "last_published_at": "2026-11-21T07:49:52.714977+00:00",
+  "last_published_topic": "No Te Va Gustar"
 }
