@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260910_225902",
-    "fb_post_id": "1043162839046116_1497150342459507",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Los Tres",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lostres.jpg",
-    "status": "published",
-    "executed_at": "2026-09-10T22:59:35.504876+00:00"
-  },
-  {
     "post_id": "post_20260911_052408",
     "fb_post_id": "1043162839046116_1497370552437486",
     "ig_post_id": null,
@@ -2425,5 +2413,11 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261111_010702 — not republished",
     "executed_at": "2026-11-20T22:57:59.072800+00:00"
+  },
+  {
+    "post_id": "post_20261120_225704",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261110_220801 — not republished",
+    "executed_at": "2026-11-21T02:02:28.446909+00:00"
   }
 ]

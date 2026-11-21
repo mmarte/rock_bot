@@ -4,7 +4,9 @@
     "Alux Nahual",
     "Toque Profundo",
     "El Cuarteto de Nos",
-    "Cascomar"
+    "Cascomar",
+    "Héroes del Silencio",
+    "No Te Va Gustar"
   ],
   "used_poll_indices": [
     17,
@@ -18,10 +20,10 @@
     1,
     14
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-11-20T22:57:33.869755+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-11-21T02:02:03.063113+00:00",
   "post_type_index": 10,
-  "total_posts": 605,
+  "total_posts": 606,
   "used_event_indices": [
     12,
     11,
@@ -30,10 +32,9 @@
     19,
     28
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "la vela puerca|original",
     "la vela puerca|original",
     "aterciopelados|poll",
     "aterciopelados|poll",
@@ -132,7 +133,8 @@
     "extremoduro|original",
     "los rabanes|original",
     "alux nahual|poll",
-    "cascomar|poll"
+    "cascomar|poll",
+    "no te va gustar|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -324,7 +326,8 @@
     "88c0df4b7c74586030483e3107d683501c9ee204d11217028d12142de5836016",
     "36590959887f6d1c548c66515a836d403cad0bd9ffb5e8bb9c67bacb0c370fbc",
     "dc4bd12f82aad019406ed729d1ebf994141ad804c8f259a0b642f18e8a2b36bf",
-    "06c85c71d24ebe420e0b1e795e6c06e1dac73d8ab4c499c6a95b0d7b3dc13e72"
+    "06c85c71d24ebe420e0b1e795e6c06e1dac73d8ab4c499c6a95b0d7b3dc13e72",
+    "d7cca4facc89262d43438e573cf6f2424837c9ac6882d7b00c25fb9876931101"
   ],
   "last_published_id": "post_20261120_075340",
   "last_published_at": "2026-11-20T20:53:12.373975+00:00",
