@@ -10,10 +10,12 @@
     "La Cuneta Son Machín",
     "Revolber",
     "Enrique Bunbury",
-    "Divididos"
+    "Divididos",
+    "Malpaís",
+    "Flou",
+    "Los Prisioneros"
   ],
   "used_poll_indices": [
-    18,
     9,
     4,
     6,
@@ -22,12 +24,13 @@
     1,
     14,
     10,
-    2
+    2,
+    0
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-11-21T19:55:49.797195+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-11-21T22:02:52.443051+00:00",
   "post_type_index": 10,
-  "total_posts": 608,
+  "total_posts": 609,
   "used_event_indices": [
     12,
     11,
@@ -36,11 +39,9 @@
     19,
     28
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
-    "la ley|youtube",
-    "los prisioneros|poll",
     "los prisioneros|poll",
     "black guayaba|youtube",
     "black guayaba|youtube",
@@ -138,7 +139,9 @@
     "la cuneta son machín|poll",
     "no te va gustar|original",
     "divididos|original",
-    "la cuneta son machín|poll"
+    "la cuneta son machín|poll",
+    "los prisioneros|youtube",
+    "divididos|original"
   ],
   "used_text_hashes": [
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
@@ -335,9 +338,11 @@
     "a22766a3ec6d43edff65c0d1f4ac854d1e970f2e8fa78bd2bc565ce7941eab29",
     "d7cca4facc89262d43438e573cf6f2424837c9ac6882d7b00c25fb9876931101",
     "8ebe28c16d4e8faa073a83bd181cbf148da3fd62a4b9514d1a88093c9c6c409d",
-    "a22766a3ec6d43edff65c0d1f4ac854d1e970f2e8fa78bd2bc565ce7941eab29"
+    "a22766a3ec6d43edff65c0d1f4ac854d1e970f2e8fa78bd2bc565ce7941eab29",
+    "0c5681bb4634730a17afa6cfade3108b0a305a0c1e78221658b43c63bf9a556a",
+    "8ebe28c16d4e8faa073a83bd181cbf148da3fd62a4b9514d1a88093c9c6c409d"
   ],
-  "last_published_id": "post_20261121_074919",
-  "last_published_at": "2026-11-21T19:54:52.418565+00:00",
-  "last_published_topic": "La Cuneta Son Machín"
+  "last_published_id": "post_20261121_195350",
+  "last_published_at": "2026-11-21T22:01:56.454437+00:00",
+  "last_published_topic": "Divididos"
 }
