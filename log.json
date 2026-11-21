@@ -1,29 +1,5 @@
 [
   {
-    "post_id": "post_20260911_165025",
-    "fb_post_id": "1043162839046116_1497860472388494",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Zapato 3",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Zapato_3_merida_2012.jpg/330px-Zapato_3_merida_2012.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "status": "published",
-    "executed_at": "2026-09-11T16:50:59.360217+00:00"
-  },
-  {
-    "post_id": "post_20260911_192509",
-    "fb_post_id": "1043162839046116_1497968219044386",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Café Tacvba",
-    "image_url": "https://img.youtube.com/vi/D37WlEFtzEc/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-09-11T19:25:41.297562+00:00"
-  },
-  {
     "post_id": "post_20260912_051415",
     "fb_post_id": "1043162839046116_1498298002344741",
     "ig_post_id": null,
@@ -2437,5 +2413,17 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-11-21T16:31:56.740737+00:00"
+  },
+  {
+    "post_id": "post_20261121_074919",
+    "fb_post_id": "1043162839046116_1570906048417269",
+    "ig_post_id": "18133848361696262",
+    "threads_post_id": "18121575764051291",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "La Cuneta Son Machín",
+    "image_url": "https://images.pexels.com/photos/14456994/pexels-photo-14456994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-11-21T19:54:52.418565+00:00"
   }
 ]
