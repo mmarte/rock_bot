@@ -17,7 +17,8 @@
     "Cinema",
     "Los Rodríguez",
     "Zoé",
-    "Savage"
+    "Savage",
+    "Burbles"
   ],
   "used_poll_indices": [
     9,
@@ -31,10 +32,10 @@
     2,
     0
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-11-22T07:37:20.280575+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-11-22T20:05:50.180281+00:00",
   "post_type_index": 10,
-  "total_posts": 611,
+  "total_posts": 612,
   "used_event_indices": [
     12,
     11,
@@ -43,11 +44,9 @@
     19,
     28
   ],
-  "last_post_type": "concert",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024,
   "used_topics": [
-    "black guayaba|youtube",
-    "molotov|original",
     "molotov|original",
     "fiel a la vega|original",
     "los rodríguez|poll",
@@ -145,10 +144,11 @@
     "los prisioneros|youtube",
     "divididos|original",
     "zoé|original",
+    "savage|original",
+    "burbles|original",
     "savage|original"
   ],
   "used_text_hashes": [
-    "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
     "cbcb87c4a26658bc83165dcb1e72736378913adc249e3f36bcdd4042d4e49ee1",
     "93be8165e3d47d00dbf30ef3cb41175adde3386767d90573051397e181bea11d",
     "93be8165e3d47d00dbf30ef3cb41175adde3386767d90573051397e181bea11d",
@@ -346,9 +346,11 @@
     "0c5681bb4634730a17afa6cfade3108b0a305a0c1e78221658b43c63bf9a556a",
     "8ebe28c16d4e8faa073a83bd181cbf148da3fd62a4b9514d1a88093c9c6c409d",
     "bcd4601cc619bc45c439946951e5a680a3468b0dbad6c1cc79092126a7ec1756",
+    "98d4e8a6e03b756a9142322dfab3c3e057c867fd35cd058a1d52960045961773",
+    "28e374ef965c1d3f4985bbb19f16608037da90a5fcb59c561d61cfa1d6e305be",
     "98d4e8a6e03b756a9142322dfab3c3e057c867fd35cd058a1d52960045961773"
   ],
-  "last_published_id": "post_20261121_195350",
-  "last_published_at": "2026-11-21T22:01:56.454437+00:00",
-  "last_published_topic": "Divididos"
+  "last_published_id": "post_20261122_073705",
+  "last_published_at": "2026-11-22T20:04:54.033271+00:00",
+  "last_published_topic": "Savage"
 }
