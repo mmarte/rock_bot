@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260912_225408",
-    "fb_post_id": "1043162839046116_1498988108942397",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Toque Profundo",
-    "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-09-12T22:54:41.448349+00:00"
-  },
-  {
     "post_id": "post_20260913_052922",
     "fb_post_id": "1043162839046116_1499221305585744",
     "ig_post_id": null,
@@ -2419,5 +2407,11 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261114_012015 — not republished",
     "executed_at": "2026-11-22T01:03:01.007751+00:00"
+  },
+  {
+    "post_id": "post_20261122_010201",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261028_213019 — not republished",
+    "executed_at": "2026-11-22T07:37:45.610522+00:00"
   }
 ]
