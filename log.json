@@ -2413,5 +2413,23 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261028_213019 — not republished",
     "executed_at": "2026-11-22T07:37:45.610522+00:00"
+  },
+  {
+    "post_id": "reel_20261122",
+    "post_type": "reel",
+    "topic": "Miranda!",
+    "reel_path": "reels/reel_20261122.mp4",
+    "fb_reel_id": "1849281302876907",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "chunked, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Chunked upload failed at offset 26214400: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, re-encoded (Main/faststart): Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}})",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-22T16:48:17.776147+00:00"
   }
 ]
