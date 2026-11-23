@@ -1,7 +1,5 @@
 {
   "used_bands": [
-    "Alux Nahual",
-    "Toque Profundo",
     "El Cuarteto de Nos",
     "Cascomar",
     "Héroes del Silencio",
@@ -19,7 +17,9 @@
     "Savage",
     "Burbles",
     "Bomba Estéreo",
-    "Los Tres"
+    "Los Tres",
+    "Habana Abierta",
+    "Juanes"
   ],
   "used_poll_indices": [
     4,
@@ -33,10 +33,10 @@
     0,
     19
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-11-23T01:29:31.607714+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-11-23T08:25:04.617373+00:00",
   "post_type_index": 10,
-  "total_posts": 613,
+  "total_posts": 614,
   "used_event_indices": [
     12,
     11,
@@ -45,11 +45,9 @@
     19,
     28
   ],
-  "last_post_type": "poll",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
-    "los rodríguez|poll",
-    "los rodríguez|poll",
     "dedicados|youtube",
     "dedicados|youtube",
     "alux nahual|original",
@@ -147,11 +145,11 @@
     "burbles|original",
     "savage|original",
     "los tres|poll",
-    "burbles|original"
+    "burbles|original",
+    "juanes|youtube",
+    "los tres|poll"
   ],
   "used_text_hashes": [
-    "93be8165e3d47d00dbf30ef3cb41175adde3386767d90573051397e181bea11d",
-    "0acfb08e645eb44f3b1e3ddbc2e6e530542506ca4014e79137aec2199b77068e",
     "0acfb08e645eb44f3b1e3ddbc2e6e530542506ca4014e79137aec2199b77068e",
     "98d3e0e7df0e389b2c7db69ce235e9d8b87646b33bc5aa3af70a7bd398dc422d",
     "98d3e0e7df0e389b2c7db69ce235e9d8b87646b33bc5aa3af70a7bd398dc422d",
@@ -349,9 +347,11 @@
     "28e374ef965c1d3f4985bbb19f16608037da90a5fcb59c561d61cfa1d6e305be",
     "98d4e8a6e03b756a9142322dfab3c3e057c867fd35cd058a1d52960045961773",
     "002b09154bbe08c892fbda33a8ea428c85a0c31c1b39a138111fb974917e5878",
-    "28e374ef965c1d3f4985bbb19f16608037da90a5fcb59c561d61cfa1d6e305be"
+    "28e374ef965c1d3f4985bbb19f16608037da90a5fcb59c561d61cfa1d6e305be",
+    "34ccf850a3575e835fcce62ad48b5dfacf0893d0cf9c95f1a1f6ef8284b77e14",
+    "002b09154bbe08c892fbda33a8ea428c85a0c31c1b39a138111fb974917e5878"
   ],
-  "last_published_id": "post_20261122_200419",
-  "last_published_at": "2026-11-23T01:28:38.103253+00:00",
-  "last_published_topic": "Burbles"
+  "last_published_id": "post_20261123_012756",
+  "last_published_at": "2026-11-23T08:24:26.511031+00:00",
+  "last_published_topic": "Los Tres"
 }
