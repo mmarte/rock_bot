@@ -2419,5 +2419,23 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavo_Cerati%2C_Madrid%2C_2006.10.10_retouched.jpg",
     "status": "published",
     "executed_at": "2026-11-23T08:24:26.511031+00:00"
+  },
+  {
+    "post_id": "reel_20261123",
+    "post_type": "reel",
+    "topic": "Heroes del Silencio",
+    "reel_path": "reels/reel_20261123.mp4",
+    "fb_reel_id": "1695038068798807",
+    "ig_reel_id": "18162856369507580",
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": null,
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-23T20:42:18.914676+00:00"
   }
 ]
