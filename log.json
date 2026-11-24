@@ -1,29 +1,5 @@
 [
   {
-    "post_id": "post_20260916_052634",
-    "fb_post_id": "1043162839046116_1501978811976660",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Charly García",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Charly_Garc%C3%ADa_%26_the_Prostitution_at_Cosqu%C3%ADn_Rock_12.02.2011_%285449800300%29.jpg",
-    "status": "published",
-    "executed_at": "2026-09-16T05:27:05.425007+00:00"
-  },
-  {
-    "post_id": "post_20260916_172420",
-    "fb_post_id": "1043162839046116_1502474335260441",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Enrique Bunbury",
-    "image_url": "https://img.youtube.com/vi/Q9bWs0h2xZM/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-09-16T17:24:48.646340+00:00"
-  },
-  {
     "post_id": "post_20260916_195053",
     "fb_post_id": "1043162839046116_1502578608583347",
     "ig_post_id": null,
@@ -2449,5 +2425,11 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-11-24T19:48:31.692636+00:00"
+  },
+  {
+    "post_id": "post_20261124_051045",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261120_020506 — not republished",
+    "executed_at": "2026-11-24T22:52:35.370576+00:00"
   }
 ]

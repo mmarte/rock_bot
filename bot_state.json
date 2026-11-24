@@ -2,7 +2,8 @@
   "used_bands": [
     "Revolber",
     "Extremoduro",
-    "El Cuarteto de Nos"
+    "El Cuarteto de Nos",
+    "Anima Mundi"
   ],
   "used_poll_indices": [
     6,
@@ -16,10 +17,10 @@
     19,
     7
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-11-24T05:13:04.923136+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-11-24T22:52:09.930885+00:00",
   "post_type_index": 10,
-  "total_posts": 617,
+  "total_posts": 618,
   "used_event_indices": [
     12,
     11,
@@ -28,10 +29,9 @@
     19,
     28
   ],
-  "last_post_type": "concert",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "soda stereo|cover",
     "revolber|original",
     "revolber|original",
     "desorden público|poll",
@@ -130,10 +130,10 @@
     "el cuarteto de nos|original",
     "cuca|original",
     "extremoduro|original",
-    "el cuarteto de nos|original"
+    "el cuarteto de nos|original",
+    "anima mundi|original"
   ],
   "used_text_hashes": [
-    "f0a180f911462d5870f0ac5ab8e7a9356b436638ac9dbb822933088000fe2fbb",
     "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5",
     "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5",
     "68e5fd8e1d3ad521bf902c6d268c62b058cae1de348b23c1ddfd2a1c052c9cb3",
@@ -332,7 +332,8 @@
     "a4d1e41579042f17e9fe8a438b59294784e7fe5613093b179493bcb417b1ad0e",
     "3a541babf4762521e08cb39a2e041f34b01a8aa7e3b8b712eb4466a4502e34e8",
     "c024d62f44b80040f22994eb26c239010edf51866b8cff66890552b7482dad13",
-    "a4d1e41579042f17e9fe8a438b59294784e7fe5613093b179493bcb417b1ad0e"
+    "a4d1e41579042f17e9fe8a438b59294784e7fe5613093b179493bcb417b1ad0e",
+    "304e0a292199b1c97f731f354f8f765cb1b593234dcc97fc4f9b152210a2559f"
   ],
   "last_published_id": "post_20261124_031920",
   "last_published_at": "2026-11-24T05:12:04.450984+00:00",
