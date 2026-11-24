@@ -2431,5 +2431,23 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Cuarteto-de-Nos.png",
     "status": "published",
     "executed_at": "2026-11-24T05:12:04.450984+00:00"
+  },
+  {
+    "post_id": "reel_20261124",
+    "post_type": "reel",
+    "topic": "Zoé",
+    "reel_path": "reels/reel_20261124.mp4",
+    "fb_reel_id": "2234927487441199",
+    "ig_reel_id": null,
+    "x_tweet_id": null,
+    "tiktok_publish_id": null,
+    "status": "published",
+    "errors": {
+      "facebook": null,
+      "instagram": "chunked, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Chunked upload failed at offset 15728640: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, original file: Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}}); single, re-encoded (Main/faststart): Timed out waiting for FINISHED (last=IN_PROGRESS, earlier upload report: Upload failed: {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}})",
+      "x": null,
+      "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
+    },
+    "executed_at": "2026-11-24T19:48:31.692636+00:00"
   }
 ]
