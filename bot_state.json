@@ -1,28 +1,10 @@
 {
   "used_bands": [
-    "No Te Va Gustar",
-    "La Cuneta Son Machín",
     "Revolber",
-    "Enrique Bunbury",
-    "Divididos",
-    "Malpaís",
-    "Flou",
-    "Los Prisioneros",
-    "Cinema",
-    "Los Rodríguez",
-    "Zoé",
-    "Savage",
-    "Burbles",
-    "Bomba Estéreo",
-    "Los Tres",
-    "Habana Abierta",
-    "Juanes",
-    "The Great Wilderness",
-    "Cuca",
+    "Extremoduro",
     "El Cuarteto de Nos"
   ],
   "used_poll_indices": [
-    4,
     6,
     8,
     12,
@@ -31,12 +13,13 @@
     10,
     2,
     0,
-    19
+    19,
+    7
   ],
-  "original_type_index": 10,
-  "last_updated": "2026-11-24T03:21:01.420015+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-11-24T05:13:04.923136+00:00",
   "post_type_index": 10,
-  "total_posts": 616,
+  "total_posts": 617,
   "used_event_indices": [
     12,
     11,
@@ -48,8 +31,6 @@
   "last_post_type": "concert",
   "curation_year": 2024,
   "used_topics": [
-    "caifanes|poll",
-    "caifanes|poll",
     "soda stereo|cover",
     "revolber|original",
     "revolber|original",
@@ -147,11 +128,11 @@
     "cuca|original",
     "juanes|youtube",
     "el cuarteto de nos|original",
-    "cuca|original"
+    "cuca|original",
+    "extremoduro|original",
+    "el cuarteto de nos|original"
   ],
   "used_text_hashes": [
-    "3919e794f1b74f142b733fb5a8c16578af5e2abb04f2019dfda59b16c5429600",
-    "f0a180f911462d5870f0ac5ab8e7a9356b436638ac9dbb822933088000fe2fbb",
     "f0a180f911462d5870f0ac5ab8e7a9356b436638ac9dbb822933088000fe2fbb",
     "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5",
     "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5",
@@ -349,9 +330,11 @@
     "3a541babf4762521e08cb39a2e041f34b01a8aa7e3b8b712eb4466a4502e34e8",
     "34ccf850a3575e835fcce62ad48b5dfacf0893d0cf9c95f1a1f6ef8284b77e14",
     "a4d1e41579042f17e9fe8a438b59294784e7fe5613093b179493bcb417b1ad0e",
-    "3a541babf4762521e08cb39a2e041f34b01a8aa7e3b8b712eb4466a4502e34e8"
+    "3a541babf4762521e08cb39a2e041f34b01a8aa7e3b8b712eb4466a4502e34e8",
+    "c024d62f44b80040f22994eb26c239010edf51866b8cff66890552b7482dad13",
+    "a4d1e41579042f17e9fe8a438b59294784e7fe5613093b179493bcb417b1ad0e"
   ],
-  "last_published_id": "post_20261124_002954",
-  "last_published_at": "2026-11-24T03:20:04.574699+00:00",
-  "last_published_topic": "Cuca"
+  "last_published_id": "post_20261124_031920",
+  "last_published_at": "2026-11-24T05:12:04.450984+00:00",
+  "last_published_topic": "El Cuarteto de Nos"
 }

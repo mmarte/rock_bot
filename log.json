@@ -1,11 +1,5 @@
 [
   {
-    "post_id": "post_20260915_232758",
-    "status": "failed",
-    "error": "FB error 324: Missing or invalid image file",
-    "executed_at": "2026-09-15T23:28:29.390774+00:00"
-  },
-  {
     "post_id": "post_20260916_052634",
     "fb_post_id": "1043162839046116_1501978811976660",
     "ig_post_id": null,
@@ -2425,5 +2419,17 @@
     "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-11-24T03:20:04.574699+00:00"
+  },
+  {
+    "post_id": "post_20261124_031920",
+    "fb_post_id": "1043162839046116_1573468061494401",
+    "ig_post_id": "18114830750575245",
+    "threads_post_id": "18134163769886589",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "El Cuarteto de Nos",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Cuarteto-de-Nos.png",
+    "status": "published",
+    "executed_at": "2026-11-24T05:12:04.450984+00:00"
   }
 ]

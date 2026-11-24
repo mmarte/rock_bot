@@ -3601,7 +3601,7 @@
   },
   {
     "id": "post_20261124_031920",
-    "status": "pending",
+    "status": "published",
     "created_at": "2026-11-24T03:19:20.273326+00:00",
     "post_type": "original",
     "topic": "El Cuarteto de Nos",
@@ -3610,6 +3610,29 @@
     "image_query": "El Cuarteto de Nos Uruguay rock band",
     "extra_topics": [],
     "post_year": "1978",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1573468061494401",
+    "ig_post_id": "18114830750575245",
+    "threads_post_id": "18134163769886589",
+    "youtube_post_url": null,
+    "published_at": "2026-11-24T05:12:04.450984+00:00",
+    "error": null
+  },
+  {
+    "id": "post_20261124_051045",
+    "status": "pending",
+    "created_at": "2026-11-24T05:10:45.382305+00:00",
+    "post_type": "original",
+    "topic": "Extremoduro",
+    "text": "¿Te atreves a debatir cuál era la verdadera esencia de Extremoduro? Por un lado, los pioneros del rock transgresivo que, desde 1987, golpeaban con fuerza en Plasencia y más allá con su estilo duro y letras explícitas sobre sexo, drogas y amor. El álbum *Agila* (1996) marcó su ascenso y la energía cruda de sus primeros conciertos. Por otro lado, la evolución poética que siguió: *La Ley Innata* recibió una gran acogida y la composición musical se volvió más compleja tras la entrada de Iñaki Antón “Uoho” en 1993, quien aportó un sonido más elaborado. Algunos afirman que la fuerza cruda se perdió, mientras que otros celebran la madurez lírica y sonora. ¿Qué prefieres, la energía cruda de la primera década o la sofisticación de los últimos años?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Extremoduro #LaLey\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "c024d62f44b80040f22994eb26c239010edf51866b8cff66890552b7482dad13",
+    "image_query": "Extremoduro Spain rock band",
+    "extra_topics": [
+      "La Ley"
+    ],
+    "post_year": "1987",
     "curation_year": "2024",
     "video_url": null,
     "concert_url": null,
