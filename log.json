@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260915_195819",
-    "fb_post_id": "1043162839046116_1501671745340700",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Maná",
-    "image_url": "https://img.youtube.com/vi/ScCGUObZ4CI/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-09-15T19:58:51.089428+00:00"
-  },
-  {
     "post_id": "post_20260915_232758",
     "status": "failed",
     "error": "FB error 324: Missing or invalid image file",
@@ -2425,5 +2413,17 @@
     "image_url": "https://img.youtube.com/vi/ZK-BEys_MVM/maxresdefault.jpg",
     "status": "published",
     "executed_at": "2026-11-24T00:30:55.384211+00:00"
+  },
+  {
+    "post_id": "post_20261124_002954",
+    "fb_post_id": "1043162839046116_1573387608169113",
+    "ig_post_id": "17918627103494931",
+    "threads_post_id": "17918671407506529",
+    "youtube_post_url": null,
+    "post_type": "original",
+    "topic": "Cuca",
+    "image_url": "https://images.pexels.com/photos/16118368/pexels-photo-16118368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "published",
+    "executed_at": "2026-11-24T03:20:04.574699+00:00"
   }
 ]
