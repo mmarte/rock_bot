@@ -1,29 +1,5 @@
 [
   {
-    "post_id": "post_20260914_181713",
-    "fb_post_id": "1043162839046116_1500689338772274",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Aterciopelados",
-    "image_url": "https://img.youtube.com/vi/eqXHckx7zls/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-09-14T18:17:47.733025+00:00"
-  },
-  {
-    "post_id": "post_20260915_053424",
-    "fb_post_id": "1043162839046116_1501070178734190",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Savage",
-    "image_url": "https://img.youtube.com/vi/zMeBtd8z9go/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-09-15T05:34:54.747774+00:00"
-  },
-  {
     "post_id": "post_20260915_195819",
     "fb_post_id": "1043162839046116_1501671745340700",
     "ig_post_id": null,
@@ -2437,5 +2413,17 @@
       "tiktok": "Missing TIKTOK_ACCESS_TOKEN"
     },
     "executed_at": "2026-11-23T20:42:18.914676+00:00"
+  },
+  {
+    "post_id": "post_20261123_082345",
+    "fb_post_id": "1043162839046116_1573260671515140",
+    "ig_post_id": "18109071455568861",
+    "threads_post_id": "18255266629313688",
+    "youtube_post_url": null,
+    "post_type": "youtube",
+    "topic": "Juanes",
+    "image_url": "https://img.youtube.com/vi/ZK-BEys_MVM/maxresdefault.jpg",
+    "status": "published",
+    "executed_at": "2026-11-24T00:30:55.384211+00:00"
   }
 ]
