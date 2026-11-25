@@ -9,10 +9,10 @@
     "Gandhi",
     "Caramelos de Cianuro",
     "Los Rabanes",
-    "Heroes del Silencio"
+    "Heroes del Silencio",
+    "La Vela Puerca"
   ],
   "used_poll_indices": [
-    6,
     8,
     12,
     1,
@@ -21,12 +21,13 @@
     2,
     0,
     19,
-    7
+    7,
+    18
   ],
   "original_type_index": 3,
-  "last_updated": "2026-11-25T09:21:27.211615+00:00",
+  "last_updated": "2026-11-25T22:06:09.837955+00:00",
   "post_type_index": 10,
-  "total_posts": 621,
+  "total_posts": 622,
   "used_event_indices": [
     12,
     11,
@@ -36,11 +37,9 @@
     28,
     30
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "grupo armado|original",
-    "zoé|original",
     "gandhi|poll",
     "gandhi|poll",
     "evolución|original",
@@ -138,11 +137,11 @@
     "anima mundi|original",
     "caramelos de cianuro|original",
     "fiel a la vega|youtube",
+    "heroes del silencio|hoy_en_historia",
+    "la vela puerca|poll",
     "heroes del silencio|hoy_en_historia"
   ],
   "used_text_hashes": [
-    "2da7742768178125939eef3b79c090c1eb02ae5a8bd523c578521cec1eb83539",
-    "07e295735767fb947f5c412dafdca6d70a3dca91be9d191dc6c8d11a4fd330b0",
     "07e295735767fb947f5c412dafdca6d70a3dca91be9d191dc6c8d11a4fd330b0",
     "e921918de5b5cc484c85c65bc14e70b691cbf4a53b7575ce2c0e4fe63fcc083a",
     "e921918de5b5cc484c85c65bc14e70b691cbf4a53b7575ce2c0e4fe63fcc083a",
@@ -340,9 +339,11 @@
     "304e0a292199b1c97f731f354f8f765cb1b593234dcc97fc4f9b152210a2559f",
     "df0478c3a12d9c05cad2bcec67804906de7778104ed6bb4e4fcbed810970c4ec",
     "ee92ac5728737299e3c8c1eaa3b76301566f190b7c57281dc4477c9636ffa183",
+    "266be17212f0df021c3a059ffa533b0022a486ba880abba264c0c2c203324f7f",
+    "f8fd3794f931117f82df62009f314452cc10a4f8c702bdf85dc045253b434487",
     "266be17212f0df021c3a059ffa533b0022a486ba880abba264c0c2c203324f7f"
   ],
-  "last_published_id": "post_20261125_011511",
-  "last_published_at": "2026-11-25T04:02:13.103908+00:00",
-  "last_published_topic": "Fiel a la Vega"
+  "last_published_id": "post_20261125_092118",
+  "last_published_at": "2026-11-25T22:05:08.869032+00:00",
+  "last_published_topic": "Heroes del Silencio"
 }

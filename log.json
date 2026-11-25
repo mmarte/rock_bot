@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260919_161051",
-    "fb_post_id": "1043162839046116_1505190481655493",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Enrique Bunbury",
-    "image_url": "https://img.youtube.com/vi/XWAto1Qgxko/maxresdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-09-19T16:11:08.773090+00:00"
-  },
-  {
     "post_id": "post_20260920_191527",
     "fb_post_id": "1043162839046116_1506242564883618",
     "ig_post_id": null,
@@ -2425,5 +2413,17 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261003_194034 — not republished",
     "executed_at": "2026-11-25T09:21:52.546254+00:00"
+  },
+  {
+    "post_id": "post_20261125_092118",
+    "fb_post_id": "1043162839046116_1575455237962350",
+    "ig_post_id": "18121348166098017",
+    "threads_post_id": "17959174671289774",
+    "youtube_post_url": null,
+    "post_type": "hoy_en_historia",
+    "topic": "Heroes del Silencio",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Heroes_del_Silencio_Sevilla_Oct_07.jpg",
+    "status": "published",
+    "executed_at": "2026-11-25T22:05:08.869032+00:00"
   }
 ]
