@@ -3,7 +3,8 @@
     "Revolber",
     "Extremoduro",
     "El Cuarteto de Nos",
-    "Anima Mundi"
+    "Anima Mundi",
+    "Fiel a la Vega"
   ],
   "used_poll_indices": [
     6,
@@ -18,9 +19,9 @@
     7
   ],
   "original_type_index": 2,
-  "last_updated": "2026-11-24T22:52:09.930885+00:00",
+  "last_updated": "2026-11-25T01:16:45.988100+00:00",
   "post_type_index": 10,
-  "total_posts": 618,
+  "total_posts": 619,
   "used_event_indices": [
     12,
     11,
@@ -29,11 +30,9 @@
     19,
     28
   ],
-  "last_post_type": "original",
+  "last_post_type": "youtube",
   "curation_year": 2024,
   "used_topics": [
-    "revolber|original",
-    "revolber|original",
     "desorden público|poll",
     "desorden público|poll",
     "grupo armado|original",
@@ -131,11 +130,11 @@
     "cuca|original",
     "extremoduro|original",
     "el cuarteto de nos|original",
+    "anima mundi|original",
+    "fiel a la vega|youtube",
     "anima mundi|original"
   ],
   "used_text_hashes": [
-    "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5",
-    "5f93d0fa9ea7ccd0fe44f867f605df46b21ee3771c650dce500e2253f53003b5",
     "68e5fd8e1d3ad521bf902c6d268c62b058cae1de348b23c1ddfd2a1c052c9cb3",
     "68e5fd8e1d3ad521bf902c6d268c62b058cae1de348b23c1ddfd2a1c052c9cb3",
     "9533832341e6ab128eeaecf81011ce6186965c114963095c2267da60e75dc9bc",
@@ -333,9 +332,11 @@
     "3a541babf4762521e08cb39a2e041f34b01a8aa7e3b8b712eb4466a4502e34e8",
     "c024d62f44b80040f22994eb26c239010edf51866b8cff66890552b7482dad13",
     "a4d1e41579042f17e9fe8a438b59294784e7fe5613093b179493bcb417b1ad0e",
+    "304e0a292199b1c97f731f354f8f765cb1b593234dcc97fc4f9b152210a2559f",
+    "ee92ac5728737299e3c8c1eaa3b76301566f190b7c57281dc4477c9636ffa183",
     "304e0a292199b1c97f731f354f8f765cb1b593234dcc97fc4f9b152210a2559f"
   ],
-  "last_published_id": "post_20261124_031920",
-  "last_published_at": "2026-11-24T05:12:04.450984+00:00",
-  "last_published_topic": "El Cuarteto de Nos"
+  "last_published_id": "post_20261124_225206",
+  "last_published_at": "2026-11-25T01:15:51.857044+00:00",
+  "last_published_topic": "Anima Mundi"
 }
