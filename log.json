@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260920_191527",
-    "fb_post_id": "1043162839046116_1506242564883618",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Kraken",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Le_Poulpe_Colossal.jpg",
-    "status": "published",
-    "executed_at": "2026-09-20T19:16:00.644734+00:00"
-  },
-  {
     "post_id": "post_20260921_182416",
     "fb_post_id": "1043162839046116_1507226654785209",
     "ig_post_id": null,
@@ -2425,5 +2413,17 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Heroes_del_Silencio_Sevilla_Oct_07.jpg",
     "status": "published",
     "executed_at": "2026-11-25T22:05:08.869032+00:00"
+  },
+  {
+    "post_id": "post_20261125_220430",
+    "fb_post_id": "1043162839046116_1575554847952389",
+    "ig_post_id": "18085684358372483",
+    "threads_post_id": "18122833739053705",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "La Vela Puerca",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Vamoslavela.jpg",
+    "status": "published",
+    "executed_at": "2026-11-26T00:50:19.786572+00:00"
   }
 ]
