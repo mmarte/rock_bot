@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260922_053404",
-    "fb_post_id": "1043162839046116_1507603808080827",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "La Cuneta Son Machín",
-    "image_url": "https://images.pexels.com/photos/2601191/pexels-photo-2601191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "status": "published",
-    "executed_at": "2026-09-22T05:34:35.729155+00:00"
-  },
-  {
     "post_id": "post_20260922_200042",
     "fb_post_id": "1043162839046116_1508190824688792",
     "ig_post_id": null,
@@ -2419,5 +2407,11 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20261111_010702 — not republished",
     "executed_at": "2026-11-26T09:01:43.872548+00:00"
+  },
+  {
+    "post_id": "post_20261126_090028",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20260916_233550 — not republished",
+    "executed_at": "2026-11-26T22:03:12.813586+00:00"
   }
 ]
