@@ -3777,7 +3777,7 @@
   },
   {
     "id": "post_20261126_032523",
-    "status": "pending",
+    "status": "skipped_duplicate",
     "created_at": "2026-11-26T03:25:23.702797+00:00",
     "post_type": "original",
     "topic": "Los Rabanes",
@@ -3788,6 +3788,29 @@
     "post_year": "2007",
     "curation_year": "2024",
     "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20261111_010702 — not republished"
+  },
+  {
+    "id": "post_20261126_090028",
+    "status": "pending",
+    "created_at": "2026-11-26T09:00:28.710661+00:00",
+    "post_type": "cover",
+    "topic": "Café Tacvba",
+    "text": "¿Sabías que Café Tacvba reinterpretó un clásico de Caifanes? Aunque la versión original de Caifanes es un himno reconocido, la toma de Café Tacvba añade su toque vanguardista, mezclando ritmos que van más allá del rock estándar. Es fascinante ver cómo una misma melodía puede transformar su carácter, pasando de la intensidad emocional a una propuesta más rítmica y experimental, manteniendo la esencia mexicana de la escena noventera. Ambas versiones comparten esa herida generacional, pero el enfoque de cada grupo les da una identidad sonora distinta. ¿Cuál de las dos versiones te conecta más con tu historia?\n\nhttps://www.youtube.com/watch?v=dDKlqe29Ts8\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #CafeTacvba #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "013b6e1180bbf842c1b1e27e0899cf6d88c06870b50acce7964637160e8507ab",
+    "image_query": "Café Tacvba La Negra Tomasa live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=dDKlqe29Ts8",
     "concert_url": null,
     "fb_post_id": null,
     "ig_post_id": null,

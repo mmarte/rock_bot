@@ -1,7 +1,10 @@
 {
   "used_bands": [
     "Los Rabanes",
-    "Café Tacvba"
+    "Café Tacvba",
+    "Gustavo Cerati",
+    "Aterciopelados",
+    "Malacates Trébol Shop"
   ],
   "used_poll_indices": [
     12,
@@ -15,10 +18,10 @@
     18,
     15
   ],
-  "original_type_index": 6,
-  "last_updated": "2026-11-26T03:27:20.857695+00:00",
+  "original_type_index": 7,
+  "last_updated": "2026-11-26T09:01:18.622187+00:00",
   "post_type_index": 10,
-  "total_posts": 624,
+  "total_posts": 625,
   "used_event_indices": [
     12,
     11,
@@ -28,10 +31,9 @@
     28,
     30
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024,
   "used_topics": [
-    "the great wilderness|original",
     "the great wilderness|original",
     "cascomar|poll",
     "cascomar|poll",
@@ -130,10 +132,10 @@
     "café tacvba|original",
     "la vela puerca|poll",
     "los rabanes|original",
-    "café tacvba|original"
+    "café tacvba|original",
+    "café tacvba|cover"
   ],
   "used_text_hashes": [
-    "9cf415af15d313252ace4e4f3532ac81521021094100ac40c3d06ea43105aa37",
     "f675927794ed92bfac423ef2a4d3ed00d66007a2b1a3aa1224f4b48f8a82c3db",
     "f675927794ed92bfac423ef2a4d3ed00d66007a2b1a3aa1224f4b48f8a82c3db",
     "917d2b78b61fc4630f7d964423ff25e3ead1daac6ec7f9de9a8fb082523b5804",
@@ -332,7 +334,8 @@
     "1ccefb2fd9edac0457adbb43920b791183928333071f744724676992685ee9be",
     "f8fd3794f931117f82df62009f314452cc10a4f8c702bdf85dc045253b434487",
     "7cb42ad9f4dfcc4066546158906189817f17dbd5951ee938dc8e1ba9784ec446",
-    "1ccefb2fd9edac0457adbb43920b791183928333071f744724676992685ee9be"
+    "1ccefb2fd9edac0457adbb43920b791183928333071f744724676992685ee9be",
+    "013b6e1180bbf842c1b1e27e0899cf6d88c06870b50acce7964637160e8507ab"
   ],
   "last_published_id": "post_20261126_004938",
   "last_published_at": "2026-11-26T03:26:24.235410+00:00",

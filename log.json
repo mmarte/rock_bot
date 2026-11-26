@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260921_204526",
-    "fb_post_id": "1043162839046116_1507311581443383",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "Toque Profundo",
-    "image_url": "https://img.youtube.com/vi/faOQenWeOXs/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-09-21T20:45:57.880587+00:00"
-  },
-  {
     "post_id": "post_20260922_053404",
     "fb_post_id": "1043162839046116_1507603808080827",
     "ig_post_id": null,
@@ -2425,5 +2413,11 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cafe_Tacuba_1.jpg",
     "status": "published",
     "executed_at": "2026-11-26T03:26:24.235410+00:00"
+  },
+  {
+    "post_id": "post_20261126_032523",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261111_010702 — not republished",
+    "executed_at": "2026-11-26T09:01:43.872548+00:00"
   }
 ]
