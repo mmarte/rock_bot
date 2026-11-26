@@ -1,21 +1,9 @@
 {
   "used_bands": [
-    "Revolber",
-    "Extremoduro",
-    "El Cuarteto de Nos",
-    "Anima Mundi",
-    "Fiel a la Vega",
-    "Juanes",
-    "Gandhi",
-    "Caramelos de Cianuro",
     "Los Rabanes",
-    "Heroes del Silencio",
-    "La Vela Puerca",
-    "Savage",
     "Café Tacvba"
   ],
   "used_poll_indices": [
-    8,
     12,
     1,
     14,
@@ -24,12 +12,13 @@
     0,
     19,
     7,
-    18
+    18,
+    15
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-11-26T00:51:17.614836+00:00",
+  "original_type_index": 6,
+  "last_updated": "2026-11-26T03:27:20.857695+00:00",
   "post_type_index": 10,
-  "total_posts": 623,
+  "total_posts": 624,
   "used_event_indices": [
     12,
     11,
@@ -42,8 +31,6 @@
   "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "evolución|original",
-    "evolución|original",
     "the great wilderness|original",
     "the great wilderness|original",
     "cascomar|poll",
@@ -141,11 +128,11 @@
     "la vela puerca|poll",
     "heroes del silencio|hoy_en_historia",
     "café tacvba|original",
-    "la vela puerca|poll"
+    "la vela puerca|poll",
+    "los rabanes|original",
+    "café tacvba|original"
   ],
   "used_text_hashes": [
-    "e921918de5b5cc484c85c65bc14e70b691cbf4a53b7575ce2c0e4fe63fcc083a",
-    "9cf415af15d313252ace4e4f3532ac81521021094100ac40c3d06ea43105aa37",
     "9cf415af15d313252ace4e4f3532ac81521021094100ac40c3d06ea43105aa37",
     "f675927794ed92bfac423ef2a4d3ed00d66007a2b1a3aa1224f4b48f8a82c3db",
     "f675927794ed92bfac423ef2a4d3ed00d66007a2b1a3aa1224f4b48f8a82c3db",
@@ -343,9 +330,11 @@
     "f8fd3794f931117f82df62009f314452cc10a4f8c702bdf85dc045253b434487",
     "266be17212f0df021c3a059ffa533b0022a486ba880abba264c0c2c203324f7f",
     "1ccefb2fd9edac0457adbb43920b791183928333071f744724676992685ee9be",
-    "f8fd3794f931117f82df62009f314452cc10a4f8c702bdf85dc045253b434487"
+    "f8fd3794f931117f82df62009f314452cc10a4f8c702bdf85dc045253b434487",
+    "7cb42ad9f4dfcc4066546158906189817f17dbd5951ee938dc8e1ba9784ec446",
+    "1ccefb2fd9edac0457adbb43920b791183928333071f744724676992685ee9be"
   ],
-  "last_published_id": "post_20261125_220430",
-  "last_published_at": "2026-11-26T00:50:19.786572+00:00",
-  "last_published_topic": "La Vela Puerca"
+  "last_published_id": "post_20261126_004938",
+  "last_published_at": "2026-11-26T03:26:24.235410+00:00",
+  "last_published_topic": "Café Tacvba"
 }
