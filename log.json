@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260923_232857",
-    "fb_post_id": "1043162839046116_1509237537917454",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Desorden Público",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/D.P.jpg",
-    "status": "published",
-    "executed_at": "2026-09-23T23:29:29.363074+00:00"
-  },
-  {
     "post_id": "post_20260926_165026",
     "fb_post_id": "1043162839046116_1512136600960881",
     "ig_post_id": null,
@@ -2413,5 +2401,11 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hombres_G_en_el_estudio_cantando.jpg",
     "status": "published",
     "executed_at": "2026-11-27T03:33:56.909171+00:00"
+  },
+  {
+    "post_id": "post_20261127_033303",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20261008_064708 — not republished",
+    "executed_at": "2026-11-27T09:14:21.379082+00:00"
   }
 ]

@@ -3866,7 +3866,7 @@
   },
   {
     "id": "post_20261127_033303",
-    "status": "pending",
+    "status": "skipped_duplicate",
     "created_at": "2026-11-27T03:33:03.409930+00:00",
     "post_type": "original",
     "topic": "Bomba Estéreo",
@@ -3877,6 +3877,29 @@
     "post_year": "",
     "curation_year": "2024",
     "video_url": null,
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20261008_064708 — not republished"
+  },
+  {
+    "id": "post_20261127_091326",
+    "status": "pending",
+    "created_at": "2026-11-27T09:13:26.677012+00:00",
+    "post_type": "cover",
+    "topic": "Maná",
+    "text": "¿Alguna vez imaginaron qué pasaría si la energía de Maná se encontrara con la rebeldía cruda de Caifanes? No fue solo un tributo, fue una colisión de titanes. Cuando los músicos subieron al escenario del festival latino y versionaron 'Afuera', el ambiente se volvió electrizante. En la interpretación de Maná, esa pieza tomó una dimensión épica, con sintetizadores y una potencia vocal que mantuvo al público al borde del asiento. No se trató de una simple imitación, sino de una reinterpretación que combinó la esencia del rock mexicano con una producción de gran escala. El contraste quedó claro: la autenticidad de barrio de Caifanes frente al espectáculo global de Maná. Ambas versiones marcaron una época, pero el cover demostró que el rock en español puede evolucionar sin perder su impacto. ¿Cuál de las dos versiones les hace cerrar los ojos y levantar la mano al cielo?\n\nhttps://www.youtube.com/watch?v=Yyfmf-NEZbI\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana #Caifanes\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "aa309333f3fbefb23417117e84abaa83bfa320b8611e0c586dbc34a57f1b2de9",
+    "image_query": "Maná Afuera live",
+    "extra_topics": [
+      "Caifanes"
+    ],
+    "post_year": "1992",
+    "curation_year": "2024",
+    "video_url": "https://www.youtube.com/watch?v=Yyfmf-NEZbI",
     "concert_url": null,
     "fb_post_id": null,
     "ig_post_id": null,

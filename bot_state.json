@@ -1,20 +1,10 @@
 {
   "used_bands": [
     "Los Rabanes",
-    "Café Tacvba",
-    "Gustavo Cerati",
-    "Aterciopelados",
-    "Malacates Trébol Shop",
-    "Bohemia Suburbana",
-    "Black Guayaba",
-    "Fiel a la Vega",
-    "Hombres G",
-    "Octavia",
-    "Alux Nahual",
-    "Bomba Estéreo"
+    "Kraken",
+    "Maná"
   ],
   "used_poll_indices": [
-    14,
     10,
     2,
     0,
@@ -23,12 +13,13 @@
     18,
     15,
     16,
-    11
+    11,
+    3
   ],
   "original_type_index": 10,
-  "last_updated": "2026-11-27T03:34:51.889436+00:00",
+  "last_updated": "2026-11-27T09:13:55.658124+00:00",
   "post_type_index": 10,
-  "total_posts": 628,
+  "total_posts": 629,
   "used_event_indices": [
     12,
     11,
@@ -38,10 +29,9 @@
     28,
     30
   ],
-  "last_post_type": "original",
+  "last_post_type": "cover",
   "curation_year": 2024,
   "used_topics": [
-    "los piojos|original",
     "los piojos|original",
     "frágil|original",
     "frágil|original",
@@ -140,10 +130,10 @@
     "hombres g|original",
     "bohemia suburbana|poll",
     "bomba estéreo|original",
-    "hombres g|original"
+    "hombres g|original",
+    "maná|cover"
   ],
   "used_text_hashes": [
-    "d83a56b4c2fe506d747391c164d38c1c5bbe72c9e051936a081cbb152d25fc86",
     "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee",
     "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee",
     "6ba14905bac960b93f5eabbaafa44243375965b7db9c9cb76e1f181b8fa83a5a",
@@ -342,7 +332,8 @@
     "c6b84ed33c3f0f8c4adfa0cd0908f5ad610afe257ec1425058db154541ceafb1",
     "88395bf563cd749c804ae90caeb40d7eb23d6bae7998ce7da0d08d46f7760d4f",
     "ceb97407ebd4c2a01e9c005805581f938a402ccd501acdd4d5e9618c92b0f55a",
-    "c6b84ed33c3f0f8c4adfa0cd0908f5ad610afe257ec1425058db154541ceafb1"
+    "c6b84ed33c3f0f8c4adfa0cd0908f5ad610afe257ec1425058db154541ceafb1",
+    "aa309333f3fbefb23417117e84abaa83bfa320b8611e0c586dbc34a57f1b2de9"
   ],
   "last_published_id": "post_20261127_005620",
   "last_published_at": "2026-11-27T03:33:56.909171+00:00",
