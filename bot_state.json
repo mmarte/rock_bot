@@ -2,10 +2,10 @@
   "used_bands": [
     "Los Rabanes",
     "Kraken",
-    "Maná"
+    "Maná",
+    "Cinema"
   ],
   "used_poll_indices": [
-    10,
     2,
     0,
     19,
@@ -14,12 +14,13 @@
     15,
     16,
     11,
-    3
+    3,
+    13
   ],
   "original_type_index": 10,
-  "last_updated": "2026-11-27T09:13:55.658124+00:00",
+  "last_updated": "2026-11-27T21:45:35.590769+00:00",
   "post_type_index": 10,
-  "total_posts": 629,
+  "total_posts": 630,
   "used_event_indices": [
     12,
     11,
@@ -29,10 +30,9 @@
     28,
     30
   ],
-  "last_post_type": "cover",
+  "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "los piojos|original",
     "frágil|original",
     "frágil|original",
     "malpaís|poll",
@@ -131,10 +131,10 @@
     "bohemia suburbana|poll",
     "bomba estéreo|original",
     "hombres g|original",
-    "maná|cover"
+    "maná|cover",
+    "cinema|poll"
   ],
   "used_text_hashes": [
-    "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee",
     "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee",
     "6ba14905bac960b93f5eabbaafa44243375965b7db9c9cb76e1f181b8fa83a5a",
     "6ba14905bac960b93f5eabbaafa44243375965b7db9c9cb76e1f181b8fa83a5a",
@@ -333,7 +333,8 @@
     "88395bf563cd749c804ae90caeb40d7eb23d6bae7998ce7da0d08d46f7760d4f",
     "ceb97407ebd4c2a01e9c005805581f938a402ccd501acdd4d5e9618c92b0f55a",
     "c6b84ed33c3f0f8c4adfa0cd0908f5ad610afe257ec1425058db154541ceafb1",
-    "aa309333f3fbefb23417117e84abaa83bfa320b8611e0c586dbc34a57f1b2de9"
+    "aa309333f3fbefb23417117e84abaa83bfa320b8611e0c586dbc34a57f1b2de9",
+    "47a333cae5956c09c5e561a01af0915980984b09f1dd7371462181290ef407d7"
   ],
   "last_published_id": "post_20261127_005620",
   "last_published_at": "2026-11-27T03:33:56.909171+00:00",

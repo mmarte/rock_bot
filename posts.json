@@ -3887,7 +3887,7 @@
   },
   {
     "id": "post_20261127_091326",
-    "status": "pending",
+    "status": "skipped_duplicate",
     "created_at": "2026-11-27T09:13:26.677012+00:00",
     "post_type": "cover",
     "topic": "Maná",
@@ -3900,6 +3900,29 @@
     "post_year": "1992",
     "curation_year": "2024",
     "video_url": "https://www.youtube.com/watch?v=Yyfmf-NEZbI",
+    "concert_url": null,
+    "fb_post_id": null,
+    "ig_post_id": null,
+    "threads_post_id": null,
+    "youtube_post_url": null,
+    "published_at": null,
+    "error": "Duplicate of post_20260915_195819 — not republished"
+  },
+  {
+    "id": "post_20261127_214526",
+    "status": "pending",
+    "created_at": "2026-11-27T21:45:26.592663+00:00",
+    "post_type": "poll",
+    "topic": "Cinema",
+    "text": "Se suele argumentar que las mejores agrupaciones conservan su identidad y la transforman sin perder su esencia. ¿Cuál de estas leyendas ha demostrado una mayor versatilidad al cruzar fronteras sonoras y épocas? 👍 Café Tacvba\n❤️ Los Fabulosos Cadillacs\n😮 Maná\n\n¡Vota con tu reacción! 👍❤️😮\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol #Mana\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "47a333cae5956c09c5e561a01af0915980984b09f1dd7371462181290ef407d7",
+    "image_query": "Cinema rock band concert",
+    "extra_topics": [
+      "Maná"
+    ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
     "concert_url": null,
     "fb_post_id": null,
     "ig_post_id": null,
