@@ -5,7 +5,10 @@
     "Gustavo Cerati",
     "Aterciopelados",
     "Malacates Trébol Shop",
-    "Bohemia Suburbana"
+    "Bohemia Suburbana",
+    "Black Guayaba",
+    "Fiel a la Vega",
+    "Hombres G"
   ],
   "used_poll_indices": [
     1,
@@ -19,10 +22,10 @@
     15,
     16
   ],
-  "original_type_index": 7,
-  "last_updated": "2026-11-26T22:02:47.489428+00:00",
+  "original_type_index": 9,
+  "last_updated": "2026-11-27T00:58:41.647188+00:00",
   "post_type_index": 10,
-  "total_posts": 626,
+  "total_posts": 627,
   "used_event_indices": [
     12,
     11,
@@ -32,11 +35,9 @@
     28,
     30
   ],
-  "last_post_type": "poll",
+  "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "cascomar|poll",
-    "cascomar|poll",
     "los rabanes|original",
     "los rabanes|original",
     "los piojos|original",
@@ -134,11 +135,11 @@
     "los rabanes|original",
     "café tacvba|original",
     "café tacvba|cover",
+    "bohemia suburbana|poll",
+    "hombres g|original",
     "bohemia suburbana|poll"
   ],
   "used_text_hashes": [
-    "f675927794ed92bfac423ef2a4d3ed00d66007a2b1a3aa1224f4b48f8a82c3db",
-    "917d2b78b61fc4630f7d964423ff25e3ead1daac6ec7f9de9a8fb082523b5804",
     "917d2b78b61fc4630f7d964423ff25e3ead1daac6ec7f9de9a8fb082523b5804",
     "d83a56b4c2fe506d747391c164d38c1c5bbe72c9e051936a081cbb152d25fc86",
     "d83a56b4c2fe506d747391c164d38c1c5bbe72c9e051936a081cbb152d25fc86",
@@ -336,9 +337,11 @@
     "7cb42ad9f4dfcc4066546158906189817f17dbd5951ee938dc8e1ba9784ec446",
     "1ccefb2fd9edac0457adbb43920b791183928333071f744724676992685ee9be",
     "013b6e1180bbf842c1b1e27e0899cf6d88c06870b50acce7964637160e8507ab",
+    "88395bf563cd749c804ae90caeb40d7eb23d6bae7998ce7da0d08d46f7760d4f",
+    "c6b84ed33c3f0f8c4adfa0cd0908f5ad610afe257ec1425058db154541ceafb1",
     "88395bf563cd749c804ae90caeb40d7eb23d6bae7998ce7da0d08d46f7760d4f"
   ],
-  "last_published_id": "post_20261126_004938",
-  "last_published_at": "2026-11-26T03:26:24.235410+00:00",
-  "last_published_topic": "Café Tacvba"
+  "last_published_id": "post_20261126_220240",
+  "last_published_at": "2026-11-27T00:57:45.068498+00:00",
+  "last_published_topic": "Bohemia Suburbana"
 }

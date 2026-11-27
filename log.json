@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260922_200042",
-    "fb_post_id": "1043162839046116_1508190824688792",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "original",
-    "topic": "Zapato 3",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Zapato_3_merida_2012.jpg/330px-Zapato_3_merida_2012.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "status": "published",
-    "executed_at": "2026-09-22T20:01:14.479676+00:00"
-  },
-  {
     "post_id": "post_20260922_233249",
     "fb_post_id": "1043162839046116_1508301808011027",
     "ig_post_id": null,
@@ -2413,5 +2401,17 @@
     "status": "skipped_duplicate",
     "error": "Duplicate of post_20260916_233550 — not republished",
     "executed_at": "2026-11-26T22:03:12.813586+00:00"
+  },
+  {
+    "post_id": "post_20261126_220240",
+    "fb_post_id": "1043162839046116_1576698731171334",
+    "ig_post_id": "17970261807211078",
+    "threads_post_id": "18026109023947484",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Bohemia Suburbana",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Bohemia_Suburbana_live_2015.jpg",
+    "status": "published",
+    "executed_at": "2026-11-27T00:57:45.068498+00:00"
   }
 ]
