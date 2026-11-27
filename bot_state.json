@@ -8,10 +8,12 @@
     "Bohemia Suburbana",
     "Black Guayaba",
     "Fiel a la Vega",
-    "Hombres G"
+    "Hombres G",
+    "Octavia",
+    "Alux Nahual",
+    "Bomba Estéreo"
   ],
   "used_poll_indices": [
-    1,
     14,
     10,
     2,
@@ -20,12 +22,13 @@
     7,
     18,
     15,
-    16
+    16,
+    11
   ],
-  "original_type_index": 9,
-  "last_updated": "2026-11-27T00:58:41.647188+00:00",
+  "original_type_index": 10,
+  "last_updated": "2026-11-27T03:34:51.889436+00:00",
   "post_type_index": 10,
-  "total_posts": 627,
+  "total_posts": 628,
   "used_event_indices": [
     12,
     11,
@@ -38,8 +41,6 @@
   "last_post_type": "original",
   "curation_year": 2024,
   "used_topics": [
-    "los rabanes|original",
-    "los rabanes|original",
     "los piojos|original",
     "los piojos|original",
     "frágil|original",
@@ -137,11 +138,11 @@
     "café tacvba|cover",
     "bohemia suburbana|poll",
     "hombres g|original",
-    "bohemia suburbana|poll"
+    "bohemia suburbana|poll",
+    "bomba estéreo|original",
+    "hombres g|original"
   ],
   "used_text_hashes": [
-    "917d2b78b61fc4630f7d964423ff25e3ead1daac6ec7f9de9a8fb082523b5804",
-    "d83a56b4c2fe506d747391c164d38c1c5bbe72c9e051936a081cbb152d25fc86",
     "d83a56b4c2fe506d747391c164d38c1c5bbe72c9e051936a081cbb152d25fc86",
     "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee",
     "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee",
@@ -339,9 +340,11 @@
     "013b6e1180bbf842c1b1e27e0899cf6d88c06870b50acce7964637160e8507ab",
     "88395bf563cd749c804ae90caeb40d7eb23d6bae7998ce7da0d08d46f7760d4f",
     "c6b84ed33c3f0f8c4adfa0cd0908f5ad610afe257ec1425058db154541ceafb1",
-    "88395bf563cd749c804ae90caeb40d7eb23d6bae7998ce7da0d08d46f7760d4f"
+    "88395bf563cd749c804ae90caeb40d7eb23d6bae7998ce7da0d08d46f7760d4f",
+    "ceb97407ebd4c2a01e9c005805581f938a402ccd501acdd4d5e9618c92b0f55a",
+    "c6b84ed33c3f0f8c4adfa0cd0908f5ad610afe257ec1425058db154541ceafb1"
   ],
-  "last_published_id": "post_20261126_220240",
-  "last_published_at": "2026-11-27T00:57:45.068498+00:00",
-  "last_published_topic": "Bohemia Suburbana"
+  "last_published_id": "post_20261127_005620",
+  "last_published_at": "2026-11-27T03:33:56.909171+00:00",
+  "last_published_topic": "Hombres G"
 }
