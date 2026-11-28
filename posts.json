@@ -3910,7 +3910,7 @@
   },
   {
     "id": "post_20261127_214526",
-    "status": "pending",
+    "status": "published",
     "created_at": "2026-11-27T21:45:26.592663+00:00",
     "post_type": "poll",
     "topic": "Cinema",
@@ -3920,6 +3920,27 @@
     "extra_topics": [
       "Maná"
     ],
+    "post_year": "",
+    "curation_year": "2024",
+    "video_url": null,
+    "concert_url": null,
+    "fb_post_id": "1043162839046116_1577830311058176",
+    "ig_post_id": "18132296434846739",
+    "threads_post_id": "18124626905284636",
+    "youtube_post_url": null,
+    "published_at": "2026-11-28T00:21:44.446079+00:00",
+    "error": null
+  },
+  {
+    "id": "post_20261128_002103",
+    "status": "pending",
+    "created_at": "2026-11-28T00:21:03.704548+00:00",
+    "post_type": "poll",
+    "topic": "Malacates Trébol Shop",
+    "text": "¿Quién rompió más el molde al unir mundos aparentemente opuestos? La fusión de dos referentes de la escena latinoamericana que exploraron la psicodelia, o la combinación del pop‑rock latino con matices de blues que resonó en audiencias de varios países. También está el experimento de mezclar a un cantautor español con una trompeta norteña inesperada en un escenario de rock. Cada propuesta dejó su huella en la cultura popular y la crítica. ¿Cuál de estas uniones consideras que tuvo mayor impacto?\n\n#LoMejordelRockenEspañol #RockEnEspañol #RockLatino #RockEspañol\n\n🎸 Síguenos para más rock en español → @mejorrockespanol",
+    "text_hash": "2e88d70dbbbcc082452c97c5c6d5e65ac7d4a1c2817948a8f7e73374c3c799bb",
+    "image_query": "Malacates Trébol Shop rock band concert",
+    "extra_topics": [],
     "post_year": "",
     "curation_year": "2024",
     "video_url": null,

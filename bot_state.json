@@ -3,10 +3,11 @@
     "Los Rabanes",
     "Kraken",
     "Maná",
-    "Cinema"
+    "Cinema",
+    "Toque Profundo",
+    "Malacates Trébol Shop"
   ],
   "used_poll_indices": [
-    2,
     0,
     19,
     7,
@@ -15,12 +16,13 @@
     16,
     11,
     3,
-    13
+    13,
+    10
   ],
-  "original_type_index": 10,
-  "last_updated": "2026-11-27T21:45:35.590769+00:00",
+  "original_type_index": 1,
+  "last_updated": "2026-11-28T00:22:17.895932+00:00",
   "post_type_index": 10,
-  "total_posts": 630,
+  "total_posts": 631,
   "used_event_indices": [
     12,
     11,
@@ -33,8 +35,6 @@
   "last_post_type": "poll",
   "curation_year": 2024,
   "used_topics": [
-    "frágil|original",
-    "frágil|original",
     "malpaís|poll",
     "malpaís|poll",
     "aterciopelados|original",
@@ -132,11 +132,11 @@
     "bomba estéreo|original",
     "hombres g|original",
     "maná|cover",
+    "cinema|poll",
+    "malacates trébol shop|poll",
     "cinema|poll"
   ],
   "used_text_hashes": [
-    "4500226d2691db94babff9f99354c75289a96cc81e9a30d69bff894ed4155dee",
-    "6ba14905bac960b93f5eabbaafa44243375965b7db9c9cb76e1f181b8fa83a5a",
     "6ba14905bac960b93f5eabbaafa44243375965b7db9c9cb76e1f181b8fa83a5a",
     "a4188e43e1f811f0f33aec98f0976f150b008ae18cfb010fb08842a4981d92f7",
     "a4188e43e1f811f0f33aec98f0976f150b008ae18cfb010fb08842a4981d92f7",
@@ -334,9 +334,11 @@
     "ceb97407ebd4c2a01e9c005805581f938a402ccd501acdd4d5e9618c92b0f55a",
     "c6b84ed33c3f0f8c4adfa0cd0908f5ad610afe257ec1425058db154541ceafb1",
     "aa309333f3fbefb23417117e84abaa83bfa320b8611e0c586dbc34a57f1b2de9",
+    "47a333cae5956c09c5e561a01af0915980984b09f1dd7371462181290ef407d7",
+    "2e88d70dbbbcc082452c97c5c6d5e65ac7d4a1c2817948a8f7e73374c3c799bb",
     "47a333cae5956c09c5e561a01af0915980984b09f1dd7371462181290ef407d7"
   ],
-  "last_published_id": "post_20261127_005620",
-  "last_published_at": "2026-11-27T03:33:56.909171+00:00",
-  "last_published_topic": "Hombres G"
+  "last_published_id": "post_20261127_214526",
+  "last_published_at": "2026-11-28T00:21:44.446079+00:00",
+  "last_published_topic": "Cinema"
 }
