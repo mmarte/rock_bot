@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260927_234253",
-    "fb_post_id": "1043162839046116_1513440067497201",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "cover",
-    "topic": "Soda Stereo",
-    "image_url": "https://img.youtube.com/vi/L4HbN2Pfkvw/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-09-27T23:43:26.952790+00:00"
-  },
-  {
     "post_id": "post_20260928_195603",
     "fb_post_id": "1043162839046116_1514334284074446",
     "ig_post_id": null,
@@ -2401,5 +2389,11 @@
     "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Shery_con_Malacates_Trebol_Shop.jpg/330px-Shery_con_Malacates_Trebol_Shop.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "status": "published",
     "executed_at": "2026-11-28T03:10:16.850740+00:00"
+  },
+  {
+    "post_id": "post_20261128_030926",
+    "status": "skipped_duplicate",
+    "error": "Duplicate of post_20260916_172420 — not republished",
+    "executed_at": "2026-11-28T08:35:29.471094+00:00"
   }
 ]

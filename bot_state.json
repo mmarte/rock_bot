@@ -3,10 +3,12 @@
     "Toque Profundo",
     "Hombres G",
     "Malacates Trébol Shop",
-    "Enrique Bunbury"
+    "Enrique Bunbury",
+    "Los Prisioneros",
+    "Los Rabanes",
+    "Savage"
   ],
   "used_poll_indices": [
-    0,
     19,
     7,
     18,
@@ -15,12 +17,13 @@
     11,
     3,
     13,
-    10
+    10,
+    1
   ],
-  "original_type_index": 2,
-  "last_updated": "2026-11-28T03:11:06.910809+00:00",
+  "original_type_index": 4,
+  "last_updated": "2026-11-28T08:35:03.811091+00:00",
   "post_type_index": 10,
-  "total_posts": 632,
+  "total_posts": 633,
   "used_event_indices": [
     12,
     11,
@@ -30,10 +33,9 @@
     28,
     30
   ],
-  "last_post_type": "cover",
+  "last_post_type": "hoy_en_historia",
   "curation_year": 2024,
   "used_topics": [
-    "aterciopelados|original",
     "mecano|youtube",
     "mecano|youtube",
     "desorden público|youtube",
@@ -132,10 +134,10 @@
     "malacates trébol shop|poll",
     "cinema|poll",
     "enrique bunbury|cover",
-    "malacates trébol shop|poll"
+    "malacates trébol shop|poll",
+    "savage|original"
   ],
   "used_text_hashes": [
-    "a4188e43e1f811f0f33aec98f0976f150b008ae18cfb010fb08842a4981d92f7",
     "995daf4520133441bd885992a0994c0546cc266f02cdebc85df864ede45bb7db",
     "995daf4520133441bd885992a0994c0546cc266f02cdebc85df864ede45bb7db",
     "7a569be0381b420b8285897132c4cc58a1bb06873632a6ecb0451e1ced22e598",
@@ -334,7 +336,8 @@
     "2e88d70dbbbcc082452c97c5c6d5e65ac7d4a1c2817948a8f7e73374c3c799bb",
     "47a333cae5956c09c5e561a01af0915980984b09f1dd7371462181290ef407d7",
     "eecd71c9fb9c0c06720489f9a9a8f93de882f920ccba0e072b03c5337329ccdd",
-    "2e88d70dbbbcc082452c97c5c6d5e65ac7d4a1c2817948a8f7e73374c3c799bb"
+    "2e88d70dbbbcc082452c97c5c6d5e65ac7d4a1c2817948a8f7e73374c3c799bb",
+    "cb070e98e07ef2f83a29caab5d3c42b959db36fb44117426f108d31e1689cf05"
   ],
   "last_published_id": "post_20261128_002103",
   "last_published_at": "2026-11-28T03:10:16.850740+00:00",
