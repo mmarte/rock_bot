@@ -6,7 +6,10 @@
     "Enrique Bunbury",
     "Los Prisioneros",
     "Los Rabanes",
-    "Savage"
+    "Savage",
+    "Café Tacvba",
+    "No Te Va Gustar",
+    "Revolber"
   ],
   "used_poll_indices": [
     19,
@@ -20,10 +23,10 @@
     10,
     1
   ],
-  "original_type_index": 4,
-  "last_updated": "2026-11-28T08:35:03.811091+00:00",
+  "original_type_index": 5,
+  "last_updated": "2026-11-28T20:44:36.659122+00:00",
   "post_type_index": 10,
-  "total_posts": 633,
+  "total_posts": 634,
   "used_event_indices": [
     12,
     11,
@@ -33,10 +36,9 @@
     28,
     30
   ],
-  "last_post_type": "hoy_en_historia",
+  "last_post_type": "cover",
   "curation_year": 2024,
   "used_topics": [
-    "mecano|youtube",
     "mecano|youtube",
     "desorden público|youtube",
     "desorden público|youtube",
@@ -135,10 +137,10 @@
     "cinema|poll",
     "enrique bunbury|cover",
     "malacates trébol shop|poll",
-    "savage|original"
+    "savage|original",
+    "café tacvba|cover"
   ],
   "used_text_hashes": [
-    "995daf4520133441bd885992a0994c0546cc266f02cdebc85df864ede45bb7db",
     "995daf4520133441bd885992a0994c0546cc266f02cdebc85df864ede45bb7db",
     "7a569be0381b420b8285897132c4cc58a1bb06873632a6ecb0451e1ced22e598",
     "7a569be0381b420b8285897132c4cc58a1bb06873632a6ecb0451e1ced22e598",
@@ -337,7 +339,8 @@
     "47a333cae5956c09c5e561a01af0915980984b09f1dd7371462181290ef407d7",
     "eecd71c9fb9c0c06720489f9a9a8f93de882f920ccba0e072b03c5337329ccdd",
     "2e88d70dbbbcc082452c97c5c6d5e65ac7d4a1c2817948a8f7e73374c3c799bb",
-    "cb070e98e07ef2f83a29caab5d3c42b959db36fb44117426f108d31e1689cf05"
+    "cb070e98e07ef2f83a29caab5d3c42b959db36fb44117426f108d31e1689cf05",
+    "b6b6cf9f3b27ee083003ca521eac1fbe3d0e3f6bd76914ff06537bc8c3aa6eed"
   ],
   "last_published_id": "post_20261128_002103",
   "last_published_at": "2026-11-28T03:10:16.850740+00:00",
