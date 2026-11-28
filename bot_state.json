@@ -1,11 +1,9 @@
 {
   "used_bands": [
-    "Los Rabanes",
-    "Kraken",
-    "Maná",
-    "Cinema",
     "Toque Profundo",
-    "Malacates Trébol Shop"
+    "Hombres G",
+    "Malacates Trébol Shop",
+    "Enrique Bunbury"
   ],
   "used_poll_indices": [
     0,
@@ -19,10 +17,10 @@
     13,
     10
   ],
-  "original_type_index": 1,
-  "last_updated": "2026-11-28T00:22:17.895932+00:00",
+  "original_type_index": 2,
+  "last_updated": "2026-11-28T03:11:06.910809+00:00",
   "post_type_index": 10,
-  "total_posts": 631,
+  "total_posts": 632,
   "used_event_indices": [
     12,
     11,
@@ -32,11 +30,9 @@
     28,
     30
   ],
-  "last_post_type": "poll",
+  "last_post_type": "cover",
   "curation_year": 2024,
   "used_topics": [
-    "malpaís|poll",
-    "malpaís|poll",
     "aterciopelados|original",
     "mecano|youtube",
     "mecano|youtube",
@@ -134,11 +130,11 @@
     "maná|cover",
     "cinema|poll",
     "malacates trébol shop|poll",
-    "cinema|poll"
+    "cinema|poll",
+    "enrique bunbury|cover",
+    "malacates trébol shop|poll"
   ],
   "used_text_hashes": [
-    "6ba14905bac960b93f5eabbaafa44243375965b7db9c9cb76e1f181b8fa83a5a",
-    "a4188e43e1f811f0f33aec98f0976f150b008ae18cfb010fb08842a4981d92f7",
     "a4188e43e1f811f0f33aec98f0976f150b008ae18cfb010fb08842a4981d92f7",
     "995daf4520133441bd885992a0994c0546cc266f02cdebc85df864ede45bb7db",
     "995daf4520133441bd885992a0994c0546cc266f02cdebc85df864ede45bb7db",
@@ -336,9 +332,11 @@
     "aa309333f3fbefb23417117e84abaa83bfa320b8611e0c586dbc34a57f1b2de9",
     "47a333cae5956c09c5e561a01af0915980984b09f1dd7371462181290ef407d7",
     "2e88d70dbbbcc082452c97c5c6d5e65ac7d4a1c2817948a8f7e73374c3c799bb",
-    "47a333cae5956c09c5e561a01af0915980984b09f1dd7371462181290ef407d7"
+    "47a333cae5956c09c5e561a01af0915980984b09f1dd7371462181290ef407d7",
+    "eecd71c9fb9c0c06720489f9a9a8f93de882f920ccba0e072b03c5337329ccdd",
+    "2e88d70dbbbcc082452c97c5c6d5e65ac7d4a1c2817948a8f7e73374c3c799bb"
   ],
-  "last_published_id": "post_20261127_214526",
-  "last_published_at": "2026-11-28T00:21:44.446079+00:00",
-  "last_published_topic": "Cinema"
+  "last_published_id": "post_20261128_002103",
+  "last_published_at": "2026-11-28T03:10:16.850740+00:00",
+  "last_published_topic": "Malacates Trébol Shop"
 }

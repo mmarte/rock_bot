@@ -1,17 +1,5 @@
 [
   {
-    "post_id": "post_20260927_195836",
-    "fb_post_id": "1043162839046116_1513310437510164",
-    "ig_post_id": null,
-    "threads_post_id": null,
-    "youtube_post_url": null,
-    "post_type": "youtube",
-    "topic": "La Cuneta Son Machín",
-    "image_url": "https://img.youtube.com/vi/8qlGfX4toWs/hqdefault.jpg",
-    "status": "published",
-    "executed_at": "2026-09-27T19:59:06.498249+00:00"
-  },
-  {
     "post_id": "post_20260927_234253",
     "fb_post_id": "1043162839046116_1513440067497201",
     "ig_post_id": null,
@@ -2401,5 +2389,17 @@
     "image_url": "https://images.pexels.com/photos/8263369/pexels-photo-8263369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "status": "published",
     "executed_at": "2026-11-28T00:21:44.446079+00:00"
+  },
+  {
+    "post_id": "post_20261128_002103",
+    "fb_post_id": "1043162839046116_1577949574379583",
+    "ig_post_id": "18083008916779894",
+    "threads_post_id": "18164198269492740",
+    "youtube_post_url": null,
+    "post_type": "poll",
+    "topic": "Malacates Trébol Shop",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Shery_con_Malacates_Trebol_Shop.jpg/330px-Shery_con_Malacates_Trebol_Shop.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "status": "published",
+    "executed_at": "2026-11-28T03:10:16.850740+00:00"
   }
 ]
